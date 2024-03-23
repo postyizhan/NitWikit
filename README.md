@@ -1,3 +1,5 @@
-# Docusaurus 插件文档模板
+# 笨蛋开服教程
 
-[点击查看](https://postyizhan.github.io/Wiki-Template/)
+正在编写ing...
+
+[点击查看](https://postyizhan.github.io/Dumb_Service_Guide/)

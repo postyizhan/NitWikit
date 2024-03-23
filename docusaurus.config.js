@@ -6,20 +6,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Wiki-Template',
-  tagline: 'Docusaurus 插件文档模板',
+  title: '笨蛋开服教程',
+  tagline: '一群笨蛋们写的开服教程',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://postyizhan.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Wiki-Template/',
+  baseUrl: '/Dumb_Service_Guide/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'postyizhan', // Usually your GitHub org/user name.
-  projectName: 'Wiki-Template', // Usually your repo name.
+  projectName: 'Dumb_Service_Guide', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           editUrl:
-            'https://github.com/postyizhan/Wiki-Template/blob/main'
+            'https://github.com/postyizhan/Dumb_Service_Guide/blob/main'
         },
         blog: false,
         theme: {
@@ -59,7 +59,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Wiki-Template',
+        title: 'Dumb_Service_Guide',
         logo: {
           alt: 'Logo',
           src: 'img/logo.svg',
@@ -78,7 +78,7 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/postyizhan/Wiki-Template',
+            href: 'https://github.com/postyizhan/Dumb_Service_Guide',
             label: 'GitHub',
             position: 'right',
           },
@@ -115,7 +115,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/postyizhan/Wiki-Template',
+                href: 'https://github.com/postyizhan/Dumb_Service_Guide',
               },
             ],
           },
