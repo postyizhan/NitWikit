@@ -111,7 +111,7 @@ const config = {
             ],
           },
           {
-            title: '插件发布',
+            title: '文档仓库',
             items: [
               {
                 label: 'GitHub',
