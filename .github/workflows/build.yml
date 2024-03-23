@@ -7,6 +7,12 @@ jobs:
   # 自动部署GitPage
   gitpage:
     runs-on: ubuntu-latest
+
+    # https://segmentfault.com/q/1010000043363115
+    permissions:
+      contents: read
+      pull-requests: write
+
     steps:
     # 拉取代码
     - name: Checkout
