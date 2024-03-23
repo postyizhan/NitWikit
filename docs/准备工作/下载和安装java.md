@@ -48,3 +48,23 @@ sidebar_position: 2
 > 如果您不能安装此软件（如不兼容），请关闭此文档并`不向`文档编写者们提问，感谢
 
 </details>
+
+## 验证java安装
+
+打开控制台
+
+[怎么打开windows控制台](https://cn.bing.com/search?q=%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80windows%E6%8E%A7%E5%88%B6%E5%8F%B0)
+
+![](_images/cmd-1.png)
+
+输入
+
+```
+java -version
+```
+
+并回车
+
+![](_images/cmd-2.png)
+
+> 返回类似的消息即为java已安装
