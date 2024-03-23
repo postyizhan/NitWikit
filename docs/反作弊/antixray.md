@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 
@@ -20,7 +20,7 @@ sidebar_position: 1
 
 <details><summary>第一步-延长种子反推</summary>
 
-1.使用paper的anti-xray
+使用paper的anti-xray
 
 这是服务器核心自带的功能
 
