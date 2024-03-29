@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '笨蛋开服教程',
-  tagline: '一群笨蛋们写的开服教程',
+  title: '笨蛋MC开服教程',
+  tagline: '一群笨蛋们写的Minecraft开服教程',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
