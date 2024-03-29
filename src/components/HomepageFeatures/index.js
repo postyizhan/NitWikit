@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        就这点配置有啥难的.
+        MC就这点配置有啥难的.
       </>
     ),
   },
@@ -17,16 +17,16 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        看完文档学不会怎么用说明你是个傻逼.
+        看完文档学不会怎么开服说明你是个傻逼.
       </>
     ),
   },
   {
-    title: '功能强大',
+    title: '内容详细',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        多说无益, 用用就知道了.
+        多说无益, 看看就知道了.
       </>
     ),
   },
