@@ -377,5 +377,19 @@ anticheat:
 
 那么有什么antixray插件?
 
-###
+### RayTraceAntiXray（7美元）
+[查看](https://builtbybit.com/resources/raytraceantixray.24914/)
+用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-X ray 引擎模式 1 隐藏暴露在空气中的矿石。
+
+（评分还挺高的）
+
+### Orebfuscator
+
+[查看](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/)
+Orebfuscator 不仅可以保护您世界的完整性，还可以让您微调防 X 射线措施以获得最佳游戏体验。
+
+### XCatch
+[查看](https://www.spigotmc.org/resources/xcatch-anti-xray-1-13-1-19.101227/)
+不同于前面几个插件，这个插件通过观察玩家在短时间内发现多少回合以及发现多少稀有矿石来分析玩家的挖矿方式。然后通过算法推算出是否在xray
+
 谢谢你看完本章节，希望对你有所帮助
