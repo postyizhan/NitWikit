@@ -62,7 +62,7 @@ const config = {
         title: 'Dumb_Service_Guide',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/yizhan.png',
         },
         hideOnScroll: false,
         items: [
