@@ -18,7 +18,8 @@ sidebar_position: 2
 
 ❓如何阻止矿物透视
 
-<details><summary>第一步-延长种子反推</summary>
+<details>
+<summary>第一步-延长种子反推</summary>
 
 使用paper的anti-xray
 
@@ -81,7 +82,8 @@ feature-seeds:
 
 </details>
 
-<details><summary>第二步-设置假矿</summary>
+<details>
+<summary>第二步-设置假矿</summary>
 
 解决完种子可以被轻而易举反推的问题
 

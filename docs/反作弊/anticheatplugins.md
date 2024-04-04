@@ -20,7 +20,8 @@ sidebar_position: 3
 
 希望能够帮到你
 
-<details><summary>Matrix</summary>
+<details>
+<summary>Matrix</summary>
 
 Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代AAC这款反作弊插件,而如今经过不断改良也拥有了不错的检测性能和质量，足以对抗部分脑溢血参数
 
@@ -44,7 +45,8 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 </details>
 
-<details><summary>NoCheatPlus-Update</summary>
+<details>
+<summary>NoCheatPlus-Update</summary>
 
 非常经典的老牌反作弊，拥有悠久历史且和作弊者们对抗许久，但目前并不积极的进行更新，且由于远古代码遗留导致部分检测较为低下，但这并不影响它是个不错的反作弊
 
@@ -54,7 +56,8 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 </details>
 
-<details><summary>GrimAC2.0</summary>
+<details>
+<summary>GrimAC2.0</summary>
 
 近两年的新秀反作弊，拥有强大的玩家1:1运动模拟、世界复制和延迟补偿，无论是在小游戏还是生存等服务器都有不错的检测速度，缺点也明显，在某些服务器的某种行为上产生误判，但这对于其他部分的新反作弊来说已经相当不错
 
@@ -67,7 +70,8 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 </details>
 
-<details><summary>Vulcan</summary>
+<details>
+<summary>Vulcan</summary>
 
 老牌火神反作弊，虽然在几个版本存在十分严重的漏洞，但并不影响他一些检测强力的事实，尽管他的配置文件非常脑淤血，但还是深受多人喜爱。
 
@@ -77,7 +81,8 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 </details>
 
-<details><summary>不推荐-Spartan</summary>
+<details>
+<summary>不推荐-Spartan</summary>
 
 老牌垃圾性能过剩修复器，使用它你将获得玩家被误判时发送给你的羞辱，以及什么都无法拦截的作弊检测，使用它你将会知道这款反作弊不如几乎同时期的NoCheatPlus，就算你需要退款，先请在spigotmc上撤回你的负面言论后才可进行Spartan的退款服务，由于购买后6个月需要重新支付才能继续使用导致被MD_5警告的传奇反作弊，这就是Spartan-Anticheat。
 
