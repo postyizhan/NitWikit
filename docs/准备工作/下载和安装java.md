@@ -12,7 +12,7 @@ sidebar_position: 2
 
 
 <details>
-  <summary>么找到官网并从官网下载</summary>
+  <summary>怎么找到官网并从官网下载</summary>
 ![](_images/Oracle-1.png)
 ![](_images/Oracle-2.png)
 ![](_images/Oracle-3.png)
