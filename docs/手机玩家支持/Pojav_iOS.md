@@ -6,13 +6,13 @@
 从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载Pojav的ipa安装包  
 
 在手机上的牛蛙助手中导入ipa文件
-![](_images/1.png)
+![](_images/1.PNG)
 
 点击签名进行自签(刚开始用自签会被封号，不会很严重修改密码就好了，自签只有一周的使用时间，过了时间要重新签名)
-![](_images/2.png)
+![](_images/2.PNG)
 
 点击进行安装
-![](_images/3.png)
+![](_images/3.PNG)
 
 ### 启动Pojav
 打开牛蛙助手，点击JIT，使用JIT启动Pojav
@@ -23,7 +23,7 @@
 点击对应的配置描述文件信任它
 
 若牛蛙提示下图，就按它说的打开牛蛙的VPN
-![](_images/4.png)
+![](_images/4.PNG)
 ## 方法二: 使用 TrollStore
 
 从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载Pojav的ipa安装包  
