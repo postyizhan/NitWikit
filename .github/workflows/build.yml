@@ -13,6 +13,16 @@ jobs:
       uses: actions/checkout@master
       with:
         persist-credentials: false
+
+    # 启用缓存加速部署
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+
     # 编译出静态页面
     - name: Install and Build
       run: npm install && npm run build
