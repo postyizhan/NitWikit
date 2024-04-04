@@ -1,9 +1,16 @@
-# 免越狱安装 PojavLauncher_iOS
+---
+sidebar_position: 2
+---
+
+# Pojav_IOS
+
+免越狱安装 PojavLauncher_iOS
+
 ## 方法一: 使用牛蛙助手
 ### 安装Pojav
-在电脑打开此[链接](https://ios222.com/)下载牛蛙助手  
-使用数据线连接手机与电脑，按照提示安装  
-从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载Pojav的ipa安装包  
+在电脑打开此[链接](https://ios222.com/)下载牛蛙助手
+使用数据线连接手机与电脑，按照提示安装
+从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载Pojav的ipa安装包
 
 在手机上的牛蛙助手中导入ipa文件
 ![](_images/1.PNG)
@@ -26,9 +33,9 @@
 ![](_images/4.PNG)
 ## 方法二: 使用 TrollStore
 
-从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载Pojav的ipa安装包  
- 
-从此[链接](https://github.com/opa334/TrollStore/releases)获取TrollStore  
+从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载Pojav的ipa安装包
+
+从此[链接](https://github.com/opa334/TrollStore/releases)获取TrollStore
 
 点击查看[TrollStore的安装流程](https://ios.cfw.guide/installing-trollstore/)
 ![](_images/trollstone_v.png)
