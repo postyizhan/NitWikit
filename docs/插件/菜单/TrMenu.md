@@ -21,3 +21,17 @@ sidebar_position: 4
 > `GitHub(不推荐，已停止维护)` https://github.com/TrPlugins/TrMenu/tree/stable/v3
 >
 > `GitHub(社区维护,推荐)` https://github.com/Dreeam-qwq/TrMenu
+
+## v4
+
+Invero 俗称 trmenu v4
+
+**目前**还不推荐使用
+
+文档不全,部分案例付费入群获取,但是目前不对外出售
+
+别人备份的源码 1.0.3版本 https://github.com/inrhor/Invero
+
+作者自己发的 1.0.8版本 也是老板本 https://gitlab.com/Arasple/Invero
+
+文档 https://legacy.invero.fining.io/
