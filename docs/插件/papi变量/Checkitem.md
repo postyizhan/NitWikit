@@ -26,5 +26,6 @@ sidebar_position: 3
 /papi ecloud update all     -->//更新你现有的所有拓展(包括CheckItem).
 /papi reload     -->//重新加载插件以确保 CheckItem 下载或更新完成并开始使用.
 ```
-在游戏中输入指令时请确保你拥有管理员(OP)权限或者 Papi 的相关权限.<br>
+在游戏中输入指令时请确保你拥有管理员(OP)权限或者 Papi 的相关权限.
+
 在管理员后台中输入指令时请记得删除斜杆--> '/'.
