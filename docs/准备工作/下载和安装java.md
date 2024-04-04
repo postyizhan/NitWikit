@@ -55,6 +55,7 @@ sidebar_position: 2
 
 [下载](https://www.azul.com/downloads/#prime)
 
+[介绍](https://www.azul.com/zh-hans/prime/)
 ## 验证java安装
 
 打开控制台
