@@ -50,7 +50,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/postyizhan/Dumb_Service_Guide/'
+          editUrl: 'https://github.com/postyizhan/NitWikit/'
         },
         blog: false,
         theme: {
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Dumb_Service_Guide',
+        title: 'NitWikit',
         logo: {
           alt: 'Logo',
           src: 'img/yizhan.png',
@@ -86,7 +86,7 @@ const config = {
           },
           // Github
           {
-            href: "https://github.com/postyizhan/Dumb_Service_Guide",
+            href: "https://github.com/postyizhan/NitWikit",
             className: "header-github-link",
             position: "right",
           },
@@ -123,7 +123,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/postyizhan/Dumb_Service_Guide',
+                href: 'https://github.com/postyizhan/NitWikit',
               },
             ],
           },
