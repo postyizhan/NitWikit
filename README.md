@@ -2,7 +2,7 @@
 
 正在编写ing...
 
-[点击查看](https://postyizhan.github.io/Dumb_Service_Guide/)
+[点击查看](https://postyizhan.github.io/NitWikit/)
 
 
 
@@ -105,6 +105,18 @@
           width="50px;"
           alt=""
         /><br /><sub><b>MoLiyi-WD</b></sub></a
+      >
+      </a>
+    </td>
+    </td>
+  <!-- SnowCutieOwO -->
+    <td align="center">
+      <a href="https://github.com/SnowCutieOwO"
+        ><img
+          src="https://avatars.githubusercontent.com/u/89032291"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>SnowCutieOwO</b></sub></a
       >
       </a>
     </td>
