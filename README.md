@@ -120,15 +120,5 @@
       >
       </a>
     </td>
-  <!-- lim114514 -->
-    <td align="center">
-      <a href="https://github.com/lim114514"
-        ><img
-          src=""
-          width="50px;"
-          alt=https://avatars.githubusercontent.com/u/113185430""
-        /><br /><sub><b>lim114514</b></sub></a
-      >
-      </a>
     </td>
 </table>
