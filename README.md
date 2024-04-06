@@ -1,4 +1,4 @@
-# 笨蛋开服教程
+![image](https://github.com/postyizhan/NitWikit/assets/113185430/7061b0f7-93f2-4dc3-a33e-4ebda2d4d08b)# 笨蛋开服教程
 
 正在编写ing...
 
@@ -117,6 +117,17 @@
           width="50px;"
           alt=""
         /><br /><sub><b>SnowCutieOwO</b></sub></a
+      >
+      </a>
+    </td>
+  <!-- lim114514 -->
+    <td align="center">
+      <a href="https://github.com/lim114514"
+        ><img
+          src=""
+          width="50px;"
+          alt=https://avatars.githubusercontent.com/u/113185430""
+        /><br /><sub><b>lim114514</b></sub></a
       >
       </a>
     </td>
