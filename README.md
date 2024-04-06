@@ -1,4 +1,4 @@
-![image](https://github.com/postyizhan/NitWikit/assets/113185430/7061b0f7-93f2-4dc3-a33e-4ebda2d4d08b)# 笨蛋开服教程
+# 笨蛋开服教程
 
 正在编写ing...
 
