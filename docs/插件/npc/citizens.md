@@ -22,4 +22,4 @@ sidebar_position: 1
 
 可以这样子找你需要的版本
 
-[](_images/citizens.png)
+![](_images/citizens.png)
