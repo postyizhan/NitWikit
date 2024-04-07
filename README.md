@@ -44,7 +44,7 @@
     </td>
   <!-- Debug-Cracked -->
     <td align="center">
-      <a href="https://github.com/TheFloodDragon"
+      <a href="https://github.com/CkaDebug"
         ><img
           src="https://avatars.githubusercontent.com/u/141492699"
           width="50px;"
