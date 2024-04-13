@@ -1,12 +1,28 @@
-# 笨蛋开服教程
+<div align="center">
+  <div>
+    <img src="/static/img/favicon.ico" width="230" alt="Yizhan" />
+  </div>
+  <b>
+    NitWikit
+  </b>
+  <div>
+    <sup>一群笨蛋们编写的开服文档</sup>
+  </div>
+</div>
 
-正在编写ing...
+# 📖 开始阅读
 
-[点击查看](https://postyizhan.github.io/NitWikit/)
+文档正在编写ing...
+
+[GitHub](https://postyizhan.github.io/NitWikit/)
 
 
 
 # 🎖贡献者
+
+## 常驻
+
+他们是文档的常驻维护
 
 <table>
   <tr>
@@ -31,6 +47,14 @@
         /><br /><sub><b>lilingfeng</b></sub></a>
       </a>
     </td>
+  </tr>
+<table>
+
+## 部分
+
+他们为文档贡献了部分内容/页面
+
+<table>
   <!-- TheFloodDragon -->
     <td align="center">
       <a href="https://github.com/TheFloodDragon"
@@ -75,6 +99,7 @@
       >
       </a>
     </td>
+  </tr>
   <!-- Sea_of_Orange -->
     <td align="center">
       <a href="https://github.com/SeaOrangejuice"
@@ -120,6 +145,7 @@
       >
       </a>
     </td>
+  </tr>
   <!-- lim114514 -->
     <td align="center">
       <a href="https://github.com/lim114514"
