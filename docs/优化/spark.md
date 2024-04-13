@@ -22,4 +22,4 @@ sidebar_position: 5
 
 :::
 
-spark是一个Minecraft的性能分析器,支持广泛(Bukkit,BungeeCord,velocity,Forge,Fabroc等)
+spark是一个Minecraft的性能分析器,支持广泛(Bukkit,BungeeCord,velocity,Forge,Fabric等)
