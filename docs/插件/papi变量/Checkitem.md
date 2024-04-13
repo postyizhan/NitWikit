@@ -4,11 +4,16 @@ sidebar_position: 4
 
 
 **有关 CheckItem 的相关链接**
-> `eCloud` : https://api.extendedclip.com/expansions/checkitem/
->
-> `placeholder-list` : https://wiki.placeholderapi.com/users/placeholder-list/#checkitem
->
-> `GitHub` : https://github.com/PlaceholderAPI/CheckItem-Expansion
+
+:::info
+
+`eCloud` : https://api.extendedclip.com/expansions/checkitem/
+
+`placeholder-list` : https://wiki.placeholderapi.com/users/placeholder-list/#checkitem
+
+`GitHub` : https://github.com/PlaceholderAPI/CheckItem-Expansion
+
+:::
 
 ## 什么是 CheckItem ?
 **CheckItem 是一个能够检测玩家背包中是否持有特定物品的拓展变量.**

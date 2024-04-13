@@ -4,13 +4,17 @@ sidebar_position: 3
 
 # vault
 
-> `spigotmc` :https://www.spigotmc.org/resources/vault.34315/
->
-> `Bukkit` :https://dev.bukkit.org/projects/vault
->
-> `GitHub` :https://github.com/LuckPerms/LuckPerms
->
-> `插件百科` :https://github.com/milkbowl/Vault
+:::info
+
+`spigotmc` :https://www.spigotmc.org/resources/vault.34315/
+
+`Bukkit` :https://dev.bukkit.org/projects/vault
+
+`GitHub` :https://github.com/LuckPerms/LuckPerms
+
+`插件百科` :https://github.com/milkbowl/Vault
+
+:::
 
 ## 什么是vualt
 ```

@@ -3,19 +3,24 @@ sidebar_position: 2
 ---
 
 # Authme
-> `官网` :https://luckperms.net/
->
-> `Bukkit` :https://dev.bukkit.org/projects/authme-reloaded
->
-> `spigotmc` :https://www.spigotmc.org/resources/authmereloaded.6269/
->
-> `ci构建站` :https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/
->
-> `GitHub(原版)` :https://github.com/AuthMe/AuthMeReloaded
->
-> `GitHub(电棍的fork)` :https://github.com/HaHaWTH/AuthMeReReloaded
->
-> `插件百科` :https://mineplugin.org/Authme
+
+:::info
+
+`官网` :https://luckperms.net/
+
+`Bukkit` :https://dev.bukkit.org/projects/authme-reloaded
+
+`spigotmc` :https://www.spigotmc.org/resources/authmereloaded.6269/
+
+`ci构建站` :https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/
+
+`GitHub(原版)` :https://github.com/AuthMe/AuthMeReloaded
+
+`GitHub(电棍的fork)` :https://github.com/HaHaWTH/AuthMeReReloaded
+
+`插件百科` :https://mineplugin.org/Authme
+
+:::
 
 老牌登录插件 Authme
 

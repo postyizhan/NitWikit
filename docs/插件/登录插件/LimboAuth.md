@@ -3,13 +3,18 @@ sidebar_position: 4
 ---
 
 # LimboAuth
-> `GitHub` :https://github.com/Elytrium/LimboAuth
->
-> `spigotmc` :https://www.spigotmc.org/resources/limboapi.95748/
->
-> `papermc` :https://forums.papermc.io/threads/.330/
->
-> `modrinth` :https://modrinth.com/plugin/limboauth
+
+:::info
+
+`GitHub` :https://github.com/Elytrium/LimboAuth
+
+`spigotmc` :https://www.spigotmc.org/resources/limboapi.95748/
+
+`papermc` :https://forums.papermc.io/threads/.330/
+
+`modrinth` :https://modrinth.com/plugin/limboauth
+
+:::
 
 如果你使用`velocity`跨服端可以试试这个
 
