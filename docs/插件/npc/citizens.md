@@ -23,3 +23,9 @@ sidebar_position: 1
 可以这样子找你需要的版本
 
 ![](_images/citizens.png)
+
+## 执行命令
+
+citizens插件本身有执行命令的 https://wiki.citizensnpcs.co/NPC_Commands
+
+所以不要再使用 https://www.spigotmc.org/resources/citizenscmd.30224/ 了
