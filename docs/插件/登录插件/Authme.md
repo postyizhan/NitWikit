@@ -25,3 +25,8 @@ sidebar_position: 2
 老牌登录插件 Authme
 
 建议使用[电棍的fork](https://github.com/HaHaWTH/AuthMeReReloaded),这是它的[中文介绍](https://github.com/HaHaWTH/AuthMeReReloaded/blob/master/README-zh.md)
+
+## 扩展
+
+### 登录时显示title
+https://www.spigotmc.org/resources/.111370
