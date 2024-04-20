@@ -95,6 +95,8 @@ feature-seeds:
 
 (可直接抄作业)
 
+当然,如果你是个笨蛋,你可以直接使用[脚本](https://raw.githubusercontent.com/lilingfengdev/NitWiki-Script/main/auto_antixray.py),在服务器根目录执行脚本即可自动配置!!
+
 ⚠警告：engine-mode: 3在1.19.3往后的版本才添加⚠
 
 > 主世界推荐配置
