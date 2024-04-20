@@ -21,6 +21,8 @@ sidebar_position: 2
 <details>
 <summary>第一步-延长种子反推</summary>
 
+笨蛋脚本:[下载](https://raw.githubusercontent.com/lilingfengdev/NitWiki-Script/main/auto-antiseedcracker.py),在服务器根目录执行即可自动配置!!
+
 使用paper的anti-xray
 
 这是服务器核心自带的功能
