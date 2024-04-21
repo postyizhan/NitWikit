@@ -21,7 +21,7 @@ sidebar_position: 2
 <details>
 <summary>第一步-延长种子反推</summary>
 
-笨蛋脚本:[下载](https://raw.githubusercontent.com/lilingfengdev/NitWiki-Script/main/auto-antiseedcracker.py),在服务器根目录执行即可自动配置!!
+笨蛋脚本:[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/auto-antiseedcracker.py),在服务器根目录执行即可自动配置!!
 
 使用paper的anti-xray
 
@@ -43,7 +43,7 @@ feature-seeds:
 ```
 > 这是对每个建筑使用随机种子，防止您的世界种子轻易的被破解
 
-> 还没完，继续找到spigot的yml文件
+> 还没完，继续找到spigot的yml文件(不用自己设置，会自动生成)
 
 ```
     seed-village: 10387312
@@ -76,7 +76,7 @@ feature-seeds:
 
 (没有完全杜绝的方法，只能拖延时间)
 
-如果你使用Leaf(1.20.4 7C66D13及以上)或包含Matter 安全种子补丁的分支,那么恭喜你，你可以体验到安全功能种子，地形和生物群落的生成保持不变，但所有矿石和结构都是用 1024 位种子生成的，而不是通常的 64 位种子。这颗种子几乎不可能破解，因为所需的破解时间和资源极长无比，如果你正在使用，那么你基本不用担心种子破解
+如果你使用包含Matter 安全种子补丁的分支(Leaf前有，但是不可以用),那么恭喜你，你可以体验到安全功能种子，地形和生物群落的生成保持不变，但所有矿石和结构都是用 1024 位种子生成的，而不是通常的 64 位种子。这颗种子几乎不可能破解，因为所需的破解时间和资源极长无比，如果你正在使用，那么你基本不用担心种子破解
 
 你也可以使用插件[AntiSeedCracker](https://www.spigotmc.org/resources/antiseedcracker-1-20-4.81495/),这个插件会发送一个虚假的种子到客户端，客户端仍然可以通过分析地形来破解，但难度会大大增强
 
@@ -97,7 +97,7 @@ feature-seeds:
 
 (可直接抄作业)
 
-当然,如果你是个笨蛋,你可以直接使用[脚本](https://raw.githubusercontent.com/lilingfengdev/NitWiki-Script/main/auto_antixray.py),在服务器根目录执行脚本即可自动配置!!
+当然,如果你是个笨蛋,你可以直接使用[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/auto_antixray.py),在服务器根目录执行脚本即可自动配置!!
 
 ⚠警告：engine-mode: 3在1.19.3往后的版本才添加⚠
 
@@ -385,9 +385,9 @@ anticheat:
 
 那么有什么antixray插件?
 
-### RayTraceAntiXray（7美元）
+### RayTraceAntiXray（7美元）(非常推荐)
 [查看](https://builtbybit.com/resources/raytraceantixray.24914/)
-用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-X ray 引擎模式 1 隐藏暴露在空气中的矿石。
+用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-X ray 引擎模式 1 隐藏暴露在空气中的矿石。可以优化自带的antixray,减小服务器的负担
 
 （评分还挺高的）
 
