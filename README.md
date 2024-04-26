@@ -14,7 +14,7 @@
 
 文档正在编写ing...
 
-[GitHub](https://postyizhan.github.io/NitWikit/)
+https://nitwikit.yizhan.wiki/
 
 
 
