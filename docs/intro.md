@@ -19,4 +19,7 @@ sidebar_position: 1
 ```
 （这是java服务器开服指南，而非bedrock）
 
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+
 如果您确定您符合条件，请点击一侧的目录开始阅读文档
