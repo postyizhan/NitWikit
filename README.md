@@ -10,13 +10,22 @@
   </div>
 </div>
 
+# ❔ 这是什么
+
+这是一份适用于游戏[Minecraft](https://www.minecraft.net/zh-hans) [Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)的服务器开服教程,在这里,你可以看到由众多用户经验编制而成的各色教程,希望它们可以成为你开服路上的一份趁手资料,也希望你能运营一个不错的服务器——一切皆有可能。动动手指来阅读第一章的内容吧。
+
 # 📖 开始阅读
 
 文档正在编写ing...
 
 https://nitwikit.yizhan.wiki/
 
+# 🔖 其他地址
 
+这里是本文档地址/相关转载地址
+
+- https://nitwikit.yizhan.wiki/
+- [GitHub](https://github.com/postyizhan/NitWikit)
 
 # 🎖 贡献者
 
@@ -159,3 +168,12 @@ https://nitwikit.yizhan.wiki/
     </td>
     </td>
 </table>
+
+# 📢 声明
+
+- 你不能声称这是你的作品
+- 未经作者允许,你不得将本作品用于如下途径：
+  - 改编或转载
+  - 盈利
+- 你可以将本作品在不经授权的情况下用于：
+  - 带有出处的引用
