@@ -166,6 +166,16 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
+  <!-- TalentsRC -->
+    <td align="center">
+      <a href="https://github.com/TalentsRC"
+        ><img
+          src="https://avatars.githubusercontent.com/u/85682725?v=4"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>TalentsRC</b></sub></a
+      >
+      </a>
     </td>
 </table>
 
