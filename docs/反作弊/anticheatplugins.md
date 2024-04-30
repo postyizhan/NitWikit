@@ -99,6 +99,6 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 ---
 
 # Cka先生的反作弊配置
-一款面向萌新的主流反作弊配置，对配置有任何问题骚扰Cka先生项目的issues即可解决！
+一款面向萌新的主流反作弊配置，对配置有任何问题骚扰Talents先生项目的issues即可解决！
 
-Github：https://github.com/CkaDebug/Talents-AntiCheat-Config
+Github：https://github.com/TalentsRC/Talents-AntiCheat-Config
