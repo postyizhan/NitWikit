@@ -48,13 +48,7 @@ sidebar_position: 2
 > 如果您不能安装此软件（如不兼容），请关闭此文档并`不向`文档编写者们提问，感谢
 </details>
 
-## Azul Platform Prime (性能最强JDK)
 
-世界上***最快的*** Java!!!（仅限 Linux）
-
-[下载](https://www.azul.com/downloads/#prime)
-
-[介绍](https://www.azul.com/zh-hans/prime/)
 ## 验证java安装
 
 打开控制台
