@@ -20,6 +20,8 @@
 
 https://nitwikit.yizhan.wiki/
 
+![:NitWikit](https://count.kjchmc.cn/get/@:NitWikit)
+
 # 🔖 其他地址
 
 这里是本文档地址/相关转载地址
