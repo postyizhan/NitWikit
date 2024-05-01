@@ -118,7 +118,7 @@ https://nitwikit.yizhan.wiki/
           src="https://avatars.githubusercontent.com/u/116551329"
           width="50px;"
           alt=""
-        /><br /><sub><b>Radiation-pi</b></sub></a
+        /><br /><sub><b>Sea_of_Orange</b></sub></a
       >
       </a>
     </td>
