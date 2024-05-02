@@ -24,10 +24,6 @@ sidebar_position: 1
 
 在spigot帖内自行寻找,以 *懒* *看不懂英文* *它是英文的* 为由通常会遭到群友谩骂
 
-可以这样子找你需要的版本
-
-![](_images/citizens.png)
-
 ## 执行命令
 
 citizens插件本身有执行命令的 https://wiki.citizensnpcs.co/NPC_Commands
