@@ -191,6 +191,34 @@ https://nitwikit.yizhan.wiki/
     </td>
 </table>
 
+## 笨蛋脚本
+
+笨蛋脚本是本wiki中重要的一环,[项目地址](https://github.com/lilingfengdev/NitWiki-Script)
+
+<table>
+  <tr>
+  <!-- lilingfeng -->
+    <td align="center">
+      <a href="https://github.com/lilingfengdev"
+        ><img
+          src="https://avatars.githubusercontent.com/u/145678359"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>lilingfeng</b></sub></a>
+      </a>
+    </td>
+  <!-- Lafcadia -->
+    <td align="center">
+      <a href="https://github.com/Lafcadia"
+        ><img
+          src="https://avatars.githubusercontent.com/u/147896059"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>Lafcadia</b></sub></a>
+      </a>
+    </td>
+  </tr>
+<table>
 # 📢 声明
 
 - 你不能声称这是你的作品
