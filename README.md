@@ -188,7 +188,28 @@ https://nitwikit.yizhan.wiki/
         /><br /><sub><b>Lafcadia</b></sub></a
       >
       </a>
+  <!--  gyc123456-1 -->
+    <td align="center">
+      <a href="https://github.com/gyc123456-1"
+        ><img
+          src="https://avatars.githubusercontent.com/u/69791212?v=4"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>gyc123456-1</b></sub></a
+      >
+      </a>
     </td>
+  </tr>
+  <!--  DGun Otto -->
+    <td align="center">
+      <a href="https://github.com/HaHaWTH"
+        ><img
+          src="https://avatars.githubusercontent.com/u/102713261?v=4"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>DGun Otto</b></sub></a
+      >
+      </a>
 </table>
 
 ## 笨蛋脚本
