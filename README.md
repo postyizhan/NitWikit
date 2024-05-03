@@ -199,6 +199,17 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
+  </tr>
+  <!--  DGun Otto -->
+    <td align="center">
+      <a href="https://github.com/HaHaWTH"
+        ><img
+          src="https://avatars.githubusercontent.com/u/102713261?v=4"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>DGun Otto</b></sub></a
+      >
+      </a>
 </table>
 
 ## 笨蛋脚本
