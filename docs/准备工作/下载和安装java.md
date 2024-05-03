@@ -6,6 +6,12 @@ sidebar_position: 2
 
 不管是您的服务端还是客户端都需要安装java才能运行
 
+## 笨蛋脚本版
+
+使用这个脚本，我们会自动为您安装jdk，并添加到环境变量
+
+[下载地址](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/install-java.py)
+
 ## Oracle 版
 
 官方版本
