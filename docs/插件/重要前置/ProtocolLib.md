@@ -6,11 +6,11 @@ sidebar_position: 4
 
 :::info
 
-`spigotmc` :https://www.spigotmc.org/resources/protocollib.1997/
+`SpigotMC` :https://www.spigotmc.org/resources/protocollib.1997/
 
 `GitHub` :https://github.com/dmulloy2/ProtocolLib
 
-`papermc` :https://hangar.papermc.io/dmulloy2/ProtocolLib
+`PaperMC` :https://hangar.papermc.io/dmulloy2/ProtocolLib
 
 `Bukkit(太老了不要用)` :https://dev.bukkit.org/projects/protocollib
 
