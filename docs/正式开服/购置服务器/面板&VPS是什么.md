@@ -16,9 +16,9 @@ sidebar_position: 2
 相当简单无脑的开服方式,大多会有一键开服之类的选项,要自己配置的东西少,但限制太多
 ```
 <details>
-<summary>mcsm和翼龙俩面板长什么样</summary>
+<summary>MCSManager和翼龙俩面板长什么样</summary>
 
-**mcsm**
+**MCSManager**
 
 ![](_images/mcsm.png)
 
