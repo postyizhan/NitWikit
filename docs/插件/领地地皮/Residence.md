@@ -24,7 +24,7 @@ sidebar_position: 1
 
 ## 免费下载?
 
-可以免费下载,自己去spigotmc帖子找地址（就是大大的 About 上面那个黄色的 here）
+可以免费下载,自己去spigotmc帖子找地址
 
 ## 前置?
 
