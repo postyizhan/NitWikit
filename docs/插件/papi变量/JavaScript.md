@@ -6,7 +6,7 @@ sidebar_position: 5
 
 `eCloud` :https://api.extendedclip.com/expansions/javascript
 
-`placeholder-list` :https://wiki.placeholderapi.com/users/placeholder-list/#javascript
+`Placeholder List` :https://wiki.placeholderapi.com/users/placeholder-list/#javascript
 
 `GitHub` :https://github.com/PlaceholderAPI-Expansions/Javascript-Expansion/
 
