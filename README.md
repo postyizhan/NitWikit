@@ -188,6 +188,16 @@ https://nitwikit.yizhan.wiki/
         /><br /><sub><b>Zaixu Zheng</b></sub></a
       >
       </a>
+  <!--  gyc123456-1 -->
+    <td align="center">
+      <a href="https://github.com/gyc123456-1"
+        ><img
+          src="https://avatars.githubusercontent.com/u/69791212?v=4"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>gyc123456-1</b></sub></a
+      >
+      </a>
     </td>
 </table>
 
