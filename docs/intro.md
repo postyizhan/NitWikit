@@ -12,12 +12,11 @@ sidebar_position: 1
 - 一双勤劳能干的小手
 - 一个善于思考的大脑
 
-```
 如果您是通过浏览器搜索到本文档的智能个体，那么欢迎！
 
 但如果您是头脑简单，衰老或是被辐射过的人，请返回到您的原始部落中，派个更符合条件的人过来
-```
-（这是java服务器开服指南，而非bedrock）
+
+这是《Minecraft：Java Edition》（Java版）服务器开服指南，而非《Minecraft：Bedrock Edition》（基岩版）
 
 <!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> -->
