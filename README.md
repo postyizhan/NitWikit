@@ -178,14 +178,14 @@ https://nitwikit.yizhan.wiki/
         /><br /><sub><b>TalentsRC</b></sub></a
       >
       </a>
-  <!-- Zaixu Zheng -->
+  <!-- Lafcadia -->
     <td align="center">
       <a href="https://github.com/Lafcadia"
         ><img
           src="https://avatars.githubusercontent.com/u/147896059?v=4"
           width="50px;"
           alt=""
-        /><br /><sub><b>Zaixu Zheng</b></sub></a
+        /><br /><sub><b>Lafcadia</b></sub></a
       >
       </a>
   <!--  gyc123456-1 -->
