@@ -28,7 +28,7 @@ sidebar_position: 1
 
 ## 前置?
 
-Residence需要前置插件 CMIlib
+Residence 需要前置插件 CMIlib
 
 https://www.spigotmc.org/resources/cmilib.87610/
 
@@ -36,7 +36,7 @@ https://www.zrips.net/cmilib/
 
 ## 开源?
 
-只有src 没构建脚步,就是说你不能构建出jar文件
+只有src 没构建脚本,就是说你不能构建出jar文件
 
 不如说是假开源
 
