@@ -193,7 +193,9 @@ https://nitwikit.yizhan.wiki/
 
 ## 笨蛋脚本
 
-笨蛋脚本是本wiki中重要的一环,[项目地址](https://github.com/lilingfengdev/NitWiki-Script)
+笨蛋脚本是本wiki贡献者lilingfengdev主导做的一些工具
+
+[项目地址](https://github.com/lilingfengdev/NitWiki-Script)
 
 <table>
   <tr>
@@ -219,6 +221,7 @@ https://nitwikit.yizhan.wiki/
     </td>
   </tr>
 <table>
+
 # 📢 声明
 
 - 你不能声称这是你的作品
