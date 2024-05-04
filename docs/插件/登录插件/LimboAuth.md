@@ -16,11 +16,11 @@ sidebar_position: 4
 
 :::
 
-如果你使用`Velocity`跨服端可以试试这个
+如果你使用 *Velocity* 跨服端可以试试这个
 
 :::danger
 
-**不要**在你的 `Spigot/Paper` 或者 `BungeeCord/Waterfall` 端上 **安装此插件!!!**
+**不要**在你的 *Spigot/Paper* 或者 *BungeeCord/Waterfall* 端上 **安装此插件!!!**
 
 :::
 
