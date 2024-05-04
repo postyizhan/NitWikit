@@ -10,7 +10,7 @@ sidebar_position: 2
 
 `Bukkit` :https://dev.bukkit.org/projects/authme-reloaded
 
-`spigotmc` :https://www.spigotmc.org/resources/authmereloaded.6269/
+`SpigotMC` :https://www.spigotmc.org/resources/authmereloaded.6269/
 
 `ci构建站` :https://ci.codemc.io/job/AuthMe/job/AuthMeReloaded/
 
