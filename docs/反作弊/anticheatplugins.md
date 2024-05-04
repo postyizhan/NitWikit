@@ -109,5 +109,5 @@ Github：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
 ## 笨蛋脚本
 
-[自动为你配置,下载!](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/config-anticheat.py)
+[自动为你配置反作弊,下载!](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/config-anticheat.py)
 
