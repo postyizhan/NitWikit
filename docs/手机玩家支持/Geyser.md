@@ -23,3 +23,8 @@ sidebar_position: 4
 Geyser 旨在为 Java版和基岩版 之间建立一座桥梁，使得基岩版客户端加入Java版服务器
 
 你直接转上面文档看就行了
+
+你可以从下面的地址下载基岩版客户端
+
+- https://mc.minebbs.com/
+- https://res.nullatom.com/Minecraft/
