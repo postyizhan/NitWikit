@@ -10,7 +10,7 @@ sidebar_position: 2
 
 使用这个脚本，我们会自动为您安装 JDK (Java Development Kit，Java 开发环境)，并将 Java 添加到环境变量。
 
-[下载地址](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/install-java.py)
+[下载地址](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/install-java.exe)
 
 ## 手动下载
 
