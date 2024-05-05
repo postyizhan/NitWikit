@@ -52,7 +52,7 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 ！只推荐影响原版插件较少的生存服务器使用
 
-> github: https://github.com/Updated-NoCheatPlus/NoCheatPlus
+> Github: https://github.com/Updated-NoCheatPlus/NoCheatPlus
 
 </details>
 
@@ -66,7 +66,7 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 - 1.0005的timer检测
 - 3.01的reach检测
 
-> github: https://github.com/GrimAnticheat/Grim
+> Github: https://github.com/GrimAnticheat/Grim
 
 </details>
 
@@ -77,7 +77,7 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 !拥有中规中矩的检测，但建议慎用
 
-> spigotmc: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-20-4.83626/
+> SpigotMC: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-20-4.83626/
 
 </details>
 
@@ -88,7 +88,7 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 !我家驿站都不用的传奇斯巴达人反欺诈
 
-> spigotmc: https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-hack-detection-1-7-1-20-4-33-off.25638/
+> SpigotMC: https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-hack-detection-1-7-1-20-4-33-off.25638/
 
 </details>
 
