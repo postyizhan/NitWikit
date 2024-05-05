@@ -4,7 +4,7 @@ sidebar_position: 2
 
 
 # 💎首先是Xray（矿物透视）
-为了防止玩家使用作弊端的xray功能
+为了防止玩家使用作弊端的Xray功能
 
 又或者是进行矿透材质包进行作弊
 
@@ -13,6 +13,8 @@ sidebar_position: 2
 导致矿产资源大量泛滥
 
 完完全全的破坏了服务器经济系统
+
+~~如果你的服务器主要玩法和原版矿石没太大关系就没事~~
 
 ---
 
@@ -23,7 +25,7 @@ sidebar_position: 2
 
 笨蛋脚本:[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/auto-antiseedcracker.exe),在服务器根目录执行即可自动配置!!
 
-使用paper的anti-xray
+使用Paper的Anti-Xray
 
 这是服务器核心自带的功能
 
@@ -33,7 +35,7 @@ sidebar_position: 2
 
 那么该如何设置才最有效呢
 
-首先请找到您的paper配置的yml文件
+首先请找到您的Paper配置的yml文件
 
 > 找到下列模块改成true
 
@@ -43,7 +45,7 @@ feature-seeds:
 ```
 > 这是对每个建筑使用随机种子，防止您的世界种子轻易的被破解
 
-> 还没完，继续找到spigot的yml文件(不用自己设置，会自动生成)
+> 还没完，继续找到Spigot的yml文件(不用自己设置，会自动生成)
 
 ```
     seed-village: 10387312
@@ -91,7 +93,7 @@ feature-seeds:
 
 我们还得解决矿物透视的问题
 
-使用paper自带的antixray即可拦截大量矿透
+使用Paper自带的Anti-Xray即可拦截大量矿透
 
 但我们也需要进行一些设置
 
@@ -262,7 +264,7 @@ anticheat:
 
 那么下界呢？
 
-该如何在下界使用其他的 antixray 配置呢？
+该如何在下界使用其他的 Anti-Xray 配置呢？
 
 找到 world_nether/paper-world.yml 
 
@@ -383,21 +385,21 @@ anticheat:
 
 至此，这就是你不用插件就能做到反矿物透视的所有事
 
-那么有什么antixray插件?
+那么有什么 Antixray 插件?
 
 ### RayTraceAntiXray（7美元）(非常推荐)
 [查看](https://builtbybit.com/resources/raytraceantixray.24914/)
-用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-X ray 引擎模式 1 隐藏暴露在空气中的矿石。可以优化自带的antixray,减小服务器的负担
+用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-Xray 引擎模式 1 隐藏暴露在空气中的矿石。可以优化自带的Anti-Xray,减小服务器的负担
 
 （评分还挺高的）
 
 ### Orebfuscator
 
 [查看](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/)
-Orebfuscator 不仅可以保护您世界的完整性，还可以让您微调防 X 射线措施以获得最佳游戏体验。
+Orebfuscator 不仅可以保护您世界的完整性，还可以让您微调Anti-Xray措施以获得最佳游戏体验。
 
 ### XCatch
 [查看](https://www.spigotmc.org/resources/xcatch-anti-xray-1-13-1-19.101227/)
-不同于前面几个插件，这个插件通过观察玩家在短时间内发现多少回合以及发现多少稀有矿石来分析玩家的挖矿方式。然后通过算法推算出是否在xray
+不同于前面几个插件，这个插件通过观察玩家在短时间内发现多少回合以及发现多少稀有矿石来分析玩家的挖矿方式。然后通过算法推算出是否在Xray
 
 谢谢你看完本章节，希望对你有所帮助
