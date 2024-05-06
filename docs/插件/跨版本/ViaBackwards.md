@@ -24,7 +24,7 @@ Via三件套中的向下兼容,前置为ViaVersion
 
 ## 配置文件
 
-### 始终显示映射暴民的原始名称，而不仅仅是当光标悬停在其上方时才显示。
+### 始终显示映射生物的原始名称，而不仅仅是当光标悬停在其上方时才显示。
 
 always-show-original-mob-name: true
 
@@ -42,15 +42,15 @@ add-teamcolor-to-prefix: true
 
 fix-1_13-face-player: false
 
-### 通过将背包标题转换为传统文本，修复了 1.13 及更低版本客户端看不到背包标题颜色或格式的问题。
+### 通过将物品栏标题转换为传统文本，修复了 1.13 及更低版本客户端看不到物品栏标题颜色或格式的问题。
 
 如果您遇到可翻译文本显示错误的问题，请禁用此功能。
 
 fix-formatted-inventory-titles: true
 
-### 发送背包确认数据包，以替代 1.17 以下版本客户端的 ping 数据包。
+### 发送物品栏确认数据包，以替代 1.17 以下版本客户端的 ping 数据包。
 
-这仅对短范围内的 id 有效。 这对 anticheat 兼容性很有用。
+这仅对短范围内的 id 有效。 这对反作弊的兼容性很有用。
 
 handle-pings-as-inv-acknowledgements: false
 

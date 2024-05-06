@@ -6,7 +6,7 @@ sidebar_position: 3
 
 :::info
 
-`spigotmc` :https://www.spigotmc.org/resources/.77506/
+`SpigotMC` :https://www.spigotmc.org/resources/.77506/
 
 `GitHub` :https://github.com/IntellectualSites/PlotSquared
 

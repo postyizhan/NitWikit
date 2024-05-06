@@ -52,7 +52,7 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 ！只推荐影响原版插件较少的生存服务器使用
 
-> github: https://github.com/Updated-NoCheatPlus/NoCheatPlus
+> Github: https://github.com/Updated-NoCheatPlus/NoCheatPlus
 
 </details>
 
@@ -66,7 +66,7 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 - 1.0005的timer检测
 - 3.01的reach检测
 
-> github: https://github.com/GrimAnticheat/Grim
+> Github: https://github.com/GrimAnticheat/Grim
 
 </details>
 
@@ -77,7 +77,7 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 !拥有中规中矩的检测，但建议慎用
 
-> spigotmc: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-20-4.83626/
+> SpigotMC: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-20-4.83626/
 
 </details>
 
@@ -88,22 +88,22 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 !我家驿站都不用的传奇斯巴达人反欺诈
 
-> spigotmc: https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-hack-detection-1-7-1-20-4-33-off.25638/
+> SpigotMC: https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-hack-detection-1-7-1-20-4-33-off.25638/
 
 </details>
 
 ---
 # 只有这几个？
-你难道想让我把intave karhu polar那些什么全部都列出来吗，要求不高这几个主流就差不多够用了，毕竟是面向小白的开服教程，后面想试试非主流反作弊请自己去官网购买就好了捏。
+你难道想让我把Intave Karhu Polar那些什么全部都列出来吗，要求不高这几个主流就差不多够用了，毕竟是面向小白的开服教程，后面想试试非主流反作弊请自己去官网购买就好了捏。
 
 ---
-#⚠不要使用任何已经停止更新的反作弊插件，因为他们并不能支持最新版本且缺少对其他插件的兼容性，除非你有能力自己解决这些问题，不然就尽量不去使用已经停止更新的反作弊
+# ⚠不要使用任何已经停止更新的反作弊插件，因为他们并不能支持最新版本且缺少对其他插件的兼容性，除非你有能力自己解决这些问题，不然就尽量不去使用已经停止更新的反作弊
 
 ---
 
 # Cka先生的反作弊配置
 
-一款面向萌新的主流反作弊配置，对配置有任何问题骚扰Talents先生项目的issues即可解决！
+一款面向萌新的主流反作弊配置，对配置有任何问题骚扰Talents先生项目的Issues即可解决！
 
 Github：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
