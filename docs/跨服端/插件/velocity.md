@@ -2,6 +2,6 @@
 sidebar_position: 2
 ---
 
-# velocity 端
+# Velocity 端
 
-支持 `velocity` 的插件
+支持 *Velocity* 的插件
