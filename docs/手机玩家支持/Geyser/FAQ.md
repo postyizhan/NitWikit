@@ -11,7 +11,7 @@ sidebar_position: 3
 
 ### 为什么基岩版玩家无法在地狱上层放置方块?
 
-请查阅安装教程中Geyser配置教程其他项中的**`above-bedrock-nether-building`**
+请查阅安装教程中Geyser配置教程其他项中的 **`above-bedrock-nether-building`**
 
 ### 在删除前缀后为什么数据还是不互通?
 
@@ -36,29 +36,29 @@ Java版和基岩版的UUID不一致，请查阅进阶教程
 
 ### 无法正常连接到服务器! (服务器在好友选项卡没有显示或者在连接服务器时出现 "无法连接到世界")
 
-相当复杂的一个问题,尝试:
+这个问题很复杂, 请检查以下问题是否存在:
 
-* 是否使用了SRV
+* **是否使用了SRV**
 
 Geyser不支持SRV转发
 
-* 手贱开启enable-proxy-protocol
+* **手贱开启enable-proxy-protocol**
 
 如果你不使用像 TCPShield 的反向代理，请保证你的 enable-proxy-protocol 选项是设置为 false 的
 
-* 启动时提示 java.net.BindException: Address already in use: bind
+* **启动时提示 java.net.BindException: Address already in use: bind**
 
 这代表 Geyser 服务器所开设的端口已被占用，请确保你关闭了所有占用该端口的软件，然后再试。如果这没有起作用，通常重启你的电脑即可解决该问题
 
-* 您的服务商可能没有及时打开UDP端口
+* **您的服务商可能没有及时打开UDP端口**
 
 这通常和你的主机端的端口有关。最常见的是，跟Java版的常用的 TCP 协议的端口不同，你的主机很有可能没有开放基岩版所使用的 UDP 协议的端口。一个确认此问题的方法是关闭你的服务器，然后选择其他 基岩版服务端，例如 Nukkit（你不一定非要用 Nukkit）以检查是否是该问题导致的
 
-* 尝试重启服务器和游戏
+* **尝试重启服务器和游戏**
 
 特别是在移动设备上，有时只需重新启动 Minecraft 即可解决问题
 
-* 基岩端口小于10000
+* **基岩端口小于10000**
 
 端口小于10000通常会导致问题, 请将其设置为高于10000的值
 
