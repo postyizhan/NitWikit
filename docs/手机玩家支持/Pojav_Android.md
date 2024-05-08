@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# 在Android 上安装Pojav Launcher
+# 在Android 上安装PojavLauncher
 
 GitHub Action 下载
 
