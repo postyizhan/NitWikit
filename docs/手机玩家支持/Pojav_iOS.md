@@ -2,12 +2,14 @@
 sidebar_position: 2
 ---
 
-# PojavLauncher_IOS
+# 在IOS 上安装PojavLauncher
 
 免越狱安装 PojavLauncher_iOS
 
 ## 方法一: 使用牛蛙助手
+
 ### 安装PojavLauncher
+
 在电脑打开此[链接](https://ios222.com/)下载牛蛙助手
 使用数据线连接手机与电脑，按照提示安装
 从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载Pojav的ipa安装包
