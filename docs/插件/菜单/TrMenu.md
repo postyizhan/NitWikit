@@ -14,7 +14,7 @@ sidebar_position: 4
 
 `文档` https://temp-17.gitbook.io/trmenu/v/chinese
 
-`spigotmc` https://www.spigotmc.org/resources/.83120/
+`SpigotMC` https://www.spigotmc.org/resources/.83120/
 
 :::
 
@@ -36,7 +36,7 @@ sidebar_position: 4
 
 ## v4
 
-Invero 俗称 trmenu v4
+Invero 俗称 Trmenu v4
 
 **目前**还不推荐使用
 

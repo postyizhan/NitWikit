@@ -6,11 +6,21 @@ sidebar_position: 2
 
 您的服务端和客户端都需要安装 Java 才能运行。各个游戏版本需要安装的 Java 版本不同。
 
-## 通过笨蛋脚本进行下载和安装
+## 选择合适的版本
 
-使用这个脚本，我们会自动为您安装 JDK (Java Development Kit，Java 开发环境)，并将 Java 添加到环境变量。
+| Minecraft 版本    | 介绍                                                                  | 下载地址(直链,Zulu)                                                                                                                                                              |
+|-----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.0 - 1.16.5    | 推荐使用Java 8,其他版本会出现一些问题(如果使用的是SportPaper或者Beast,最好用Java 21)          | [Java 8 64位](https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-win_x64.msi) , [Java 8 32位](https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-win_i686.msi) |
+| 1.17.1 - 1.20.4 | 必须使用Java 17以上(1.17 至 1.17.1可以用Java 16),推荐使用Java 21(特别是Leaf,Beast核心) | [Java 17 64位](https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-win_x64.msi) , [Java 17 32位](https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-win_i686.msi) |
+| 1.20.5 +        | 必须使用Java 21以上,推荐使用Java 21                                           | [Java 21 64位](https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-win_x64.msi)                                                                                         |
 
-[下载地址](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/install-java.exe)
+:::danger
+
+64位操作系统下不要使用32位JDK
+
+Java 21 已经不再支持32位操作系统
+
+:::
 
 ## 手动下载
 

@@ -69,7 +69,7 @@ const config = {
         title: 'NitWikit',
         logo: {
           alt: 'Logo',
-          src: 'img/yizhan.png',
+          src: 'img/book.png',
         },
         hideOnScroll: false,
         items: [

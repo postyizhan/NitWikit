@@ -6,7 +6,7 @@ sidebar_position: 2
 
 :::info
 
-`spigotmc` :https://www.spigotmc.org/resources/.68900/
+`SpigotMC` :https://www.spigotmc.org/resources/.68900/
 
 `GitHub` :https://github.com/bloodmc/GriefDefender
 
@@ -20,4 +20,4 @@ sidebar_position: 2
 
 ![](_images/GriefDefender-github.png)
 
-它开源的代码只到2021年,往隔壁res旁边一站简直是卧龙凤雏
+它开源的代码只到2021年,往隔壁 Residence 旁边一站简直是卧龙凤雏
