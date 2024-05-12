@@ -6,9 +6,9 @@ sidebar_position: 2
 
 :::info
 
-`spigotmc` :https://www.spigotmc.org/resources/coreprotect.8631/
+`SpigotMC` :https://www.spigotmc.org/resources/coreprotect.8631/
 
-`modrinth` :https://modrinth.com/plugin/coreprotect/version/latest
+`Modrinth` :https://modrinth.com/plugin/coreprotect/version/latest
 
 `GitHub` :https://github.com/PlayPro/CoreProtect
 

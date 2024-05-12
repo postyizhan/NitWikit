@@ -12,4 +12,4 @@ sidebar_position: 3
 
 :::
 
-坏黑大佬写的纯发包npc
+坏黑大佬写的纯发包NPC
