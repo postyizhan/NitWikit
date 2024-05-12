@@ -12,13 +12,13 @@ sidebar_position: 2
 |-----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1.0 - 1.16.5    | 推荐使用Java 8,其他版本会出现一些问题(如果使用的是SportPaper或者Beast,最好用Java 21)          | [Java 8 64位](https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-win_x64.msi) , [Java 8 32位](https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jdk8.0.412-win_i686.msi) |
 | 1.17.1 - 1.20.4 | 必须使用Java 17以上(1.17 至 1.17.1可以用Java 16),推荐使用Java 21(特别是Leaf,Beast核心) | [Java 17 64位](https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-win_x64.msi) , [Java 17 32位](https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jdk17.0.11-win_i686.msi) |
-| 1.20.5 +        | 必须使用Java 21以上,推荐使用Java 21                                           | [Java 21 64位](https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-win_x64.msi)                                                                                         |
+| 1.20.5 +        | 必须使用Java 21以上,推荐使用Java 21                                           | [Java 21 64位](https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-win_x64.msi) , [Java 21 32位(独家)](https://qcymc.cloud/f/4xOtl/jdk-21.0.3-windows-32bit.zip)                                                                                        |
 
 :::danger
 
 64位操作系统下不要使用32位JDK
 
-Java 21 已经不再支持32位操作系统
+最好不要使用32位操作系统开服
 
 :::
 
