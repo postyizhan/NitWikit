@@ -10,9 +10,9 @@ sidebar_position: 2
 
 `GitHub` :https://github.com/bloodmc/GriefDefender
 
-`文档(英文)`:https://docs.griefdefender.com/
+`文档（英文）`:https://docs.griefdefender.com/
 
-`文档(中文)`:https://docs.griefdefender.com/zh/
+`文档（中文）`:https://docs.griefdefender.com/zh/
 
 :::
 

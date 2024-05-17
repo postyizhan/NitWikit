@@ -10,7 +10,7 @@ sidebar_position: 3
 
 `SpigotMC` :https://www.spigotmc.org/resources/prism.99397/
 
-`GitHub(汉化版)` :https://github.com/Rothes/PrismRefracted
+`GitHub（汉化版）` :https://github.com/Rothes/PrismRefracted
 
 :::
 

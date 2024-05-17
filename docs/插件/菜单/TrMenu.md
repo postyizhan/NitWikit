@@ -22,15 +22,15 @@ sidebar_position: 4
 
 :::info
 
-`文档(新)` https://hhhhhy.gitbook.io/trmenu-v3
+`文档（新）` https://hhhhhy.gitbook.io/trmenu-v3
 
-`文档(旧)` https://trmenu.trixey.cc/
+`文档（旧）` https://trmenu.trixey.cc/
 
 `如何支持1.8` https://hhhhhy.gitbook.io/trmenu-v3/appendix/v3-guide#datasource.yml-dui-yu-1.8-fu-wu-duan
 
-`GitHub(不推荐，已停止维护)` https://github.com/TrPlugins/TrMenu/tree/stable/v3
+`GitHub（不推荐，已停止维护）` https://github.com/TrPlugins/TrMenu/tree/stable/v3
 
-`GitHub(社区维护，推荐)` https://github.com/Dreeam-qwq/TrMenu
+`GitHub（推荐，社区维护）` https://github.com/Dreeam-qwq/TrMenu
 
 :::
 

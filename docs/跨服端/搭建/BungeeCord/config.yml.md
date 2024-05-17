@@ -38,7 +38,7 @@ servers:
 listeners:
   # 监听查询端口，端口不能和host项的相同。
 - query_port: 25577
-  # BC的标语，支持彩色 (也不用设置)
+  # BC的标语，支持彩色（也不用设置）
   motd: '&1Another Bungee server'
   tab_list: GLOBAL_PING
   # 是否开启监听查询

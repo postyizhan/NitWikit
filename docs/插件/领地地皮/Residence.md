@@ -14,9 +14,9 @@ sidebar_position: 1
 
 `插件百科` :https://mineplugin.org/Residence
 
-`Bukkit(太老了不要用)` :https://dev.bukkit.org/projects/residence
+`Bukkit（太老了不要用）` :https://dev.bukkit.org/projects/residence
 
-`CurseForge(太老不要使用)` :https://www.curseforge.com/minecraft/bukkit-plugins/residence
+`CurseForge（太老不要使用）` :https://www.curseforge.com/minecraft/bukkit-plugins/residence
 
 :::
 
@@ -36,7 +36,7 @@ https://www.zrips.net/cmilib/
 
 ## 开源?
 
-只有 src(源码) 没构建脚本，就是说你不能构建出jar文件
+只有 src（源码） 没构建脚本，就是说你不能构建出jar文件
 
 不如说是假开源
 

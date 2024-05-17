@@ -266,7 +266,7 @@ anticheat:
 
 该如何在下界使用其他的 Anti-Xray 配置呢？
 
-找到 world_nether/paper-world.yml 
+找到 world_nether/paper-world.yml
 
 将下列你喜欢的配置进行复制粘贴即可
 

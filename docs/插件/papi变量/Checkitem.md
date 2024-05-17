@@ -27,10 +27,10 @@ sidebar_position: 4
 ## 如何安装和更新 CheckItem ?
 **在游戏或管理员后台中输入以下指令**
 ```
-/papi ecloud download CheckItem     -->//下载 CheckItem (请确保你正处于联网状态下).
+/papi ecloud download CheckItem     -->//下载 CheckItem （请确保你正处于联网状态下）.
 /papi ecloud update all     -->//更新你现有的所有拓展(包括CheckItem).
 /papi reload     -->//重新加载插件以确保 CheckItem 下载或更新完成并开始使用.
 ```
-在游戏中输入指令时请确保你拥有管理员(OP)权限或者 Papi 的相关权限.
+在游戏中输入指令时请确保你拥有管理员（OP）权限或者 Papi 的相关权限.
 
 在管理员后台中输入指令时请记得删除斜杆--> '/'.

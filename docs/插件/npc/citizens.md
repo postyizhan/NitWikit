@@ -10,7 +10,7 @@ sidebar_position: 1
 
 `SpigotMC` :https://www.spigotmc.org/resources/citizens.13811/
 
-`Bukkit(太老旧不要使用)` :https://dev.bukkit.org/projects/citizens
+`Bukkit（太老旧不要使用）` :https://dev.bukkit.org/projects/citizens
 
 `GitHub` :https://github.com/CitizensDev/Citizens2
 

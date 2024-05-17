@@ -12,7 +12,7 @@ sidebar_position: 4
 
 `PaperMC` :https://hangar.papermc.io/dmulloy2/ProtocolLib
 
-`Bukkit(太老了不要用)` :https://dev.bukkit.org/projects/protocollib
+`Bukkit（太老了不要用）` :https://dev.bukkit.org/projects/protocollib
 
 `ci构建站` :https://ci.dmulloy2.net/job/ProtocolLib/
 

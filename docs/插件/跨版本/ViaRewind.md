@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # ViaRewind
 
-ViaRewind 可以让超低版本(1.7-1.8)客户端进入高版本服务器
+ViaRewind 可以让超低版本（1.7-1.8）客户端进入高版本服务器
 
 需要下载两个插件才能发挥兼容性[ViaRewind](https://ci.viaversion.com/view/ViaRewind/job/ViaRewind)，[ViaRewind Legacy Support](https://ci.viaversion.com/view/ViaRewind/job/ViaRewind%20Legacy%20Support/)
 
@@ -25,11 +25,11 @@ ViaRewind 可以让超低版本(1.7-1.8)客户端进入高版本服务器
 #### 指定 1.8.x 客户端如何查看冷却时间指示器
 
 您可以在 "标题"、"动作条"、"BOSS 条 "和 "禁用 "之间进行选择
- 
+
 只有在服务器上禁用了 1.9 版本的冷却时间时才会禁用
- 
+
 1.8 版本的玩家可能会问，为什么 pvp 不能正常运行？
- 
+
 cooldown-indicator: "TITLE
 
 #### 对于 1.7.x 客户端，用生存模式取代冒险模式
@@ -62,6 +62,6 @@ emulate-world-border: true
 
 world-border-particle： fireworksSpark
 
-### ViaRewind-Legacy-Support  
+### ViaRewind-Legacy-Support
 
 没啥好改的.jpg
