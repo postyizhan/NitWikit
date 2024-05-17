@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkWiki=self.webpackChunkWiki||[]).push([[9762],{1594:e=>{e.exports=JSON.parse('{"title":"npc","slug":"/category/npc","permalink":"/category/npc","navigation":{"previous":{"title":"TAB","permalink":"/\u63d2\u4ef6/TAB&\u8bb0\u5206\u677f/TAB"},"next":{"title":"Citizens","permalink":"/\u63d2\u4ef6/npc/citizens"}}}')}}]);
