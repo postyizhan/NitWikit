@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## 长期不更新
 
-猫种登录最后更新于两年前,Authme的官方版本最后有效更新在8个月前,而Authmerereload最后更新于昨天(写下这段话的时候是昨天)
+猫种登录最后更新于两年前，Authme的官方版本最后有效更新在8个月前，而Authmerereload最后更新于昨天(写下这段话的时候是昨天)
 
 ## Bug众多
 

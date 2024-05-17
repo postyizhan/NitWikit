@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # ViaVersion
 
-ViaVersion是Via三件套的核心,无论你需不需要向上兼容，都需要安装ViaVersion
+ViaVersion是Via三件套的核心，无论你需不需要向上兼容，都需要安装ViaVersion
 
 [下载地址](https://ci.viaversion.com/job/ViaVersion/)
 

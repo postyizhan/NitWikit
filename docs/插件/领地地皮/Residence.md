@@ -24,7 +24,7 @@ sidebar_position: 1
 
 ## 免费下载?
 
-可以免费下载,自己去 SpigotMC 帖子找地址
+可以免费下载，自己去 SpigotMC 帖子找地址
 
 ## 前置?
 
@@ -36,7 +36,7 @@ https://www.zrips.net/cmilib/
 
 ## 开源?
 
-只有 src(源码) 没构建脚本,就是说你不能构建出jar文件
+只有 src(源码) 没构建脚本，就是说你不能构建出jar文件
 
 不如说是假开源
 

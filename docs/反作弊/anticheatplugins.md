@@ -31,7 +31,7 @@ sidebar_position: 3
 <details>
 <summary>Matrix</summary>
 
-Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代AAC这款反作弊插件,而如今经过不断改良也拥有了不错的检测性能和质量，足以对抗部分脑溢血参数
+Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代AAC这款反作弊插件，而如今经过不断改良也拥有了不错的检测性能和质量，足以对抗部分脑溢血参数
 
 ！试用版只拥有少部分检测且只支持一台机器
 ！7天使用权到期后可继续订阅试用版使用
@@ -112,5 +112,5 @@ Github：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
 ## 笨蛋脚本
 
-[自动为你配置反作弊,下载!](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/config-anticheat.exe)
+[自动为你配置反作弊，下载!](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/config-anticheat.exe)
 

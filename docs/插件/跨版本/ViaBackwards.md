@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # ViaBackwards
 
-Via三件套中的向下兼容,前置为ViaVersion
+Via三件套中的向下兼容，前置为ViaVersion
 
 [下载地址](https://ci.viaversion.com/view/ViaBackwards/job/ViaBackwards/)
 
@@ -20,7 +20,7 @@ Via三件套中的向下兼容,前置为ViaVersion
 
 ### 低版本看不到高版本物品的材质，怎么办
 
-使用ViaBackwards-Plus,后文会讲
+使用ViaBackwards-Plus，后文会讲
 
 ## 配置文件
 

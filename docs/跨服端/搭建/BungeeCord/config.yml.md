@@ -19,7 +19,7 @@ permissions:
   - bungeecord.command.end
   - bungeecord.command.ip
   - bungeecord.command.reload
-# 当玩家在BC中无响应多长时间，BC才会将他踢出去，在这里是毫秒,一秒等于1000毫秒,30000=30秒
+# 当玩家在BC中无响应多长时间，BC才会将他踢出去，在这里是毫秒，一秒等于1000毫秒，30000=30秒
 timeout: 30000
 # 正版验证，如果是盗版服请关闭，否则会调用API进行验证
 log_commands: false
@@ -29,7 +29,7 @@ disabled_commands:
 - disabledcommandhere
 servers:
   lobby:
-    # 服务器标语 (不用设置,建议用插件而不是这玩意)
+    # 服务器标语 (不用设置，建议用插件而不是这玩意)
     motd: '&1Just another BungeeCord - Forced Host'
     # 服务器地址
     address: localhost:25565
@@ -47,7 +47,7 @@ listeners:
   forced_hosts:
     pvp.md-5.net: pvp
   ping_passthrough: false
-  # 优先服务器列表 玩家将优先加入靠上设置的子服,进不去会尝试下一个子服
+  # 优先服务器列表 玩家将优先加入靠上设置的子服，进不去会尝试下一个子服
   priorities:
   - lobby
   bind_local_address: true
@@ -64,7 +64,7 @@ network_compression_threshold: 256
 groups:
   md_5:
   - admin
-# 连接间隔，当玩家退出后多就能加入，在这里一秒等于1000,4000=4秒
+# 连接间隔，当玩家退出后多就能加入，在这里一秒等于1000，4000=4秒
 connection_throttle: 4000
 # 机器码，请不要修改，修改之后就会duang的没用
 stats: c86020bc-ddf6-467e-84d9-90974afcf90e
