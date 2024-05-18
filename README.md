@@ -20,6 +20,8 @@
 
 https://nitwikit.yizhan.wiki/
 
+[企鹅群🐧611076407](https://qm.qq.com/q/lEnfzgzxjq)
+
 ![:NitWikit](https://count.kjchmc.cn/get/@:NitWikit)
 
 # 🔖 其他地址
