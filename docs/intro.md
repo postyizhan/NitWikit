@@ -18,10 +18,15 @@ sidebar_position: 1
 
 这是《Minecraft：Java Edition》（Java版）服务器开服指南，并非《Minecraft：Bedrock Edition》（基岩版）
 
-<!-- <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span> -->
-
 ![:NitWikit](https://count.kjchmc.cn/get/@:NitWikit)
+
+在开始前，请确认您拥有以下信息基础
+
+* 我知道如何**解压/压缩**文件
+* 我知道如何**启动搜索引擎**
+* 我会使用安装程序**安装应用**
+* 我拥有一个**正常的**键盘和鼠标
+* 我知道什么是C盘D盘,也明白如何在桌面以外的目录建立文件夹
 
 如果您确定您符合条件，请点击一侧的目录开始阅读文档
 
