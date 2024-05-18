@@ -6,6 +6,8 @@ sidebar_position: 2
 
 您的服务端和客户端都需要安装 Java 才能运行。各个游戏版本需要安装的 Java 版本不同。
 
+原则上选择最新的兼容的 Java 版本，可以体验到最新的优化，并且大部分现代插件对最新版的特性有优化（比如AuthMeReReload)。
+
 ## 选择合适的版本
 
 | Minecraft 版本    | 介绍                                                                  | 下载地址（直链，Zulu）                                                                                                                                                              |
@@ -50,7 +52,7 @@ sidebar_position: 2
 
 ### Zulu 版
 
-比较有名的分支版本，有更好的优化，推荐使用。
+根据各路大佬的测试 Zulu 相较 Oracle (你可以看做"公版")更适合开 MC 服务器
 
 <details>
 <summary>怎么找到官网并从官网下载</summary>
@@ -60,7 +62,7 @@ sidebar_position: 2
 
 ![](_images/Zulu-2.png)
 
-> 找到64-bit (64位) （如果你的电脑是32位的，不建议开服。）。
+> 找到 64-bit (64位) （如果你的电脑是32位的，不建议开服）。
 
 ![](_images/Zulu-3.png)
 
