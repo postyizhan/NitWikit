@@ -393,6 +393,8 @@ anticheat:
 
 （评分还挺高的）
 
+开源，可自行构建 https://github.com/stonar96/RayTraceAntiXray
+
 ### Orebfuscator
 
 [查看](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/)
