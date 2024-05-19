@@ -30,6 +30,11 @@ https://nitwikit.yizhan.wiki/
 
 - https://nitwikit.yizhan.wiki/
 - [GitHub](https://github.com/postyizhan/NitWikit)
+- [Minebbs](https://www.minebbs.com/threads/nitwikit-geyser.26356/)
+- [klpbbs](https://klpbbs.com/forum.php?mod=viewthread&tid=136184&page=1&extra=#pid10518779)
+- [九域](https://bbs.mc9y.net/threads/1624/)
+- [暮光方块论坛](https://bbs.tsfk.top/threads/399/)
+
 
 # 🎖 贡献者
 
