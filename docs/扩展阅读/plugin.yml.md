@@ -56,7 +56,7 @@ sidebar_position: 6
 
 ## `api-version`
 
-插件编译时使用的 API 版本，影响着 Bukkit API 对插件提供的兼容性
+插件编译时使用的 API 版本，影响着 BukkitAPI 对插件提供的兼容性
 
 ## `version`
 
@@ -82,7 +82,7 @@ folia-supported: true
 
 :::danger
 
-Folia端对 Bukkit API 的修改是破坏性的，你手动添加而不是插件开发者去兼容，通常加载了也是不可用的
+Folia端对 BukkitAPI 的修改是破坏性的，你手动添加而不是插件开发者去兼容，通常加载了也是不可用的
 
 这就是为什么要开启此项 Folia 端才会加载插件
 
