@@ -6,13 +6,14 @@
 
 ### 1.2 配置CDN 四层转发
 
-+ ![img](C:\Users\Administrator\AppData\Local\Temp\{1001DE83-4CC5-452b-AD7E-30222B7D3039}.png)-->![img](C:\Users\Administrator\AppData\Local\Temp\{67E1F1FB-DC3D-459c-A84D-64F0202BFCC1}.png)
++ ![1.png](https://img2.imgtp.com/2024/05/20/ZNjg7mkL.png)
++ ![2.png](https://img2.imgtp.com/2024/05/20/XRtFbjwE.png)
 
 ## 1.3配置BC/VC
 
-+ BC 配置 ![image-20240520120144989](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240520120144989.png)
++ BC 配置 ![3.png](https://img2.imgtp.com/2024/05/20/Do8x5gQo.png)
 
-+ VC配置![img](C:\Users\Administrator\AppData\Local\Temp\{72790172-19C8-45b4-8A38-CCC4511F03A5}.png)
++ VC配置![4.png](https://img2.imgtp.com/2024/05/20/EyRITRd0.png)
 
 #### 至此四层转发基本配置完毕
 
