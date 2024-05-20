@@ -10,7 +10,7 @@
   </div>
 </div>
 
-# ❔ 这是什么
+# 🤔 这是什么
 
 这是一份适用于游戏[Minecraft](https://www.minecraft.net/zh-hans) [Java版](https://zh.minecraft.wiki/w/Java%E7%89%88)的服务器开服教程,在这里,你可以看到由众多用户经验编制而成的各色教程,希望它们可以成为你开服路上的一份趁手资料,也希望你能运营一个不错的服务器——一切皆有可能。动动手指来阅读第一章的内容吧。
 
@@ -36,7 +36,7 @@ https://nitwikit.yizhan.wiki/
 - [暮光方块论坛](https://bbs.tsfk.top/threads/399/)
 
 
-# 🎖 贡献者
+# 🤝 贡献者
 
 ## 常驻
 
@@ -63,6 +63,17 @@ https://nitwikit.yizhan.wiki/
           width="50px;"
           alt=""
         /><br /><sub><b>lilingfeng</b></sub></a>
+      </a>
+    </td>
+  <!-- Radiation-pi -->
+    <td align="center">
+      <a href="https://github.com/Radiation-pi"
+        ><img
+          src="https://avatars.githubusercontent.com/u/96102795"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>Radiation-pi</b></sub></a
+      >
       </a>
     </td>
   </tr>
@@ -106,18 +117,6 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
-  <!-- Radiation-pi -->
-    <td align="center">
-      <a href="https://github.com/Radiation-pi"
-        ><img
-          src="https://avatars.githubusercontent.com/u/96102795"
-          width="50px;"
-          alt=""
-        /><br /><sub><b>Radiation-pi</b></sub></a
-      >
-      </a>
-    </td>
-  </tr>
   <!-- Sea_of_Orange -->
     <td align="center">
       <a href="https://github.com/SeaOrangejuice"
@@ -129,6 +128,7 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
+  </tr>
   <!-- RENaa_FD -->
     <td align="center">
       <a href="https://github.com/lRENyaaa"
@@ -163,7 +163,6 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
-  </tr>
   <!-- lim114514 -->
     <td align="center">
       <a href="https://github.com/lim114514"
@@ -175,6 +174,7 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
+  </tr>
   <!-- TalentsRC -->
     <td align="center">
       <a href="https://github.com/TalentsRC"
@@ -206,7 +206,6 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
-  </tr>
   <!--  DGun Otto -->
     <td align="center">
       <a href="https://github.com/HaHaWTH"
@@ -219,7 +218,7 @@ https://nitwikit.yizhan.wiki/
       </a>
 </table>
 
-## 📒 笨蛋脚本
+## 📜 笨蛋脚本
 
 笨蛋脚本是本wiki贡献者lilingfengdev主导做的一些工具
 
