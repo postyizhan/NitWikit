@@ -2,9 +2,11 @@
 
 ### 1.1 购买CDN 四层转发
 
++ **<u>注意不是所有CDN都支持四层转发 购买前请询问客服时候支持</u>**
+
 + 请自行寻找服务商  记得买国内节点**<u>（写着需要备案 MC其实不需要的）</u>**
 
-### 1.2 配置CDN 四层转发
+### 1.2 配置CDN 四层转发  （以cdnfly系统为例）
 
 + ![1.png](https://img2.imgtp.com/2024/05/20/ZNjg7mkL.png)
 + ![2.png](https://img2.imgtp.com/2024/05/20/XRtFbjwE.png)
