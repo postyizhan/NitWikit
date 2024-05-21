@@ -86,7 +86,9 @@ feature-seeds:
 
 :::
 
-你也可以使用插件[AntiSeedCracker](https://www.spigotmc.org/resources/antiseedcracker-1-20-4.81495/)，这个插件会发送一个虚假的种子到客户端，客户端仍然可以通过分析地形来破解，但难度会大大增强
+你只需要在leaf的配置文件中找到`secure-seed`,将它打开就可以体验到安全种子
+
+使用插件[AntiSeedCracker](https://www.spigotmc.org/resources/antiseedcracker-1-20-4.81495/)，这个插件会发送一个虚假的种子到客户端，客户端仍然可以通过分析地形来破解，但难度会大大增强
 
 (所以建议资源世界不定期重置)
 
@@ -134,7 +136,6 @@ anticheat:
     - obsidian
     - chest
     - diamond_ore
-    - air
     - deepslate_diamond_ore
     - redstone_ore
     - deepslate_redstone_ore
@@ -157,7 +158,6 @@ anticheat:
     - emerald_ore
     - deepslate_emerald_ore
     - granite
-    - air
     - gravel
     - oak_planks
     - smooth_basalt
@@ -195,7 +195,6 @@ anticheat:
     - deepslate_lapis_ore
     - redstone_ore
     - deepslate_redstone_ore
-    - air
     lava-obscures: false
     max-block-height: 64
     replacement-blocks: []
@@ -229,7 +228,6 @@ anticheat:
     - obsidian
     - chest
     - diamond_ore
-    - air
     - deepslate_diamond_ore
     - redstone_ore
     - deepslate_redstone_ore
@@ -252,7 +250,6 @@ anticheat:
     - emerald_ore
     - deepslate_emerald_ore
     - granite
-    - air
     - gravel
     - oak_planks
     - smooth_basalt
@@ -285,7 +282,6 @@ anticheat:
     engine-mode: 2
     hidden-blocks:
     # See note about air and possible client performance issues above.
-    - air
     - ancient_debris
     - bone_block
     - glowstone
@@ -341,7 +337,6 @@ anticheat:
     enabled: true
     engine-mode: 3
     hidden-blocks:
-    - air
     - ancient_debris
     - bone_block
     - glowstone
@@ -385,6 +380,9 @@ anticheat:
 
 
 ```
+
+注意，如果你需要隐藏暴露在空气中的方块,需要将`air`添加到`hidden-blocks`和`replacement-blocks`,但是这样会影响服务器性能，开启前，请经过大脑
+
 </details>
 
 ---
@@ -397,17 +395,14 @@ anticheat:
 [查看](https://builtbybit.com/resources/raytraceantixray.24914/)
 用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-Xray 引擎模式 1 隐藏暴露在空气中的矿石。可以优化自带的Anti-Xray，减小服务器的负担
 
-（评分还挺高的）
-
 开源，可自行构建 https://github.com/stonar96/RayTraceAntiXray
 
-### Orebfuscator
+### RaytraceAntiXray(20欧元)(推荐)
 
-[查看](https://www.spigotmc.org/resources/orebfuscator-anti-x-ray.82710/)
-Orebfuscator 不仅可以保护您世界的完整性，还可以让您微调Anti-Xray措施以获得最佳游戏体验。
+[查看](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/)
+这个插件的特色就是支持的版本极广，支持1.8-最新,并且据说作者现在正在写结构隐藏，目前已经支持实体,块（奖励箱，刷怪笼之类的）隐藏，你要是有钱的话，高版本也推荐这玩意儿
 
-### XCatch
-[查看](https://www.spigotmc.org/resources/xcatch-anti-xray-1-13-1-19.101227/)
-不同于前面几个插件，这个插件通过观察玩家在短时间内发现多少回合以及发现多少稀有矿石来分析玩家的挖矿方式。然后通过算法推算出是否在Xray
+其他的反X光插件就别用了，就比如Orebfuscator,那玩意儿甚至不如我用Paper Antixray
 
-谢谢你看完本章节，希望对你有所帮助
+
+
