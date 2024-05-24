@@ -34,41 +34,79 @@ sidebar_position: 6
 
 插件的名字，也是会在插件列表（`/pl`）和日志中输出的信息中显示的插件名
 
+## `version`
+
+插件版本，显示在 `/version 插件名` 中
+
 ## `main`
 
 插件主类，加载插件时运行的类的名称，类似正常程序中的 main 函数，服主不用管
+
+## `description`
+
+简短描述插件的作用，会在 `/pl` 命令中鼠标悬浮在插件名称上时显示
 
 ## `authors`
 
 插件作者，显示在 `/version 插件名` 中
 
+## `contributors`
+
+贡献者，指非作者但为插件贡献了代码的人
+
 ## `website`
 
 插件相关的网站，显示在 `/version 插件名` 中
-
-## `softdepend`
-
-软依赖，即不必须装的依赖
-
-## `depend`
-
-硬依赖，必须安装
 
 ## `api-version`
 
 插件编译时使用的 API 版本，影响着 BukkitAPI 对插件提供的兼容性
 
-## `version`
+## `load`
 
-插件版本，显示在 `/version 插件名` 中
+这告诉服务器何时加载插件。它可以是 `STARTUP` 或 `POSTWORLD` 。如果未指定，将默认为 `POSTWORLD`
+
+## `prefix`
+
+在服务器日志中显示的前缀，有别于插件名称
+
+## `libraries`
+
+插件的依赖库表，不过这并不是前置插件的意思
+
+## `permissions`
+
+插件权限相关
+
+## `default-permission`
+
+默认权限
 
 ## `commands`
 
 插件提供的命令
 
-## `permissions`
+## Dependencies
 
-插件权限相关
+https://docs.papermc.io/paper/dev/plugin-yml#dependencies
+
+依赖关系
+
+### `depend`
+
+硬依赖，必须安装
+
+### `softdepend`
+
+软依赖，即不必须装的依赖
+
+### `loadbefore`
+
+在此列表中的插件加载前加载本插件
+
+### `probides`
+
+告诉服务器本插件会提供哪些库或功能
 
 ## `folia-supported`
 
@@ -87,3 +125,7 @@ Folia端对 BukkitAPI 的修改是破坏性的，你手动添加而不是插件�
 这就是为什么要开启此项 Folia 端才会加载插件
 
 :::
+
+# 参考
+
+- https://docs.papermc.io/paper/dev/plugin-yml
