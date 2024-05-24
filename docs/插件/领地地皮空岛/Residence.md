@@ -41,3 +41,30 @@ https://www.zrips.net/cmilib/
 不如说是假开源
 
 ![](_images/Residence-github.png)
+
+## 刷钱漏洞
+
+5.1.4.2 版本之前存在刷钱漏洞
+
+#### 修复方式一（推荐）
+
+更新插件版本至最新
+
+#### 修复方式二
+
+禁止掉residence.command.bank权限
+
+该权限res默认给予全体玩家
+
+#### [LP]
+```
+lp group default permission set residence.command.bank false
+```
+#### [PEX]
+```
+pex group default add -residence.command.bank
+```
+#### [GM]
+```
+mangaddp builder -residence.command.bank
+```
