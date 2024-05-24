@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+sidebar_label: 空岛 - ASkyBlock
 ---
 
 # ASkyBlock
