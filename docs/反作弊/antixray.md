@@ -374,7 +374,6 @@ anticheat:
 
 注意，如果你需要隐藏暴露在空气中的方块,需要将`air`添加到`hidden-blocks`和`replacement-blocks`,但是这样会影响服务器性能，开启前，请经过大脑
 
-</details>
 
 ---
 
