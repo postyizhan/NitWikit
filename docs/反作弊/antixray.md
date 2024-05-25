@@ -3,25 +3,19 @@ sidebar_position: 2
 ---
 
 
-# 💎首先是Xray（矿物透视）
+# 矿物透视与种子破解
+
 为了防止玩家使用作弊端的Xray功能
 
 又或者是进行矿透材质包进行作弊
 
-又或者在服务器地图上进行反推世界种子进行矿物查询
+又或者在服务器地图上进行反推世界种子进行矿物查询,寻找结构
 
 导致矿产资源大量泛滥
 
 完完全全的破坏了服务器经济系统
 
-~~如果你的服务器主要玩法和原版矿石没太大关系就没事~~
-
----
-
-❓如何阻止矿物透视
-
-<details>
-<summary>第一步-延长种子反推</summary>
+## 第一步-延长种子反推
 
 笨蛋脚本:[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
 
@@ -92,10 +86,7 @@ feature-seeds:
 
 (所以建议资源世界不定期重置)
 
-</details>
-
-<details>
-<summary>第二步-设置假矿</summary>
+## 第二步-设置假矿
 
 解决完种子可以被轻而易举反推的问题
 
@@ -389,18 +380,22 @@ anticheat:
 
 至此，这就是你不用插件就能做到反矿物透视的所有事
 
-那么有什么 Antixray 插件?
+### 那么有什么 Antixray 插件
 
-### RayTraceAntiXray（7美元）(非常推荐)
+#### RayTraceAntiXray（7美元）(非常推荐)
 [查看](https://builtbybit.com/resources/raytraceantixray.24914/)
 用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-Xray 引擎模式 1 隐藏暴露在空气中的矿石。可以优化自带的Anti-Xray，减小服务器的负担
 
 开源，可自行构建 https://github.com/stonar96/RayTraceAntiXray
 
-### RaytraceAntiXray(20欧元)(推荐)
+#### RaytraceAntiXray(20欧元)(推荐)
 
 [查看](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/)
-这个插件的特色就是支持的版本极广，支持1.8-最新,并且据说作者现在正在写结构隐藏，目前已经支持实体,块（奖励箱，刷怪笼之类的）隐藏，你要是有钱的话，高版本也推荐这玩意儿
+
+插件特色
+* 支持版本极广(1.8-最新）(1.13.2之前可是连raytrace方法都没)
+* 支持实体隐藏
+* 支持奖励箱，刷怪笼之类的隐藏
 
 其他的反X光插件就别用了，就比如Orebfuscator,那玩意儿甚至不如我用Paper Antixray
 
