@@ -85,6 +85,31 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 > SpigotMC: https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-hack-detection-1-7-1-20-4-33-off.25638/
 
+## AntiCheatAddition
+
+添加了其他反作弊不会反的部分,目前添加了以下：
+* 一键整理
+* 自动钓鱼
+* 自动进食
+* 自动药水
+* Fastswitch
+* 数据包分析
+* （有更多）
+
+[查看地址](https://www.spigotmc.org/resources/anticheataddition.33590/)
+
+## XCatch
+
+这个插件是一个反X光插件，不同的是，这个插件不会生成假矿，而是通过分析玩家发现矿物的数量和回合，判断玩家是否在开x光
+
+ [查看地址](https://www.spigotmc.org/resources/xcatch-anti-xray-1-13-1-19.101227/)
+
+## ClientDetectorPlus
+
+一个可以用来查端的插件，可以检测客户端是什么类型的客户端，可以检测到部分模组
+
+[查看地址](https://www.spigotmc.org/resources/clientdetectorplus-now-in-alpha-testing.90375/)
+
 ---
 # 只有这几个？
 你难道想让我把Intave Karhu Polar那些什么全部都列出来吗，要求不高这几个主流就差不多够用了，毕竟是面向小白的开服教程，后面想试试非主流反作弊请自己去官网购买就好了捏。
@@ -99,3 +124,6 @@ Github：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
 [自动为你配置反作弊，下载!](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/config-anticheat.exe)
 
+# 组合反作弊
+
+一般个人建议是一个服务器的反作弊两个足够，一个的话容易被绕，太多又会严重影响服务器性能，并产生大量误判，一般装两个足够了
