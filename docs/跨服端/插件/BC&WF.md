@@ -48,13 +48,7 @@ sidebar_position: 1
 
 ## SkinsRestorer
 
-:::info
-
-`SpigotMC` :https://www.spigotmc.org/resources/.2124/
-
-`GitHub` :https://github.com/SkinsRestorer/SkinsRestorer
-
-:::
+[插件 | 皮肤 - skinsRestorer](/docs/插件/其他/皮肤%20-%20skinsRestorer.md)
 
 :::danger[缺点]
 
