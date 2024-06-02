@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+sidebar_label: 查包 - InvSee++
 ---
 
 # InvSee++
@@ -15,6 +16,14 @@ sidebar_position: 4
 :::
 
 InvSee++可以查看和编辑其他玩家的物品栏和末影箱。
+
+[Essentials](/docs/插件/管理工具/基础插件/EssentialsX/概览.md) 也有这个功能
+
+不过相比 InvSee++ 不能：
+
+- 夺取或替换玩家的装备
+- 查离线玩家的背包
+- 其他
 
 ## 功能：
 
@@ -43,7 +52,7 @@ InvSee++可以查看和编辑其他玩家的物品栏和末影箱。
 
 指令格式和普通的give指令一模一样
 
-### InvSee++ Give
+### InvSee++ Clear
 
 清除离线玩家背包/末影箱中的物品
 
