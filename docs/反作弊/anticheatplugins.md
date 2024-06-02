@@ -111,14 +111,22 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 [查看地址](https://www.spigotmc.org/resources/clientdetectorplus-now-in-alpha-testing.90375/)
 
 ---
-# 只有这几个？
+## 只有这几个？
 你难道想让我把Intave Karhu Polar那些什么全部都列出来吗，要求不高这几个主流就差不多够用了，毕竟是面向小白的开服教程，后面想试试非主流反作弊请自己去官网购买就好了捏。
 
-# Cka先生的反作弊配置
+# 反作弊配置
+
+## Cka先生的反作弊配置
 
 一款面向萌新的主流反作弊配置，对配置有任何问题骚扰Talents先生项目的Issues即可解决！
 
 Github：https://github.com/TalentsRC/Talents-AntiCheat-Config
+
+## ViaBackwards
+
+如果你在你的服务器使用了跨版本插件(Via),你需要开启这个选项以增加反作弊对其他版本的兼容性
+
+打开`ViaBackwards/config.yml`,找到`handle-pings-as-inv-acknowledgements`配置项,把它改成`true`就可以增加对反作弊的兼容性
 
 ## 笨蛋脚本
 
