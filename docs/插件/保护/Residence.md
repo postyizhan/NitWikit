@@ -37,7 +37,7 @@ https://www.zrips.net/cmilib/
 
 ## 开源?
 
-只有 src（源码） 没构建脚本，就是说你不能构建出jar文件
+只有 src（源码）没构建脚本，就是说你不能构建出jar文件
 
 不如说是假开源
 
@@ -55,7 +55,7 @@ https://www.zrips.net/cmilib/
 
 禁止掉residence.command.bank权限
 
-该权限res默认给予全体玩家
+该权限 res 默认给予全体玩家
 
 #### [LP]
 ```
