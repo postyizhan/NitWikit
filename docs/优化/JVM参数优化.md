@@ -45,6 +45,8 @@ java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+Unlo
 
 ## 通用
 
+### 内存优化
+
 如果服务器内存足够,可以加上此参数`-XX:-ZUncommit`,要求Jvm总是提前把要用的内存申请好，并且阻止Jvm把临时空出来的内存还给系统
 
 ### 大页支持
@@ -62,6 +64,14 @@ java -Xlog:gc+init -XX:+UseLargePages -Xmx1g -version
 如果支持LargePages,加上此参数`-XX:+UseLargePages  -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS`
 
 如果支持TransparentHugePages(不要把两个都加上,优先LargePages),加上此参数`-XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS`
+
+### SIMD
+
+如果你使用的是Pufferfish的分支(Purpur,Leaf,Leaves,Gale),你可以添加此参数`--add-modules=jdk.incubator.vector`
+
+### 下载源加速
+
+默认的SpigotLibraryLoader下载源在国内访问很慢,如果你使用的是Leaf,你可以添加`-DLeaf.library-download-repo=https://maven.aliyun.com/repository/public`参数启动国内下载源
 
 ## 参数解释
 
