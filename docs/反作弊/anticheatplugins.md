@@ -74,6 +74,8 @@ Matrix是由国人RE编写的一款反作弊插件，当年诞生是用于取代
 
 !目前仍然有很多不稳定因素，但Timer和Reach, BadPackets检查都是较为稳定的。
 
+!除了实验性检查, 其余的检查是不可被关闭的。可能不适合部分生电服务器或声明允许使用辅助模组的插件。
+
 > Github: https://github.com/GrimAnticheat/Grim
 
 ## Vulcan
