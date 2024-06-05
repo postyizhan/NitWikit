@@ -37,7 +37,7 @@ sidebar_position: 5
 | 前置插件                       | 项目链接                                                             | 作用                            |
 | :---                           | :----                                                                | :---                            |
 | GeyserUtils                    | [Github](https://github.com/zimzaza4/GeyserUtils)                    | 让你的Geyser支持调用一些BE的东西  |
-| GeyserModelEngine自定义实体分支 | [[Github](https://github.com/zimzaza4/GeyserModelEngine/tree/custom-entity)| 你猜                       |
+| GeyserModelEngine自定义实体分支 | [Github](https://github.com/zimzaza4/GeyserModelEngine/tree/custom-entity)| 你猜                        |
 | Geyser 自定义实体分支           | [Github](https://github.com/zimzaza4/Geyser)                         | 让Geyser支持自定义实体            |
 | GeyserModelEnginePackGenerator | [Github](https://github.com/zimzaza4/GeyserModelEnginePackGenerator) | 帮你自动转换模型生成资源包        |
 
