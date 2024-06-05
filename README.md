@@ -81,7 +81,7 @@ https://nitwikit.yizhan.wiki/
 
 ## 部分
 
-他们为文档贡献了部分内容/页面
+他们为文档贡献了部分内容/页面(排名不分先后)
 
 <table>
   <!-- TheFloodDragon -->
@@ -125,6 +125,28 @@ https://nitwikit.yizhan.wiki/
           width="50px;"
           alt=""
         /><br /><sub><b>Sea_of_Orange</b></sub></a
+      >
+      </a>
+    </td>
+  <!-- MySoulcutting -->
+    <td align="center">
+      <a href="https://github.com/MySoulcutting"
+        ><img
+          src="https://avatars.githubusercontent.com/u/72398605"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>MySoulcutting</b></sub></a
+      >
+      </a>
+    </td>
+<!-- LittleChest -->
+    <td align="center">
+      <a href="https://github.com/LittleChest"
+        ><img
+          src="https://avatars.githubusercontent.com/u/81231195"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>LittleChest</b></sub></a
       >
       </a>
     </td>
@@ -174,6 +196,28 @@ https://nitwikit.yizhan.wiki/
       >
       </a>
     </td>
+    <!-- FallenCrystal -->
+    <td align="center">
+      <a href="https://github.com/FallenCrystal"
+        ><img
+          src="https://avatars.githubusercontent.com/u/71176602"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>FallenCrystal</b></sub></a
+      >
+      </a>
+    </td>
+<!-- IAFEnvoy -->
+    <td align="center">
+      <a href="https://github.com/IAFEnvoy"
+        ><img
+          src="https://avatars.githubusercontent.com/u/83523430"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>IAFEnvoy</b></sub></a
+      >
+      </a>
+    </td>
   </tr>
   <!-- TalentsRC -->
     <td align="center">
@@ -184,7 +228,7 @@ https://nitwikit.yizhan.wiki/
           alt=""
         /><br /><sub><b>TalentsRC</b></sub></a
       >
-      </a>
+      </td>
   <!-- Lafcadia -->
     <td align="center">
       <a href="https://github.com/Lafcadia"
@@ -194,7 +238,7 @@ https://nitwikit.yizhan.wiki/
           alt=""
         /><br /><sub><b>Lafcadia</b></sub></a
       >
-      </a>
+      </td>
   <!--  gyc123456-1 -->
     <td align="center">
       <a href="https://github.com/gyc123456-1"
@@ -215,7 +259,19 @@ https://nitwikit.yizhan.wiki/
           alt=""
         /><br /><sub><b>DGun Otto</b></sub></a
       >
+      </td>
+  <!-- TATyKeFei -->
+    <td align="center">
+      <a href="https://github.com/TATyKeFei"
+        ><img
+          src="https://avatars.githubusercontent.com/u/125815900"
+          width="50px;"
+          alt=""
+        /><br /><sub><b>TATyKeFei</b></sub></a
+      >
       </a>
+    </td>
+  
 </table>
 
 ## 📜 笨蛋脚本
@@ -233,7 +289,7 @@ https://nitwikit.yizhan.wiki/
           src="https://avatars.githubusercontent.com/u/145678359"
           width="50px;"
           alt=""
-        /><br /><sub><b>lilingfeng</b></sub></a>
+        /><br /><sub><b>lilingfeng</b></sub>
       </a>
     </td>
   <!-- Lafcadia -->
@@ -243,11 +299,10 @@ https://nitwikit.yizhan.wiki/
           src="https://avatars.githubusercontent.com/u/147896059"
           width="50px;"
           alt=""
-        /><br /><sub><b>Lafcadia</b></sub></a>
-      </a>
+        /><br /><sub><b>Lafcadia</b></sub>
     </td>
   </tr>
-<table>
+</table>
 
 # 📢 声明
 
