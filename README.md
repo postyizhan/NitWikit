@@ -49,7 +49,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/postyizhan"
         ><img
           src="https://avatars.githubusercontent.com/u/97342038"
-          width="100;"
+          width="50;"
           alt=""
         /><br /><sub><b>驿站</b></sub></a
       >
@@ -60,7 +60,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/lilingfengdev"
         ><img
           src="https://avatars.githubusercontent.com/u/145678359"
-          width="100;"
+          width="50;"
           alt=""
         /><br /><sub><b>lilingfeng</b></sub></a>
       </a>
@@ -70,7 +70,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/Radiation-pi"
         ><img
           src="https://avatars.githubusercontent.com/u/96102795"
-          width="100;"
+          width="50;"
           alt=""
         /><br /><sub><b>Radiation-pi</b></sub></a
       >
@@ -245,7 +245,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/lilingfengdev"
         ><img
           src="https://avatars.githubusercontent.com/u/145678359"
-          width="100;"
+          width="50;"
           alt=""
         /><br /><sub><b>lilingfeng</b></sub>
       </a>
@@ -255,7 +255,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/Lafcadia"
         ><img
           src="https://avatars.githubusercontent.com/u/147896059"
-          width="100;"
+          width="50;"
           alt=""
         /><br /><sub><b>Lafcadia</b></sub>
     </td>
