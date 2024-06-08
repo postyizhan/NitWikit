@@ -6,7 +6,7 @@ sidebar_position: 2
 
 您的服务端和客户端都需要安装 Java 才能运行。各个游戏版本需要安装的 Java 版本不同。
 
-原则上选择最新的兼容的 Java 版本，可以体验到最新的优化，并且大部分现代插件对最新版的特性有优化（比如AuthMeReReload)。
+原则上选择最新的兼容的 Java 版本，可以体验到最新的优化，并且大部分现代插件对最新版的特性有优化（比如AuthMeReReload）。
 
 ## 选择合适的版本
 
@@ -20,9 +20,13 @@ sidebar_position: 2
 
 :::danger
 
-64位操作系统下不要使用32位JDK
+64位操作系统下不要使用32位JDK 这将导致你只能分配 1024MB 运存
 
 最好不要使用32位操作系统开服
+
+[32位 64位是什么意思](https://cn.bing.com/search?q=32%E4%BD%8D%2064%E4%BD%8D%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D)
+
+![如何确定自己电脑是32位还是64位](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E7%A1%AE%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E6%98%AF32%E4%BD%8D%E8%BF%98%E6%98%AF64%E4%BD%8D)
 
 :::
 
@@ -31,7 +35,6 @@ sidebar_position: 2
 ### Oracle 版
 
 官方版本
-
 
 <details>
   <summary>怎么找到官网并从官网下载</summary>
@@ -57,7 +60,8 @@ sidebar_position: 2
 根据各路大佬的测试 Zulu 相较 Oracle (你可以看做"公版")更适合开 MC 服务器
 
 <details>
-<summary>怎么找到官网并从官网下载</summary>
+  <summary>怎么找到官网并从官网下载</summary>
+
 ![](_images/Zulu-1.png)
 
 > 往下翻，找到这个，选择你想要的版本
