@@ -1,0 +1,44 @@
+---
+sidebar_position: 4
+---
+
+# RNG
+
+看你怎么定义了，因为下面这几个东西本质上只是个计算器
+
+**原理？**
+
+计算机产生随机数不是真随机，而是根据已有的数据通过一个复杂的公式产生一个“随机数”
+
+那么，如果你知道这个公式，并且知道要使用什么数据，通过操作进入公式的数据就可以使随机数变成自己想要的结果
+
+现成的客户端mod：
+
+- https://www.mcmod.cn/class/4239.html
+- https://github.com/Earthcomputer/EnchantmentCracker
+
+# RNG附魔预测
+
+没必要解释
+
+# 耐久无损耗
+
+因为耐久附魔不是增加物品的耐久，而是有概率不消耗耐久
+
+# 钓鱼出指定宝藏
+
+没必要解释
+
+# 解决
+
+purpur核心可以调节
+
+`purpur.yml`找
+
+```
+    settings:
+      entity:
+        shared-random: true
+```
+
+改为false
