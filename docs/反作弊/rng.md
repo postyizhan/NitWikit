@@ -17,21 +17,23 @@ sidebar_position: 4
 - https://www.mcmod.cn/class/4239.html
 - https://github.com/Earthcomputer/EnchantmentCracker
 
-# RNG附魔预测
+# 能干啥？
+
+## RNG附魔预测
 
 没必要解释
 
-# 耐久无损耗
+## 耐久无损耗
 
 因为耐久附魔不是增加物品的耐久，而是有概率不消耗耐久
 
-# 钓鱼出指定宝藏
+## 钓鱼出指定宝藏
 
 没必要解释
 
-# 解决
+# 允许破解
 
-purpur核心可以调节
+purpur(包括分支)和leaves核心可以调节
 
 默认是反RNG的，不用改
 
@@ -44,3 +46,14 @@ purpur核心可以调节
 ```
 
 改为false就可以允许玩家预测RNG
+
+`leaves.yml`找
+
+```
+use-vanilla-random: false
+```
+
+改为true就可以允许玩家预测RNG
+
+如果你使用Gale,Leaf这些分支，你甚至不需要担心,因为他们的随机数发生器已经不再是原版的随机数发生器，就算你开了也没屌用
+
