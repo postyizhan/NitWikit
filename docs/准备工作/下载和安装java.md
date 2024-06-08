@@ -10,11 +10,13 @@ sidebar_position: 2
 
 ## 选择合适的版本
 
-| Minecraft 版本    | 介绍                                                                  | 下载地址（直链，Zulu）                                                                                                                                                              |
-|-----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0 - 1.16.5    | 推荐使用 Java 8，其他版本会出现一些问题（如果使用的是SportPaper或者Beast，最好用Java 21）          | [Java 8 64位](https://cdn.yghpy.com/DL.Javas/zulu8.74.0.17-ca-jdk8.0.392-win_x64.msi)|
-| 1.17.1 - 1.20.4 | 必须使用 Java 17以上（1.17 至 1.17.1可以用Java 16），推荐使用Java 21(特别是Leaf，Beast核心) | [Java 17 64位](https://cdn.yghpy.com/DL.Javas/zulu17.50.19-ca-fx-jdk17.0.11-win_x64.msi) |
-| 1.20.5 +        | 必须使用 Java 21以上，推荐使用Java 21                                           | [Java 21 64位](https://cdn.yghpy.com/DL.Javas/zulu21.34.19-ca-fx-jdk21.0.3-win_x64.msi) |
+| Minecraft 版本  | 介绍                                           | 下载地址（直链，Zulu）                                                                           |
+|---------------|----------------------------------------------|-----------------------------------------------------------------------------------------|
+| 1.12.1-       | JDK 8 （如果使用的是SportPaper或者Beast，最好用Java 21）   | [Java 8 64位](https://cdn.yghpy.com/DL.Javas/zulu8.74.0.17-ca-jdk8.0.392-win_x64.msi)    |
+| 1.13 - 1.16.5 | JDK 11（推荐） 或者 JDK 8 部分整合包仅能使用 JDK 8 或 JDK 16 | [Java 11 64位](https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jdk11.0.23-win_x64.msi)     |
+| 1.17 - 1.19.4 | JDK17，模组服推荐17,插件服推荐 JDK 21(特别是Leaf，Beast核心)  | [Java 17 64位](https://cdn.yghpy.com/DL.Javas/zulu17.50.19-ca-fx-jdk17.0.11-win_x64.msi) |
+| 1.20 - 1.20.4 | JDK 21（推荐） 或者 JDK 17                         |                                                                                         |
+| 1.20.5 +      | JDK 21                                       | [Java 21 64位](https://cdn.yghpy.com/DL.Javas/zulu21.34.19-ca-fx-jdk21.0.3-win_x64.msi)  |
 
 :::danger
 
