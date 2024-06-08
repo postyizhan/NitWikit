@@ -88,6 +88,13 @@ https://nitwikit.yizhan.wiki/
 	<tbody>
 		<tr>
             <td align="center">
+                <a href="https://github.com/Radiation-pi">
+                    <img src="https://avatars.githubusercontent.com/u/96102795?v=4" width="50;" alt="Radiation-pi"/>
+                    <br />
+                    <sub><b>Radiation-pi</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/gyc123456-1">
                     <img src="https://avatars.githubusercontent.com/u/69791212?v=4" width="50;" alt="gyc123456-1"/>
                     <br />
@@ -136,6 +143,13 @@ https://nitwikit.yizhan.wiki/
                     <img src="https://avatars.githubusercontent.com/u/113185430?v=4" width="50;" alt="lim114514"/>
                     <br />
                     <sub><b>lim114514</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/ImgBotApp">
+                    <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="50;" alt="ImgBotApp"/>
+                    <br />
+                    <sub><b>Imgbot</b></sub>
                 </a>
             </td>
             <td align="center">
