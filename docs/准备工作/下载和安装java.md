@@ -20,9 +20,7 @@ sidebar_position: 2
 
 :::danger
 
-64位操作系统下不要使用32位JDK 这将导致你只能分配 1024MB 运存
-
-最好不要使用32位操作系统开服
+32位操作系统开服开个鬼服
 
 [32位 64位是什么意思](https://cn.bing.com/search?q=32%E4%BD%8D%2064%E4%BD%8D%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D)
 
@@ -68,7 +66,7 @@ sidebar_position: 2
 
 ![](_images/Zulu-2.png)
 
-> 找到 64-bit (64位) （如果你的电脑是32位的，不建议开服）。
+> 找到 64-bit (64位) （如果你的电脑是32位的，建议不开服）。
 
 ![](_images/Zulu-3.png)
 
