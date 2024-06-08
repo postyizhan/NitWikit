@@ -46,6 +46,8 @@ Invero 俗称 Trmenu v4
 
 作者自己发的 1.0.8版本 也是老板本 https://gitlab.com/Arasple/Invero
 
-文档 https://legacy.invero.fining.io/
+~~文档 https://legacy.invero.fining.io/~~
+
+地址改了，我就不放新地址了
 
 ![](_images/trm一定要看wiki呐.jpg)

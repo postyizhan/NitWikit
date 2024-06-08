@@ -24,6 +24,26 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 </details>
 
 <details>
+  <summary>Mukul1127 Flag Plus(GraalVM版本)(推荐)</summary>
+
+GraalVM Java 17+ 的参数,
+
+
+```shell
+java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA -XX:+UseVectorCmov -XX:+UseNewLongLShift -XX:+UseFastStosb -XX:+SegmentedCodeCache -XX:+OptimizeStringConcat -XX:+DoEscapeAnalysis -XX:+OmitStackTraceInFastThrow -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -XX:+UseZGC -XX:AllocatePrefetchStyle=1 -XX:-ZProactive
+```
+
+如果你使用Java 21 以上,你可以将`-XX:-ZProactive`换`-XX:+ZGenerational`,Java 22以上必须切换
+
+### 以下是格外选项
+
+更激进的内联，在 Graal 中通过`-Dgraal.BaseTargetSpending=160`（默认为 120）和 OpenJDK 中的其他一些标志。具有较大缓存的 CPU 可能会从中受益。
+
+`-Dgraal.OptWriteMotion=true`和`-Dgraal.WriteableCodeCache=true`,它们看起来不稳定，但在 GraalVM 22.3.0+ 中可能更稳定
+
+</details>
+
+<details>
   <summary>Aikar's Flag Plus</summary>
 
 Aikar's Flag 是最通用的优化启动参数,Aikar's Flag Plus是在Aikar's Flag上进行了更好的优化
@@ -45,6 +65,8 @@ java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+Unlo
 
 ## 通用
 
+### 内存优化
+
 如果服务器内存足够,可以加上此参数`-XX:-ZUncommit`,要求Jvm总是提前把要用的内存申请好，并且阻止Jvm把临时空出来的内存还给系统
 
 ### 大页支持
@@ -62,6 +84,14 @@ java -Xlog:gc+init -XX:+UseLargePages -Xmx1g -version
 如果支持LargePages,加上此参数`-XX:+UseLargePages  -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS`
 
 如果支持TransparentHugePages(不要把两个都加上,优先LargePages),加上此参数`-XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS`
+
+### SIMD
+
+如果你使用的是Pufferfish的分支(Purpur,Leaf,Leaves,Gale),你可以添加此参数`--add-modules=jdk.incubator.vector`
+
+### 下载源加速
+
+默认的SpigotLibraryLoader下载源在国内访问很慢,如果你使用的是Leaf,你可以添加`-DLeaf.library-download-repo=https://maven.aliyun.com/repository/public`参数启动国内下载源
 
 ## 参数解释
 

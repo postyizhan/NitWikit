@@ -6,21 +6,25 @@ sidebar_position: 2
 
 您的服务端和客户端都需要安装 Java 才能运行。各个游戏版本需要安装的 Java 版本不同。
 
-原则上选择最新的兼容的 Java 版本，可以体验到最新的优化，并且大部分现代插件对最新版的特性有优化（比如AuthMeReReload)。
+原则上选择最新的兼容的 Java 版本，可以体验到最新的优化，并且大部分现代插件对最新版的特性有优化（比如AuthMeReReload）。
 
 ## 选择合适的版本
 
-| Minecraft 版本    | 介绍                                                                  | 下载地址（直链，Zulu）                                                                                                                                                              |
-|-----------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.0 - 1.16.5    | 推荐使用 Java 8，其他版本会出现一些问题（如果使用的是SportPaper或者Beast，最好用Java 21）          | [Java 8 64位](https://cdn.yghpy.com/DL.Javas/zulu8.74.0.17-ca-jdk8.0.392-win_x64.msi)|
-| 1.17.1 - 1.20.4 | 必须使用 Java 17以上（1.17 至 1.17.1可以用Java 16），推荐使用Java 21(特别是Leaf，Beast核心) | [Java 17 64位](https://cdn.yghpy.com/DL.Javas/zulu17.50.19-ca-fx-jdk17.0.11-win_x64.msi) |
-| 1.20.5 +        | 必须使用 Java 21以上，推荐使用Java 21                                           | [Java 21 64位](https://cdn.yghpy.com/DL.Javas/zulu21.34.19-ca-fx-jdk21.0.3-win_x64.msi) |
+| Minecraft 版本  | 介绍                                           | 下载地址（直链，Zulu）                                                                           |
+|---------------|----------------------------------------------|-----------------------------------------------------------------------------------------|
+| 1.12.1-       | JDK 8 （如果使用的是SportPaper或者Beast，最好用Java 21）   | [Java 8 64位](https://cdn.yghpy.com/DL.Javas/zulu8.74.0.17-ca-jdk8.0.392-win_x64.msi)    |
+| 1.13 - 1.16.5 | JDK 11（推荐） 或者 JDK 8 部分整合包仅能使用 JDK 8 或 JDK 16 | [Java 11 64位](https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jdk11.0.23-win_x64.msi)     |
+| 1.17 - 1.19.4 | JDK17，模组服推荐17,插件服推荐 JDK 21(特别是Leaf，Beast核心)  | [Java 17 64位](https://cdn.yghpy.com/DL.Javas/zulu17.50.19-ca-fx-jdk17.0.11-win_x64.msi) |
+| 1.20 - 1.20.4 | JDK 21（推荐） 或者 JDK 17                         |                                                                                         |
+| 1.20.5 +      | JDK 21                                       | [Java 21 64位](https://cdn.yghpy.com/DL.Javas/zulu21.34.19-ca-fx-jdk21.0.3-win_x64.msi)  |
 
 :::danger
 
-64位操作系统下不要使用32位JDK
+32位操作系统开服开个鬼服
 
-最好不要使用32位操作系统开服
+[32位 64位是什么意思](https://cn.bing.com/search?q=32%E4%BD%8D%2064%E4%BD%8D%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D)
+
+![如何确定自己电脑是32位还是64位](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E7%A1%AE%E5%AE%9A%E8%87%AA%E5%B7%B1%E7%94%B5%E8%84%91%E6%98%AF32%E4%BD%8D%E8%BF%98%E6%98%AF64%E4%BD%8D)
 
 :::
 
@@ -29,7 +33,6 @@ sidebar_position: 2
 ### Oracle 版
 
 官方版本
-
 
 <details>
   <summary>怎么找到官网并从官网下载</summary>
@@ -55,14 +58,15 @@ sidebar_position: 2
 根据各路大佬的测试 Zulu 相较 Oracle (你可以看做"公版")更适合开 MC 服务器
 
 <details>
-<summary>怎么找到官网并从官网下载</summary>
+  <summary>怎么找到官网并从官网下载</summary>
+
 ![](_images/Zulu-1.png)
 
 > 往下翻，找到这个，选择你想要的版本
 
 ![](_images/Zulu-2.png)
 
-> 找到 64-bit (64位) （如果你的电脑是32位的，不建议开服）。
+> 找到 64-bit (64位) （如果你的电脑是32位的，建议不开服）。
 
 ![](_images/Zulu-3.png)
 
