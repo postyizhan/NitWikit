@@ -83,7 +83,7 @@ https://nitwikit.yizhan.wiki/
 
 他们为文档贡献了部分内容/页面
 
-<!-- readme: contributors,Radiation-pi/-,lilingfeng/-,postyizhan/- -start -->
+<!-- readme: contributors,Radiation-pi/-,lilingfengdev/-,postyizhan/- -start -->
 <table>
 	<tbody>
 		<tr>
@@ -245,7 +245,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/lilingfengdev"
         ><img
           src="https://avatars.githubusercontent.com/u/145678359"
-          width="50px;"
+          width="100;"
           alt=""
         /><br /><sub><b>lilingfeng</b></sub>
       </a>
@@ -255,7 +255,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/Lafcadia"
         ><img
           src="https://avatars.githubusercontent.com/u/147896059"
-          width="50px;"
+          width="100;"
           alt=""
         /><br /><sub><b>Lafcadia</b></sub>
     </td>
