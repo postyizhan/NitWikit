@@ -83,7 +83,7 @@ https://nitwikit.yizhan.wiki/
 
 他们为文档贡献了部分内容/页面
 
-<!-- readme: contributors,Radiation-pi/-,lilingfengdev/-,postyizhan/- -start -->
+<!-- readme: contributors,Radiation-pi/-,lilingfengdev/-,postyizhan/-,ImgBotApp/- -start -->
 <table>
 	<tbody>
 		<tr>
@@ -222,7 +222,7 @@ https://nitwikit.yizhan.wiki/
 		</tr>
 	<tbody>
 </table>
-<!-- readme: contributors,Radiation-pi/-,lilingfengdev/-,postyizhan/- -end -->
+<!-- readme: contributors,Radiation-pi/-,lilingfengdev/-,postyizhan/-,ImgBotApp/- -end -->
 
 
 ## 📜 笨蛋脚本
