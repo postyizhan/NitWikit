@@ -33,7 +33,9 @@ sidebar_position: 4
 
 purpur核心可以调节
 
-`purpur.yml`找
+默认是反RNG的，不用改
+
+`purpur.yml` 找
 
 ```
     settings:
@@ -41,4 +43,4 @@ purpur核心可以调节
         shared-random: true
 ```
 
-改为false
+改为false就可以允许玩家预测RNG
