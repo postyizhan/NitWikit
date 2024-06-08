@@ -116,26 +116,26 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/lRENyaaa">
+                    <img src="https://avatars.githubusercontent.com/u/92320175?v=4" width="50;" alt="lRENyaaa"/>
+                    <br />
+                    <sub><b>RENaa_FD</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/Lafcadia">
                     <img src="https://avatars.githubusercontent.com/u/147896059?v=4" width="50;" alt="Lafcadia"/>
                     <br />
                     <sub><b>Zaixu Zheng</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/FallenCrystal">
                     <img src="https://avatars.githubusercontent.com/u/71176602?v=4" width="50;" alt="FallenCrystal"/>
                     <br />
                     <sub><b>Akkariin</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/lRENyaaa">
-                    <img src="https://avatars.githubusercontent.com/u/92320175?v=4" width="50;" alt="lRENyaaa"/>
-                    <br />
-                    <sub><b>RENaa_FD</b></sub>
                 </a>
             </td>
             <td align="center">
