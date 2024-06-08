@@ -49,7 +49,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/postyizhan"
         ><img
           src="https://avatars.githubusercontent.com/u/97342038"
-          width="50px;"
+          width="100;"
           alt=""
         /><br /><sub><b>驿站</b></sub></a
       >
@@ -60,7 +60,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/lilingfengdev"
         ><img
           src="https://avatars.githubusercontent.com/u/145678359"
-          width="50px;"
+          width="100;"
           alt=""
         /><br /><sub><b>lilingfeng</b></sub></a>
       </a>
@@ -70,7 +70,7 @@ https://nitwikit.yizhan.wiki/
       <a href="https://github.com/Radiation-pi"
         ><img
           src="https://avatars.githubusercontent.com/u/96102795"
-          width="50px;"
+          width="100;"
           alt=""
         /><br /><sub><b>Radiation-pi</b></sub></a
       >
@@ -79,11 +79,11 @@ https://nitwikit.yizhan.wiki/
   </tr>
 <table>
 
-## 全部
+## 其他
 
-他们为文档贡献了部分内容/页面(排名不分先后)
+他们为文档贡献了部分内容/页面
 
-<!-- readme: contributors -start -->
+<!-- readme: contributors,Radiation-pi/-,lilingfeng/-,postyizhan/- -start -->
 <table>
 	<tbody>
 		<tr>
@@ -236,7 +236,7 @@ https://nitwikit.yizhan.wiki/
 		</tr>
 	<tbody>
 </table>
-<!-- readme: contributors -end -->
+<!-- readme: contributors,Radiation-pi/-,lilingfeng/-,postyizhan/- -end -->
 
 
 ## 📜 笨蛋脚本
