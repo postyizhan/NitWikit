@@ -17,7 +17,7 @@ sidebar_position: 2
 
 ## 第一步-延长种子反推
 
-笨蛋脚本:[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
+笨蛋脚本:[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
 
 使用Paper的Anti-Xray
 
@@ -98,7 +98,7 @@ feature-seeds:
 
 (可直接抄作业)
 
-当然，如果你是个笨蛋，你可以直接使用[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
+当然，如果你是个笨蛋，你可以直接使用[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
 
 ⚠警告：engine-mode: 3在1.19.3往后的版本才添加⚠
 

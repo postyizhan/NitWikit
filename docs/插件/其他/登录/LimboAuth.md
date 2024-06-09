@@ -10,7 +10,7 @@ sidebar_position: 4
 
 `SpigotMC` :https://www.spigotmc.org/resources/limboapi.95748/
 
-`PaperMC` :https://forums.papermc.io/threads/.330/
+`PaperMC Forums` :https://forums.papermc.io/threads/.330/
 
 `Modrinth` :https://modrinth.com/plugin/limboauth
 
@@ -26,4 +26,4 @@ sidebar_position: 4
 
 前置：[LimboAPI](https://github.com/Elytrium/LimboAPI)
 
-另外还推荐 [LimboFilter](https://github.com/Elytrium/LimboFilter) 来做假人过滤
+[LimboFilter](https://github.com/Elytrium/LimboFilter) 此插件可以该插件提供更好的兼容性. 如果要准备使用该登录插件, 推荐优先选择该反机器人插件.
