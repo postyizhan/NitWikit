@@ -11,7 +11,7 @@ sidebar_position: 7
 **以下启动参数需要自己补全内存分配(-Xms和-Xmx) 和 服务端核心名(-jar 服务端名字.jar)**
 
 <details>
-  <summary>Mukul1127 Flag Plus(推荐)</summary>
+  <summary>Mukul1127 Flag (ZGC)(推荐)</summary>
 
 Mukul1127 Flag Plus是现代的启动参数,使用ZGC作为垃圾回收，**注意:Mukul1127 Flag Plus至少需要4c8g以上环境才可以发挥出优势,4c8g一下请使用aikar flag plus**,Mukul1127 Flag Plus需要Java17以上!
 
@@ -24,7 +24,7 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 </details>
 
 <details>
-  <summary>Mukul1127 Flag Plus(GraalVM版本)(推荐)</summary>
+  <summary>Mukul1127 Flag (ZGC)(GraalVM版本)(推荐)</summary>
 
 GraalVM Java 17+ 的参数,
 
@@ -44,9 +44,8 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 </details>
 
 <details>
-  <summary>Aikar's Flag Plus</summary>
+  <summary>Mukul1127 Flag (G1GC)</summary>
 
-Aikar's Flag 是最通用的优化启动参数,Aikar's Flag Plus是在Aikar's Flag上进行了更好的优化
 
 ```shell
 java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA -XX:+UseVectorCmov -XX:+UseNewLongLShift -XX:+UseFastStosb -XX:+SegmentedCodeCache -XX:+OptimizeStringConcat -XX:+DoEscapeAnalysis -XX:+OmitStackTraceInFastThrow -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3 -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:GCTimeRatio=99 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:G1ConcRSHotCardLimit=16 
