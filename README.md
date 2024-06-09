@@ -103,13 +103,6 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Lafcadia">
-                    <img src="https://avatars.githubusercontent.com/u/147896059?v=4" width="50;" alt="Lafcadia"/>
-                    <br />
-                    <sub><b>Zaixu Zheng</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/liangcha385">
                     <img src="https://avatars.githubusercontent.com/u/108937242?v=4" width="50;" alt="liangcha385"/>
                     <br />
@@ -123,13 +116,27 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>RENaa_FD</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/TATyKeFei">
+                    <img src="https://avatars.githubusercontent.com/u/125815900?v=4" width="50;" alt="TATyKeFei"/>
+                    <br />
+                    <sub><b>哈2哈哈哈3</b></sub>
+                </a>
+            </td>
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/CkaDebug">
-                    <img src="https://avatars.githubusercontent.com/u/141492699?v=4" width="50;" alt="CkaDebug"/>
+                <a href="https://github.com/Lafcadia">
+                    <img src="https://avatars.githubusercontent.com/u/147896059?v=4" width="50;" alt="Lafcadia"/>
                     <br />
-                    <sub><b>Debug-Cracked</b></sub>
+                    <sub><b>Zaixu Zheng</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/FallenCrystal">
+                    <img src="https://avatars.githubusercontent.com/u/71176602?v=4" width="50;" alt="FallenCrystal"/>
+                    <br />
+                    <sub><b>Akkariin</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -147,6 +154,22 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/CkaDebug">
+                    <img src="https://avatars.githubusercontent.com/u/141492699?v=4" width="50;" alt="CkaDebug"/>
+                    <br />
+                    <sub><b>Debug-Cracked</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/HaHaWTH">
+                    <img src="https://avatars.githubusercontent.com/u/102713261?v=4" width="50;" alt="HaHaWTH"/>
+                    <br />
+                    <sub><b>DGun Otto</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/MySoulcutting">
                     <img src="https://avatars.githubusercontent.com/u/72398605?v=4" width="50;" alt="MySoulcutting"/>
                     <br />
@@ -160,8 +183,13 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>MoLiyi-WD</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
+            <td align="center">
+                <a href="https://github.com/LittleChest">
+                    <img src="https://avatars.githubusercontent.com/u/81231195?v=4" width="50;" alt="LittleChest"/>
+                    <br />
+                    <sub><b>LittleChest</b></sub>
+                </a>
+            </td>
             <td align="center">
                 <a href="https://github.com/SeaOrangejuice">
                     <img src="https://avatars.githubusercontent.com/u/116551329?v=4" width="50;" alt="SeaOrangejuice"/>
@@ -169,18 +197,13 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>Sea_of_Orange</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/TheFloodDragon">
                     <img src="https://avatars.githubusercontent.com/u/75253383?v=4" width="50;" alt="TheFloodDragon"/>
                     <br />
                     <sub><b>蛟龙</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/HaHaWTH">
-                    <img src="https://avatars.githubusercontent.com/u/102713261?v=4" width="50;" alt="HaHaWTH"/>
-                    <br />
-                    <sub><b>DGun Otto</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -190,15 +213,6 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>IAFEnvoy</b></sub>
                 </a>
             </td>
-            <td align="center">
-                <a href="https://github.com/LittleChest">
-                    <img src="https://avatars.githubusercontent.com/u/81231195?v=4" width="50;" alt="LittleChest"/>
-                    <br />
-                    <sub><b>LittleChest</b></sub>
-                </a>
-            </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/TalentsRC">
                     <img src="https://avatars.githubusercontent.com/u/85682725?v=4" width="50;" alt="TalentsRC"/>
