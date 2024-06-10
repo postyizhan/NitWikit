@@ -1,4 +1,5 @@
 ---
+title: 笨蛋开服教程
 sidebar_position: 1
 ---
 
