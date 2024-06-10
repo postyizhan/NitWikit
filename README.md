@@ -36,6 +36,7 @@ https://nitwikit.yizhan.wiki/
 - [暮光方块论坛](https://bbs.tsfk.top/threads/399/)
 - [mcbbs2](https://mcbbs2.net/thread-103-1-1.html)
 - [mcutc论坛](https://bbs.mcutc.cn/threads/560/)
+- [HiMCBBS](https://www.himcbbs.com/threads/nitwikit-geyser.420/)
 
 # 🤝 贡献者
 
