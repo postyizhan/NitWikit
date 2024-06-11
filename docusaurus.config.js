@@ -60,19 +60,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'demo',
-        path: 'demo',
-        routeBasePath: 'demo',
-        sidebarPath: require.resolve('./sidebars.js'),
-        // ... other options
-      },
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -91,12 +78,6 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: '开始',
-          },
-          {
-            to: '/demo/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
-            position: 'left',
-            label: 'Demo',
-            activeBaseRegex: `/demo/`,
           },
           // 搜索框
           {
