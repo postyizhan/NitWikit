@@ -1,38 +1,41 @@
 ---
-title: 矿物透视与种子破解
-sidebar_position: 2
+title: 其他作弊类型
+sidebar_position: 4
 ---
 
+# 其他作弊类型
 
-# 矿物透视与种子破解
+为什么常规的反作弊插件不会包括部分作弊类型？
 
-为了防止玩家使用作弊端的Xray功能
+* 矿物透视与种子破解其实是很难从服务器所收到的玩家行为包分析得到的。
+* 插件往往术语有专攻，一个过于齐全的插件会像 ESS / CMI 一样累赘。
+* 插件对于"种子"这种相当底层的特征的修改并不如核心稳定高效。
 
-又或者是进行矿透材质包进行作弊
+## 矿物透视与种子破解
 
-又或者在服务器地图上进行反推世界种子进行矿物查询,寻找结构
+矿物透视是作弊客户端通过材质包、透明渲染非矿物方块等方式实现的对服务器矿物的快速搜索。
 
-导致矿产资源大量泛滥
+而 Minecraft 的结构和矿物等的生成均由种子决定，因此也可以进行种子反推了解服务器结构位置。
 
-完完全全的破坏了服务器经济系统
+矿物透视和种子破解会导致玩家在非常短的时间内获取大量物资，这会影响大多数服务器的平衡和经济。
 
-## 第一步-延长种子反推
+### 延长种子反推
 
-笨蛋脚本:[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
+#### 自动版
 
-使用Paper的Anti-Xray
+请使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
 
-这是服务器核心自带的功能
+#### 特征使用随机种子
 
-这导致他只需要一些些带宽
+:::warning
 
-就可以阻止你服务器上大量的矿透小子
+在使用 Paper 及其 Fork 时。请停止使用[Orebfuscator](https://modrinth.com/plugin/orebfuscator)等假矿插件。换用 Paper 自带的 Anti-Xray。
 
-那么该如何设置才最有效呢
+:::
 
-首先请找到您的Paper配置的yml文件
+修改每种结构和矿物分别对应的种子能推迟或防止玩家推算出结构或矿物所在位置。
 
-> 找到下列模块改成true
+应该如何操作？首先找到 `/config/paper-world-defaults.yml` 文件。调整以下参数：
 
 ```
 feature-seeds:
@@ -40,7 +43,7 @@ feature-seeds:
 ```
 > 这是对每个建筑使用随机种子，防止您的世界种子轻易的被破解
 
-> 还没完，继续找到Spigot的yml文件(不用自己设置，会自动生成)
+> 如果发现你的 `spigot.yml` 中出现了类似以下的配置配置就成功了，你可以修改其中的种子。（但其实不改也完全没问题）
 
 ```
     seed-village: 10387312
@@ -67,45 +70,45 @@ feature-seeds:
 
 ```
 
-把以上所有数字全部打乱
+#### Matter 安全种子
 
-完成以上设置可进一步防止反推种子
+如果你使用包含 Matter 安全种子补丁的分支(例如 Leaf)，那么恭喜你，你可以体验到安全功能种子，
 
-(没有完全杜绝的方法，只能拖延时间)
+地形和生物群落的生成保持不变，但所有矿石和结构都是用 1024 位种子生成的，而不是通常的 64 位种子。
 
-如果你使用包含Matter 安全种子补丁的分支(Leaf有)，那么恭喜你，你可以体验到安全功能种子，地形和生物群落的生成保持不变，但所有矿石和结构都是用 1024 位种子生成的，而不是通常的 64 位种子。这种种子几乎不可能破解，因为所需的破解时间和资源极长无比，如果你正在使用，那么你基本不用担心种子破解
+这种种子几乎不可能破解，因为所需的破解时间和资源极长无比，如果你正在使用，那么你基本不用担心种子破解。
 
 :::danger
 
-开启Leaf安全种子之前，你要明白这玩意儿是**不能关闭的**,也就是说，你开启后，除非你删档重开，不然必须使用安全种子
+开启 Leaf 安全种子之前，你要明白这玩意儿是**不能关闭的**,也就是说，你开启后，除非你删档重开，不然必须使用安全种子
 
 :::
 
-你只需要在leaf的配置文件中找到`secure-seed`,将它打开就可以体验到安全种子
+使用方法：将 `leaf.yml` 中的 `secure-seed` 设置为 true
 
-使用插件[AntiSeedCracker](https://www.spigotmc.org/resources/antiseedcracker-1-20-4.81495/)，这个插件会发送一个虚假的种子到客户端，客户端仍然可以通过分析地形来破解，但难度会大大增强
+#### 插件
 
-(所以建议资源世界不定期重置)
+使用插件 [AntiSeedCracker](https://www.spigotmc.org/resources/antiseedcracker-1-20-4.81495/) ，这个插件会发送一个虚假的种子到客户端，客户端仍然可以通过分析地形来破解，但难度会大大增强
 
-## 第二步-设置假矿
+#### 重置资源世界
 
-解决完种子可以被轻而易举反推的问题
+如果你还是害怕长期推演导致的种子反推。你可以在使用以上一种或多种方法的前提下重置世界，但是这往往只适用于资源世界等。
 
-我们还得解决矿物透视的问题
+### 设置假矿
 
-使用Paper自带的Anti-Xray即可拦截大量矿透
+使用 Paper 自带的 Anti-Xray 即可拦截大量矿透。我们只需要进行一些简单的设置。
 
-但我们也需要进行一些设置
+#### 自动版
 
-(可直接抄作业)
-
-当然，如果你是个笨蛋，你可以直接使用[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
+使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
 
 ⚠警告：engine-mode: 3在1.19.3往后的版本才添加⚠
 
 > 主世界推荐配置
 
-> 配置Ⅰ
+<details>
+  <summary>配置Ⅰ</summary>
+
 ```
 anticheat:
   anti-xray:
@@ -159,8 +162,10 @@ anticheat:
     use-permission: false
 ```
 ![test](_images/anticheat/antixray-mode3-1.png)
+</details>
 
-> 配置Ⅱ
+<details>
+  <summary>配置Ⅱ</summary>
 
 ```
 anticheat:
@@ -195,8 +200,10 @@ anticheat:
 
 ```
 ![test](_images/anticheat/antixray-mode1-1.png)
+</details>
 
-> 配置Ⅲ-*推荐使用*
+<details>
+  <summary>配置Ⅲ-*推荐使用*</summary>
 
 ```
 anticheat:
@@ -252,20 +259,16 @@ anticheat:
 ```
 
 ![test](_images/anticheat/antixray-mode2-1.png)
-
-> 主世界配置推荐使用 **配置Ⅲ**
+</details>
 
 ---
 
-那么下界呢？
-
-该如何在下界使用其他的 Anti-Xray 配置呢？
-
-找到 world_nether/paper-world.yml
+如何在下界使用其他的 Anti-Xray 配置呢？找到 `/world_nether/paper-world.yml`
 
 将下列你喜欢的配置进行复制粘贴即可
 
-> 下界配置Ⅰ
+<details>
+  <summary>下界配置Ⅰ</summary>
 
 ```
 anticheat:
@@ -296,10 +299,10 @@ anticheat:
 ```
 ![test](_images/anticheat/antixray-nether-mode2.png)
 
-> 下界配置Ⅱ
+<details>
+  <summary>下界配置Ⅱ</summary>
 
 ```
-
 anticheat:
   anti-xray:
     enabled: true
@@ -314,16 +317,16 @@ anticheat:
     replacement-blocks: []
     update-radius: 2
     use-permission: false
-
-
 ```
 
 ![test](_images/anticheat/antixray-nerher-mode1.png)
 
-> 下界配置Ⅲ
+</details>
+
+<details>
+  <summary>下界配置Ⅲ</summary>
 
 ```
-
 anticheat:
   anti-xray:
     enabled: true
@@ -348,11 +351,11 @@ anticheat:
     - soul_soil
     update-radius: 2
     use-permission: false
-
-
 ```
 
 ![test](_images/anticheat/antixray-nerher-mode3.png)
+
+</details>
 
 这边推荐使用**下界配置Ⅰ**
 

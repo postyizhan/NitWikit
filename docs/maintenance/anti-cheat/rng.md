@@ -18,7 +18,7 @@ RNG是**随机数生成器**的简写
 现成的客户端mod：
 
 - [clientcommands](https://www.mcmod.cn/class/4239.html)
-- [EnchantmentCracker](https://github.com/Earthcomputer/EnchantmentCracker) 
+- [EnchantmentCracker](https://github.com/Earthcomputer/EnchantmentCracker)
 
 # 能干啥？
 

@@ -29,13 +29,16 @@ sidebar_position: 100
 - [x] 备份 背包备份InventoryRollbackPlus
 - [x] 开服器开服
 - [ ] 维护-二分法插件排除法
-- [ ] 维护-插件命名推荐
+- [x] 维护-插件命名推荐
 - [ ] 搭建翼龙面板？mcsm？
 - [ ] 资源包托管 gitee github gitlab 直链网盘
 
+## 维护
+- [] 优化-性能配置文件
 
 ## 插件
 
+- [ ] Skript简单教程
 - [ ] papi list 扩展：插件自己挂钩 自己下载扩展 不需要插件的扩展
 - [ ] 全息图（浮空字）插件
 - [x] AskyBlock BentoBox（BskyBlock）
@@ -52,6 +55,7 @@ sidebar_position: 100
 
 ## 反作弊
 
+- [x] 排版
 - [x] 提示不适用混合端和geyser
 - [x] 反作弊和via兼容性
 - [x] RNG相关
@@ -80,7 +84,6 @@ sidebar_position: 100
 - [ ] 二分法和控制变量法排查问题
 - [ ] Q机器人教程?
 - [ ] 搭建 Frp
-- [ ] Skript简单教程?
 - [x] Minimessage简单讲解
 - [ ] 怎么支持中文名的玩家
 - [ ] 编码问题以及如何解决
