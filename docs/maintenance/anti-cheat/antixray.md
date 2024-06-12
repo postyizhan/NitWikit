@@ -100,104 +100,14 @@ feature-seeds:
 
 > 主世界推荐配置
 
-<details>
-  <summary>配置Ⅰ</summary>
+:::tip
 
-```
-anticheat:
-  anti-xray:
-    enabled: true
-    engine-mode: 3
-    hidden-blocks:
-    - copper_ore
-    - deepslate_copper_ore
-    - raw_copper_block
-    - gold_ore
-    - deepslate_gold_ore
-    - iron_ore
-    - deepslate_iron_ore
-    - raw_iron_block
-    - coal_ore
-    - deepslate_coal_ore
-    - lapis_ore
-    - deepslate_lapis_ore
-    - mossy_cobblestone
-    - obsidian
-    - chest
-    - diamond_ore
-    - deepslate_diamond_ore
-    - redstone_ore
-    - deepslate_redstone_ore
-    - clay
-    - emerald_ore
-    - deepslate_emerald_ore
-    - ender_chest
-    lava-obscures: false
-    max-block-height: 128
-    replacement-blocks:
-    - amethyst_block
-    - andesite
-    - budding_amethyst
-    - calcite
-    - coal_ore
-    - deepslate_coal_ore
-    - deepslate
-    - diorite
-    - dirt
-    - emerald_ore
-    - deepslate_emerald_ore
-    - granite
-    - gravel
-    - oak_planks
-    - smooth_basalt
-    - stone
-    - tuff
-    update-radius: 2
-    use-permission: false
-```
-![test](_images/anticheat/antixray-mode3-1.png)
-</details>
+如果使用了 Raytraceantixray 请务必使用配置 Ⅲ 。
+
+:::
 
 <details>
-  <summary>配置Ⅱ</summary>
-
-```
-anticheat:
-  anti-xray:
-    enabled: true
-    engine-mode: 1
-    hidden-blocks:
-    - chest
-    - coal_ore
-    - deepslate_coal_ore
-    - copper_ore
-    - deepslate_copper_ore
-    - raw_copper_block
-    - diamond_ore
-    - deepslate_diamond_ore
-    - emerald_ore
-    - deepslate_emerald_ore
-    - gold_ore
-    - deepslate_gold_ore
-    - iron_ore
-    - deepslate_iron_ore
-    - raw_iron_block
-    - lapis_ore
-    - deepslate_lapis_ore
-    - redstone_ore
-    - deepslate_redstone_ore
-    lava-obscures: false
-    max-block-height: 64
-    replacement-blocks: []
-    update-radius: 2
-    use-permission: false
-
-```
-![test](_images/anticheat/antixray-mode1-1.png)
-</details>
-
-<details>
-  <summary>配置Ⅲ-*推荐使用*</summary>
+  <summary>配置 Ⅰ - *带宽消耗较大，效果非常好*</summary>
 
 ```
 anticheat:
@@ -255,6 +165,102 @@ anticheat:
 ![test](_images/anticheat/antixray-mode2-1.png)
 </details>
 
+<details>
+  <summary>配置Ⅱ - *带宽消耗中等，效果中等</summary>
+
+```
+anticheat:
+  anti-xray:
+    enabled: true
+    engine-mode: 3
+    hidden-blocks:
+    - copper_ore
+    - deepslate_copper_ore
+    - raw_copper_block
+    - gold_ore
+    - deepslate_gold_ore
+    - iron_ore
+    - deepslate_iron_ore
+    - raw_iron_block
+    - coal_ore
+    - deepslate_coal_ore
+    - lapis_ore
+    - deepslate_lapis_ore
+    - mossy_cobblestone
+    - obsidian
+    - chest
+    - diamond_ore
+    - deepslate_diamond_ore
+    - redstone_ore
+    - deepslate_redstone_ore
+    - clay
+    - emerald_ore
+    - deepslate_emerald_ore
+    - ender_chest
+    lava-obscures: false
+    max-block-height: 128
+    replacement-blocks:
+    - amethyst_block
+    - andesite
+    - budding_amethyst
+    - calcite
+    - coal_ore
+    - deepslate_coal_ore
+    - deepslate
+    - diorite
+    - dirt
+    - emerald_ore
+    - deepslate_emerald_ore
+    - granite
+    - gravel
+    - oak_planks
+    - smooth_basalt
+    - stone
+    - tuff
+    update-radius: 2
+    use-permission: false
+```
+![test](_images/anticheat/antixray-mode3-1.png)
+</details>
+
+<details>
+  <summary>配置Ⅲ - *降低带宽消耗，效果较差*</summary>
+
+```
+anticheat:
+  anti-xray:
+    enabled: true
+    engine-mode: 1
+    hidden-blocks:
+    - chest
+    - coal_ore
+    - deepslate_coal_ore
+    - copper_ore
+    - deepslate_copper_ore
+    - raw_copper_block
+    - diamond_ore
+    - deepslate_diamond_ore
+    - emerald_ore
+    - deepslate_emerald_ore
+    - gold_ore
+    - deepslate_gold_ore
+    - iron_ore
+    - deepslate_iron_ore
+    - raw_iron_block
+    - lapis_ore
+    - deepslate_lapis_ore
+    - redstone_ore
+    - deepslate_redstone_ore
+    lava-obscures: false
+    max-block-height: 64
+    replacement-blocks: []
+    update-radius: 2
+    use-permission: false
+
+```
+![test](_images/anticheat/antixray-mode1-1.png)
+</details>
+
 ---
 
 如何在下界使用其他的 Anti-Xray 配置呢？找到 `/world_nether/paper-world.yml`
@@ -262,7 +268,7 @@ anticheat:
 将下列你喜欢的配置进行复制粘贴即可
 
 <details>
-  <summary>下界配置Ⅰ</summary>
+  <summary>下界配置 Ⅰ - *带宽压力翻倍，效果好，客户端 FPS 可能下降*</summary>
 
 ```
 anticheat:
@@ -296,7 +302,7 @@ anticheat:
 </details>
 
 <details>
-  <summary>下界配置Ⅱ</summary>
+  <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般（但下届合金一定会被隐藏）*</summary>
 
 ```
 anticheat:
@@ -320,7 +326,7 @@ anticheat:
 </details>
 
 <details>
-  <summary>下界配置Ⅲ</summary>
+  <summary>下界配置 Ⅲ - *带宽占用较大提升，效果较好*</summary>
 
 ```
 anticheat:
@@ -353,53 +359,36 @@ anticheat:
 
 </details>
 
-这边推荐使用**下界配置Ⅰ**
-
-那么终末地配置呢？
-
-我们推荐在终末地地图不使用假矿
-
-所以world_the_end/paper.world.yml的配置
-
-我们的推荐如下
+在末地由于没有矿物，我们推荐将 `world_the_end/paper.world.yml` 进行以下配置即可。
 
 ```
-
 anticheat:
   anti-xray:
     enabled: false
-
-
 ```
 
 注意，如果你需要隐藏暴露在空气中的方块,需要将 `air` 添加到 `hidden-blocks` 和 `replacement-blocks` ，但这非常影响性能，不推荐。
 
+:::info
 
----
+将配置文件复制到对应 yml 文件中时，如果已经存在，请相应的进行覆盖而不是简单复制到最后。
 
-至此，这就是你不用插件就能做到反矿物透视的所有事
+如果并不存在类似的文本，那么请直接复制到对应世界 yml 中。
+
+:::
 
 ### Anti-xray 插件
 
-#### RayTraceAntiXray(非常推荐)
+[RayTraceAntiXray](https://builtbybit.com/resources/raytraceantixray.24914/)，[开源](https://github.com/stonar96/RayTraceAntiXray)付费且仅售 7 美元。
 
-[下载链接（7 美元）](https://builtbybit.com/resources/raytraceantixray.24914/)
+是一款用于隐藏 paper 服务器中使用 `engine-mode: 1` 时暴露在空气中的未隐藏方块的插件。
 
-用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-Xray 引擎模式 1 隐藏暴露在空气中的矿石。
+其使用了异步多线程光线追踪，判断玩家是否能看到目标方块，从而在玩家能够看到目标方块时发送真实方块信息。
 
-可以优化自带的Anti-Xray，减小服务器的负担。项目是开源的，也可[自行构建](https://github.com/stonar96/RayTraceAntiXray)
-
-#### RaytraceAntiXray(20欧元)(推荐)
-
-[下载链接（20 欧元）](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/)
-
-插件特色
-* 支持版本极广(1.8-最新）(1.13.2之前可是连raytrace方法都没)
-* 支持实体隐藏
-* 支持奖励箱，刷怪笼之类的隐藏
+可以优化自带的 Anti-Xray ，减小服务器的带宽开销，如需构建请自行构建。
 
 :::warning
 
-在使用 Paper 及其 Fork 时。请停止使用[Orebfuscator](https://modrinth.com/plugin/orebfuscator)等假矿插件。换用 Paper 自带的 Anti-Xray。
+在使用 Paper 及其 Fork 时。请停止使用 [Orebfuscator](https://modrinth.com/plugin/orebfuscator) 等假矿插件。换用 Paper 自带的 Anti-Xray。
 
 :::

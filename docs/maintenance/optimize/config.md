@@ -5,9 +5,11 @@ sidebar_position: 3
 
 # 调服务端配置
 
-没有适用于所有服务器的设置. 您应该理解每个配置选项，并根据服务器的最佳参数与服务器硬件、玩家数量和服务器性质等调整参数. 所以参数因服而异.
+没有适用于所有服务器的设置. 您应该理解每个配置选项，并根据服务器的最佳参数与服务器硬件、玩家数量和服务器性质等调整参数.
 
-随着进入游戏后期，服务器工作量会随着机器或者玩家增加而逐渐增加，因此服务器优化不是一次性的任务，而是持续的努力.
+所以参数因服而异，随着进入游戏后期，服务器工作量会随着机器或者玩家增加而逐渐增加，
+
+因此服务器优化不是一次性的任务，而是持续的努力.
 
 准备好你的脑子，以下的推荐参数仅作为参考，具体数字请自行尝试:
 
@@ -34,7 +36,9 @@ sidebar_position: 3
 
 :::
 
-# 可爱的Paper酱
+<details>
+
+# 可爱的 Paper 酱
 
 ![](https://paper-chan.moe/content/images/2022/09/Paper-Chan-Banner-2022-Standard-3.jpg)
 
@@ -49,3 +53,5 @@ sidebar_position: 3
 ![](https://paper-chan.moe/content/images/2023/03/paperfoliaAPNG.png)
 
 ![](https://paper-chan.moe/content/images/2023/05/Paper-Canvas-with-Folia-v5.png)
+
+</details>
