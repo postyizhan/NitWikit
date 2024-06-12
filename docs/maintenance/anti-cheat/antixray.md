@@ -27,12 +27,6 @@ sidebar_position: 4
 
 #### 特征使用随机种子
 
-:::warning
-
-在使用 Paper 及其 Fork 时。请停止使用[Orebfuscator](https://modrinth.com/plugin/orebfuscator)等假矿插件。换用 Paper 自带的 Anti-Xray。
-
-:::
-
 修改每种结构和矿物分别对应的种子能推迟或防止玩家推算出结构或矿物所在位置。
 
 应该如何操作？首先找到 `/config/paper-world-defaults.yml` 文件。调整以下参数：
@@ -299,6 +293,8 @@ anticheat:
 ```
 ![test](_images/anticheat/antixray-nether-mode2.png)
 
+</details>
+
 <details>
   <summary>下界配置Ⅱ</summary>
 
@@ -376,31 +372,34 @@ anticheat:
 
 ```
 
-注意，如果你需要隐藏暴露在空气中的方块,需要将`air`添加到`hidden-blocks`和`replacement-blocks`,但是这样会影响服务器性能，开启前，请经过大脑
+注意，如果你需要隐藏暴露在空气中的方块,需要将 `air` 添加到 `hidden-blocks` 和 `replacement-blocks` ，但这非常影响性能，不推荐。
 
 
 ---
 
 至此，这就是你不用插件就能做到反矿物透视的所有事
 
-### 那么有什么 Antixray 插件
+### Anti-xray 插件
 
-#### RayTraceAntiXray（7美元）(非常推荐)
-[查看](https://builtbybit.com/resources/raytraceantixray.24914/)
-用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-Xray 引擎模式 1 隐藏暴露在空气中的矿石。可以优化自带的Anti-Xray，减小服务器的负担
+#### RayTraceAntiXray(非常推荐)
 
-开源，可自行构建 https://github.com/stonar96/RayTraceAntiXray
+[下载链接（7 美元）](https://builtbybit.com/resources/raytraceantixray.24914/)
+
+用于服务器端异步多线程光线追踪的 Paper 插件，使用 Paper Anti-Xray 引擎模式 1 隐藏暴露在空气中的矿石。
+
+可以优化自带的Anti-Xray，减小服务器的负担。项目是开源的，也可[自行构建](https://github.com/stonar96/RayTraceAntiXray)
 
 #### RaytraceAntiXray(20欧元)(推荐)
 
-[查看](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/)
+[下载链接（20 欧元）](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/)
 
 插件特色
 * 支持版本极广(1.8-最新）(1.13.2之前可是连raytrace方法都没)
 * 支持实体隐藏
 * 支持奖励箱，刷怪笼之类的隐藏
 
-其他的反X光插件就别用了，就比如Orebfuscator,那玩意儿甚至不如我用Paper Antixray
+:::warning
 
+在使用 Paper 及其 Fork 时。请停止使用[Orebfuscator](https://modrinth.com/plugin/orebfuscator)等假矿插件。换用 Paper 自带的 Anti-Xray。
 
-
+:::
