@@ -36,6 +36,8 @@ sidebar_position: 1
 像是卡在竹子中间，缺少一些Java版独有的粒子，物品材质之类的
 我们可以通过安装额外插件来对客户端和服务端进行额外的修改来完成兼容
 
+# Geyser扩展
+
 ### Hurricane插件
 此插件可以修复:
 * 卡在竹子和滴水石锥中无法移动
@@ -87,7 +89,7 @@ GeyserOptionalPack是一个可选资源包
 - 部分缺失的粒子
 - 副手动画
 - 潜影贝隐形平等性
-- 发光箭实体纹理 (没有实体描边渲染，只有纹理)
+- 发光箭实体纹理 (没有实体描边渲染(基岩版本身就没有)，只有箭矢纹理)
 - 提供超过记分板字符限制的绕过方式
 - 隐藏在Java版中没有的UI元素，例如：
   - 制图台中的文本输入字段
@@ -130,7 +132,7 @@ GeyserUtils是zimzaza4开发的Geyser扩展工具
 
 ## floodgate-skript
 
-一个Skript扩展插件，可以在Skript中使用FloodgateAPI检测基岩玩家
+一个Skript扩展插件，可以在Skript中使用FloodgateAPI检测基岩版玩家
 
 示例:
 
@@ -138,12 +140,12 @@ GeyserUtils是zimzaza4开发的Geyser扩展工具
 #玩家加入服务器后执行事件
 on join:
     trigger:
-        #如果玩家是通过floodgate加入服务器就执行此指令
+        #如果玩家是通过floodgate加入服务器就让控制台执行此指令
         if player is from floodgate:
-            make console execute command "say %player%是基岩版玩家"
+            make console execute command "say 欢迎基岩版玩家 %player% 加入服务器!"
         #如不是就让控制台执行此指令
         else:
-            make console execute command "say %player%是JAVA版玩家"
+            make console execute command "say 欢迎JAVA版玩家 %player% 加入服务器!"
 ```
 
 ## LuckBedrock
