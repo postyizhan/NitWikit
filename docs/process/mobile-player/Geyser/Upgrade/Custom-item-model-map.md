@@ -66,15 +66,93 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 #### 物品映射
 
-这里我非常推荐使用[Geyser Wiki](https://wiki.geysermc.org/geyser/custom-items/)中的Json映射
+这里我非常推荐使用[Geyser Wiki](https://wiki.geysermc.org/geyser/custom-items/)中的Json映射方式，方便编写和修改
+
+##### 注册物品行为
+
+这是一个律师勋章，我想让他在基岩版上也显示
+
+![](./_image/CIMM1.jpg)
+
+我们来到 `服务端/plugins/geyser/custom_mappings` 目录，创建一个json文件用于Geyser映射自定义物品
+
+![](./_image/CIMM2.jpg)
+
+名字可以根据自己喜好起，我这里命名为 `test_item.json`。
+
+如果你没有受虐倾向，建议起简单好记一看就知道里面是什么东西的名字
+
+回到游戏，手持律师勋章，执行 `/iatag` 指令
+
+![](./_image/CIMM3.jpg)
+
+我们看到他的 `ID` 是 `minecraft:paper`，以及 `CustomModelData(简称CMD)` 值是 10534
+
+然后根据我们获得的物品信息，在 `test_item.json` 写入以下信息
+
+示例:
+
+```
+{
+  "format_version": "1",
+  "items": {
+    //这里填物品的ID
+    "minecraft:paper": [
+      {
+        "name": "ITEM_LSXZ", //物品的名字可以随便填
+        "allow_offhand": true, //是否允许将物品放在副手
+        "custom_model_data": 10534 //这里填CMD值
+      }
+    ]
+  }
+}
+```
+
+json文件不允许有注释，如果你要复制过去记得删除注释
+
+保存，然后我们的自定义物品Geyser已经注册好了，接下来是基岩版资源包方面的教程
+
+##### 制作资源包
+
+网上有很多制作资源包的教程，这里不多复述最基础的操作
+
+基岩版资源包的结构你可以看这里的 [基岩文档](https://wiki.bedrock.dev/documentation/pack-structure.html)
+
+我们来到 `资源包/textures` 目录下，创建个 `items` 文件夹用于存放物品纹理
+
+这里我将纹理 `LSXZ.png` 放在 `textures/items/item/` 下
+
+现在在 `资源包/textures` 目录下，创建个 `item_textures.json` 文件用于指定物品的纹理
+
+![](./_image/CIMM4.jpg)
+
+在 `item_textures.json` 中写入
+
+```
+{
+  "resource_pack_name": "这里填资源包名字",
+  "texture_name": "atlas.items",
+  "texture_data": {
+        //填你在 test_item.json 填写的物品名称
+		"ITEM_LSXZ":
+        {
+			"textures": [
+				"textures/items/item/LSXZ" //填你纹理贴图的位置，不需要填png后缀
+			]
+		}
+    }
+}
+```
+
+完事后打包资源包，把你的资源包丢给Geyser
+
+现在重启服务器，你的自定义物品应该能在基岩版显示了!
+
+#### 3D模型物品
 
 (施工中)
 
-#### 手持3D模型
-
-(施工中)
-
-#### 饰品(帽子翅膀类)
+#### 饰品 (帽子翅膀类)
 
 (施工中)
 
