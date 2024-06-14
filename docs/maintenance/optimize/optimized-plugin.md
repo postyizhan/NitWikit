@@ -26,7 +26,9 @@ sidebar_position: 6
 ## 不建议使用的"优化"插件
 
 :::info
+
 有很多优化是核心自带的，使用插件只是利用核心的 API，效率上是比不上核心的. 如 AI，村民，爆炸，区块卸载等...
+
 :::
 
 ### 对于 AI 有影响的插件
@@ -90,9 +92,13 @@ world-settings:
 
 ### 地面清理插件
 
-地面上的物品很少会导致性能问题，而且物品往往会自行消失，如果你的服务器掉落物特别多，你可以将 /config/paper-world-default.yml 中的 alt-item-despawn-rate 调整为 true.
+地面上的物品很少会导致性能问题，而且物品往往会自行消失，如果你的服务器掉落物特别多，
 
-并将你需要快速消失的物品加在后面，数字的单位为刻，即下面这个例子里代表世界里的"cobblestone(原石)"和"cobbled_deepslate(深层板岩)"会在600tick(30s)后自动消失：
+你可以将 `/config/paper-world-default.yml` 中的 alt-item-despawn-rate 调整为 true.
+
+并将你需要快速消失的物品加在后面，数字的单位为刻，即下面这个例子里代表世界里的"cobblestone(原石)"
+
+和"cobbled_deepslate(深层板岩)"会在600tick(30s)后自动消失：
 
 <details>
   <summary>我应该怎么调整?</summary>
@@ -124,7 +130,7 @@ world-settings:
         slime_ball: 1200
         phantom_membrane: 900
 ```
-除此之外，你还可以提升 spigot.yml 中的 merge-radius 从而使得更远的物品也能堆叠.
+除此之外，你还可以提升 `spigot.yml` 中的 `merge-radius` 从而使得更远的物品也能堆叠.
 
 </details>
 
@@ -187,8 +193,10 @@ optimize-explosions: true
   <summary>我应该怎么调整?</summary>
 
 ```yaml
-delay-chunk-unloads-by: 8s #区块将在8s后卸载
-keep-spawn-loaded: false #停止出生点区块常加载
+delay-chunk-unloads-by: 8s
+#区块将在 8s 后卸载
+keep-spawn-loaded: false
+#停止出生点区块常加载
 ```
 
 </details>

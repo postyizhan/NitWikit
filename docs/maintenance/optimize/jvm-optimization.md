@@ -80,13 +80,13 @@ java -Xlog:gc+init -XX:+UseLargePages -Xmx1g -version
 
 如果出现了以下字样，那么说明不完全兼容：
 
-```
+```shell
 UseLargePages disabled， no large pages configured and available on the system.
 ```
 
 那么就说明当前系统并不支持大页，不过不要急，可以试一下这一行命令：
 
-```
+```shell
 java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 ```
 
@@ -96,17 +96,34 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 这里就不再过多的赘述了。(LargePages对服务器提升相当巨大)
 
-如果支持 LargePages ，加上此参数 `-XX:+UseLargePages  -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS`
+如果支持 LargePages ，加上此参数
 
-如果支持 TransparentHugePages (不要把两个都加上，优先LargePages)，加上此参数 `-XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS`
+```shell
+-XX:+UseLargePages  -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS
+```
+
+
+如果支持 TransparentHugePages (不要把两个都加上，优先LargePages)，加上此参数
+
+```shell
+-XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS
+```
 
 ### SIMD
 
-如果你使用的是 Pufferfish 的分支(Purpur，Leaf，Leaves，Gale)，你可以添加此参数 `--add-modules=jdk.incubator.vector`
+如果你使用的是 Pufferfish 的分支(Purpur，Leaf，Leaves，Gale)，你可以添加此参数
+
+```shell
+--add-modules=jdk.incubator.vector
+```
 
 ### 下载源加速
 
-默认的 SpigotLibraryLoader 下载源在国内访问很慢，如果你使用的是Leaf，你可以添加 `-DLeaf.library-download-repo=https://maven.aliyun.com/repository/public` 参数启动国内下载源
+默认的 SpigotLibraryLoader 下载源在国内访问很慢，如果你使用的是Leaf，你可以添加参数使用国内下载源：
+
+```shell
+-DLeaf.library-download-repo=https://maven.aliyun.com/repository/public
+```
 
 ## 参数解释
 

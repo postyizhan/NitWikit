@@ -5,11 +5,11 @@ sidebar_position: 3
 
 # 调服务端配置
 
-没有适用于所有服务器的设置. 您应该理解每个配置选项，并根据服务器的最佳参数与服务器硬件、玩家数量和服务器性质等调整参数.
+没有适用于所有服务器的设置。您应该理解每个配置选项，并根据服务器的最佳参数与服务器硬件、玩家数量和服务器性质等调整参数。
 
 所以参数因服而异，随着进入游戏后期，服务器工作量会随着机器或者玩家增加而逐渐增加，
 
-因此服务器优化不是一次性的任务，而是持续的努力.
+因此服务器优化不是一次性的任务，而是持续的努力。
 
 准备好你的脑子，以下的推荐参数仅作为参考，具体数字请自行尝试:
 
@@ -24,11 +24,14 @@ sidebar_position: 3
 
 # 更详细的
 
-## 所有人都应该做的
-
-### 预先生成地图
-
-**TODO**
+[`SOG`]: https://www.spigotmc.org/threads/guide-server-optimization%E2%9A%A1.283181/
+[server.properties]: https://docs.papermc.io/paper/reference/server-properties
+[bukkit.yml]: https://docs.papermc.io/paper/reference/bukkit-configuration
+[spigot.yml]: https://docs.papermc.io/paper/reference/spigot-configuration
+[paper-global configuration]: https://docs.papermc.io/paper/reference/global-configuration
+[paper-world configuration]: https://docs.papermc.io/paper/reference/world-configuration
+[purpur.yml]: https://purpurmc.org/docs/Configuration/
+[pufferfish.yml]: https://docs.pufferfish.host/setup/pufferfish-fork-configuration/
 
 :::warning
 
