@@ -16,18 +16,19 @@ sidebar_position: 5
 * 自动配置防种子破解
 * 自动生成启动脚本
 * 自动安装常用插件
-* 自动安装 Python
 * 自动安装 Java
 * 一键上传日志
 * 自动配置反作弊
 * 自动简单配置
 * 自动选择服务端核心并下载
 * 自动配置Geyser
+* Via自动配置
+* 服务端选择+下载
 * 还有更多（在编写中）
 
 ## 赞助我们
 
-打点钱吧，写这些脚本并不容易
+打点钱吧，写这些脚本并不容易,没钱的话,给个免费的star也可以:)
 
 ## 使用准备
 
@@ -51,10 +52,8 @@ sidebar_position: 5
 32位操作系统或Win7需要自己安装Python,并安装依赖(一大堆)
 
 ```shell
-pip install pyyaml install-jdk tqdm psutil requests
+pip install pyyaml install-jdk tqdm psutil requests rtoml
 ```
-
-Python 3.10以下需要`rtoml`依赖
 
 ## 了解
 
