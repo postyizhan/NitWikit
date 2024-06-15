@@ -44,12 +44,13 @@ sidebar_position: 1
 - WorldEdit 创世神
 - EssentialsX 基础插件
 - Multiverse-Core 多世界管理
-- ViaVersion，ViaBackwards 跨版本
+- ~~ViaVersion，ViaBackwards 跨版本~~
 - AuthMe 登陆插件
-- spark 性能分析(Purpur会自动跳过安装)
 - SkinRestorer 皮肤管理/皮肤修复
 - TrChat 聊天插件
 - MiniMotd MOTD插件
+
+Via自动安装已经移动到[此处](./other/跨版本/概览.md#笨蛋脚本)
 
 </details>
 
