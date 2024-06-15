@@ -38,6 +38,30 @@ https://nitwikit.yizhan.wiki/
 - [mcutc论坛](https://bbs.mcutc.cn/threads/560/)
 - [HiMCBBS](https://www.himcbbs.com/threads/nitwikit-geyser.420/)
 
+# 🔨 构建文档
+
+> [!NOTE]
+> 请先安装 Node.js 和 npm
+
+1. 将此仓库克隆至本地  
+   `git clone https://github.com/postyizhan/NitWikit.git`
+2. 移动至仓库根目录  
+   `cd NitWikit`
+3. 安装依赖  
+   `npm install`
+4. 构建文档  
+   `npm run build`
+5. 部署测试网站  
+   `npm run serve`
+
+# ⬆️ 提交贡献
+
+1. Fork 此仓库至自己的GitHub账户下
+2. 将自己账户下的仓库克隆至本地  
+   `git clone https://github.com/你的用户名/NitWikit.git`
+3. 在本地仓库中进行修改并构建文档测试，无误后push至自己的仓库
+4. 回到此仓库，点击 Pull requests -> New pull request 发起Pr
+
 # 🤝 贡献者
 
 ## 常驻
