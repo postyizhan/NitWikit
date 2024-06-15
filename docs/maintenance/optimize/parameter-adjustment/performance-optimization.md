@@ -9,7 +9,9 @@ sidebar_position: 1
 
 ## 区块
 
-### 降低服务器模拟距离
+### 模拟距离
+
+#### simulate-distance
 
 :::tip
 
@@ -29,7 +31,7 @@ sidebar_position: 1
 
 另外，应该鼓励您的玩家安装 Bobby 或 Farsight 等 mod，可以在本地缓存区块，这不会对服务器性能造成任何影响！
 
-#### 手动调整
+##### 手动调整
 
 在 `spigot.yml` 中可以设置服务器的模拟距离：
 
@@ -42,11 +44,13 @@ simulate-distance: 8
 
 `推荐值：3 - 8`
 
-#### 自动调整
+##### 自动调整
 
 安装 [View Distance Tweaks](https://www.spigotmc.org/resources/view-distance-tweaks.75164/) 实现自动调整视野距离使得玩家增多时自动减少视野，玩家减少时自动增加视野。
 
-### 降低区块生成速度
+### 区块生成和加载
+
+#### chunk-loading-basic
 
 服务器生成区块非常消耗资源，希望你服务器进行了预生成，如果没有进行的话请阅读 [优化概论](overview.md)
 
@@ -69,7 +73,29 @@ chunk-loading-basic:
 
 `推荐值：20 - 40`
 
+#### prevent-moving-into-unloaded-chunks
+
+```
+推荐值: true
+```
+
+防止玩家进入未加载的区块，以避免同步加载区块造成的主线程卡顿。view-distance视距越小，玩家进入未加载区块的可能性就越大。
+
+#### max-loads-per-projectile
+
+在 Minecraft 中，射出的箭、扔出的末影珍珠等可以加载一定距离的区块。
+
+在 `pufferfish.yml` 中可以调整弹射物最多加载的区块数量。
+
+降低该值可减少大量弹射物造成的区块负载，但可能会导致末影珍珠等出现问题。
+
+```
+推荐值: 8
+```
+
 ### 调整区块卸载速度
+
+#### delay-chunk-unloads-by
 
 区块的反复大量加载和卸载区块是很消耗性能的，而长期加载无效的区块也是浪费性能。
 
@@ -88,7 +114,106 @@ chunks:
 | ------ | ---------------------------------- |
 | 5s     | 开荒期、玩家会大范围跑图时         |
 | 10s    | 普通服务器                         |
-| 15s    | 服务器玩法决定玩家不会大范围移动时 |
+| >15s   | 服务器玩法决定玩家不会大范围移动时 |
+
+### 世界保存
+
+#### max-auto-save-chunks-per-tick
+
+在 `paper-world-defaults.yml` 中的参数，用于控制世界保存速度。
+
+```
+max-auto-save-chunks-per-tick: 24
+```
+
+这个值是每个 tick 最多可以保存的区块数量，通过降低世界区块保存速度可以提高平均性能。
+
+如果一个 tick 加载区块超过本设定值，将在下一个 tick 继续保存剩余的待保存区块。
+
+这个值应该与需要保存的区块及玩家人数相匹配，当人数更多有更多区块需要保存时应该适当增加。
+
+保存区块的速度快意味着保存时负载高，但保存时间更短。如果遭遇断电、突然死机等情况时，
+
+使用更高的保存速度是有利于降低丢失区块数据的可能性的。
+
+| 推荐值 | 服务器人数        |
+| ------ | ----------------- |
+| 4      | 长期不到 10 人    |
+| 8      | 20 人左右（默认） |
+| 12     | 30 人左右         |
+| >24    | 长期大于 50       |
+
+#### entity-per-chunk-save-limit
+
+在保存区块时，服务器会一并保存区块对应位置的实体。
+
+在 `paper-world-defaults.yml` 中的参数，用于控制世界保存时最大保存的某种实体数量。
+
+推荐值：
+```yaml
+chunks:
+  entity-per-chunk-save-limit:
+    area_effect_cloud: 8
+    arrow: 16
+    dragon_fireball: 3
+    egg: 8
+    ender_pearl: 8
+    experience_bottle: 3
+    experience_orb: 16
+    eye_of_ender: 8
+    fireball: 8
+    firework_rocket: 8
+    llama_spit: 3
+    potion: 8
+    shulker_bullet: 8
+    small_fireball: 8
+    snowball: 8
+    spectral_arrow: 16
+    trident: 16
+    wither_skull: 4
+```
+
+此项可以设置区块卸载后从内存保存到硬盘时每个区块最大的实体数量，可为每种实体规定一个限制，
+
+以避免服务器尝试保存大量弹射物时崩溃，你还可以根据名称将其他实体添加到该列表中。
+
+从而缓解某些玩家使用大量实体卡服。**并不适用于阻止玩家建造大型生物农场。**
+
+### 藏宝图
+
+#### treasure-maps.enabled
+
+在 `paper-world-default.yml`
+
+```
+推荐值: false
+```
+
+生成藏宝图的性能占用极高，如果要定位的结构位于未生成的区块中，服务器甚至可能会未响应。只有在您预生成世界并设置原版世界边界的情况下，启用此功能才是安全的。
+
+#### treasure-maps.find-already-discovered
+
+在 `paper-world-default.yml`
+
+```
+推荐值:
+      loot-tables: true
+      villager-trade: true
+```
+
+此项的默认值强制新藏宝图寻找未探索过的结构，这些结构通常位于尚未生成的区块中。将其设置为 true 可使地图指向之前发现过的结构。如果不将其更改为 true，在生成新的藏宝图时可能会遇到服务器未响应或崩溃的情况。 `villager-trade`影响村民交易的地图，而`loot-tables`影响任何生成战利品的容器，如宝箱等。
+
+#### dolphin.disable-treasure-searching
+
+[purpur.yml]
+
+```
+推荐值: true
+```
+
+禁止海豚寻宝。
+
+
 
 ## 实体
 
@@ -156,7 +281,9 @@ mob-spawn-range: 8
 |        28        |             4-5               |     65%     |
 |        14        |             3-4               |     48%     |
 
-### 刷新速度
+### 实体刷新及消失
+
+#### ticks-per
 
 在 `bukkit.yml` 中有关于生物生成频率的设置：
 
@@ -196,9 +323,69 @@ ticks-per:
 
 :::
 
-### 生物 AI 相关
+#### despawn-ranges
+
+在 paper
+
+```
+推荐值:
+
+      ambient:
+        hard: 72
+        soft: 30
+      axolotls:
+        hard: 72
+        soft: 30
+      creature:
+        hard: 72
+        soft: 30
+      misc:
+        hard: 72
+        soft: 30
+      monster:
+        hard: 72
+        soft: 30
+      underground_water_creature:
+        hard: 72
+        soft: 30
+      water_ambient:
+        hard: 72
+        soft: 30
+      water_creature:
+        hard: 72
+        soft: 30
+```
+
+此项可以调整各种生物的消失范围（方块为单位）。降低这些值可以更快地清除远离玩家的生物。 您应该将 soft 软距离设置为约`30`，然后将 hard 硬性距离设置的稍微大于 simulation-distance，这样当玩家刚刚跑出区块时，生物不会立即消失（您可以一并调整 [paper-world configuration] 中的`delay-chunk-unloads-by`）。 当一个生物离开了 hard 距离，该生物会立刻消失。 当一个生物处于 soft 和 hard 距离之间，该生物将有概率消失。 您的 hard 距离应该大于 soft 距离。您应该根据模拟距离调整此项：`(simulation-distance * 16) + 8`。 此项还可能造成玩家经过后，区块不卸载的情况（因为生物还没消失）。
+
+### 碰撞箱
+
+#### max-entity-collisions
+
+在 `paper-world-default.yml`
+
+```
+推荐值: 2
+```
+
+覆盖 [spigot.yml] 中的同名项。它让您决定一个实体可以同时处理多少次碰撞。`0`将导致无法推动其他实体，包括玩家。`2`应该可以处理大部分情况。 值得注意的是，这将会破坏 maxEntityCramming gamerule 也就是生物堆叠窒息。
+
+
+#### fix-climbing-bypassing-cramming-rule
+
+在 `paper-world-default.yml`
+
+```
+推荐值: true
+```
+
+是否修复实体在攀爬时不受实体挤压影响的问题。这将防止大量生物在攀爬时堆叠在狭小空间内（例如蜘蛛）。
+
+### 实体 AI
 
 #### 生物激活范围
+
+##### entity-activation-range
 
 在 `spigot.yml` 中有一个控制生物激活范围的参数 `entity-activation-range`:
 
@@ -218,7 +405,94 @@ ticks-per:
       flying-monsters: 48
 ```
 
+##### inactive-goal-selector-throttle
+
+在 `pufferfish.yml` 中的关于生物目标选择的配置
+
+```
+推荐值: true
+```
+
+在实体非活动时限制其目标选择器，让非活动实体每 `20 tick` 更新一次其目标选择器，
+
+而不是每 tick 更新一次。可以将性能提高几个百分点，而且对游戏体验的影响很小。
+
+##### dab
+
+在 `pufferfish.yml` 中的关于生物 AI 的配置
+
+```yaml
+dab:
+  enabled: true
+  start-distance: 12
+  max-tick-freq: 30
+  activation-dist-mod: 7
+  blacklisted-entities: []
+```
+
+`dab` 是什么？这是一个生物 AI 控制算法，以梯度降低远处生物的 AI 运行，因为远处生物相对不重要。
+
+`start-distance` 单位为格，控制了从多少远开始降低生物的 AI；
+
+`activation-dist-mod` 为梯度，增加此值可使较远的实体更频繁地运算。减少此值可使较远的实体运算的更慢，从而更加流畅。但会影响实体与环境互动，可能降低刷怪塔效率。
+
+`max-tick-freq` 单位为 tick，控制了实体最低 tick 的间距，即无论实体有多远，只要被加载，那么至少在 20 tick 内会被运算一次。
+
+`blacklisted-entities` 是可以无视 dab 控制 AI 的实体，如果某种实体 AI 特别重要，那么可以试着加入黑名单。
+
+不同情况下的推荐值：
+
+| 选项                | 牺牲 AI 换取性能 | 推荐 | 更接近原版 |
+| ------------------- | ---------------- | ---- | ---------- |
+| start-distance      | 8 - 10           | 12   | 20         |
+| max-tick-freq       | 30 - 40          | 20   | 10         |
+| activation-dist-mod | 7 - 8            | 7    | 6 -7       |
+
+#### 刷怪笼相关
+
+##### nerf-spawner-mobs
+
+在 `spigot.yml` 中关于刷怪笼 AI 的参数。
+
+```
+nerf-spawner-mobs: false
+```
+
+打开此项可以卸载刷怪笼生成的生物的 AI，被卸载 AI 的生物将不会做任何事情。
+
+```
+推荐值: true
+```
+
+这一项打开时候会大幅影响刷怪塔及游戏体验，因此 paper 为此做了[更加人性化的选项](#spawner-nerfed-mobs-should-jump)。
+
+##### spawner-nerfed-mobs-should-jump
+
+在 `paper-world-defaults.yml` 中控制刷怪笼 AI 的参数。
+
+```
+spawner-nerfed-mobs-should-jump: false
+```
+
+这个参数控制了刷怪笼刷出的生物是否能给在水中跳跃，这修复了 `nerf-spawner-mobs` 导致的刷怪塔问题。
+
+```
+推荐值: true
+```
+
+##### tick-rates.mob-spawner
+
+在 `paper-world-defaults.yml` 中控制刷怪笼刷新速度的参数。
+
+```
+推荐值: 2 - 3
+```
+
+此项调整刷怪笼的刷新频率，如果服务器有大量刷怪笼，调高刷新间隙这会很有助。
+
 #### 村民相关
+
+##### tick-inactive-villagers
 
 在 `spigot.yml` 中有一个参数可以降低村民非活跃情况的占用：
 
@@ -232,5 +506,230 @@ tick-inactive-villagers: true
 
 `推荐值：false`
 
+##### zombie.aggressive-towards-villager-when-lagging
 
-TODO
+在 `purpur.yml`
+
+```
+推荐值: false
+```
+
+当 TPS 低于`lagging-threshold`值 [purpur.yml] 时，启用此项会阻止僵尸追逐村民。
+
+##### villager.lobotomize.enabled
+
+在 `purpur.yml`
+
+```
+推荐值: true
+```
+
+> 仅当村民造成服务器卡顿时才应启用此项！否则，村民寻路会出现问题。
+
+村民被卸载了AI后只会按时补货。启用此项会禁用村民自动寻路。
+
+##### villager.search-radius
+
+在 `purpur.yml`
+
+```
+推荐值:
+
+          acquire-poi: 16
+          nearest-bed-sensor: 16
+```
+
+该项可以调整村民尝试搜索工作方块和床的半径。这大大提高了村民的性能，但会阻止他们探测到比设定值更远的工作方块或床。
+
+##### tick-rates
+
+在 `paper-world-default.yml`
+
+```
+推荐值:
+
+  behavior:
+    villager:
+      validatenearbypoi: 60
+      acquirepoi: 120
+  sensor:
+    villager:
+      secondarypoisensor: 80
+      nearestbedsensor: 80
+      villagerbabiessensor: 40
+      playersensor: 40
+      nearestlivingentitysensor: 40
+```
+
+> 当 [Pufferfish's DAB](#dabenabled) 启用时，不建议修改该项任何默认值。
+
+这决定了触发AI行为和传感器的间隔。 `acquirepoi`是村民最频繁的行为, 因此它的间隔已经大大增加了。 如果村民有寻路问题，请减少此项。
+
+#### 寻路
+
+##### update-pathfinding-on-block-update
+
+在 `paper-world-default.yml`
+
+```
+推荐值: false
+```
+
+禁用此项将减少寻路次数，从而提高性能。在某些情况下，这会导致生物看起来更加迟钝；它们只会每 5 个 tick（0.25 秒）被动更新一次路径。
+
+
+### 掉落物及经验
+
+#### alt-item-despawn-rate
+
+在 `paper-world-default.yml`
+
+```
+推荐值:
+
+      enabled: true
+      items:
+        cobblestone: 300
+        netherrack: 300
+        sand: 300
+        red_sand: 300
+        gravel: 300
+        dirt: 300
+        short_grass: 300
+        pumpkin: 300
+        melon_slice: 300
+        kelp: 300
+        bamboo: 300
+        sugar_cane: 300
+        twisting_vines: 300
+        weeping_vines: 300
+        oak_leaves: 300
+        spruce_leaves: 300
+        birch_leaves: 300
+        jungle_leaves: 300
+        acacia_leaves: 300
+        dark_oak_leaves: 300
+        mangrove_leaves: 300
+        cactus: 300
+        diorite: 300
+        granite: 300
+        andesite: 300
+        scaffolding: 600
+```
+
+此项可以设置指定物品消失的时间（tick 为单位）。 建议用此项替代扫地姬或`merge-radius`来提高性能。
+
+##### merge-radius
+
+在 spigot
+
+```
+推荐值:
+
+      item: 3.5
+      exp: 4.0
+```
+
+此项设置同类物品和经验球合并堆叠的距离，可减少地面未拾取物数量。 设置得太高会导致物品合并时像瞬间传送。也会使得物品穿过方块，可能破坏一些刷怪塔。 此项不会判断物品是否穿过墙壁 （除非开启 Paper 中的`fix-items-merging-through-walls）。经验球仅会在生成时合并。建议使用`alt-item-despawn-rate`来优化掉落物数量。
+
+### 弓箭
+
+#### non-player-arrow-despawn-rate
+
+```
+推荐值: 20
+```
+
+怪物射出的箭消失的时间（以 tick 为单位）。因为玩家无法捡起这些箭，所以您不妨将其设置为`20`（1 秒）之类的值。
+
+#### creative-arrow-despawn-rate
+
+```
+推荐值: 20
+```
+
+创造模式玩家射出的箭消失的时间（以 tick 为单位）。因为玩家无法捡起这些箭，所以您不妨将其设置为`20`（1 秒）之类的值。
+
+### 盔甲架
+
+在 `paper-world-default.yml`
+
+#### armor-stands.tick
+
+```
+推荐值: false
+```
+
+在大部分情况下，将该项设置为`false`是安全的。如果您使用盔甲架或任何相关的插件时遇到了问题，请重新启用它。这将防止盔甲架被水推动或受到重力的影响。
+
+#### armor-stands.do-collision-entity-lookups
+
+```
+推荐值: false
+```
+
+是否启用盔甲架碰撞。如果您有很多盔甲架，并且不想它们与任何东西发生碰撞，这将有所帮助。
+
+## 红石
+
+### redstone-implementation
+
+在 `paper-world-default.yml`
+
+```
+推荐值: ALTERNATE_CURRENT
+```
+
+将红石系统替换为优化版本，减少冗余更新，降低服务器必须计算的逻辑量。可能会对个别的红石机器产生影响，但其提升利大于弊。甚至还可以修复 Bukkit 造成的红石同步问题。
+
+`ALTERNATE_CURRENT`是基于 [Alternate Current](https://modrinth.com/mod/alternate-current)。 更多信息请阅读该页面。
+
+### hopper.disable-move-event
+
+在 `paper-world-default.yml`
+
+```
+推荐值: false
+```
+
+仅当有插件监听`InventoryMoveItemEvent`时才会触发该事件。 **如果您想使用侦听此事件的插件,请不要设置为 true，比如保护插件！**
+
+#### hopper.ignore-occluding-blocks
+
+在 `paper-world-default.yml`
+
+```
+推荐值: true
+```
+
+确定漏斗是否会忽略完整方块内的容器，例如沙子或沙砾中的漏斗矿车。启用该项可能会破坏一些红石装置。
+
+### optimize-explosions
+
+在 `paper-world-default.yml`
+
+```
+推荐值: true
+```
+
+将此项设为`true`可以将原版爆炸算法替换成优化版本，但计算爆炸伤害时会略有不准确。 这通常不影响游戏体验。
+
+### hopper-transfer
+
+在 spigot
+
+```
+推荐值: 8
+```
+
+漏斗移动一个物品的频率（以 tick 为单位）。如果服务器上有大量漏斗，增加此值将有助于提高性能，但如果设置得太高，会破坏基于漏斗的红石计时器，甚至可能破坏物品分类装置。
+
+### hopper-check
+
+在 spigot
+
+```
+推荐值: 8
+```
+
+漏斗检查上方的物品或容器的频率（以 tick 为单位）。如果服务器上有大量漏斗，增加此值将有助于提高性能，但如果设置得太高，会破坏基于漏斗的红石计时器，甚至可能破坏物品分类装置。
