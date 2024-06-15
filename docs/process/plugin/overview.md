@@ -11,28 +11,30 @@ sidebar_position: 1
 
 **建议阅读**
 
-- [YAML 语法](/docs/sundry/YAML/overview.md)    - 了解你书写配置的语法
-- [插件特征文件](/docs/process/plugin/plugin-signature-file.md)     - 了解插件的一些信息
-- [格式化代码](/docs/sundry/format-code.md)       - 了解彩色字体，下划线，删除线等
-- [MiniMessage](/docs/sundry/MiniMessage.md)   - 了解RGB颜色，文本悬浮和点击文字执行等
-
+- [YAML 语法](/docs/sundry/YAML/overview.md)    - 了解大部分插件配置文件的语法。
+- [插件特征文件](/docs/process/plugin/plugin-signature-file.md)     - 了解插件的一些信息。
+- [格式化代码](/docs/sundry/format-code.md)       - 了解彩色字体，下划线，删除线等。
+- [MiniMessage](/docs/sundry/MiniMessage.md)   - 了解RGB颜色，文本悬浮和点击文字执行等。
+、
 :::danger
 
-服务器在**开发阶段**可以使用 PlugmanX，ServerUtils 等插件热重载插件，
+服务器在**开发阶段**可以使用 PlugmanX，ServerUtils 等插件热重载插件。
 
-过了开发阶段后切记，多数插件自带了重载（如 Placeholder 的重载指令为：papi reload）
+过了开发阶段后切记，多数插件自带了重载 (如 Placeholder 的重载指令为：papi reload)。
 
-尽量少使用插件重载插件，因为如果插件本身并不支持热重载，即使热重载了也容易出问题。
+尽量少使用热重载插件，因为如果插件本身并不支持热重载，即使热重载了也容易出问题。
+
+请阅读[此文章](https://madelinemiller.dev/blog/problem-with-reload/)来了解为何。
 
 :::
 
 ## 如何安装插件？
 
-将插件的 jar 文件放入服务端的 `plugins` 文件夹
+将插件的 jar 文件放入服务端的 `plugins` 文件夹。
 
 ### 笨蛋脚本
 
-下载此[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-install-depend.exe)，我们会为你安装常用插件(自动)
+下载此[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-install-depend.exe)，我们会为你安装常用插件(自动)。
 
 <details>
   <summary>安装的插件列表</summary>
@@ -64,12 +66,12 @@ Via自动安装已经移动到[此处](./other/跨版本/概览.md#笨蛋脚本)
 
 ## 检查插件安装
 
-使用 `/plugins`或者`/pl` 列出插件列表
+使用 `/plugins`或者`/pl` 列出插件列表。
 
 ![](_images/概览/插件列表.png)
 
-绿色为已加载（不是代表你日后使用不报错，只是这里加载上了）
+绿色为已加载（不是代表你日后使用不报错，只是这里加载上了）。
 
-红色为加载失败（服务端检测到了这个插件，但是没加载上，去控制台看看报错）
+红色为加载失败（服务端检测到了这个插件，但是没加载上，去控制台看看报错）。
 
-如果这里没有你的插件...服务端甚至没识别这是个插件，去看看你的文件有啥问题
+如果这里没有你的插件...服务端甚至没识别这是个插件，去看看你的文件有啥问题。

@@ -5,8 +5,12 @@ sidebar_position: 7
 
 # 部分插件缩写
 
+***如果你不确定或不知道缩写该是什么，请不要随便使用缩写！***
+
+下面列出了常用插件的缩写：
+
 <details>
-    <summary> 部分插件的缩写，点击查看 </summary>
+    <summary> 点击查看 </summary>
 
 AP 通常指楠木的 AttributePlus
 
