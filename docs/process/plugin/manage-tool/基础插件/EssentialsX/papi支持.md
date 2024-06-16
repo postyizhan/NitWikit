@@ -1,6 +1,6 @@
 ---
 title: Papi支持
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 :::info
@@ -11,4 +11,4 @@ sidebar_position: 4
 
 :::
 
-`/papi ecloud download Essentials`
+执行 `/papi ecloud download Essentials` 即可。
