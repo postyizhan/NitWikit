@@ -12,7 +12,7 @@ sidebar_position: 7
 **以下启动参数需要自己补全内存分配(-Xms和-Xmx) 和 服务端核心名(-jar 服务端名字.jar)**
 
 <details>
-  <summary>Mukul1127 Flag Plus - 4 核 8G 以上推荐</summary>
+  <summary>Mukul1127 Flag (ZGC) Plus - 4 核 8G 以上推荐</summary>
 
 Mukul1127 Flag Plus 是现代的启动参数，使用 ZGC 作为垃圾回收，**注意:Mukul1127 Flag Plus至少需要4c8g以上环境才可以发挥出优势，更低配置请使用 Aikar flag plus**，Mukul1127 Flag Plus 需要 Java 17 以上!
 
@@ -25,7 +25,7 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 </details>
 
 <details>
-  <summary>Mukul1127 Flag - 使用 GraalVM 时推荐</summary>
+  <summary>Mukul1127 (ZGC) Flag - 使用 GraalVM 时推荐</summary>
 
 GraalVM Java 17+ 的参数，
 
