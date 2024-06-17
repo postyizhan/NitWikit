@@ -18,3 +18,5 @@ sidebar_label: 记录 - CoreProtect
 `插件百科` :https://mineplugin.org/CoreProtect
 
 :::
+
+最常用的防熊插件，基本是每个服务器必装。

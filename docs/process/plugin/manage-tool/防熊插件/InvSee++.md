@@ -15,15 +15,13 @@ sidebar_label: 查包 - InvSee++
 
 :::
 
-InvSee++可以查看和编辑其他玩家的物品栏和末影箱。
+InvSee++ 可以查看和编辑其他玩家的物品栏和末影箱。
 
-[Essentials](/docs/process/plugin/管理工具/基础插件/EssentialsX/概览.md) 也有这个功能
+[Essentials](/docs/process/plugin/管理工具/基础插件/EssentialsX/概览.md) 也有这个功能，但 InvSee 可以：
 
-不过相比 InvSee++ 不能：
-
-- 夺取或替换玩家的装备
-- 查离线玩家的背包
-- 其他
+- 拿走或替换玩家的装备
+- 查询离线玩家的背包
+  ...
 
 ## 功能：
 
@@ -32,7 +30,7 @@ InvSee++可以查看和编辑其他玩家的物品栏和末影箱。
 * 包括玩家的合成/工作台/铁砧/锻造台/石匠/磨石/织布机/附魔台/商人物品以及玩家光标中的物品。
 * 支持离线玩家，甚至支持从未登录过服务器的玩家。
 * 当玩家重新登录时，物品栏会自动重新加载。
-* （可选）与 PerWorldInventory 集成。这需要在其配置中加入 `load-data-on-join： true`
+* （可选）与 PerWorldInventory 集成。这需要在其配置中加入 `load-data-on-join： true` 。
 
 ## 命令
 
@@ -43,22 +41,22 @@ InvSee++可以查看和编辑其他玩家的物品栏和末影箱。
 
 ### InvSee++ Give
 
-将物品添加到离线玩家的背包/末影箱
+将物品添加到离线玩家的背包/末影箱。
 
 #### 指令
 
 * /invgive （添加到背包）
 * /endergive （添加到末影箱）
 
-指令格式和普通的give指令一模一样
+指令格式和普通的give指令一模一样。
 
 ### InvSee++ Clear
 
-清除离线玩家背包/末影箱中的物品
+清除离线玩家背包/末影箱中的物品。
 
 #### 指令
 
 * /invclear （清除背包中的物品）
 * /enderclear （清除末影箱中的物品）
 
-指令格式和普通的clear指令一模一样
+指令格式和普通的clear指令一模一样。
