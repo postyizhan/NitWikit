@@ -92,11 +92,10 @@ remote:
 **`server-name`**: 基岩版所看到的服务器名称，在暂停菜单和设置中可见
 
 ### Remote项
-**若不使用独立版请忽略！**
 
 **`address`**: 其代表目标服务器的地址，若目标服务器和Geyser处于同一服务器下请不要更改
 
-**`port`**: 请和目标服务器对外开放的端口一致
+**`port`**:(重要选项) 请和目标服务器(插件版必须与`server-port`一致）一致对外开放的端口一致
 
 **`auth-type`**: 有offline，online和floodgate模式，offline和online分别对应离线和正版，你目标服务器用的什么就选什么，floodgate会在后续教程中解释
 
@@ -237,6 +236,8 @@ send-floodgate-data: true
 下载[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/geyser-egg.exe),为你自动生成Geyser环境,免于配置
 
 即使不用配置,你仍然需要看完wiki,**明白你在做什么**
+
+
 ## 结尾
 
 恭喜你，配置完毕!!，开始和你的好友一起玩吧

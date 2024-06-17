@@ -7,12 +7,18 @@ sidebar_position: 7
 
 ## 参数
 
+:::danger
+
+所有的启动参数都必须被放在`-jar`前面否则会导致服务器无法启动
+
+:::
+
 以下是推荐的 JVM 优化参数(至少 Java 17 以上)
 
 **以下启动参数需要自己补全内存分配(-Xms和-Xmx) 和 服务端核心名(-jar 服务端名字.jar)**
 
 <details>
-  <summary>Mukul1127 Flag Plus - 4 核 8G 以上推荐</summary>
+  <summary>Mukul1127 Flag (ZGC) Plus - 4 核 8G 以上推荐</summary>
 
 Mukul1127 Flag Plus 是现代的启动参数，使用 ZGC 作为垃圾回收，**注意:Mukul1127 Flag Plus至少需要4c8g以上环境才可以发挥出优势，更低配置请使用 Aikar flag plus**，Mukul1127 Flag Plus 需要 Java 17 以上!
 
@@ -25,7 +31,7 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 </details>
 
 <details>
-  <summary>Mukul1127 Flag - 使用 GraalVM 时推荐</summary>
+  <summary>Mukul1127 (ZGC) Flag - 使用 GraalVM 时推荐</summary>
 
 GraalVM Java 17+ 的参数，
 
@@ -72,6 +78,8 @@ java -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+Unlo
 
 ### 大页支持
 
+注意在WINDOWS上使用大页，必须要以管理员启动
+
 当然，在动手前，让我们先试一试是不是系统已经支持了这项功能 ，在控制台执行此命令
 
 ```shell
@@ -94,7 +102,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 但是如果你依然不支持或者想要追求极致性能，可以去百度搜索当前的系统如何开启大页，
 
-这里就不再过多的赘述了。(LargePages对服务器提升相当巨大)
+这里就不再过多的赘述了。(LargePages对服务器提升相当巨大,在我的电脑上，它提升了50%的性能)
 
 如果支持 LargePages ，加上此参数
 
@@ -108,6 +116,13 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 ```shell
 -XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS
 ```
+
+::note 
+
+在某些服务器上，开启大页后，会延长JVM的启动时间，时间从十秒到十分钟不等
+
+:::
+
 
 ### SIMD
 
