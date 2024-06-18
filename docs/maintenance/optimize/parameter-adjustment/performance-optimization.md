@@ -1,5 +1,7 @@
 ---
+
 title: 性能优化
+
 sidebar_position: 1
 ---
 
@@ -37,12 +39,13 @@ sidebar_position: 1
 
 ```yaml
 simulate-distance: 8
-#模拟距离为 8 chunks
 ```
 
 如果你使用的默认 10 chunks 的模拟距离，这会非常影响性能，可以酌情减少，
 
-`推荐值：3 - 8`
+```
+推荐值：3 - 8
+```
 
 ##### 自动调整
 
@@ -71,7 +74,9 @@ chunk-loading-basic:
 
 此时大量跑图的玩家可能会觉得服务器有一些滞后，但是能够保证大多数玩家的游戏体验，这是值得的。
 
-`推荐值：20 - 40`
+```
+推荐值：20 - 40
+```
 
 #### prevent-moving-into-unloaded-chunks
 
@@ -150,6 +155,7 @@ max-auto-save-chunks-per-tick: 24
 在 `paper-world-defaults.yml` 中的参数，用于控制世界保存时最大保存的某种实体数量。
 
 推荐值：
+
 ```yaml
 chunks:
   entity-per-chunk-save-limit:
@@ -183,17 +189,19 @@ chunks:
 
 #### treasure-maps.enabled
 
-在 `paper-world-default.yml`
+生成藏宝图的性能占用极高，如果要定位的结构位于未生成的区块中，服务器甚至可能会未响应。
+
+只有在您预生成世界并设置原版世界边界的情况下，启用此功能才是安全的。
+
+在 `paper-world-default.yml` 中的参数，决定服务器是否生成藏宝图。
 
 ```
 推荐值: false
 ```
 
-生成藏宝图的性能占用极高，如果要定位的结构位于未生成的区块中，服务器甚至可能会未响应。只有在您预生成世界并设置原版世界边界的情况下，启用此功能才是安全的。
-
 #### treasure-maps.find-already-discovered
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中的参数，控制服务器是否强制藏宝图在未探索的地方。
 
 ```
 推荐值:
@@ -201,19 +209,21 @@ chunks:
       villager-trade: true
 ```
 
-此项的默认值强制新藏宝图寻找未探索过的结构，这些结构通常位于尚未生成的区块中。将其设置为 true 可使地图指向之前发现过的结构。如果不将其更改为 true，在生成新的藏宝图时可能会遇到服务器未响应或崩溃的情况。 `villager-trade`影响村民交易的地图，而`loot-tables`影响任何生成战利品的容器，如宝箱等。
+由于这些未探索的结构通常位于尚未生成的区块中，这可能会滞后服务器。
+
+ `villager-trade` 影响村民交易的地图。
+
+`loot-tables` 影响任何生成战利品的容器，如宝箱等。
 
 #### dolphin.disable-treasure-searching
 
-[purpur.yml]
+在 `purpur.yml` 中的参数，控制海豚是否能够寻找藏宝图。
+
+设置为 true 禁用搜索。
 
 ```
 推荐值: true
 ```
-
-禁止海豚寻宝。
-
-
 
 ## 实体
 
@@ -222,6 +232,8 @@ chunks:
 ### 控制实体数量
 
 用 spark 等性能分析插件查看，应该希望将全部实体 tick 保持在 30% 以下（有一定数量的玩家在线的情况）。
+
+#### spawn-limits
 
 在 `bukkit.yml` 和 `paper-world-default` 中都有一样的配置，但 paper 如果设置将覆盖 bukkit 的。
 
@@ -261,6 +273,8 @@ spawn-limits:
 | axolotls                   | 3          | 4      | 5          |
 | ambient                    | 0          | 1      | 1          |
 
+#### mob-spawn-range
+
 另外，在 `spigot.yml` 中有关于生物生成范围的设置：
 
 ```yaml
@@ -273,13 +287,13 @@ mob-spawn-range: 8
 
 推荐值：
 
-| `spawn-limit` 值 | 对应 `mob-spawn-range`推荐值 | 实际生物量 |
-| :--------------: | :--------------------------: | :----------: |
-|    70 (默认)     |           8（默认)           |   100% (默认)   |
-|        56        |             6-7               |     90%    |
-|        42        |             5-6               |     78%     |
-|        28        |             4-5               |     65%     |
-|        14        |             3-4               |     48%     |
+| `spawn-limit` 值 | 对应 `mob-spawn-range`推荐值 | 实际生物量  |
+| :--------------: | :--------------------------: | :---------: |
+|    70 (默认)     |           8（默认)           | 100% (默认) |
+|        56        |             6-7              |     90%     |
+|        42        |             5-6              |     78%     |
+|        28        |             4-5              |     65%     |
+|        14        |             3-4              |     48%     |
 
 ### 实体刷新及消失
 
@@ -504,21 +518,25 @@ tick-inactive-villagers: true
 
 禁用此功能将有助于提高性能，但在某些情况下会让远处的村民更蠢，此项还会降低刷铁机等的效率。
 
-`推荐值：false`
+```
+推荐值：false
+```
 
 ##### zombie.aggressive-towards-villager-when-lagging
 
-在 `purpur.yml`
+在 `purpur.yml` 中控制僵尸是否在服务器卡顿时对村民的仇恨。
+
+由于村民被僵尸跟踪时会触发非常复杂的寻路、铁傀儡召唤等行为。
+
+大量村民被僵尸恐吓时会造成卡顿，当 TPS 低于`purpur.yml` 中设置的 `lagging-threshold` 值时，启用此项会阻止僵尸追赶村民。
 
 ```
 推荐值: false
 ```
 
-当 TPS 低于`lagging-threshold`值 [purpur.yml] 时，启用此项会阻止僵尸追逐村民。
-
 ##### villager.lobotomize.enabled
 
-在 `purpur.yml`
+在 `purpur.yml` 中控制村民 AI 的配置。
 
 ```
 推荐值: true
@@ -530,7 +548,7 @@ tick-inactive-villagers: true
 
 ##### villager.search-radius
 
-在 `purpur.yml`
+在 `purpur.yml` 中控制村民寻路范围的配置。该项可以调整村民尝试搜索工作方块和床的半径。
 
 ```
 推荐值:
@@ -539,11 +557,11 @@ tick-inactive-villagers: true
           nearest-bed-sensor: 16
 ```
 
-该项可以调整村民尝试搜索工作方块和床的半径。这大大提高了村民的性能，但会阻止他们探测到比设定值更远的工作方块或床。
+降低这个值会大大提高了村民的性能，但会阻止他们探测到比设定值更远的工作方块或床。
 
 ##### tick-rates
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中决定了触发 AI 行为间隔
 
 ```
 推荐值:
@@ -563,26 +581,28 @@ tick-inactive-villagers: true
 
 > 当 [Pufferfish's DAB](#dabenabled) 启用时，不建议修改该项任何默认值。
 
-这决定了触发AI行为和传感器的间隔。 `acquirepoi`是村民最频繁的行为, 因此它的间隔已经大大增加了。 如果村民有寻路问题，请减少此项。
+`acquirepoi`是村民最频繁的行为, 因此它的间隔已经大大增加了。 如果村民有寻路问题，请减少此项。
 
 #### 寻路
 
 ##### update-pathfinding-on-block-update
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 控制生物寻路。
 
 ```
 推荐值: false
 ```
 
-禁用此项将减少寻路次数，从而提高性能。在某些情况下，这会导致生物看起来更加迟钝；它们只会每 5 个 tick（0.25 秒）被动更新一次路径。
+禁用此项将减少寻路次数，从而提高性能。在某些情况下，这会导致生物看起来更加迟钝；
+
+它们只会每 5 个 tick（0.25 秒）被动更新一次路径。
 
 
 ### 掉落物及经验
 
 #### alt-item-despawn-rate
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中可以为每个单独的掉落物控制消失时间。
 
 ```
 推荐值:
@@ -617,11 +637,11 @@ tick-inactive-villagers: true
         scaffolding: 600
 ```
 
-此项可以设置指定物品消失的时间（tick 为单位）。 建议用此项替代扫地姬或`merge-radius`来提高性能。
+此项可以设置指定物品消失的时间（tick 为单位）， 建议用此项替代扫地姬或 `merge-radius` 来提高性能。
 
 ##### merge-radius
 
-在 spigot
+在 `spigot.yml` 中设置同类物品和经验球合并堆叠的距离。
 
 ```
 推荐值:
@@ -630,7 +650,11 @@ tick-inactive-villagers: true
       exp: 4.0
 ```
 
-此项设置同类物品和经验球合并堆叠的距离，可减少地面未拾取物数量。 设置得太高会导致物品合并时像瞬间传送。也会使得物品穿过方块，可能破坏一些刷怪塔。 此项不会判断物品是否穿过墙壁 （除非开启 Paper 中的`fix-items-merging-through-walls）。经验球仅会在生成时合并。建议使用`alt-item-despawn-rate`来优化掉落物数量。
+可减少地面未拾取物数量。 设置得太高会导致物品合并时像瞬间传送。也会使得物品穿过方块，可能破坏一些刷怪塔。 
+
+此项不会判断物品是否穿过墙壁 （除非开启 Paper 中的`fix-items-merging-through-walls）。`
+
+`经验球仅会在生成时合并。建议使用`alt-item-despawn-rate`来优化掉落物数量。
 
 ### 弓箭
 
@@ -652,7 +676,7 @@ tick-inactive-villagers: true
 
 ### 盔甲架
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中控制是否将盔甲架加入 tick。
 
 #### armor-stands.tick
 
@@ -660,7 +684,9 @@ tick-inactive-villagers: true
 推荐值: false
 ```
 
-在大部分情况下，将该项设置为`false`是安全的。如果您使用盔甲架或任何相关的插件时遇到了问题，请重新启用它。这将防止盔甲架被水推动或受到重力的影响。
+在大部分情况下，将该项设置为`false`是安全的。如果您使用盔甲架或任何相关的插件时遇到了问题，请重新启用它。
+
+这将防止盔甲架被水推动或受到重力的影响。
 
 #### armor-stands.do-collision-entity-lookups
 
@@ -674,62 +700,70 @@ tick-inactive-villagers: true
 
 ### redstone-implementation
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中控制红石系统使用的引擎。
 
 ```
 推荐值: ALTERNATE_CURRENT
 ```
 
-将红石系统替换为优化版本，减少冗余更新，降低服务器必须计算的逻辑量。可能会对个别的红石机器产生影响，但其提升利大于弊。甚至还可以修复 Bukkit 造成的红石同步问题。
+将红石系统替换为优化版本，减少冗余更新，降低服务器必须计算的逻辑量。可能会对个别的红石机器产生影响，
+
+但其提升非常大，性能提升可能有 70%，利大于弊。甚至还可以修复 Bukkit 造成的红石同步问题。
 
 `ALTERNATE_CURRENT`是基于 [Alternate Current](https://modrinth.com/mod/alternate-current)。 更多信息请阅读该页面。
 
 ### hopper.disable-move-event
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中控制漏斗的一个繁重的事件。
 
 ```
 推荐值: false
 ```
 
-仅当有插件监听`InventoryMoveItemEvent`时才会触发该事件。 **如果您想使用侦听此事件的插件,请不要设置为 true，比如保护插件！**
+仅当有插件监听`InventoryMoveItemEvent`时才会触发该事件。 
+
+**如果您想使用侦听此事件的插件,请不要设置为 true，比如保护插件！**
 
 #### hopper.ignore-occluding-blocks
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中控制漏斗是否会忽略完整方块内的容器。
 
 ```
 推荐值: true
 ```
 
-确定漏斗是否会忽略完整方块内的容器，例如沙子或沙砾中的漏斗矿车。启用该项可能会破坏一些红石装置。
+降低沙子或沙砾中的漏斗矿车之类的情况，启用该项可能会破坏一些红石装置。
 
 ### optimize-explosions
 
-在 `paper-world-default.yml`
+在 `paper-world-default.yml` 中控制是否启用爆炸优化。
+
+将此项设为`true`可以将原版爆炸算法替换成优化版本，略微牺牲非常小的爆炸伤害换取爆炸时的大量性能提升。
 
 ```
 推荐值: true
 ```
 
-将此项设为`true`可以将原版爆炸算法替换成优化版本，但计算爆炸伤害时会略有不准确。 这通常不影响游戏体验。
+### tick-per
 
-### hopper-transfer
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 1
 
-在 spigot
+`hopper-transfer` 控制了漏斗多少 tick 传输一次物品；
 
-```
-推荐值: 8
-```
+`hopper-check` 控制了漏斗一次运输多少物品。
 
-漏斗移动一个物品的频率（以 tick 为单位）。如果服务器上有大量漏斗，增加此值将有助于提高性能，但如果设置得太高，会破坏基于漏斗的红石计时器，甚至可能破坏物品分类装置。
+在漏斗特别多的服务器中，合理搭配`hopper-transfer` 和 `hopper-check` 可以降低漏斗占用。（但可能略微影响一些机器的行为，如分类机）
 
-### hopper-check
+另外，使用更高的 `hopper-check` 能够增加漏斗在单位时间的物品传输效率，
 
-在 spigot
+降低同样数量物品的漏斗使用时间，进一步降低漏斗占用。
 
-```
-推荐值: 8
-```
+| 漏斗速度 | 服务器占用 | hopper-transfer | hopper-check |
+| -------- | ---------- | --------------- | ------------ |
+| 50%      | 中低       | 16              | 1            |
+| 100%     | 中高       | 8               | 1            |
+| 100%     | 低         | 16              | 2            |
+| 200%     | 中         | 8               | 2            |
 
-漏斗检查上方的物品或容器的频率（以 tick 为单位）。如果服务器上有大量漏斗，增加此值将有助于提高性能，但如果设置得太高，会破坏基于漏斗的红石计时器，甚至可能破坏物品分类装置。
