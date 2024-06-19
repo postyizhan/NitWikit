@@ -24,15 +24,15 @@ sidebar_position: 3
 
 把卖你vps的人给你的信息照着填进去就可以连接到你的vps了。
 
-你也可以在vps安装 [ToDesk](https://www.todesk.com/download.html) 或 [向日葵远程控制](https://sunlogin.oray.com/) 等软件
+你也可以在 vps 安装 [ToDesk](https://www.todesk.com/download.html) 或 [向日葵远程控制](https://sunlogin.oray.com/) 等软件
 
 #### 映射驱动器
 
-可以在vps中点击 `此电脑` 看到本地的 **驱动器**（c盘d盘的，这下听懂了吧）
+可以在 vps 中点击 `此电脑` 看到本地的 **驱动器**（c盘d盘的，这下听懂了吧）
 
 方便你传输文件
 
-或者，你也可以 Ctrl CV 来传文件
+或者，你也可以 Ctrl c + Ctrl v 来传文件
 
 ![](_images/连接服务器/2.png)
 
