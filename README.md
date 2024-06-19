@@ -153,7 +153,7 @@ https://nitwikit.yizhan.wiki/
           <a href="https://github.com/Lafcadia">
               <img src="https://avatars.githubusercontent.com/u/147896059?v=4" width="50;" alt="Lafcadia"/>
               <br />
-              <sub><b>Zaixu Zheng</b></sub>
+              <sub><b>Lafcadia</b></sub>
           </a>
       </td>
       <td align="center">
