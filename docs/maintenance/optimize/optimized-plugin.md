@@ -33,13 +33,23 @@ sidebar_position: 6
 
 :::
 
+### 控制玩家跑图
+
+由于大量生成区块非常消耗性能，限制玩家生成的区块数，能够起到一定的效果。
+
+但我们一般可以通过 [参数配置](./parameter-adjustment/performance-optimization.md/#chunk-loading-basic) 降低区块生成速率，不太需要强行拉回玩家或减速玩家等方式干扰跑图。
+
+因此，停止使用类似插件，如:
+
+*[TooManyGen](https://modrinth.com/plugin/toomanygen) - 惩罚玩家跑图，实际上这是非常影响游戏体验的，有更好的选择。*
+
 ### 对于 AI 有影响的插件
 
 使用 Pufferfish Fork（如Purpur / Leaf等）降低远处生物的 AI 比插件利用 API 更加有效和符合游戏逻辑，
 
 因此，停止使用类似插件，如:
 
-*LaggRemover （Fork） - 自以为是的AI移除，有时候会导致即使插件卸载，实体AI也被移除了，比不上Pufferfish（使用 Purpur Fork即可）根据距离衰减的AI.*
+*LaggRemover （Fork） - 有时候会导致即使插件卸载，实体 AI 也被移除了，比不上 Pufferfish（使用 Purpur Fork即可）根据距离衰减的 AI.*
 
 ### 任何对于内存 GC 进行操作的插件
 
@@ -79,8 +89,6 @@ sidebar_position: 6
 使用插件删除生物是笨蛋中的笨蛋才会做的事，生物如果达到服务器设定的上限则会停止生成. 而被清除后，服务器必须重新生成生物，这个过程也是非常费性能的。
 
 如果你不需要那么多怪物，直接调整参数即可 [点这里查看正确方法](./parameter-adjustment/performance-optimization.md/#spawn-limit)
-```
-</details>
 
 因此，停止使用类似插件，如:
 
@@ -145,9 +153,9 @@ Paper 酱为你在 `/config/paper-world-default.yml` 中准备了爆炸优化。
 
 但是这样的插件往往功能多而不专，如 CMI 经济经常出 bug 且不支持跨服。
 
-而 ESS 使用 yml 储存大量的玩家数据等高血压操作。
+而 ESS 使用 yml 储存大量的玩家数据，经常被发现有刷钱漏洞等高血压操作。
 
-这些插件往往因为功能多导致有些代码没有被优化好。
+这些插件往往因为功能多导致有些代码没有被优化好，无法和专精某一方面的插件媲美。
 
 ### 过于古老的插件
 
@@ -155,32 +163,28 @@ Paper 酱为你在 `/config/paper-world-default.yml` 中准备了爆炸优化。
 
 且并非服务器核心玩法插件，请考虑选择搜索类似功能插件。
 
+### 功能过于简单的插件
+
+主要是包括一些甚至不到 10kb 的插件，功能仅仅只是右键西瓜能够收获，或是禁止农田踩踏等。
+
+这些插件功能很可能被一些其他的插件甚至核心自带了（如 purpur 可设置农田是否可踩踏）。
+
+虽然一般来说这些插件不会对性能有影响，但是的确能够降低服务器维护难度等。
+
 ## 有用的~~优化~~限制插件
 
 ### FarmControl
 
-功能
+主要是降低超大或超高密度的生物养殖
 
-* 禁止在超大型动物养殖场和村民中繁殖。
+* 禁止在超大型动物养殖场和村民繁殖。
 * 减少生物农场内不必要的随机移动。
-* 禁用农场中生物的 AI。
+* 特别密集时禁用农场中生物的 AI。
 * 限制区域中允许的实体数。
 * 高度可配置 - 允许您根据需要定制插件。
-* 低影响 - 首当其冲的插件处理是异步执行的。
+* 低影响 - 插件处理是异步执行的。
 
-[下载地址](https://hangar.papermc.io/froobynooby/FarmControl)
-
-### TooManyGen
-
-限制玩家生成的区块数
-
-该插件将计算每个玩家生成的区块数量。在某种程度上超过阈值，它将开始通过以下方式惩罚玩家：
-
-* 增加对鞘翅的耐久损失
-* 让玩家冒着失去鞘翅的风险
-* 缩短他们的视距
-
-[下载地址](https://modrinth.com/plugin/toomanygen)
+[下载链接](https://hangar.papermc.io/froobynooby/FarmControl)
 
 ### OkTreasures
 
@@ -192,24 +196,26 @@ Paper 酱为你在 `/config/paper-world-default.yml` 中准备了爆炸优化。
 
 ### Chunky Border
 
-一个设置世界边界的工具，比原版的好用多了，[下载地址](https://modrinth.com/plugin/chunkyborder)
+一个设置世界边界的工具，可设置不同形状，拉回方式（适配地球从东方跨越地图到西方）等，比原版更加友好。
+
+[下载链接](https://modrinth.com/plugin/chunkyborder)
 
 ### EntityDetection
 
-这个插件可以用来寻找哪些东西在拖慢服务器，使用此插件，您可以快速找到包含大量怪物、动物甚至 漏斗 。
+这个插件可以用来寻找哪些东西在拖慢服务器，使用此插件，您可以快速找到包含大量怪物、动物和漏斗。
 
-[查看地址](https://www.spigotmc.org/resources/entitydetection-tile-entity-support.20588/)
+[下载链接](https://www.spigotmc.org/resources/entitydetection-tile-entity-support.20588/)
 
 ### AntiRaidFarm
 
-使用这个简单的插件阻止利用无限不祥之兆循环的作弊突袭农场。此插件没有命令。想要绕过冷却时间的玩家可以获得权限。
+使用这个简单的插件阻止利用无限不祥之兆循环的作弊突袭农场。此插件没有命令，想要绕过冷却时间的玩家可以获得权限。
 
-[下载地址](https://hangar.papermc.io/jmp/AntiRaidFarm)
+[下载链接](https://hangar.papermc.io/jmp/AntiRaidFarm)
 
 ### Insights
 
 此插件是一个高性能的用来扫描世界红石加以限制的插件，爆杀大部分限制插件
 
-[插件地址](https://modrinth.com/plugin/insights)
+[下载链接](https://modrinth.com/plugin/insights)
 
 

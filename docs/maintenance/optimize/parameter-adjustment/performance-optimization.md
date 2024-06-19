@@ -203,7 +203,7 @@ chunks:
 
 在 `paper-world-default.yml` 中的参数，控制服务器是否强制藏宝图在未探索的地方。
 
-```
+```yaml
 推荐值:
       loot-tables: true
       villager-trade: true
