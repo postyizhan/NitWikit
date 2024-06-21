@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # config.yml
 
-```
+```yaml
 # forgeMOD支持，如果你的服务器中有MOD服务器，请打开这个选项
 forge_support: false
 # 玩家真实限制，它将限制整个服务器的玩家人数，-1为不限

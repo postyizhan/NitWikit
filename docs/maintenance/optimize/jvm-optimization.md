@@ -41,7 +41,7 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 
 如果你使用Java 21 以上，你可以将`-XX:-ZProactive`换`-XX:+ZGenerational`，Java 22以上必须切换
 
-### 以下是格外选项
+### 以下是额外选项
 
 更激进的内联，在 Graal 中通过 `-Dgraal.BaseTargetSpending=160` （默认为 120）和 OpenJDK 中的其他一些标志。具有较大缓存的 CPU 可能会从中受益。
 
@@ -117,9 +117,9 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS
 ```
 
-::note 
+::note
 
-在某些服务器上，开启大页后，会延长JVM的启动时间，时间从十秒到十分钟不等
+在某些服务器上，开启大页后，会延长 JVM 的启动时间，时间从十秒到十分钟不等
 
 :::
 

@@ -13,15 +13,17 @@ sidebar_position: 2
 
 :::
 
-[关于Waterfall停止维护的公告](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)
+### 关于 waterfall
+
+[关于 Waterfall 停止维护的公告](https://forums.papermc.io/threads/announcing-the-end-of-life-of-waterfall.1088/)。
 
 :::info
 
-停止维护是指不再为其添加新功能或错误修补.
+停止维护是指不再为其添加新功能或错误修补，
 
-Waterfall仍然会合并来自BungeeCord的更改
+Waterfall仍然会合并来自 BungeeCord 的更改。
 
-对于仍然想使用Waterfall的人来说 这可能不是一个很大的影响.
+对于仍然想使用 Waterfall 的人来说这可能不是一个很大的影响。
 
 :::
 

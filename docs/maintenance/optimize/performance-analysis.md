@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## Spark
 
-Spark是一个Minecraft的性能分析器，支持广泛（Bukkit，BungeeCord，Velocity，Forge，Fabric等）。
+Spark是一个Minecraft的性能分析器，支持广泛（如 Bukkit，BungeeCord，Velocity，Forge，Fabric 等）。
 
 :::info
 
@@ -38,7 +38,11 @@ Spark是一个Minecraft的性能分析器，支持广泛（Bukkit，BungeeCord�
 
 ### 使用方法
 
-首先将spark.jar文件插件放到服务端的 mods 或者 plugins 文件夹中.(如果服务端是Purpur Fork很可能你可以直接在/pl中查看到Spark，直接用就好)。
+插件服和 1.13 以上的 mod 服请下载插件版本并将 Spark.jar 文件插件放到服务端的 plugins 文件夹中。
+
+1.12.2 和以下混合服优先使用 mod 版本，放入 mods 文件夹。
+
+对于 Purpur Fork 服务器，默认自带 Spark，无需单独下载。
 
 #### /spark profiler
 
@@ -78,7 +82,7 @@ Timings是一个 Paper 自带的性能分析器，由于其监听每一个事件
 
 但由于其不断不断启动和停止虚拟“秒表”，会对性能产生非常大的影响。因此无论服务器规模大小只需禁用计时即可实现 *10-30%* 的性能提升。
 
-可以通过在 `timings.enabled /config/paper-global.yml` 中设为 `false` 禁用。
+可以通过在 `/config/paper-global.yml` 中 `timings.enabled` 设为 `false` 禁用。
 
 :::
 

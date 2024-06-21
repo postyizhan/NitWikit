@@ -15,7 +15,7 @@ sidebar_position: 3
 
 在 `server.properties` 中按以下设置：
 
-```
+```yaml
 allow-flight=true
 ```
 
@@ -25,7 +25,7 @@ allow-flight=true
 
 在 `spigot.yml` 中按以下设置：
 
-```
+```yaml
 settings:
   moved-wrongly-threshold: 1
   # 忽略玩家移动错误
