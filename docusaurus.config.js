@@ -21,10 +21,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://postyizhan.github.io',
+  url: 'https://yizhan.wiki',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: process.env.BASE_URL ?? '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,7 +39,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans', 'en'],
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -50,7 +50,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/postyizhan/NitWikit/'
+          editUrl: 'https://github.com/postyizhan/NitWikit/tree/main'
         },
         blog: false,
         theme: {
