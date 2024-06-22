@@ -17,7 +17,7 @@ sidebar_position: 1
 
 :::tip
 
-在此之前，你必须了解的是模拟距离（Simulate distance）和视野距离（View distance）区别（下文用 SDT和 VDT 分别指代）。
+在此之前，你必须了解的是模拟距离（Simulate distance）和视野距离（View distance）区别（下文用 SDT 和 VDT 分别指代）。
 
 模拟距离指的是玩家在这个范围内的游戏行为正常进行，如动物、怪物等 AI 的寻路，生物生成，草地扩散，水流流动等。
 
