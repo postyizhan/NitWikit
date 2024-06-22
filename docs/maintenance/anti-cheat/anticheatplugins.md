@@ -67,17 +67,15 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 
 > Github: https://github.com/Updated-NoCheatPlus/NoCheatPlus
 
-或者Leaf核心作者梦梦（国人）的分支版本
-
-剔除了一些检测以提升性能
+或者 Leaf 核心作者 [Dreeam](https://github.com/Dreeam-qwq)（国人）的分支版本，这个版本剔除了一些检测以提升性能。
 
 > https://github.com/Dreeam-qwq/NoCheatPlus
 
 ## GrimAC 2.0
 
-一个相当不错的实验性反作弊，支持避免检查来自Geyser的玩家，移动检测虽然强大但有很多误判。
+一个不错的实验性反作弊，支持避免检查来自 Geyser 的玩家，移动检测虽然强大但有很多误判。
 
-！目前仍然有很多不稳定因素，但Timer和Reach, BadPackets检查都是较为稳定的。
+！目前仍然有很多不稳定因素，但 Timer 和 Reach , BadPackets 检查都是较为稳定的。
 
 ！除了实验性检查, 其余的检查是不可被关闭的。
 
@@ -93,13 +91,13 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 
 > SpigotMC: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-20-4.83626/
 
-## 不推荐-Spartan
+## 不推荐 - Spartan
 
-老牌垃圾性能过剩修复器，使用它你将获得玩家被误判时发送给你的羞辱，以及无用和多余的检测，使用它你将会知道这款反作弊不如其它开源或具有相同价格的反作弊。
+老牌垃圾反作弊，性能拉胯误判多，有很多无用和多余的检测，不如其它开源或具有相同价格的反作弊。
 
-对于Geyser的基岩版支持也是如此，并且从一开始的同时检查基岩版玩家和 Java 版玩家被拆分成了 Spartan: Java 和 Spartan: Bedrock 两个不同的版本。被 md_5 警告后在 SpigotMC上 捆绑销售。
+对于 Geyser 的基岩版支持也是如此，并且从一开始的同时检查基岩版玩家和 Java 版玩家被拆分成了 Spartan: Java 和 Spartan: Bedrock 两个不同的版本。
 
-就算你需要退款，先请在 SpigotMC 上撤回你的负面言论后才可进行Spartan的退款服务，
+被 md_5 警告后在 SpigotMC上 捆绑销售。就算你需要退款，先请在 SpigotMC 上撤回你的负面言论后才可进行 Spartan 的退款服务，
 
 由于购买后 6 个月需要重新支付才能继续使用且包含额外的需要付费的功能导致被 md_5 警告的传奇反作弊，这就是 Spartan-AntiCheat。
 
@@ -133,7 +131,7 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 ---
 ## 只有这几个？
 
-你难道想让我把Intave Karhu Polar那些什么全部都列出来吗，
+你难道想让我把 Intave Karhu Polar那些什么全部都列出来吗，
 
 要求不高这几个主流就差不多够用了，毕竟是面向小白的开服教程，
 
@@ -143,15 +141,15 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 
 ## Talent 先生的反作弊配置
 
-一款面向萌新的主流反作弊配置，对配置有任何问题骚扰 Talents 先生项目的Issues即可解决！
+一款面向萌新的主流反作弊配置，对配置有任何问题骚扰 Talents 先生项目的 Issues 即可解决！
 
 Github：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
 ## ViaBackwards
 
-如果你在你的服务器使用了跨版本插件(Viaversion),你需要开启这个选项以增加反作弊对其他版本的兼容性
+如果你在你的服务器使用了跨版本插件（Viaversion），你需要开启这个选项以增加反作弊对其他版本的兼容性。
 
-打开 `ViaBackwards/config.yml` ,找到 `handle-pings-as-inv-acknowledgements` 配置项,把它改成`true`就可以增加对反作弊的兼容性
+打开 `ViaBackwards/config.yml` ,找到 `handle-pings-as-inv-acknowledgements` 配置项,把它改成 `true` 就可以增加对反作弊的兼容性
 
 ## 笨蛋脚本
 

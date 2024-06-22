@@ -21,7 +21,7 @@ sidebar_position: 2
 
 停止维护是指不再为其添加新功能或错误修补，
 
-Waterfall仍然会合并来自 BungeeCord 的更改。
+Waterfall 仍然会合并来自 BungeeCord 的更改。
 
 对于仍然想使用 Waterfall 的人来说这可能不是一个很大的影响。
 

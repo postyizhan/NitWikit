@@ -40,9 +40,9 @@ RNG 是 **随机数生成器** 的简写。
 
 您可以将配置改为如下 (默认就是开启的)：
 
-`purpur.yml` 
+`purpur.yml`
 
-```
+```yaml
     settings:
       entity:
         shared-random: true
@@ -50,7 +50,7 @@ RNG 是 **随机数生成器** 的简写。
 
 `leaves.yml`
 
-```
+```yaml
 use-vanilla-random: false
 ```
 

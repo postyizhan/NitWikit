@@ -1,6 +1,6 @@
 {
-  "label": "游戏性",
-  "position": 25,
+  "label": "计分板及TAB",
+  "position": 1,
   "link": {
     "type": "generated-index"
   }

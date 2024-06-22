@@ -1,6 +1,6 @@
 {
-  "label": "游戏性",
-  "position": 25,
+  "label": "登录",
+  "position": 3,
   "link": {
     "type": "generated-index"
   }
