@@ -31,7 +31,7 @@ sidebar_position: 4
 
 应该如何操作？首先找到 `/config/paper-world-defaults.yml` 文件。调整以下参数：
 
-```
+```yaml
 feature-seeds:
   generate-random-seeds-for-all: true
 ```
@@ -39,7 +39,7 @@ feature-seeds:
 
 > 如果发现你的 `spigot.yml` 中出现了类似以下的配置配置就成功了，你可以修改其中的种子。（但其实不改也完全没问题）
 
-```
+```yaml
     seed-village: 10387312
     seed-desert: 14357617
     seed-igloo: 14357618
@@ -72,13 +72,13 @@ feature-seeds:
 
 这种种子几乎不可能破解，因为所需的破解时间和资源极长无比，如果你正在使用，那么你基本不用担心种子破解。
 
-:::danger
+:::danger[特别注意]
 
 开启 Leaf 安全种子之前，你要明白这玩意儿是**不能关闭的**,也就是说，你开启后，除非你删档重开，不然必须使用安全种子
 
 :::
 
-使用方法：将 `leaf.yml` 中的 `secure-seed` 设置为 true
+使用方法：将 `leaf.yml` 中的 `secure-seed` 设置为 `true`
 
 #### 插件
 
@@ -96,11 +96,11 @@ feature-seeds:
 
 使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
 
-⚠警告：engine-mode: 3在1.19.3往后的版本才添加⚠
+⚠警告：`engine-mode: 3` 在 `paper 1.19.3` 往后的版本才添加⚠
 
 > 主世界推荐配置
 
-:::tip
+:::tip[说明]
 
 如果使用了 Raytraceantixray 请务必使用配置 Ⅲ 。
 
@@ -109,7 +109,7 @@ feature-seeds:
 <details>
   <summary>配置 Ⅰ - *带宽消耗较大，效果非常好*</summary>
 
-```
+```yaml
 anticheat:
   anti-xray:
     enabled: true
@@ -168,7 +168,7 @@ anticheat:
 <details>
   <summary>配置Ⅱ - *带宽消耗中等，效果中等</summary>
 
-```
+```yaml
 anticheat:
   anti-xray:
     enabled: true
@@ -226,7 +226,7 @@ anticheat:
 <details>
   <summary>配置Ⅲ - *降低带宽消耗，效果较差*</summary>
 
-```
+```yaml
 anticheat:
   anti-xray:
     enabled: true
@@ -270,7 +270,7 @@ anticheat:
 <details>
   <summary>下界配置 Ⅰ - *带宽压力翻倍，效果好，客户端 FPS 可能下降*</summary>
 
-```
+```yaml
 anticheat:
   anti-xray:
     enabled: true
@@ -304,7 +304,7 @@ anticheat:
 <details>
   <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般（但下届合金一定会被隐藏）*</summary>
 
-```
+```yaml
 anticheat:
   anti-xray:
     enabled: true
@@ -328,7 +328,7 @@ anticheat:
 <details>
   <summary>下界配置 Ⅲ - *带宽占用较大提升，效果较好*</summary>
 
-```
+```yaml
 anticheat:
   anti-xray:
     enabled: true
@@ -361,7 +361,7 @@ anticheat:
 
 在末地由于没有矿物，我们推荐将 `world_the_end/paper.world.yml` 进行以下配置即可。
 
-```
+```yaml
 anticheat:
   anti-xray:
     enabled: false
