@@ -45,7 +45,7 @@ sidebar_position: 1
 
 :::warning
 
-任何时候都不要再使用 CraftBukkit 和 Spigot 了。追求稳定/性能上 Paper ，追求原版特性上 Leaves。
+任何时候都不要再使用 CraftBukkit 和 Spigot 了。追求稳定/性能上 Purpur ，追求原版特性上 Leaves,性能上Leaf
 :::
 
 <details>
@@ -54,7 +54,7 @@ sidebar_position: 1
 
 此处只是作为最基础的核心选择推荐，完整版请查看[核心选择](/docs/start/server-core-choose)
 
-## Paper - 追求稳定 *推荐度★★★★☆*
+## Paper - 追求极致稳定 *推荐度★★★★☆*
 
 如果是第一次开服，或者追求稳定，请使用 Paper 。任何时候想更换其他核心可以随时更换如 Purpur / Leaf 等核心。
 
