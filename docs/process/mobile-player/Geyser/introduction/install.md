@@ -124,7 +124,7 @@ above-bedrock-nether-building: false
 
 **`show-coordinates`**: 是否向玩家显示坐标
 
-**`above-bedrock-nether-building`**: 开启后你将被允许在下届高度127以上建造，缺点是整个下界中雾的颜色不再可变，将一直是红色
+**`above-bedrock-nether-building`**: 开启后你将被允许在下届高度127以上建造，缺点是整个下界中雾的颜色不再可变，将一直是红色(GeyserExtras可以解决这个问题)
 
 :::warning
 
