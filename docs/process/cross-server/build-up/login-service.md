@@ -1,5 +1,5 @@
 ---
-title: 登陆服务
+title: 登陆服务器
 sidebar_position: 4
 ---
 

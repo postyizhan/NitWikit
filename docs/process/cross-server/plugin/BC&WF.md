@@ -45,6 +45,8 @@ sidebar_position: 1
 
 比如 %viaversion_player_protocol_version% 来查看玩家客户端版本
 
+不利于任何反作弊的运行，因为后端服务器中的反作弊将认为玩家均来自于服务版本，这会导致**大量的误判**。
+
 :::
 
 ## SkinsRestorer

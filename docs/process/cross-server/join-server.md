@@ -12,10 +12,10 @@ sidebar_position: 4
 ## `/server` 命令
 
 ```
-/server 子服名字
+/server [配置中设置的子服名字]
 ```
 
-即可 不过不建议用 `/server` 详见 [此处](/docs/process/cross-server/precautions.md#不要给玩家server权限)
+不过不建议用 `/server` 详见 [此处](/docs/process/cross-server/precautions.md#不要给玩家server权限)
 
 :::warning
 

@@ -30,7 +30,7 @@ java -Xms1024M -Xmx1024M -jar 核心名字.jar
 
 [详细配置文件讲解](config.yml.md)
 
-```
+```yaml
 servers:
   lobby:
     motd: '&1Just another BungeeCord - Forced Host'
@@ -40,7 +40,7 @@ servers:
 
 其实不用解释你也看得懂吧
 
-```
+```yaml
 servers:
   子服名称:
     motd: '服务器标语'
@@ -50,7 +50,7 @@ servers:
 
 照着把你的子服都写上去，就像这样
 
-```
+```yaml
 servers:
   login:
     motd: '&1Just another BungeeCord - Forced Host'
@@ -68,10 +68,12 @@ servers:
 
 ### 子服bc模式
 配置子服端根目录中的 `spigot.yml`
-```
+
+```yaml
   bungeecord: false
 ```
-把这个打开 它在settings节点下
+
+把这个打开 它在 `settings` 节点下
 
 ## 加入
 
