@@ -15,7 +15,7 @@ sidebar_position: 7
 
 以下是推荐的 JVM 优化参数(至少 Java 17 以上)
 
-**以下启动参数需要自己补全内存分配(-Xms和-Xmx) 和 服务端核心名(-jar 服务端名字.jar)**
+**以下启动参数需要自己补全内存分配(-Xms 和 -Xmx) 和 服务端核心名(-jar 服务端名字.jar)**
 
 <details>
   <summary>Mukul1127 Flag (ZGC) Plus - 4 核 8G 以上推荐</summary>
