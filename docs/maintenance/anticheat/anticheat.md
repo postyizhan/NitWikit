@@ -1,6 +1,6 @@
 ---
-title: 概览
-sidebar_position: 1
+sidebar_position: 5
+slug: /anticheat
 ---
 
 # 概览
@@ -25,7 +25,7 @@ sidebar_position: 1
 * 穿墙、高跳、飞行等移动作弊
 * ......
 
-# 写在最后
+# 注意
 
 反作弊在尽量不影响合法玩家游玩的前提下，**惩戒**和**阻拦**作弊玩家。
 

@@ -1,9 +1,9 @@
 ---
-title: 概览
-sidebar_position: 1
+slug: /optimize
+sidebar_position: 5
 ---
 
-# 概览
+# 优化
 
 优化是做减法，清理服务器的卡顿因素，由于 Minecraft 本身的性能低下、部分插件作者并没有优化代码的意识、服务器实体过多等。
 
