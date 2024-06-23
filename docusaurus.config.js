@@ -50,7 +50,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/postyizhan/NitWikit/tree/main'
+          editUrl: 'https://github.com/postyizhan/NitWikit/tree/main',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
@@ -137,6 +139,12 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       // 颜色随系统切换
+      docs:{
+        sidebar:{
+          hideable: true,
+          antoCollapseCategories: true,
+        },
+      },
       colorMode: {
         respectPrefersColorScheme: true,
       },
