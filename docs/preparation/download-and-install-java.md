@@ -22,7 +22,7 @@ sidebar_position: 2
 
 :::danger
 
-32位操作系统开服开个鬼服
+32位操作系统开服开个鬼服...
 
 [32位 64位是什么意思](https://cn.bing.com/search?q=32%E4%BD%8D%2064%E4%BD%8D%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D)
 
@@ -44,53 +44,53 @@ sidebar_position: 2
 ![](_images/Oracle-3.png)
 ![](_images/Oracle-4.png)
 
-> 如果再往下翻的话可以看到 Java 8 / 11。
+如果再往下翻的话可以看到 Java 8 / 11。
 
 ![](_images/Oracle-5.png)
 
-> 但是在这里 Java 8 需要登录才能下载。
->
-> 你可以在下方链接直接下载 Java 8。
->
-> > https://www.java.com/zh-CN/download/
+但是在这里 Java 8 需要登录才能下载。
+
+你可以在下方链接直接下载 Java 8：
+
+https://www.java.com/zh-CN/download/
 </details>
 
 ### Zulu 版
 
-根据各路大佬的测试 Zulu 相较 Oracle (你可以看做"公版")更适合开 MC 服务器
+根据各路大佬的测试 Zulu 相较 Oracle (你可以看做"公版") 更适合开 MC 服务器。
 
 <details>
   <summary>怎么找到官网并从官网下载</summary>
 
 ![](_images/Zulu-1.png)
 
-> 往下翻，找到这个，选择你想要的版本
+往下翻，找到这个，选择你想要的版本：
 
 ![](_images/Zulu-2.png)
 
-> 找到 64-bit (64位) （如果你的电脑是32位的，建议不开服）。
+找到 64-bit (64位) （如果你的电脑是32位的，建议不开服）：
 
 ![](_images/Zulu-3.png)
 
-> 如果您不能安装此软件（如不兼容），请关闭此文档，且**不要向**文档编写者们提问，感谢。
+如果您不能安装此软件（如不兼容），请关闭此文档，且**不要向**文档编写者们提问，感谢。
 </details>
 
 
 ## 验证 Java 安装
 
-打开 Windows 终端 / PowerShell / CMD。
+打开 Windows 终端 / PowerShell / CMD 。
 
 [怎么打开 Windows 终端](https://cn.bing.com/search?q=%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80windows%E6%8E%A7%E5%88%B6%E5%8F%B0)
 
 ![](_images/cmd-1.png)
 
-输入
+输入：
 
 ```
 java -version
 ```
 
-并回车
+并回车：
 
 ![](_images/cmd-2.png)
 

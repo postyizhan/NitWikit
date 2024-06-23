@@ -7,7 +7,8 @@ sidebar_position: 8
 
 **格式化代码（Formatting code）**，又称**颜色代码（Color code）**，能使在游戏中加入含颜色和格式信息。
 
-在Minecraft中，可以以分节符号（`§`）产生带色文字。 于Windows中，按`Alt` + `NUMPAD0` `NUMPAD1` `NUMPAD6` `NUMPAD7`或`Alt` + `NUMPAD4` `NUMPAD1` `NUMPAD4` `NUMPAD5` `NUMPAD2`。 于macOS中，按下`⌥ Option` + `6`。 于Linux中，按下 `Compose` + `S` + `O`。
+在 Minecraft 中，可以以分节符号（`§`）产生带色文字。 
+
 
 ![](_images/格式化代码/Minecraft_Formatting.gif)
 
@@ -21,9 +22,9 @@ sidebar_position: 8
 
 :::tip
 
-为了方便，多数插件的配置中支持使用 `&` 来代表 `§`
+为了方便，多数插件的配置中支持使用 `&` 来代表 `§` 。
 
-比如下面这个 TrMenu菜单 例子
+比如下面这个 TrMenu 菜单例子：
 
 ```
 Icons:
@@ -39,9 +40,9 @@ Icons:
 
 :::
 
-如果你想要更绚丽的颜色和更丰富的功能（比如点击文本执行命令）
+如果你想要更绚丽的颜色和更丰富的功能（比如点击文本执行命令）。
 
-可以去看 [MiniMessage](MiniMessage.md) 部分
+可以去看 [MiniMessage](MiniMessage.md) 部分。
 
 # 参考
 
