@@ -2,10 +2,9 @@
 slug: /contribution
 ---
 
-# 测试内容 1
+# 文档贡献
 
-[**Semantic Versioning**](https://semver.org/).
+如果你想为文档贡献自己的内容，请首先查看：
 
-```bash npm2yarn
-npm install
-```
+import DocCardList from '@theme/DocCardList';
+<DocCardList />
