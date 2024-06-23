@@ -57,7 +57,7 @@ on join:
 
 ### 拓展插件多
 
-使用 Skript 时如果遇到 Skript 不包含的语法，可以使用其他拓展插件如 Skbee、Skript-reflect 等插件拓展。
+使用 Skript 时如果遇到 Skript 不包含的语法，可以使用其他拓展插件如 [Skbee](https://github.com/ShaneBeee/SkBee)、[Skript-reflect](https://github.com/SkriptLang/skript-reflect) 等插件拓展。
 
 ### 性能较低
 
@@ -83,4 +83,4 @@ on join:
 
 ## 进阶教程
 
-TODO
+见[“高级教程”](AdvancedTutorials.md)。
