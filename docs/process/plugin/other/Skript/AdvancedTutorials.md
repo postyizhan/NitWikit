@@ -38,7 +38,7 @@ on TPARequestEvent:
     set {_player} to {_ess_IUser}.getBase()   # 获取Player对象
     # 判断玩家
     if {_player} is player("lilingfeng"):
-        send "&cliliangfeng是我的不准tpa到她那里🥵"
+        send "&clilingfeng是我的不准tpa到她那里🥵"
         cancel event   # 取消事件
 ```
 
