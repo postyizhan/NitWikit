@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.4.0">
 <title data-rh="true">高级教程 | 笨蛋 MC 开服教程</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://yizhan.wiki/NitWikit/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://yizhan.wiki/NitWikit/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://yizhan.wiki/NitWikit/process/plugin/other/Skript/AdvancedTutorials"><meta data-rh="true" property="og:locale" content="zh_Hans"><meta data-rh="true" name="docusaurus_locale" content="zh-Hans"><meta data-rh="true" name="docsearch:language" content="zh-Hans"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="高级教程 | 笨蛋 MC 开服教程"><meta data-rh="true" name="description" content="skript-reflect"><meta data-rh="true" property="og:description" content="skript-reflect"><link data-rh="true" rel="icon" href="/NitWikit/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://yizhan.wiki/NitWikit/process/plugin/other/Skript/AdvancedTutorials"><link data-rh="true" rel="alternate" href="https://yizhan.wiki/NitWikit/process/plugin/other/Skript/AdvancedTutorials" hreflang="zh-Hans"><link data-rh="true" rel="alternate" href="https://yizhan.wiki/NitWikit/process/plugin/other/Skript/AdvancedTutorials" hreflang="x-default"><link rel="stylesheet" href="/NitWikit/assets/css/styles.754ab417.css">
-<script src="/NitWikit/assets/js/runtime~main.600b64f3.js" defer="defer"></script>
+<script src="/NitWikit/assets/js/runtime~main.5df17610.js" defer="defer"></script>
 <script src="/NitWikit/assets/js/main.ce85fb14.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
@@ -50,14 +50,14 @@
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="查询-javadoc">查询 Javadoc<a class="hash-link" aria-label="查询 Javadoc的直接链接" title="查询 Javadoc的直接链接" href="/NitWikit/process/plugin/other/Skript/AdvancedTutorials#查询-javadoc">​</a></h4>
 <p>修改假人的名字这一行为应该在假人加入服务器时进行，所以我们得监听这一事件。</p>
 <p>我们需要找到 bot 事件到底是哪个，查询<a href="https://repo.leavesmc.org/javadoc/snapshots/org/leavesmc/leaves/leaves-api/1.20.6-R0.1-SNAPSHOT" target="_blank" rel="noopener noreferrer">Leaves 的 Javadoc</a>：</p>
-<p><img decoding="async" loading="lazy" alt="搜索事件" src="/NitWikit/assets/images/SearchEvent-4a9b1f9c61e01975db1571353b27bd81.png" width="1247" height="279" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="搜索事件" src="/NitWikit/assets/images/SearchEvent-12d6553a6dfe58cdeb111e5af74237da.png" width="1247" height="279" class="img_ev3q"></p>
 <p>这里查询找到了<code>org.leavesmc.leaves.event.bot.BotEvent</code>事件。</p>
 <p>看命名就知道应该会有更详细的<strong>子类</strong>来<strong>继承</strong>它，点进去看看，可以看到：</p>
-<p><img decoding="async" loading="lazy" alt="查找子类" src="/NitWikit/assets/images/QuerySubclasses-b46880cff83f4112a4280a402448c2b1.png" width="609" height="183" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="查找子类" src="/NitWikit/assets/images/QuerySubclasses-36e0604aca5aa19817fabdd00bd7804e.png" width="609" height="183" class="img_ev3q"></p>
 <p>通过看类名可以知道，<code>BotJoinEvent</code>就是我们要的事件。</p>
 <p>看介绍，发现这个事件会“Called when a fakeplayer joins a server”</p>
 <p>接下来让我们看看这个类有哪些<strong>方法</strong>。</p>
-<p><img decoding="async" loading="lazy" alt="查找方法" src="/NitWikit/assets/images/SearchMethods-8ca6321209383c34c19ce97123d5f7aa.png" width="882" height="414" class="img_ev3q"></p>
+<p><img decoding="async" loading="lazy" alt="查找方法" src="/NitWikit/assets/images/SearchMethods-1969dbd6f0f626d0ad54f59f48220300.png" width="882" height="414" class="img_ev3q"></p>
 <p>可以看到，最主要的是一个<code>getBot()</code>方法，在 让我们看看这个方法会返回什么。</p>
 <p>点击超链接，可以看到这个方法会返回一个<code>Bot</code>对象。</p>
 <p>这个<code>Bot</code>接口是继承自<code>Player</code>的，也就是说，<code>Player</code>有的方法，<code>Bot</code>都有。</p>
