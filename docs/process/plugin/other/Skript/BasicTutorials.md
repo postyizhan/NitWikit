@@ -1,6 +1,6 @@
 ---
 title: 基础教程
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # 基础教程
