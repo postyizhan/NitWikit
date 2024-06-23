@@ -139,12 +139,6 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
       // 颜色随系统切换
-      docs:{
-        sidebar:{
-          hideable: true,
-          antoCollapseCategories: true,
-        },
-      },
       colorMode: {
         respectPrefersColorScheme: true,
       },
