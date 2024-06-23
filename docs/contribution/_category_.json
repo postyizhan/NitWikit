@@ -1,11 +1,8 @@
 {
-  "label": "contribution",
+  "label": "贡献",
   "position": 100,
-  "collapsible": true,
-  "collapsed": false,
-  "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "贡献"
+    "title": "文档贡献"
   }
 }

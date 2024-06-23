@@ -1,8 +1,8 @@
 ---
-slug: /migration
+slug: /contribution
 ---
 
-# 测试内容
+# 测试内容 1
 
 [**Semantic Versioning**](https://semver.org/).
 
