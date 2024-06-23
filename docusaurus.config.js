@@ -66,6 +66,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      // sidebar自动折叠
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        },
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'NitWikit',
