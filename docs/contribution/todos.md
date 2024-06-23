@@ -34,13 +34,14 @@ sidebar_position: 100
 - [ ] 资源包托管 gitee github gitlab 直链网盘
 
 ## 维护
-- [] 优化-性能配置文件
+
+- [x] 优化-性能配置文件
 
 ## 插件
 
-- [ ] Skript简单教程
+- [x] Skript简单教程
 - [ ] papi list 扩展：插件自己挂钩 自己下载扩展 不需要插件的扩展
-- [ ] 全息图（浮空字）插件
+- [x] 全息图（浮空字）插件
 - [x] AskyBlock BentoBox（BskyBlock）
 - [ ] 替换ess方案 huskhomes + XConomy
 - [x] 资源包插件 ia oraxen介绍
@@ -75,7 +76,7 @@ sidebar_position: 100
 ## 扩展阅读
 
 - [ ] 命名空间 命令 mod物品 材质包物品
-- [ ] MySQL 小皮 宝塔
+- [x] MySQL 小皮 宝塔
 - [x] plugin.yml讲解
 - [X] §和&和RGB颜色 格式化代码
 - [x] 驿站的机器人的命令
