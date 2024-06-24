@@ -1,5 +1,6 @@
 ---
-title: 概览
+slug: /Plugins/OtherPlugin/Tab&Scoreboard
+title: Tab 及计分板
 sidebar_position: 1
 ---
 

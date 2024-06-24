@@ -1,6 +1,7 @@
 ---
-title: 概览
-sidebar_position: 1
+title: 菜单
+slug: /Plugins/OtherPlugin/Menu
+sidebar_position: 2
 ---
 
 # 概览

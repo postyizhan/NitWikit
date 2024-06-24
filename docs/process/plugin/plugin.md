@@ -1,9 +1,10 @@
 ---
-title: 概览
-sidebar_position: 1
+title: 插件
+slug: /Plugin
+sidebar_position: 4
 ---
 
-# 概览
+# 插件
 
 **本文档中提到的插件都有较多用户基础和完善的 Wiki，具体插件请查看插件的 Wiki。**
 
@@ -52,7 +53,7 @@ sidebar_position: 1
 - TrChat 聊天插件
 - MiniMotd MOTD插件
 
-Via自动安装已经移动到[此处](./other/跨版本/概览.md#笨蛋脚本)
+Via 自动安装已经移动到[此处](./other/跨版本/概览.md#笨蛋脚本)
 
 </details>
 

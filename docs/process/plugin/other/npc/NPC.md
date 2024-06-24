@@ -1,6 +1,7 @@
 ---
-title: 概览
-sidebar_position: 1
+title: NPC
+slug: /Plugins/OtherPlugin/NPC
+sidebar_position: 6
 ---
 
 # 概览

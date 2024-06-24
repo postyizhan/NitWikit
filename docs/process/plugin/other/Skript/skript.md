@@ -1,7 +1,7 @@
 ---
-slug: Skript
+slug: /Plugins/OtherPlugin/Skript
 title: Skript 概览
-sidebar_position: 1
+sidebar_position: 15
 ---
 
 # 概览
