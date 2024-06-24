@@ -1,9 +1,10 @@
 ---
-title: 概览
+title: BungeeCord
+slug: /bungeecord
 sidebar_position: 1
 ---
 
-# 概览
+# BungeeCord
 
 此篇教程适用于 BungeeCord / waterfall
 

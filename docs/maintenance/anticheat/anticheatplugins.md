@@ -1,6 +1,6 @@
 ---
 title: 反作弊插件
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 :::tip[写在最前]

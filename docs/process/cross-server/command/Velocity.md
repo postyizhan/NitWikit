@@ -1,6 +1,6 @@
 ---
 title: 命令
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # 命令

@@ -1,5 +1,6 @@
 ---
 title: 什么是跨服端?
+slug: /cross-server
 sidebar_position: 1
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: RNG
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # RNG 漏洞

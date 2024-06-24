@@ -1,6 +1,6 @@
 ---
 title: 其他作弊类型
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # 其他作弊类型

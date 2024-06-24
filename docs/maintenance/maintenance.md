@@ -1,6 +1,7 @@
 ---
 title: 服务器维护
-sidebar_position: 5
+slug: /maintenance
+sidebar_position: 1
 ---
 
 # 服务器维护
@@ -13,7 +14,7 @@ sidebar_position: 5
 
 如果遇到熊孩子恶意毁坏，可以使用插件回溯功能单独回溯熊孩子的操作。
 
-即使在区块出现损坏的情况下，这些插件也能在一定程度上减少区块损坏所造成的影响。见 [防熊插件/概览](/docs/process/plugin/防熊插件/概览.md)。
+即使在区块出现损坏的情况下，这些插件也能在一定程度上减少区块损坏所造成的影响。见 [防熊插件/概览](/docs/process/plugin/manage-tool/antigrief/antigrief.md)。
 
 ## 检查日志
 

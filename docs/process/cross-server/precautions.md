@@ -11,7 +11,7 @@ sidebar_position: 8
 
 :::
 
-## 不要给玩家/server权限
+## 不要给玩家 `/server` 权限
 
 用 `菜单/npc` 或其他东西跨服，但是不要给玩家这个权限（玩家默认有），会被玩家发现服主的小♂秘♂密♂
 
@@ -33,7 +33,7 @@ sidebar_position: 8
 /lpv group default permission set velocity.* false
 ```
 
-自己搭了个 vc 然后权限节点没有补全，你把权限全false了算了，反正玩家也用不到
+自己搭了个 vc 然后权限节点没有补全，你把权限全 `false` 了算了，反正玩家也用不到
 
 
 ## bc的语义扩大
