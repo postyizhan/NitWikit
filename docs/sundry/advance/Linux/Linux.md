@@ -1,5 +1,6 @@
 ---
 title: Linux 开服
+slug: /Sundry/Advance/Linux
 sidebar_position: 1
 ---
 

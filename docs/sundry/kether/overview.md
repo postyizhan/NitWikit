@@ -1,6 +1,7 @@
 ---
-title: 概览
-sidebar_position: 1
+title: kether 教程
+slug: /Sundry/Kether
+sidebar_position: 9
 ---
 
 # 概览
