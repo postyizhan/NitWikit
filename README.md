@@ -292,6 +292,8 @@ https://nitwikit.yizhan.wiki/
 
 [Play Now](https://ai.yizhan.wiki)
 
+[备用](https://nitwikit-ai.pages.dev/)
+
 # 📢 声明
 
 - 你不能声称这是你的作品
