@@ -1,13 +1,14 @@
 ---
-title: 概览
-sidebar_position: 1
+title: 资源包插件
+slug: /ResourcePackManagement
+sidebar_position: 6
 ---
 
 # 概览
 
 现在，资源包（或者说材质包）能做的事越来越多，在高版本已经有了一个新的服务器类别。
 
-很多人用 **ia服** 来代指这一类服务器。
+很多人用 **IA 服** 来代指这一类服务器。
 
 :::note
 
@@ -28,7 +29,7 @@ sidebar_position: 1
 
 ![](_images/2.png)
 
-**新的GUI界面**
+**新的 GUI 界面**
 
 ![](_images/3.png)
 
@@ -42,7 +43,7 @@ sidebar_position: 1
 
 ![](_images/6.png)
 
-**新的生物或boss**
+**新的生物或 boss**
 
 ![](_images/7.png)
 

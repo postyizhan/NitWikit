@@ -1,7 +1,7 @@
 ---
 title: 防熊
-
-sidebar_position: 1
+slug: /AntiGrief
+sidebar_position: 3
 ---
 
 # 概览

@@ -1,9 +1,10 @@
 ---
-title: 概览
-sidebar_position: 1
+title: 插件管理
+slug: /PluginMagagement
+sidebar_position: 5
 ---
 
-# 概览
+# 插件管理
 
 插件管理指可以在服务器已经开启时加载，卸载其他插件的插件。
 

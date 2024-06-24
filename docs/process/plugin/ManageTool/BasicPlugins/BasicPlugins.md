@@ -1,9 +1,9 @@
 ---
-title: 概览
-sidebar_position: 1
+title: 基础插件
+sidebar_position: 2
 ---
 
-# 概览
+# 基础插件
 
 基础插件，顾名思义，是大部分服务器 (特别是生存服) 必备的插件。
 

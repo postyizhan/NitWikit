@@ -1,5 +1,5 @@
 ---
-title: 支持方式
+title: 手机玩家支持
 sidebar_position: 1
 ---
 

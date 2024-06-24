@@ -1,9 +1,16 @@
 ---
-title: 概览
+title: 权限插件
+slug: /permission
 sidebar_position: 1
 ---
 
 # LuckPerms
+
+:::tip[注意]
+
+我们只推荐 Luckperms 作为高版本插件服作为权限插件，如果是老版本服请自行学习 GroupManager 等老插件。
+
+:::
 
 :::info
 

@@ -1,9 +1,12 @@
 ---
-title: 概览
+title: 粘液科技
+slug: /Slimefun
 sidebar_position: 1
 ---
 
-# 概览
+# 粘液科技
+
+粘液科技是常见的插件端科技类玩法插件。
 
 :::info
 
@@ -17,4 +20,4 @@ sidebar_position: 1
 
 :::
 
-一个玩法插件，为你的服务器提供类似mod的体验和更低的TPS。
+一个玩法插件，为你的服务器提供类似 mod 的体验和更低的 TPS（大嘘）。
