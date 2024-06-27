@@ -1,5 +1,6 @@
 ---
 title: 如何排除有问题的插件
+sidebar_position: 7
 ---
 
 # 如何排除有问题的插件
