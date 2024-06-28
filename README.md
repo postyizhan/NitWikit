@@ -109,8 +109,8 @@ https://nitwikit.yizhan.wiki/
 
 他们为文档贡献了部分内容/页面
 
-<!-- readme: contributors,Radiation\-pi/-,lilingfengdev/-,postyizhan/-,ImgBotApp/- -start -->
-<!-- readme: contributors,Radiation\-pi/-,lilingfengdev/-,postyizhan/-,ImgBotApp/- -end -->
+<!-- readme: contributors,Radiation-pi/-,lilingfengdev/-,postyizhan/-,ImgBotApp/- -start -->
+<!-- readme: contributors,Radiation-pi/-,lilingfengdev/-,postyizhan/-,ImgBotApp/- -end -->
 
 ## 📜 笨蛋脚本
 
