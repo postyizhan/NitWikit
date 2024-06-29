@@ -12,7 +12,7 @@ sidebar_position: 4
 
 **建议阅读**
 
-- [YAML 语法](/docs/sundry/YAML/overview.md)    - 了解大部分插件配置文件的语法。
+- [YAML 语法](/docs/sundry/YAML/YAML.md)    - 了解大部分插件配置文件的语法。
 - [插件特征文件](/docs/process/plugin/plugin-signature-file.md)     - 了解插件的一些信息。
 - [格式化代码](/docs/sundry/format-code.md)       - 了解彩色字体，下划线，删除线等。
 - [MiniMessage](/docs/sundry/MiniMessage.md)   - 了解RGB颜色，文本悬浮和点击文字执行等。
@@ -53,7 +53,7 @@ sidebar_position: 4
 - TrChat 聊天插件
 - MiniMotd MOTD插件
 
-Via 自动安装已经移动到[此处](./other/跨版本/概览.md#笨蛋脚本)
+Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 </details>
 
