@@ -16,6 +16,10 @@ const config = {
     start: "快速开始 🥵",
   },
 
+  markdown: {
+    mermaid: true,
+  },
+
   title: '笨蛋 MC 开服教程',
   tagline: '一群笨蛋们写的 Minecraft 开服教程',
   favicon: 'img/favicon.ico',
@@ -161,7 +165,7 @@ const config = {
         indexBlog: false,
         docsRouteBasePath: "/"
       },
-    ],
+    ],'@docusaurus/theme-mermaid'
   ],
 };
 
