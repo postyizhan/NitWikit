@@ -1,5 +1,5 @@
 ---
-title: config.yml
+title: config.yml汉化
 sidebar_position: 3
 ---
 

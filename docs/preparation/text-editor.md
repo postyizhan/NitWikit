@@ -9,19 +9,17 @@ sidebar_position: 1
 
 # 记得保存文件
 
-发现有人第一次用文本编辑器不知道编辑完后保存
+发现有人第一次用文本编辑器不知道编辑完后保存。
 
 ![](_images/白点.png)
 
-vscode会在未保存的文件后标记一个白点，提示你这个文件编辑了但是没有保存（其他文本编辑器类似）
+vscode会在未保存的文件后标记一个白点，提示你这个文件编辑了但是没有保存（其他文本编辑器类似）。
 
 ![](_images/vscode保存和自动保存.png)
 
-保存按钮（红色箭头）
+保存按钮（红色箭头），也可以用快捷键来保存 Ctrl + S 。
 
-> 不过我更喜欢用快捷键来保存 Ctrl + S
-
-开启自动保存（绿色箭头）
+开启自动保存（绿色箭头）。
 
 ~~当年TrMenu的自动重载治好了我的autosave~~
 
@@ -34,7 +32,7 @@ vscode会在未保存的文件后标记一个白点，提示你这个文件编�
 
 全能型文本编辑器，**非常非常推荐**，支持简体中文 / 繁体中文 / 英文，仅支持 `Windows 10 +`。
 
-缺点是启动速度可能不是很快，不过非常适合新手使用
+缺点是启动速度可能不是很快，不过非常适合新手使用。
 
 官网链接：https://code.visualstudio.com/
 
@@ -77,7 +75,7 @@ vscode会在未保存的文件后标记一个白点，提示你这个文件编�
 
 ![Notepad3](https://www.rizonesoft.com/wp-content/uploads/2023/09/notepad3-screenshot-1.jpg)
 
-也是一个比较不错的文本编辑器。要求：**Windows 8 +**
+也是一个比较不错的文本编辑器。要求：**Windows 8 +**。
 
 官网链接: https://rizonesoft.com/downloads/notepad3/
 
@@ -92,17 +90,17 @@ GitHub: https://github.com/rizonesoft/Notepad3
 
 ![NPPesu](_images/Npp展示.png)
 
-可用, 相关功能也较为完善
+可用, 相关功能也较为完善。
 
 :::wanning
 
-作者政治立场可能引起众怒, 但请理性看待
+作者政治立场可能引起众怒, 但请理性看待：
 
-[notepad++](http://www.notepadplus.com.cn/)台独+多次辱H [这里](https://cn.bing.com/search?q=notepad%252B%252B%E8%BE%B1%E5%8D%8E)
+[notepad++](http://www.notepadplus.com.cn/)台独 + 多次辱H [这里](https://cn.bing.com/search?q=notepad%252B%252B%E8%BE%B1%E5%8D%8E)。
 
-dizhi 08年奥运会 声称（仅声明，但还是挺过分的）不同意它的政治观点就在你的源码中添加随机字符 [这里](https://zhuanlan.zhihu.com/p/609192758)
+dizhi 08年奥运会 声称（仅声明，但还是挺过分的）不同意它的政治观点就在你的源码中添加随机字符 [这里](https://zhuanlan.zhihu.com/p/609192758)。
 
-可替代为 **Notepad--** 等
+可替代为 **Notepad--** 等。
 
 :::
 
@@ -135,7 +133,7 @@ dizhi 08年奥运会 声称（仅声明，但还是挺过分的）不同意它�
 
 #### 关联右键菜单?
 
-可以在工具→设置(Ctrl+Alt+，)打开设置，找到“常用配置”手动选中【关联右键菜单】
+可以在工具→设置(Ctrl+Alt+，)打开设置，找到“常用配置”手动选中【关联右键菜单】。
 
 </details>
 

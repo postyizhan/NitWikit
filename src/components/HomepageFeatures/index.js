@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/furnace.svg').default,
     description: (
       <>
-        基于MC社区最新内容编写,保持更新
+        基于 MC 社区最新内容编写,保持更新
       </>
     ),
   },

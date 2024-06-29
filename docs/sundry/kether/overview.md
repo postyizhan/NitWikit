@@ -1,12 +1,13 @@
 ---
-title: 概览
-sidebar_position: 1
+title: kether 教程
+slug: /Sundry/Kether
+sidebar_position: 9
 ---
 
 # 概览
 
-kether并不是一个插件，而是使用Taboolib框架开发的插件（如TrMenu，TrChat，Adyeshach）所使用的脚本语言.
+kether 并不是一个插件，而是使用 Taboolib 框架开发的插件（如TrMenu，TrChat，Adyeshach）所使用的脚本语言。
 
-https://www.yuque.com/sacredcraft/kether 这篇教程写的足够好了喵
+推荐教程：https://www.yuque.com/sacredcraft/kether
 
 kether语句表：https://kether.tabooproject.org/list.html

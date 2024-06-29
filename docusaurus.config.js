@@ -16,8 +16,12 @@ const config = {
     start: "快速开始 🥵",
   },
 
-  title: '笨蛋MC开服教程',
-  tagline: '一群笨蛋们写的Minecraft开服教程',
+  markdown: {
+    mermaid: true,
+  },
+
+  title: '笨蛋 MC 开服教程',
+  tagline: '一群笨蛋们写的 Minecraft 开服教程',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -29,7 +33,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'postyizhan', // Usually your GitHub org/user name.
-  projectName: '傻瓜指南', // Usually your repo name.
+  projectName: '笨蛋式指南', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -50,7 +54,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/postyizhan/NitWikit/tree/main'
+          editUrl: 'https://github.com/postyizhan/NitWikit/tree/main',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
@@ -64,6 +70,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
+      // sidebar自动折叠
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+        },
+      },
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'NitWikit',
@@ -147,13 +159,13 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ["en", "zh"],
+        language: ["zh"],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
         indexBlog: false,
         docsRouteBasePath: "/"
       },
-    ],
+    ],'@docusaurus/theme-mermaid'
   ],
 };
 
