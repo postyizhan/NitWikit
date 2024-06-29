@@ -175,13 +175,13 @@ Skript 仍然是编程语言，所有的编程语言都必须在拥有理论基�
 
 ### 缩进
 
-在 Skript 中 如果一行代码以 ":" 结尾 那么下一行需要进行缩进操作 如果没有就不需要进行缩进。
+在 Skript 中 如果一行代码以 ":" 结尾 那么下一行需要进行缩进操作，如果没有就不需要进行缩进。
 
 缩进的方式可以选择两个/四个空格或者一个 Tab （Tab 虽然不是很规范但是真的很爽）。
 
 ### 文本编辑器
 
-推荐使用 Vscode 安装 skript 拓展。或者使用 [Skeditor](https://forums.skunity.com/resources/skeditor.1517/)高亮语法。
+推荐使用 Vscode 安装 Skript 拓展。或者使用 [Skeditor](https://forums.skunity.com/resources/skeditor.1517/)高亮语法。
 
 ### Helloworld
 
@@ -204,102 +204,362 @@ on join:
 
 前往 [skhub](https://skripthub.net/docs/) 或 [skunity](https://docs.skunity.com/syntax)查询 Skript 语法，现在开始构思你的插件吧。
 
+### 语法的注意事项
+
+在[skhub](https://skripthub.net/docs/) 或 [skunity](https://docs.skunity.com/syntax) 上，我们可以看到 Skript 提供给我们一共上百个监听。
+
+我们究竟该怎么选择呢和使用呢？此处拿 "on command" 指令监听器为例：
+
+在侧边栏中选中(Skript 和 Events)后，在搜索栏中输入 "on command"，得到以下结果。
+
+![](_images/SkriptBasic1.png)
+
+我们要重点关注的是 `Event Values` 这一标签下所对应的内容:
+
+1. "event-world"（"事件-世界"）
+2. "event-commandsender"（"事件-指令发送者"）
+3. "event-player"（"事件-玩家"）
+
+利用这些，我们便可以获取到事件中的，“谁”和“某地”之类具体的信息。
+
+我们看一个 "on command" 相关示例：
+
+```skript
+on command "/op":
+    send "%event-world%" to console
+    send "%event-commandsender%" to console
+    send "%event-player%" to console
+```
+
+此时，任何执行者执行 "/op" 指令都会触发此监听。并将三个元素 "event-world" "event-commandsender" "event-player" 输出到后台。
+
+如果是后台执行了 "/op" 指令时，因为后台并不存于任何一个世界，也没有名字。上述三个元素只会有 "event-commandsender" 存在并正常输出为 "console" 而其余不存在元素将全部输出为 `"<none>"`
+
+相同地，你可以利用这样的方法，输出任何一个监听器下 "Event Values" 的元素值。
+
+这种获取元素值的方法将在你需要使用任何从来没有接触过的监听器的时候，快速让你掌握监听器的基本信息。
+
 ### 最初的脚本
 
+在这个板块中，请利用 [skhub](https://skripthub.net/docs/) 或 [skunity](https://docs.skunity.com/syntax)查询 Skript 语法，满足缩进等要求，尝试写一些最基础脚本吧~
 
+#### 事件
 
+在这一节中，我们学习如何选取如何选用合适的事件。因为事件是一切行为的触发器，需要事件发生了什么，在哪发生的，
 
+才能够进一步进行操作，事件发生的顺序是:
 
+`事件准备发生` > `监听器监听到` > `事件正式发生`。
 
+##### 事件的取消
 
+如果我们在监听器监听到后，加入取消事件这一环节。事件发生的顺序就变为了:
 
+`事件准备发生` > `监听器监听到` > `取消事件` > `事件未发生`
+
+我们就成功阻止了指令的发生，我们使用 `cancel event` 来达到这一点。
+
+##### 事件优先级
+
+要注意，事件的监听是有优先级的，其中有六个优先级，其中执行顺序为**从上到下**分别为：
+
+|优先级| Priority|
+-------- | -----
+|最低| Lowest|
+|低 |Low|
+|正常（默认）|Normal|
+|高 |High|
+|最高 |Highest|
+|监控 |Monitor|
+
+:::warning[吐槽]
+
+Bukkit 的事件就是这样的，所以 Skript 也继承了这个抽象名字，发生顺序为 `Lowest -> Low -> Normal -> High -> Highest -> Monitor`
+
+没错，Lowest 的事件最先发生，如果一个插件事件优先级更高且这个事件没有被更低优先级的插件取消，那么更高优先级的事件将会覆盖更低优先级的结果。
+
+我们来简单假设一个条件，我们想要写一个脚本禁止管理使用 tp 指令传送玩家到其他地方，我们会这样写：
+
+```
+on teleport with priority lowest:
+    teleport cause is command
+    #判断 tp 原因是否为指令 tp
+    if player do not has permission "admin.tp":
+        #取消没有被 tp 权限的玩家的传送
+        cancel event
+```
+
+此时我们在常用的 `on teleport` 事件后加上优先级 `with priority lowest` （以最低优先级先发生并取消）
+
+由此可见，Lowest 可以理解为 First，而 Highest 可以理解为 Last，更符合逻辑
+
+:::
+
+##### 事件选用
+
+选用不合适的事件可能会导致逻辑混乱复杂，性能拉胯，臃肿等。所以在任何脚本编写之前应该充分考虑选用什么事件是合理的。
+
+例如，我们想写一个脚本，检测玩家在 00:00 - 06:00 没有在床上睡觉，那么就每秒扣玩家 1 生命值。
+
+查询 [skhub](https://skripthub.net/docs/) 或 [skunity](https://docs.skunity.com/syntax) ，根据直觉选择，与时间和睡觉有关系的事件可能有这些：
+
+```
+every 10 seconds:
+at 00:00:
+on bed enter:
+on bed leave:
+```
+
+我们分别使用这些事件写以下几个脚本：
+
+```
+脚本1
+every 1 second:
+    loop all players:
+        if loop-player is not sleeping:
+            if time in world is between 00:00 and 6:00:
+                remove 1 from health of loop-player
+```
+
+该脚本利用 `every %tiemspan%` 作为事件触发，本身也是周期循环。
+
+可以发现，该循环使用 `every 1 second`，触发频率比较高，即使在白天这个事件循环仍在继续，
+
+虽然整体任务不算复杂，但是如果遇到复杂判断时，高频率（尤其是 `every tick`）的事件是很低效的。
+
+在这里，我们可以改写为：
+
+```
+脚本1改
+every 1 second:
+    if time in world is between 00:00 and 6:00:
+        loop all players:
+            if loop-player is not sleeping:
+                remove 1 from health of loop-player
+```
+
+相对脚本 1，我们发现，在时间在 0 - 6 点之外的时候，我们不会 loop 和判断玩家睡眠，因为这本身是没有意义的。
+
+仅仅只是交换两行代码顺序，就能起到提升性能的效果。（这里举例是非常轻量的例子，不足以产生任何性能问题）
+
+```
+脚本2
+on bed leave:
+    set {%player%::sleep} to false
+on bed enter:
+    set {%player%::sleep} to true
+
+at 00:00 in world "world":
+    while time in world is between 00:00 and 6:00:
+        loop all players:
+            if {%loop-player%::sleep} is false:
+                remove 1 from health of loop-player
+        wait 1 second
+
+```
+
+该脚本利用 `at time` 作为事件触发，也使用 `while` + `wait` 保持时间周期循环。使用 `bed leave` `bed enter` + 变量作为条件。
+
+属于错误使用了监听事件，因为玩家是否在睡觉不需要我们自行使用事件判断，而是有直接的条件语法。
+
+```
+脚本2改
+at 00:00 in world "world":
+    while time in world is between 00:00 and 6:00:
+        loop all players:
+            if loop-player is not sleeping:
+                remove 1 from health of loop-player
+        wait 1 second
+```
+
+该脚本利用 `at time` 作为事件触发，使用 `while` + `wait` 保持时间周期循环，使用 `is not sleeping` 作为条件。
+
+##### 练习
+
+制作一个 Skript 脚本，用于在大厅使用，不会刷新怪物，玩家不会受伤也不可伤害，也不会掉饱食度。
+
+普通玩家不可放置方块，或破坏方块，而有权限 `lobby.admin` 的玩家可以放置和破坏方块。
+
+<details>
+    <summary>参考写法，不唯一</summary>
+
+不刷新怪物的事件建议去掉，直接设置**难度为和平**。
+
+```
+不推荐，即使这是有用的！
+on spawn of any monster:
+    cancel event
+on food level change:
+    cancel event
+    #禁止饱食度变化
+```
+
+```skript
+on damage of a player with priority lowest::
+    cancel event
+    #取消玩家伤害
+on break with priority lowest::
+    if player do not have permission "lobby.admin":
+        #判断玩家权限
+        cancel event
+        #取消无权限玩家的方块破坏
+on place with priority lowest::
+    if player has permission "lobby.admin":
+        stop
+        #停止进一步对有权限玩家的逻辑，即什么也不做
+    else:
+        cancel event
+        #取消没有权限玩家的方块放置行为
+```
+
+在这里，以下两种写法是等价的。
+
+```
+if player do not have permission "lobby.admin":
+    cancel event
+```
+
+```
+if player has permission "lobby.admin":
+    xxx
+else:
+    cancel event
+```
+
+如果只需要判断是或不是，可以灵活选用更简洁的方法，简化为：
+
+```
+on place:
+    player do not have permission "lobby.admin"
+    cancel event
+```
+
+在这里省略了一个 if，因此后面也不需要跟上冒号 `:`，也无需重新换行，但注意，这只适用于只对没有权限的人进行取消，而对有权限的人没有任何限制时才可以这么写。
+
+</details>
+
+#### 条件
+
+TODO
+
+#### 练习 2 - /command、局部变量、运算练习
+
+制作一个 Skript 脚本，用于简单的跨世界传送，输入 `/world xxx` 即可传送到对应世界，坐标对应为：`主世界:地狱:末地=8:1:8`，
+
+即玩家在末地 `800, 100, 800` 传送到主世界坐标为 `800 100 800`，如果传送到地狱坐标为 `100 100 100`
+
+<details>
+    <summary>参考写法，不唯一</summary>
+
+:::tip
+
+1. `command /xxx` 后一定要使用 `trigger:` 否则指令将不会注册并报错。
+2. `/xxx` 为 "指令"，第 n 个空格后的参数即为 `arg-n`，如此处的 `<world>` 为 `arg-1`
+3. 参数类型可以查 [skhub](https://skripthub.net/docs/) 选择 `type` 为参数类型，万能参数可用 `string` / `text`。
+4. 参数以 `<>` 引用起来时说明该参数为必要参数，如果输入时没有这个参数时会提示格式错误，如果这个参数是可以省略的，那么可以使用类似 `[<text>]` 的方法。
+
+在这里，我们分析一下指令，应该是 `/world xxx` 中的 `xxx` 代表世界，所以我们选择 `/world <world>` 作为指令。
+
+另外，我们可以发现，玩家输入的指令可能包括自己在的世界，这件事本身是没意义的，应该在最开始检查一次。
+
+如果你是新手，很有可能会写出类似以下的脚本：
+
+```
+        if arg-1 is world "world_the_end":
+            teleport player to location(player's x-coord / 8, player's y-coord, player's z-coord / 8, world "world_the_end")
+        if arg-1 is world "world_nether":
+            if player's world is "world_the_end":
+                teleport player to location(player's x-coord / 8, player's y-coord, player's z-coord / 8, world "world_nether")
+            if player's world is "world":
+                teleport player to location(player's x-coord, player's y-coord, player's z-coord, world "world_nether")
+        if arg-1 is world "world":
+            if player's world is world "world_nether":
+                teleport player to location(player's x-coord * 8, player's y-coord, player's z-coord * 8, world "world")
+            else:
+                teleport player to location(player's x-coord, player's y-coord, player's z-coord, world "world")
+```
+
+:::warning[为什么这是不好的]
+
+1. 在这里，每行代码都过长了，非常不利于阅读。
+2. 此想要调整不同世界的比例时，需要一个个调整参数，这不利于代码的维护。
+3. 使用的 `if` 套在 `if` 后的情况比较多，在逻辑上可能会出现问题。
+
+:::
+
+所以，我们选择使用局部变量暂存玩家的坐标，并基于玩家所在世界及目标世界计算变量，
+
+最后根据计算出的量直接使用 `teleport player to [location]` 传送即可。
+
+```
+command /world <world>:
+    permission: command.world
+    trigger:
+        if arg-1 is player's world:
+            send "[传送] 禁止套娃！"
+            stop
+            #取消玩家输入的世界是自己所在的世界时的原地tp
+        else:
+            set {_y} to player's y-coord
+            #使用局部变量储存玩家的 y 坐标
+            if player's world is "world_nether":
+                #玩家在地狱时存储 x z 坐标存为 8 倍
+                set {_x} to player's x-coord * 8
+                set {_z} to player's z-coord * 8
+            else:
+                #玩家在其他世界时 x z 左边暂存
+                set {_x} to player's x-coord
+                set {_z} to player's z-coord
+            if arg-1 is world "world_nether":
+                #如果玩家从其他地方到地狱，将暂存的 x z 坐标除以 8
+                set {_x} to {_x}/8
+                set {_z} to {_z}/8
+                teleport player to location({_x},{_y},{_z},world "world_nether")
+                #传送到地狱
+            else:
+                teleport player to location({_x},{_y},{_z},world "%arg-1%")
+                #传送到指令对应世界
+```
+
+</details>
+
+#### 练习 3 -
+
+<details>
+    <summary>参考写法，不唯一</summary>
+
+</details>
+
+#### 练习 4 -
+
+<details>
+    <summary>参考写法，不唯一</summary>
+
+</details>
+
+#### 练习 5 -
+
+<details>
+    <summary>参考写法，不唯一</summary>
+
+</details>
+
+#### 练习 6 -
+
+<details>
+    <summary>参考写法，不唯一</summary>
+
+</details>
+
+### 最初的脚本编写思路 (by TUCAOEVER)
 
 :::warning
 
 后文为 TUCAOEVER 在 mcbbs 的教程未参考部分，没有进行任何格式化，TODO
 
-
 :::
+=
 
-
-
-
-## "5大类"用法
-
-## "loop"用法
-
-## 注册指令
-
-## "function"用法
-
-## 脚本编写思路 (by TUCAOEVER)
-
-可以看到 Skript 提供给我们一共 120 个监听。这么多的监听，我们究竟该怎么选择呢？选择完又该如何使用呢?
-
-这里我们拿 "on command" 监听器为例(指令执行监听器)。
-
-我们把我们对于事件的定义拿过来：谁在某地做了某事。
-
-现在我们已知要完成的事是“执行指令”，现在我们需要知道什么?
-
-我们需要知道的是——“谁”和“某地”。
-
-那么我们如何知道这些元素呢? 这时候我们需要下面这个网站：https://skripthub.net/docs/
-
-在侧边栏中选中(Skript Events)后，在搜索栏中输入 "on command"。
-
-我们要重点关注的是 "Event Values" 这一标签下所对应的内容，我们可以看到 "on command" 卡片上 "Event Values" 标签下共有三个字段：
-1. "event-world"（"事件-世界"）
-2. "event-commandsender"（"事件-指令发送者"）
-3. "event-player"（"事件-玩家"）
-
-利用这些，我们便可以获取到，事件中的，“谁”和“某地”之类具体的信息。
-
-我们看一个 "on command" 相关示例：
-```skript
-on command "/op":
-        send "%event-world%" to console
-        send "%event-commandsender%" to console
-        send "%event-player%" to console
-```
-
-我调取了指令监听器，任何执行者执行 "/op" 指令都会触发此监听。
-
-监听被触发后，将自动将三个元素 "event-world" "event-commandsender" "event-player" 输出到后台。
-
-如果是一位玩家执行了 "/op" 指令，"event-world" 将会输出玩家在哪个世界执行了指令，"event-commandsender" 将会输出为 "player" 因为监听器由玩家触发 而 "event-player" 则会输出为 "玩家的名字"
-
-那么如果是后台执行了 "/op" 指令呢? 
-
-因为后台并不存于任何一个世界，也没有名字。上述三个元素只会有 "event-commandsender" 存在并正常输出为 "console" 而其余不存在元素将全部输出为 `"<none>"`
-
-相同地，你可以利用这样的方法，输出任何一个监听器下 "Event Values" 的元素值。这种获取元素值的方法将在你需要使用任何从来没有接触过的监听器的时候，快速让你掌握监听器的基本信息。
-
-既然我们已经监听到了这个事件 除了获取一些与事件相关的信息之外 我们还能做一些什么呢?
-
-取消事件!
-
-事件发生的顺序是 事件准备发生 > 监听器监听到 > 事件正式发生。
-
-如果我们在监听器监听到后，加入 `取消事件` 这一环节。
-
-事件发生的顺序就变为了 事件准备发生 > 监听器监听到 > 取消事件 > 事件未发生。
-
-我们就成功阻止了 "/op" 指令的发生，我们使用 `cancel event` 来达到这一点。
-
-譬如我们上面所说的这段指令 我们在结尾加入 cancel event：
-
-```skript
-on command "/op":
-        send "%event-world%" to console
-        send "%event-commandsender%" to console
-        send "%event-player%" to console
-        cancel event
-```
-
-通过测试我们发现，元素仍然能正常输出，但是 "/op" 指令不再生效。
-
-即使取消了事件，事件的元素仍然会被传递至插件内，这个是需要注意的。
 
 ---
 
@@ -485,6 +745,9 @@ https://docs.skriptlang.org/classes.html
 ---
 
 WOW，恭喜你！看到这，你就可以开始尝试着写一些插件了。
+
+
+## 例子
 
 这里刚好有一个例子，不妨动动手，试一试。
 
@@ -828,7 +1091,7 @@ function SI_isSlotAvaliable(s: integer, z: integer) :: boolean:
 
 到此，所有基础教程已结束，谢谢大家赏脸看完。全文 11111 字，都是自己的一些干货，点个收藏，给点人气便是对我最大的支持。
 
-（请支持原作者 TUCAOEVER。）
+请支持原作者 [TUCAOEVER](https://github.com/TUCAOEVER)。
 
 ### 编者 (氿月) 的主要改动
 

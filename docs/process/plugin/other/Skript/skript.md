@@ -1,5 +1,5 @@
 ---
-slug: /Plugins/OtherPlugin/Skript
+slug: /plugins/other/Skript
 title: Skript 概览
 sidebar_position: 15
 ---
