@@ -25,7 +25,7 @@ sidebar_position: 1
 
 可以在 [JVM 参数生成器](https://startmc.jakaco.xyz/)生成适合你服务器的基本 JVM 参数，然后复制并保存到你的启动脚本里，然后重启就完成了
 
-别急，还有一些更高阶的参数。[拓展阅读](https://blog.binklac.com/e6ad4dc21152)
+别急，还有一些更高阶的参数。[JVM优化](jvm-optimization.md)
 
 # 第二步 - 预生成
 
@@ -52,7 +52,7 @@ sidebar_position: 1
 
 <summary>选择更换的服务器核心</summary>
 
-此处只是作为最基础的核心选择推荐，完整版请查看[核心选择](/docs/start/server-core-choose)
+此处只是作为最基础的核心选择推荐，完整版请查看[核心选择](/docs/start/server-core-choose.md)
 
 ## Paper - 追求极致稳定 *推荐度★★★★☆*
 
@@ -76,7 +76,7 @@ sidebar_position: 1
 
 目前，Bilibili上面的配置都是很老的，不推荐使用
 
-文档里的 [调服务端配置](config.md) 比较新，非常推荐
+文档里的 [调服务端配置](go.md) 比较新，非常推荐
 
 # 第五步 - 更换硬件
 
@@ -96,7 +96,7 @@ sidebar_position: 1
 
 无论在性能还是稳定性， Linux 都比 Windows 更适合用于开服，对于 Linux 根据自己的使用经验选择即可，如果没有使用经验可以先使用 Ubuntu 等主流系统。
 
-如果想要了解更多请前往进阶 [Linux 开服教程](/docs/sundry/advance/Linux/tutorial.md)
+如果想要了解更多请前往进阶 [Linux 开服教程](/docs/sundry/advance/Linux/start.md)
 
 
 # 第七步 - 性能分析
