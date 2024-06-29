@@ -303,13 +303,6 @@ https://nitwikit.yizhan.wiki/
   </tr>
 </table>
 
-## 笨蛋AI
-
-笨蛋AI为阅读者提供了一个免费的AI，你可以问这个AI任何问题！！
-
-[Play Now](https://ai.yizhan.wiki)
-
-[备用](https://nitwikit-ai.pages.dev/)
 
 # 📢 声明
 
