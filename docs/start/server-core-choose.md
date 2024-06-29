@@ -21,7 +21,7 @@ Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题�
 
 ## 笨蛋脚本
 
-帮你选择服务端,并自动下载!(目前不支持MOD,仅支持插件和混合)
+帮你选择服务端,并自动下载!
 
 [下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/select-server.exe)
 
