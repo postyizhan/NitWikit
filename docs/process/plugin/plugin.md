@@ -57,6 +57,20 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 </details>
 
+### PluginSearchEngine
+
+（目前仍在测试中）
+
+下载此[软件](https://github.com/lilingfengdev/PluginSearchEngine/releases/download/windows-latest/main.exe)
+
+<details>
+<summary>打开方式</summary>
+1. 双击打开软件。
+2. 在搜索框中输入关键字，点击搜索按钮。
+3. 双击链接将其复制到剪贴板。
+4. 在浏览器地址栏中粘贴链接，可以看见插件的详情。
+</details>
+
 ## 如何重载插件
 
 当你改动一个插件的配置后，需要重载才能令其生效。
