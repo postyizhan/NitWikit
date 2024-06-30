@@ -15,7 +15,7 @@ sidebar_position: 5
 * [笨蛋图床](https://image.yizhan.wiki) - 简洁,免费的图床
 * [笨蛋粘贴板](https://paste.yizhan.wiki) - 上传文件/创建Paste!(不要当网盘)
 * [笨蛋笔记本](https://notepad.yizhan.wiki) - 免费笔记本,支持密码,Markdown和分享
-* [笨蛋短链](https://s.yizhan.wiki) - 缩短链接
+* [笨蛋短链](https://imc.rip) - 缩短链接
 
 ## 规则
 

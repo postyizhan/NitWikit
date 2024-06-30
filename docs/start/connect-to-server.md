@@ -1,6 +1,6 @@
 ---
 title: 连接服务器
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # 连接服务器
