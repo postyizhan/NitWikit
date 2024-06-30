@@ -45,8 +45,13 @@ Folia这么好,但并不是每个服务器都可以体验的,你需要确保你�
 
 ## LightLuminol
 
+LightingLuminol 是 Luminol 的分支，旨在修复对 BukkitAPI 的破坏，最大程度保证 Bukkit 插件的兼容性。但是，虽然LightLuminol对于Bukkit插兼容性较好,但是会有许多问题，包括不定时的NullPointerError,Thread不安全,内存泄露,数据丢失(一天崩个几十次，挺正常的)
 
+所以在开始使用LightingLuminol，请想想Leaf是不是更好？
 
+如果你需要1.20.1/2,你可以使用[DirtyMolia](https://github.com/Era4FunMC/DirtyMolia)
+
+(Molia和Luminol其实是同一个作者~~)
 
 
 
