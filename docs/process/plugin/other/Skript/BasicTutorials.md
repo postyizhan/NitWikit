@@ -204,15 +204,41 @@ on join:
 
 前往 [skhub](https://skripthub.net/docs/) 或 [skunity](https://docs.skunity.com/syntax)查询 Skript 语法，现在开始构思你的插件吧。
 
-### 语法的注意事项
+### 如何使用语法
 
-在[skhub](https://skripthub.net/docs/) 或 [skunity](https://docs.skunity.com/syntax) 上，我们可以看到 Skript 提供给我们一共上百个监听。
+首先，最重要的是 Event（事件），这是所有逻辑的先决要素，我们在[skhub](https://skripthub.net/docs/) 或 [skunity](https://docs.skunity.com/syntax) 上，
 
-我们究竟该怎么选择呢和使用呢？此处拿 "on command" 指令监听器为例：
+在侧边栏中选中（Skript 和 Events），即可筛选 Skript 原生事件。此处以指令监听器为例：
 
-在侧边栏中选中(Skript 和 Events)后，在搜索栏中输入 "on command"，得到以下结果。
+在侧边栏中选中（Skript 和 Events）后，在搜索栏中输入 "on command"，得到以下结果。
 
 ![](_images/SkriptBasic1.png)
+
+#### 语法
+
+举一个例子，点击事件的语法是这样的：
+
+```
+[on] [(right|left)(| |-)][mouse(| |-)]click[ing] (with|using|holding) %itemtype% on %entitydata/itemtype%
+```
+##### `[xxx]`
+
+表示这部分可以被省略，但省略后可能会导致意义改变，如此处 `on click:` 和 `on rightclick:` 意义不同，前者为所有类型的点击，而后者为右键。
+
+##### `(x|y|z)`
+
+表示这部分可以从 `x`、`y`、`z` 中选择一个值，`x`、`y`、`z` 可以是空格或者空（也就是左右可以直接连起来），
+
+例如 `[mouse(| |-)]click` 代表着：`mouseclick` `mouse-click` `mouse click` 这三者有相同的含义。
+
+##### `%type%`
+
+表示这部分只能是固定的某种 type，如 `%itemtype%`，这部分可以勾选 [skhub](https://skripthub.net/docs/) 侧边栏 `Type` 获取。
+
+
+#### 属性
+
+是否可取消
 
 我们要重点关注的是 `Event Values` 这一标签下所对应的内容:
 
