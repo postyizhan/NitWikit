@@ -19,7 +19,7 @@ sidebar_position: 8
 
 **关闭权限**
 
-在跨服端安装 [Luckperms](/docs/process/plugin/管理工具/权限管理/概览.md) 的跨服端对应版本然后执行命令：
+在跨服端安装 [Luckperms](/docs/process/plugin/ManageTool/Permission/Permission.md) 的跨服端对应版本然后执行命令：
 
 - BungeeCord
 

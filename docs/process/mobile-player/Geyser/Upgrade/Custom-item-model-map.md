@@ -11,7 +11,7 @@ Geyser提供了自定义物品映射功能，可以为CustomModelData物品注�
 
 java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将JAVA版的资源包转化成基岩版资源包的工具
 
-:::tips
+:::tip
 
 不建议过度依赖转换器，转换出来的资源包也仅供参考学习，没有手写的效果好，不过如果你能接受也不是不能用
 
@@ -23,7 +23,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 ### 本地使用
 
-:::tips
+:::tip
 
 转换器需要在linux系统上运行，如果你使用WINDOWS，你可以选择wsl或者虚拟机
 
@@ -39,7 +39,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 ### 在线转换
 
-:::tips
+:::tip
 
 你需要拥有一个GitHUB账号才可以
 
@@ -56,7 +56,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 ## 人工手写映射
 
-:::tips
+:::tip
 
 此教程需要你有一定的动手和理解基岩版资源包结构，你可以动脑去看[基岩版资源包模板](https://github.com/Mojang/bedrock-samples/releases)学习
 

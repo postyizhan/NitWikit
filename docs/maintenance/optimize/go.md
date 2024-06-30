@@ -224,6 +224,8 @@ chunks:
 
 ### [bukkit.yml]
 
+#### spawn-limits
+
 在 `bukkit.yml` 和 `paper-world-default` 中都有一样的配置，但 paper 如果设置将覆盖 bukkit 的。
 
 所以建议直接在 `paper-world-default` 中设置：

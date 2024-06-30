@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 下载
 
-在 [核心选择](/docs/process/cross-server/server-core-choose) 找到 Velocity 然后下载
+在 [核心选择](/docs/process/cross-server/server-core-choose.md) 找到 Velocity 然后下载
 
 ## 启动
 
@@ -67,7 +67,7 @@ survival = "0.0.0.0.:25502"
 resource = "0.0.0.0:25503"
 # 尝试连接子服的先后顺序
 try = [
-    “login”,"survival"
+    "login","survival"
 ]
 # 建议删除此项所有值
 [forced-hosts]
@@ -175,4 +175,4 @@ Velocity支持将玩家信息（如IP地址、UUID和皮肤）转发到您的服
 
 ## 加入
 
-见 [加入服务器](/docs/process/cross-server/build-up/join-server.md)
+见 [加入服务器](/docs/process/cross-server/join-server.md)
