@@ -68,7 +68,7 @@ java -Xms2G -Xmx2G -jar 核心名.jar --nogui
 
 ## 最初的开启
 
-双击启动脚本后，大概率会卡在你会看到 Downloading mojang_x.x.x.jar，请耐心等待或查看[加速 mojang 核心下载](/docs/sundry/FAQ.md)
+双击启动脚本后，大概率会卡在你会看到 Downloading mojang_x.x.x.jar，请耐心等待
 
 一旦下载完成，他会提示：
 
@@ -114,7 +114,12 @@ Downloading mojang_x.x.x.jar
 
 其实你可以直接开启TUN模式
 
+记得让小地球变绿
+
+![](_images/常见问题/小地球.png)
+
 :::
+
 请确定您的科学上网是可用的，不多赘述。
 
 在命令行界面（一般情况下，一个黑 / 蓝框框）中执行这两条
