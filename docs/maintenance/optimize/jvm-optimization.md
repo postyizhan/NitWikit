@@ -60,6 +60,17 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 </details>
 
 <details>
+  <summary>Dreeam Flag (G1GC)</summary>
+
+梦先生的参数
+
+```shell
+-XX:+UseG1GC -XX:MaxGCPauseMillis=130 -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+ExplicitGCInvokesConcurrent -XX:+AlwaysPreTouch -XX:G1NewSizePercent=28 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:G1MixedGCCountTarget=3 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=90 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -XX:+PerfDisableSharedMem -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:+UseNUMA -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:NmethodSweepActivity=1 -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:AllocatePrefetchStyle=3 -XX:+AlwaysActAsServerClassMachine -XX:+EagerJVMCI -XX:+UseStringDeduplication -XX:+UseAES -XX:+UseAESIntrinsics -XX:+UseFMA -XX:+UseLoopPredicate -XX:+RangeCheckElimination -XX:+OptimizeStringConcat -XX:+UseCompressedOops -XX:+UseThreadPriorities -XX:+OmitStackTraceInFastThrow -XX:+RewriteBytecodes -XX:+RewriteFrequentPairs -XX:+UseFPUForSpilling -XX:+UseFastStosb -XX:+UseNewLongLShift -XX:+UseVectorCmov -XX:+UseXMMForArrayCopy -XX:+UseXmmI2D -XX:+UseXmmI2F -XX:+UseXmmLoadAndClearUpper -XX:+UseXmmRegToRegMoveAll -XX:+EliminateLocks -XX:+DoEscapeAnalysis -XX:+AlignVector -XX:+OptimizeFill -XX:+EnableVectorSupport -XX:+UseCharacterCompareIntrinsics -XX:+UseCopySignIntrinsic -XX:+UseVectorStubs -XX:UseAVX=2 -XX:UseSSE=4 -XX:+UseFastJNIAccessors -XX:+UseInlineCaches
+```
+
+</details>
+
+<details>
   <summary>Aikar's Flag </summary>
 
 ```shell
@@ -140,9 +151,59 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -DLeaf.library-download-repo=https://maven.aliyun.com/repository/public
 ```
 
+### 中文编码
+
+防止乱码
+
+```shell
+-Dfile.encoding=UTF-8
+```
+
+### 删除垃圾信息
+
+(仅适合Leaf或者Gale)
+
+```shell
+-Dgale.log.warning.root=false -Dgale.log.warning.offline.mode=false
+```
+
+### 更快的安全随机数发生
+
+```shell
+-Djava.security.egd=file:/dev/urandom
+```
+
+### 异步日志
+
+```shell
+ -Xlog:async
+```
+
+异步日志记录可能会导致日志记录的顺序不确定
+
+### 更长的KeepAlive时间
+
+```shell
+-Dpaper.playerconnection.keepalive=60
+```
+
+如果你的网络不好,可以适当延长keepalive时间,打开[alternate-keepalive](go.md#use-alternate-keepalive)
+
 ## 参数解释
 
-TODO
+### ZGC 与 G1GC
+
+废话不说，直接上图
+
+ZGC
+
+![](_images/zgc.png)
+
+G1GC
+
+![](_images/g1gc.png)
+
+显然,单次GC时间从32ms降到0.012ms
 
 ## JDK
 
