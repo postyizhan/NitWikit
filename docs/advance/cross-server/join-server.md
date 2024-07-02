@@ -15,7 +15,7 @@ sidebar_position: 4
 /server [配置中设置的子服名字]
 ```
 
-不过不建议用 `/server` 详见 [此处](/docs/process/cross-server/precautions.md#不要给玩家-server-权限)
+不过不建议用 `/server` 详见 [此处](/docs/advance/cross-server/precautions.md#不要给玩家-server-权限)
 
 :::warning
 
