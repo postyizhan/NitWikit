@@ -128,7 +128,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS
 ```
 
-::note
+:::tip
 
 在某些服务器上，开启大页后，会延长 JVM 的启动时间，时间从十秒到十分钟不等
 
