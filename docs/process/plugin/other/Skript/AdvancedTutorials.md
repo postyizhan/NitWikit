@@ -499,7 +499,7 @@ new %javatype%[%integer%]
 null
 ```
 
-在 **Java** 中表示 `null` 。这与 **Skript** 的`<none`>不同 .
+在 **Java** 中表示 `null` 。这与 **Skript** 的`<none>`不同 .
 
 ##### Bits
 
