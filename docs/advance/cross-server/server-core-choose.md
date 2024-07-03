@@ -1,6 +1,6 @@
 ---
 title: 核心选择
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 ## 核心选择

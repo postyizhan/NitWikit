@@ -1,7 +1,7 @@
 ---
 title: 搭建
 slug: /build
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 搭建代理服
