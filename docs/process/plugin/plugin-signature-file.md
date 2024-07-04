@@ -1,6 +1,6 @@
 ---
 title: 插件特征文件 (plugin.yml)
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 # plugin.yml

@@ -169,3 +169,11 @@ CREATE DATABASE <数据库名称> CHARACTER SET utf8mb4 COLLATE utf8mb4_general_
 
 TODO
 
+
+
+
+卸载
+
+https://www.bt.cn/bbs/thread-9043-1-1.html
+
+https://www.bt.cn/new/btcode.html
