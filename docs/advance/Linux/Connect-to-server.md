@@ -46,4 +46,4 @@ https://github.com/kingToolbox/WindTerm
 
 一个开源的 SSH/Telnet/Serial/Shell/Sftp 客户端工具
 
-![WindTerm](WindTerm.png)
+![WindTerm](_images/Linux开服/连接服务器/WindTerm.png)
