@@ -55,20 +55,6 @@ Purpur还原了MC的部分特性，用来开生存服务器更加适合(当然�
 
 </details>
 
-:::info
-
-Purpur端会自动安装 [spark（一个性能分析插件）](/docs/maintenance/optimize/performance-analysis.md) 如果你不想要，可以
-
-在启动参数中添加 -Dpurpur.IReallyDontWantSpark
-
-如果已经安装想删除，可以在服务端根目录的 cache 文件夹中找到spark
-
-最后:**不建议删除 spark** ，这是一个性能分析插件，可以找大佬帮你分析服务器卡顿原因 [怎么让大佬帮我](/docs/maintenance/optimize/ask-for-help.md)
-
-而且不使用就这么放着也不占多少资源
-
-:::
-
 ### 插件服核心推荐
 
 | 名称 | 介绍 | 推荐与否 | 下载镜像 | 支持的MC版本   |
@@ -86,6 +72,29 @@ Purpur端会自动安装 [spark（一个性能分析插件）](/docs/maintenance
 如果您是从非Bukkit系核心或单人存档迁移，请查看[ Leaves 的迁移文档](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)(通用所有Bukkit插件端)
 
 :::
+
+<details>
+  <summary>高版本不同服务端核心的比较</summary>
+
+# 性能
+
+Leaf > Purpur > Paper
+
+Leaves 参与比较是很愚蠢的，它的性能介于 Purpur Paper之间
+
+# 兼容
+
+Paper = Purpur > Leaf /Leaves
+
+Leaves 由于假人的存在会不兼容部分老的插件，比如Authme官方版本,
+
+# 生电
+
+Leaves > Leaf > Purpur > Paper
+
+Leaf 相比于 Purpur 多了生电模组兼容，没多什么特性
+
+</details>
 
 :::danger
 
