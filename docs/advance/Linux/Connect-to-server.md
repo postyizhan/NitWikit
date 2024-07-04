@@ -5,7 +5,9 @@ sidebar_position: 2
 
 # 连接服务器
 
-使用SSH工具连接至服务器
+使用SSH工具连接至服务器，在这里举出几种方法
+
+# powershell
 
 如 Windows 自带的 powershell
 
@@ -37,3 +39,11 @@ FinelShell：
 Xshell + Xftp:
 
 TODO
+
+# WindTerm
+
+https://github.com/kingToolbox/WindTerm
+
+一个开源的 SSH/Telnet/Serial/Shell/Sftp 客户端工具
+
+![WindTerm](WindTerm.png)
