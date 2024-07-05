@@ -27,7 +27,8 @@ title: 如何预防崩服
 #### 推荐添加黑名单的指令
 <details>
   <summary>黑名单指令</summary>
-
+  
+```
       # WorldEdit exploit
       - "//calc"
       - "//calculate"
@@ -58,6 +59,7 @@ title: 如何预防崩服
       # FAWE exploit
       - "//to"
       - "/to"
+```
 
 </details>
 
