@@ -1,11 +1,15 @@
 ---
 title: 可能用到的网站
-sidebar_position: 4
+sidebar_position: 3
 ---
 
 # 可能用到的网站
 
-![](_images/Screenshot_20240603_194838.jpg)
+开服不能只是从某一网站或者简单百度、谷歌获取资源，这样获取的资源种类非常贫乏。
+
+因此，如果你是失去了 MCBBS 就不知道去哪里搜索 Minecraft 相关资源，
+
+以下是一些可供参考的推荐网站：
 
 # SpigotMC
 
@@ -124,7 +128,7 @@ GitHub 汉化插件：https://github.com/maboloshi/github-chinese
 
 插件板块：https://www.minebbs.com/forums/mcjeplugin/
 
-同时，本教程在MineBBS也有搬运贴：https://www.minebbs.com/threads/nitwikit-geyser.26356/
+同时，本教程在 MineBBS 也有搬运贴：https://www.minebbs.com/threads/nitwikit-geyser.26356/
 
 </details>
 

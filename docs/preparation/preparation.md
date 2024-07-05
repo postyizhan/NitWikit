@@ -12,6 +12,8 @@ import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
 
+其中：
+
 Java 是开 Java 版 Minecraft 服务器必要的；
 
 文档编辑软件能够有效提高编辑插件、核心配置时的效率，降低错误使用语法的可能性；

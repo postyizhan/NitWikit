@@ -10,8 +10,8 @@ sidebar_position: 5
 
 目前包括
 
-* [笨蛋AI](https://ai.yizhan.wiki) - AI聊天,文生图
-* [笨蛋镜像](https://mirror.yizhan.wiki) - 加速网站的访问(为没有VPN的人准备)
+* [笨蛋 AI](https://ai.yizhan.wiki) - AI 聊天，文字生成图片
+* [笨蛋镜像](https://mirror.yizhan.wiki) - 加速网站的访问(为没有 VPN 的人准备)
 * [笨蛋图床](https://image.yizhan.wiki) - 简洁,免费的图床
 * [笨蛋粘贴板](https://paste.yizhan.wiki) - 上传文件/创建Paste!(不要当网盘)
 * [笨蛋笔记本](https://notepad.yizhan.wiki) - 免费笔记本,支持密码,Markdown和分享
@@ -23,11 +23,11 @@ sidebar_position: 5
 
 ## 限制
 
-由于服务提供商CloudFlare Free Plan 的限制,超过一定额度后部分服务会停机(虽然目前没碰到过)
+由于服务提供商 CloudFlare Free Plan 的限制,超过一定额度后部分服务会停机(虽然目前没碰到过)
 
 ### AI
 
-一天 1w 次对话,超过后笨蛋AI服务停机
+一天 1w 次对话,超过后笨蛋 AI 服务停机
 
 ### Worker
 

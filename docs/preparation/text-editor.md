@@ -1,6 +1,6 @@
 ---
 title: 文本编辑器
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # 文本编辑器
@@ -13,7 +13,7 @@ sidebar_position: 1
 
 ![](_images/白点.png)
 
-vscode会在未保存的文件后标记一个白点，提示你这个文件编辑了但是没有保存（其他文本编辑器类似）。
+vscode 会在未保存的文件后标记一个白点，提示你这个文件编辑了但是没有保存（其他文本编辑器类似）。
 
 ![](_images/vscode保存和自动保存.png)
 
