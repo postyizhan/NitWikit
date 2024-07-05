@@ -1,6 +1,6 @@
 ---
 title: 插件选择
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # 插件选择

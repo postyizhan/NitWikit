@@ -29,7 +29,11 @@ screen -S xxx -X quit # 删除 xxx 窗口（在 screen 中输入 exit 也可以�
 
 推荐原因：后台运行的同时还可以在服务端控制台中查看日志，打指令
 
-## 方法二 Systemctl
+## 方法二  面板(推荐)
+
+例如mcsm，简单无脑可视化
+
+## 方法三 Systemctl
 
 使用vim 创建 mc.service
 
@@ -81,7 +85,7 @@ systemctl enable mc.service
 
 缺点：无法进入控制台打指令
 
-## 方法三 nohup和&
+## 方法四 nohup和&
 
 &：在启动时后面加一个&
 

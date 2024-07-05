@@ -29,41 +29,7 @@ sidebar_position: 1
 
 在开始开服之前，你需要掌握的 Linux 常用指令
 
-### vim
-
-vim 是 Linux 上常用的文本编辑工具，在开服过程中会使用他进行插件配置的更改，开服脚本的编写等需要修改文字的地方
-
-### tar
-
-tar是Linux上常见的打包指令通常用于解包tar结尾的文件常见的文件格式是XXXX.tar.gz，解包的指令为 tar -zxf XXXX.tar.gz
-
-在Linux中文件名称，指令等内容的大小写是有严格要求的，打指令的时候记得注意大小写
-
-### systemctl
-
-systemd 是 Linux 的进程服务管理程序，后期学到如何把mc作为进程进行自动启动，报错重启等会用到
-
-### wget
-
-wget 是 Linux 中常用的文件下载工具 方法为 wget + URL （PS :得是直链）
-
-### cd
-
-cd是切换目录的指令
-
-### ls
-
-ls是查看目录下有什么内容的指令
-
-### mkdir
-
-mkdir 是 Linux 用于创建目录的指令
-
-### rm
-
-rm 是 Linux 用于删除文件或目录的指令，在删除目录时要加上-rf的参数
-
-（PS：当别人给你的指令中带有这个指令时一定要注意看清楚删除的是什么文件或目录，有的人会玩梗教你 rm -rf / 这个指令是删除所有文件，包括系统文件，会导致系统奔溃千万注意）
+![菜鸟教程 | Linux 需要掌握的一些命令](https://www.runoob.com/w3cnote/linux-useful-command.html)
 
 ## 鸣谢
 

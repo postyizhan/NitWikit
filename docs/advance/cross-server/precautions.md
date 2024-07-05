@@ -35,7 +35,6 @@ sidebar_position: 8
 
 自己搭了个 vc 然后权限节点没有补全，你把权限全 `false` 了算了，反正玩家也用不到
 
-
 ## bc的语义扩大
 
 bc 这个缩写应只指 BungeeCord 核心
@@ -43,3 +42,9 @@ bc 这个缩写应只指 BungeeCord 核心
 但是很多人用 bc 指 BungeeCord 和它的分支，甚至指所有的跨服端（把 Velocity 和包括进去了）
 
 希望在看的你用 bc 这个缩写时只用来指 BungeeCord 核心，避免产生不必要的误会
+
+:::note
+
+服务端有个命令是 `/bc` ，用来发公告的，这和此处的 BungeeCord 没有关系
+
+:::
