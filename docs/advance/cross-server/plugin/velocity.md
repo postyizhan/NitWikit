@@ -72,3 +72,11 @@ sidebar_position: 2
 # 装在跨服端+子服端
 
 这类插件必须要同时安装在跨服端和子服。
+
+## PAPIProxyBridge
+
+:::info
+
+同 [BungeeCord一侧的讲解](BC&WF.md#papiproxybridge)
+
+:::
