@@ -44,7 +44,7 @@ BungeeCord / Velocity 端（或他们的 Fork ）在这里我们称为`跨服端
 
 # 推荐用什么?
 
-**推荐使用 Velocity**，除非你的版本不适合 Velocity 如版本过低的 Forge 和 Fabric 核心
+**推荐使用 Velocity**，除非你的版本不适合 Velocity 的现代转发
 
 ## 安装数据库
 
