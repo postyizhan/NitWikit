@@ -179,14 +179,21 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/serverbread">
+                    <img src="https://avatars.githubusercontent.com/u/119761840?v=4" width="50;" alt="serverbread"/>
+                    <br />
+                    <sub><b>SB</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/lim114514">
                     <img src="https://avatars.githubusercontent.com/u/113185430?v=4" width="50;" alt="lim114514"/>
                     <br />
                     <sub><b>lim114514</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/CkaDebug">
                     <img src="https://avatars.githubusercontent.com/u/141492699?v=4" width="50;" alt="CkaDebug"/>
@@ -199,13 +206,6 @@ https://nitwikit.yizhan.wiki/
                     <img src="https://avatars.githubusercontent.com/u/102713261?v=4" width="50;" alt="HaHaWTH"/>
                     <br />
                     <sub><b>Kobe ⑧</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/serverbread">
-                    <img src="https://avatars.githubusercontent.com/u/119761840?v=4" width="50;" alt="serverbread"/>
-                    <br />
-                    <sub><b>SB</b></sub>
                 </a>
             </td>
             <td align="center">
