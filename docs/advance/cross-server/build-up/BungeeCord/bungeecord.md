@@ -1,5 +1,5 @@
 ---
-title: BungeeCord
+title: BungeeCord 端
 slug: /bungeecord
 sidebar_position: 1
 ---

@@ -1,7 +1,7 @@
 ---
-title: 指令
+title: 跨服端命令
 slug: /command
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # 反代核心常用指令

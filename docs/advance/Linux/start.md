@@ -21,8 +21,32 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 如果已经安装了 Java，可以忽略掉这一部分。如果环境未安装 Java 可以参考：
 
+### 软件包管理器安装
+
+下方以安装 `openjdk-17` 为例
+
+```
+<Tabs
+  defaultValue="Debian/Ubuntu"
+  values={[
+    {label: 'Debian/Ubuntu', value: 'Debian/Ubuntu'},
+    {label: 'RedHat/CentOS', value: 'RedHat/CentOS'},
+    {label: 'ArchLinux', value: 'ArchLinux'},
+  ]}>
+  <TabItem value="Debian/Ubuntu">sudo apt install openjdk-17-jdk</TabItem>
+  <TabItem value="RedHat/CentOS">sudo yum install java-11-openjdk</TabItem>
+  <TabItem value="ArchLinux">sudo pacman -S jdk11-openjdk</TabItem>
+</Tabs>
+```
+
+其他发行版安装方式自行百度
+
+### 手动♂
+
+推荐使用软件包管理器安装而不是自己手动装
+
 <details>
-    <summary>Java 安装</summary>
+    <summary>点击查看</summary>
 
 一般来说，在 Linux 中进行软件安装部署会放在 `/opt` 目录下，我们也遵循这个规则，当然你也可以不遵循
 
@@ -60,6 +84,52 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS, mixed mode, shari
 
 </details>
 
+## 多版本 Java 共存
+
+方法很多，这里举出两种
+
+## 方法一
+
+```
+<Tabs
+  defaultValue="Debian/Ubuntu"
+  values={[
+    {label: 'Debian/Ubuntu', value: 'Debian/Ubuntu'},
+    {label: 'RedHat/CentOS', value: 'RedHat/CentOS'},
+    {label: 'ArchLinux', value: 'ArchLinux'},
+  ]}>
+  <TabItem value="Debian/Ubuntu">update-alternatives --config java</TabItem>
+  <TabItem value="RedHat/CentOS">update-alternatives --config java</TabItem>
+  <TabItem value="ArchLinux">archlinux-java set jdk-vesion</TabItem>
+</Tabs>
+
+然后选择你想使用的 Java ，接着 `java -version` 验证版本
+```
+
+## 方法二
+
+设置别名
+
+确定你所使用的终端，此处以 `bash`  和 `zulu Java` 为例
+
+`vim ~/.bashrc` 在这个文件末尾追加
+
+```
+# java
+alias java8='/usr/lib/jvm/zulu-8/bin/java'
+alias java17='/usr/lib/jvm/zulu-17/bin/java'
+```
+
+然后刷新：`source ~/.bashrc`
+
+- 使用 Java8 开服：
+
+        java8 -jar example.jar
+
+- 使用 Java17 开服：
+
+        java17 -jar example.jar
+
 ## 开服
 
 :::warning
@@ -72,7 +142,13 @@ TODO - 完善和排版
 
 ![](_images/Linux开服/开服/5.png)
 
-将核心放入服务器内，并编写简单的开服脚本，使用 chmod 命令给脚本增加运行权限
+将核心放入服务器内，并编写简单的开服脚本
+
+使用 chmod 命令给脚本增加运行权限
+
+```
+chmod +x example.sh
+```
 
 ![](_images/Linux开服/开服/6.png)
 

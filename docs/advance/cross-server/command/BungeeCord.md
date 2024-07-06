@@ -1,5 +1,5 @@
 ---
-title: 命令
+title: BungeeCord 端
 sidebar_position: 1
 ---
 

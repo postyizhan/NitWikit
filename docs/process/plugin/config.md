@@ -1,6 +1,6 @@
 ---
 title: 配置插件
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # 配置插件
