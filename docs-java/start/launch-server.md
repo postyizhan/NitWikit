@@ -26,7 +26,7 @@ sidebar_position: 4
 
 有路径一样，你的 cmd 也是有路径的(红框中为此 cmd 所在的路径)
 
-[cmd是什么](https://cn.bing.com/search?q=cmd%E6%98%AF%E4%BB%80%E4%B9%88)
+[cmd 是什么](https://cn.bing.com/search?q=cmd%E6%98%AF%E4%BB%80%E4%B9%88)
 
 [怎么打开 cmd](https://cn.bing.com/search?form=MOZLBR&pc=MOZI&q=%E6%80%8E%E4%B9%88%E6%89%93%E5%BC%80cmd)
 
@@ -36,7 +36,7 @@ sidebar_position: 4
 
 ![](_images/1.png)
 
-点击地址栏，输入 cmd 然后回车，就会在这个路径下打开cmd
+点击地址栏，输入 cmd 然后回车，就会在这个路径下打开 cmd
 
 ![](_images/2.png)
 
@@ -50,13 +50,13 @@ sidebar_position: 4
 
 ## 编写启动脚本
 
-~~最简单的启动命令当然是java -jar~~
+~~最简单的启动命令当然是 java -jar~~
 
 现在你把下载好的服务端核心放到一个空文件夹里
 
 ![](_images/1.png)
 
-在这个文件夹里创建一个txt文件，重命名为bat后缀的文件 如 `start.bat`
+在这个文件夹里创建一个 txt 文件，重命名为 bat 后缀的文件 如 `start.bat`
 
 [文件看不到后缀怎么办](https://cn.bing.com/search?q=%E6%96%87%E4%BB%B6%E7%9C%8B%E4%B8%8D%E5%88%B0%E5%90%8E%E7%BC%80)
 
@@ -92,9 +92,9 @@ Done (6.554s)! For help， type "help"
 
 :::
 
-## 更复杂的bat
+## 更复杂的 bat
 
-请参考 [JVM参数优化](/docs/maintenance/optimize/jvm-optimization.md)
+请参考 [JVM 参数优化](/docs-java/process/maintenance/optimize/jvm-optimization.md)
 
 ## 常见问题
 
@@ -133,4 +133,8 @@ set https_proxy=http://127.0.0.1:7890
 
 注：输入之后仅对这个命令行窗口有效，`开启新的 / 关闭它` 之后要重新输入。
 
+<<<<<<< HEAD
 > 大佬们，浏览器能用不是 cmd 能用，不然你猜我为什么写这个。
+=======
+> 大佬们，浏览器能用不是 cmd 能用，不然你猜我为什么写这个。
+>>>>>>> 8f7af3ffa9eb9ddccc8a46554223f7df59d0b073

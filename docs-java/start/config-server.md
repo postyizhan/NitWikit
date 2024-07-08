@@ -12,10 +12,11 @@ sidebar_position: 5
 [下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/config-eazy.exe)，我们会询问一些问题，帮你**自动配置**
 
 目前可以配置的
-* 服务器端口
-* 正版验证
-* 服务器种子
-* 最大玩家数
+
+- 服务器端口
+- 正版验证
+- 服务器种子
+- 最大玩家数
 
 ## 正版验证
 
