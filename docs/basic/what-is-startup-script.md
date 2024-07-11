@@ -50,7 +50,7 @@ java -Xms12G -Xmx12G -jar 核心名.jar nogui
 | -Xmx[size] | 设置最大内存大小，默认为物理内存的1/4或者1G，需大于2M，可以指定单位K/M/G |
 | -Xms[size] | 设置最小内存大小，默认为物理内存的1/64，需大于1M |
 | -jar | 为 Java 指定需要运行的 Jar 程序 |
-| ----nogui | 关闭服务器 GUI，少量性能提升，大多数人不需要用到 |
+| --nogui | 关闭服务器 GUI，少量性能提升，大多数人不需要用到 |
 
 <details>
   <summary>--nogui干了什么</summary>
