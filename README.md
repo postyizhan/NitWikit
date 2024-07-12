@@ -179,14 +179,21 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/DongShaoNB">
+                    <img src="https://avatars.githubusercontent.com/u/54093566?v=4" width="50;" alt="DongShaoNB"/>
+                    <br />
+                    <sub><b>东少</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/lim114514">
                     <img src="https://avatars.githubusercontent.com/u/113185430?v=4" width="50;" alt="lim114514"/>
                     <br />
                     <sub><b>lim114514</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/CkaDebug">
                     <img src="https://avatars.githubusercontent.com/u/141492699?v=4" width="50;" alt="CkaDebug"/>
@@ -215,6 +222,8 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>MoLiyi-WD</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/MengHanLOVE1027">
                     <img src="https://avatars.githubusercontent.com/u/99132833?v=4" width="50;" alt="MengHanLOVE1027"/>
@@ -222,20 +231,11 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>梦涵LOVE</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Coquettishpig">
                     <img src="https://avatars.githubusercontent.com/u/107100449?v=4" width="50;" alt="Coquettishpig"/>
                     <br />
                     <sub><b>Coquettishpig</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/DongShaoNB">
-                    <img src="https://avatars.githubusercontent.com/u/54093566?v=4" width="50;" alt="DongShaoNB"/>
-                    <br />
-                    <sub><b>东少</b></sub>
                 </a>
             </td>
             <td align="center">
