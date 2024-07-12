@@ -32,3 +32,11 @@ on join:
 使您可以设置仅基岩版玩家的权限或仅Java版玩家的权限，让您不再因为权限管理而急眼！
 
 [下载](https://www.minebbs.com/threads/luck-bedrock.24169/)
+
+## BedrockPlayerSupport
+
+一个优化基岩版玩家体验的插件，给部分命令添加了更适合基岩版玩家的表单，例如基础插件(CMI/EssentialsX/HuskHomes/AdvancedTeleport)的 /tpa /tpahere /home 命令，原版 /msg 命令
+  
+给部分主流登录插件添加了基岩版玩家自动注册、登录功能，其他登录插件也可以在配置文件中设置强制登录命令实现自动登录
+
+[下载](https://github.com/DongShaoNB/BedrockPlayerSupport/releases) | [文档](https://docs.bps.dsnb.cc/#/zh-cn/start/introduce)
