@@ -38,3 +38,8 @@ sidebar_position: 1
 对于文档中的错误请进入 [Github](https://github.com/postyizhan/NitWikit) 提出 Issue 或提交 Pr。
 
 欢迎加入 [企鹅群 🐧611076407](https://qm.qq.com/q/lEnfzgzxjq)。
+
+# 本节视频教程
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1856102651&bvid=BV16W421R7tm&cid=1616123376&p=1&high_quality=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
