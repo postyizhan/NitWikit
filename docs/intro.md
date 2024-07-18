@@ -41,5 +41,4 @@ sidebar_position: 1
 
 # 本节视频教程
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1856102651&bvid=BV16W421R7tm&cid=1616123376&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
+[**点此前往B站**: 笨蛋级MC开服教程-第一集:服主的基本要求](https://www.bilibili.com/video/BV16W421R7tm/?share_source=copy_web&vd_source=53975e70eabfc1d6563221a670d4021a)
