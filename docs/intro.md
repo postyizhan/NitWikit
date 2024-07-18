@@ -15,7 +15,6 @@ sidebar_position: 1
 - 具备使用**搜索引擎**搜索关键词的能力；
 - 拥有一台能够**正常游玩 Minecraft** 的电脑。
 - 具有一定的**英语基础** 
-*如果你的英语不好,建议[重修初中英语3500词](https://wenku.baidu.com/view/c4276da332126edb6f1aff00bed5b9f3f90f7291.html?_wkts_=1721292243929)*
 
 # 教程适合的群体
 
