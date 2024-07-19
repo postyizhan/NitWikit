@@ -262,6 +262,13 @@ https://nitwikit.yizhan.wiki/
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/Yaosanqi137">
+                    <img src="https://avatars.githubusercontent.com/u/99163721?v=4" width="50;" alt="Yaosanqi137"/>
+                    <br />
+                    <sub><b>Yaosanqi137</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/IAFEnvoy">
                     <img src="https://avatars.githubusercontent.com/u/83523430?v=4" width="50;" alt="IAFEnvoy"/>
                     <br />
@@ -273,13 +280,6 @@ https://nitwikit.yizhan.wiki/
                     <img src="https://avatars.githubusercontent.com/u/85682725?v=4" width="50;" alt="TalentsRC"/>
                     <br />
                     <sub><b>TalentsRC</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/Yaosanqi137">
-                    <img src="https://avatars.githubusercontent.com/u/99163721?v=4" width="50;" alt="Yaosanqi137"/>
-                    <br />
-                    <sub><b>Yaosanqi137</b></sub>
                 </a>
             </td>
 		</tr>
