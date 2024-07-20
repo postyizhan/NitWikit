@@ -20,13 +20,13 @@ sidebar_position: 7
 <details>
   <summary>Mukul1127 Flag (ZGC) Plus - 4 核 8G 以上推荐</summary>
 
-Mukul1127 Flag Plus 是现代的启动参数，使用 ZGC 作为垃圾回收，**注意:Mukul1127 Flag Plus至少需要 4c8g 以上环境才可以发挥出优势，更低配置请使用 Aikar flag plus**，Mukul1127 Flag Plus 需要 Java 17 以上!
+Mukul1127 Flag Plus 是现代的启动参数，使用 ZGC 作为垃圾回收，**注意:Mukul1127 Flag Plus 至少需要 4c8g 以上环境才可以发挥出优势，更低配置请使用 Aikar flag plus**，Mukul1127 Flag Plus 需要 Java 17 以上!
 
 ```shell
 java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA -XX:+UseVectorCmov -XX:+UseNewLongLShift -XX:+UseFastStosb -XX:+SegmentedCodeCache -XX:+OptimizeStringConcat -XX:+DoEscapeAnalysis -XX:+OmitStackTraceInFastThrow -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:+UseZGC -XX:AllocatePrefetchStyle=1 -XX:-ZProactive
 ```
 
-如果你使用Java 21 以上，你可以将`-XX:-ZProactive`换`-XX:+ZGenerational`，Java 22以上必须切换
+如果你使用 Java 21 以上，你可以将`-XX:-ZProactive`换`-XX:+ZGenerational`，Java 22 以上必须切换
 
 </details>
 
@@ -39,7 +39,7 @@ GraalVM Java 17+ 的参数，
 java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA -XX:+UseVectorCmov -XX:+UseNewLongLShift -XX:+UseFastStosb -XX:+SegmentedCodeCache -XX:+OptimizeStringConcat -XX:+DoEscapeAnalysis -XX:+OmitStackTraceInFastThrow -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:AllocatePrefetchStyle=3 -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:+PerfDisableSharedMem -XX:+UseFastUnorderedTimeStamps -XX:+UseCriticalJavaThreadPriority -XX:+EagerJVMCI -Dgraal.TuneInlinerExploration=1 -XX:+UseZGC -XX:AllocatePrefetchStyle=1 -XX:-ZProactive
 ```
 
-如果你使用Java 21 以上，你可以将 `-XX:-ZProactive` 换为 `-XX:+ZGenerational` ，Java 22以上必须切换
+如果你使用 Java 21 以上，你可以将 `-XX:-ZProactive` 换为 `-XX:+ZGenerational` ，Java 22 以上必须切换
 
 ### 以下是额外选项
 
@@ -52,12 +52,9 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 <details>
   <summary>Mukul1127 Flag (G1GC)</summary>
 
-
 ```shell
 java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA -XX:+UseVectorCmov -XX:+UseNewLongLShift -XX:+UseFastStosb -XX:+SegmentedCodeCache -XX:+OptimizeStringConcat -XX:+DoEscapeAnalysis -XX:+OmitStackTraceInFastThrow -XX:+AlwaysActAsServerClassMachine -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:NmethodSweepActivity=1 -XX:ReservedCodeCacheSize=400M -XX:NonNMethodCodeHeapSize=12M -XX:ProfiledCodeHeapSize=194M -XX:NonProfiledCodeHeapSize=194M -XX:-DontCompileHugeMethods -XX:MaxNodeLimit=240000 -XX:NodeLimitFudgeFactor=8000 -XX:+UseVectorCmov -XX:+PerfDisableSharedMem  -XX:+UseCriticalJavaThreadPriority -XX:ThreadPriorityPolicy=1 -XX:AllocatePrefetchStyle=3 -XX:+UseG1GC -XX:MaxGCPauseMillis=37 -XX:+PerfDisableSharedMem -XX:G1HeapRegionSize=16M -XX:G1NewSizePercent=23 -XX:G1ReservePercent=20 -XX:SurvivorRatio=32 -XX:G1MixedGCCountTarget=3 -XX:G1HeapWastePercent=20 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 -XX:G1ConcMarkStepDurationMillis=5.0 -XX:GCTimeRatio=99 -XX:G1ConcRefinementServiceIntervalMillis=150 -XX:G1ConcRSHotCardLimit=16
 ```
-
-</details>
 
 </details>
 
@@ -71,7 +68,7 @@ java -XX:+UnlockExperimentalVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UseFMA
 
 ### 大页支持
 
-注意在WINDOWS上使用大页，必须要以管理员启动
+注意在 WINDOWS 上使用大页，必须要以管理员启动
 
 当然，在动手前，让我们先试一试是不是系统已经支持了这项功能 ，在控制台执行此命令
 
@@ -95,7 +92,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 但是如果你依然不支持或者想要追求极致性能，可以去百度搜索当前的系统如何开启大页，
 
-这里就不再过多的赘述了。(LargePages对服务器提升相当巨大,在我的电脑上，它提升了50%的性能)
+这里就不再过多的赘述了。(LargePages 对服务器提升相当巨大,在我的电脑上，它提升了 50%的性能)
 
 如果支持 LargePages ，加上此参数
 
@@ -103,8 +100,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -XX:+UseLargePages  -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS
 ```
 
-
-如果支持 TransparentHugePages (不要把两个都加上，优先LargePages)，加上此参数
+如果支持 TransparentHugePages (不要把两个都加上，优先 LargePages)，加上此参数
 
 ```shell
 -XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m -XX:+UseHugeTLBFS
@@ -116,7 +112,6 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 :::
 
-
 ### SIMD
 
 如果你使用的是 Pufferfish 的分支(Purpur，Leaf，Leaves，Gale)，你可以添加此参数
@@ -127,7 +122,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 ### 下载源加速
 
-默认的 SpigotLibraryLoader 下载源在国内访问很慢，如果你使用的是Leaf，你可以添加参数使用国内下载源：
+默认的 SpigotLibraryLoader 下载源在国内访问很慢，如果你使用的是 Leaf，你可以添加参数使用国内下载源：
 
 ```shell
 -DLeaf.library-download-repo=https://maven.aliyun.com/repository/public
@@ -143,7 +138,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 ### 删除垃圾信息
 
-(仅适合Leaf或者Gale)
+(仅适合 Leaf 或者 Gale)
 
 ```shell
 -Dgale.log.warning.root=false -Dgale.log.warning.offline.mode=false
@@ -163,13 +158,13 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 异步日志记录可能会导致日志记录的顺序不确定
 
-### 更长的KeepAlive时间
+### 更长的 KeepAlive 时间
 
 ```shell
 -Dpaper.playerconnection.keepalive=60
 ```
 
-如果你的网络不好,可以适当延长keepalive时间,打开[alternate-keepalive](go.md#use-alternate-keepalive)
+如果你的网络不好,可以适当延长 keepalive 时间,打开[alternate-keepalive](go.md#use-alternate-keepalive)
 
 ## 参数解释
 
@@ -185,7 +180,7 @@ G1GC
 
 ![](_images/g1gc.png)
 
-显然,单次GC时间从32ms降到0.012ms
+显然,单次 GC 时间从 32ms 降到 0.012ms
 
 :::tip
 
