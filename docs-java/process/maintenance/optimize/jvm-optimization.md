@@ -195,4 +195,22 @@ G1GC
 
 ## JDK
 
-TODO
+对各种 JDK 构建的性能测试
+
+### Zulu OpenJDK
+
+
+经过多次检验最适合用来开服的 JDK,根据多个使用者的反馈,切换到 Zulu OpenJDK 后 MSPT 降了百分之三十
+
+### GraalVM
+
+
+此 JDK 有着 Zulu OpenJDK 不分上下的性能,GraalJS 更是比 Nashorn 快两倍以上,但是 GraalJS 目前仅有 TrMenu 支持
+
+### Zulu Primes
+
+~~不要被他的`高性能`所欺骗,经过多次测试,Zulu Primes 不适合用于开 MC~~ 可能要逆转
+
+### IBM OpenJ9
+
+一个适合用于低内存环境的 JDK(实测内存占用减小),但是会严重影响性能
