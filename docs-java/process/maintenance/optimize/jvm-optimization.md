@@ -198,11 +198,15 @@ G1GC
 
 按照测试结果高到低排序
 
-#### Azul Zing
+#### Azul Platform Primes(Zing)
 
-Azul 开发的一款超高性能的 JDK,但是仅能用于 Linux,测试时,我们发现 Azul **第一次**初始性能并不如 Zulu,GraalVM ,但是在测试机上,大约十分钟后 Azul 性能开始反超 Zulu,GraalVM
+Azul 开发的一款超高性能的 JDK,测试时,我们发现 Zing **第一次**初始性能并不如 Zulu,GraalVM ,但是在测试机上,大约十分钟后 Azul 性能开始反超 Zulu,GraalVM
 
-**注意:如果你使用 Azul,那就不要使用上述任何优化参数**
+**注意:如果你使用 Azul,那就不要使用上述任何优化参数,并且,该JDK仅能用于Linux**
+
+目前有点小小的兼容性问题，模组服就不要尝试了
+
+优化参数我们还在探索
 
 #### GraalVM
 
