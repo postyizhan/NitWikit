@@ -227,7 +227,7 @@ BellSoft Liberica JDK 和 Adoptium Eclipse Temurin 在 MC 上的性能表现不�
 * AdoptOpenJDK
 * Amazon Corretto
 * Microsoft Build of OpenJDK
-* 阿里巴巴 Dragonwell(不要使用!!!!，除非你是被政府强迫的)
+* 阿里巴巴 Dragonwell
 * SapMachine 
 * Red Hat OpenJDK
 * ojdkbuild
