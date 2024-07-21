@@ -197,20 +197,42 @@ G1GC
 
 对各种 JDK 构建的性能测试
 
-### Zulu OpenJDK
+在经过冰块大佬,llf的测试后,我们得出了在 Java 21 上对各个 JDK 的性能排行
 
+### 性能
 
-经过多次检验最适合用来开服的 JDK,根据多个使用者的反馈,切换到 Zulu OpenJDK 后 MSPT 降了百分之三十
+按照测试结果高到低排序
 
-### GraalVM
+#### Azul Zing
 
+Azul 开发的一款超高性能的 JDK,但是仅能用于 Linux,测试时,我们发现 Azul **第一次**初始性能并不如 Zulu,GraalVM ,但是在测试机上,大约十分钟后 Azul 性能开始反超 Zulu,GraalVM
 
-此 JDK 有着 Zulu OpenJDK 不分上下的性能,GraalJS 更是比 Nashorn 快两倍以上,但是 GraalJS 目前仅有 TrMenu 支持
+**注意:如果你使用 Azul,那就不要使用上述任何优化参数**
 
-### Zulu Primes
+#### GraalVM
 
-~~不要被他的`高性能`所欺骗,经过多次测试,Zulu Primes 不适合用于开 MC~~ 可能要逆转
+新神,实测区块生成比 Zulu 快了 10%(其他指标由于没有Nigger没测),JS 执行性能是 Nashorn 两倍以上
 
-### IBM OpenJ9
+#### Zulu OpenJDK
 
-一个适合用于低内存环境的 JDK(实测内存占用减小),但是会严重影响性能
+老牌性能神,比 Oracle JDK 快了 20 - 30%
+
+BellSoft Liberica JDK 和 Adoptium Eclipse Temurin 在 MC 上的性能表现不如前三个
+
+### 内存占用
+
+#### IBM OpenJ9
+
+内存占用最小,但是性能非常不好,适合在低内存环境使用
+
+### 不推荐的
+
+* OpenJDK builds by Oracle
+* Oracle Java SE Development Kit
+* AdoptOpenJDK
+* Amazon Corretto
+* Microsoft Build of OpenJDK
+* 阿里巴巴 Dragonwell(不要使用!!!!，除非你是被政府强迫的)
+* SapMachine 
+* Red Hat OpenJDK
+* ojdkbuild
