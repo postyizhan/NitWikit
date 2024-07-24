@@ -1,7 +1,6 @@
 ---
 title: Nova
-slug: /Slimefun
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Nova
