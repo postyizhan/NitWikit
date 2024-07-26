@@ -12,21 +12,27 @@ sidebar_position: 2
 
 ## 什么是 Velocity ？
 
-velocity 可以说是目前最优秀的**Minecraft代理端**之一，由经验丰富的PaperMC团队研发。 Velocity 拥有先进的转发方式和极高的安全性。与此同时，他也有优秀的性能表现。使用 Velocity ，能让你的群组服务器锦上添花。
+velocity 可以说是目前最优秀的**Minecraft代理端**之一，由经验丰富的PaperMC团队研发，Velocity 拥有先进的转发方式和极高的安全性。与此同时，Velocity 也有优秀的性能表现
 
-并且，如果你开的是mod群组服务器，那么强烈推荐使用 Velocity ，因为他对 forge 和 fabric 服务端做了适配，同时也有一些让 Mod 端支持 Velocity 的 Mod
+使用 Velocity ，能让你的群组服务器锦上添花
+
+如果你开的是mod群组服务器，那么强烈推荐使用 Velocity ，因为他对 forge 和 fabric 服务端做了特别的适配
+
+当然，Mod 服务端原生不支持 Velocity，需要安装让 Mod 端支持 Velocity 的 Mod
 
 - Fabric 端支持 Velocity Mod：[CrossTitch](https://www.curseforge.com/minecraft/mc-mods/crossstitch)
+
 - Fabric 端支持 Velocity Mod：[FabricProxy-Lite](https://modrinth.com/mod/fabricproxy-lite)
+
 - Forge 端支持 Velocity Mod：[Proxy Compatible Forge](https://modrinth.com/mod/proxy-compatible-forge)
 
 ## FAQ
 
 **1.Q：velocity 支持bungeecord和waterfall插件吗？**
 
-A： 不支持，因为如果我们支持 BungeeCord 插件的话，那么很多velocity的功能就无从实现了。
+A： 不支持，因为如果我们支持 BungeeCord 插件的话，那么很多velocity的功能就无从实现了
 
-但是有些插件可能同时也支持 Velocity 或者有 Velocity 的版本。并且，有些 BungeeCord 插件仅要求在子服务器安装，那么这些插件理论上也是可以在 Velocity 为基础的代理服务器上使用的。
+但是有些插件可能同时也支持 Velocity 或者有 Velocity 的版本。并且，有些 BungeeCord 插件仅要求在子服务器安装，那么这些插件理论上也是可以在 Velocity 为基础的代理服务器上使用的
 
 **2.Q：我应当使用哪个版本的 JAVA 来运行 Velocity**
 
@@ -86,7 +92,15 @@ Can't connect to server lobby： This server requires you to connect with Veloci
 
 `-Dfml.readTimeout=120` (单位：秒)
 
-这样，服务器的 readTimeout 时间就拉长了，下次就可以正常进入服务器了
+这样，将服务器重启后，readTimeout 时间就拉长了，下次就可以正常进入服务器了
 
+**6.Q：我可以每个子服都使用不同的转发模式吗？**
 
+不行，至少现在不行，你只能在 `velocity.toml` 中设置一个单一的转发模式
+
+关于各个不同的转发模式，可以看到这里 [搭建](docs-java\advance\cross-server\build-up\Velocity\build-up.md##子服配置)
+
+有大佬提出了关于这个问题的 [PR](https://github.com/PaperMC/Velocity/pull/1357)
+
+可以坐等合并了，合并之后就可以给各个不同的子服配置不同的转发模式啦
 
