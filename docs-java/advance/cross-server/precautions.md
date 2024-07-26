@@ -17,6 +17,8 @@ sidebar_position: 8
 
 这个权限默认是高于 Bukkit 插件权限的，也就是说玩家可以在未登录之前使用此命令跳转到另外一个服务器，如果另外的服务器没登陆插件，那么通过此方法就可以使用到 OP 账号
 
+强调一下：如果你使用的是authme登录插件，请务必在代理端安装对应的authme插件，如authme-velocity，authmebungee等，这样就可以避免一些上述问题了
+
 **关闭权限**
 
 在跨服端安装 [Luckperms](/docs-java/process/plugin/ManageTool/Permission/Permission.md) 的跨服端对应版本然后执行命令：
