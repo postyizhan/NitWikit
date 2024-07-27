@@ -138,3 +138,7 @@ java -version
 下载 Java 时下载 `.zip` 或 `.tar.gz` 结尾的压缩包，将压缩包解压到任意位置。
 
 随后可以修改环境变量 `JAVA_HOME` 即可，如果不懂看[这篇文章](https://blog.csdn.net/MrsHorse/article/details/82695353)
+
+# 本节视频教程
+
+[**点此前往B站**: 笨蛋级MC开服教程-第三集P1:实机演示安装JAVA](https://www.bilibili.com/video/BV1eT42167iZ/?share_source=copy_web&vd_source=53975e70eabfc1d6563221a670d4021a)
