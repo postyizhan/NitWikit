@@ -6,11 +6,11 @@ sidebar_position: 3
 
 :::info
 
-`SpigotMC` :https://www.spigotmc.org/resources/.79599/
+`SpigotMC` https://www.spigotmc.org/resources/.79599/
 
-`GitHub` :https://github.com/frankheijden/serverutils
+`GitHub` https://github.com/frankheijden/serverutils
 
-`modrinth` :https://modrinth.com/plugin/serverutils
+`modrinth` https://modrinth.com/plugin/serverutils
 
 :::
 

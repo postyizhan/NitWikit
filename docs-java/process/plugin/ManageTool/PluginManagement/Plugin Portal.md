@@ -6,9 +6,9 @@ sidebar_position: 4
 
 :::info
 
-`SpigotMC` :https://www.spigotmc.org/resources/.108700/
+`SpigotMC` https://www.spigotmc.org/resources/.108700/
 
-`GitHub` :https://github.com/flytegg/plugin-portal
+`GitHub` https://github.com/flytegg/plugin-portal
 
 :::
 

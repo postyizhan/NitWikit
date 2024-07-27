@@ -7,9 +7,9 @@ sidebar_position: 2
 
 :::info
 
-`GitHub（官方）` :https://github.com/xenondevs/Nova
+`GitHub（官方）` https://github.com/xenondevs/Nova
 
-`Modrinth` :https://modrinth.com/plugin/nova-framework
+`Modrinth` https://modrinth.com/plugin/nova-framework
 
 :::
 
@@ -19,4 +19,4 @@ sidebar_position: 2
 
 下载完成后 Nova 的插件文件夹有一个多 G
 
-因此建议下载依赖时候挂梯，不然就国内的网络环境嘛
+建议下载依赖时候挂梯，不然就国内的网络环境嘛
