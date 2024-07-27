@@ -27,29 +27,31 @@ MOD 服务端
 :::
 
 ### 常见插件端(Paper 等)
-| Minecraft 版本 | 最低版本 | 推荐版本 |
-| -------------- | -------- | -------- |
-| 1.0 - 1.11.2 | Java 6 | Java 8 |
-| 1.12 - 1.16.4 | Java 8 | Java 11 |
-| 1.16.5 | Java 8 | Java 16 |
-| 1.17 | Java 16 | Java 17 |
+
+| Minecraft 版本    | 最低版本    | 推荐版本    |
+|-----------------|---------|---------|
+| 1.0 - 1.11.2    | Java 6  | Java 8  |
+| 1.12 - 1.16.4   | Java 8  | Java 11 |
+| 1.16.5          | Java 8  | Java 16 |
+| 1.17            | Java 16 | Java 17 |
 | 1.17.1 - 1.20.4 | Java 17 | Java 21 |
-| 1.20.5 - 1.21 | Java 21 | Java 21 |
+| 1.20.5 - 1.21   | Java 21 | Java 21 |
 
 ### 混合服务端(CatServer 等)
 TODO
 
 ## 直接下载
+
 :::warning
 此处下载链接可能不是最新版，如需下载最新版请跳转至 [手动下载](#%E6%89%8B%E5%8A%A8%E4%B8%8B%E8%BD%BD)
 :::
-| Java 版本 | 下载链接 |
-| --------- | -------- |
-| Java 6 | [Azul Zulu Builds of OpenJDK 64位 (JDK)](https://cdn.azul.com/zulu/bin/zulu6.22.0.3-jdk6.0.119-win_x64.msi) |
-| Java 8 | [Azul Zulu Builds of OpenJDK 64位 (JRE)](https://cdn.azul.com/zulu/bin/zulu8.78.0.19-ca-jre8.0.412-win_x64.msi) |
-| Java 11 | [Azul Zulu Builds of OpenJDK 64位 (JRE)](https://cdn.azul.com/zulu/bin/zulu11.72.19-ca-jre11.0.23-win_x64.msi) |
-| Java 17 | [Azul Zulu Builds of OpenJDK 64位 (JRE)](https://cdn.azul.com/zulu/bin/zulu17.50.19-ca-jre17.0.11-win_x64.msi) |
-| Java 21 | [Azul Zulu Builds of OpenJDK 64位 (JDK)](https://cdn.azul.com/zulu/bin/zulu21.34.19-ca-jdk21.0.3-win_x64.msi) |
+
+| Java 版本 | 下载链接                                                                                                                                   |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Java 8  | [Dragonwell 8](https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.19.20/Alibaba_Dragonwell_Extended_8.19.20_x64_windows.zip)            |
+| Java 11 | [Dragonwell 11](https://dragonwell.oss-cn-shanghai.aliyuncs.com/11.0.23.20.9/Alibaba_Dragonwell_Extended_11.0.23.20.9_x64_windows.zip) |
+| Java 17 | [Azul Zulu](https://cdn.azul.com/zulu/bin/zulu22.32.15-ca-jdk22.0.2-win_x64.zip)                                                       |
+| Java 21 | [GraalVM EE](https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip)                                         |
 
 :::danger
 
@@ -86,26 +88,7 @@ TODO
 https://www.java.com/zh-CN/download/
 </details>
 
-### Zulu 版
-
-根据各路大佬的测试 Zulu 相较 Oracle (你可以看做"公版") 更适合开 MC 服务器。
-
-<details>
-  <summary>怎么找到官网并从官网下载</summary>
-
-![](_images/Zulu-1.png)
-
-往下翻，找到这个，选择你想要的版本：
-
-![](_images/Zulu-2.png)
-
-找到 64-bit (64位) （如果你的电脑是32位的，建议不开服）：
-
-![](_images/Zulu-3.png)
-
-如果您不能安装此软件（如不兼容），请关闭此文档，且**不要向**文档编写者们提问，感谢。
-</details>
-
+如果你想进行 JVM 优化,请看[JVM优化](/docs-java/process/maintenance/optimize/jvm/jvm.md)
 
 ## 验证 Java 安装
 
