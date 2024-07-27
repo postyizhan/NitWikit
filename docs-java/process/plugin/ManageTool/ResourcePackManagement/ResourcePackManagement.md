@@ -89,7 +89,7 @@ https://www.blockbench.net/plugins/minecraft_title_generator
 
 https://www.spigotmc.org/resources/.99121/
 
-## 
+## PackSquash
 
 资源包压缩工具，**显著减小** 资源包的体积
 
