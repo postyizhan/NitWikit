@@ -88,7 +88,7 @@ TODO
 https://www.java.com/zh-CN/download/
 </details>
 
-如果你想进行 JVM 优化,请看[JVM优化](/docs-java/process/maintenance/optimize/jvm/jvm.md)
+如果你想进行 JVM 优化,请看[JVM优化](https://yizhan.wiki/NitWikit/Java/optimize/jvm)
 
 ## 验证 Java 安装
 
@@ -124,4 +124,4 @@ java -version
 
 # 本节视频教程
 
-[**点此前往B站**: 笨蛋级MC开服教程-第三集P1:实机演示安装JAVA](https://www.bilibili.com/video/BV1eT42167iZ/?share_source=copy_web&vd_source=53975e70eabfc1d6563221a670d4021a)
+[**点此前往B站**: 笨蛋级MC开服教程-第三集P1:实机演示安装JAVA](https://www.bilibili.com/video/BV1eT42167iZ/)
