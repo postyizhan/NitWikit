@@ -94,7 +94,7 @@ https://github.com/Dreeam-qwq/TrMenu/blob/stable/v3/plugin/src/main/resources/se
 
 ### 每日签到
 
-[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/Demo/trmv3-每日签到.yml)
+[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/trmv3-每日签到.yml)
 
 据作者所说重启服务器会丢数据
 
@@ -104,8 +104,8 @@ https://github.com/Dreeam-qwq/TrMenu/blob/stable/v3/plugin/src/main/resources/se
 
 ### 每日签到
 
-[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/Demo/inv-每日签到.yml)
+[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/inv-每日签到.yml)
 
 ### tpa选人菜单
 
-[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/Demo/inv-tpa选人菜单.yml)
+[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/inv-tpa选人菜单.yml)
