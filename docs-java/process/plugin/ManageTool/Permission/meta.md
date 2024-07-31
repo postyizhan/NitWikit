@@ -87,7 +87,7 @@ sidebar_position: 6
 
 图中执行了三次相同的命令
 
-![](_images/memory_4.png)
+![](_images/memory_5.png)
 
 :::tip
 
@@ -150,7 +150,7 @@ command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 
 ![](_images/memory_9.png)
 
 ```
-\%luckperms_meta_键名%
+%luckperms_meta_键名%
 ```
 
 ![](_images/memory_10.png)
