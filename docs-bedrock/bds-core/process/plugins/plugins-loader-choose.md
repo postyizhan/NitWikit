@@ -50,7 +50,7 @@ import TabItem from '@theme/TabItem';
 | 推荐与否 | 较为推荐 |
 | 理由 | 国内插件虽然少，但还是有很多的人去使用它，作者也从19年一直维护到现在 |
 | 下载 | [克隆源代码下载](https://github.com/bdsx/bdsx) |
-| 插件下载 | [npm源](https://www.npmjs.com/search?q=%40bdsx%2F) |
+| 插件下载 | [npm源](https://www.npmjs.com/search?q=%40bdsx%2F)<br />[Github](https://github.com/topics/bdsx-plugins) |
 | 支持的 MC 版本 | 1.12 - 最新（目前保持更新） |
 </TabItem>
 </Tabs>
