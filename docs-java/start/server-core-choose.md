@@ -145,7 +145,7 @@ import TabItem from '@theme/TabItem';
 
 **劣势**：
 
-- 优化不如 Purpur 和 Leaf
+- 优化 - 优化不如 Purpur 和 Leaf
 
 专为生电而生的核心。
 
