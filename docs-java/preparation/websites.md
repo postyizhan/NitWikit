@@ -84,7 +84,7 @@ SpigotMC 应该是目前 Minecraft 开服圈最大的插件网站了，最大的
 <details>
   <summary>连不上怎么办</summary>
 
-这是由于GitHub是开放的外国网站，网站上时不时会有一些不能在此讨论的内容，所以运营商会刻意地屏蔽这个网站，在很多时候都不能正常访问。具体的表现如下：[只要Github域名指向任意IP，该IP的443端口就会超时3分钟](https://blog.csdn.net/weixin_43659597/article/details/118882176)。
+这是由于 GitHub 是开放的外国网站，网站上时不时会有一些不能在此讨论的内容，所以运营商会刻意地屏蔽这个网站，在很多时候都不能正常访问。具体的表现如下：[只要Github域名指向任意IP，该IP的443端口就会超时3分钟](https://blog.csdn.net/weixin_43659597/article/details/118882176)。
 
 有以下几种解决办法：
 1. 魔法
@@ -115,7 +115,7 @@ GitHub 汉化插件：https://github.com/maboloshi/github-chinese
 
 # MineBBS
 
-国内较为知名的综合性 Minecraft 论坛。曾以基岩版开服内容为主，MCBBS关闭后其Java版相关内容丰富了许多。
+国内较为知名的综合性 Minecraft 论坛。曾以基岩版开服内容为主，MCBBS 关闭后其 Java 版相关内容丰富了许多。
 
 <details>
   <summary>点击展开</summary>
