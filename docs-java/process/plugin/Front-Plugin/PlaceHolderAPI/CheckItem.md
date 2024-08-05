@@ -8,11 +8,11 @@ sidebar_position: 4
 
 :::info
 
-`eCloud` : https://api.extendedclip.com/expansions/checkitem/
+`eCloud` https://api.extendedclip.com/expansions/checkitem/
 
-`Placeholder List` : https://wiki.placeholderapi.com/users/placeholder-list/#checkitem
+`Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/#checkitem
 
-`GitHub` : https://github.com/PlaceholderAPI/CheckItem-Expansion
+`GitHub` https://github.com/PlaceholderAPI/CheckItem-Expansion
 
 :::
 
@@ -60,7 +60,7 @@ sidebar_position: 4
 
 作用是收取10个钻石
 
-> amt是 amount 的所写
+> amt是 amount 的缩写
 
 :::note
 
@@ -103,7 +103,7 @@ sidebar_position: 4
 %checkitem_remove_nbtstrings:itemsadder..id..data=ia物品ID,amt:数量%
 ```
 
-使用了两个个修饰符
+使用了两个修饰符
 
 - nbtstrings
 - amt

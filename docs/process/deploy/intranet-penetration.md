@@ -15,95 +15,7 @@ sidebar_position: 5
 
 ~~因为rz用户比较多，你甚至能用某人用不用樱花来定性判断这人有没有技术~~
 
-## 自建Frp
-
-首先你得确保你有一台有公网IP的机器，最好是**Linux**的。
-
-这里假定你有一台符合条件的Linux服务器，并且你已经可以连上你服务器的**SSH**。
-
-
-1. 首先确保服务器所有软件包是最新的：
-
-```bash
-apt-get update && apt-get upgrade -y
-```
-
-2. 安装`screen`软件包：
-
-```bash
-apt-get install screen -y
-```
-
-3. 下载`frp.go`软件：
-
-```bash
-cd ~
-wget https：//github.com/fatedier/frp/releases/download/v0.58.1/frp_0.58.1_linux_amd64.tar.gz
-```
-
-4. 解压
-
-```bash
-tar -xzvf frp_0.58.1_linux_amd64.tar.gz
-```
-
-### 配置服务端
-
-1. 编写配置文件：
-```bash
-vim ~/frp_0.58.1_linux_amd64/frps.toml
-```
-写入如下内容：
-```toml
-bindPort = 7000 # frps监听的端口
-
-auth.token = "example" # 身份验证令牌，frpc要与frps一致
-```
-
-2. 开启frps服务端：
-
-```bash
-cd ~/frp_0.58.1_linux_amd64
-screen -dR frps ./frps
-# 键盘上按Ctrl+A+D退出
-```
-
-### 配置客户端：
-
-1. 编辑配置文件
-```bash
-vim ~/frp_0.58.1_linux_amd64/frpc.toml
-```
-输入以下内容：
-```toml
-serverAddr = "x.x.x.x" # 你frps服务器的ip地址
-serverPort = 7000 # 你frps服务开在的端口
-
-auth.token = "example" # 令牌，与公网服务端保持一致
-
-[[proxies]]
-name = "mc je"
-type = "tcp" # java版使用tcp协议通信，不可更改
-localIP = "127.0.0.1" # 默认不用改
-localPort = 25565 # mc服务端开在哪个端口？
-remotePort = 25565 # 暴露服务的公网入口
-
-# 如果你开了互通，要基岩支持
-[[proxies]]
-name = "mc be"
-type = "udp" # 基岩版使用udp协议通信，不可更改
-localIP = "127.0.0.1"
-localPort = 19132
-remotePort = 19132
-```
-
-2. 开启frps服务端：
-
-```bash
-cd ~/frp_0.58.1_linux_amd64
-screen -dR frpc ./frpc
-# 键盘上按Ctrl+A+D退出
-```
+Linux自建frp参见[此页面](/advance/Linux/frp)
 
 
 ## 可能的问题?
@@ -139,3 +51,15 @@ screen -dR frpc ./frpc
 ### 反假人插件
 
 这会导致反假人插件几乎不能使用，因为无论是封禁 IP 还是 IP 白名单都会因为所有玩家 IP 相同而失效。
+
+### 解决以上无法显示IP地址的办法：proxy protocol
+
+正是因为frp在转发玩家请求时重写了请求头部，导致了以上情况的发生。 frp 虽然不能不重写这个请求头部，但是他可以通过一种方式还原请求头部，让服务器正常显示出连接 IP 。Proxy Protocol 是由 HAProxy 开发者 Willy 提出的一种反向代理协议，可以参考 [HAProxy 文档](http://www.haproxy.org/download/1.8/doc/proxy-protocol.txt) 获取更多信息。frp 内置的 proxy protocol 要求被其穿透的服务器也支持 proxy protocol ，否则会造成对应的服务无法使用，所以并不是随便拿一个服务就能用 proxy protocol 。 frp 启用 proxy protocol 的方式参考 [Linux自建frp](/advance/Linux/frp)。
+
+对于mc服务器来说，支持 proxy protocol 的软件有：
+- bungeecord 系
+- paper 分支（1.18.2）（仅支持v2）
+- [Geyser](../../../Java/process/mobile-player/Geyser/introduction/FAQ#frp搭建内网穿透想显示真实ip怎么办)
+- Spigot端插件 [HAProxyDetector](https://github.com/andylizi/haproxy-detector)
+
+等。BDS 服务器目前不支持此协议。

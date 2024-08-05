@@ -55,7 +55,7 @@ chunk-loading-basic:
   player-max-chunk-generate-rate: -1.0
   #为每个玩家生成分块的最大速率，设置为-1 则禁用。
   player-max-chunk-load-rate: 100
-  #任何单个播放器加载块的最大速率，设置为-1 则禁用。
+  #任何单个玩家加载块的最大速率，设置为-1 则禁用。
   player-max-chunk-send-rate: 75
   #服务器发送给单个玩家的最大速率。设置为-1 则禁用。
 ```
@@ -115,6 +115,10 @@ entity-tracking-range:
 停止使用 [Orebfuscator](https://modrinth.com/plugin/orebfuscator) 等矿物混淆插件，使用 Paper 自带的矿物混淆。
 
 使用 Paper 矿物混淆时候，尽量不要在 **非主世界** 开启 `mode 2` 或 `mode 3`
+
+## 心跳连接
+
+在`purpur.yml`中打开选项`use-alternate-keepalive`
 
 ---
 
@@ -178,7 +182,7 @@ chunk-loading-basic:
   player-max-chunk-generate-rate: -1.0
   #为每个玩家生成分块的最大速率，设置为-1 则禁用。
   player-max-chunk-load-rate: 100
-  #任何单个播放器加载块的最大速率，设置为-1 则禁用。
+  #任何单个玩家加载块的最大速率，设置为-1 则禁用。
   player-max-chunk-send-rate: 75
   #服务器发送给单个玩家的最大速率。设置为-1 则禁用。
 ```
@@ -698,7 +702,7 @@ tick-inactive-villagers: true
       nearestlivingentitysensor: 40
 ```
 
-> 当 [Pufferfish's DAB](#dabenabled) 启用时，不建议修改该项任何默认值。
+> 当 [Pufferfish's DAB](#dab) 启用时，不建议修改该项任何默认值。
 
 `acquirepoi`是村民最频繁的行为, 因此它的间隔已经大大增加了。 如果村民有寻路问题，请减少此项。
 

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # 文本编辑器
 
-一个好用的文本编辑器是**相当**重要的，请不要再使用 Windows 自带的记事本和写字板 (已在 Windows 11 移除)了。
+一个好用的文本编辑器是**相当**重要的，请不要再使用 Windows 自带的记事本和写字板了。~~(如果你想用也不是不行)~~
 
 # 记得保存文件
 
@@ -37,6 +37,8 @@ vscode 会在未保存的文件后标记一个白点，提示你这个文件编�
 官网链接：https://code.visualstudio.com/
 
 [下载龟速怎么办](https://cn.bing.com/search?q=vscode%E4%B8%8B%E8%BD%BD%E9%BE%9F%E9%80%9F%E6%80%8E%E4%B9%88%E5%8A%9E)
+
+[VSCode 视频安装教程](https://www.bilibili.com/video/BV1nM4m117Fv/?share_source=copy_web)
 
 </details>
 
