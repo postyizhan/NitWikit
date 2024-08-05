@@ -96,6 +96,55 @@ get {token} | &{token}
 
 ### array
 
+#### 基础
+
+> https://kether.tabooproject.org/list.html#Array
+
+这也是一个动作，作用是
+
+> 将动作列表的所有返回值作为集合返回。
+
+语法：
+```
+array [ 动作1 动作2 动作3 更多 ]
+```
+
+我们搓一个出来玩玩
+
+![](_images/var_5.png)
+
+在这个集合中，数据被英文 `,` 分割开来，我们称为 **元素**
+
+比如在上面共有三个元素：`HelloWord!` `postyizhan` `0.0`
+
+接下来，我们把数组存进变量里
+
+```
+set yizhan to array [ HelloWord! player name 0.0 ]
+```
+
+#### 获取指定元素
+
+如果我们只需要获取某数组中其中一个元素的值该怎么办？
+
+我们给每个元素都标上号，然后获取指定号数的就好啦！`&变量名[标号]`
+
+![](_images/var_6.png)
+
+注意！标号是从 **0** 开始的
+
+#### element
+
+> https://kether.tabooproject.org/list.html#Element
+
+> 将动作的返回值作为列表获取指定元素。
+
+除了上面的 `&变量名[标号]`
+
+我们还有一种办法获取到指定元素的值，那就是 `element` 动作
+
+![](_images/var_7.png)
+
 ## TrMenu
 
 ## Invero
