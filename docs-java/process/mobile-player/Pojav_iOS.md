@@ -7,6 +7,8 @@ sidebar_position: 2
 
 免越狱安装 PojavLauncher_iOS
 
+~~（当然如果下面几个方法都不成功那恭喜你只能去越狱了）~~
+
 ## 方法一: 使用牛蛙助手
 
 ### 安装PojavLauncher
@@ -42,19 +44,76 @@ sidebar_position: 2
 
 :::
 
-从此[链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases )下载PojavLauncher的ipa安装包
-
-从此[链接](https://github.com/opa334/TrollStore/releases)获取TrollStore
-
 点击查看[TrollStore的安装流程](https://ios.cfw.guide/installing-trollstore/)
 ![](_images/trollstone_v.png)
 
-我手机安装不了巨魔，接下来怎么做等待有缘人
+~~我手机安装不了巨魔，接下来怎么做等待有缘人~~
+(有缘人：我tm来啦)
 
-## 方法三：使用电脑自签
+:::tips 安装TrollStore
 
-本文以爱思助手为例。
+安装TrollStore的方法因设备而异，这里简单分类了TrollStore的辅助工具。（iOS版本号和iPad OS版本号按照相同版本号计算）
 
-首先，使用数据线将你的 iOS 设备连接至电脑。 **注意需要使用数据线，部分线缆只能充电而无法传输数据。有时线缆无 MFi 认证（弹窗），也可能无法使用。** 
+如果你是：
+- iOS14-beta2到iOS14.8.1的系统（A8～A11处理器）
+- iOS15.5系统（A9～A11处理器）
+- iOS15.6 beta4～iOS15.6.1（A9～A11处理器）
+- iOS15.7～iOS15.8.2（A9～A17，M1～M2处理器）
+- iOS16 beta1～beta3（A9～A11处理器）
+- iOS16 beta4～iOS16.6.1（A9以上，M1～M2处理器）
+- iOS17 beta1～beta4（A9～A11处理器）
 
-然后，通过[爱思助手官方教程](https://www.i4.cn/news_detail_38195.html)继续操作。
+那么[点此查看](https://ios.cfw.guide/installing-trollstore-trollinstallerx/)TrollInstallerX的安装方法。**（非常之复杂，怕麻烦的，没电脑的，没有苹果官方Type C转Lighting或者C2C的线的，但是又只能用这个方法安装TrollStore的劝退）**
+
+如果你是：
+- iOS14-beta2到iOS14.8.1的系统（A12以上，M1～M2处理器）
+- iOS15～iOS15.5 beta4（A8以上，M1～M2处理器）
+- iOS15.5系统（A12以上，M1～M2处理器）
+- iOS15.6 beta4～iOS15.6.1（A12以上，M1～M2处理器）
+- iOS16 beta1～beta3（A12以上，M1～M2处理器）
+
+那么[点此安装](itms-services://?action=download-manifest&url=https://jailbreaks.app/cdn/plists/TrollHelper.plist)TrollHelperOTA，然后**按顺序**点击Register Persistence Helper和Install TrollStore即可安装。**（期间可能黑屏或重启。）**
+
+如果你是：
+- iOS16.7RC（A9～A11处理器）
+- iOS17 beta5～iOS17.0（A9～A11处理器）
+
+那么你需要一个**已经越狱了**的苹果设备按照[这个教程](https://ios.cfw.guide/installing-trollstore-trollhelper/)使用TrollHelper安装TrollStore。~~（你手机都越狱了还用TrollStore干嘛，直接用其他ipa/dpkg包管理安装pojav~~
+
+如果你是：
+- iOS15.5（A8处理器）
+- iOS15.6 beta4～iOS15.6.1（A8处理器）
+
+那么[点此查看](https://ios.cfw.guide/installing-trollstore-trollinstallermdc/)TrollInstallerMDC的安装方法。**（较复杂，怕麻烦的，没电脑的，没有苹果官方Type C转Lighting或者C2C的线的，但是又只能用这个方法安装TrollStore的劝退）**
+
+如果你是：
+- iOS15.7.2～iOS15.8.2（A8处理器）
+
+那么[点此查看](https://ios.cfw.guide/installing-trollstore-trollmisaka)TrollMisaka的安装方法。**（也挺复杂，怕麻烦的，没电脑的，没有苹果官方Type C转Lighting或者C2C的线的，但是又只能用这个方法安装TrollStore的劝退）**
+
+:::
+
+总之，当你~~终于~~历经千辛万苦安装完TrollStore之后，你的内心可能痛苦，可能舒畅；但不管怎么样，最痛苦的过程结束了，后面的Pojav安装将会异常轻松。
+![](_images/troll-icon.jpg)
+现在你应该能看见这个图标了。
+
+现在，你需要从[此链接](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/actions)下载PojavLauncher的ipa安装包。
+
+下载的时候有**两个注意事项**：
+1.你需要一个github账号，不然你没法在actions里面下载东西。
+2.你使用的是TrollStore方案，那么就下载net.kdt.pojavlauncher-ios-trollstore.tipa，~~别告诉我你用的是TVOS~~。
+
+下载完pojav安装包后，我们来到TrollStore里面。
+![](_images/troll-idid.PNG)
+咱们要打开idid，以确保能正常安装没有签名的安装包。
+
+然后回到主界面，点击右上角加号，选择你刚刚下载的tipa文件，点击，然后就会安装，安装完之后差不多是这样的。
+![](_images/troll-ui.PNG)
+
+~~（你不用管DolphiniOS干什么的，这是用来玩老游戏的模拟器）~~
+
+然后点击PojavLauncher，选择Open with JIT，打开Pojav后就能正常使用了。
+
+## 方法三：使用AltStore
+
+后面即将补充
