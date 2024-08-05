@@ -5,6 +5,8 @@ sidebar_position: 12
 
 # QQ机器人搭建
 
+搭建QQ机器人能够让你实现群服消息互通等功能，让你的群聊与服务器连接起来。
+
 本篇仅列出常见的实现方法，不对具体实现过程描述，请自行查阅相关文档。
 
 :::danger
@@ -27,10 +29,51 @@ sidebar_position: 12
 
 目前比较推荐的方案：
 
-* [Easybot](https://www.minebbs.com/resources/easybot-minecraft.7918/)
-* [XinxinBotAPI](https://www.minebbs.com/threads/xinxinbotapi-qq-1-8-x-1-20-x.24540/)
+### Easybot
 
-如果某个方案基于 MiraiMC 请看下文。
+[Easybot Minebbs 链接](https://www.minebbs.com/resources/easybot-minecraft.7918/) 
+
+:::info
+
+Easybot 的更新程序貌似存在漏洞，如果突然终止或是因为某些意料之外的原因，
+
+在从旧版本更新到新版本后，浏览器编辑器的消息同步有概率无法显示，这种情况请删除 Easybot *主程序* （不是插件!）的 *所有* 文件后重新安装
+
+（记得保留配置）
+
+:::
+
+[Easybot 实现账号绑定教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6)
+
+Easybot 可通过自定义命令实现查看服务器TPS，玩家数据等。 [Easybot 自定义命令教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6)
+
+Easybot 开发者目前没有撰写关于消息同步的教程，但由于网页编辑器而非配置非常容易上手，在此不做赘述。
+
+:::warning
+
+不推荐使用 Easybot 的群组内消息同步功能，使用 TrChat 等插件可以更好的实现它们。
+
+:::
+
+优点：配置简单，网页编辑器方便新手，轻量。
+
+缺点：功能上不如XinxinBot丰富。
+
+### Xinxinbot系列
+
+[XinxinBotAPI Minebbs 链接](https://www.minebbs.com/threads/xinxinbotapi-qq-1-8-x-1-20-x.24540/) 
+
+[Xinxinbot 实现帐号绑定教程](http://wiki.mcxin.cn/zh/%E6%96%B0%E9%91%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%99%84%E5%B1%9E%E6%95%99%E7%A8%8B/XinxinBetterBind)
+
+[Xinxinbot 实现消息同步教程](http://wiki.mcxin.cn/zh/%E6%96%B0%E9%91%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%99%84%E5%B1%9E%E6%95%99%E7%A8%8B/XinxinChatSync)
+
+优点：使用附属插件，功能更多。
+
+缺点：配置稍复杂。
+
+### 其他方案的注意事项
+
+如果某个方案基于 MiraiMC，请看下文。
 
 ## 使用机器人框架
 
@@ -44,7 +87,9 @@ sidebar_position: 12
 
 [点击跳转](https://github.com/DreamVoid/MiraiMC)
 
-MiraiMC已添加了 [对 Overflow 的支持](https://github.com/DreamVoid/MiraiMC/issues/510)。
+MiraiMC已添加了 [对 Overflow 的支持附属插件](https://github.com/DreamVoid/MiraiMC/issues/510)，因此你可以使用 Overflow 协助登录。
+
+这也帮助了许多停更的基于 MiraiMC 的老机器人插件。
 
 ### 使用 Mirai 原生
 
@@ -69,9 +114,10 @@ Mirai 原生由于签名服务的缘故难以登录并且99%封号冻结。推�
 :::
 
 [Overflow 主页](https://github.com/MrXiaoM/Overflow)
+
 [Overflow 使用方法](https://github.com/MrXiaoM/Overflow/blob/main/docs/UserManual.md)
 
 ### 使用 Lagrange 实现机器人
 
-TODO
+[参见此处](https://docs.qq.com/doc/DQ2N2b0JqeUhmWUVa)
 
