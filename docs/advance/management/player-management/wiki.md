@@ -1,5 +1,5 @@
 ---
-title: 玩家管理
+title: Minecraft Wiki
 slug: /Sundry/Advance/management/player-management/wiki
 sidebar_position: 1
 ---
