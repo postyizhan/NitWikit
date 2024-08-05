@@ -9,7 +9,7 @@ sidebar_position: 6
 
 ## inline
 
-inline是在一段文本中插入语句，实际上会创造一个新的kether环境
+inline是在一段文本中插入语句，实际上会创造一个新的 kether 环境
 
 例如这个 TrMenu 例子中：
 ```yaml
