@@ -36,7 +36,7 @@ sidebar_position: 2
 ![](_images/4.PNG)
 ## 方法二: 使用 TrollStore
 
-：：：warning
+:::warning
 
 由于苹果公司修复了 iOS 系统中的相关漏洞，巨魔商店不再支持iOS16.7 和 iOS17.1 及以上系统。
 
