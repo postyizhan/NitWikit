@@ -55,7 +55,7 @@ chunk-loading-basic:
   player-max-chunk-generate-rate: -1.0
   #为每个玩家生成分块的最大速率，设置为-1 则禁用。
   player-max-chunk-load-rate: 100
-  #任何单个播放器加载块的最大速率，设置为-1 则禁用。
+  #任何单个玩家加载块的最大速率，设置为-1 则禁用。
   player-max-chunk-send-rate: 75
   #服务器发送给单个玩家的最大速率。设置为-1 则禁用。
 ```
@@ -79,6 +79,33 @@ spawn-limits:
   #动物包括 猪、北极熊、狐狸、猫、僵尸马、嗅探者、熊猫、兔子、狼、牛、海龟、青蛙、悦灵、行商羊驼、驴、蜜蜂、骆驼、绵羊、蝌蚪、豹猫、鸡、哞菇、马、羊驼、流浪商人、鹦鹉、山羊、骡、骷髅马刷、炽足兽.
 
   water-animals: 5
+  # 包括鱿鱼和海豚
+
+  water-ambient: 20
+  # 包括鳕鱼、河豚、鲑鱼、热带鱼
+
+  water-underground-creature: 5
+  # 包括发光鱿鱼
+
+  axolotls: 5
+  # 美西螈
+
+  ambient: 15
+  # 只包括蝙蝠，建议0
+
+```
+
+高版本的 config/paper-world-default.yml 中将 `animals` 改为了 `creature`，将 `water-animals` 改为了 `water-creature`，可参考这份配置文件：
+
+```yaml
+spawn-limits:
+  monsters: 70
+  #怪物包括 远古守卫者、末影人、监守者、蠹虫、猪灵蛮兵、流浪者、幻术师、骷髅、潜影贝、僵尸疣猪兽、守卫者、岩浆怪、僵尸村民、僵尸猪灵、卫道士、幻翼、猪灵、史莱姆、末影龙、溺尸、掠夺者、唤魔者、僵尸、蜘蛛、尸壳、恶魂、劫掠兽、疣猪兽、洞穴蜘蛛、女巫、枯萎、末影螨、凋灵骷髅、烈焰人、巨人、爬行者、恼鬼。
+
+  creature: 10
+  #动物包括 猪、北极熊、狐狸、猫、僵尸马、嗅探者、熊猫、兔子、狼、牛、海龟、青蛙、悦灵、行商羊驼、驴、蜜蜂、骆驼、绵羊、蝌蚪、豹猫、鸡、哞菇、马、羊驼、流浪商人、鹦鹉、山羊、骡、骷髅马刷、炽足兽.
+
+  water-creature: 5
   # 包括鱿鱼和海豚
 
   water-ambient: 20
@@ -182,7 +209,7 @@ chunk-loading-basic:
   player-max-chunk-generate-rate: -1.0
   #为每个玩家生成分块的最大速率，设置为-1 则禁用。
   player-max-chunk-load-rate: 100
-  #任何单个播放器加载块的最大速率，设置为-1 则禁用。
+  #任何单个玩家加载块的最大速率，设置为-1 则禁用。
   player-max-chunk-send-rate: 75
   #服务器发送给单个玩家的最大速率。设置为-1 则禁用。
 ```
@@ -821,7 +848,9 @@ tick-inactive-villagers: true
 
 ## 红石
 
-### redstone-implementation
+### 红石引擎
+
+#### redstone-implementation
 
 在 `paper-world-default.yml` 中控制红石系统使用的引擎。
 
@@ -835,7 +864,9 @@ tick-inactive-villagers: true
 
 `ALTERNATE_CURRENT`是基于 [Alternate Current](https://modrinth.com/mod/alternate-current)。 更多信息请阅读该页面。
 
-### hopper.disable-move-event
+### 漏斗
+
+#### hopper.disable-move-event
 
 在 `paper-world-default.yml` 中控制漏斗的一个繁重的事件。
 
@@ -856,16 +887,6 @@ tick-inactive-villagers: true
 ```
 
 降低沙子或沙砾中的漏斗矿车之类的情况，启用该项可能会破坏一些红石装置。
-
-### optimize-explosions
-
-在 `paper-world-default.yml` 中控制是否启用爆炸优化。
-
-将此项设为`true`可以将原版爆炸算法替换成优化版本，略微牺牲非常小的爆炸伤害换取爆炸时的大量性能提升。
-
-```
-推荐值: true
-```
 
 ### tick-per
 
@@ -891,6 +912,18 @@ tick-inactive-villagers: true
 | 200%     | 中         | 8               | 2            |
 
 ---
+
+### 爆炸
+
+#### optimize-explosions
+
+在 `paper-world-default.yml` 中控制是否启用爆炸优化。
+
+将此项设为`true`可以将原版爆炸算法替换成优化版本，略微牺牲非常小的爆炸伤害换取爆炸时的大量性能提升。
+
+```
+推荐值: true
+```
 
 # 杂项优化
 
