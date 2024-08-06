@@ -48,7 +48,7 @@ sidebar_position: 1
 </details>
 
 <details>
-  <summary>设置账户和密码</summary>
+  <summary>初次启动</summary>
 
 安装好后在首页启动 MySQL
 
