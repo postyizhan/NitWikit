@@ -4,11 +4,31 @@ slug: /database/install
 sidebar_position: 1
 ---
 
-# 安装
+## 数据库安装
+
+### 直接安装
+
+你可以选择直接下载安装包来安装，如果觉得麻烦，请看下面的**使用工具安装**
+
+:::tip
+
+[sohu MySQL 镜像源](http://mirrors.sohu.com/mysql/MySQL-8.0/)
+
+[阿里 MySQL 镜像源](https://mirrors.aliyun.com/mysql/)
+
+:::
+
+对于 Windows 用户，请下载 `.msi` 或 `zip` 的包，其中 `.msi` 是安装包，`.zip` 是绿色版，推荐下载 `.msi` 版本来安装
+
+对于 MySQL 安装，请看这篇文章: [2024 年 MySQL 8.0 安装 配置 教程 最简易（保姆级）](https://blog.csdn.net/m0_52559040/article/details/121843945)
+
+而标着 `ubuntu` 或 `debian` 是 linux 版本的安装包，linux 用户请下载这个
+
+### 使用工具安装
 
 我会告诉你 **我认为** 最简单的几种安装数据库的方法
 
-## 小皮数据库
+#### 小皮数据库
 
 <details>
   <summary>从官网下载和安装</summary>
@@ -28,6 +48,33 @@ sidebar_position: 1
 </details>
 
 <details>
+  <summary>设置账户和密码</summary>
+
+安装好后在首页启动 MySQL
+
+![](_images/9.png)
+
+更改 root 账户的密码
+
+:::danger
+
+不要设置过于简单的密码！
+
+尤其是你打算把数据库开到公网，**绝对不要**设置过于简单的密码！
+
+**这真的很严重**
+
+:::
+
+![](_images/10.png)
+
+![](_images/11.png)
+
+然后你就可以建数据库了，建好之后把你填这里的信息填到插件的配置文件里
+
+</details>
+
+<details>
   <summary>卸载MySQL5和安装MySQL8</summary>
 
 MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够用了
@@ -38,7 +85,7 @@ MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够�
 
 </details>
 
-## 宝塔面板
+#### 宝塔面板
 
 <details>
   <summary>从官网下载和安装</summary>
@@ -81,3 +128,4 @@ MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够�
 ![](_images/24.png)
 
 </details>
+
