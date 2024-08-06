@@ -75,13 +75,19 @@ Easybot 开发者目前没有撰写关于消息同步的教程，但由于网页
 
 如果某个方案基于 MiraiMC，请看下文。
 
-## 使用机器人框架
+<!--这部分我的建议是直接放到能用里面，但是我不敢乱动-->
+
+## 机器人框架
 
 :::info
 
 一般而言，不需要自行使用框架实现功能，除非你是开发者。
 
 :::
+
+### OneBot 标准
+
+[OneBot](https://onebot.dev/) 是**统一的聊天机器人应用接口标准**。它适用于各种各样的即时通讯软件，QQ 是其应用场景之一。如果机器人框架和机器人都支持 OneBot，那它们便可以配合使用。
 
 ### 使用 MiraiMC
 
@@ -107,9 +113,7 @@ Mirai 原生由于签名服务的缘故难以登录并且99%封号冻结。推�
 
 配置websocket链接时，在正向ws和反向ws之间选择一种即可。
 
-推荐使用 官网一键打包整合包 + LLOneBot 的方式部署。
-
-如果你使用了 LLOneBot 请勿在任何群聊发送可以看出你使用了非官方 QQ 的截图。
+推荐使用 官网一键打包整合包 + [LLOneBot](#liteloaderqqnt--llonebot推荐) 的方式部署。
 
 :::
 
@@ -117,7 +121,36 @@ Mirai 原生由于签名服务的缘故难以登录并且99%封号冻结。推�
 
 [Overflow 使用方法](https://github.com/MrXiaoM/Overflow/blob/main/docs/UserManual.md)
 
-### 使用 Lagrange 实现机器人
+### LiteLoaderQQNT + LLOneBot（推荐）
+
+LiteLoaderQQNT 是 [利用 NTQQ 特性](https://github.com/Mrs4s/go-cqhttp/issues/2471) 实现的 QQ **插件加载器**。它本身并不具备QQ机器人功能，你需要**为其安装 LLOneBot 插件**才能开始使用 QQ 机器人功能。
+
+:::warning
+
+根据先前其他该领域开发者的经历，该软件开发者不建议任何人公开宣传此软件。如果你使用了 LLOneBot 请勿在任何群聊发送可以看出你使用了非官方 QQ 的截图。
+
+:::
+
+前往 [LiteLoaderQQNT官网](https://liteloaderqqnt.github.io/) ，根据其教程下载安装该框架。
+
+安装完成后，根据 [LiteLoaderQQNT 文档安装插件方法](https://liteloaderqqnt.github.io/guide/plugins.html) 为框架安装插件：[LLOneBot](https://github.com/LLOneBot/LLOneBot/tree/main)。如果你已经在使用该框架并且已安装了 [插件列表查看](https://github.com/ltxhhz/LL-plugin-list-viewer/tree/main) 插件，也可以直接使用该插件进行安装。
+
+安装完成后，进入 QQ 设置，在侧边栏中找到 LLOneBot 点击切换到其设置页，然后**根据机器人给出的文档**进行配置。
+
+### Lagrange（拉格朗日）
 
 [参见此处](https://docs.qq.com/doc/DQ2N2b0JqeUhmWUVa)
 
+## 通用机器人
+
+<!--指Serein这类不依赖mc插件模组加载器的独立软件，通常是通过读取控制台和执行控制台命令实现-->
+
+### Serein
+
+待补充<!--Serein只是听说可以通过安装插件来实现机器人？-->
+
+### DLS
+
+类似 Serein 的自动管理控制台的一站式解决方案，几乎全部功能均依赖正则表达式匹配控制台输出的原理。目前已经适配大多数主流服务器的控制台，支持 OneBot 协议。
+
+可以阅读其 [Wiki](https://gitee.com/dlcn/dlscq/wikis/) 进行安装配置。
