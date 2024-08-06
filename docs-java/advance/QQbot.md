@@ -13,7 +13,7 @@ sidebar_position: 12
 
 请一定要使用小号来搭建 QQ 机器人，否则如果登录不成功或是成功后被检测，将有大概率导致封号。
 
-使用 [签名服务](https://mirai.mamoe.net/topic/2373/%E5%85%B3%E4%BA%8E%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1) 不稳定并且非常容易导致封号，推荐使用 Onebot 相关。
+使用如 go-cqhttp 的 [签名服务](https://mirai.mamoe.net/topic/2373/%E5%85%B3%E4%BA%8E%E7%AD%BE%E5%90%8D%E6%9C%8D%E5%8A%A1) 不稳定并且非常容易导致封号，推荐使用 LLOneBot 这类通过 hook 官方客户端而跳过使用签名服务登录的方案。
 
 :::
 
@@ -29,29 +29,29 @@ sidebar_position: 12
 
 目前比较推荐的方案：
 
-### Easybot
+### EasyBot
 
-[Easybot Minebbs 链接](https://www.minebbs.com/resources/easybot-minecraft.7918/) 
+[EasyBot MineBBS 链接](https://www.minebbs.com/resources/easyBot-minecraft.7918/) 
 
 :::info
 
-Easybot 的更新程序貌似存在漏洞，如果突然终止或是因为某些意料之外的原因，
+EasyBot 的更新程序貌似存在漏洞，如果突然终止或是因为某些意料之外的原因，
 
-在从旧版本更新到新版本后，浏览器编辑器的消息同步有概率无法显示，这种情况请删除 Easybot *主程序* （不是插件!）的 *所有* 文件后重新安装
+在从旧版本更新到新版本后，浏览器编辑器的消息同步有概率无法显示，这种情况请删除 EasyBot *主程序* （不是插件!）的 *所有* 文件后重新安装
 
 （记得保留配置）
 
 :::
 
-[Easybot 实现账号绑定教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6)
+[EasyBot 实现账号绑定教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6)
 
-Easybot 可通过自定义命令实现查看服务器TPS，玩家数据等。 [Easybot 自定义命令教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6)
+EasyBot 可简单地通过自定义命令实现查看服务器TPS，玩家数据等。 [EasyBot 自定义命令教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6)
 
-Easybot 开发者目前没有撰写关于消息同步的教程，但由于网页编辑器而非配置非常容易上手，在此不做赘述。
+EasyBot 开发者目前没有撰写关于消息同步的教程，但由于网页编辑器而非配置非常容易上手，在此不做赘述。
 
 :::warning
 
-不推荐使用 Easybot 的群组内消息同步功能，使用 TrChat 等插件可以更好的实现它们。
+不推荐使用 EasyBot 的群组服务器内消息同步功能，使用 TrChat 等插件可以更好的实现它们。
 
 :::
 
@@ -59,13 +59,13 @@ Easybot 开发者目前没有撰写关于消息同步的教程，但由于网页
 
 缺点：功能上不如XinxinBot丰富。
 
-### Xinxinbot系列
+### XinxinBot系列
 
-[XinxinBotAPI Minebbs 链接](https://www.minebbs.com/threads/xinxinbotapi-qq-1-8-x-1-20-x.24540/) 
+[XinxinBotAPI MineBBS 链接](https://www.minebbs.com/threads/xinxinBotapi-qq-1-8-x-1-20-x.24540/) 
 
-[Xinxinbot 实现帐号绑定教程](http://wiki.mcxin.cn/zh/%E6%96%B0%E9%91%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%99%84%E5%B1%9E%E6%95%99%E7%A8%8B/XinxinBetterBind)
+[XinxinBot 实现帐号绑定教程](http://wiki.mcxin.cn/zh/%E6%96%B0%E9%91%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%99%84%E5%B1%9E%E6%95%99%E7%A8%8B/XinxinBetterBind)
 
-[Xinxinbot 实现消息同步教程](http://wiki.mcxin.cn/zh/%E6%96%B0%E9%91%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%99%84%E5%B1%9E%E6%95%99%E7%A8%8B/XinxinChatSync)
+[XinxinBot 实现消息同步教程](http://wiki.mcxin.cn/zh/%E6%96%B0%E9%91%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%99%84%E5%B1%9E%E6%95%99%E7%A8%8B/XinxinChatSync)
 
 优点：使用附属插件，功能更多。
 
@@ -73,11 +73,9 @@ Easybot 开发者目前没有撰写关于消息同步的教程，但由于网页
 
 ### 其他方案的注意事项
 
-如果某个方案基于 MiraiMC，请看下文。
+如果某个方案基于 MiraiMC，请参见下文。
 
-<!--这部分我的建议是直接放到能用里面，但是我不敢乱动-->
-
-## 机器人框架
+## 使用机器人框架
 
 :::info
 
@@ -107,7 +105,7 @@ Mirai 原生由于签名服务的缘故难以登录并且99%封号冻结。推�
 
 :::
 
-### 使用 Mirai + Overflow（Onebot）实现机器人（推荐）
+### 使用 Mirai + Overflow（OneBot）实现机器人（推荐）
 
 :::warning
 
