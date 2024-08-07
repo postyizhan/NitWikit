@@ -32,6 +32,14 @@ ViaRewind:1.7-1.8（进入高版本服务器）
 
 ## 支持的服务器
 
+### 插件版
+
+ViaVersion+ViaBackwards+ViaRewind
+
+这三个支持的服务器是1.17～1.21（Via*插件剔除了Java8支持，需要在[Via官方构建站](https://ci.viaversion.com)获取支持Java8的1.8～1.21插件）
+
+### 独立版（ViaProxy）
+
 - Release (1.0.0 - 1.20.5)
 - Beta (b1.0 - b1.8.1)
 - Alpha (a1.0.15 - a1.2.6)
@@ -42,9 +50,8 @@ ViaRewind:1.7-1.8（进入高版本服务器）
 
 ## 支持的客户端版本
 
-- Release (1.7.2 - 1.20.5)
+- Release (1.7.2 - 1.21)
 - 基岩版 (需要[Geyser 插件](https://geysermc.org/download))
-- Classic， Alpha， Beta， Release 1.0 - 1.6.4 (仅穿过)
 
 你没看错，ViaProxy 可以让 1.20.4 客户端进入 Classic 版本的服务器(后者大概发布于十年前），
 
@@ -74,7 +81,9 @@ Bungeecord、Velocity 和各种 Minecraft 服务端均可以安装 Via。但如�
 
 对数据包大量就行操作的插件时候，由于后端服务器获取的玩家版本为代理端的版本，并非玩家客户端版本，
 
-容易引起兼容性问题，特殊情况下，。
+容易引起兼容性问题，特殊情况下。
+
+**一般情况下，推荐你安装在后端服务器，安装在跨服代理上容易出问题。**
 
 ### Via 的版本选择
 
