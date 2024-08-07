@@ -102,7 +102,7 @@ feature-seeds:
 
 :::tip[说明]
 
-如果使用了 Raytraceantixray 请务必使用配置 Ⅲ 。
+如果使用了 RayTraceAntiXray 请务必使用配置 Ⅲ 。
 
 :::
 
@@ -379,6 +379,8 @@ anticheat:
 
 ### Anti-xray 插件
 
+#### RayTraceAntiXray
+
 [RayTraceAntiXray](https://builtbybit.com/resources/raytraceantixray.24914/)，[开源](https://github.com/stonar96/RayTraceAntiXray)付费且仅售 7 美元。
 
 是一款用于隐藏 paper 服务器中使用 `engine-mode: 1` 时暴露在空气中的未隐藏方块的插件。
@@ -387,8 +389,15 @@ anticheat:
 
 可以优化自带的 Anti-Xray ，减小服务器的带宽开销，如需构建请自行构建。
 
+#### RaytraceAntiXray
+
+一个功能非常多的反X光插件，支持隐藏方块（并且支持XMat命名),隐藏，箱子，刷怪笼之类的,作者现在正在编写结构隐藏
+
+[购买链接](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/) 有点小贵
+
 :::warning
 
 在使用 Paper 及其 Fork 时。请停止使用 [Orebfuscator](https://modrinth.com/plugin/orebfuscator) 等假矿插件。换用 Paper 自带的 Anti-Xray。
 
 :::
+
