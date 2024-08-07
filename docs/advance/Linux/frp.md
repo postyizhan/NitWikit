@@ -24,7 +24,7 @@ import TabItem from '@theme/TabItem';
 
 1. 首先确保服务器所有软件包是最新的：
 
-不同的 Linux 发行版更新方法大同小异
+不同的 linux 发行版更新方法大同小异
 
 <Tabs>
   <TabItem value="debian" label="Debian/Ubuntu Linux" default>
