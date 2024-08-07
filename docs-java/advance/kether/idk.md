@@ -34,3 +34,13 @@ inline是在一段文本中插入语句，实际上会创造一个新的 kether 
 ## join
 
 join 是拼接多个语句，不会像 inline 那样创造新的环境，所以没有上述特性，join 里的语句会使用原 kether 环境
+
+## 行内复合文本
+
+> https://plugins.ptms.ink/function/components/basic
+
+TabooLib Components 行内复合文本
+
+像 [MiniMessage](../MiniMessage.md) 一样的东西？
+
+Invero 最新版已经不支持 MiniMessage 而是使用行内复合文本了
