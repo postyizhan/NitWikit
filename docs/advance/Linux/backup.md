@@ -32,7 +32,7 @@ SERVER_PARENT_DIR=$(dirname $SERVER_DIR)
 SERVER_NAME=$(basename $SERVER_DIR)
 cd $SERVER_PARENT_DIR || exit
 time=$(date "+%Y%m%d-%H%M%S")
-tar -cvf "${time}.tar.gz" --exclude="${SERVER_NAME}/session.lock" $SERVER_NAME
+tar -czvf "${time}.tar.gz" --exclude="${SERVER_NAME}/session.lock" $SERVER_NAME
 mv "${time}.tar.gz" $BACKUP_DIR
 
 cd $BACKUP_DIR || exit
