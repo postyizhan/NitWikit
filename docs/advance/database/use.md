@@ -1,5 +1,5 @@
 ---
-title: 管理
+title: 使用
 slug: /database/manage
 sidebar_position: 2
 ---

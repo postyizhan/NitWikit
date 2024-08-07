@@ -28,15 +28,15 @@ default-character-set=utf8
 
 port = 3306
 
-# 设置 MySQL 的端口
+#设置 MySQL 的端口
 
 socket = /tmp/mysql.sock
 
-# 设置mysql的安装目录，别动
+#设置mysql的安装目录，别动
 
 basedir=F:\\Hzq Soft\\MySql Server 51GA
 
-# 设置mysql数据库的数据的存放目录，如果你觉得原来存放数据库的地方不够用了可以迁到其他地方去
+#设置mysql数据库的数据的存放目录，如果你觉得原来存放数据库的地方不够用了可以迁到其他地方去
 
 #但是要注意把原来的存放目录里面的东西迁移到那个地方去
 
@@ -46,7 +46,7 @@ datadir=F:\\Hzq Soft\\MySql Server 51GA\\data
 
 #innodb_log_group_home_dir  默认datadir
 
-# 设置mysql服务器的字符集，默认编码
+#设置mysql服务器的字符集，默认编码
 
 default-character-set=utf8
  
@@ -58,9 +58,9 @@ back_log = 50
 
 #skip-networking
 
-# 最大连接数量
+#最大连接数量
 
-#有时候插件会因为这个值太小而报错，建议设置大一点
+#有时候插件会因为这个值太小而报错，建议设置大一点，比如 65536 ，甚至有时候这都不够
 
 max_connections = 90
 
@@ -240,7 +240,7 @@ innodb_lock_wait_timeout = 120
 
 :::
 
-此外，还有一些可以自行加进去的配置项
+此外，还有一些十分重要的配置项，建议修改，没有的配置项可以自行在配置文件中添加
 
 :::info
 
@@ -249,6 +249,7 @@ innodb_lock_wait_timeout = 120
 |`wait_timeout` |     此项设置 MySQL 在关闭一个非交互的连接之前所要等待的秒数,也就是一项连接如果空闲时间超过设置的值，连接就会被自动关闭，这时候你的插件就会疯狂报错烦死你，建议调大一点。但是太大也不行，否则会严重拖累性能           |      `wait_timeout=28800`        |  86400  
 |`interactive_timeout` |   此项设置 MySQL 关闭一个交互的连接之前所要等待的秒数，需要注意的是， `wait_timeout` 和 `interactive_timeout` 需要同时设置，否则不会生效  | `interactive_timeout=28800`|  86400 |
 |`max_allowed_packet`   | 有时候你的插件会告诉你 `Package for query is too large` 那么这个时候你就需要调大这个值了，这一项规定了 MySQL 传输过程中最大允许的包的大小 | `max_allowed_packet=1M`  | 看情况 |
+|`max_connections`  |   这一项设置 MySQL 的最大连接数，如果连接数到达这个数值，就无法创建新的连接，这个时候你的插件通常会报错，告诉你 `max_connections` 满了  |   `max_connections=90`   |   32768 |
 
 :::
 

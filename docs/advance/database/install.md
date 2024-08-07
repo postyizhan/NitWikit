@@ -48,6 +48,17 @@ sidebar_position: 1
 </details>
 
 <details>
+  <summary>卸载MySQL5和安装MySQL8</summary>
+
+MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够用了
+
+![](_images/7.png)
+
+![](_images/8.png)
+
+</details>
+
+<details>
   <summary>初次启动</summary>
 
 安装好后在首页启动 MySQL
@@ -71,17 +82,6 @@ sidebar_position: 1
 ![](_images/11.png)
 
 然后你就可以建数据库了，建好之后把你填这里的信息填到插件的配置文件里
-
-</details>
-
-<details>
-  <summary>卸载MySQL5和安装MySQL8</summary>
-
-MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够用了
-
-![](_images/7.png)
-
-![](_images/8.png)
 
 </details>
 
