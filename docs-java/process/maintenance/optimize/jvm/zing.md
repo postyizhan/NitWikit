@@ -44,11 +44,11 @@ C4 是 Zing 中唯一的垃圾收集器，取代了 OpenJDK 中可用的其他�
 
 (放心，没毒，下载源都是cdn.azul.com(Azul官方网站))
 
-[RPM](https://cdn.azul.com/zing-zvm/ZVM24.06.0.0/zing24.06.0.0-2-jdk21.0.3-linux.x86_64.rpm)
+[RPM](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux.x86_64.rpm)
 
-[TAR.GZ](https://cdn.azul.com/zing-zvm/ZVM24.06.0.0/zing24.06.0.0-2-jdk21.0.3-linux_x64.tar.gz)
+[TAR.GZ](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux_x64.tar.gz)
 
-[DEB](https://cdn.azul.com/zing-zvm/ZVM24.06.0.0/zing24.06.0.0-2-jdk21.0.3-linux_amd64.deb)
+[DEB](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux_amd64.deb)
 
 ## 一些特殊情况
 
