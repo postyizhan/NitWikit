@@ -1,6 +1,7 @@
 ---
 title: 概览
-sidebar_position: 2
+slug: /plugins/essentials
+sidebar_position: 1
 ---
 
 # 概览
@@ -55,3 +56,9 @@ Essentials插件分为两个版本：
 | EssentialsX Geo | 地理 IP 查找功能. |
 | EssentialsProtect | 是一个基本的世界保护， 可以设置世界规则. |
 | EssentialsX XMPP | 轻量级聊天、消息和服务器日志与Jabber/XMPP服务集成. |
+
+## MySQL 存储扩展
+
+[Essentials MySQL Storage Extension](https://www.spigotmc.org/resources/.25673/)
+
+一个付费插件，为 Essentials 的带来了 MySQL 支持
