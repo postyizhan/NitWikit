@@ -4,15 +4,13 @@ slug: /database/backup
 sidebar_position: 4
 ---
 
-## 数据库备份
+## 手动备份
 
-### 手动备份
-
-#### 使用命令行备份
+### 使用命令行备份
 
 TODO
 
-#### 使用 Navicat 备份
+### 使用 Navicat 备份
 
 展开你想要备份的数据库，点击备份，再点击新建备份
 
@@ -70,21 +68,21 @@ TODO
 
 ![](_images/45.png)
 
-#### 使用 HeidiSQL 备份
+### 使用 HeidiSQL 备份
 
 TODO
 
-#### 使用小皮工具箱备份
+### 使用小皮工具箱备份
 
 TODO
 
-#### 使用宝塔面板备份
+### 使用宝塔面板备份
 
 TODO
 
-### 自动备份
+## 自动备份
 
-#### 使用 Navicat 自动备份
+### 使用 Navicat 自动备份
 
 ![](_images/31.png)
 
