@@ -439,6 +439,12 @@ mob-spawn-range: 8
 |        28        |             4-5              |     65%     |
 |        14        |             3-4              |     48%     |
 
+:::tip
+
+如果你只调`mob-spawn-range`，不更改 `spawn-limit`，会导致玩家周围刷很多怪,影响游玩
+
+:::
+
 ### 实体刷新及消失
 
 #### ticks-per
