@@ -247,17 +247,7 @@ const config = {
     }),
 
   themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        hashed: true,
-        language: ["zh"],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-        indexBlog: false,
-        docsRouteBasePath: "/"
-      },
-    ], '@docusaurus/theme-mermaid'
+    '@docusaurus/theme-mermaid'
   ],
 };
 
