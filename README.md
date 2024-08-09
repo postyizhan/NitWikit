@@ -226,6 +226,13 @@ https://nitwikit.yizhan.wiki/
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/minimouse0">
+                    <img src="https://avatars.githubusercontent.com/u/116894415?v=4" width="50;" alt="minimouse0"/>
+                    <br />
+                    <sub><b>Minimouse48</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/MySoulcutting">
                     <img src="https://avatars.githubusercontent.com/u/72398605?v=4" width="50;" alt="MySoulcutting"/>
                     <br />
@@ -253,6 +260,8 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>蛟龙</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/SeaOrangejuice">
                     <img src="https://avatars.githubusercontent.com/u/116551329?v=4" width="50;" alt="SeaOrangejuice"/>
@@ -260,20 +269,11 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>Sea_of_Orange</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/serverbread-DEV">
                     <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
                     <br />
                     <sub><b>SB-Reborn</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/minimouse0">
-                    <img src="https://avatars.githubusercontent.com/u/116894415?v=4" width="50;" alt="minimouse0"/>
-                    <br />
-                    <sub><b>Minimouse48</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -327,6 +327,15 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>TalentsRC</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/ColdeZhang">
+                    <img src="https://avatars.githubusercontent.com/u/29792376?v=4" width="50;" alt="ColdeZhang"/>
+                    <br />
+                    <sub><b>张宇衡</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/wuyuncheng-26">
                     <img src="https://avatars.githubusercontent.com/u/122529705?v=4" width="50;" alt="wuyuncheng-26"/>
