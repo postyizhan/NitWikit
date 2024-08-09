@@ -36,7 +36,7 @@ EasyBot 的更新程序貌似存在漏洞，如果突然终止或是因为某些
 EasyBot 可简单地通过自定义命令实现查看服务器TPS，玩家数据等。 [EasyBot 自定义命令教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6)-->
 1. [账号绑定](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6) - 介绍
 
-2. [自定义命令教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6) - 简单地通过自定义命令实现查看服务器TPS，玩家数据等。
+2. [自定义命令教程](https://www.yuque.com/miuxue/cgyipv/vng1gtu9wk71xtg6) - 简单地通过自定义命令实现查看服务器 TPS，玩家数据等。
 
 EasyBot 开发者目前没有撰写关于消息同步的教程，但由于网页编辑器而非配置非常容易上手，在此不做赘述。
 
@@ -48,9 +48,9 @@ EasyBot 开发者目前没有撰写关于消息同步的教程，但由于网页
 
 优点：配置简单，网页编辑器方便新手，轻量。
 
-缺点：功能上不如XinxinBot丰富。
+缺点：功能上不如 XinxinBot 丰富。
 
-### [XinxinBot系列](https://www.minebbs.com/threads/xinxinBotapi-qq-1-8-x-1-20-x.24540/)
+### [XinxinBot 系列](https://www.minebbs.com/threads/xinxinBotapi-qq-1-8-x-1-20-x.24540/)
 
 <!--[XinxinBotAPI MineBBS 链接](https://www.minebbs.com/threads/xinxinBotapi-qq-1-8-x-1-20-x.24540/) -->
 
