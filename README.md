@@ -240,17 +240,10 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/MoLiyi-WD">
-                    <img src="https://avatars.githubusercontent.com/u/166040564?v=4" width="50;" alt="MoLiyi-WD"/>
+                <a href="https://github.com/TheFloodDragon">
+                    <img src="https://avatars.githubusercontent.com/u/75253383?v=4" width="50;" alt="TheFloodDragon"/>
                     <br />
-                    <sub><b>MoLiyi-WD</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/serverbread-DEV">
-                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
-                    <br />
-                    <sub><b>SB-Reborn</b></sub>
+                    <sub><b>蛟龙</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -263,19 +256,21 @@ https://nitwikit.yizhan.wiki/
 		</tr>
 		<tr>
             <td align="center">
-                <a href="https://github.com/TheFloodDragon">
-                    <img src="https://avatars.githubusercontent.com/u/75253383?v=4" width="50;" alt="TheFloodDragon"/>
+                <a href="https://github.com/MoLiyi-WD">
+                    <img src="https://avatars.githubusercontent.com/u/166040564?v=4" width="50;" alt="MoLiyi-WD"/>
                     <br />
-                    <sub><b>蛟龙</b></sub>
+                    <sub><b>MoLiyi-WD</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/SeaOrangejuice">
-                    <img src="https://avatars.githubusercontent.com/u/116551329?v=4" width="50;" alt="SeaOrangejuice"/>
+                <a href="https://github.com/HanSiqi2008">
+                    <img src="https://avatars.githubusercontent.com/u/136245260?v=4" width="50;" alt="HanSiqi2008"/>
                     <br />
-                    <sub><b>Sea_of_Orange</b></sub>
+                    <sub><b>HanSiqi2008</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/LittleChest">
                     <img src="https://avatars.githubusercontent.com/u/81231195?v=4" width="50;" alt="LittleChest"/>
@@ -284,10 +279,24 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/HanSiqi2008">
-                    <img src="https://avatars.githubusercontent.com/u/136245260?v=4" width="50;" alt="HanSiqi2008"/>
+                <a href="https://github.com/serverbread-DEV">
+                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
                     <br />
-                    <sub><b>HanSiqi2008</b></sub>
+                    <sub><b>SB-Reborn</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/alazeprt">
+                    <img src="https://avatars.githubusercontent.com/u/92018941?v=4" width="50;" alt="alazeprt"/>
+                    <br />
+                    <sub><b>alazeprt</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/minimouse0">
+                    <img src="https://avatars.githubusercontent.com/u/116894415?v=4" width="50;" alt="minimouse0"/>
+                    <br />
+                    <sub><b>Minimouse48</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -328,10 +337,10 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/ColdeZhang">
-                    <img src="https://avatars.githubusercontent.com/u/29792376?v=4" width="50;" alt="ColdeZhang"/>
+                <a href="https://github.com/XingLingQAQ">
+                    <img src="https://avatars.githubusercontent.com/u/92240364?v=4" width="50;" alt="XingLingQAQ"/>
                     <br />
-                    <sub><b>张宇衡</b></sub>
+                    <sub><b>星凌</b></sub>
                 </a>
             </td>
 		</tr>
