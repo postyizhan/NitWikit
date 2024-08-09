@@ -247,12 +247,21 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/serverbread-DEV">
+                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
+                    <br />
+                    <sub><b>SB-Reborn</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/Coquettishpig">
                     <img src="https://avatars.githubusercontent.com/u/107100449?v=4" width="50;" alt="Coquettishpig"/>
                     <br />
                     <sub><b>Coquettishpig</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/TheFloodDragon">
                     <img src="https://avatars.githubusercontent.com/u/75253383?v=4" width="50;" alt="TheFloodDragon"/>
@@ -260,20 +269,11 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>蛟龙</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/SeaOrangejuice">
                     <img src="https://avatars.githubusercontent.com/u/116551329?v=4" width="50;" alt="SeaOrangejuice"/>
                     <br />
                     <sub><b>Sea_of_Orange</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/serverbread-DEV">
-                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
-                    <br />
-                    <sub><b>SB-Reborn</b></sub>
                 </a>
             </td>
             <td align="center">
