@@ -22,11 +22,15 @@ flowchart TD
     Java11 --> Dragonwell
     Java21 --> Windows
     Windows --> 内存充足
-    内存充足 --> GraalVMEE
+    内存充足 --> C[GraalVM Enterprise Edition]
     Windows --> 内存不足
-    内存不足 --> AmazonCorretto
+    内存不足 --> OpenJ9
     Java21 --> Linux
-    Linux --> 等待测试
+    Linux --> 内存不足
+    Linux --> D[内存充足]
+    D --> 好的兼容性
+    好的兼容性 -->|需要| C
+    好的兼容性 -->|不需要| E[Azul Zing]
 ```
 
 这可能与你想的不太一样
