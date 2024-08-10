@@ -34,8 +34,6 @@ C4 是 Zing 中唯一的垃圾收集器，取代了 OpenJDK 中可用的其他�
 
 添加选项`-XX:+CompactStrings`可减少内存占用，提高字符串密集型应用程序的性能，并减少花费在垃圾回收上的时间
 
-使用`-XX:+UseZST` 开启
-
 ## 更高级别的 Falcon 优化
 
 使用选项`-XX:FalconOptimizationLevel=3`可以获得更高级别的优化,但会出现兼容性问题
@@ -45,6 +43,8 @@ C4 是 Zing 中唯一的垃圾收集器，取代了 OpenJDK 中可用的其他�
 这玩意可以让你的系统更加适应Zing,可以自动优化系统配置
 
 [官方安装教程](https://docs.azul.com/prime/zst/installation)
+
+使用`-XX:+UseZST` 开启
 
 ## 下载
 
