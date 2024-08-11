@@ -7,8 +7,6 @@ sidebar_position: 1
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.111858/
-
 `GitHub` https://github.com/TrPlugins/TrChat
 
 `文档` https://trchat.trixey.cc
