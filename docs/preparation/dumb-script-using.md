@@ -32,10 +32,9 @@ sidebar_position: 4
 
 ## 赞助我们
 
-打点钱吧，写这些脚本并不容易，没钱的话，给个免费的 star 也可以:)
+打点钱吧，写这些脚本并不容易，没钱的话，给个免费的 Star 也可以 :)
 
 ## 使用准备
-
 
 除生成启动脚本，其他脚本都必须启动一次服务端后才能使用，生成启动脚本需要提前安装服务器核心。
 
@@ -51,9 +50,9 @@ sidebar_position: 4
 
 [Linux](https://github.com/lilingfengdev/NitWiki-Script/releases/tag/ubuntu-latest)
 
-[MacOS(真的有人会 Mac 开服?)](https://github.com/lilingfengdev/NitWiki-Script/releases/tag/macos-latest)
+[MacOS (真的有人会用 Mac 开服吗?)](https://github.com/lilingfengdev/NitWiki-Script/releases/tag/macos-latest)
 
-32 位操作系统或 Win7 需要自己安装 Python ，并安装依赖(一大堆)
+32 位操作系统或 Win7 需要自己安装 Python ，并安装以下依赖(一大堆)
 
 ```shell
 pip install pyyaml install-jdk tqdm psutil requests rtoml
@@ -61,9 +60,9 @@ pip install pyyaml install-jdk tqdm psutil requests rtoml
 
 ## 了解
 
-在启动这个脚本之前，你应该**明白我正在干什么，会导致什么后果**，以优化脚本举例，你应该明白，执行这个脚本之后，村民的 AI 会受到限制，变得有点傻（当然不止这个，还有其他）。
+在启动这个脚本之前，你应该 **明白你正在干什么，会导致什么后果**，以优化脚本举例，你应该明白，执行这个脚本之后，村民的 AI 会受到限制，变得有点傻（当然不止这个，还有其他后果，此处不详谈）。
 
-我们拒绝回答一切在启动笨蛋脚本之前不看文档的问题。
+我们拒绝回答一切在启动笨蛋脚本之前不看文档导致的问题~~（除非打钱）~~。
 
 ## 宗旨
 

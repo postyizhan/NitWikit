@@ -40,7 +40,7 @@ sidebar_position: 4
 ![](_images/连接服务器/3.png)
 
 
-### macOS和手机
+### MacOS 和手机
 
 在 iOS 和 macOS 上，需要在 App Store 登录海外的 Apple ID ，然后搜索 Microsoft Remote Desktop ，就可以找到这个应用。在安卓手机上需要在 Google play 上搜索 Microsoft Remote Desktop 就可以找到这个应用，如果手机无法使用 Google play ，也可以在网上搜索安装包下载。打开应用后，点击加号，点击 **Add PC** ，选择或输入那台电脑上的那串代码，然后点击添加或保存。随后点击或双击添加的那台电脑，然后输入帐号和密码，就可以连接到那台电脑。
 
@@ -60,7 +60,7 @@ sidebar_position: 4
 
 :::
 
-接着用外网地址连接你的服务器。注意，除非你直接在外网使用 3389 端口，否则连接服务器时需要使用外网端口连接，比如服务器 IP 是yizhan.wiki，外网使用的是 41982 端口，你就需要连接`yizhan.wiki:41982`，而不是`yizhan.wiki`。
+接着用外网地址连接你的服务器。注意，除非你直接在外网使用 3389 端口，否则连接服务器时需要使用外网端口连接，比如服务器 IP 是 yizhan.wiki，外网使用的是 41982 端口，你就需要连接 `yizhan.wiki:41982`，而不是`yizhan.wiki`。
 
 **举例，不一定正确：**
 
@@ -75,14 +75,14 @@ sidebar_position: 4
 ## 家里云
 
 <details>
-  <summary>我有公网ip</summary>
+  <summary>我有公网 IP</summary>
 
-按照上文VPS的方式打开电脑的远程桌面或ssh服务即可。**如果要公网访问，记得在路由器里配置端口映射，把电脑的远程控制端口开放到公网**
+按照上文 VPS 的方式打开电脑的远程桌面或 SSH 服务即可。**如果要公网访问，记得在路由器里配置端口映射，把电脑的远程控制端口开放到公网**
 
 </details>
 
 <details>
-  <summary>我没有/不知道啥是公网ip</summary>
+  <summary>我没有/不知道啥是公网 IP</summary>
 
 [申请公网ip](apply-for-public-ip-address.md)
 
@@ -96,8 +96,8 @@ sidebar_position: 4
 
 ## 独立机
 
-机房的运维一般会帮你设置。如果你用的是第三方远程桌面，但是服务器本身又有远程控制的条件，按照上文中VPS的方式操作即可。
+机房的运维一般会帮你设置。如果你用的是第三方远程桌面，但是服务器本身又有远程控制的条件，按照上文中 VPS 的方式操作即可。
 
 ## 开服器
 
-不教
+不教，自己查开服器的食用方式。

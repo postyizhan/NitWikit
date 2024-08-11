@@ -27,8 +27,10 @@ GraalVM EE 22.3.0 修复了所有已知的 Minecraft 错误
 ## ZGC
 
 ```shell
--XX:+UseZGC -XX:AllocatePrefetchStyle=1 -XX:+ZGenerational
+-XX:+UseZGC -XX:AllocatePrefetchStyle=1 -XX:-ZProactive
 ```
+
+**不要在 GraalVM 上使用 ZGenerational**
 
 ## 正在考虑的标志
 
