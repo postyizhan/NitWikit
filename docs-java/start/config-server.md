@@ -86,6 +86,19 @@ enable-command-block=false
 
 将此项设置为 `true`。
 
+## 设置难度
+
+```
+difficulty=hard
+```
+
+支持以下值
+
+* peaceful(0)=和平
+* easy(1)=简单
+* normal(2)=普通
+* hard(3)=困难 
+
 ## 服务器端口
 
 在下一章!
