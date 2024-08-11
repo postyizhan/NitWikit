@@ -29,18 +29,18 @@ sidebar_position: 1
 
 **TrMenu v3**
 
-> trm action 玩家ID 要执行的语句
+> /trm action 玩家ID 要执行的语句
 
 **Invero**
 
-> i dev runKether 要执行的语句
+> /i dev runKether 要执行的语句
 
 **chemdah**
 
-> chs invoke tell 1
+> /chs invoke tell 1
 
 **其他插件**
 
-> and more......
+> /and more......
 
 :::
