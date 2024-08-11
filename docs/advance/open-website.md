@@ -86,7 +86,7 @@ cf-cname.xingpingcn.top 不需要开启小黄云
 
 注意国内IP需要域名备案
 ### 4\.使用windows搭建网站
-在浏览器中输入<https://nginx.org/en/>
+在浏览器中输入 https://nginx.org/en/
 ![屏幕截图 2024-08-11 170434.png](https://imgos.cn/2024/08/11/66b87dffb19c8.png)
 
 然后点击右边的download
