@@ -112,6 +112,7 @@ connection_throttle_limit: 3
 | [LimboFilter](https://github.com/jonesdevelopment/sonar) | 强大的过滤机器人方案                     | Velocity                          | 笨重且配置复杂，且仅在必要的时候提供更新。 (缺少维护)  |
 | [nAntiBot](https://en.docs.nickuc.com/v/nantibot)        | 一个高效反机器人插件                     | Spigot, Velocity, BungeeCord      | 依赖云服务，无法在服务器网络不好的情况下使用该插件。    |
 | [EpicGuard](https://github.com/4drian3d/EpicGuard)       | 基于事件的反机器人和反VPN插件               | Waterfall (停止维护), Paper, Velocity | 容易绕过(但没那么烦人)，且只支持特定的Paper服务端。 |
+| [AntiAttackRL](https://github.com/AntiAttackMC/AATRL_Public) | 支持多平台的AntiBot插件 | Bukkit, BungeeCord, Folia, Sponge, Velocity与它们的分支 | 受攻击时新玩家无法直接进入，需要管理员操作; 防御方案过时 |
 
 :::warning
 
