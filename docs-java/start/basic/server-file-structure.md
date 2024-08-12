@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # 服务端结构
 
-我们先来简单看一眼 Purpur 的文件夹结构：
+我们先来简单看一眼 插件端 的文件夹结构(以Purpur为例)：
 
 ```c
 ├─assets            // 储存 Minecraft 音效贴图等重要文件，不要乱动
