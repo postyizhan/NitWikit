@@ -15,7 +15,7 @@ sidebar_position: 3
 
 ## 如何修复
 
-要在间歇泉中设置自定义头，您必须选择如何注册您的方块。最简单的方法是使用 custom-skulls.yml
+要在间歇泉中设置自定义头，你必须选择如何注册你的方块。最简单的方法是使用 custom-skulls.yml
 
 ### custom-skulls.yml
 

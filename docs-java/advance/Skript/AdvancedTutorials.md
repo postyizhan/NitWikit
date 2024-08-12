@@ -15,13 +15,13 @@ sidebar_position: 3
 
 为什么需要 skript-reflect？
 
-- 正确编写插件是很困难的，特别是如果你是 **Java** 的新手。 **skript-reflect** 将为您负重前行，让你专注于编写高质量的 **Skript** 脚本。
+- 正确编写插件是很困难的，特别是如果你是 **Java** 的新手。 **skript-reflect** 将为你负重前行，让你专注于编写高质量的 **Skript** 脚本。
 
 - 用 **skript-reflect** 编写的扩展可以快速测试，就像任何其他脚本一样。与需要编译和完全重新启动服务器的 **Skript** 插件不同， **skript-reflect** 脚本可以使用简单的 `sk reload`。
 
 - 在 sk 脚本中实现某些功能可能需要使用反射来访问私有方法、字段和构造函数。 **skript-reflect** 的内置反射允许你无缝访问这些私有成员。
 
-- **Skript** 的基本特性之一是其极大的可定制性。使用 **skript-reflect** 编写的扩展使 sk 的这点更为突出，这允许你在必要时快速更改您的代码。
+- **Skript** 的基本特性之一是其极大的可定制性。使用 **skript-reflect** 编写的扩展使 sk 的这点更为突出，这允许你在必要时快速更改你的代码。
 
 下面的代码块包含了一些 **skript-reflect** 基础的语法。
 
@@ -54,7 +54,7 @@ import:
 
 对类的调用必须在导入完成后进行，因此我们建议你尽可能将此语句放在脚本中靠顶端的位置。
 
-通过`import:`块导入类后， **skript-reflect** 将创建一个 **Expressions** ，允许您通过其名称轻易地引用 Java 类。
+通过`import:`块导入类后， **skript-reflect** 将创建一个 **Expressions** ，允许你通过其名称轻易地引用 Java 类。
 
 ```sk
 on TPARequestEvent:
@@ -149,11 +149,11 @@ on BotJoinEvent:
 
 ##### _在解析时导入类（推荐）_
 
-在大多数情况下，无需运行脚本即可知道所需类的确切限定名称。如果是这种情况，您应该使用 **skript-reflect** 的`import`块：
+在大多数情况下，无需运行脚本即可知道所需类的确切限定名称。如果是这种情况，你应该使用 **skript-reflect** 的`import`块：
 
 :::info
 
-为避免冲突，`import`块创建的表达式仅对导入它们的脚本可用。您必须在使用它们的每个脚本中导入 Java 类。
+为避免冲突，`import`块创建的表达式仅对导入它们的脚本可用。你必须在使用它们的每个脚本中导入 Java 类。
 
 :::
 
@@ -204,7 +204,7 @@ command /example:
 
 ###### 在低于 1.17 的 Minecraft 版本上导入 NMS 类
 
-由于 **Minecraft** 1.17 以下版本的 **NMS** 包会随着每个 **Minecraft** 版本而变化，因此您应该动态生成包前缀。有关详细信息，请参阅[计算选项](https://tpgamesnl.gitbook.io/skript-reflect/advanced/computed-options#using-computed-options-for-nms-imports)。
+由于 **Minecraft** 1.17 以下版本的 **NMS** 包会随着每个 **Minecraft** 版本而变化，因此你应该动态生成包前缀。有关详细信息，请参阅[计算选项](https://tpgamesnl.gitbook.io/skript-reflect/advanced/computed-options#using-computed-options-for-nms-imports)。
 
 ##### _在运行时导入类_
 
@@ -247,13 +247,13 @@ command /example:
 
 ###### 在effect命令中导入
 
-由于导入块在 effect 命令中不可用，因此您可以使用 import effect（仅在 effect 命令中可用）：
+由于导入块在 effect 命令中不可用，因此你可以使用 import effect（仅在 effect 命令中可用）：
 
 ```sk
 import <fully qualified name> [as <alias>]
 ```
 
-此导入只能在以上效果命令中使用，直到您停止服务器。
+此导入只能在以上效果命令中使用，直到你停止服务器。
 
 ##### _处理内部类_
 
@@ -330,7 +330,7 @@ Math.max[int, int](0, {_value})
 
 ###### 调用非公共字段
 
-如果您尝试访问的字段不是公共的，则可能需要在字段名称前面加上括号中的声明类。由于一个对象在多个父类中可能具有同名的非公共字段，因此必须显式指定查找该字段的位置。
+如果你尝试访问的字段不是公共的，则可能需要在字段名称前面加上括号中的声明类。由于一个对象在多个父类中可能具有同名的非公共字段，因此必须显式指定查找该字段的位置。
 
 示例：
 
@@ -356,7 +356,7 @@ new Location(player's world, 0, 0, 0)
 
 ##### 监听事件
 
-您可以通过引用导入的类来收听任何基于 Bukkit 的事件（包括其他插件添加的事件）。例如，如果要收听 `org.bukkit.event.entity.EnderDragonChangePhaseEvent`：
+你可以通过引用导入的类来收听任何基于 Bukkit 的事件（包括其他插件添加的事件）。例如，如果要收听 `org.bukkit.event.entity.EnderDragonChangePhaseEvent`：
 
 ```sk
 import:
@@ -374,7 +374,7 @@ on EnderDragonChangePhaseEvent:
 
 :::
 
-您还可以使用同一处理程序侦听多个事件。这些事件不必相关，但如果尝试访问在一个事件中可用但在另一个事件中不可用的方法，则应采取适当的预防措施。例如，如果要同时侦听`org.bukkit.event.entity.ProjectileLaunchEvent`和`org.bukkit.event.entity.ProjectileHitEvent`：
+你还可以使用同一处理程序侦听多个事件。这些事件不必相关，但如果尝试访问在一个事件中可用但在另一个事件中不可用的方法，则应采取适当的预防措施。例如，如果要同时侦听`org.bukkit.event.entity.ProjectileLaunchEvent`和`org.bukkit.event.entity.ProjectileHitEvent`：
 
 ```sk
 import:
@@ -387,7 +387,7 @@ on ProjectileLaunchEvent and ProjectileHitEvent:
 
 ##### 使用`event` **Expressions**
 
-**skript-reflect** 公开一个叫做`event`的 **Expressions**，允许您使用反射访问事件值。
+**skript-reflect** 公开一个叫做`event`的 **Expressions**，允许你使用反射访问事件值。
 
 语法：
 

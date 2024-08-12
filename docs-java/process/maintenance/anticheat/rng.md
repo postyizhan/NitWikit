@@ -38,7 +38,7 @@ RNG 是 **随机数生成器** 的简写。
 
 [purpur](https://purpurmc.org/) 和 [leaves](https://leavesmc.org/) 核心(包括它们的分支)，可以防止玩家破解 RNG 。
 
-您可以将配置改为如下 (默认就是开启的)：
+你可以将配置改为如下 (默认就是开启的)：
 
 `purpur.yml`
 
@@ -54,5 +54,5 @@ RNG 是 **随机数生成器** 的简写。
 use-vanilla-random: false
 ```
 
-如果您使用 Gale、Leaf 等核心，您甚至无需为此担心，因为他们的 RNG 算法已经经过改良，不再是原版的 RNG 。
+如果你使用 Gale、Leaf 等核心，你甚至无需为此担心，因为他们的 RNG 算法已经经过改良，不再是原版的 RNG 。
 

@@ -138,8 +138,8 @@ generator:
         name: '&7日期 &6{{element *id}}号 &7漏签'
         lore:
           - ''
-          - '&8| &7您可以使用&a补签卡&7进行补签'
-          - '&8| &7您拥有的补签卡数量: &6%checkitem_amount_nbtstrings:NeigeItems..id..data=signin_card%'
+          - '&8| &7你可以使用&a补签卡&7进行补签'
+          - '&8| &7你拥有的补签卡数量: &6%checkitem_amount_nbtstrings:NeigeItems..id..data=signin_card%'
           - ''
         action: *previous_signin
       # 点击签到
@@ -153,7 +153,7 @@ generator:
         name: '&a日期 &6{{element *id}}号 &a已签到'
         lore:
           - ''
-          - '&8&l| &7您本月已签到 &a{{&player@signin_statistics_of_month}} &7天!'
+          - '&8&l| &7你本月已签到 &a{{&player@signin_statistics_of_month}} &7天!'
           - ''
       # 未到达
       - rule:  check day in month < element *id

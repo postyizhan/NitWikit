@@ -135,7 +135,7 @@ ia的文档教了如何使用 [Google Drive](https://itemsadder.devs.beer/v/chin
 resource-pack-sha1=
 ```
 
-填入资源包的sha1就行,如果您不知道怎么生成，你可以前往 [在线网站](https://www.strerr.com/cn/sha1_file.html),把你文件上传然后复制生成的哈希值到这里就可以
+填入资源包的sha1就行,如果你不知道怎么生成，你可以前往 [在线网站](https://www.strerr.com/cn/sha1_file.html),把你文件上传然后复制生成的哈希值到这里就可以
 
 我们以 Slimefun 为例子
 

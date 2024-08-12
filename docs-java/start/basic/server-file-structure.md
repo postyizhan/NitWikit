@@ -112,9 +112,9 @@ Spigot 服务器都有的配置文件。
 
 - `whitelist.json`
 
-白名单列表。（如果您在[`server.properties`](https://minecraft-zh.gamepedia.com/Server.properties)中开启了白名单，您就可以在该文件中添加和管理谁被允许或不被允许进入服务器。）
+白名单列表。（如果你在[`server.properties`](https://minecraft-zh.gamepedia.com/Server.properties)中开启了白名单，你就可以在该文件中添加和管理谁被允许或不被允许进入服务器。）
 
-至此，大部分的以 Bukkit 为基础的服务器核心服务端的结构已经大致呈现在您眼前。
+至此，大部分的以 Bukkit 为基础的服务器核心服务端的结构已经大致呈现在你眼前。
 
 :::tip
 

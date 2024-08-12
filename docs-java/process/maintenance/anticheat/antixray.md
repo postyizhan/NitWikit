@@ -35,7 +35,7 @@ sidebar_position: 2
 feature-seeds:
   generate-random-seeds-for-all: true
 ```
-> 这是对每个建筑使用随机种子，防止您的世界种子轻易的被破解
+> 这是对每个建筑使用随机种子，防止你的世界种子轻易的被破解
 
 > 如果发现你的 `spigot.yml` 中出现了类似以下的配置配置就成功了，你可以修改其中的种子。（但其实不改也完全没问题）
 
