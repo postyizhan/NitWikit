@@ -71,7 +71,7 @@ Minecraft 后端服务器一般是不会对 Ping 进行过滤和记录的，这�
 
 最常见的网络层攻击是IP地址欺骗，攻击者可以伪造IP地址并向目标服务器发送大量数据包，以消耗目标服务器的网络带宽和系统资源。
 
-Minecraft JAVA 服务端采用 TCP 作为通信协议，所以您可能会遭受到如 TCP Flood (TCP 洪水攻击) 等攻击方式。
+Minecraft JAVA 服务端采用 TCP 作为通信协议，所以你可能会遭受到如 TCP Flood (TCP 洪水攻击) 等攻击方式。
 
 防御这种类型的攻击唯一办法就是增大宽带，没有什么别的好办法。
 
@@ -126,7 +126,7 @@ connection_throttle_limit: 3
 
 #### 付费防御核心
 
-如果您非常有钱，您可以打开跨服端[核心选择](https://yizhan.wiki/NitWikit/Java/advance/cross-server/server-core-choose)，选择那些付费的跨服端核心，NullCordX 是一个较好的选择。
+如果你非常有钱，你可以打开跨服端[核心选择](https://yizhan.wiki/NitWikit/Java/advance/cross-server/server-core-choose)，选择那些付费的跨服端核心，NullCordX 是一个较好的选择。
 
 但在没有想好的情况下，**不建议为反假人付费**。
 
@@ -191,7 +191,7 @@ connection_throttle_limit: 3
 
 缺点是似乎还没有任何一家这样的代理拥有国内服务器(延迟高)，且需要花费一点时间设置。
 
-这些代理的免费套餐都具有一定的限制(例如限制玩家数或流量)，除非您升级套餐。
+这些代理的免费套餐都具有一定的限制(例如限制玩家数或流量)，除非你升级套餐。
 
 使用前请三思。
 
@@ -216,6 +216,6 @@ connection_throttle_limit: 3
 
 :::danger
 
-如果您使用的是腾讯云之类的大厂 VPS ，永远不要尝试硬扛 DDOS ，服务器受攻击流量超过其机房黑洞阈值时，VPS 会屏蔽服务器的外网访问，直接断网并且恢复时间未知。
+如果你使用的是腾讯云之类的大厂 VPS ，永远不要尝试硬扛 DDOS ，服务器受攻击流量超过其机房黑洞阈值时，VPS 会屏蔽服务器的外网访问，直接断网并且恢复时间未知。
 
 :::

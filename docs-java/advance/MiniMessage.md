@@ -53,7 +53,7 @@ Icons:
 
 ![](_images/MiniMessage/展示.png)
 
-记住 MiniMessage 语言使用标签，也就是说您所做的一切都将使用标签进行定义。
+记住 MiniMessage 语言使用标签，也就是说你所做的一切都将使用标签进行定义。
 
 对于 MiniMessage ，你必须要有一个开始标签 `<yellow>`，在非严格模式下，你可以省略结束标签 `</yellow>` ，如下：
 

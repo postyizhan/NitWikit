@@ -17,7 +17,7 @@ sidebar_position: 3
 
 :::warning
 
-为了您的手机设备能流畅运行Java版我的世界，请不要在手机上随意安装Sodium（或Embeddium），Iris（或Oculus），或其他优化类模组，非常容易掉帧，出错
+为了你的手机设备能流畅运行Java版我的世界，请不要在手机上随意安装Sodium（或Embeddium），Iris（或Oculus），或其他优化类模组，非常容易掉帧，出错
 
 :::
 
