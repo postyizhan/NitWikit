@@ -8,7 +8,6 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-
   customFields: {
     // 标题前缀
     titlePrefix: "主页",
@@ -78,6 +77,32 @@ const config = {
         editCurrentVersion: true,
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
+      }],[
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/book.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+        ],
       },
     ],
     [
@@ -212,20 +237,22 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+
+      // 搜索
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'D1KV1BYF3B',
+
+        // Public API key: it is safe to commit it
+        apiKey: '4bb3573e59f2c49f30f057ce54edab3f',
+
+        indexName: 'yizhan',
+
+      },
     }),
 
   themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      {
-        hashed: true,
-        // language: ["zh"],
-        highlightSearchTermsOnTargetPage: true,
-        explicitSearchResultPath: true,
-        indexBlog: false,
-        docsRouteBasePath: "/"
-      },
-    ], '@docusaurus/theme-mermaid'
+    '@docusaurus/theme-mermaid'
   ],
 };
 
