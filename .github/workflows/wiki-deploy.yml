@@ -32,11 +32,12 @@ jobs:
       - name: "setup node"
         uses: "actions/setup-node@v4"
         with:
-          cache: "pnpm"
           node-version: 20
       # 安装 Npm 并构建
-      - name: Install and Build
-        run: pnpm install && pnpm run build
+      - name: Install
+        run: pnpm install
+      - name: Build
+        run: pnpm run build
       # 部署
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

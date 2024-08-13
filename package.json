@@ -12,8 +12,7 @@
     "serve": "docusaurus serve",
     "test": "docusaurus build && docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids",
-    "patch": "patch-package"
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
     "@docusaurus/core": "^3.5.1",
