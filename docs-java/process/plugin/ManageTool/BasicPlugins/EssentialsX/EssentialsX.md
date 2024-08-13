@@ -1,6 +1,5 @@
 ---
-title: 概览
-slug: /plugins/essentials
+title: EssentialsX
 sidebar_position: 1
 ---
 
