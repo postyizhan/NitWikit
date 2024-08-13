@@ -61,6 +61,7 @@ https://nitwikit.yizhan.wiki/
    `git clone https://github.com/你的用户名/NitWikit.git`
 3. 在本地仓库中进行修改并构建文档测试，无误后 push 至自己的仓库
 4. 回到此仓库，点击 Pull requests -> New pull request 发起 PR
+5. 前往 [NitWikit-PR](https://github.com/users/postyizhan/projects/2) 查看审核状态
 
 # 🤝 贡献者
 
@@ -195,10 +196,10 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/CkaDebug">
-                    <img src="https://avatars.githubusercontent.com/u/141492699?v=4" width="50;" alt="CkaDebug"/>
+                <a href="https://github.com/MengHanLOVE1027">
+                    <img src="https://avatars.githubusercontent.com/u/99132833?v=4" width="50;" alt="MengHanLOVE1027"/>
                     <br />
-                    <sub><b>Debug-Cracked</b></sub>
+                    <sub><b>梦涵LOVE</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -209,10 +210,10 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/MengHanLOVE1027">
-                    <img src="https://avatars.githubusercontent.com/u/99132833?v=4" width="50;" alt="MengHanLOVE1027"/>
+                <a href="https://github.com/CkaDebug">
+                    <img src="https://avatars.githubusercontent.com/u/141492699?v=4" width="50;" alt="CkaDebug"/>
                     <br />
-                    <sub><b>梦涵LOVE</b></sub>
+                    <sub><b>Debug-Cracked</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -224,6 +225,20 @@ https://nitwikit.yizhan.wiki/
             </td>
 		</tr>
 		<tr>
+            <td align="center">
+                <a href="https://github.com/minimouse0">
+                    <img src="https://avatars.githubusercontent.com/u/116894415?v=4" width="50;" alt="minimouse0"/>
+                    <br />
+                    <sub><b>Minimouse48</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/serverbread-DEV">
+                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
+                    <br />
+                    <sub><b>SB-Reborn</b></sub>
+                </a>
+            </td>
             <td align="center">
                 <a href="https://github.com/MySoulcutting">
                     <img src="https://avatars.githubusercontent.com/u/72398605?v=4" width="50;" alt="MySoulcutting"/>
@@ -245,11 +260,20 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>Coquettishpig</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/TheFloodDragon">
                     <img src="https://avatars.githubusercontent.com/u/75253383?v=4" width="50;" alt="TheFloodDragon"/>
                     <br />
                     <sub><b>蛟龙</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/SeaOrangejuice">
+                    <img src="https://avatars.githubusercontent.com/u/116551329?v=4" width="50;" alt="SeaOrangejuice"/>
+                    <br />
+                    <sub><b>Sea_of_Orange</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -259,20 +283,34 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>LittleChest</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
-                <a href="https://github.com/SeaOrangejuice">
-                    <img src="https://avatars.githubusercontent.com/u/116551329?v=4" width="50;" alt="SeaOrangejuice"/>
+                <a href="https://github.com/HanSiqi2008">
+                    <img src="https://avatars.githubusercontent.com/u/136245260?v=4" width="50;" alt="HanSiqi2008"/>
                     <br />
-                    <sub><b>Sea_of_Orange</b></sub>
+                    <sub><b>HanSiqi2008</b></sub>
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/serverbread-DEV">
-                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
+                <a href="https://github.com/Virgil692">
+                    <img src="https://avatars.githubusercontent.com/u/83110631?v=4" width="50;" alt="Virgil692"/>
                     <br />
-                    <sub><b>SB-Reborn</b></sub>
+                    <sub><b>MrVirgil</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/alazeprt">
+                    <img src="https://avatars.githubusercontent.com/u/92018941?v=4" width="50;" alt="alazeprt"/>
+                    <br />
+                    <sub><b>alazeprt</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/zzzyyylllty">
+                    <img src="https://avatars.githubusercontent.com/u/167876309?v=4" width="50;" alt="zzzyyylllty"/>
+                    <br />
+                    <sub><b>zzzyyylllty</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -289,6 +327,15 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>TalentsRC</b></sub>
                 </a>
             </td>
+            <td align="center">
+                <a href="https://github.com/ColdeZhang">
+                    <img src="https://avatars.githubusercontent.com/u/29792376?v=4" width="50;" alt="ColdeZhang"/>
+                    <br />
+                    <sub><b>张宇衡</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/wuyuncheng-26">
                     <img src="https://avatars.githubusercontent.com/u/122529705?v=4" width="50;" alt="wuyuncheng-26"/>
