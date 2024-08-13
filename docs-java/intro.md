@@ -13,7 +13,7 @@ sidebar_position: 1
 
 ![:NitWikit](https://count.kjchmc.cn/get/@:NitWikit)
 
-如果您确定您符合条件，请点击一侧的目录开始阅读文档。
+如果你确定你符合条件，请点击一侧的目录开始阅读文档。
 
 # 更多
 

@@ -86,6 +86,90 @@ enable-command-block=false
 
 将此项设置为 `true`。
 
+## 设置难度
+
+```
+difficulty=hard
+```
+
+支持以下值
+
+* peaceful(0) - 和平
+* easy(1) - 简单
+* normal(2) - 普通
+* hard(3) - 困难 
+
+## 出生点保护
+
+```
+spawn-protection=16
+```
+
+出生点的保护范围,在保护范围中只有OP可以破坏或者放置
+
+设置为0可以禁用
+
+## 允许玩家前往地狱/生成地狱世界
+
+```
+allow-nether=true
+```
+
+设置为`false`可以禁用地狱
+
+## 默认游戏模式
+
+```
+gamemode=survival
+```
+
+支持以下模式
+
+* 生存 - survival 或 0
+* 创造 - creative 或 1
+* 冒险 - adventure 或 2
+* 旁观 - spectator 或 3
+
+## 强制游戏模式
+
+```
+force-gamemode=false
+```
+
+如果设置为`true`,玩家加入后将会被强制改为默认游戏模式
+
+## 结构生成
+
+```
+generate-structures=true
+```
+
+结构（如村庄）是否会在新区块中生成
+
+:::note
+
+即使设置为false，地牢仍会生成
+
+:::
+
+## 允许玩家互相攻击
+
+```
+pvp=true
+```
+
+## 允许飞行
+
+```
+allow-flight=true
+```
+
+:::warning
+
+最好将此值设为`true`,无论你是否需要飞行,如果你需要反飞行,请查看反作弊一章
+
+:::
+
 ## 服务器端口
 
 在下一章!

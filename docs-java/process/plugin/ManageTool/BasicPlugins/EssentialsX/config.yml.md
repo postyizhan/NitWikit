@@ -29,7 +29,7 @@ sidebar_position: 3
 ############################################################
 
 # OP名字的颜色代码,填写0~9或a~f其中的一个数字或字母,填写'none'来冻结该功能
-# 在 1.16 中，您也可以在此处使用十六进制颜色代码。 （例如，#613e1d 是棕色的）。
+# 在 1.16 中，你也可以在此处使用十六进制颜色代码。 （例如，#613e1d 是棕色的）。
 ops-name-color: '4'
 
 # 昵称的前缀符号,这样你能知道这不是他们真正的用户名.
@@ -38,14 +38,14 @@ nickname-prefix: '~'
 # 设置最大昵称长度, 昵称前缀也包括在内.
 max-nick-length: 15
 
-# 不能在昵称中使用的短语列表。 您可以在此处包含正则表达式。
+# 不能在昵称中使用的短语列表。 你可以在此处包含正则表达式。
 # 拥有essentials.nick.blacklist.bypass 的用户将能够绕过此过滤器。
 nick-blacklist:
 #- Notch
 #- '^Dinnerbone'
 
 # 启用此选项时，昵称长度检查将排除玩家名字的颜色代码所占字符.
-# 即: "&6Notch" 占有7个字符 (而其中的两个就是颜色代码所占字符),如果您设置的昵称字符超过了系统限定,请将该选项改为 true
+# 即: "&6Notch" 占有7个字符 (而其中的两个就是颜色代码所占字符),如果你设置的昵称字符超过了系统限定,请将该选项改为 true
 ignore-colors-in-max-nick-length: false
 
 # 启用此选项后，隐藏用户的显示名称将不会显示。 这样可以防止玩家
@@ -88,7 +88,7 @@ teleport-safety: true
 force-disable-teleport-safety: false
 
 # 如果玩家在创造、冒险或上帝模式中传送到不安全的位置； 他们不会被传送到
-#安全位置。 如果您希望玩家一直被传送到安全位置，请将此选项设置为 true。
+#安全位置。 如果你希望玩家一直被传送到安全位置，请将此选项设置为 true。
 force-safe-teleport-location: false
 
 # 如果玩家骑乘，传送将失败。 玩家是否应该在被传送之前下马？
@@ -241,8 +241,8 @@ mute-commands:
  # - '*'
 
 # 如果你不想使用权限系统，你可以在下面定义一个“玩家权限”列表。
-# 如果您使用受支持的权限系统，此列表无效。
-# 如果您使用的是不受支持的权限系统，只需删除此部分即可。
+# 如果你使用受支持的权限系统，此列表无效。
+# 如果你使用的是不受支持的权限系统，只需删除此部分即可。
 # 白名单你希望默认给予玩家的命令和权限（其他一切都是操作）。
 # 这些是没有“必需品”的权限。 部分。
 #
@@ -329,8 +329,8 @@ player-commands:
   - xmpp
 
 # 使用此选项强制基于op权限的权限处理程序，而不管检测到已安装的权限插件。
-# 如果您想要自定义权限插件的基于超级权限的权限（使用通配符），这很有用。
-# 如果您希望通过上面的 `player-commands` 部分使用 EssentialsX 的内置权限，请将其设置为 false。
+# 如果你想要自定义权限插件的基于超级权限的权限（使用通配符），这很有用。
+# 如果你希望通过上面的 `player-commands` 部分使用 EssentialsX 的内置权限，请将其设置为 false。
 # 默认为true
 use-bukkit-permissions: true
 
@@ -351,8 +351,8 @@ pastebin-createkit: false
 # 如果这是真的，/createkit 会将项目存储为 NBT； 否则，它将使用 Essentials 的人类可读项目格式。
 # 通过使用 NBT 序列化，/createkit 可以存储具有复杂元数据的项目，例如具有自定义属性的潜影盒和武器。
 # 警告：此选项仅适用于 1.15.2+ Paper 服务器，它将绕过来自其他插件（如 Magic）的任何自定义序列化程序。
-# 警告：在启用此选项的情况下通过 /createkit 创建工具包时，您将无法使用这些工具包项目降级您的服务器。
-# 此选项仅影响 /createkit - 您仍然可以使用 Essentials 的人类可读项目格式在 `kits.yml` 中手动创建套件。
+# 警告：在启用此选项的情况下通过 /createkit 创建工具包时，你将无法使用这些工具包项目降级你的服务器。
+# 此选项仅影响 /createkit - 你仍然可以使用 Essentials 的人类可读项目格式在 `kits.yml` 中手动创建套件。
 # 默认为false。 应该是说，开启后kit可以存nbt的东西了
 use-nbt-serialization-in-createkit: false
 
@@ -400,7 +400,7 @@ allow-old-id-signs: false
 
 # 标志名称列表 Essentials 不应保护。 此功能在以下情况下特别有用
 # 另一个插件提供了 EssentialsX 提供的标志，但 Essentials 会覆盖。
-# 例如，如果一个插件提供了一个 [kit] 标志，并且您希望使用他们的而不是
+# 例如，如果一个插件提供了一个 [kit] 标志，并且你希望使用他们的而不是
 # Essentials 的，然后只需在下面添加工具包，Essentials 将不会保护它。
 #
 # 有关更多信息，请参阅 https://github.com/drtshock/Essentials/pull/699。
@@ -416,7 +416,7 @@ backup:
   interval: 30
 # 如果为true，即使没有玩家在线，备份任务也会运行。
   always-run: false
-# 除非您在此处添加有效的备份命令或脚本，否则此功能将毫无用处。
+# 除非你在此处添加有效的备份命令或脚本，否则此功能将毫无用处。
    # 使用 'save-all' 来简单地强制定期保存世界而无需备份。
    # 下面的示例命令使用 rdiff-backup: https://rdiff-backup.net/
    #command: 'rdiff-backup World1 备份/World1'
@@ -500,7 +500,7 @@ sleep-ignores-vanished-player: true
 
 # 设置玩家AFK时的列表名称。 默认情况下为 none，它指定 Essentials
 # 不应干扰 AFK 玩家的列表名称。 none我改成了 挂机中
-# 您可以使用颜色代码，使用 {USERNAME} 玩家的名称或 {PLAYER} 作为玩家的显示名称。
+# 你可以使用颜色代码，使用 {USERNAME} 玩家的名称或 {PLAYER} 作为玩家的显示名称。
 afk-list-name: "挂机中"
 
 # 当玩家进入或退出AFK模式时，是否聊天栏通知其他玩家
@@ -508,18 +508,18 @@ afk-list-name: "挂机中"
 # 当此设置为 false 时，只有准备挂机的玩家会收到afk通知
 broadcast-afk-message: true
 
-# 您可以在此处禁用 Minecraft 的死亡消息。
+# 你可以在此处禁用 Minecraft 的死亡消息。
 death-messages: true
 
 # Essentials 应该如何处理拥有 Essentials.keepinv 权限的玩家
 # 拥有消失诅咒附魔的物品或装备?
-# 您可以将其设置为“keep”（保留项目）、“掉落”（删除项目）或“delete”（删除项目）。
+# 你可以将其设置为“keep”（保留项目）、“掉落”（删除项目）或“delete”（删除项目）。
 # 默认为“keep”
 vanishing-items-policy: keep
 
 # Essentials 应该如何处理拥有 Essentials.keepinv 权限的玩家
 #拥有绑定诅咒附魔的物品或装备?
-# 您可以将其设置为“keep”（保留项目）、“drop”（删除项目）或“delete”（删除项目）。
+# 你可以将其设置为“keep”（保留项目）、“drop”（删除项目）或“delete”（删除项目）。
 # 默认为“keep”
 binding-items-policy: keep
 
@@ -531,7 +531,7 @@ send-info-after-death: false
 # 此外，拥有essentials.silentjoin.vanish 的人将在加入时消失。
 allow-silent-join-quit: false
 
-# 您可以在此处设置自定义加入和退出消息。 将此设置为“none”以使用默认的 Minecraft 消息，
+# 你可以在此处设置自定义加入和退出消息。 将此设置为“none”以使用默认的 Minecraft 消息，
 # 或将此设置为 "" 以完全隐藏消息。
 
 # 可用变量
@@ -545,9 +545,9 @@ allow-silent-join-quit: false
 custom-join-message: "&e[&a+&e]&6比驿站丑的 {USERNAME} 加入了游戏"
 custom-quit-message: "&e[&c-&e]&6比驿站丑的 {USERNAME} 退出了游戏"
 
-# 您可以在此处为新玩家(和更换ID的老玩家?)设置加入提示。
+# 你可以在此处为新玩家(和更换ID的老玩家?)设置加入提示。
 # 仅当用户之前加入并更改了用户名时才会使用此消息。
-# 这将显示而不是 custom-join-message，因此如果您打算保持它们相似，请确保它们匹配。
+# 这将显示而不是 custom-join-message，因此如果你打算保持它们相似，请确保它们匹配。
 # 将此设置为“none”以对每个连接使用上面的“custom-join-message”。
 
 # 可用变量
@@ -565,7 +565,7 @@ custom-new-username-message: "&e[&a+&e]&6比驿站丑的新玩家 {USERNAME} 加
 # 设置为 false 以保留原版消息。
 use-custom-server-full-message: true
 
-# 当玩家数量达到一定限制时，您可以禁用加入和退出消息。
+# 当玩家数量达到一定限制时，你可以禁用加入和退出消息。
 # 当玩家人数低于此数字时，将始终显示加入/退出消息。
 # 将此设置为 -1 以始终显示加入和退出消息，无论玩家人数如何。
 hide-join-quit-messages-above: -1
@@ -638,7 +638,7 @@ last-message-reply-recipient: true
 last-message-reply-recipient-timeout: 180
 
 # 更改默认的 /reply 功能。
-# 如果为true，/reply 将不会检查您正在回复的人是否已经消失。
+# 如果为true，/reply 将不会检查你正在回复的人是否已经消失。
 # 如果为 false，玩家将无法/回复因消失而无法再看到的玩家。
 last-message-reply-vanished: false
 
@@ -663,7 +663,7 @@ world-time-permissions: false
 # EssentialsX 通过使用插入符号启动命令来支持正则表达式 ^
 # 例如，要针对以ban而不是banip开头的命令，将使用以下命令：
 # '^ban([^ip])( .*)?': 60 # 60 秒 /ban 冷却时间。
-# 注意：如果您有一个以 ^ 开头的命令，那么您可以使用反斜杠 (\) 对其进行转义。 例如 \^命令：123
+# 注意：如果你有一个以 ^ 开头的命令，那么你可以使用反斜杠 (\) 对其进行转义。 例如 \^命令：123
 command-cooldowns:
 # feed: 100 # /feed 命令有 100 秒的冷却时间
 # '*': 5 # 所有命令的冷却时间为 5 秒
@@ -726,7 +726,7 @@ allow-world-in-broadcastworld: true
 is-water-safe: false
 
 # usermap 是否应该在保存用户名之前尝试清理用户名？
-# 如果您使用 Minecraft 中国，您应该只将其更改为 false。
+# 如果你使用 Minecraft 中国，你应该只将其更改为 false。
 safe-usermap-names: true
 
 # 当命令块执行命令时，Essentials 是否应该输出日志？
@@ -793,7 +793,7 @@ confirm-home-overwrite: false
 
 # 查看更多信息,请访问 http://wiki.ess3.net/wiki/Essentials_Economy
 
-# 您可以使用 /setworth 命令控制出售给服务器的物品的价值。
+# 你可以使用 /setworth 命令控制出售给服务器的物品的价值。
 
 # 定义新玩家开始的平衡(应该是说默认的钱)。 默认为 0。
 starting-balance: 0
@@ -838,7 +838,7 @@ pay-excludes-ignore-list: false
 
 # 余额小于或等于 $0 的用户是否应该显示在 balance-top 中。
 # 设置为 false 将不会在 balance-top 中显示余额 <= 0 的人。
-# 注意：重新加载配置后，您还必须运行“/baltop force”才能显示
+# 注意：重新加载配置后，你还必须运行“/baltop force”才能显示
 show-zero-baltop: true
 
 # 货币格式，不包括符号。 有关符号配置，请参阅currency-symbol-format-locale。
@@ -914,14 +914,14 @@ chat:
 # 默认值：'{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
    # 管理员：'{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
-   # 如果您使用组格式，请确保删除“#”以允许读取设置。
-   # 注意：组名区分大小写，因此您必须将它们与您的权限插件匹配。
+   # 如果你使用组格式，请确保删除“#”以允许读取设置。
+   # 注意：组名区分大小写，因此你必须将它们与你的权限插件匹配。
 
-   # 您可以使用权限来控制玩家是否可以在聊天消息中使用格式化代码。
+   # 你可以使用权限来控制玩家是否可以在聊天消息中使用格式化代码。
    # 有关更多信息，请参阅 https://essentialsx.net/wiki/Color-Permissions.html。
 
-   # 世界别名允许您用聊天格式中的不同名称替换世界名称。
-   # 如果您使用世界别名，请确保删除开头的“#”以允许读取设置。
+   # 世界别名允许你用聊天格式中的不同名称替换世界名称。
+   # 如果你使用世界别名，请确保删除开头的“#”以允许读取设置。
   world-aliases:
   #  plots: "&dP&r"
   #  creative: "&eC&r"
@@ -941,7 +941,7 @@ chat:
 # +------------------------------------------------------+ #
 ############################################################
 
-# 您需要安装 EssentialsX Protect 才能使用此部分。
+# 你需要安装 EssentialsX Protect 才能使用此部分。
 # 请参阅 https://essentialsx.net/wiki/Module-Breakdown.html 了解更多信息。
 
 protect:
@@ -1007,7 +1007,7 @@ protect:
       drowned: false
       # 防止哞菇被闪电击中时变色。
       mooshroom: false
-    # 防止生成生物。 如果缺少一个生物，您可以按照以下格式添加它。
+    # 防止生成生物。 如果缺少一个生物，你可以按照以下格式添加它。
     spawn:
       creeper: false   #阻止 爬行者     的生成
       skeleton: false   #阻止 骷髅       的生成
@@ -1089,7 +1089,7 @@ protect:
 # +------------------------------------------------------+ #
 ############################################################
 
-# 您需要安装 EssentialsX AntiBuild 才能使用此部分。
+# 你需要安装 EssentialsX AntiBuild 才能使用此部分。
    # 请参阅 https://essentialsx.net/wiki/Module-Breakdown.html 和 http://wiki.ess3.net/wiki/AntiBuild 了解更多信息。
 
     # 玩家是否可以建造:
@@ -1135,7 +1135,7 @@ protect:
 # +------------------------------------------------------+ #
 ############################################################
 
-# 您需要安装 EssentialsX Spawn 才能使此部分正常工作。
+# 你需要安装 EssentialsX Spawn 才能使此部分正常工作。
 # 请参阅 https://essentialsx.net/wiki/Module-Breakdown.html 了解更多信息。
 
 newbies:
