@@ -10,18 +10,12 @@ jobs:
       # 拉取代码
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Use Node.js 20
-        uses: actions/setup-node@v3
+      - name: "setup pnpm"
+        uses: "pnpm/action-setup@v4"
+      - name: "setup node"
+        uses: "actions/setup-node@v4"
         with:
+          cache: "pnpm"
           node-version: 20
-      # 启用缓存加速
-      - name: Cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
-      # 安装 Npm 并构建
       - name: Install and Build
-        run: npm install && npm run build
+        run: pnpm install && pnpm run build
