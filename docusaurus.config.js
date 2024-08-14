@@ -231,8 +231,8 @@ const config = {
       },
       // 深浅主题
       prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
+        theme: prismThemes.vsLight,
+        darkTheme: prismThemes.vsDark,
       },
       // 颜色随系统切换
       colorMode: {
@@ -249,6 +249,9 @@ const config = {
 
         indexName: 'yizhan',
 
+      },
+      mermaid: {
+        theme: { light: "neutral", dark: "dark" },
       },
     }),
 
