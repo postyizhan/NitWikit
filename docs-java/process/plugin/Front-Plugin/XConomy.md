@@ -22,7 +22,7 @@ sidebar_position: 3
 
 国人插件
 
-如果你已经安装了 [基础插件](/docs-java/process/plugin/ManageTool/BasicPlugins/BasicPlugins.md) 并且**没有跨服的需求**，可以不安装这个插件
+如果你已经安装了 [基础插件](/Java/Essentials) 并且**没有跨服的需求**，可以不安装这个插件
 
 因为基础插件已经提供了经济
 
