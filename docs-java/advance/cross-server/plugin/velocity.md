@@ -150,13 +150,13 @@ CAPTCHA 在玩家进入服务器时，会进入 Sonar 创建的虚拟服务器�
 
 支持制作文字动画，支持 RGB 颜色
 
-想让他显示 PlaceholderAPI 的变量?请在代理端和所有子服务器上安装 [Tab-Bridge](https://www.spigotmc.org/resources/.83966/)
+想让他显示 PlaceholderAPI 的变量?请在所有子服务器上安装 [Tab-Bridge](https://www.spigotmc.org/resources/.83966/)
 
 此外，如果你使用了 Layout 功能，如果你不安装此插件，会导致一些显示 Bug
 
 因此强烈建议将 Tab-Bridge 一起安装
 
-_其实只安装在跨服端就行了，子服没必要装，你实在要装也没关系_
+_插件需要安装在代理端上，如果你在子服安装了TAB，可能会导致在高版本上出现“网络协议错误”等位置问题。_
 
 # 装在跨服端+子服端
 
