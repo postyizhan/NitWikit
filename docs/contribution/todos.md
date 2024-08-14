@@ -31,8 +31,8 @@ sidebar_position: 100
 - [x] 开服器开服
 - [ ] 维护-二分法插件排除法
 - [x] 维护-插件命名推荐
-- [ ] 搭建翼龙面板？mcsm？
-- [ ] 资源包托管 gitee github gitlab 直链网盘
+- [x] 搭建翼龙面板？mcsm？
+- [x] 资源包托管 gitee github gitlab 直链网盘
 
 ## 建设阶段
 
@@ -92,7 +92,7 @@ sidebar_position: 100
 - [ ] docker开服?
 - [ ] git管理服务端?
 - [x] 二分法和控制变量法排查问题
-- [ ] Q机器人教程?
+- [x] Q机器人教程?
 - [ ] 搭建 Frp
 - [x] Minimessage简单讲解
 - [x] 怎么支持中文名的玩家
