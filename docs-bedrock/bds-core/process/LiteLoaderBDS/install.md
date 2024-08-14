@@ -13,7 +13,7 @@ LiteLoaderBDS 不会自动下载安装对应版本 BDS，你需要手动寻找�
 
 ## 下载 LiteLoaderBDS
 
-前往 https://github.com/LiteLDev/LiteLoaderBDSv2/releases 下载 BDS 版本对应的发行版。你可以在更新日志的 BDS 标签中找到该发生版适配的 BDS 版本。例如 2.14.1、2.14.0 的 BDS 标签写着 1.20.0.01，证明该发行版适配了 BDS 的 1.20.0.01 版本。
+前往 https://github.com/LiteLDev/LiteLoaderBDSv2/releases 下载 BDS 版本对应的发行版。你可以在更新日志的 BDS 标签中找到该发行版适配的 BDS 版本。例如 2.14.1、2.14.0 的 BDS 标签写着 1.20.0.01，证明该发行版适配了 BDS 的 1.20.0.01 版本。
 
 ## 安装 LiteLoaderBDS
 
