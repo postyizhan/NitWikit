@@ -346,10 +346,10 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/ColdeZhang">
+                <a href="https://zhangyuheng.lunadeer.cn/">
                     <img src="https://avatars.githubusercontent.com/u/29792376?v=4" width="50;" alt="ColdeZhang"/>
                     <br />
-                    <sub><b>张宇衡</b></sub>
+                    <sub><b>ZhangYuheng</b></sub>
                 </a>
             </td>
             <td align="center">
