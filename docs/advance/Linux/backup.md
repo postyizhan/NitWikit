@@ -11,7 +11,7 @@ sidebar_position: 8
 sudo vim /root/backup.sh
 ```
 
-然后将以下内容粘贴到文件中，按实际情况与需要修改：
+然后将以下内容粘贴到文件中，按实际情况与需要修改（如果你是Linux新手请不要修改）：
 
 ```bash
 #!/bin/bash
@@ -86,7 +86,7 @@ SERVER_PARENT_DIR=$(dirname $SERVER_DIR)
 SERVER_NAME=$(basename $SERVER_DIR)
 cd $SERVER_PARENT_DIR || exit
 time=$(date "+%Y%m%d-%H%M%S")
-tar -czvf "${time}.tar.gz" --exclude="${SERVER_NAME}/session.lock" $SERVER_NAME
+tar -czvf "${time}.tar.gz" $SERVER_NAME
 mv "${time}.tar.gz" $BACKUP_DIR
 
 # 删除多余的备份文件
@@ -142,4 +142,8 @@ crontab -e
 1. 首先确定要恢复的备份文件；
 2. 将备份文件解压：`tar -zxvf 备份文件名.tar.gz`；
 3. 将解压后的文件覆盖到服务器目录：`cp -r 解压后的文件路径/* 服务器目录`。
+
+> 如果你恢复存档后启动服务器报错：
+> `[main/FATAL]: Failed to start the minecraft server net.minecraft.util.SessionLock$ExceptionWorldConfict: /home/minecraft/lobby/./world/session.lock: already locked (possibly by other Minecraft instance?)`
+> 请检查 `world` 存档下是否存在 `session.lock` 文件，如果存在请删除，然后重启服务器。
 
