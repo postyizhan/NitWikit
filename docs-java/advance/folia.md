@@ -53,5 +53,22 @@ LightingLuminol 是 Luminol 的分支，旨在修复对 BukkitAPI 的破坏，�
 
 (Molia和Luminol其实是同一个作者~~)
 
+## 调配置
 
+安装完 Luminol 后你还需要一点小小的配置让你的Luminol更好
 
+### 分配线程数
+
+众所周知 Folia 默认的分配线程数非常脑瘫，会出现一核有难，八核围观的场景
+
+打开Paper的全局配置，找到`threaded-regions.threads`,通常情况下，分配给区块 Tick 线程数应该是 80% 乘上你物理CPU核数
+
+### 生电配置
+
+Luminol 另一个好处就是可以开启生电配置
+
+- fixes.allow_void_trading 虚空交易
+- fixes.allow_unsafe_teleportation 刷沙
+- fixes.use_vanilla_random_source RNG操作
+
+其它特性请阅读 Paper 文档
