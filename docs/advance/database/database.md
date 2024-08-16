@@ -1,10 +1,10 @@
 ---
 title: 数据库相关
 slug: /database
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# 数据库相关
+## 数据库相关
 
 :::info
 
@@ -18,11 +18,11 @@ sidebar_position: 2
 
 4. Redis/MySQL 等数据库配合可轻松完成玩家数据同步等;
 
-5. 在数据量较大时候相较 sqlite 有更好的性能， 查询时需要的时间短， 特别是某些经济插件付款时避免顿卡.
+5. 在数据量较大时候相较 sqlite 有更好的性能， 查询时需要的时间短， 特别是某些经济插件付款时避免卡顿.
 
 :::
 
-# MySQL / MariaDB
+### MySQL / MariaDB
 
 MariaDB 是著名的 MySQL 分叉，只是服务器腐竹的话，你只需要知道这两个东西差不多就好了
 
@@ -34,6 +34,6 @@ MariaDB 是著名的 MySQL 分叉，只是服务器腐竹的话，你只需要�
 
 :::
 
-## Redis
+### Redis
 
 TODO

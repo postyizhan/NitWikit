@@ -24,7 +24,7 @@ ViaRewind 可以让超低版本（1.7-1.8）客户端进入高版本服务器
 
 #### 指定 1.8.x 客户端如何查看冷却时间指示器
 
-您可以在 "标题"、"动作条"、"BOSS 条 "和 "禁用 "之间进行选择
+你可以在 "标题"、"动作条"、"BOSS 条 "和 "禁用 "之间进行选择
 
 只有在服务器上禁用了 1.9 版本的冷却时间时才会禁用
 
@@ -34,7 +34,7 @@ cooldown-indicator: "TITLE
 
 #### 对于 1.7.x 客户端，用生存模式取代冒险模式
 
-如果您的服务器使用 "CanDestroy" # 或 "CanPlaceOn"，请启用此选项。
+如果你的服务器使用 "CanDestroy" # 或 "CanPlaceOn"，请启用此选项。
 或 "CanPlaceOn "标志的情况下启用此选项
 
 replace-adventure: false

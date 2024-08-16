@@ -15,22 +15,23 @@
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
-    "@docusaurus/core": "3.4.0",
-    "@docusaurus/plugin-content-docs": "^3.4.0",
-    "@docusaurus/plugin-debug": "^3.4.0",
-    "@docusaurus/plugin-sitemap": "^3.4.0",
-    "@docusaurus/preset-classic": "3.4.0",
-    "@docusaurus/theme-mermaid": "^3.4.0",
-    "@easyops-cn/docusaurus-search-local": "^0.44.3",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^2.0.0",
+    "@docusaurus/core": "3.5.1",
+    "@docusaurus/plugin-content-docs": "3.5.1",
+    "@docusaurus/plugin-debug": "3.5.1",
+    "@docusaurus/plugin-pwa": "3.5.1",
+    "@docusaurus/plugin-sitemap": "3.5.1",
+    "@docusaurus/preset-classic": "3.5.1",
+    "@docusaurus/theme-mermaid": "3.5.1",
+    "@docusaurus/theme-search-algolia": "3.5.1",
+    "@mdx-js/react": "3.0.1",
+    "clsx": "2.1.1",
     "prism-react-renderer": "^2.3.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.4.0",
-    "@docusaurus/types": "3.4.0"
+    "@docusaurus/module-type-aliases": "^3.5.1",
+    "@docusaurus/types": "^3.5.1"
   },
   "browserslist": {
     "production": [
@@ -46,5 +47,11 @@
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903",
+  "pnpm": {
+    "patchedDependencies": {
+      "@docusaurus/utils@3.5.1": "patches/@docusaurus__utils@3.5.1.patch"
+    }
   }
 }

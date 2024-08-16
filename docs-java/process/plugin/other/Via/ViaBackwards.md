@@ -12,7 +12,7 @@ Via三件套中的向下兼容，前置为ViaVersion
 
 ### 你们支持 1.8 及更低版本吗？
 
-否，如果您希望向后兼容 1.8 及更低版本，请使用 ViaRewind 或 ProtocolSupport。
+否，如果你希望向后兼容 1.8 及更低版本，请使用 ViaRewind 或 ProtocolSupport。
 
 ### 版本低于 1.17 的客户端看不到 y=0 以下的块，这会被修复吗？
 
@@ -44,7 +44,7 @@ fix-1_13-face-player: false
 
 ### 通过将物品栏标题转换为传统文本，修复了 1.13 及更低版本客户端看不到物品栏标题颜色或格式的问题。
 
-如果您遇到可翻译文本显示错误的问题，请禁用此功能。
+如果你遇到可翻译文本显示错误的问题，请禁用此功能。
 
 fix-formatted-inventory-titles: true
 

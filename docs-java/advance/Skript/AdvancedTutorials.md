@@ -9,20 +9,19 @@ sidebar_position: 3
 
 ## skript-reflect
 
-**skript-reflect** 是 **Skript** 的一个拓展插件，允许你反射 java 类来进行更高级的操作，它旨在将 **Java** 的功能与 **Skript** 易于使用的开发环境相结合。
+**skript-reflect** 是 **Skript** 的一个拓展插件，允许你运用Java的反射机制来进行更高级的操作，它旨在将 **Java** 的功能与 **Skript** 易于使用的开发环境相结合。
 
 有了 **skript-reflect** 的 **Skript** 几乎可以完成插件能做的任何事，不过是复杂性的问题。
 
 为什么需要 skript-reflect？
 
--   正确编写插件是很困难的，特别是如果你是 **Java** 的新手。 **skript-reflect** 将为您负重前行，让你专注于编写高质量的 **Skript** 脚本。
+- 正确编写插件是很困难的，特别是如果你是 **Java** 的新手。 **skript-reflect** 将为你负重前行，让你专注于编写高质量的 **Skript** 脚本。
 
--   用 **skript-reflect** 编写的扩展可以快速测试，就像任何其他脚本一样。与需要编译和完全重新启动服务器的 **Skript** 插件不同， **skript-reflect** 脚本可以使用简单的 `sk reload`。
+- 用 **skript-reflect** 编写的扩展可以快速测试，就像任何其他脚本一样。与需要编译和完全重新启动服务器的 **Skript** 插件不同， **skript-reflect** 脚本可以使用简单的 `sk reload`。
 
--   在 sk 脚本中实现某些功能可能需要使用反射来访问私有方法、字段和构造函数。 **skript-reflect** 的内置反射允许你无缝访问这些私人成员。
+- 在 sk 脚本中实现某些功能可能需要使用反射来访问私有方法、字段和构造函数。 **skript-reflect** 的内置反射允许你无缝访问这些私有成员。
 
--   **Skript** 的基本特性之一是其极大的可定制性。使用 **skript-reflect** 编写的扩展使 sk 的这点更为突出，这允许你在必要时快速更改您的代码。
-
+- **Skript** 的基本特性之一是其极大的可定制性。使用 **skript-reflect** 编写的扩展使 sk 的这点更为突出，这允许你在必要时快速更改你的代码。
 
 下面的代码块包含了一些 **skript-reflect** 基础的语法。
 
@@ -55,7 +54,7 @@ import:
 
 对类的调用必须在导入完成后进行，因此我们建议你尽可能将此语句放在脚本中靠顶端的位置。
 
-通过`import:`块导入类后， **skript-reflect** 将创建一个 **Expressions** ，允许您通过其名称轻易地引用 Java 类。
+通过`import:`块导入类后， **skript-reflect** 将创建一个 **Expressions** ，允许你通过其名称轻易地引用 Java 类。
 
 ```sk
 on TPARequestEvent:
@@ -150,11 +149,11 @@ on BotJoinEvent:
 
 ##### _在解析时导入类（推荐）_
 
-在大多数情况下，无需运行脚本即可知道所需类的确切限定名称。如果是这种情况，您应该使用 **skript-reflect** 的`import`块：
+在大多数情况下，无需运行脚本即可知道所需类的确切限定名称。如果是这种情况，你应该使用 **skript-reflect** 的`import`块：
 
 :::info
 
-为避免冲突，`import`块创建的表达式仅对导入它们的脚本可用。您必须在使用它们的每个脚本中导入 Java 类。
+为避免冲突，`import`块创建的表达式仅对导入它们的脚本可用。你必须在使用它们的每个脚本中导入 Java 类。
 
 :::
 
@@ -167,8 +166,6 @@ command /example:
         message "%System%" # java.lang.System
         System.out.println("test")
 ```
-
-在大多数情况下，由`import`块创建的表达式不会相互冲突，也不会与其他 **Skript** 表达式冲突。如果类的简单名称与另一个表达式（如 `with Player and String` ）冲突，则必须在别名下导入该类。
 
 ```sk
 import:
@@ -187,13 +184,31 @@ command /example:
 
 ###### 在低于 1.17 的 Minecraft 版本上导入 NMS 类
 
-由于 **Minecraft** 1.17 以下版本的 **NMS** 包会随着每个 **Minecraft** 版本而变化，因此您应该动态生成包前缀。有关详细信息，请参阅[计算选项](https://tpgamesnl.gitbook.io/skript-reflect/advanced/computed-options#using-computed-options-for-nms-imports)。
+由于 **Minecraft** 1.17 以下版
 
+:::
+
+###### 在低于 1.17 的 Minecraft 版本上导入 NMS 类
+
+由于 **Minecraft** 1.17 以下版
+    trigger:
+        message JavaString.format("Hello %%s", sender)
+
+```
+
+:::info
+
+别名必须是有效的 Java 标识符！
+
+:::
+
+###### 在低于 1.17 的 Minecraft 版本上导入 NMS 类
+
+由于 **Minecraft** 1.17 以下版本的 **NMS** 包会随着每个 **Minecraft** 版本而变化，因此你应该动态生成包前缀。有关详细信息，请参阅[计算选项](https://tpgamesnl.gitbook.io/skript-reflect/advanced/computed-options#using-computed-options-for-nms-imports)。
 
 ##### _在运行时导入类_
 
 有时，在执行脚本之前，无法确定所需的类引用。
-
 
 ###### 从完全限定的名称
 
@@ -232,21 +247,21 @@ command /example:
 
 ###### 在effect命令中导入
 
-由于导入块在 effect 命令中不可用，因此您可以使用 import effect（仅在 effect 命令中可用）：
+由于导入块在 effect 命令中不可用，因此你可以使用 import effect（仅在 effect 命令中可用）：
 
 ```sk
 import <fully qualified name> [as <alias>]
 ```
 
-此导入只能在以上效果命令中使用，直到您停止服务器。
+此导入只能在以上效果命令中使用，直到你停止服务器。
 
-##### _处理嵌套类_
+##### _处理内部类_
 
-有时，一个类可能嵌套在另一个类中。当引用类的完全限定名称时，嵌套类使用一个`$`而不是`.`
+有时，一个类可能嵌套在另一个类中。当引用类的完全限定名称时，内部类使用一个`$`而不是`.`
 
 例如，将`org.bukkit.entity.EnderDragon.Phase`变成`org.bukkit.entity.EnderDragon$Phase`。
 
-嵌套类通常比其周围的类具有更通用的名称，因此应在别名下导入这些名称：
+内部类通常比其周围的类具有更通用的名称，因此应在别名下导入这些名称：
 
 ```sk
 import:
@@ -285,7 +300,7 @@ player.giveExpLevels({_levels})
 
 ###### 调用非公共方法
 
-如果尝试调用的方法不是公共的，则可能需要在方法名称前面加上括号中的声明类。由于一个对象在多个超类中可能具有同名的非公共方法，因此必须显式指定在何处查找该方法。
+如果尝试调用的方法不是公共的，则可能需要在方法名称前面加上括号中的声明类。由于一个对象在多个父类中可能具有同名的非公共方法，因此必须显式指定在何处查找该方法。
 
 语法：
 
@@ -315,7 +330,7 @@ Math.max[int, int](0, {_value})
 
 ###### 调用非公共字段
 
-如果您尝试访问的字段不是公共的，则可能需要在字段名称前面加上括号中的声明类。由于一个对象在多个超类中可能具有同名的非公共字段，因此必须显式指定查找该字段的位置。
+如果你尝试访问的字段不是公共的，则可能需要在字段名称前面加上括号中的声明类。由于一个对象在多个父类中可能具有同名的非公共字段，因此必须显式指定查找该字段的位置。
 
 示例：
 
@@ -341,7 +356,7 @@ new Location(player's world, 0, 0, 0)
 
 ##### 监听事件
 
-您可以通过引用导入的类来收听任何基于 Bukkit 的事件（包括其他插件添加的事件）。例如，如果要收听 `org.bukkit.event.entity.EnderDragonChangePhaseEvent`：
+你可以通过引用导入的类来收听任何基于 Bukkit 的事件（包括其他插件添加的事件）。例如，如果要收听 `org.bukkit.event.entity.EnderDragonChangePhaseEvent`：
 
 ```sk
 import:
@@ -359,7 +374,7 @@ on EnderDragonChangePhaseEvent:
 
 :::
 
-您还可以使用同一处理程序侦听多个事件。这些事件不必相关，但如果尝试访问在一个事件中可用但在另一个事件中不可用的方法，则应采取适当的预防措施。例如，如果要同时侦听`org.bukkit.event.entity.ProjectileLaunchEvent`和`org.bukkit.event.entity.ProjectileHitEvent`：
+你还可以使用同一处理程序侦听多个事件。这些事件不必相关，但如果尝试访问在一个事件中可用但在另一个事件中不可用的方法，则应采取适当的预防措施。例如，如果要同时侦听`org.bukkit.event.entity.ProjectileLaunchEvent`和`org.bukkit.event.entity.ProjectileHitEvent`：
 
 ```sk
 import:
@@ -372,7 +387,7 @@ on ProjectileLaunchEvent and ProjectileHitEvent:
 
 ##### 使用`event` **Expressions**
 
-**skript-reflect** 公开一个叫做`event`的 **Expressions**，允许您使用反射访问事件值。
+**skript-reflect** 公开一个叫做`event`的 **Expressions**，允许你使用反射访问事件值。
 
 语法：
 
@@ -415,6 +430,7 @@ on EnderDragonChangePhaseEvent with priority highest:
 可以使用`org.bukkit.event.EventPriority`中定义的任何事件优先级。优先级较低的事件处理程序在优先级较高的事件处理程序之前运行。
 
 事件优先级：
+
 ```
 lowest
 low
@@ -461,7 +477,13 @@ on all BlockBreakEvent:
 ...%object%
 ```
 
-返回单个数组、可迭代数组、迭代器或流的内容。
+将Java类型的数组转化为sk可读形式。
+
+实例：
+
+```sk
+set {_list::*} to ...{_array}
+```
 
 ##### 创建数组
 
@@ -526,14 +548,14 @@ null
 
 ```sk
 import:
-	ch.njol.skript.lang.Variable
+ ch.njol.skript.lang.Variable
 
 effect put %objects% in %objects%:
-	parse:
-		expr-2 is an instance of Variable # to check if the second argument is a variable
-		continue
-	trigger:
-		set raw expr-2 to expr-1
+ parse:
+  expr-2 is an instance of Variable # to check if the second argument is a variable
+  continue
+ trigger:
+  set raw expr-2 to expr-1
 ```
 
 :::
@@ -549,7 +571,6 @@ effect put %objects% in %objects%:
 
 如果需要不带修饰符或参数详细信息的字段或方法名称列表，请参阅[成员名称](https://tpgamesnl.gitbook.io/skript-reflect/basics/utilities#member-names)。
 
-
 ##### 成员的名字
 
 ```sk
@@ -559,7 +580,7 @@ effect put %objects% in %objects%:
 
 返回对象的字段或方法的列表。
 
-##### 是示例吗？
+##### 判断对象是否是某个类的实例
 
 ```sk
 %objects% (is|are) [a[n]] instance[s] of %javatypes%
@@ -583,6 +604,5 @@ effect put %objects% in %objects%:
 ```
 
 返回给定插件的实例（字符串形式的名称或插件类）。
-
 
 更高级的用法及详细内容请自行查阅[skript-reflect文档](https://tpgamesnl.gitbook.io/skript-reflect)

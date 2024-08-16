@@ -47,7 +47,7 @@ Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题�
 
 此类核心的存档结构有些不同
 
-如果您是从非 Bukkit 系核心或单人存档迁移，请查看[ Leaves 的迁移文档](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)(通用所有Bukkit插件端)
+如果你是从非 Bukkit 系核心或单人存档迁移，请查看[ Leaves 的迁移文档](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)(通用所有Bukkit插件端)
 
 :::
 

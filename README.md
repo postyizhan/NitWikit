@@ -41,18 +41,20 @@ https://nitwikit.yizhan.wiki/
 # 🔨 构建文档
 
 > [!NOTE]
-> 请先安装 Node.js 和 npm
+> 请先安装 Node.js 和 pnpm
 
 1. 将此仓库克隆至本地
    `git clone https://github.com/postyizhan/NitWikit.git`
 2. 移动至仓库根目录
    `cd NitWikit`
 3. 安装依赖
-   `npm install`
+   `pnpm install`
 4. 构建文档
-   `npm run build`
+   `pnpm build`
 5. 部署测试网站
-   `npm run serve`
+   `pnpm serve`
+6. 一键构建&测试
+    `pnpm test`
 
 # ⬆️ 提交贡献
 
@@ -61,6 +63,7 @@ https://nitwikit.yizhan.wiki/
    `git clone https://github.com/你的用户名/NitWikit.git`
 3. 在本地仓库中进行修改并构建文档测试，无误后 push 至自己的仓库
 4. 回到此仓库，点击 Pull requests -> New pull request 发起 PR
+5. 前往 [NitWikit-PR](https://github.com/users/postyizhan/projects/2) 查看审核状态
 
 # 🤝 贡献者
 
@@ -128,6 +131,13 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/minimouse0">
+                    <img src="https://avatars.githubusercontent.com/u/116894415?v=4" width="50;" alt="minimouse0"/>
+                    <br />
+                    <sub><b>Minimouse48</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/liangcha385">
                     <img src="https://avatars.githubusercontent.com/u/108937242?v=4" width="50;" alt="liangcha385"/>
                     <br />
@@ -141,6 +151,15 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>Percival Zheng</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
+            <td align="center">
+                <a href="https://github.com/Yaosanqi137">
+                    <img src="https://avatars.githubusercontent.com/u/99163721?v=4" width="50;" alt="Yaosanqi137"/>
+                    <br />
+                    <sub><b>Yaosanqi137</b></sub>
+                </a>
+            </td>
             <td align="center">
                 <a href="https://github.com/igoby">
                     <img src="https://avatars.githubusercontent.com/u/49807567?v=4" width="50;" alt="igoby"/>
@@ -148,8 +167,6 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>igoby</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/TATyKeFei">
                     <img src="https://avatars.githubusercontent.com/u/125815900?v=4" width="50;" alt="TATyKeFei"/>
@@ -165,20 +182,6 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/Yaosanqi137">
-                    <img src="https://avatars.githubusercontent.com/u/99163721?v=4" width="50;" alt="Yaosanqi137"/>
-                    <br />
-                    <sub><b>Yaosanqi137</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/FallenCrystal">
-                    <img src="https://avatars.githubusercontent.com/u/71176602?v=4" width="50;" alt="FallenCrystal"/>
-                    <br />
-                    <sub><b>Akkariin</b></sub>
-                </a>
-            </td>
-            <td align="center">
                 <a href="https://github.com/ImgBotApp">
                     <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="50;" alt="ImgBotApp"/>
                     <br />
@@ -188,10 +191,24 @@ https://nitwikit.yizhan.wiki/
 		</tr>
 		<tr>
             <td align="center">
+                <a href="https://github.com/FallenCrystal">
+                    <img src="https://avatars.githubusercontent.com/u/71176602?v=4" width="50;" alt="FallenCrystal"/>
+                    <br />
+                    <sub><b>Akkariin</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/DongShaoNB">
                     <img src="https://avatars.githubusercontent.com/u/54093566?v=4" width="50;" alt="DongShaoNB"/>
                     <br />
                     <sub><b>东少</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/MengHanLOVE1027">
+                    <img src="https://avatars.githubusercontent.com/u/99132833?v=4" width="50;" alt="MengHanLOVE1027"/>
+                    <br />
+                    <sub><b>梦涵LOVE</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -208,11 +225,20 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>lim114514</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
-                <a href="https://github.com/MengHanLOVE1027">
-                    <img src="https://avatars.githubusercontent.com/u/99132833?v=4" width="50;" alt="MengHanLOVE1027"/>
+                <a href="https://github.com/serverbread-DEV">
+                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
                     <br />
-                    <sub><b>梦涵LOVE</b></sub>
+                    <sub><b>SB-Reborn</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/MSWorkerl">
+                    <img src="https://avatars.githubusercontent.com/u/107293677?v=4" width="50;" alt="MSWorkerl"/>
+                    <br />
+                    <sub><b>MSWorkerl</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -222,8 +248,6 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>Kobe ⑧</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/MySoulcutting">
                     <img src="https://avatars.githubusercontent.com/u/72398605?v=4" width="50;" alt="MySoulcutting"/>
@@ -232,10 +256,26 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/zzzyyylllty">
+                    <img src="https://avatars.githubusercontent.com/u/167876309?v=4" width="50;" alt="zzzyyylllty"/>
+                    <br />
+                    <sub><b>zzzyyylllty</b></sub>
+                </a>
+            </td>
+		</tr>
+		<tr>
+            <td align="center">
                 <a href="https://github.com/MoLiyi-WD">
                     <img src="https://avatars.githubusercontent.com/u/166040564?v=4" width="50;" alt="MoLiyi-WD"/>
                     <br />
                     <sub><b>MoLiyi-WD</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/0XPYEX0">
+                    <img src="https://avatars.githubusercontent.com/u/50171612?v=4" width="50;" alt="0XPYEX0"/>
+                    <br />
+                    <sub><b>XPYEX</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -253,26 +293,40 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
-                <a href="https://github.com/LittleChest">
-                    <img src="https://avatars.githubusercontent.com/u/81231195?v=4" width="50;" alt="LittleChest"/>
-                    <br />
-                    <sub><b>LittleChest</b></sub>
-                </a>
-            </td>
-		</tr>
-		<tr>
-            <td align="center">
                 <a href="https://github.com/SeaOrangejuice">
                     <img src="https://avatars.githubusercontent.com/u/116551329?v=4" width="50;" alt="SeaOrangejuice"/>
                     <br />
                     <sub><b>Sea_of_Orange</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
-                <a href="https://github.com/serverbread-DEV">
-                    <img src="https://avatars.githubusercontent.com/u/176056410?v=4" width="50;" alt="serverbread-DEV"/>
+                <a href="https://github.com/LittleChest">
+                    <img src="https://avatars.githubusercontent.com/u/81231195?v=4" width="50;" alt="LittleChest"/>
                     <br />
-                    <sub><b>SB-Reborn</b></sub>
+                    <sub><b>LittleChest</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/HanSiqi2008">
+                    <img src="https://avatars.githubusercontent.com/u/136245260?v=4" width="50;" alt="HanSiqi2008"/>
+                    <br />
+                    <sub><b>HanSiqi2008</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/Virgil692">
+                    <img src="https://avatars.githubusercontent.com/u/83110631?v=4" width="50;" alt="Virgil692"/>
+                    <br />
+                    <sub><b>MrVirgil</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/alazeprt">
+                    <img src="https://avatars.githubusercontent.com/u/92018941?v=4" width="50;" alt="alazeprt"/>
+                    <br />
+                    <sub><b>alazeprt</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -282,6 +336,8 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>IAFEnvoy</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/TalentsRC">
                     <img src="https://avatars.githubusercontent.com/u/85682725?v=4" width="50;" alt="TalentsRC"/>
@@ -290,10 +346,24 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/ColdeZhang">
+                    <img src="https://avatars.githubusercontent.com/u/29792376?v=4" width="50;" alt="ColdeZhang"/>
+                    <br />
+                    <sub><b>张宇衡</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/wuyuncheng-26">
                     <img src="https://avatars.githubusercontent.com/u/122529705?v=4" width="50;" alt="wuyuncheng-26"/>
                     <br />
                     <sub><b>是小胖呀26</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/MSCMDD">
+                    <img src="https://avatars.githubusercontent.com/u/128666602?v=4" width="50;" alt="MSCMDD"/>
+                    <br />
+                    <sub><b>磁铁开发部（MDD）</b></sub>
                 </a>
             </td>
 		</tr>

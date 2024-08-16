@@ -31,7 +31,7 @@ Events:
       - 'setargs: %server_time_M% %server_time_d% %player_name% %server_time_H% %server_time_m%'
     - condition: 'check papi *%trmenu_data_签到重置节点% != papi *%server_time_M%'
       actions:
-      - 'tell: &a检测到您是本月首次签到，正在准备数据...'
+      - 'tell: &a检测到你是本月首次签到，正在准备数据...'
       - 'set-data: 签到重置节点 %server_time_M%'
       - 'set-data: 签到01 0;签到02 0;签到03 0;签到04 0;签到05 0;签到06 0;签到07 0;签到08 0;签到09 0;签到010 0'
       - 'set-data: 签到011 0;签到012 0;签到013 0;签到014 0;签到015 0;签到016 0;签到017 0;签到018 0;签到019 0;签到020 0'
@@ -96,7 +96,7 @@ Icons:
           amount: '3'
           lore: 
            - ''
-           - '&d▪ &c该奖励您已领取 '
+           - '&d▪ &c该奖励你已领取 '
            - '&7▪ &a需要累计签到 3 天' 
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:3_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e3'
            - '&d▪ &7奖励： '
@@ -123,10 +123,10 @@ Icons:
           all:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
-            - 'title: `&a领取完成` `&3 奖励已发送至您的背包 `'
+            - 'Tell: &a ▪ 你获得了1000金币。'
+            - 'title: `&a领取完成` `&3 奖励已发送至你的背包 `'
             - 'giveitem: material:diamond,amount:2'
-            - 'Tell: &a ▪ 您获得了2个钻石。'
+            - 'Tell: &a ▪ 你获得了2个钻石。'
             - 'set-data: 签到礼包A 1' 
       - condition: 'check papi *%trmenu_data_本月签到% < *3'
         pri: 2
@@ -137,7 +137,7 @@ Icons:
           amount: '3'
           lore: 
            - ''
-           - '&d▪ &c您累计签到天数不足 '
+           - '&d▪ &c你累计签到天数不足 '
            - '&7▪ &a需要累计签到 3 天'
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:3_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e3'
            - '&d▪ &7奖励： '
@@ -158,7 +158,7 @@ Icons:
           amount: '7'
           lore: 
            - ''
-           - '&d▪ &c该奖励您已领取 '
+           - '&d▪ &c该奖励你已领取 '
            - '&7▪ &a需要累计签到 7 天'
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:7_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e7'
            - '&d▪ &7奖励： '
@@ -185,10 +185,10 @@ Icons:
           all:
             - 'Close'
             - 'GIVE-ECO: 5000'
-            - 'Tell: &a ▪ 您获得了5000金币。'
-            - 'title: `&a领取完成` `&3 奖励已发送至您的背包 `'
+            - 'Tell: &a ▪ 你获得了5000金币。'
+            - 'title: `&a领取完成` `&3 奖励已发送至你的背包 `'
             - 'giveitem: material:diamond,amount:8'
-            - 'Tell: &a ▪ 您获得了8个钻石。'
+            - 'Tell: &a ▪ 你获得了8个钻石。'
             - 'set-data: 签到礼包B 1'  
       - condition: 'check papi *%trmenu_data_本月签到% < *7'
         pri: 2
@@ -199,7 +199,7 @@ Icons:
           amount: '7'
           lore: 
            - ''
-           - '&d▪ &c您累计签到天数不足 '
+           - '&d▪ &c你累计签到天数不足 '
            - '&7▪ &a需要累计签到 7 天'
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:7_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e7'
            - '&d▪ &7奖励： '
@@ -220,7 +220,7 @@ Icons:
           amount: '15'
           lore: 
            - ''
-           - '&d▪ &c该奖励您已领取 '
+           - '&d▪ &c该奖励你已领取 '
            - '&7▪ &a需要累计签到 15 天'
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:15_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e15'
            - '&d▪ &7奖励： '
@@ -247,10 +247,10 @@ Icons:
           all:
             - 'Close'
             - 'GIVE-ECO: 20000'
-            - 'Tell: &a ▪ 您获得了20000金币。'
-            - 'title: `&a领取完成` `&3 奖励已发送至您的背包 `'
+            - 'Tell: &a ▪ 你获得了20000金币。'
+            - 'title: `&a领取完成` `&3 奖励已发送至你的背包 `'
             - 'giveitem: material:diamond,amount:16'
-            - 'Tell: &a ▪ 您获得了16个钻石。'
+            - 'Tell: &a ▪ 你获得了16个钻石。'
             - 'set-data: 签到礼包C 1'  
       - condition: 'check papi *%trmenu_data_本月签到% < *15'
         pri: 2
@@ -261,7 +261,7 @@ Icons:
           amount: '15'
           lore: 
            - ''
-           - '&d▪ &c您累计签到天数不足 '
+           - '&d▪ &c你累计签到天数不足 '
            - '&7▪ &a需要累计签到 15 天'
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:15_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e15'
            - '&d▪ &7奖励： '
@@ -282,7 +282,7 @@ Icons:
           amount: '26'
           lore: 
            - ''
-           - '&d▪ &c该奖励您已领取 '
+           - '&d▪ &c该奖励你已领取 '
            - '&7▪ &a需要累计签到 26 天'
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:26_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e26'
            - '&d▪ &7奖励： '
@@ -311,12 +311,12 @@ Icons:
           all:
             - 'Close'
             - 'GIVE-ECO: 30000'
-            - 'Tell: &a ▪ 您获得了30000金币。'
-            - 'title: `&a领取完成` `&3 奖励已发送至您的背包 `'
+            - 'Tell: &a ▪ 你获得了30000金币。'
+            - 'title: `&a领取完成` `&3 奖励已发送至你的背包 `'
             - 'giveitem: material:diamond,amount:32'
-            - 'Tell: &a ▪ 您获得了32个钻石。'
+            - 'Tell: &a ▪ 你获得了32个钻石。'
             - 'console: give {2} netherite_ingot 16'
-            - 'Tell: &a ▪ 您获得了16个合金锭。'
+            - 'Tell: &a ▪ 你获得了16个合金锭。'
             - 'set-data: 签到礼包D 1'  
       - condition: 'check papi *%trmenu_data_本月签到% < *26'
         pri: 2
@@ -327,7 +327,7 @@ Icons:
           amount: '26'
           lore: 
            - ''
-           - '&d▪ &c您累计签到天数不足 '
+           - '&d▪ &c你累计签到天数不足 '
            - '&7▪ &a需要累计签到 26 天'
            - '&8  [%progress_bar_{trmenu_data_本月签到}_m:26_c:&3■_p:&7■_r:&8■_l:15_fullbar:&a■■■■■■■■■■■■■■■%&8]: &a%trmenu_data_本月签到%&7/&e26'
            - '&d▪ &7奖励： '
@@ -353,9 +353,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -369,11 +369,11 @@ Icons:
           mats: lime_stained_glass_pane
           name: '&b1号签到'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *1'
         pri: 2
         display:
@@ -381,7 +381,7 @@ Icons:
           name: '&b1号签到'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -389,17 +389,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到01 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *1'
         pri: 3
@@ -430,9 +430,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -447,11 +447,11 @@ Icons:
           name: '&b2号签到'
           amount: '2'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *2'
         pri: 2
         display:
@@ -460,7 +460,7 @@ Icons:
           amount: '2'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -468,17 +468,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到02 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *2'
         pri: 3
@@ -510,9 +510,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -527,11 +527,11 @@ Icons:
           name: '&b3号签到'
           amount: '3'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *3'
         pri: 2
         display:
@@ -540,7 +540,7 @@ Icons:
           amount: '3'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -548,17 +548,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到03 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *3'
         pri: 3
@@ -590,9 +590,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -607,11 +607,11 @@ Icons:
           name: '&b4号签到'
           amount: '4'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *4'
         pri: 2
         display:
@@ -620,7 +620,7 @@ Icons:
           amount: '4'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -628,17 +628,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到04 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *4'
         pri: 3
@@ -670,9 +670,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -687,11 +687,11 @@ Icons:
           name: '&b5号签到'
           amount: '5'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *5'
         pri: 2
         display:
@@ -700,7 +700,7 @@ Icons:
           amount: '5'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -708,17 +708,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到05 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *5'
         pri: 3
@@ -750,9 +750,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -767,11 +767,11 @@ Icons:
           name: '&b6号签到'
           amount: '6'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *6'
         pri: 2
         display:
@@ -780,7 +780,7 @@ Icons:
           amount: '6'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -788,17 +788,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到06 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *6'
         pri: 3
@@ -830,9 +830,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -847,11 +847,11 @@ Icons:
           name: '&b7号签到'
           amount: '7'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *7'
         pri: 2
         display:
@@ -860,7 +860,7 @@ Icons:
           amount: '7'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -868,17 +868,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到07 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *7'
         pri: 3
@@ -910,9 +910,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -927,11 +927,11 @@ Icons:
           name: '&b8号签到'
           amount: '8'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *8'
         pri: 2
         display:
@@ -940,7 +940,7 @@ Icons:
           amount: '8'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -948,17 +948,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到08 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *8'
         pri: 3
@@ -990,9 +990,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1007,11 +1007,11 @@ Icons:
           name: '&b9号签到'
           amount: '9'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *9'
         pri: 2
         display:
@@ -1020,7 +1020,7 @@ Icons:
           amount: '9'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1028,17 +1028,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到09 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *9'
         pri: 3
@@ -1070,9 +1070,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1087,11 +1087,11 @@ Icons:
           name: '&b10号签到'
           amount: '10'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *10'
         pri: 2
         display:
@@ -1100,7 +1100,7 @@ Icons:
           amount: '10'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1108,17 +1108,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到010 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *10'
         pri: 3
@@ -1150,9 +1150,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1167,11 +1167,11 @@ Icons:
           name: '&b11号签到'
           amount: '11'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *11'
         pri: 2
         display:
@@ -1180,7 +1180,7 @@ Icons:
           amount: '11'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1188,17 +1188,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到011 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *11'
         pri: 3
@@ -1230,9 +1230,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1247,11 +1247,11 @@ Icons:
           name: '&b12号签到'
           amount: '12'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *12'
         pri: 2
         display:
@@ -1260,7 +1260,7 @@ Icons:
           amount: '12'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1268,17 +1268,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到012 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *12'
         pri: 3
@@ -1310,9 +1310,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1327,11 +1327,11 @@ Icons:
           name: '&b13号签到'
           amount: '13'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *13'
         pri: 2
         display:
@@ -1340,7 +1340,7 @@ Icons:
           amount: '13'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1348,17 +1348,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到013 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *13'
         pri: 3
@@ -1390,9 +1390,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1407,11 +1407,11 @@ Icons:
           name: '&b14号签到'
           amount: '14'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *14'
         pri: 2
         display:
@@ -1420,7 +1420,7 @@ Icons:
           amount: '14'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1428,17 +1428,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到014 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *14'
         pri: 3
@@ -1470,9 +1470,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1487,11 +1487,11 @@ Icons:
           name: '&b15号签到'
           amount: '15'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *15'
         pri: 2
         display:
@@ -1500,7 +1500,7 @@ Icons:
           amount: '15'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1508,7 +1508,7 @@ Icons:
             actions:
             - 'menu: 补签确认 15 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *15'
         pri: 3
@@ -1540,9 +1540,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1557,11 +1557,11 @@ Icons:
           name: '&b16号签到'
           amount: '16'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *16'
         pri: 2
         display:
@@ -1570,7 +1570,7 @@ Icons:
           amount: '16'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1578,17 +1578,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到016 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *16'
         pri: 3
@@ -1620,9 +1620,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1637,11 +1637,11 @@ Icons:
           name: '&b17号签到'
           amount: '17'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *17'
         pri: 2
         display:
@@ -1650,7 +1650,7 @@ Icons:
           amount: '17'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1658,17 +1658,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到017 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *17'
         pri: 3
@@ -1700,9 +1700,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1715,11 +1715,11 @@ Icons:
           name: '&b18号签到'
           amount: '18'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *18'
         pri: 2
         display:
@@ -1728,7 +1728,7 @@ Icons:
           amount: '18'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1736,17 +1736,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到018 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *18'
         pri: 3
@@ -1778,9 +1778,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1795,11 +1795,11 @@ Icons:
           name: '&b19号签到'
           amount: '19'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *19'
         pri: 2
         display:
@@ -1808,7 +1808,7 @@ Icons:
           amount: '19'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1816,17 +1816,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到019 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *19'
         pri: 3
@@ -1858,9 +1858,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1875,11 +1875,11 @@ Icons:
           name: '&b20号签到'
           amount: '20'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *20'
         pri: 2
         display:
@@ -1888,7 +1888,7 @@ Icons:
           amount: '20'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1896,17 +1896,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到020 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *20'
         pri: 3
@@ -1938,9 +1938,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -1955,11 +1955,11 @@ Icons:
           name: '&b21号签到'
           amount: '21'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *21'
         pri: 2
         display:
@@ -1968,7 +1968,7 @@ Icons:
           amount: '21'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -1976,17 +1976,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到021 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *21'
         pri: 3
@@ -2018,9 +2018,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2035,11 +2035,11 @@ Icons:
           name: '&b22号签到'
           amount: '22'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *22'
         pri: 2
         display:
@@ -2048,7 +2048,7 @@ Icons:
           amount: '22'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2056,17 +2056,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到022 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *22'
         pri: 3
@@ -2098,9 +2098,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2115,11 +2115,11 @@ Icons:
           name: '&b23号签到'
           amount: '23'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *23'
         pri: 2
         display:
@@ -2128,7 +2128,7 @@ Icons:
           amount: '23'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2136,17 +2136,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到023 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *23'
         pri: 3
@@ -2178,9 +2178,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2195,11 +2195,11 @@ Icons:
           name: '&b24号签到'
           amount: '24'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *24'
         pri: 2
         display:
@@ -2208,7 +2208,7 @@ Icons:
           amount: '24'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2216,17 +2216,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到024 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *24'
         pri: 3
@@ -2258,9 +2258,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2275,11 +2275,11 @@ Icons:
           name: '&b25号签到'
           amount: '25'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *25'
         pri: 2
         display:
@@ -2288,7 +2288,7 @@ Icons:
           amount: '25'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2296,17 +2296,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到025 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *25'
         pri: 3
@@ -2338,9 +2338,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2355,11 +2355,11 @@ Icons:
           name: '&b26号签到'
           amount: '26'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *26'
         pri: 2
         display:
@@ -2368,7 +2368,7 @@ Icons:
           amount: '26'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2376,17 +2376,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到026 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *26'
         pri: 3
@@ -2418,9 +2418,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2435,11 +2435,11 @@ Icons:
           name: '&b27号签到'
           amount: '27'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *27'
         pri: 2
         display:
@@ -2448,7 +2448,7 @@ Icons:
           amount: '27'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2456,17 +2456,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到027 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *27'
         pri: 3
@@ -2498,9 +2498,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2515,11 +2515,11 @@ Icons:
           name: '&b28号签到'
           amount: '28'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *28'
         pri: 2
         display:
@@ -2528,7 +2528,7 @@ Icons:
           amount: '28'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2536,17 +2536,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到028 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *28'
         pri: 3
@@ -2578,9 +2578,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2597,11 +2597,11 @@ Icons:
           name: '&b29号签到'
           amount: '29'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *29'
         pri: 2
         display:
@@ -2610,7 +2610,7 @@ Icons:
           amount: '29'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2618,17 +2618,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到029 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *29'
         pri: 3
@@ -2660,9 +2660,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2679,11 +2679,11 @@ Icons:
           name: '&b30号签到'
           amount: '30'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *30'
         pri: 2
         display:
@@ -2692,7 +2692,7 @@ Icons:
           amount: '30'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2700,17 +2700,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到030 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *30'
         pri: 3
@@ -2742,9 +2742,9 @@ Icons:
         actions:
         - 'Close'
         - 'GIVE-ECO: 1000'
-        - 'Tell: &a ▪ 您获得了1000金币。'
+        - 'Tell: &a ▪ 你获得了1000金币。'
         - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-        - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+        - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
         - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
         - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
         - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
@@ -2761,11 +2761,11 @@ Icons:
           name: '&b31号签到'
           amount: '31'
           lore:
-            - '&a   当日您已签到  ' 
+            - '&a   当日你已签到  ' 
         actions:
           all:
             - Close
-            - 'tell: &c当日您已签到。'
+            - 'tell: &c当日你已签到。'
       - condition: 'check papi *%server_time_d% > *31'
         pri: 2
         display:
@@ -2774,7 +2774,7 @@ Icons:
           amount: '31'
           lore: 
             - '&c   本日日期已过  ' 
-            - '&a   您可以点击补签'
+            - '&a   你可以点击补签'
             - '&a   价格: 10点券'
         actions:
           all:
@@ -2782,17 +2782,17 @@ Icons:
             actions:
             - 'Close'
             - 'GIVE-ECO: 1000'
-            - 'Tell: &a ▪ 您获得了1000金币。'
+            - 'Tell: &a ▪ 你获得了1000金币。'
             - 'take-points: 10'
-            - 'tell: &a ▪ 您已花费10点券补签。'
+            - 'tell: &a ▪ 你已花费10点券补签。'
             - 'set-data: 上次签到日 %server_time_YYYYMMDD%'
-            - 'title: `&a签到完成` `&3 奖励已发送至您的背包 `'
+            - 'title: `&a签到完成` `&3 奖励已发送至你的背包 `'
             - 'set-data: 本月签到 %math_0_{trmenu_data_本月签到}+1%'
             - 'set-data: 总签到 %math_0_{trmenu_data_总签到}+1%'
             - 'set-data: 上次签到 %server_time_YYYY/MM/dd-HH:mm:ss%'
             - 'set-data: 签到031 1'
             deny:
-            - 'Tell: &c ▪ 您的点券不足'
+            - 'Tell: &c ▪ 你的点券不足'
             - close
       - condition: 'check papi *%server_time_d% < *31'
         pri: 3

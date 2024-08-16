@@ -9,7 +9,7 @@
   "theme.ErrorPageContent.title": "页面已崩溃。",
   "theme.ErrorPageContent.tryAgain": "重试",
   "theme.NavBar.navAriaLabel": "主导航",
-  "theme.NotFound.p1": "我们找不到您要找的页面。",
+  "theme.NotFound.p1": "我们找不到你要找的页面。",
   "theme.NotFound.p2": "请联系原始链接来源网站的所有者，并告知他们链接已损坏。",
   "theme.NotFound.title": "找不到页面",
   "theme.TOCCollapsible.toggleButtonLabel": "本页总览",
