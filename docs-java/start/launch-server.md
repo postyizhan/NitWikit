@@ -135,6 +135,19 @@ set https_proxy=http://127.0.0.1:7890
 
 > 大佬们，浏览器能用不是 cmd 能用，不然你猜我为什么写这个。
 
-#### 中文乱码
+### 中文乱码
 
 如果你用的是Windows,你需要在启动脚本**最前面**加上`chcp 65001`
+
+比如你原来的启动脚本长这样
+
+```shell
+java -Xms2G -Xmx2G -jar server.jar --nogui
+```
+
+你需要改成这样
+
+```shell
+chcp 65001
+java -Xms2G -Xmx2G -jar server.jar --nogui
+```
