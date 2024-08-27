@@ -151,3 +151,19 @@ java -Xms2G -Xmx2G -jar server.jar --nogui
 chcp 65001
 java -Xms2G -Xmx2G -jar server.jar --nogui
 ```
+
+### Java 启动找不到 ***.jar
+
+有些时候写好启动脚本启动后,报错`The system cannot find the path specified.`,但是相同目录下明明有`xxx.jar`
+
+像这样:
+
+![](_images/4.png)
+
+启动后报错,此时我们可以查看文件后缀名([不懂如何打开请点这里](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80%E5%90%8D))
+
+然后你就会看到这样的惊奇一幕
+
+![](_images/5.png)
+
+此时,你只需要把`xxx.jar.jar`改成`xxx.jar`就可以正常启动了
