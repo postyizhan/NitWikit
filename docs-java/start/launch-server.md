@@ -154,7 +154,7 @@ java -Xms2G -Xmx2G -jar server.jar --nogui
 
 ### Java 启动找不到 ***.jar
 
-有些时候写好启动脚本启动后,报错`The system cannot find the path specified.`,但是相同目录下明明有`xxx.jar`
+有些时候写好启动脚本启动后,报错`Error: Unable to access jarfile xxx.jar`,但是相同目录下明明有`xxx.jar`
 
 像这样:
 
@@ -167,3 +167,17 @@ java -Xms2G -Xmx2G -jar server.jar --nogui
 ![](_images/5.png)
 
 此时,你只需要把`xxx.jar.jar`改成`xxx.jar`就可以正常启动了
+
+### Invalid initial heap size: -Xms
+
+不是哥们,内存大小设置长这样
+
+```shell
+-Xms1024M -Xmx2048M
+```
+
+不是这样!!!!!!
+
+```shell
+-Xms 1024M -Xmx 2048M
+```
