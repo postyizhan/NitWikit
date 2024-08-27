@@ -10,7 +10,7 @@ sidebar_position: 2
 
 `SpigotMC` https://www.spigotmc.org/resources/citizens.13811/
 
-`Bukkit（太老旧不要使用）` https://dev.bukkit.org/projects/citizens
+`Bukkit(太老旧不要使用)` https://dev.bukkit.org/projects/citizens
 
 `GitHub` https://github.com/CitizensDev/Citizens2
 
@@ -22,7 +22,7 @@ sidebar_position: 2
 
 ## 下载
 
-在SpigotMC帖内自行寻找，通常会遭到群友以 *懒* *看不懂英文* *它是英文的* 为由的谩骂
+在SpigotMC帖内自行寻找,通常会遭到群友以 *懒* *看不懂英文* *它是英文的* 为由的谩骂
 
 ## 执行命令
 

@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## ForcePlayerLink
 
-强制基岩版玩家使用**JE OfflinePlayer UUID**（实现数据互通）
+强制基岩版玩家使用**JE OfflinePlayer UUID**(实现数据互通)
 
 [注意事项]
 - 不要使用允许基岩版绕过的登录插件
@@ -29,6 +29,6 @@ sidebar_position: 4
 
 ## GeyserVoice
 
-GeyserVoice 是一个 Java 服务端插件，旨在通过集成 VoiceCraft Proximity Chat 应用程序来增强 Minecraft 服务器上的多人游戏体验。该插件允许 Java 和 Bedrock 版本的玩家无缝地参与基于邻近的语音对话。
+GeyserVoice 是一个 Java 服务端插件,旨在通过集成 VoiceCraft Proximity Chat 应用程序来增强 Minecraft 服务器上的多人游戏体验。该插件允许 Java 和 Bedrock 版本的玩家无缝地参与基于邻近的语音对话。
 
-[下载](https://github.com/SineVector241/VoiceCraft-MCBE_Proximity_Chat/releases/)，[wiki](https://github.com/mineserv-top/GeyserVoice/wiki/)
+[下载](https://github.com/SineVector241/VoiceCraft-MCBE_Proximity_Chat/releases/),[wiki](https://github.com/mineserv-top/GeyserVoice/wiki/)

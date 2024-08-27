@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Folia
 
-Folia 是 Paper 的一个分支，由 Minecraft 优化 BOSS Spottedleaf 开发。
+Folia 是 Paper 的一个分支,由 Minecraft 优化 BOSS Spottedleaf 开发。
 
 ## 简介
 
@@ -45,9 +45,9 @@ Folia这么好,但并不是每个服务器都可以体验的,你需要确保你�
 
 ## LightLuminol
 
-LightingLuminol 是 Luminol 的分支，旨在修复对 BukkitAPI 的破坏，最大程度保证 Bukkit 插件的兼容性。但是，虽然LightLuminol对于Bukkit插兼容性较好,但是会有许多问题，包括不定时的NullPointerError,Thread不安全,内存泄露,数据丢失(一天崩个几十次，挺正常的)
+LightingLuminol 是 Luminol 的分支,旨在修复对 BukkitAPI 的破坏,最大程度保证 Bukkit 插件的兼容性。但是,虽然LightLuminol对于Bukkit插兼容性较好,但是会有许多问题,包括不定时的NullPointerError,Thread不安全,内存泄露,数据丢失(一天崩个几十次,挺正常的)
 
-所以在开始使用LightingLuminol，请想想Leaf是不是更好？
+所以在开始使用LightingLuminol,请想想Leaf是不是更好？
 
 如果你需要1.20.1/2,你可以使用[DirtyMolia](https://github.com/Era4FunMC/DirtyMolia)
 
@@ -59,9 +59,9 @@ LightingLuminol 是 Luminol 的分支，旨在修复对 BukkitAPI 的破坏，�
 
 ### 分配线程数
 
-众所周知 Folia 默认的分配线程数非常脑瘫，会出现一核有难，八核围观的场景
+众所周知 Folia 默认的分配线程数非常脑瘫,会出现一核有难,八核围观的场景
 
-打开Paper的全局配置，找到`threaded-regions.threads`,通常情况下，分配给区块 Tick 线程数应该是 80% 乘上你物理CPU核数
+打开Paper的全局配置,找到`threaded-regions.threads`,通常情况下,分配给区块 Tick 线程数应该是 80% 乘上你物理CPU核数
 
 ### 生电配置
 

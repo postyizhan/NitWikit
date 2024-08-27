@@ -31,7 +31,7 @@ Events:
       - 'setargs: %server_time_M% %server_time_d% %player_name% %server_time_H% %server_time_m%'
     - condition: 'check papi *%trmenu_data_签到重置节点% != papi *%server_time_M%'
       actions:
-      - 'tell: &a检测到你是本月首次签到，正在准备数据...'
+      - 'tell: &a检测到你是本月首次签到,正在准备数据...'
       - 'set-data: 签到重置节点 %server_time_M%'
       - 'set-data: 签到01 0;签到02 0;签到03 0;签到04 0;签到05 0;签到06 0;签到07 0;签到08 0;签到09 0;签到010 0'
       - 'set-data: 签到011 0;签到012 0;签到013 0;签到014 0;签到015 0;签到016 0;签到017 0;签到018 0;签到019 0;签到020 0'

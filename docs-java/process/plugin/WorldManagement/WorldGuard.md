@@ -7,9 +7,9 @@ sidebar_label: 保护 - WorldGuard
 
 :::info
 
-`文档（英文）` https://worldguard.enginehub.org/en/latest/index.html
+`文档(英文)` https://worldguard.enginehub.org/en/latest/index.html
 
-`文档（中文）` https://snowcutieowo.github.io/WorldGuard
+`文档(中文)` https://snowcutieowo.github.io/WorldGuard
 
 `Bukkit` https://dev.bukkit.org/projects/worldguard
 

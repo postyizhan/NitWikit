@@ -29,7 +29,7 @@ sidebar_position: 3
 ############################################################
 
 # OP名字的颜色代码,填写0~9或a~f其中的一个数字或字母,填写'none'来冻结该功能
-# 在 1.16 中，你也可以在此处使用十六进制颜色代码。 （例如，#613e1d 是棕色的）。
+# 在 1.16 中,你也可以在此处使用十六进制颜色代码。 (例如,#613e1d 是棕色的)。
 ops-name-color: '4'
 
 # 昵称的前缀符号,这样你能知道这不是他们真正的用户名.
@@ -44,11 +44,11 @@ nick-blacklist:
 #- Notch
 #- '^Dinnerbone'
 
-# 启用此选项时，昵称长度检查将排除玩家名字的颜色代码所占字符.
+# 启用此选项时,昵称长度检查将排除玩家名字的颜色代码所占字符.
 # 即: "&6Notch" 占有7个字符 (而其中的两个就是颜色代码所占字符),如果你设置的昵称字符超过了系统限定,请将该选项改为 true
 ignore-colors-in-max-nick-length: false
 
-# 启用此选项后，隐藏用户的显示名称将不会显示。 这样可以防止玩家
+# 启用此选项后,隐藏用户的显示名称将不会显示。 这样可以防止玩家
 # 能够看到他们在消失时在线。
 hide-displayname-in-vanish: true
 
@@ -58,7 +58,7 @@ change-displayname: true
 # 此选项将导致 Essentials 在 Tab 完成 Essentials 命令时显示玩家的显示名称而不是用户名。
 change-tab-complete-name: false
 
-# 启用此选项时，TAB玩家列表将使用显示名称更新。
+# 启用此选项时,TAB玩家列表将使用显示名称更新。
 # 上方 change-displayname (above) 必须为true.
 #change-playerlist: true
 
@@ -68,7 +68,7 @@ change-tab-complete-name: false
 # 不要乱动该选项,除非你知道如何正确使用!
 #add-prefix-suffix: false
 
-# 启用此选项后，玩家前缀将显示在玩家列表中。
+# 启用此选项后,玩家前缀将显示在玩家列表中。
 # 此功能仅适用于 Minecraft 1.8 及更高版本。
 # 上方 change-playerlist 必须为 true
 #add-prefix-in-playerlist: true
@@ -83,17 +83,17 @@ change-tab-complete-name: false
 # 如果设置为false, 将会取消传送并发送一则警告消息
 teleport-safety: true
 
-# 如果试图传送到不安全的位置，这会在没有警告的情况下强制禁用传送安全检查。
+# 如果试图传送到不安全的位置,这会在没有警告的情况下强制禁用传送安全检查。
 # teleport-safety 并且此选项需要设置为 true 以强制传送到危险位置。
 force-disable-teleport-safety: false
 
 # 如果玩家在创造、冒险或上帝模式中传送到不安全的位置； 他们不会被传送到
-#安全位置。 如果你希望玩家一直被传送到安全位置，请将此选项设置为 true。
+#安全位置。 如果你希望玩家一直被传送到安全位置,请将此选项设置为 true。
 force-safe-teleport-location: false
 
-# 如果玩家骑乘，传送将失败。 玩家是否应该在被传送之前下马？
-# 如果设置为 true，Essentials 将在传送之前让这个玩家下马。
-# 如果设置为 false，尝试的传送将被取消并发出警告。
+# 如果玩家骑乘,传送将失败。 玩家是否应该在被传送之前下马？
+# 如果设置为 true,Essentials 将在传送之前让这个玩家下马。
+# 如果设置为 false,尝试的传送将被取消并发出警告。
 teleport-passenger-dismount: true
 
 # 传送功能的冷却时间(以秒为单位),如/home, /tp, etc 等命令
@@ -109,7 +109,7 @@ teleport-invulnerability: 4
 # 是否让所有的传送都传到方块的中心； 其中 x 和 z 坐标小数变为 0.5
 teleport-to-center: true
 
-# 延迟，以秒为单位， 比如使用 /heal 或 /feed attempts. 驿站:heal命令是治愈玩家
+# 延迟,以秒为单位, 比如使用 /heal 或 /feed attempts. 驿站:heal命令是治愈玩家
 heal-cooldown: 60
 
 # 治疗玩家时是否移除药水效果？
@@ -154,7 +154,7 @@ drop-items-if-full: false
 # 是否提醒玩家有无新邮件(true为提醒,false为不提醒)
 notify-no-new-mail: true
 
-# 指定玩家每次收到邮件通知之间的持续时间（以秒为单位）。
+# 指定玩家每次收到邮件通知之间的持续时间(以秒为单位)。
 # 对于有大量邮件流量的服务器很有用。
 notify-player-of-mail-cooldown: 60
 
@@ -180,7 +180,7 @@ disabled-commands:
 #  - clear
 
 # Essentials 是否应该显示详细的命令用法。
-# 如果设置为 false，Essentials 会将所有使用情况折叠成一条使用消息。
+# 如果设置为 false,Essentials 会将所有使用情况折叠成一条使用消息。
 verbose-command-usages: true
 
 # 这些命令是当开启了/socialspy命令时可以看到的玩家私聊
@@ -211,42 +211,42 @@ socialspy-commands:
   - pm
 
 # 来自禁言玩家的私人和公共消息是否应该出现在社交间谍中。
-# 如果是这样，它们将与普通玩家发送的区别开来。
+# 如果是这样,它们将与普通玩家发送的区别开来。
 socialspy-listen-muted-players: true
 
 # 社交间谍应该监视私人消息还是只监视上面列表中的命令。
-# 如果为 false，social spy 将仅监视上面列表中的命令。
+# 如果为 false,social spy 将仅监视上面列表中的命令。
 socialspy-messages: true
 
 # 以下设置监听玩家何时对世界进行改变。
-# 如果你使用其他插件来控制速度和飞行，你应该将这些设置为 false。
+# 如果你使用其他插件来控制速度和飞行,你应该将这些设置为 false。
 
-# 当玩家改变世界时，EssentialsX 是否应该重置他们的飞行？
-# 如果玩家没有essentials.fly，这将禁用飞行。
+# 当玩家改变世界时,EssentialsX 是否应该重置他们的飞行？
+# 如果玩家没有essentials.fly,这将禁用飞行。
 world-change-fly-reset: true
 
-# 当玩家改变世界时，我们是否应该根据他们的权限重置他们的速度？
-# 如果没有essentials.speed，这会将玩家的速度重置为默认值。
-# 如果玩家没有essentials.speed.bypass，这会将他们的速度重置为上面指定的最大值。
+# 当玩家改变世界时,我们是否应该根据他们的权限重置他们的速度？
+# 如果没有essentials.speed,这会将玩家的速度重置为默认值。
+# 如果玩家没有essentials.speed.bypass,这会将他们的速度重置为上面指定的最大值。
 world-change-speed-reset: true
 
 # 禁言命令
-# 当玩家被禁言时，这些命令将被禁用。
+# 当玩家被禁言时,这些命令将被禁用。
 # 使用 '*' 禁用每个命令。
 # Essentials 默认情况下已禁用 Essentials 消息传递命令。
-# 它只注意 root 命令，之后不注意 args（它眼里 /f chat 和 /f 一样）
+# 它只注意 root 命令,之后不注意 args(它眼里 /f chat 和 /f 一样)
 mute-commands:
   - f
   - kittycannon
  # - '*'
 
-# 如果你不想使用权限系统，你可以在下面定义一个“玩家权限”列表。
-# 如果你使用受支持的权限系统，此列表无效。
-# 如果你使用的是不受支持的权限系统，只需删除此部分即可。
-# 白名单你希望默认给予玩家的命令和权限（其他一切都是操作）。
+# 如果你不想使用权限系统,你可以在下面定义一个“玩家权限”列表。
+# 如果你使用受支持的权限系统,此列表无效。
+# 如果你使用的是不受支持的权限系统,只需删除此部分即可。
+# 白名单你希望默认给予玩家的命令和权限(其他一切都是操作)。
 # 这些是没有“必需品”的权限。 部分。
 #
-# 要启用此功能，请将 use-bukkit-permissions 设置为 false。
+# 要启用此功能,请将 use-bukkit-permissions 设置为 false。
 player-commands:
   - afk
   - afk.auto
@@ -328,9 +328,9 @@ player-commands:
   - worth
   - xmpp
 
-# 使用此选项强制基于op权限的权限处理程序，而不管检测到已安装的权限插件。
-# 如果你想要自定义权限插件的基于超级权限的权限（使用通配符），这很有用。
-# 如果你希望通过上面的 `player-commands` 部分使用 EssentialsX 的内置权限，请将其设置为 false。
+# 使用此选项强制基于op权限的权限处理程序,而不管检测到已安装的权限插件。
+# 如果你想要自定义权限插件的基于超级权限的权限(使用通配符),这很有用。
+# 如果你希望通过上面的 `player-commands` 部分使用 EssentialsX 的内置权限,请将其设置为 false。
 # 默认为true
 use-bukkit-permissions: true
 
@@ -338,22 +338,22 @@ use-bukkit-permissions: true
 # 将从玩家的kit列表中删去该项可用工具包
 skip-used-one-time-kits-from-kit-list: false
 
-# 启用后，只要玩家的盔甲槽是空的，就会自动装备领取的kit包中的盔甲。
+# 启用后,只要玩家的盔甲槽是空的,就会自动装备领取的kit包中的盔甲。
 kit-auto-equip: false
 
 # 确定 /createkit 命令的功能。
-# 如果这是true，/createkit 将给用户一个带有kit代码的链接。
-# 如果为 false，/createkit 将直接将该kit工具包添加到 kits.yml 配置文件中。
+# 如果这是true,/createkit 将给用户一个带有kit代码的链接。
+# 如果为 false,/createkit 将直接将该kit工具包添加到 kits.yml 配置文件中。
 # 默认为false。
 pastebin-createkit: false
 
 # 确定 /createkit 是否会使用 NBT 项目序列化生成套件。
-# 如果这是真的，/createkit 会将项目存储为 NBT； 否则，它将使用 Essentials 的人类可读项目格式。
-# 通过使用 NBT 序列化，/createkit 可以存储具有复杂元数据的项目，例如具有自定义属性的潜影盒和武器。
-# 警告：此选项仅适用于 1.15.2+ Paper 服务器，它将绕过来自其他插件（如 Magic）的任何自定义序列化程序。
-# 警告：在启用此选项的情况下通过 /createkit 创建工具包时，你将无法使用这些工具包项目降级你的服务器。
+# 如果这是真的,/createkit 会将项目存储为 NBT； 否则,它将使用 Essentials 的人类可读项目格式。
+# 通过使用 NBT 序列化,/createkit 可以存储具有复杂元数据的项目,例如具有自定义属性的潜影盒和武器。
+# 警告：此选项仅适用于 1.15.2+ Paper 服务器,它将绕过来自其他插件(如 Magic)的任何自定义序列化程序。
+# 警告：在启用此选项的情况下通过 /createkit 创建工具包时,你将无法使用这些工具包项目降级你的服务器。
 # 此选项仅影响 /createkit - 你仍然可以使用 Essentials 的人类可读项目格式在 `kits.yml` 中手动创建套件。
-# 默认为false。 应该是说，开启后kit可以存nbt的东西了
+# 默认为false。 应该是说,开启后kit可以存nbt的东西了
 use-nbt-serialization-in-createkit: false
 
 # Essentials 木牌控制
@@ -394,29 +394,29 @@ enabledSigns:
 sign-use-per-second: 4
 
 # 允许在 1.13 及更高版本的现有标志上使用项目 ID。
-# 你不能在新标志上使用物品 ID，但这将允许玩家与标志进行交互
+# 你不能在新标志上使用物品 ID,但这将允许玩家与标志进行交互
 # 放在 1.13 之前。
 allow-old-id-signs: false
 
 # 标志名称列表 Essentials 不应保护。 此功能在以下情况下特别有用
-# 另一个插件提供了 EssentialsX 提供的标志，但 Essentials 会覆盖。
-# 例如，如果一个插件提供了一个 [kit] 标志，并且你希望使用他们的而不是
-# Essentials 的，然后只需在下面添加工具包，Essentials 将不会保护它。
+# 另一个插件提供了 EssentialsX 提供的标志,但 Essentials 会覆盖。
+# 例如,如果一个插件提供了一个 [kit] 标志,并且你希望使用他们的而不是
+# Essentials 的,然后只需在下面添加工具包,Essentials 将不会保护它。
 #
-# 有关更多信息，请参阅 https://github.com/drtshock/Essentials/pull/699。
+# 有关更多信息,请参阅 https://github.com/drtshock/Essentials/pull/699。
 unprotected-sign-names:
   #- kit
 
 # 当自动备份被取消时,使用批处理/bash 命令来备份.
-# 服务器在执行备份命令前会先保存世界，并禁用
+# 服务器在执行备份命令前会先保存世界,并禁用
 # 在备份期间保存以防止世界损坏或其他冲突。
 # 也可以使用 /backup 手动触发备份。
 backup:
 # 以分钟为单位的间隔。
   interval: 30
-# 如果为true，即使没有玩家在线，备份任务也会运行。
+# 如果为true,即使没有玩家在线,备份任务也会运行。
   always-run: false
-# 除非你在此处添加有效的备份命令或脚本，否则此功能将毫无用处。
+# 除非你在此处添加有效的备份命令或脚本,否则此功能将毫无用处。
    # 使用 'save-all' 来简单地强制定期保存世界而无需备份。
    # 下面的示例命令使用 rdiff-backup: https://rdiff-backup.net/
    #command: 'rdiff-backup World1 备份/World1'
@@ -455,57 +455,57 @@ debug: false
 remove-god-on-disconnect: false
 
 # 自动AFK   驿站:使用命令/afk 暂时离开
-# 在此超时（以秒为单位）后，用户将被设置为 AFK。
+# 在此超时(以秒为单位)后,用户将被设置为 AFK。
 # 此功能需要玩家拥有essentials.afk.auto 节点。
 # 设置为 -1 表示没有超时。
 auto-afk: 300
 
 # 挂机太久就给老子踢啦！
-# 在此超时（以秒为单位）后，用户将被踢出服务器。
+# 在此超时(以秒为单位)后,用户将被踢出服务器。
 #essentials.afk.kickexempt 节点覆盖此功能。
 # 设置为 -1 表示没有超时。
 auto-afk-kick: -1
 
-# 将此设置为true，如果玩家是AFK，冻结玩家，如果玩家是AFK。
+# 将此设置为true,如果玩家是AFK,冻结玩家,如果玩家是AFK。
 # 驿站:大概是说让挂机玩家不被生物打扰。
 # 这也会为 AFK 玩家启用临时上帝模式。
 # 玩家必须使用命令 /afk 离开 AFK 模式。
 freeze-afk-players: false
 
-# 当玩家AFK时，是否能够捡起物品
-# 启用这个，当你不希望人们在暴民陷阱中闲置时。
+# 当玩家AFK时,是否能够捡起物品
+# 启用这个,当你不希望人们在暴民陷阱中闲置时。
 disable-item-pickup-while-afk: false
 
 # 此设置控制玩家是否在交互时自动退出afk模式。
-# 当此设置为 false 时，玩家需要使用 /afk 命令手动取消 AFK。
+# 当此设置为 false 时,玩家需要使用 /afk 命令手动取消 AFK。
 cancel-afk-on-interact: true
 
 # 玩家移动时会自动移除 afk 状态吗？
-# 无论此设置如何，玩家都会在聊天/命令中从 AFK 中移除。
+# 无论此设置如何,玩家都会在聊天/命令中从 AFK 中移除。
 # 禁用它以减少服务器延迟。
 cancel-afk-on-move: true
 
 # 玩家发送聊天消息时是否自动移除 afk 状态？
 cancel-afk-on-chat: true
 
-# 当其他玩家睡觉时，是否忽略 AFK 玩家？
-# 此设置为false时，如果有玩家在AFK，玩家将无法跳过夜晚。
+# 当其他玩家睡觉时,是否忽略 AFK 玩家？
+# 此设置为false时,如果有玩家在AFK,玩家将无法跳过夜晚。
 # 拥有节点 Essentials.sleepingignored 权限的用户将始终被忽略。
 sleep-ignores-afk-players: true
 
-# 当其他玩家试图睡觉时，是否应该忽略消失的玩家？
-# 当此设置为 false 时，如果消失的玩家没有睡觉，玩家将无法跳过夜晚。
+# 当其他玩家试图睡觉时,是否应该忽略消失的玩家？
+# 当此设置为 false 时,如果消失的玩家没有睡觉,玩家将无法跳过夜晚。
 # 拥有节点 Essentials.sleepingignored 权限的用户将始终被忽略。
 sleep-ignores-vanished-player: true
 
-# 设置玩家AFK时的列表名称。 默认情况下为 none，它指定 Essentials
+# 设置玩家AFK时的列表名称。 默认情况下为 none,它指定 Essentials
 # 不应干扰 AFK 玩家的列表名称。 none我改成了 挂机中
-# 你可以使用颜色代码，使用 {USERNAME} 玩家的名称或 {PLAYER} 作为玩家的显示名称。
+# 你可以使用颜色代码,使用 {USERNAME} 玩家的名称或 {PLAYER} 作为玩家的显示名称。
 afk-list-name: "挂机中"
 
-# 当玩家进入或退出AFK模式时，是否聊天栏通知其他玩家
-# 发给整个服务器的人，还是只发给这个挂机的玩家?
-# 当此设置为 false 时，只有准备挂机的玩家会收到afk通知
+# 当玩家进入或退出AFK模式时,是否聊天栏通知其他玩家
+# 发给整个服务器的人,还是只发给这个挂机的玩家?
+# 当此设置为 false 时,只有准备挂机的玩家会收到afk通知
 broadcast-afk-message: true
 
 # 你可以在此处禁用 Minecraft 的死亡消息。
@@ -513,25 +513,25 @@ death-messages: true
 
 # Essentials 应该如何处理拥有 Essentials.keepinv 权限的玩家
 # 拥有消失诅咒附魔的物品或装备?
-# 你可以将其设置为“keep”（保留项目）、“掉落”（删除项目）或“delete”（删除项目）。
+# 你可以将其设置为“keep”(保留项目)、“掉落”(删除项目)或“delete”(删除项目)。
 # 默认为“keep”
 vanishing-items-policy: keep
 
 # Essentials 应该如何处理拥有 Essentials.keepinv 权限的玩家
 #拥有绑定诅咒附魔的物品或装备?
-# 你可以将其设置为“keep”（保留项目）、“drop”（删除项目）或“delete”（删除项目）。
+# 你可以将其设置为“keep”(保留项目)、“drop”(删除项目)或“delete”(删除项目)。
 # 默认为“keep”
 binding-items-policy: keep
 
-# 当玩家死亡时，他人会收到他的死亡坐标吗？
+# 当玩家死亡时,他人会收到他的死亡坐标吗？
 send-info-after-death: false
 
 # 是否关闭加入、退出游戏的提示消息
 # 当启用后, 具有对应权限的玩家加入、离开游戏将不会在公屏上显示消息
-# 此外，拥有essentials.silentjoin.vanish 的人将在加入时消失。
+# 此外,拥有essentials.silentjoin.vanish 的人将在加入时消失。
 allow-silent-join-quit: false
 
-# 你可以在此处设置自定义加入和退出消息。 将此设置为“none”以使用默认的 Minecraft 消息，
+# 你可以在此处设置自定义加入和退出消息。 将此设置为“none”以使用默认的 Minecraft 消息,
 # 或将此设置为 "" 以完全隐藏消息。
 
 # 可用变量
@@ -547,7 +547,7 @@ custom-quit-message: "&e[&c-&e]&6比驿站丑的 {USERNAME} 退出了游戏"
 
 # 你可以在此处为新玩家(和更换ID的老玩家?)设置加入提示。
 # 仅当用户之前加入并更改了用户名时才会使用此消息。
-# 这将显示而不是 custom-join-message，因此如果你打算保持它们相似，请确保它们匹配。
+# 这将显示而不是 custom-join-message,因此如果你打算保持它们相似,请确保它们匹配。
 # 将此设置为“none”以对每个连接使用上面的“custom-join-message”。
 
 # 可用变量
@@ -565,9 +565,9 @@ custom-new-username-message: "&e[&a+&e]&6比驿站丑的新玩家 {USERNAME} 加
 # 设置为 false 以保留原版消息。
 use-custom-server-full-message: true
 
-# 当玩家数量达到一定限制时，你可以禁用加入和退出消息。
-# 当玩家人数低于此数字时，将始终显示加入/退出消息。
-# 将此设置为 -1 以始终显示加入和退出消息，无论玩家人数如何。
+# 当玩家数量达到一定限制时,你可以禁用加入和退出消息。
+# 当玩家人数低于此数字时,将始终显示加入/退出消息。
+# 将此设置为 -1 以始终显示加入和退出消息,无论玩家人数如何。
 hide-join-quit-messages-above: -1
 
 # 禁用上帝模式的世界。
@@ -622,24 +622,24 @@ mails-per-minute: 1000
 # 设置为 -1 可禁用此功能, 另外 essentials.tempban.unlimited 权限可以覆盖此设置.
 max-mute-time: -1
 
-# 设置 /tempban 可以使用的最长时间（以秒为单位）。
-# 设置为 -1 禁用，essentials.tempban.unlimited 可用于覆盖。
+# 设置 /tempban 可以使用的最长时间(以秒为单位)。
+# 设置为 -1 禁用,essentials.tempban.unlimited 可用于覆盖。
 max-tempban-time: -1
 
 # 更改默认的 /reply 功能。 这可以使用 /rtoggle 在每个玩家的基础上进行更改。
-# 如果为真，/r 转到你最后发消息的人，否则第一个发消息给你的人。
-# 如果为假，/r 转到最后一个给你发消息的人。
+# 如果为真,/r 转到你最后发消息的人,否则第一个发消息给你的人。
+# 如果为假,/r 转到最后一个给你发消息的人。
 last-message-reply-recipient: true
 
-# 如果为特定玩家启用了 last-message-reply-recipient，
-# 这指定了持续时间，以秒为单位，需要经过
+# 如果为特定玩家启用了 last-message-reply-recipient,
+# 这指定了持续时间,以秒为单位,需要经过
 #reply-recipient 在收到消息时更新。
-# 默认为 180（3 分钟）
+# 默认为 180(3 分钟)
 last-message-reply-recipient-timeout: 180
 
 # 更改默认的 /reply 功能。
-# 如果为true，/reply 将不会检查你正在回复的人是否已经消失。
-# 如果为 false，玩家将无法/回复因消失而无法再看到的玩家。
+# 如果为true,/reply 将不会检查你正在回复的人是否已经消失。
+# 如果为 false,玩家将无法/回复因消失而无法再看到的玩家。
 last-message-reply-vanished: false
 
 # 切换是否左键单击带有牛奶桶的生物会将它们变成婴儿。
@@ -648,22 +648,22 @@ milk-bucket-easter-egg: true
 # 切换是否应在加入时向玩家发送他们飞行状态是否开启
 send-fly-enable-on-join: true
 
-# 设置为 true 以启用 per-world 权限，以便使用 Essentials 命令为各个世界设置时间。
+# 设置为 true 以启用 per-world 权限,以便使用 Essentials 命令为各个世界设置时间。
 # 这适用于/time、/day、/eday、/night、/enight、/etime。
 # 允许某人使用essentials.time.world.<worldname> 传送到一个世界。
 world-time-permissions: false
 
 # 为 Essentials 命令和外部命令指定冷却时间。
-# 所有命令都不以正斜杠 (/) 开头。 代替 /msg，写 msg
+# 所有命令都不以正斜杠 (/) 开头。 代替 /msg,写 msg
 #
 # 支持通配符。 例如。
 # - '*i*': 50
 # 为所有包含字母 i 的命令添加 50 秒的冷却时间
 #
 # EssentialsX 通过使用插入符号启动命令来支持正则表达式 ^
-# 例如，要针对以ban而不是banip开头的命令，将使用以下命令：
+# 例如,要针对以ban而不是banip开头的命令,将使用以下命令：
 # '^ban([^ip])( .*)?': 60 # 60 秒 /ban 冷却时间。
-# 注意：如果你有一个以 ^ 开头的命令，那么你可以使用反斜杠 (\) 对其进行转义。 例如 \^命令：123
+# 注意：如果你有一个以 ^ 开头的命令,那么你可以使用反斜杠 (\) 对其进行转义。 例如 \^命令：123
 command-cooldowns:
 # feed: 100 # /feed 命令有 100 秒的冷却时间
 # '*': 5 # 所有命令的冷却时间为 5 秒
@@ -671,44 +671,44 @@ command-cooldowns:
 # 命令冷却时间是否应该在服务器关闭后持续存在
 command-cooldown-persistence: true
 
-# NPC余额是否应该在余额排名功能中列出，例如/balancetop。
+# NPC余额是否应该在余额排名功能中列出,例如/balancetop。
 # NPC 余额可以包含 FactionsUUID 插件中的派系等功能。
 npcs-in-balance-ranking: false
 
 # 玩家潜行时允许批量买卖标志。 应该是 /sell 命令
-# 当一个标志一次出售或购买一件物品并且玩家想要一次出售一堆时，这很有用。
+# 当一个标志一次出售或购买一件物品并且玩家想要一次出售一堆时,这很有用。
 allow-bulk-buy-sell: true
 
 # 允许使用 /sell 命令出售具有自定义名称的物品。
 # 这可能有助于防止玩家意外出售命名物品。
 allow-selling-named-items: false
 
-# 加入玩家的 MOTD 显示延迟，以毫秒为单位。
-# 如果 MOTD 命令或权限被禁用，这将无效。
+# 加入玩家的 MOTD 显示延迟,以毫秒为单位。
+# 如果 MOTD 命令或权限被禁用,这将无效。
 # 这也可以设置为 -1 以完全禁用加入 MOTD。
 delay-motd: 0
 
 # 默认情况下应启用其补充确认命令的命令列表。
-# 默认为空，最新的有效命令列表见最新的源码config.yml。
+# 默认为空,最新的有效命令列表见最新的源码config.yml。
 default-enabled-confirm-commands:
 #- 支付 pay
 #- 清库存 clearinventory
 
-# 当玩家从监狱中获释后，Essentials 应该将他们传送到哪里？
-# 你可以设置为“返回”让他们传送到他们入狱前的位置，“产卵”让他们
-# 传送生成，或“关闭”不让它们传送。
+# 当玩家从监狱中获释后,Essentials 应该将他们传送到哪里？
+# 你可以设置为“返回”让他们传送到他们入狱前的位置,“产卵”让他们
+# 传送生成,或“关闭”不让它们传送。
 teleport-when-freed: back
 
 # 是否只应在用户在线时计算入狱时间。
-# 如果为真，被监禁的玩家的时间只会在他们在线时减少。
+# 如果为真,被监禁的玩家的时间只会在他们在线时减少。
 jail-online-time: false
 
-# 设置超时时间，以秒为单位，玩家在请求被取消之前接受 tpa。
+# 设置超时时间,以秒为单位,玩家在请求被取消之前接受 tpa。
 # 设置为 0 表示没有超时。
 tpa-accept-cancellation: 120
 
 # 任何玩家可以同时挂起的 tpa 请求的最大数量。
-# 一旦超过此阈值，旧请求将立即超时。
+# 一旦超过此阈值,旧请求将立即超时。
 # 默认为 5。
 tpa-max-requests: 5
 
@@ -716,20 +716,20 @@ tpa-max-requests: 5
 allow-direct-hat: true
 
 # 允许游戏内玩家在运行 /broadcastworld 时指定一个世界。
-# 如果为 false，则在游戏中运行 /broadcastworld 将始终向玩家的当前世界发送消息。
-# 这不会影响从控制台运行命令，这里总是需要一个世界。
+# 如果为 false,则在游戏中运行 /broadcastworld 将始终向玩家的当前世界发送消息。
+# 这不会影响从控制台运行命令,这里总是需要一个世界。
 allow-world-in-broadcastworld: true
 
-# 认为水方块是“安全的”，因此允许玩家传送
+# 认为水方块是“安全的”,因此允许玩家传送
 # 使用 /home 或 /spawn 等命令到被占用的位置
 # 按水块
 is-water-safe: false
 
 # usermap 是否应该在保存用户名之前尝试清理用户名？
-# 如果你使用 Minecraft 中国，你应该只将其更改为 false。
+# 如果你使用 Minecraft 中国,你应该只将其更改为 false。
 safe-usermap-names: true
 
-# 当命令块执行命令时，Essentials 是否应该输出日志？
+# 当命令块执行命令时,Essentials 是否应该输出日志？
 # 示例：<x>,<y>,<z> 处的 CommandBlock 发出服务器命令：/<command>
 log-command-block-commands: true
 
@@ -737,8 +737,8 @@ log-command-block-commands: true
 max-projectile-speed: 8
 
 # EssentialsX 是否应该检查更新？
-# 如果设置为 true，EssentialsX 将在新版本可用时显示通知。
-# 这使用了公共 GitHub API，不会发送或存储任何识别信息。
+# 如果设置为 true,EssentialsX 将在新版本可用时显示通知。
+# 这使用了公共 GitHub API,不会发送或存储任何识别信息。
 update-check: true
 
 ############################################################
@@ -748,7 +748,7 @@ update-check: true
 ############################################################
 
 # # 允许玩家在白天设置他床所在的位置为家.
-#此设置在 Minecraft 1.15+ 中无效，因为 Minecraft 将始终允许玩家在白天设置他们的床位。
+#此设置在 Minecraft 1.15+ 中无效,因为 Minecraft 将始终允许玩家在白天设置他们的床位。
 update-bed-at-daytime: true
 
 # 设置为 true 将给予玩家跨越世界传送回家的权限
@@ -768,18 +768,18 @@ sethome-multiple:
   vip: 5
   staff: 10
 
-# 在这个例子中，拥有 'essentials.sethome.multiple' 和 'essentials.sethome.multiple.vip' 的人将拥有 5 个家。
-# 请记住，他们必须拥有两个权限节点才能设置多个家。
+# 在这个例子中,拥有 'essentials.sethome.multiple' 和 'essentials.sethome.multiple.vip' 的人将拥有 5 个家。
+# 请记住,他们必须拥有两个权限节点才能设置多个家。
 
 # 控制玩家是否需要“essentials.home.compass”权限才能指向
 # 玩家第一个家的指南针。
 #
-# 将此保留为 false 将保留 Essentials 的原始行为，即始终
+# 将此保留为 false 将保留 Essentials 的原始行为,即始终
 # 改变指南针的方向指向他们的第一个家。
 compass-towards-home-perm: false
 
-# 如果没有设置家，你想让玩家去出生点吗？
-# 如果设置为false，玩家在没有设置家的情况下运行/home时不会被传送。
+# 如果没有设置家,你想让玩家去出生点吗？
+# 如果设置为false,玩家在没有设置家的情况下运行/home时不会被传送。
 spawn-if-no-home: true
 
 # 是否应该要求玩家确认他们试图覆盖的房屋？
@@ -812,7 +812,7 @@ command-costs:
 currency-symbol: '$'
 
 # 启用此选项以使货币符号出现在金额的末尾而不是开头。
-# 例如，欧元符号通常出现在当前金额之后。
+# 例如,欧元符号通常出现在当前金额之后。
 currency-symbol-suffix: false
 
 # 设置一个玩家所允许拥有的最大钱数.
@@ -827,7 +827,7 @@ min-money: -10000
 economy-log-enabled: false
 
 # 启用此功能还可以通过 Vault 记录来自其他插件的所有事务。
-# 这可能会导致经济日志快速填满，因此只能用于测试目的！
+# 这可能会导致经济日志快速填满,因此只能用于测试目的！
 economy-log-update-enabled: false
 
 # 在 /pay 中最低的可使用金额。
@@ -838,16 +838,16 @@ pay-excludes-ignore-list: false
 
 # 余额小于或等于 $0 的用户是否应该显示在 balance-top 中。
 # 设置为 false 将不会在 balance-top 中显示余额 <= 0 的人。
-# 注意：重新加载配置后，你还必须运行“/baltop force”才能显示
+# 注意：重新加载配置后,你还必须运行“/baltop force”才能显示
 show-zero-baltop: true
 
-# 货币格式，不包括符号。 有关符号配置，请参阅currency-symbol-format-locale。
+# 货币格式,不包括符号。 有关符号配置,请参阅currency-symbol-format-locale。
 #
 # "#,##0.00" 是大多数国家/地区显示货币的方式。
 #currency-format: "#,##0.00"
 
 # 格式化货币符号。 一些语言环境使用 , 和 . 可以互换。
-# 由于 Minecraft 字体渲染错误，某些格式无法在游戏中正确显示。
+# 由于 Minecraft 字体渲染错误,某些格式无法在游戏中正确显示。
 #
 # For 1.234,50 use de-DE
 # For 1,234.50 use en-US
@@ -875,8 +875,8 @@ hide-permissionless-help: true
 # +------------------------------------------------------+ #
 ############################################################
 
-# 你需要安装 EssentialsChat.jar！.还有，不推荐ess全家桶，用别的聊天插件吧
-# 有关详细信息，请参阅 https://essentialsx.net/wiki/Module-Breakdown.html。
+# 你需要安装 EssentialsChat.jar！.还有,不推荐ess全家桶,用别的聊天插件吧
+# 有关详细信息,请参阅 https://essentialsx.net/wiki/Module-Breakdown.html。
 
 chat:
 
@@ -895,11 +895,11 @@ chat:
 # {MESSAGE} - 聊天消息的内容。
    # {USERNAME} - 发件人的用户名。
    # {DISPLAYNAME} - 发件人的显示名称。
-   # {NICKNAME} - 发件人的 Essentials 昵称。 如果发件人没有昵称，则显示用户名。
-   # {PREFIX} - 发件人的前缀，由权限插件提供。
-   # {SUFFIX} - 发件人的后缀，由权限插件提供。
-   # {GROUP} - 发件人的主要组名，由权限插件提供。
-   # {WORLD} - 发送者当前世界的世界别名。 有关详细信息，请参阅下面的世界别名部分。
+   # {NICKNAME} - 发件人的 Essentials 昵称。 如果发件人没有昵称,则显示用户名。
+   # {PREFIX} - 发件人的前缀,由权限插件提供。
+   # {SUFFIX} - 发件人的后缀,由权限插件提供。
+   # {GROUP} - 发件人的主要组名,由权限插件提供。
+   # {WORLD} - 发送者当前世界的世界别名。 有关详细信息,请参阅下面的世界别名部分。
    # {WORLDNAME} - 发送者当前世界的全名。
    # {SHORTWORLDNAME} - 发送者当前世界的第一个字符。
    # {TEAMNAME} - 发件人的记分牌团队名称。
@@ -914,14 +914,14 @@ chat:
 # 默认值：'{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
    # 管理员：'{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
 
-   # 如果你使用组格式，请确保删除“#”以允许读取设置。
-   # 注意：组名区分大小写，因此你必须将它们与你的权限插件匹配。
+   # 如果你使用组格式,请确保删除“#”以允许读取设置。
+   # 注意：组名区分大小写,因此你必须将它们与你的权限插件匹配。
 
    # 你可以使用权限来控制玩家是否可以在聊天消息中使用格式化代码。
-   # 有关更多信息，请参阅 https://essentialsx.net/wiki/Color-Permissions.html。
+   # 有关更多信息,请参阅 https://essentialsx.net/wiki/Color-Permissions.html。
 
    # 世界别名允许你用聊天格式中的不同名称替换世界名称。
-   # 如果你使用世界别名，请确保删除开头的“#”以允许读取设置。
+   # 如果你使用世界别名,请确保删除开头的“#”以允许读取设置。
   world-aliases:
   #  plots: "&dP&r"
   #  creative: "&eC&r"
@@ -1007,7 +1007,7 @@ protect:
       drowned: false
       # 防止哞菇被闪电击中时变色。
       mooshroom: false
-    # 防止生成生物。 如果缺少一个生物，你可以按照以下格式添加它。
+    # 防止生成生物。 如果缺少一个生物,你可以按照以下格式添加它。
     spawn:
       creeper: false   #阻止 爬行者     的生成
       skeleton: false   #阻止 骷髅       的生成
@@ -1155,34 +1155,34 @@ newbies:
   kit: tools
 
 # 我们应该使用什么优先级来处理重生？
-# 将此设置为 none，如果你想要原版的重生。
+# 将此设置为 none,如果你想要原版的重生。
 # 设置为 lowest, 如果你想使用 Multiverse 处理重生.
 # 设置为 high, 如果你想使用 EssentialsSpawn插件 处理重生.
 # 设置为 highest, 如果你想强制使用 EssentialsSpawn插件 处理重生.
-# 注意：只有在服务器重新启动后，更改才会生效。
+# 注意：只有在服务器重新启动后,更改才会生效。
 respawn-listener-priority: high
 
 # 我们应该使用什么优先级来处理加入服务器时的生成？
 # 请参阅 respawn-listener-priority 以获取可能的值。
 # 注意：更改此设置可能会影响或破坏 spawn-on-join 功能。
-# 注意：只有在服务器重新启动后，更改才会生效。
+# 注意：只有在服务器重新启动后,更改才会生效。
 spawn-join-listener-priority: high
 
-# 当用户死亡时，他们应该在他们的第一个家或床上重生，而不是重生点？
+# 当用户死亡时,他们应该在他们的第一个家或床上重生,而不是重生点？
 respawn-at-home: false
 
-# 当用户死亡时，他们应该在他们的床上重生而不是重生点吗？
-# respawn-at-home（上图）的值必须为true
+# 当用户死亡时,他们应该在他们的床上重生而不是重生点吗？
+# respawn-at-home(上图)的值必须为true
 respawn-at-home-bed: true
 
-# 当用户死亡时，Essentials Spawn 是否应该尊重用户的重生锚点？
+# 当用户死亡时,Essentials Spawn 是否应该尊重用户的重生锚点？
 respawn-at-anchor: false
 
 # 将所有加入的玩家传送到出生点
 spawn-on-join: false
 # `guests` 的以下值表明组 `guests` 中的所有玩家在加入时都将被传送到出生点。
 #spawn-on-join: 客人
-# 下面的列表值表明，组 `guests` 和 `admin` 中的所有玩家在加入时都将被传送到出生点。
+# 下面的列表值表明,组 `guests` 和 `admin` 中的所有玩家在加入时都将被传送到出生点。
 #spawn-on-join:
 #- guests
 #- admin

@@ -31,7 +31,7 @@ G1GC 参数
 
 ## JWarmup
 
-JWarmup的基本原理: 根据前一次程序运行的情况，记录下热点方法、类编译顺序等信息，在应用下一次启动的时候积极加载相关的类，并积极编译相关的方法，进而应用启动后可以直接运行编译好的Java代码(C2编译）。
+JWarmup的基本原理: 根据前一次程序运行的情况,记录下热点方法、类编译顺序等信息,在应用下一次启动的时候积极加载相关的类,并积极编译相关的方法,进而应用启动后可以直接运行编译好的Java代码(C2编译)。
 
 ### 使用步骤
 
@@ -39,19 +39,19 @@ JWarmup的基本原理: 根据前一次程序运行的情况，记录下热点�
 
 添加参数`-XX:-ClassUnloading -XX:-CMSClassUnloadingEnabled -XX:-ClassUnloadingWithConcurrentMark -XX:CompilationWarmUpLogfile=jwarmup.log -XX:+CompilationWarmUpRecording -XX:CompilationWarmUpRecordTime=300`
 
-#### 使用阶段(一般是生产环境）
+#### 使用阶段(一般是生产环境)
 
 添加参数`-XX:+CompilationWarmUp -XX:-TieredCompilation -XX:CompilationWarmUpLogfile=jwarmup.log -XX:CompilationWarmUpDeoptTime=0`
 
 ## 对象头压缩
 
-可以节约10%左右的Java对象内存占用，并可能提升程序性能。
+可以节约10%左右的Java对象内存占用,并可能提升程序性能。
 
 添加参数`-XX:+UseCompactObjectHeaders`
 
 ## Wisp
 
-Wisp在JVM上提供了一种用户态的线程实现。开启Wisp2后，Java线程不再简单地映射到内核级线程，而是对应到一个协程，JVM在少量内核线上调度大量协程执行，以减少内核的调度开销
+Wisp在JVM上提供了一种用户态的线程实现。开启Wisp2后,Java线程不再简单地映射到内核级线程,而是对应到一个协程,JVM在少量内核线上调度大量协程执行,以减少内核的调度开销
 
 只需添加JVM参数即可开启Wisp2,无需更改程序！！
 
@@ -61,4 +61,4 @@ Wisp在JVM上提供了一种用户态的线程实现。开启Wisp2后，Java线�
 
 ## G1ElasticHeap
 
-G1ElasticHeap 是一种 GC 功能，用于将 Java 堆的内存返回给操作系统，以减少 Java 进程的内存占用。要启用此功能，你需要通过以下选项使用 G1 GC：`-XX:+G1ElasticHeap -XX:+ElasticHeapPeriodicUncommit`
+G1ElasticHeap 是一种 GC 功能,用于将 Java 堆的内存返回给操作系统,以减少 Java 进程的内存占用。要启用此功能,你需要通过以下选项使用 G1 GC：`-XX:+G1ElasticHeap -XX:+ElasticHeapPeriodicUncommit`

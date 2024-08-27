@@ -15,7 +15,7 @@ sidebar_position: 2
 
 # MCSManager
 
-MCSManager是一款免费，易用，现代化的游戏服务器管理面板,非常适合小白
+MCSManager是一款免费,易用,现代化的游戏服务器管理面板,非常适合小白
 
 ## 下载与安装
 
@@ -43,7 +43,7 @@ sudo su -c "wget -qO- https://script.mcsmanager.com/setup_cn.sh | bash"
 
 ```shell
 # 先启动面板守护进程。
-# 这是用于进程控制，终端管理的服务进程。
+# 这是用于进程控制,终端管理的服务进程。
 systemctl start mcsm-daemon.service
 # 再启动面板 Web 服务。
 # 这是用来实现支持网页访问和用户管理的服务。
@@ -60,19 +60,19 @@ systemctl stop mcsm-daemon.service
 
 :::tip
 
-如果 `systemctl` 命令无法启动面板,或无法获得sudo权限，可以参考下文的 `手动安装` 中的 `启动方式` 来启动 MCSManager。 但这需要你用其他后台运行程序(比如screen)来接管它，否则当你的 `SSH` 终端断开之时，手动启动的 MCSManager 面板也会随之被系统强制结束。
+如果 `systemctl` 命令无法启动面板,或无法获得sudo权限,可以参考下文的 `手动安装` 中的 `启动方式` 来启动 MCSManager。 但这需要你用其他后台运行程序(比如screen)来接管它,否则当你的 `SSH` 终端断开之时,手动启动的 MCSManager 面板也会随之被系统强制结束。
 
-面板 Web 服务是提供用户管理与网页访问功能的服务，守护进程是提供进程管理和容器管理的服务，两者缺一不可。如果某个功能不正常，可以只重启这一部分的服务来热修复问题。
+面板 Web 服务是提供用户管理与网页访问功能的服务,守护进程是提供进程管理和容器管理的服务,两者缺一不可。如果某个功能不正常,可以只重启这一部分的服务来热修复问题。
 
 :::
 
 #### 手动安装
 
 ```shell
-# 切换到安装目录，你也可以换成其他的目录。
+# 切换到安装目录,你也可以换成其他的目录。
 cd /opt/
 
-# 下载 NodeJS 运行时环境，如果你已经安装了 NodeJS，请忽略此步骤。
+# 下载 NodeJS 运行时环境,如果你已经安装了 NodeJS,请忽略此步骤。
 wget https://nodejs.org/dist/v20.11.0/node-v20.11.0-linux-x64.tar.xz
 tar -xvf node-v20.11.0-linux-x64.tar.xz
 
@@ -84,7 +84,7 @@ ln -s /opt/node-v20.11.0-linux-x64/bin/npm /usr/bin/npm
 mkdir /opt/mcsmanager/
 cd /opt/mcsmanager/
 
-# 下载 MCSManager（如果无法下载可以先科学上网下载再上传到服务器）
+# 下载 MCSManager(如果无法下载可以先科学上网下载再上传到服务器)
 wget https://github.com/MCSManager/MCSManager/releases/latest/download/mcsmanager_linux_release.tar.gz
 
 # 解压到安装目录
@@ -104,7 +104,7 @@ tar -zxf mcsmanager_linux_release.tar.gz
 # 安装依赖库
 ./install.sh
 
-# 请使用 Screen 程序打开两个终端窗口（或者其他接管程序）
+# 请使用 Screen 程序打开两个终端窗口(或者其他接管程序)
 
 # 先启动节点程序
 ./start-daemon.sh
@@ -113,7 +113,7 @@ tar -zxf mcsmanager_linux_release.tar.gz
 ./start-web.sh
 
 # 为网络界面访问 http://localhost:23333/
-# 一般来说，网络应用会自动扫描并连接到本地守护进程。
+# 一般来说,网络应用会自动扫描并连接到本地守护进程。
 # 默认需要开放的端口：23333 和 24444
 ```
 

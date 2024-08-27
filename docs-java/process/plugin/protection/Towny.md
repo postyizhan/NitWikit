@@ -9,7 +9,7 @@ sidebar_label: 城镇 - Towny
 
 `SpigotMC` https://www.spigotmc.org/resources/towny-advanced.72694/
 
-`文档（英文）` https://github.com/TownyAdvanced/Towny/wiki
+`文档(英文)` https://github.com/TownyAdvanced/Towny/wiki
 
 `插件百科` https://mineplugin.org/Towny
 

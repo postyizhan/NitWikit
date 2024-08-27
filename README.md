@@ -61,8 +61,8 @@ https://nitwikit.yizhan.wiki/
 1. Fork 此仓库至自己的 GitHub 账户下
 2. 将自己账户下的仓库克隆至本地
    `git clone https://github.com/你的用户名/NitWikit.git`
-3. 在本地仓库中进行修改并构建文档测试，无误后 push 至自己的仓库
-4. 回到此仓库，点击 Pull requests -> New pull request 发起 PR
+3. 在本地仓库中进行修改并构建文档测试,无误后 push 至自己的仓库
+4. 回到此仓库,点击 Pull requests -> New pull request 发起 PR
 5. 前往 [NitWikit-PR](https://github.com/users/postyizhan/projects/2) 查看审核状态
 
 # 🤝 贡献者
@@ -379,7 +379,7 @@ https://nitwikit.yizhan.wiki/
                 <a href="https://github.com/MSCMDD">
                     <img src="https://avatars.githubusercontent.com/u/128666602?v=4" width="50;" alt="MSCMDD"/>
                     <br />
-                    <sub><b>磁铁开发部（MDD）</b></sub>
+                    <sub><b>磁铁开发部(MDD)</b></sub>
                 </a>
             </td>
 		</tr>

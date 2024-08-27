@@ -34,8 +34,8 @@ GraalVM EE 22.3.0 修复了所有已知的 Minecraft 错误
 
 ## 正在考虑的标志
 
-更激进的内联，在 Graal 中通过`-Dgraal.BaseTargetSpending=160`（默认为 120）和 OpenJDK 中的其他一些标志。具有较大缓存的 CPU 可能会从中受益
+更激进的内联,在 Graal 中通过`-Dgraal.BaseTargetSpending=160`(默认为 120)和 OpenJDK 中的其他一些标志。具有较大缓存的 CPU 可能会从中受益
 
-`-Dgraal.OptWriteMotion=true`和`-Dgraal.WriteableCodeCache=true` ，看起来不稳定，但在 GraalVM 22.3.0 中可能更稳定,显然，针对Mod
+`-Dgraal.OptWriteMotion=true`和`-Dgraal.WriteableCodeCache=true` ,看起来不稳定,但在 GraalVM 22.3.0 中可能更稳定,显然,针对Mod
 
 ~~神无需优化~~

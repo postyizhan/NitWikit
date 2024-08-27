@@ -5,49 +5,49 @@ sidebar_position: 3
 
 # 逻辑判断
 
-## 布尔值（boolean）
+## 布尔值(boolean)
 
-它只有两个取值，即 **真（true）** 和 **假（false）**
+它只有两个取值,即 **真(true)** 和 **假(false)**
 
-或者说，**是（true）** 和 **否（false）**
+或者说,**是(true)** 和 **否(false)**
 
-## 权限判断（Permission）
+## 权限判断(Permission)
 
 > https://kether.tabooproject.org/list.html#Permission
 
-判断玩家是否拥有某权限，如果是，则返回 **true** ，否，则返回 **false**
+判断玩家是否拥有某权限,如果是,则返回 **true** ,否,则返回 **false**
 
 ![](_images/vul-perm.png)
 
-我是op，所以我拥有此权限，返回了 true
+我是op,所以我拥有此权限,返回了 true
 
-同 [PlaceholderAPI](basic.md#变量placeholderapi) 一样，**Permission** 也有一个简写 **perm**
+同 [PlaceholderAPI](basic.md#变量placeholderapi) 一样,**Permission** 也有一个简写 **perm**
 
-## 判断为否（Not）
+## 判断为否(Not)
 
-上面是判断拥有此权限，那么我如何判断不拥有此权限呢？
+上面是判断拥有此权限,那么我如何判断不拥有此权限呢？
 
 ![](_images/vul-permNot_1.png)
 
 ![](_images/正经笑.jpg)
 
-咳咳，开玩笑的，驿站怎么可能用过这么傻逼的写法呢
+咳咳,开玩笑的,驿站怎么可能用过这么傻逼的写法呢
 
 ![](_images/冒汗.jpg)
 
 > https://kether.tabooproject.org/list.html#Not
 
-> 判断动作的返回值是否为否，即否定动作的结果。
+> 判断动作的返回值是否为否,即否定动作的结果。
 
 ![](_images/vul-permNot_2.png)
 
-因为我拥有此权限，所以 perm 判断是 true
+因为我拥有此权限,所以 perm 判断是 true
 
-接着因为 not，最后的结果是 false
+接着因为 not,最后的结果是 false
 
 perm -> not
 
-## 判断（Check）
+## 判断(Check)
 
 > https://kether.tabooproject.org/list.html#Check
 
@@ -59,20 +59,20 @@ check 动作1 {symbol} 动作2
 
 具体判断关系由中间的符号参数 Symbol 决定
 
-1. 等于（==、is）：指两个值字面意思上相同。
-2. 不等于（!=、not）：指两个值字面意思上不同。
-3. 相似等于（=?、is?）：指两个值字面意思上忽略大小写的条件下相同。
-4. 绝对等于（=!、is!）：指两个值内存路径上相同。
-5. 大于（>、gt）：指第一个值大于第二个值。
-6. 大于等于（>=）：指第一个值大于或等于第二个值。
-7. 小于（\<、lt）：指第一个值小于第二个值。
-8. 小于等于（\<=）：指第一个值小于或等于第二个值。
-9. 右含左（in）：左侧 action A 的返回值是否属于右侧 action B 返回值的内容之一
-10. 左含右（has）：左侧 action A 是否含有右侧 action B 内容
+1. 等于(==、is)：指两个值字面意思上相同。
+2. 不等于(!=、not)：指两个值字面意思上不同。
+3. 相似等于(=?、is?)：指两个值字面意思上忽略大小写的条件下相同。
+4. 绝对等于(=!、is!)：指两个值内存路径上相同。
+5. 大于(>、gt)：指第一个值大于第二个值。
+6. 大于等于(>=)：指第一个值大于或等于第二个值。
+7. 小于(\<、lt)：指第一个值小于第二个值。
+8. 小于等于(\<=)：指第一个值小于或等于第二个值。
+9. 右含左(in)：左侧 action A 的返回值是否属于右侧 action B 返回值的内容之一
+10. 左含右(has)：左侧 action A 是否含有右侧 action B 内容
 
 ![](_images/vul-check.png)
 
-## 分支判断（if esle）
+## 分支判断(if esle)
 
 > https://kether.tabooproject.org/list.html#If_&_Else
 
@@ -84,11 +84,11 @@ check 动作1 {symbol} 动作2
 
 条件判断为 **true** 则执行 then 后面的动作
 
-注：这里的条件也是指动作，即 动作的返回值为 **true** 则执行 then 后面的动作
+注：这里的条件也是指动作,即 动作的返回值为 **true** 则执行 then 后面的动作
 
 ![](_images/if_1.png)
 
-上面只是执行单个动作，那么，如何让他判断 **true** 后执行多行动作？
+上面只是执行单个动作,那么,如何让他判断 **true** 后执行多行动作？
 
 ```
 if 条件 then {
@@ -141,7 +141,7 @@ if 条件1 then {
 }
 ```
 
-## 多分支（Case & When）
+## 多分支(Case & When)
 
 > https://kether.tabooproject.org/list.html#Case_&_When
 
@@ -195,7 +195,7 @@ case 1 [
 
 ## 多条件判断
 
-### 全部满足（All）
+### 全部满足(All)
 
 > https://kether.tabooproject.org/list.html#All
 
@@ -210,11 +210,11 @@ all [ 动作1 动作2 动作3 更多 ]
 /vul eval if all [ perm vulpecula.command not perm luckperms.editor ] then tell 通过 else 不通过
 ```
 
-玩家拥有权限 vulpecula.command 没有权限 luckperms.editor 则通过，否则不通过
+玩家拥有权限 vulpecula.command 没有权限 luckperms.editor 则通过,否则不通过
 
 ![](_images/if_2.png)
 
-### 一个满足（Any）
+### 一个满足(Any)
 
 > https://kether.tabooproject.org/list.html#Any
 
@@ -254,7 +254,7 @@ any [
 
 ####  判断null字符串
 
-如果一个动作，变量，或者其他什么东西会有输出null的情况，而你想判断这个情况
+如果一个动作,变量,或者其他什么东西会有输出null的情况,而你想判断这个情况
 
 但是 `null` 是一个已有的动作：https://kether.tabooproject.org/list.html#Null
 
