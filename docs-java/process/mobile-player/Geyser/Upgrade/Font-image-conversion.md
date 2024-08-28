@@ -17,7 +17,7 @@ sidebar_position: 6
 
 #### 如何使用
 
-- 跟[这里](https://nitwikit.yizhan.wiki/process/mobile-player/Geyser/Upgrade/Custom-item-model-map#%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2)基本没有区别
+- 跟[这里](https://yizhan.wiki/NitWikit/process/mobile-player/Geyser/Upgrade/Custom-item-model-map#%E5%9C%A8%E7%BA%BF%E8%BD%AC%E6%8D%A2)基本没有区别
 
 - 但是在填写资源包下载地址地方的下面,要把`Font Conversion`选项设置为Ture
 

@@ -18,7 +18,7 @@
 
 文档正在编写ing...
 
-https://nitwikit.yizhan.wiki/
+https://yizhan.wiki/NitWikit/
 
 [企鹅群🐧611076407](https://qm.qq.com/q/lEnfzgzxjq)
 
@@ -28,7 +28,7 @@ https://nitwikit.yizhan.wiki/
 
 这里是本文档地址/相关转载地址
 
-- https://nitwikit.yizhan.wiki/
+- https://yizhan.wiki/NitWikit/
 - [GitHub](https://github.com/postyizhan/NitWikit)
 - [MineBBS](https://www.minebbs.com/threads/nitwikit-geyser.26356/)
 - [klpbbs](https://klpbbs.com/forum.php?mod=viewthread&tid=136184&page=1&extra=#pid10518779)

@@ -10,11 +10,11 @@ sidebar_position: 5
 
 目前包括
 
-- [笨蛋 AI](https://ai.yizhan.wiki) - AI 聊天,文字生成图片
-- [笨蛋镜像](https://mirror.yizhan.wiki) - 加速网站的访问(为没有 VPN 的人准备)
-- [笨蛋图床](https://image.yizhan.wiki) - 简洁,免费的图床
-- [笨蛋粘贴板](https://paste.yizhan.wiki) - 上传文件/创建 Paste!(不要当网盘)
-- [笨蛋笔记本](https://notepad.yizhan.wiki) - 免费笔记本,支持密码,Markdown 和分享
+- [笨蛋 AI](https://ai.imc.rip) - AI 聊天,文字生成图片
+- [笨蛋镜像](https://mirror.imc.rip) - 加速网站的访问(为没有 VPN 的人准备)
+- [笨蛋图床](https://image.imc.rip) - 简洁,免费的图床
+- [笨蛋粘贴板](https://paste.imc.rip) - 上传文件/创建 Paste!(不要当网盘)
+- [笨蛋笔记本](https://notepad.imc.rip) - 免费笔记本,支持密码,Markdown 和分享
 - [笨蛋短链](https://imc.rip) - 缩短链接
 
 ## 规则
@@ -73,20 +73,20 @@ mcping <服务器地址>
 
 ### `帮助`
 
-返回 https://nitwikit.yizhan.wiki/%E6%89%A9%E5%B1%95%E9%98%85%E8%AF%BB/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%91%BD%E4%BB%A4
+返回 https://yizhan.wiki/NitWikit/%E6%89%A9%E5%B1%95%E9%98%85%E8%AF%BB/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%91%BD%E4%BB%A4
 
 ### `正确提问`
 
-返回消息 https://nitwikit.yizhan.wiki/start/%E5%90%91%E5%A4%A7%E4%BD%AC%E6%B1%82%E5%8A%A9
+返回消息 https://yizhan.wiki/NitWikit/start/%E5%90%91%E5%A4%A7%E4%BD%AC%E6%B1%82%E5%8A%A9
 
 ### `搜索`
 
-返回消息 https://nitwikit.yizhan.wiki/search?q=
+返回消息 https://yizhan.wiki/NitWikit/search?q=
 
 ### `核心`
 
 返回消息
 
-📦 单端 https://nitwikit.yizhan.wiki/start/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%A0%B8%E5%BF%83%E9%80%89%E6%8B%A9
+📦 单端 https://yizhan.wiki/NitWikit/start/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%A0%B8%E5%BF%83%E9%80%89%E6%8B%A9
 
-📦 跨服端 https://nitwikit.yizhan.wiki/%E8%B7%A8%E6%9C%8D%E7%AB%AF/%E6%A0%B8%E5%BF%83%E9%80%89%E6%8B%A9
+📦 跨服端 https://yizhan.wiki/NitWikit/%E8%B7%A8%E6%9C%8D%E7%AB%AF/%E6%A0%B8%E5%BF%83%E9%80%89%E6%8B%A9
