@@ -175,3 +175,43 @@ allow-flight=true
 ## 服务器端口
 
 在下一章!
+
+## 游戏规则
+
+这一部分的配置需要使用`/gamerule`来完成,而非`server.properties`
+
+[全部](https://minecraft.fandom.com/zh/wiki/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99#%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%E5%88%97%E8%A1%A8)
+
+:::tip
+
+请注意,默认情况下`/gamerule`所设置的游戏规则**只会在**执行命令的世界**生效**
+
+[Ultimate Gamerules Manager](https://www.spigotmc.org/resources/ultimate-gamerules-manager-1-13-1-20-3.102215/) 是个不错的插件,适合新手
+
+:::
+
+### 进度达成
+
+是否在聊天框中公告玩家进度的达成。
+
+开启:`/gamerule announceAdvancements true`
+
+关闭:`/gamerule announceAdvancements false`
+
+### 死亡不掉落
+
+设置为true时，死亡时玩家的背包物品和经验值会得到保留。
+
+设置为false时，重生后玩家的物品和部分经验值会掉落在死亡位置。
+
+开启:`/gamerule keepInventory true`
+
+关闭:`/gamerule keepInventory false`
+
+### 记录管理员使用过的命令
+
+是否在服务器日志中记录管理员使用过的命令。
+
+开启:`/gamerule logAdminCommands true`
+
+关闭:`/gamerule logAdminCommands false`
