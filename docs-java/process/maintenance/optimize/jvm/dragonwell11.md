@@ -18,7 +18,7 @@ slug: /optimize/jvm/dragonwell
 
 ## ZGC
 
-Dragonwell11 的 ZGC 不同于 OpenJDK11 的 ZGC,Dragonwell 通过移植 OpenJDK 15+的 ZGC补丁,使得Dragonwell的ZGC可以投入生产环境
+Dragonwell 11 的 ZGC 不同于 OpenJDK11 的 ZGC,Dragonwell 通过移植 OpenJDK 15+的 ZGC补丁,使得Dragonwell的ZGC可以投入生产环境
 
 添加参数 `-XX:+UseZGC -XX:AllocatePrefetchStyle=1`以启用
 

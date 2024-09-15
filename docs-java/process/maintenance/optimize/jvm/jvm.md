@@ -45,6 +45,18 @@ flowchart TD
 
 :::
 
+:::tip 兼容性
+
+根据我们的测试,GraalVM,Dragonwell,Zulu 目前都没有被报告过不兼容
+
+Zing 与 LuckPerms 以及一些特殊插件会有一点不兼容
+
+OpenJ9 虽然内存占用很低,但是性能很差，并且与很多插件有不兼容(比如 Spark)
+
+GraalVM 在 22.3.0 修复了所有已知的 Minecraft 错误
+
+:::
+
 ## 垃圾回收器
 
 经过我们的多次测试,G1GC和ZGC 最适合MC服务器(还有一个 Zing C4)
@@ -54,13 +66,13 @@ flowchart TD
 ```mermaid
 flowchart TD
     A[选择] 
-    A --> 机器配置足够,起步4h8g,推荐8h8g
+    A --> B[机器配置足够,起步4h8g,推荐8h8g]
     A --> 机器配置不达标
-    机器配置足够,起步4h8g,推荐8h8g --> Java21,或者Dragonwell11
-    机器配置足够,起步4h8g,推荐8h8g --> 其他版本
-    Java21,或者Dragonwell11 --> ZGC
-    其他版本 --> G1GC
-    机器配置不达标 --> G1GC
+    B --> C[Java 21+,或Dragonwell 11]
+    B --> 其他
+    C --> ZGC
+    其他 --> G1
+    机器配置不达标 --> G1
 ```
 
 ZGC 的无停顿可以给玩家带来更好的体验,并且更充分的利用多核

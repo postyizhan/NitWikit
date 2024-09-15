@@ -42,7 +42,7 @@ Spark是一个Minecraft的性能分析器,支持广泛(如 Bukkit,BungeeCord,Vel
 
 1.12.2 和以下混合服优先使用 mod 版本,放入 mods 文件夹。
 
-对于 Purpur Fork 服务器,默认自带 Spark,无需单独下载。
+对于 Purpur Fork 服务器或 Paper 1.21+,默认自带 Spark,无需单独下载。
 
 #### /spark profiler
 
@@ -61,6 +61,12 @@ Spark是一个Minecraft的性能分析器,支持广泛(如 Bukkit,BungeeCord,Vel
 /spark profiler info 检查当前分析的状态。
 
 这是主要的指令,为了更多的功能,更精准的分析等可以在后面加上参数.具体请查看 [profiler 指令使用方法](https://snowcutieowo.github.io/spark/#/spark.command-usage)
+
+:::tip
+
+Spark 中内存占用并非平均内存占用,而是**瞬间内存占用**,所以有些时候会出现 Spark 上显示内存占用小实际很大的情况
+
+:::
 
 #### /spark health
 

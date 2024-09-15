@@ -8,6 +8,8 @@ slug: /optimize/jvm/openj9
 
 这些参数只适合 OpenJ9
 
+**这些参数的主要目的是降低内存占用,而非优化性能**
+
 ## 基础
 
 ```shell

@@ -6,9 +6,17 @@ slug: /optimize/jvm/zing
 
 # Azul Zing
 
-~~神无需优化~~
-
 通用内容的参数可以使用(比如大页),但不要自行指定GC,或其他优化参数
+
+## 一步到位
+
+```
+-XX:ProfileLogIn=readynow -XX:ProfileLogOut=readynow -XX:+FalconUseCompileStashing -XX:+CompactStrings
+```
+
+勇者加上`-XX:FalconOptimizationLevel=3`
+
+安装了 ZST 加上`-XX:+UseZST`
 
 ## ReadyNow
 
@@ -36,7 +44,7 @@ C4 是 Zing 中唯一的垃圾收集器,取代了 OpenJDK 中可用的其他垃�
 
 ## 更高级别的 Falcon 优化
 
-使用选项`-XX:FalconOptimizationLevel=3`可以获得更高级别的优化,但会出现兼容性问题
+使用选项`-XX:FalconOptimizationLevel=3`可以获得更高级别的优化,但会出现更多兼容性问题
 
 ## Zing System Tool
 
@@ -56,6 +64,3 @@ C4 是 Zing 中唯一的垃圾收集器,取代了 OpenJDK 中可用的其他垃�
 
 [DEB](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux_amd64.deb)
 
-## 一些特殊情况
-
-zing和mariadb不要一起用
