@@ -18,4 +18,4 @@ jobs:
         with:
           node-version: 20
       - name: Install and Build
-        run: pnpm install && pnpm run build
+        run: pnpm install && pnpm run --parallel build

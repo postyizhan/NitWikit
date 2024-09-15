@@ -37,7 +37,7 @@ jobs:
       - name: Install
         run: pnpm install
       - name: Build
-        run: pnpm run build
+        run: pnpm run --parallel build
       # 部署
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
