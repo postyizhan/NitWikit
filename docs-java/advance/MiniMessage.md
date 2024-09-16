@@ -40,6 +40,8 @@ MiniMessage 的实质是一个叫 Adventure 的库,这是它的 [文档](https:/
 
 :::
 
+[在线编辑](https://mcg.tuanzi.ink)
+
 和 [格式化代码](format-code.md) 篇一样,用一个 TrMenu 菜单配置展示下：
 
 ```
