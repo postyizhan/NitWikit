@@ -33,8 +33,6 @@ flowchart TD
     好的兼容性 -->|不需要| E[Azul Zing]
 ```
 
-这可能与你想的不太一样
-
 :::tip Zulu的性能
 
 根据官方对 Zulu 的定位,Zulu 的重点是**安全性和稳定性**，而非性能
@@ -56,6 +54,61 @@ OpenJ9 虽然内存占用很低,但是性能很差，并且与很多插件有不
 GraalVM 在 22.3.0 修复了所有已知的 Minecraft 错误
 
 :::
+
+### 下载
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="jvm-download">
+<TabItem value="dragonwell" label="Dragonwell">
+
+Dragonwell 分为  Standard Edition 和 Extended Edition,推荐下载 Extended Edition
+
+- [官网](https://dragonwell-jdk.io/) 下载区域选择`China Mainland`
+- [Dragonwell 8 预览](https://github.com/dragonwell-project/dragonwell8/releases)
+- [Dragonwell 11 预览](https://github.com/dragonwell-project/dragonwell11/releases)
+
+</TabItem>
+<TabItem value="graalvm" label="GraalVM">
+
+GraalVM 分为 Community Edition(CE) 和 Enterprise Edition(EE),除非你服务器大到会被 Oracle 找上门,不然请选择 Enterprise Edition
+
+- [下载 EE](https://www.graalvm.org/downloads/)
+- [下载 CE](https://github.com/graalvm/graalvm-ce-builds/releases/)
+
+:::tip
+
+Oracle 官网同样提供 GraalVM,但是上面的 GraalVM EE 包含了企业版套件,这些MC根本用不到,只需要企业版编译器就可以了
+
+:::
+
+</TabItem>
+<TabItem value="zing" label="Azul Zing">
+
+Azul Zing 不能直接被下载,需要填写试用申请表,但我们通过神秘手段搞到了安装包
+
+- [RPM](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux.x86_64.rpm)
+- [TAR.GZ](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux_x64.tar.gz)
+- [DEB](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux_amd64.deb)
+- [官网](https://www.azul.com/downloads/#prime)
+
+</TabItem>
+<TabItem value="zulu" label="Azul Zulu">
+
+Azul Zulu 支持 Java 8 以上,Java 7 和 6 需要成为客户才能下载
+
+- [官网](https://www.azul.com/downloads/?package=jdk&show-old-builds=true#zulu)
+
+</TabItem>
+<TabItem value="openj9" label="OpenJ9">
+
+OpenJ9 有认证版和非认证版，主要是因为和 OpenJ9 的关系和操作系统的关系而使用不同的许可证罢了，本质代码是一样的,直接下`IBM Semeru Runtime Open Edition`就行
+
+- [官网](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/)
+
+</TabItem>
+</Tabs>
 
 ## 垃圾回收器
 
