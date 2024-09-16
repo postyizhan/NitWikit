@@ -23,7 +23,13 @@ x86 Java 8 用户可以添加以下附加参数：
 -XX:+UseXMMForArrayCopy
 ```
 
-G1GC 参数
+如果使用的是从 GitHub 下载的预览版可以添加
+
+```shell
+-XX:+UseBigDecimalOpt
+```
+
+## G1GC 参数
 
 ```shell
 -XX:+UseG1GC -XX:MaxGCPauseMillis=130 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=28 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=20 -XX:G1MixedGCCountTarget=3 -XX:InitiatingHeapOccupancyPercent=10 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=0 -XX:SurvivorRatio=32 -XX:MaxTenuringThreshold=1 -XX:G1SATBBufferEnqueueingThresholdPercent=30 
@@ -61,4 +67,8 @@ Wisp在JVM上提供了一种用户态的线程实现。开启Wisp2后,Java线程
 
 ## G1ElasticHeap
 
-G1ElasticHeap 是一种 GC 功能,用于将 Java 堆的内存返回给操作系统,以减少 Java 进程的内存占用。要启用此功能,你需要通过以下选项使用 G1 GC：`-XX:+G1ElasticHeap -XX:+ElasticHeapPeriodicUncommit`
+G1ElasticHeap 是一种 GC 功能,用于将 Java 堆的内存返回给操作系统,以减少 Java 进程的内存占用。要启用此功能,你需要通过以下选项使用 G1 GC：
+
+```shell
+-XX:+G1ElasticHeap -XX:+ElasticHeapPeriodicUncommit
+```
