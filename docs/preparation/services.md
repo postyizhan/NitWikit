@@ -87,6 +87,6 @@ mcping <服务器地址>
 
 返回消息
 
-📦 单端 https://yizhan.wiki/NitWikit/start/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%A0%B8%E5%BF%83%E9%80%89%E6%8B%A9
+📦 单端 https://yizhan.wiki/NitWikit/Java/start/server-core-choose
 
-📦 跨服端 https://yizhan.wiki/NitWikit/%E8%B7%A8%E6%9C%8D%E7%AB%AF/%E6%A0%B8%E5%BF%83%E9%80%89%E6%8B%A9
+📦 跨服端 https://yizhan.wiki/NitWikit/Java/advance/cross-server/server-core-choose
