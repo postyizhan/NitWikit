@@ -47,7 +47,7 @@ Mod 服最开始就必须选好核心,也就是 Forge 还是 Fabric 的问题。
 
 此类核心的存档结构有些不同
 
-如果你是从非 Bukkit 系核心或单人存档迁移,请查看[ Leaves 的迁移文档](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)(通用所有Bukkit插件端)
+如果你是从非 Bukkit 系核心或单人存档迁移,请查看[Leaves 的迁移文档](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)(通用所有Bukkit插件端)
 
 :::
 
@@ -71,9 +71,7 @@ flowchart TD
     生电 --> 1.18以下
     生电 --> 1.18以上
     1.18以下 --> Purpur
-    1.18以上 --> 假人,以及一些偏门的特性
-    假人,以及一些偏门的特性 -->|需要| Leaves
-    假人,以及一些偏门的特性 -->|不需要| Leaf
+    1.18以上 --> Leaves
     1.16.5+ --> 高性能
     高性能 --> 1.19以上
     1.19以上 --> Leaf
