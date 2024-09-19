@@ -73,7 +73,7 @@ mcping <服务器地址>
 
 ### `帮助`
 
-返回 https://yizhan.wiki/NitWikit/%E6%89%A9%E5%B1%95%E9%98%85%E8%AF%BB/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%91%BD%E4%BB%A4
+返回 https://yizhan.wiki/NitWikit/services/
 
 ### `正确提问`
 
