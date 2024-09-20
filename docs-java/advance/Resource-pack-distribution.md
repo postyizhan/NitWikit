@@ -67,6 +67,18 @@ https://itemsadder.devs.beer/v/chinese/plugin-usage/resourcepack-hosting
 
 以下均为ia文档中所说的 第三方平台托管(external-host)
 
+## Cloudflare R2
+
+https://cloudflare.com
+
+著名赛博佛祖,免费的 Cloudflare R2 提供 10 GB 的免费空间,只不过需要**绑定银行卡或者 PayPal**(不会花钱),非常推荐
+
+> 使用方法:创建一个 R2 存储桶,名称自选,位置选择`亚太地区 (APAC)`(速度最快),默认存储类一定要选择`标准`,创建好后直接上传资源包就可以了(可以设置自定义域)
+
+> 无域名方案:完成上一步后,打开设置,找到`R2.dev 子域`,点击`允许访问`即可使用CF提供的免费域名
+
+图文教程: https://juejin.cn/post/7331584783611281444
+
 ## GitHub
 
 https://github.com
