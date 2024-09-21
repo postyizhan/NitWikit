@@ -44,7 +44,7 @@ Repository name填 你的用户名.github.io
 
 上传完后点Commit changes
 
-![微信图片_20240916083119.png](/docs/advance/_images/open-web-photo/add-new.png)
+![微信图片_20240916083119.png](/docs/advance/_images/open-web-photo/add-web.png)
 
 然后你访问 你的用户名.github.io就可以访问了
 
