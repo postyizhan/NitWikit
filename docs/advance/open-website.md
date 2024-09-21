@@ -23,7 +23,7 @@ sidebar_position: 8
 
 进入主页后点击左上的new(绿色的)
 
-![屏幕截图 2024-09-16 082239.png](https://image.dooo.ng/c/2024/09/16/66e77a62129d2.webp)
+![屏幕截图 2024-09-16 082239.png](/docs/advance/_images/open-web-photo/dian-new.png)
 
 会跳转到一个界面
 
@@ -32,19 +32,19 @@ Repository name填 你的用户名.github.io
 如果不会git的话就勾选Add a README
 
 然后点Create repository
-![微信图片_20240916082548.png](https://image.dooo.ng/c/2024/09/16/66e77b19a55fd.webp)
+![微信图片_20240916082548.png](/docs/advance/_images/open-web-photo/xingjianxiangm.png)
 
 会直接到创建的项目主页
 
 点Add file 会出来两个选项点Upload files
 
-![微信图片_20240916082915.png](https://image.dooo.ng/c/2024/09/16/66e77be956da5.webp)
+![微信图片_20240916082915.png](/docs/advance/_images/open-web-photo/add.png)
 
 会来到上传界面，上传你的网站源码(首页的名字要改成index)
 
 上传完后点Commit changes
 
-![微信图片_20240916083119.png](https://image.dooo.ng/c/2024/09/16/66e77c63cfbc1.webp)
+![微信图片_20240916083119.png](/docs/advance/_images/open-web-photo/add-new.png)
 
 然后你访问 你的用户名.github.io就可以访问了
 
@@ -64,22 +64,22 @@ Repository name填 你的用户名.github.io
 
 你的用户名.github.io 选择开启小黄云 点保存
 
-![微信图片_20240916091413.png](https://image.dooo.ng/c/2024/09/16/66e787097296c.webp)
+![微信图片_20240916091413.png](/docs/advance/_images/open-web-photo/origin.png)
 
 然后来到ssl/tls-自定义主机名
 
 然后选择开通,如果它提示你要绑卡的话,如果你没有卡,你可以上闲鱼买一个15块的代绑
 
 开通完成后,先在回退源那输入你刚刚创建的DNS记录origin.你的回源域名
-![微信图片_20240916091834.png](https://image.dooo.ng/c/2024/09/16/66e78777d3cb1.webp)
+![微信图片_20240916091834.png](/docs/advance/_images/open-web-photo/tianjiahuiy.png)
 
 等待到那里显示生效后 点击添加自定义主机名
-![微信图片_20240916092036.png](https://image.dooo.ng/c/2024/09/16/66e787f2550a8.webp)
+![微信图片_20240916092036.png](/docs/advance/_images/open-web-photo/tianjiazdy.png)
 
 自定义主机名填你的用来开网站的域名
 
 填完后点击添加
-![微信图片_20240916092238.png](https://image.dooo.ng/c/2024/09/16/66e7886977c18.webp)
+![微信图片_20240916092238.png](/docs/advance/_images/open-web-photo/zidingy.png)
 
 然后按照提示完成txt授权
 
@@ -87,7 +87,7 @@ Repository name填 你的用户名.github.io
 
 添加一个类型为CNAME 名称为cdn 内容为
 cf-cname.xingpingcn.top 不需要开启小黄云
-![微信图片_20240916092435.png](https://image.dooo.ng/c/2024/09/16/66e788e814078.webp)
+![微信图片_20240916092435.png](/docs/advance/_images/open-web-photo/close-yellow-cloud.png)
 
 
 然后来到你的主域名 添加DNS记录
@@ -200,25 +200,25 @@ cf-cname.xingpingcn.top 不需要开启小黄云
 以[星辰云](https://starxn.com/)的虚拟主机为例
 
 购买后点击一键登录进入面板
-![微信图片_20240921113640.png](https://image.dooo.ng/c/2024/09/21/66ee3f62d803d.webp)
+![微信图片_20240921113640.png](/docs/advance/_images/open-web-photo/xn-login.png)
 
 进入后点击文件管理
 
-![微信图片_20240921113814.png](https://image.dooo.ng/c/2024/09/21/66ee3fbb48390.webp)
+![微信图片_20240921113814.png](/docs/advance/_images/open-web-photo/wenjianguanli.png)
 
 点击上传上传源码
-![微信图片_20240921114159.png](https://image.dooo.ng/c/2024/09/21/66ee40b41eeef.webp)
+![微信图片_20240921114159.png](/docs/advance/_images/open-web-photo/shangcwenjian.png)
 
 然后点击解压
-![微信图片_20240921114409.png](https://image.dooo.ng/c/2024/09/21/66ee411b13c29.webp)
+![微信图片_20240921114409.png](/docs/advance/_images/open-web-photo/jieyazip.png)
 
 然后将解压出来的文件夹里面的源码全部复制出来
 
 然后来到域名管理
-![微信图片_20240921114622.png](https://image.dooo.ng/c/2024/09/21/66ee41a017c82.webp)
+![微信图片_20240921114622.png](/docs/advance/_images/open-web-photo/ymguanli.png)
 
 在添加域名那里输入你自己的域名
-![微信图片_20240921114806.png](https://image.dooo.ng/c/2024/09/21/66ee4210a0c32.webp)
+![微信图片_20240921114806.png](/docs/advance/_images/open-web-photo/tianxym.png)
 
 然后按照上面的域名解析解析好之后你就可以访问你的域名，看到你的网站了
 
