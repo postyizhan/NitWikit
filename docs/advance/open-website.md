@@ -17,7 +17,7 @@ sidebar_position: 8
 
 进入github.com，点击sign up
 
-![屏幕截图 2024-09-16 082129.png](/docs/advance/_images/open-web-photo/zhuc.png)
+![屏幕截图 2024-09-16 082129.png](/docs/advance/_images/open-web-photo/in.png)
 
 进入后按照提示完成注册(看不懂自己用翻译)
 
