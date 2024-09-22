@@ -25,11 +25,20 @@ sidebar_position: 5
 
 为那些没有域名的可怜人准备的,目前提供:
 
-* *.mcfun.us.kg (CloudFlare)
-* *.nitwikit.us.kg (CloudFlare)
-* *.yizhan.us.kg (CloudFlare)
-* *.playmc.imc.rip (DNSPod)
-* *.mc.imc.rip (DNSPod)
+* mcfun.us.kg (CloudFlare)
+* nitwikit.us.kg (CloudFlare)
+* yizhan.us.kg (CloudFlare)
+* playmc.imc.rip (DNSPod)
+* mc.imc.rip (DNSPod)
+* playmc.cloud-ip.biz (ClouDNS)
+
+(其实还有一些域名，但是He.net死活不让我注册就不加上了)
+
+:::tip
+
+你也可以将你的闲置域名分出来一个子域名捐赠给我们，不胜感激
+
+:::
 
 > 支持 IPV4,IPV6,CNAME,SRV 解析
 
