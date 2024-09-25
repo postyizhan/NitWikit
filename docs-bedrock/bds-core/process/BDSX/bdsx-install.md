@@ -4,13 +4,13 @@ sidebar_position: 1
 ---
 :::info
 
-作者：[雪风先生](https://github.com/Virgil692)
+作者：[雪风先生](https://github.com/virgil698)
 
 :::
 
 # BDSX 安装教程
 
-:::
+
 
 ## 前提要求：
 
@@ -21,7 +21,7 @@ sidebar_position: 1
 
 当前教程假设操作环境：Windows
 
-:::
+
 
 ## 方法一：直接下载启动
 
@@ -49,9 +49,14 @@ git clone https://github.com/bdsx/bdsx.git
 
 需要开服也是右键 `bdsx.bat` 使用管理员权限运行即可
 
-:::
+
 
 ## 方法二：使用 VSCode 调试与运行
+
+:::danger
+该方案极其不建议，可能会出现很多离谱问题！
+如果你想尝试使用该方案，请联系BDSX的Discore频道相关开发者并在他们的指导下进行！
+:::
 
 下载源代码方法请详见 **方法一**
 
@@ -65,4 +70,3 @@ git clone https://github.com/bdsx/bdsx.git
 5.按下 `F5` 以构建并运行
 ```
 
-:::
