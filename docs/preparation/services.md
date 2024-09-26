@@ -25,14 +25,28 @@ sidebar_position: 5
 
 为那些没有域名的可怜人准备的,目前提供:
 
-* mcfun.us.kg (CloudFlare)
-* nitwikit.us.kg (CloudFlare)
-* yizhan.us.kg (CloudFlare)
-* playmc.imc.rip (DNSPod)
-* mc.imc.rip (DNSPod)
-* playmc.cloud-ip.biz (ClouDNS)
+<details>
+<summary>公共域名列表</summary>
 
-(其实还有一些域名，但是He.net死活不让我注册就不加上了)
+* mcfun.us.kg 
+* nitwikit.us.kg 
+* yizhan.us.kg 
+* playmc.imc.rip 
+* mc.imc.rip 
+* llf.myredirect.us
+* mc.lookin.at
+* mcfun.findhere.org
+* mcfun.lookin.at
+* nitwikit.myfw.us
+* playmc.lookin.at
+* playmc.myfw.us
+* playmc.rr.nu
+* yizhan.findhere.org
+* yizhan.myfw.us
+* yizhan.rr.nu
+* (还有更多!)
+
+</details>
 
 :::tip
 
