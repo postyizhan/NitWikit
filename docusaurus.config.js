@@ -228,6 +228,10 @@ const config = {
                 label: 'McRes 灵依资源站',
                 href: 'https://mcres.cn/',
               },
+              {
+                label: 'Tinksp 资源站',
+                href: 'https://www.tinksp.com/',
+              },
             ],
           },
         ],
