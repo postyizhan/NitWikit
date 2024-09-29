@@ -48,6 +48,17 @@ sidebar_position: 5
 
 </details>
 
+<details>
+<summary>限制注册公共域名</summary>
+
+* wsdj.in
+
+需要群等级50级以上才可以注册
+
+已开启 DNSSEC,允许为子域名开启CF保护,允许为子域名创建 NS 记录到别的DNS(支持 DnsPod),子域名字符支持所有字符（前提是DNS支持）
+
+</details>
+
 :::tip
 
 你也可以将你的闲置域名分出来一个子域名捐赠给我们，不胜感激
