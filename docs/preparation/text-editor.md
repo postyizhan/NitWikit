@@ -45,7 +45,7 @@ VSCode 会在未保存的文件后标记一个白点，提示你这个文件编�
 
 缺点是启动速度可能不是很快，不过非常适合新手使用。(已经算是比较快的了。)
 
-官网链接：<https://code.visualstudio.com/>
+官网链接：https://code.visualstudio.com/
 
 [下载龟速怎么办](https://cn.bing.com/search?q=vscode%E4%B8%8B%E8%BD%BD%E9%BE%9F%E9%80%9F%E6%80%8E%E4%B9%88%E5%8A%9E)
 
@@ -62,7 +62,7 @@ VSCode 会在未保存的文件后标记一个白点，提示你这个文件编�
 
 我不太喜欢的一点是保存文件时，对非激活的用户有一定概率弹出个窗口，提示你去付费支持(可以选择不支持)。但这依旧是一个非常优秀的文本编辑器。
 
-官网链接：<https://www.sublimetext.com/>
+官网链接：https://www.sublimetext.com/
 
 [如何汉化](https://cn.bing.com/search?q=sublime+text%e6%b1%89%e5%8c%96&qs=SC&pq=sublimetext&sk=HS1SC5&sc=10-11&cvid=19623440FA3646E0BEBECEED995CFCAF&FORM=QBRE&sp=7&lq=0)
 
@@ -75,7 +75,7 @@ VSCode 会在未保存的文件后标记一个白点，提示你这个文件编�
 
 ![Kate](https://kate-editor.org/images/konsole.png)
 
-官网链接：<https://kate-editor.org/zh-cn/>
+官网链接：https://kate-editor.org/zh-cn/
 
 开源，跨平台，也可以秒开文件。
 
@@ -90,9 +90,9 @@ VSCode 会在未保存的文件后标记一个白点，提示你这个文件编�
 
 也是一个比较不错的文本编辑器。要求：**Windows 8 +**。
 
-官网链接: <https://rizonesoft.com/downloads/notepad3/>
+官网链接: https://rizonesoft.com/downloads/notepad3/
 
-GitHub: <https://github.com/rizonesoft/Notepad3>
+GitHub: https://github.com/rizonesoft/Notepad3
 
 </details>
 
@@ -140,11 +140,11 @@ dizhi 08年奥运会 声称(仅声明，但还是挺过分的)不同意它的政
 
 ![HbuilderX](_images/HbuilderX展示.png)
 
-官网链接：<https://dcloud.io/hbuilderx.html>
+官网链接：https://dcloud.io/hbuilderx.html
 
 一个国产的文本编辑器。
 
-#### 关联右键菜单?
+### 关联右键菜单?
 
 可以在工具→设置(Ctrl+Alt+，)打开设置，找到“常用配置”手动选中【关联右键菜单】。
 
@@ -157,7 +157,7 @@ dizhi 08年奥运会 声称(仅声明，但还是挺过分的)不同意它的政
 
 ![](https://www.geany.org/media/uploads/screenshots/homepage/.thumbnails/geany_dark_2019-05-20.png/geany_dark_2019-05-20-500x0.png)
 
-官网链接：<https://www.geany.org/>
+官网链接：https://www.geany.org/
 
 </details>
 

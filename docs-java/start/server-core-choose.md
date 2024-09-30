@@ -6,7 +6,6 @@ sidebar_position: 2
 # 服务端核心选择
 
 > 目前有三类主流的选择： Mod，插件，混合(可以装 插件+mod)
-
 > 核心只要是同版本的分支基本可以考虑后期再替换(如使用 Purpur 替换 Paper 或 Spigot等)
 > 对于插件服，这类操作几乎无感
 > 对于混合服，这有待商榷，因为各个端兼容性差异较大
@@ -36,7 +35,6 @@ Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题�
 
 高版本一般推荐使用 Fabric ，因为 Fabric 优化 Mod 多效果比较好，但是最重要的还是：如果有什么 Mod 只有 Fabric / Forge 版本而你又非玩不可，只能选择相应的核心。
 
-
 ## 插件服
 
 性能较好，是初学者最适合开的服务器，拓展性较强，配置性强，但坏处就是有的插件需自行配置后使用，客户端无需安装 Mod 。我个人推荐插件服使用 Purpur，
@@ -51,7 +49,7 @@ Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题�
 
 :::
 
-如果你不知道怎么选，我们为你提供一个简单的方法(:
+如果你不知道怎么选，我们为你提供一个简单的方法：
 
 ```mermaid
 flowchart TD
@@ -231,7 +229,6 @@ leaves基本完全支持客户端生电 Mod ，包括但不限于carpet，pca，
 - [官方](https://github.com/HomoMC/Beast)
 - [McRes](https://vip.123pan.cn/1821558579/6492155)
 
-
 </TabItem>
 </Tabs>
 
@@ -268,6 +265,8 @@ leaves基本完全支持客户端生电 Mod ，包括但不限于carpet，pca，
 
 #### Forge混合端
 
+<!--markdownlint-disable line-length-->
+
 | 名称                                                      | 介绍                                                                                                                   | 推荐与否     | 下载镜像                                                                                                                                                                | 支持版本                  |
 |---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------|
 | [Crucible](https://github.com/CrucibleMC/Crucible)      | Thermos的分支，目前还在积极维护，完全兼容Thermos                                                                                      | 推荐       | [McRes](https://www.123pan.com/s/HRhfjv-3ey8v.html)                                                                                                                 | 1.7.10                |
@@ -285,5 +284,6 @@ leaves基本完全支持客户端生电 Mod ，包括但不限于carpet，pca，
 | [Arclight-Fabric](https://github.com/IzzelAliz/Arclight) | 出现时间比banner晚，目前不太稳定                     | -    | [FastMirror](https://www.fastmirror.net/#/download/Arclight) [McRes](https://mcres.cn/downloads/arclight.html) |
 | [Cardboard](https://cardboardpowered.org/)               | 支持的版本较多，支持1.16.5-1.20.4                 | -    | [McRes](https://mcres.cn/downloads/carboard.html)                                                              |
 
-![](_images/那些服务端有后门吗.png)
+<!--markdownlint-enable line-length-->
 
+![](_images/那些服务端有后门吗.png)
