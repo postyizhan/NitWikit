@@ -89,9 +89,8 @@ build.xml就已不能正常完成构建 Residence 的任务了，不过，也有
 * residence.command.bank
 * residence.command.market
 
-以下是各个权限插件禁用相关权限的命令示例:
+以下是 [LuckPerms](../ManageTool/Permission/WhatIsPermission.md) 权限插件禁用相关权限的命令示例:
 
-#### [LuckPerm]
 ```
 lp group default permission set residence.command.bank false
 ```
