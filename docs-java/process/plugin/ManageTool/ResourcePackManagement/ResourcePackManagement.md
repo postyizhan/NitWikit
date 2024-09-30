@@ -1,7 +1,7 @@
 ---
 title: 资源包插件
 slug: /ResourcePackManagement
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # 概览
