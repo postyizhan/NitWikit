@@ -79,15 +79,13 @@ https://wiki.helpch.at/helpchat-plugins/deluxemenus/files
 
 ### TrMenu
 
-#### v3
-
 https://hhhhhy.gitbook.io/trmenu-v3/menu/action/types#kua-fu-chuan-song
 
 ```
 - 'server: Lobby'
 ```
 
-#### v4 Invero
+### Invero
 
 文档没写
 
