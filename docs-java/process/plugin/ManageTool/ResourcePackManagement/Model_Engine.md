@@ -35,6 +35,8 @@ sidebar_position: 3
 
 :::info
 
+`SpigotMC` https://www.spigotmc.org/resources/.112913/
+
 `mythiccraft` https://mythiccraft.io/index.php?resources/.1213/
 
 `文档(英文)` https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home
