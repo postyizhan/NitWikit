@@ -29,9 +29,9 @@ sidebar_position: 4
 /papi parse me %checkitem_remove_diamond%
 ```
 
-在 [启用give和remove](#启用give和remove) 后,跑一下图中的变量会收取玩家所有的钻石
+在 [启用give和remove](#启用give和remove) 后，跑一下图中的变量会收取玩家所有的钻石
 
-变量中 **remove** 的位置在作者项目的 README 中,并没有名字,其实这个地方决定了这个变量的效果
+变量中 **remove** 的位置在作者项目的 README 中，并没有名字，其实这个地方决定了这个变量的效果
 
 如果没有 **remove** 那么这个变量就会判断玩家是否拥有这个物品
 
@@ -48,7 +48,7 @@ sidebar_position: 4
 - amount 查看数量    %checkitem_amount_mat:diamond%  // 查看玩家背包中的钻石数量
 - getinfo 物品信息   %checkitem_getinfo:0%           // 查看玩家槽位0的物品信息
 
-你应该注意到了 `mat:diamond` ,因为我写了diamond所以这些变量的功能是针对钻石的
+你应该注意到了 `mat:diamond` ，因为我写了diamond所以这些变量的功能是针对钻石的
 
  > mat是 material 的缩写
 
@@ -64,7 +64,7 @@ sidebar_position: 4
 
 :::note
 
-不同修饰符使用英文逗号“,”来连接
+不同修饰符使用英文逗号“，”来连接
 
 如同上面的 `%checkitem_remove_mat:diamond,amt:10%`
 
