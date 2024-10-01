@@ -3,21 +3,21 @@ title: BungeeCord 端
 sidebar_position: 1
 ---
 
-# BungeeCord 端
+## BungeeCord 端
 
 支持 _BungeeCord/Waterfall_ 的插件
 
-# 只安装在跨服端
+### 只安装在跨服端
 
-## HuskChat
+### HuskChat
 
 同 [Velocity 一侧的讲解](velocity.md#huskchat)
 
-## Sonar
+### Sonar
 
 同 [Velocity 一侧的讲解](velocity.md#sonar)
 
-## AuthMeBungee
+### AuthMeBungee
 
 :::info
 
@@ -31,11 +31,11 @@ sidebar_position: 1
 
 如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服
 
-# 可安装在跨服端或子服
+## 可安装在跨服端或子服
 
 这一分类中的插件有单端版和跨服端版，你可以删除单端版使用跨服端版。
 
-## MiniMOTD
+### MiniMOTD
 
 :::info
 
@@ -53,7 +53,7 @@ sidebar_position: 1
 
 :::
 
-## ViaVersion
+### ViaVersion
 
 :::info
 
@@ -71,7 +71,7 @@ sidebar_position: 1
 
 :::
 
-## SkinsRestorer
+### SkinsRestorer
 
 [插件 | 皮肤 - skinsRestorer](/docs-java/process/plugin/other/SkinsRestorer.md)
 
@@ -81,7 +81,7 @@ sidebar_position: 1
 
 :::
 
-## Geyser
+### Geyser
 
 :::info
 
@@ -98,11 +98,11 @@ sidebar_position: 1
 
 :::
 
-# 装在跨服端或+子服端
+## 装在跨服端或+子服端
 
 这类插件可以只装在跨服端，但同时在子服安装可以有更多的功能。
 
-## PlayerBalancer
+### PlayerBalancer
 
 :::info
 
@@ -116,7 +116,7 @@ sidebar_position: 1
 
 可以用来设置多个子大厅，设置主大厅，并按照你配置的方式发送玩家到子服。
 
-## ServerUtils
+### ServerUtils
 
 :::info
 
@@ -124,15 +124,15 @@ sidebar_position: 1
 
 :::
 
-## Tab
+### Tab
 
 同 [Velocity 一侧的讲解](velocity.md#tab)
 
-# 装在跨服端+子服端
+## 装在跨服端+子服端
 
 这类插件必须要同时安装在跨服端和子服。
 
-## PAPIProxyBridge
+### PAPIProxyBridge
 
 :::info
 
