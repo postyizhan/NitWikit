@@ -29,8 +29,4 @@ sidebar_label: 保护 - WorldGuard
 
 ## 前置
 
-任选一个即可
-
-WorldEdit：https://www.minebbs.com/resources/worldedit-bukkit-1-7-1-20.7429/
-
-FastAsyncWorldEdit：https://www.minebbs.com/resources/fastasyncworldedit-we.9075/
+[WorldEdit](./WorldEdit.md) 或 [FastAsyncWorldEdit](./FastAsyncWorldEdit.md)

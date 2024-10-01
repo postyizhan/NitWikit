@@ -26,3 +26,7 @@ sidebar_label: 地皮 - PlotSquared
 ## 免费下载?
 
 可自行构建
+
+## 前置
+
+[WorldEdit](../WorldManagement/WorldEdit.md) 或 [FastAsyncWorldEdit](../WorldManagement/FastAsyncWorldEdit.md)
