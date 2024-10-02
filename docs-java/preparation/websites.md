@@ -293,8 +293,6 @@ https://www.mcmod.cn
 
 在这可以翻旧帖子 https://archive.mcbbs.run
 
-https://www.mcmod.cn
-
 </details>
 
 ## MOTD 生成网站
