@@ -143,14 +143,14 @@ above-bedrock-nether-building: false
 
 :::
 
-## Floodagte
+## floodagte
 
 为进一步兼容，你需要安装 [floodgate](https://geysermc.org/download#floodgate)
 
 floodgate 可作为一个插件安装到 Spigot 及其分支的核心上或 BungeeCord、Velocity 之类的代理上
 群组服/独立版 Geyser 的 Floodgate 安装需要进行一些额外步骤，请跟随教程完成
 
-Floodgate 是一个允许 **Minecraft 基岩版** 帐号加入 **Minecraft Java版** 正版服务器而无需其 **正版账号** 的混合模式插件
+floodgate 是一个允许 **Minecraft 基岩版** 帐号加入 **Minecraft Java版** 正版服务器而无需其 **正版账号** 的混合模式插件
 
 但 **不止于此**
 
