@@ -42,12 +42,6 @@ sidebar_position: 4
 
 交流群：325014486
 
-## Invero
-
-Invero 俗称 TrMenu v4
-
-详情请见 [Invero](Invero.md)
-
 ## 案例
 
 :::warning
@@ -92,6 +86,22 @@ Invero 俗称 TrMenu v4
       - condition: 'tell 想不到骚话'
       - condition: 'tell 想不到骚话'
       - condition: 'tell 想不到骚话'
+```
+
+特别的，写在此处的语句要比 name，lore 等位置先执行，下方是一个使用此特性的案例
+
+```yaml
+  'A':
+    display:
+      material: stone
+    icons:
+      - condition: 'meta set mat to stone'
+      - condition: 'tell meta get mat'
+      - condition: 'meta set amt to 10'
+    actions:
+      all:
+        tell meta get mat
+        papi join [ '%checkitem_remove_mat:' meta get mat ',amt:' meta get amt '%' ]
 ```
 
 ![](_images/子图标写动作.png)

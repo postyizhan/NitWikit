@@ -40,6 +40,35 @@ sidebar_position: 6
       - 'refresh: A'
 ```
 
+### 升级制vip
+
+<!--markdownlint-disable line-length-->
+
+```yaml
+  'A':
+    display:
+      material: stone
+      update: 20
+    icons:
+      - condition: 'perm rank.vip+'
+        display:
+          lore: '最顶级vip'
+      - condition: 'perm rank.vip'
+        display:
+          lore: '你是普通玩家，点击花费20金币升级到vip+'
+        actions:
+          all:
+            - 'command inline "lp user {{player name}} permission set rank.vip+ true" as console {condition=check papi %vault_eco_balance% >= 20}'
+      - condition: 'perm rank.default'
+        display:
+          lore: '你是普通玩家，点击花费10金币升级到vip'
+        actions:
+          all:
+            - 'command inline "lp user {{player name}} permission set rank.vip true" as console {condition=check papi %vault_eco_balance% >= 10}'
+```
+
+<!--markdownlint-enable line-length-->
+
 用权限的好处是适用性广，不过对op不太方便，因为op所有权限都是true嘛
 
 ## 限时权限

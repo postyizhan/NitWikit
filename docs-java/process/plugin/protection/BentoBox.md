@@ -19,7 +19,6 @@ sidebar_label: 领域 - BentoBox
 
 `文档(中文)` https://docs.bentobox.world/zh/latest/
 
-
 :::
 
 著名的领域生存插件。

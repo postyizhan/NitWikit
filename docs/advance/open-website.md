@@ -228,36 +228,42 @@ cf-cname.xingpingcn.top 不需要开启小黄云
 如果你觉得这个源码不适合你，或者是你不想用别人的源码，你可以尝试去自学。这里就不附上自学的教程了
 
 ## 使用NamelessMC搭建网站服务
+
 ### 使用宝塔面板搭建
+
 :::warning
 
 如果你的域名没有备案的话，请不要购买国内的服务器(因为工信部为了打击不良网站,所以只要在国内的虚拟主机或服务器要进行建站的话，域名需要备案)
 
 :::
+
 #### 要准备的
+
 namelessmc的配置要求原文要求的是
 
 PHP 7.4、8.0或8.1（推荐），具有以下扩展：
- 
- php curl
- 
- php-exif
- 
- php-gd支持png和jpeg
- 
- php mbstring
- 
- php-mysql或php-mysqlnd
- 
- php pdo
- 
- php xml
+
+  php curl
+
+  php-exif
+
+  php-gd支持png和jpeg
+
+  php mbstring
+
+  php-mysql或php-mysqlnd
+
+  php pdo
+
+  php xml
 还有MySQL 5.7.22或更高 或 MariaDB 10.2或更高
 
 还有一台安装了Apache或NGINX或Caddy的服务器
 
 这些宝塔面板都有(除php插件外)
+
 #### 正式开始
+
 :::warning
 
 接下来的教程都默认你安装了所有依赖和有公网ip
@@ -302,5 +308,3 @@ PHP 7.4、8.0或8.1（推荐），具有以下扩展：
 ![](_images/open-web-photo/index.png)
 
 如果你看到这个界面那么如果你是第1次使用宝塔面板搭建网站，那么恭喜你，你成功了
-
-
