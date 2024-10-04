@@ -27,7 +27,7 @@ Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题�
 
 帮你选择服务端，并自动下载!
 
-[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/select-server.exe)
+[下载](https://dl.yizhan.wiki/windows-latest/select-server.exe)
 
 ## Mod 服
 

@@ -19,7 +19,7 @@ sidebar_position: 4
 
 # 更简单的
 
-自动优化脚本，[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-optimize.exe)，在服务器根目录执行，目前支持CraftBukkit，Spigot，Paper，PufferFish，Purpur，Gale，Leaf
+自动优化脚本，[下载](https://dl.yizhan.wiki/windows-latest/auto-optimize.exe)，在服务器根目录执行，目前支持CraftBukkit，Spigot，Paper，PufferFish，Purpur，Gale，Leaf
 
 # 网络优化
 

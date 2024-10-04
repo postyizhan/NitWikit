@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ## 方法零: 使用笨蛋脚本
 
-首先下载[安装脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/liteloaderbds-install.exe)，下载完后右键**以管理员启动**即可
+首先下载[安装脚本](https://dl.yizhan.wiki/windows-latest/liteloaderbds-install.exe)，下载完后右键**以管理员启动**即可
 
 :::tip
 

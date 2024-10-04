@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## 笨蛋脚本
 
-下载此[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/generate-script.exe)，回答几个问题就可以为你自动生成启动脚本!!
+下载此[脚本](https://dl.yizhan.wiki/windows-latest/generate-script.exe)，回答几个问题就可以为你自动生成启动脚本!!
 
 <details>
 <summary>直接在终端里敲命令来启动?</summary>

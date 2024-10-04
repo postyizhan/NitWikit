@@ -25,7 +25,7 @@ sidebar_position: 2
 
 #### 自动版
 
-请使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
+请使用[笨蛋脚本](https://dl.yizhan.wiki/windows-latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
 
 #### 特征使用随机种子
 
@@ -96,7 +96,7 @@ feature-seeds:
 
 #### 自动版
 
-使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
+使用[笨蛋脚本](https://dl.yizhan.wiki/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
 
 ⚠警告：`engine-mode: 3` 在 `paper 1.19.3` 往后的版本才添加⚠
 

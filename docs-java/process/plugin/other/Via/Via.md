@@ -59,7 +59,7 @@ ViaVersion+ViaBackwards+ViaRewind
 
 ## 笨蛋脚本
 
-[下载](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/via-setup.exe)，为你自动配置 Via
+[下载](https://dl.yizhan.wiki/windows-latest/via-setup.exe)，为你自动配置 Via
 
 ## FAQ
 

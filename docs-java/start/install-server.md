@@ -14,7 +14,7 @@ sidebar_position: 3
 全篇以 1.20.4 Mod 服务端安装为例子
 
 如果你看不懂可以使用
-[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/select-server.exe)，
+[笨蛋脚本](https://dl.yizhan.wiki/windows-latest/select-server.exe)，
 目前不支持 Fabric
 
 ## Forge

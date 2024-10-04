@@ -58,6 +58,18 @@ sidebar_position: 4
 pip install pyyaml install-jdk tqdm psutil requests rtoml
 ```
 
+## 加速下载
+
+考虑到国内 GitHub 的牛逼访问速度,我们为笨蛋脚本提供了下载镜像
+
+比如我拿到的 GitHub 链接是
+
+```
+https://github.com/lilingfengdev/NitWiki-Script/releases/download/ubuntu-latest/auto-antiseedcracker.bin
+```
+
+替换`https://github.com/lilingfengdev/NitWiki-Script/releases/download `为`https://dl.yizhan.wiki`就可以体验极速下载
+
 ## 了解
 
 在启动这个脚本之前，你应该 **明白你正在干什么，会导致什么后果**，以优化脚本举例，你应该明白，执行这个脚本之后，村民的 AI 会受到限制，变得有点傻(当然不止这个，还有其他后果，此处不详谈)。
