@@ -163,7 +163,7 @@ https://www.minebbs.com/resources/invero-gui-ia.9237/
 
 https://www.minebbs.com/resources/invero-tpa.9240/
 
-<!-- ### 称号系统
+### 称号系统
 
 [查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/inv-称号系统.yml) -->
 

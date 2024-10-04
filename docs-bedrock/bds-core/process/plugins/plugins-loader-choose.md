@@ -153,7 +153,7 @@ import TabItem from '@theme/TabItem';
 
 总之，在这场 PDB 事件风波不久后，很多基岩版腐竹都转移到 Java版服务端，以求后路。
 
-不过，[EndStone](./plugins-loader-choose.md?plugins-loader=endstone#热门加载器) 的出现貌似给基岩版服务端带来了希望。
+不过，[EndStone](./plugins-loader-choose.md?plugins-loader=endstone#主流加载器) 的出现貌似给基岩版服务端带来了希望。
 
 ### LiteLoader 宣布停更(2023年10月份)
 
