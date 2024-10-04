@@ -62,11 +62,7 @@ pip install pyyaml install-jdk tqdm psutil requests rtoml
 
 考虑到国内 GitHub 的牛逼访问速度,我们为笨蛋脚本提供了下载镜像
 
-比如我拿到的 GitHub 链接是
-
-```
-https://github.com/lilingfengdev/NitWiki-Script/releases/download/ubuntu-latest/auto-antiseedcracker.bin
-```
+比如我拿到的 GitHub 链接是`https://github.com/lilingfengdev/NitWiki-Script/releases/download/ubuntu-latest/auto-antiseedcracker.bin`
 
 替换`https://github.com/lilingfengdev/NitWiki-Script/releases/download `为`https://dl.yizhan.wiki`就可以体验极速下载
 
