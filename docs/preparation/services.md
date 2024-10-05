@@ -10,9 +10,9 @@ sidebar_position: 5
 
 目前包括
 
-- [笨蛋 AI](https://ai.yizhan.wiki) - AI 聊天,文字生成图片
-- [笨蛋镜像](https://mirror.yizhan.wiki) - 加速网站的访问(为没有 VPN 的人准备)
-- [笨蛋图床](https://image.yizhan.wiki) - 简洁,免费的图床
+- [笨蛋 AI](https://ai.yizhan.wiki) - AI 聊天，文字生成图片
+- ~~[笨蛋镜像](https://mirror.yizhan.wiki) - 加速网站的访问(为没有 VPN 的人准备)~~ 由于一些特殊原因,已关闭
+- [笨蛋图床](https://image.yizhan.wiki) - 简洁，免费的图床
 - [笨蛋粘贴板](https://paste.yizhan.wiki) - 上传文件/创建 Paste!(不要当网盘)
 - [笨蛋笔记本](https://notepad.yizhan.wiki) - 免费笔记本，支持密码，Markdown 和分享
 - [笨蛋短链](https://url.yizhan.wiki) - 缩短链接
@@ -91,23 +91,23 @@ sidebar_position: 5
 
 :::
 
-# 机器人命令
+## 机器人命令
 
 在群内发送消息即可使用！
 
 ![](_images/机器人命令/mcping.png)
 
-## `mcping`
+### `mcping`
 
 打印 mc 服务器信息。
 
 用法：
 
-```
+```text
 mcping <服务器地址>
 ```
 
-## 消息回复
+### 消息回复
 
 消息回复关键词要加前缀 `#`
 
