@@ -31,8 +31,6 @@ sidebar_position: 5
 - mcfun.us.kg
 - nitwikit.us.kg
 - yizhan.us.kg
-- playmc.imc.rip
-- mc.imc.rip
 - llf.myredirect.us
 - mc.lookin.at
 - mcfun.findhere.org
