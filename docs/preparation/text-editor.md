@@ -47,6 +47,8 @@ VSCode 会在未保存的文件后标记一个白点，提示你这个文件编�
 
 ~~当年 TrMenu 的自动重载治好了我的 autosave~~
 
+[Windows 下载镜像](https://dl.yizhan.wiki/plugins/VSCodeUserSetup-x64-1.94.0.exe)
+
 [下载龟速怎么办](https://cn.bing.com/search?q=vscode%E4%B8%8B%E8%BD%BD%E9%BE%9F%E9%80%9F%E6%80%8E%E4%B9%88%E5%8A%9E)
 
 [VSCode 视频安装教程](https://www.bilibili.com/video/BV1nM4m117Fv/?share_source=copy_web)
