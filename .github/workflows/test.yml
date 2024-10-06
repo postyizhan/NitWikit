@@ -30,4 +30,4 @@ jobs:
           globs: 'docs*/**/*.md'
 
       - name: "Build"
-        run: "pnpm run --parallel build"
+        run: "pnpm run build"
