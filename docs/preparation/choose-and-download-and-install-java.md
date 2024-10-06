@@ -73,17 +73,19 @@ MOD 服务端
 ## 直接下载
 
 :::warning
+
 此处下载链接可能不是最新版，如需下载最新版请跳转至 [手动下载](#%E6%89%8B%E5%8A%A8%E4%B8%8B%E8%BD%BD)
+
 :::
 
 <!--markdownlint-disable line-length-->
 
-| Java 版本 | 下载链接                                                                                                                              |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Java 8  | [Dragonwell 8](https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.19.20/Alibaba_Dragonwell_Extended_8.19.20_x64_windows.zip)            |
-| Java 11 | [Dragonwell 11](https://dragonwell.oss-cn-shanghai.aliyuncs.com/11.0.23.20.9/Alibaba_Dragonwell_Extended_11.0.23.20.9_x64_windows.zip) |
-| Java 17 | [Azul Zulu](https://www.azul.com/core-post-download/?endpoint=zulu&uuid=e5cf71d2-4ea2-4de7-b9e0-aaea20374fe8)                          |
-| Java 21 | [GraalVM EE](https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip)                                         |
+| Java 版本 | 下载链接                                                                                                                                                                      |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Java 8  | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.19.20/Alibaba_Dragonwell_Extended_8.19.20_x64_windows.zip)                                                 |
+| Java 11 | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/11.0.23.20.9/Alibaba_Dragonwell_Extended_11.0.23.20.9_x64_windows.zip)                                       |
+| Java 17 | [GraalVM](https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_windows-x64_bin.zip)  [Zulu](https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jdk21.0.4-win_x64.zip)  |
+| Java 21 | [GraalVM](https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip)  [Zulu](https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-win_x64.zip) |
 
 <!--markdownlint-enable line-length-->
 
