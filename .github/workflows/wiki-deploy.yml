@@ -51,7 +51,7 @@ jobs:
 
       # 构建
       - name: Build
-        run: pnpm run --parallel build
+        run: pnpm run build
 
       # 部署
       - name: Deploy
