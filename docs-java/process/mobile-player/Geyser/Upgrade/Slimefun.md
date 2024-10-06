@@ -13,11 +13,11 @@ sidebar_position: 2
 
 ## 下载
 
-第一步，下载[资源包](https://qcymc.cloud/f/QWRHo/Slimefun.mcpack)，安装到 `服务端/geyser/packs` 文件夹
+第一步，下载[资源包](https://dl.yizhan.wiki/plugins/Slimefun.mcpack)，安装到 `服务端/geyser/packs` 文件夹
 
 ![](_image/Geyser4.png)
 
-第二步，下载[Mapping](https://qcymc.cloud/f/R6DT5/RYSurvival-SlimefunMapping.jar)，安装到 `服务端/geyser/extensions` 文件夹
+第二步，下载[Mapping](https://dl.yizhan.wiki/plugins/RYSurvival-SlimefunMapping.jar)，安装到 `服务端/geyser/extensions` 文件夹
 
 ![](Extended/_image/Geyser5.png)
 
