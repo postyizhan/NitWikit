@@ -3,6 +3,8 @@ title: 其他作弊类型
 sidebar_position: 2
 ---
 
+<!--markdownlint-disable no-duplicate-heading-->
+
 # 其他作弊类型
 
 为什么常规的反作弊插件不会包括部分作弊类型？
@@ -23,7 +25,7 @@ sidebar_position: 2
 
 #### 自动版
 
-请使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
+请使用[笨蛋脚本](https://dl.yizhan.wiki/windows-latest/auto-antiseedcracker.exe)，在服务器根目录执行即可自动配置!!
 
 #### 特征使用随机种子
 
@@ -35,9 +37,9 @@ sidebar_position: 2
 feature-seeds:
   generate-random-seeds-for-all: true
 ```
-> 这是对每个建筑使用随机种子，防止你的世界种子轻易的被破解
 
-> 如果发现你的 `spigot.yml` 中出现了类似以下的配置配置就成功了，你可以修改其中的种子。（但其实不改也完全没问题）
+> 这是对每个建筑使用随机种子，防止你的世界种子轻易的被破解
+> 如果发现你的 `spigot.yml` 中出现了类似以下的配置配置就成功了，你可以修改其中的种子。(但其实不改也完全没问题)
 
 ```yaml
     seed-village: 10387312
@@ -74,7 +76,7 @@ feature-seeds:
 
 :::danger[特别注意]
 
-开启 Leaf 安全种子之前，你要明白这玩意儿是**不能关闭的**,也就是说，你开启后，除非你删档重开，不然必须使用安全种子
+开启 Leaf 安全种子之前，你要明白这玩意儿是**不能关闭的**，也就是说，你开启后，除非你删档重开，不然必须使用安全种子
 
 :::
 
@@ -94,7 +96,7 @@ feature-seeds:
 
 #### 自动版
 
-使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
+使用[笨蛋脚本](https://dl.yizhan.wiki/windows-latest/auto_antixray.exe)，在服务器根目录执行脚本即可自动配置!!
 
 ⚠警告：`engine-mode: 3` 在 `paper 1.19.3` 往后的版本才添加⚠
 
@@ -220,6 +222,7 @@ anticheat:
     update-radius: 2
     use-permission: false
 ```
+
 ![test](_images/anticheat/antixray-mode3-1.png)
 </details>
 
@@ -258,6 +261,7 @@ anticheat:
     use-permission: false
 
 ```
+
 ![test](_images/anticheat/antixray-mode1-1.png)
 </details>
 
@@ -297,12 +301,13 @@ anticheat:
     update-radius: 2
     use-permission: false
 ```
+
 ![test](_images/anticheat/antixray-nether-mode2.png)
 
 </details>
 
 <details>
-  <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般（但下届合金一定会被隐藏）*</summary>
+  <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般(但下届合金一定会被隐藏)*</summary>
 
 ```yaml
 anticheat:
@@ -367,7 +372,7 @@ anticheat:
     enabled: false
 ```
 
-注意，如果你需要隐藏暴露在空气中的方块,需要将 `air` 添加到 `hidden-blocks` 和 `replacement-blocks` ，但这非常影响性能，不推荐。
+注意，如果你需要隐藏暴露在空气中的方块，需要将 `air` 添加到 `hidden-blocks` 和 `replacement-blocks` ，但这非常影响性能，不推荐。
 
 :::info
 
@@ -381,23 +386,29 @@ anticheat:
 
 #### RayTraceAntiXray
 
-[RayTraceAntiXray](https://builtbybit.com/resources/raytraceantixray.24914/)，[开源](https://github.com/stonar96/RayTraceAntiXray)付费且仅售 7 美元。
+[RayTraceAntiXray](https://builtbybit.com/resources/raytraceantixray.24914/)，
+[开源](https://github.com/stonar96/RayTraceAntiXray)付费且仅售 7 美元。
 
 是一款用于隐藏 paper 服务器中使用 `engine-mode: 1` 时暴露在空气中的未隐藏方块的插件。
 
 其使用了异步多线程光线追踪，判断玩家是否能看到目标方块，从而在玩家能够看到目标方块时发送真实方块信息。
 
-可以优化自带的 Anti-Xray ，减小服务器的带宽开销，如需构建请自行构建。
+可以优化自带的 Anti-Xray ，减小服务器的带宽开销(甚至比不使用Anti-Xray的宽带占用还低!)，如需构建请自行构建。
 
 #### RaytraceAntiXray
 
-一个功能非常多的反X光插件，支持隐藏方块（并且支持XMat命名),隐藏，箱子，刷怪笼之类的,作者现在正在编写结构隐藏
+一个功能非常多的反X光插件，支持隐藏方块(并且支持XMat命名)，隐藏，箱子，刷怪笼之类的，作者现在正在编写结构隐藏
 
 [购买链接](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/) 有点小贵
+
+#### Xrai (服务器在国内不推荐)
+
+Xrai 通过 AI 分析玩家是否开启 XRay，并在发现时运行指定操作来帮助您管理您的服务器。
+
+但是该插件的服务器位于国外，所以国内访问会较慢
 
 :::warning
 
 在使用 Paper 及其 Fork 时。请停止使用 [Orebfuscator](https://modrinth.com/plugin/orebfuscator) 等假矿插件。换用 Paper 自带的 Anti-Xray。
 
 :::
-

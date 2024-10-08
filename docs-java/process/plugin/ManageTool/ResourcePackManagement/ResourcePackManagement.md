@@ -1,18 +1,18 @@
 ---
 title: 资源包插件
 slug: /ResourcePackManagement
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 # 概览
 
-现在，资源包（或者说材质包）能做的事越来越多，在高版本已经有了一个新的服务器类别。
+现在，资源包(或者说材质包)能做的事越来越多，在高版本已经有了一个新的服务器类别。
 
 很多人用 **IA 服** 来代指这一类服务器。
 
 :::note
 
-因为 ItemsAdder（ia）太有名于是所有类似服务器都被称为 ia 服了
+因为 ItemsAdder(ia)太有名于是所有类似服务器都被称为 ia 服了
 
 :::
 
@@ -21,35 +21,35 @@ sidebar_position: 6
 <details>
   <summary>点击展开</summary>
 
-**全新的武器装备**
+全新的武器装备：
 
 ![](_images/1.png)
 
-**独特的装扮**
+独特的装扮：
 
 ![](_images/2.png)
 
-**新的 GUI 界面**
+新的 GUI 界面：
 
 ![](_images/3.png)
 
-**称号或表情包**
+称号或表情包：
 
 ![](_images/4.png)
 
 ![](_images/5.png)
 
-**家具或装饰**
+家具或装饰：
 
 ![](_images/6.png)
 
-**新的生物或 boss**
+新的生物或 boss：
 
 ![](_images/7.png)
 
 ![](_images/8.png)
 
-**以及更多你想不到的内容**
+以及更多你想不到的内容...
 
 </details>
 

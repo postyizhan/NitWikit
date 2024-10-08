@@ -22,16 +22,16 @@ sidebar_position: 2
 <details>
     <summary>插件自己动♂</summary>
 
-像 Luckperms、 EssentialX 等，只要你的服务器和客户端的语言为简体中文，它们会自动设置为中文。
+像 LuckPerms、 EssentialX 等，只要你的服务器和客户端的语言为简体中文，它们会自动设置为中文。
 
 </details>
 
 <details>
     <summary>配置文件改语言</summary>
 
-像 HoloMobHealth、 Gsit 等，你可以在插件配置文件中(一般在 config.yml 中)找到 Language ， lang 等字眼。
+像 HoloMobHealth、 GSit 等，你可以在插件配置文件中(一般在 config.yml 中)找到 Language ， lang 等字眼。
 
-然后把语言项改成 zhcn、 chinese 等，具体应该写什么这地方。插件配置的注释可能提到，没提到那得靠你自己寻找了。
+然后把语言项改成 zh_CN、 Chinese 等，具体应该写什么这地方。插件配置的注释可能提到，没提到那得靠你自己寻找了。
 
 **有时**可以用压缩软件打开插件 jar 文件找找：
 
@@ -48,11 +48,15 @@ sidebar_position: 2
 
 ### GPT汉化？
 
-口令参考
+口令参考：
 
-```
+<!--markdownlint-disable line-length-->
+
+```text
 请将我给出的以 yml 格式存储的 Minecraft 插件的配置文件汉化，且不改变本身的可执行性，其中被两个 % 包裹的为变量请不要翻译，请翻译时不要带翻译腔，而是要翻译得自然、流畅和地道，使用优美和高雅的表达方式并代入 Minecraft 游戏内进行翻译，翻译后请以 markdown 代码块的格式发送
 ```
+
+<!--markdownlint-enable line-length-->
 
 备注：本教程并非推荐服主通过 GPT 等 AI 进行机翻，我们不对服主利用 AI 产生文本的行为及其内容负责。
 

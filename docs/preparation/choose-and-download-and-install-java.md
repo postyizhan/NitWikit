@@ -7,16 +7,22 @@ sidebar_position: 1
 
 你的服务端和客户端都需要安装 Java 才能运行。各个游戏版本需要安装的 Java 版本不同。
 
-原则上选择最新的兼容的 Java 版本，可以体验到最新的优化，并且大部分现代插件对最新版的特性有优化（比如 AuthMeReReload）。
+原则上选择最新的兼容的 Java 版本，可以体验到最新的优化，并且大部分现代插件对最新版的特性有优化(比如 AuthMeReReload)。
 
 <details>
   <summary>JRE 和 JDK 是什么? 我该怎么选择?</summary>
 
-JRE (Java Runtime Enviroment) 是 Java 的运行环境。面向 Java 程序的使用者，而不是开发者。如果你仅下载并安装了 JRE，那么你的系统只能运行 Java 程序。JRE 是运行 Java 程序所必须环境的集合，包含 JVM 标准实现及 Java 核心类库。它包括 Java 虚拟机、Java 平台核心类和支持文件。它不包含开发工具(编译器、调试器等)
+JRE (Java Runtime Enviroment) 是 Java 的运行环境。面向 Java 程序的使用者，而不是开发者。如果你仅下载并安装了 JRE，那么你的系统只能运行 Java 程序。
+JRE 是运行 Java 程序所必须环境的集合，包含 JVM 标准实现及 Java 核心类库。它包括 Java 虚拟机、Java 平台核心类和支持文件。它不包含开发工具(编译器、调试器等)
 
-JDK (Java Development Kit) 又称 J2SDK (Java2 Software Development Kit)，是 Java 开发工具包，它提供了 Java 的开发环境 (提供了编译器 javac 等工具，用于将 java 文件编译为 class 文件) 和运行环境 (提供了 JVM 和 Runtime 辅助包，用于解析 class 文件使其得到运行)。如果你下载并安装了 JDK，那么你不仅可以开发 Java 程序，也同时拥有了运行 Java 程序的平台。JDK 是整个 Java 的核心，包括了 Java 运行环境 (JRE)，一堆 Java 工具 tools.jar 和 Java 标准类库 (rt.jar)
+JDK (Java Development Kit) 又称 J2SDK (Java2 Software Development Kit)，是 Java 开发工具包，它提供了 Java 的开发环境
+(提供了编译器 javac 等工具，用于将 java 文件编译为 class 文件)
+和运行环境 (提供了 JVM 和 Runtime 辅助包，用于解析 class 文件使其得到运行)。
+如果你下载并安装了 JDK，那么你不仅可以开发 Java 程序，也同时拥有了运行 Java 程序的平台。JDK 是整个 Java 的核心，包括了 Java 运行环境 (JRE)，一堆 Java 工具 tools.jar 和
+Java 标准类库 (rt.jar)
 
-**总结: 只开服务端下载 JRE 即可，JDK 也没问题**
+总结: 只开服务端下载 JRE 即可，JDK 也没问题
+
 </details>
 
 ## 选择版本
@@ -40,31 +46,48 @@ MOD 服务端
 ### 混合服务端(CatServer 等)
 
 #### CatServer
+
 | Minecraft 版本   | 最低版本 | 推荐版本 |
 |-----------------|---------|---------|
 | 1.12.2          | Java 8  | Java 8  |
 | 1.16.5          | Java 8  | Java 11 |
 | 1.18.2          | Java 17 | Java 17 |
 
-#### MohistMC
+#### Mohist
+
 | Minecraft 版本   | 最低版本 | 推荐版本 |
 |-----------------|---------|---------|
 | 1.7.10          | Java 8  | Java 8  |
 | 1.16.5          | Java 11 | Java 11 |
 | 1.18.2 - 1.20.2 | Java 17 | Java 17 |
 
+#### SpongeForge
+
+| Minecraft 版本   | 最低版本 | 推荐版本 |
+|-----------------|---------|---------|
+| 1.8 - 1.12.2    | Java 8  | Java 8  |
+| 1.16.5(吐槽:就你特殊) | Java 17 | Java 17 |
+| 1.19.4          | Java 17 | Java 17 |
+| 1.20.6， 1.21.1  | Java 21 | Java 21 |
+
 ## 直接下载
 
 :::warning
+
 此处下载链接可能不是最新版，如需下载最新版请跳转至 [手动下载](#%E6%89%8B%E5%8A%A8%E4%B8%8B%E8%BD%BD)
+
 :::
 
-| Java 版本 | 下载链接                                                                                                                                   |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Java 8  | [Dragonwell 8](https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.19.20/Alibaba_Dragonwell_Extended_8.19.20_x64_windows.zip)            |
-| Java 11 | [Dragonwell 11](https://dragonwell.oss-cn-shanghai.aliyuncs.com/11.0.23.20.9/Alibaba_Dragonwell_Extended_11.0.23.20.9_x64_windows.zip) |
-| Java 17 | [Azul Zulu](https://cdn.azul.com/zulu/bin/zulu22.32.15-ca-jdk22.0.2-win_x64.zip)                                                       |
-| Java 21 | [GraalVM EE](https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip)                                         |
+<!--markdownlint-disable line-length-->
+
+| Java 版本 | 下载链接                                                                                                                                                                      |
+|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Java 8  | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.19.20/Alibaba_Dragonwell_Extended_8.19.20_x64_windows.zip)                                                 |
+| Java 11 | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/11.0.23.20.9/Alibaba_Dragonwell_Extended_11.0.23.20.9_x64_windows.zip)                                       |
+| Java 17 | [GraalVM](https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_windows-x64_bin.zip)  [Zulu](https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jdk21.0.4-win_x64.zip)  |
+| Java 21 | [GraalVM](https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip)  [Zulu](https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-win_x64.zip) |
+
+<!--markdownlint-enable line-length-->
 
 :::danger
 
@@ -101,7 +124,7 @@ MOD 服务端
 https://www.java.com/zh-CN/download/
 </details>
 
-如果你想进行 JVM 优化,请看 [JVM 优化](https://yizhan.wiki/NitWikit/Java/optimize/jvm)
+如果你想进行 JVM 优化，请看 [JVM 优化](https://yizhan.wiki/NitWikit/Java/optimize/jvm)
 
 ## 验证 Java 安装
 
@@ -113,7 +136,7 @@ https://www.java.com/zh-CN/download/
 
 输入：
 
-```
+```shell
 java -version
 ```
 
@@ -131,10 +154,11 @@ java -version
 <summary>食用方式：</summary>
 
 1. 打开此链接下载 AJI: https://github.com/Lafcadia/AJI/releases/download/v0.0.2/main.exe
-2. 下好了，右键选择以管理员权限打开（如果不以管理员权限打开就无法绑定 Java 环境变量，虽然不给管理员权限程序也能正常运行，并安装 Java，但可能会在后续阶段出现问题）
+2. 下好了，右键选择以管理员权限打开(如果不以管理员权限打开就无法绑定 Java 环境变量，虽然不给管理员权限程序也能正常运行，并安装 Java，但可能会在后续阶段出现问题)
 3. ![示意图](https://github.com/user-attachments/assets/28035c47-d34b-4b38-b895-29f38366bef9)
 4. 选择合适的版本的 Java，点击 `Install Java`，下载。
 5. 不要关闭窗口，直到下方的提示栏从 `Installing...` 变为 `Complete.`
+
 </details>
 
 ## FAQ

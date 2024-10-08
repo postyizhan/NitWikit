@@ -7,9 +7,9 @@ sidebar_position: 2
 
 支持 _Velocity_ 的插件
 
-# 只安装在跨服端
+## 只安装在跨服端
 
-## VLobby
+### VLobby
 
 :::info
 
@@ -21,7 +21,7 @@ sidebar_position: 2
 
 一个简单的 `/lobby` `/hub` 插件
 
-## LimboAuth
+### LimboAuth
 
 :::info
 
@@ -31,7 +31,7 @@ sidebar_position: 2
 
 一个不错的登录插件。
 
-## AuthMeVelocity
+### AuthMeVelocity
 
 :::info
 
@@ -45,7 +45,7 @@ sidebar_position: 2
 
 如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服
 
-## HuskChat
+### HuskChat
 
 :::info
 
@@ -74,7 +74,7 @@ sidebar_position: 2
 可以根据作者的方案解决这个问题，介意的建议不要使用 HuskChat ，转而用 [TrChat](https://www.spigotmc.org/resources/.111858/)
 :::
 
-## Sonar
+### Sonar
 
 :::info
 
@@ -96,29 +96,29 @@ CAPTCHA 在玩家进入服务器时，会进入 Sonar 创建的虚拟服务器�
 
 非常推荐安装
 
-# 可安装在跨服端或子服
+## 可安装在跨服端或子服
 
-## MiniMOTD
+### MiniMOTD
 
 同 [BungeeCord 一侧的讲解](BC&WF.md#minimotd)
 
-## ViaVersion
+### ViaVersion
 
 同 [BungeeCord 一侧的讲解](BC&WF.md#viaversion)
 
-## SkinsRestorer
+### SkinsRestorer
 
 同 [BungeeCord 一侧的讲解](BC&WF.md#skinsrestorer)
 
-## Geyser
+### Geyser
 
 同 [BungeeCord 一侧的讲解](BC&WF.md#geyser)
 
-# 装在跨服端或+子服端
+## 装在跨服端或+子服端
 
 这类插件可以只装在跨服端，但同时在子服安装可以有更多的功能。
 
-## ServerUtils
+### ServerUtils
 
 :::info
 
@@ -126,7 +126,7 @@ CAPTCHA 在玩家进入服务器时，会进入 Sonar 创建的虚拟服务器�
 
 :::
 
-## PlayerBalancer
+### PlayerBalancer
 
 :::info
 
@@ -134,7 +134,7 @@ CAPTCHA 在玩家进入服务器时，会进入 Sonar 创建的虚拟服务器�
 
 :::
 
-## Tab
+### TAB
 
 :::info
 
@@ -158,11 +158,11 @@ CAPTCHA 在玩家进入服务器时，会进入 Sonar 创建的虚拟服务器�
 
 _插件需要安装在代理端上，如果你在子服安装了TAB，可能会导致在高版本上出现“网络协议错误”等位置问题。_
 
-# 装在跨服端+子服端
+## 装在跨服端+子服端
 
 这类插件必须要同时安装在跨服端和子服。
 
-## PAPIProxyBridge
+### PAPIProxyBridge
 
 :::info
 
@@ -170,7 +170,7 @@ _插件需要安装在代理端上，如果你在子服安装了TAB，可能会�
 
 :::
 
-## SignedVelocity
+### SignedVelocity
 
 :::info
 
@@ -178,7 +178,10 @@ _插件需要安装在代理端上，如果你在子服安装了TAB，可能会�
 
 :::
 
-从 Minecraft 1.19.1 开始，Mojang 实现了一个[新的聊天系统](https://zh.minecraft.wiki/w/Java%E7%89%881.19.1#%E5%B8%B8%E8%A7%84)，该系统使用每个玩家拥有的签名密钥。Velocity 尚不完全支持取消或修改这种类型的消息和命令，因此你可以安装 SignedVelocity 插件， 这将允许将消息或命令传输到你的服务器，在服务器上收到消息或命令后， 将应用在 Velocity 中计算的结果。 —— Velocity 官方文档
+<!--markdownlint-disable line-length-->
 
-_此外由于其功能实现，它也能修复因缺少个人信钥而导致无法加入服务器等问题_
+> 从 Minecraft 1.19.1 开始，Mojang 实现了一个[新的聊天系统](https://zh.minecraft.wiki/w/Java%E7%89%881.19.1#%E5%B8%B8%E8%A7%84)，该系统使用每个玩家拥有的签名密钥。Velocity 尚不完全支持取消或修改这种类型的消息和命令，因此你可以安装 SignedVelocity 插件， 这将允许将消息或命令传输到你的服务器，在服务器上收到消息或命令后， 将应用在 Velocity 中计算的结果。 —— Velocity 官方文档
 
+<!--markdownlint-enable line-length-->
+
+此外由于其功能实现，它也能修复因缺少个人信钥而导致无法加入服务器等问题。

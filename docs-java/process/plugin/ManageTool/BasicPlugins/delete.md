@@ -13,6 +13,6 @@ sidebar_position: 3
 
 实际上，经济功能装个 [XConomy](../../Front-Plugin/XConomy.md) 足够了
 
-而对于 tpa,warp,home,back 等传送功能，或许你可以试试 [HuskHomes](https://www.spigotmc.org/resources/.83767/)
+而对于 tpa，warp，home，back 等传送功能，或许你可以试试 [HuskHomes](https://www.spigotmc.org/resources/.83767/)
 
 CMI 的那些功能几乎都有可以平替的插件

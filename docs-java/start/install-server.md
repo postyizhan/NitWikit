@@ -13,7 +13,9 @@ sidebar_position: 3
 
 全篇以 1.20.4 Mod 服务端安装为例子
 
-如果你看不懂可以使用[笨蛋脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/select-server.exe)，目前不支持 Fabric
+如果你看不懂可以使用
+[笨蛋脚本](https://dl.yizhan.wiki/windows-latest/select-server.exe)，
+目前不支持 Fabric
 
 ## Forge
 
@@ -31,11 +33,8 @@ sidebar_position: 3
 
 然后你就成功下载了 Forge Installer，但还没有完!，继续
 
-在浏览器中输入以下链接
-
-```
-https://bmclapi2.bangbang93.com/version/这里填你的MC版本/server
-```
+在浏览器中输入链接
+`https://bmclapi2.bangbang93.com/version/这里填你的MC版本/server`
 
 比如我 1.20.4 服务器应该是 `https://bmclapi2.bangbang93.com/version/1.20.4/server`
 
@@ -69,11 +68,11 @@ Fabric 有两种下载方案，这里我们两个都讲
 
 全部选择完毕后点击安装，等待安装结束
 
-结束后一定一定要点击 下载服务端 以便下载香草服务端（模组服务端都需要这玩意），如果你懒得配置启动脚本也可以点击 生成 按钮让它给你整一个临时的
+结束后一定一定要点击 下载服务端 以便下载香草服务端(模组服务端都需要这玩意)，如果你懒得配置启动脚本也可以点击 生成 按钮让它给你整一个临时的
 
 如果你觉得这种方案太麻烦，回到刚才的网页去点击下方的 Minecraft Server
 
-依次根据提示进行安装，或者使用底下的安装命令进行快捷安装（限 Linux 用户）
+依次根据提示进行安装，或者使用底下的安装命令进行快捷安装(限 Linux 用户)
 
 下载完成后拖进空文件夹，随后新建脚本文件将启动命令复制到其中保存
 

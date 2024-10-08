@@ -29,7 +29,7 @@ sidebar_position: 3
 
 ## `name`
 
-插件的名字，也是会在插件列表（`/pl`）和日志中输出的信息中显示的插件名。
+插件的名字，也是会在插件列表(`/pl`)和日志中输出的信息中显示的插件名。
 
 ## `version`
 
@@ -109,7 +109,7 @@ sidebar_position: 3
 
 如果插件的 `plugin.yml` 里没有此项，你可以试着手动添加。
 
-```
+```yaml
 folia-supported: true
 ```
 

@@ -3,17 +3,19 @@ title: 数据存储
 sidebar_position: 6
 ---
 
+<!--markdownlint-disable no-duplicate-heading-->
+
 # 数据存储
 
 这里简单介绍下 LuckPerms 一些可以用在储存数据方面的功能，以及一些简单的案例
 
 ## 权限
 
-实际上，你可以给予用户和组 *不存在的*（没有被其他插件使用）的权限节点
+实际上，你可以给予用户和组 *不存在的*(没有被其他插件使用)的权限节点
 
 这些权限有着和其他权限一样的性质
 
-**设置权限**
+设置权限：
 
 ![](_images/memory_1.png)
 
@@ -23,7 +25,8 @@ sidebar_position: 6
 
 子图标的 material 改成 air 就可以做点击后消失了
 
-案例（TrMenu）：
+案例(TrMenu)：
+
 ```yaml
   'A':
     display:
@@ -36,6 +39,35 @@ sidebar_position: 6
       - 'command inline "lp user {{player name}} permission set nitwikit.demo true" as console'
       - 'refresh: A'
 ```
+
+### 升级制vip
+
+<!--markdownlint-disable line-length-->
+
+```yaml
+  'A':
+    display:
+      material: stone
+      update: 20
+    icons:
+      - condition: 'perm rank.vip+'
+        display:
+          lore: '最顶级vip'
+      - condition: 'perm rank.vip'
+        display:
+          lore: '你是普通玩家，点击花费20金币升级到vip+'
+        actions:
+          all:
+            - 'command inline "lp user {{player name}} permission set rank.vip+ true" as console {condition=check papi %vault_eco_balance% >= 20}'
+      - condition: 'perm rank.default'
+        display:
+          lore: '你是普通玩家，点击花费10金币升级到vip'
+        actions:
+          all:
+            - 'command inline "lp user {{player name}} permission set rank.vip true" as console {condition=check papi %vault_eco_balance% >= 10}'
+```
+
+<!--markdownlint-enable line-length-->
 
 用权限的好处是适用性广，不过对op不太方便，因为op所有权限都是true嘛
 
@@ -53,7 +85,7 @@ sidebar_position: 6
 
 ### 按钮冷却
 
-案例（TrMenu）：
+案例(TrMenu)：
 
 ![](_images/memory_4.png)
 
@@ -109,9 +141,12 @@ sidebar_position: 6
 
 我给玩家 11h 的限时权限，今日24点一过就是无权限状态，那些判断此权限的东西就变成每日刷新了
 
-实现（kether）：
+实现(kether)：
 
 搓命令：
+
+<!--markdownlint-disable line-length-->
+
 ```yaml
 inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 24 - time as HH}}h{{math 60 - time as mm}}m{{math 60 - time as ss}}s"
 ```
@@ -121,6 +156,7 @@ tell搓出来的看看
 ![](_images/memory_6.png)
 
 执行命令：
+
 ```yaml
 command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 24 - time as HH}}h{{math 60 - time as mm}}m{{math 60 - time as ss}}s" as console
 ```
@@ -132,6 +168,8 @@ command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 
 - `%math_0_60-{server_time_ss}%` // 秒
 
 不过我不太喜欢这种做法，另一种： [案例 | 变量|每日刷新](../../../../advance/kether/variable.md#每日刷新)
+
+<!--markdownlint-enable line-length-->
 
 ### 倒计时
 
@@ -149,7 +187,7 @@ command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 
 
 ![](_images/memory_9.png)
 
-```
+```text
 %luckperms_meta_键名%
 ```
 
@@ -169,9 +207,10 @@ command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 
 
 但是使用lp的命令设置meta要写一大串不说，还会输出log
 
-好在 [Vulpecula](https://github.com/Lanscarlos/Vulpecula) 的 [memory](https://www.yuque.com/lanscarlos/vulpecula-wiki-v2/og93eqlegc0geyfi) 动作可以用来设置meta
+好在 [Vulpecula](https://github.com/Lanscarlos/Vulpecula) 的
+[memory](https://www.yuque.com/lanscarlos/vulpecula-wiki-v2/og93eqlegc0geyfi) 动作可以用来设置meta
 
-```
+```text
 memory 键名 to 值 using lp
 ```
 
@@ -179,7 +218,7 @@ memory 键名 to 值 using lp
 
 ![](_images/memory_11.png)
 
-```
+```text
 memory 键名 using lp
 ```
 
@@ -199,7 +238,7 @@ memory 键名 using lp
 
 ## 限时meta
 
-```
+```text
 /lp user postyizhan meta settemp 键 值 时间
 ```
 

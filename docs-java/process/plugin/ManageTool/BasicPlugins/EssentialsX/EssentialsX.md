@@ -11,9 +11,21 @@ sidebar_position: 1
 
 `Bukkit` https://dev.bukkit.org/projects/essentialsx
 
-`SpigotMC` https://www.spigotmc.org/resources/.9089/
+`SpigotMC` https://www.spigotmc.org/resources/.9089
+
+`PaperMC` https://hangar.papermc.io/EssentialsX/Essentials
+
+`Modrinth` https://modrinth.com/plugin/essentialsx
+
+`MineBBS` https://www.minebbs.com/resources/.1117
 
 `GitHub` https://github.com/EssentialsX/Essentials
+
+`文档(英文)` https://essentialsx.net/wiki/Home.html
+
+`文档(中文)` https://tecostudio.github.io/EssentialsX-Wiki-zh_CN
+
+`插件百科` https://mineplugin.org/EssentialsX
 
 :::
 
@@ -21,7 +33,7 @@ sidebar_position: 1
 
 Essentials插件分为两个版本：
 
-- essentials（早已停更）适合mc 1.7.10 [下载](https://mineplugin.org/Essentials/Downloads)
+- essentials(早已停更)适合mc 1.7.10 [下载](https://mineplugin.org/Essentials/Downloads)
 - essentialsX 适合mc 1.8+ [下载](https://essentialsx.net/downloads.html)
 
 <details>

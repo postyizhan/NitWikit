@@ -6,11 +6,11 @@ sidebar_position: 5
 
 :::info
 
+`SpigotMC` https://www.spigotmc.org/resources/.101040
+
+`Modrinth` https://www.spigotmc.org/resources/.101040
+
 `GitHub` https://github.com/kyngs/LibreLogin
-
-`SpigotMC` https://www.spigotmc.org/resources/librelogin-auto-login-2fa-bedrock-support.101040/
-
-`Modrinth` https://www.spigotmc.org/resources/librelogin-auto-login-2fa-bedrock-support.101040/
 
 :::
 
@@ -18,4 +18,4 @@ sidebar_position: 5
 
 比 LimboAuth 更轻 但是在安装在代理的情况下需要后端服务器来接纳玩家
 
-支持 Paper, BungeeCord 和 Velocity
+支持 Paper， BungeeCord 和 Velocity

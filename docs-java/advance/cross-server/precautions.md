@@ -13,7 +13,7 @@ sidebar_position: 8
 
 ## 不要给玩家 `/server` 权限
 
-用 `菜单/npc` 或其他东西跨服，但是不要给玩家这个权限（玩家默认有），会被玩家发现服主的小 ♂ 秘 ♂ 密 ♂
+用 `菜单/npc` 或其他东西跨服，但是不要给玩家这个权限(玩家默认有)，会被玩家发现服主的小 ♂ 秘 ♂ 密 ♂
 
 这个权限默认是高于 Bukkit 插件权限的，也就是说玩家可以在未登录之前使用此命令跳转到另外一个服务器，如果另外的服务器没登陆插件，那么通过此方法就可以使用到 OP 账号
 
@@ -25,19 +25,19 @@ sidebar_position: 8
 
 :::
 
-**关闭权限**
+### 关闭权限
 
 在跨服端安装 [Luckperms](/docs-java/process/plugin/ManageTool/Permission/Permission.md) 的跨服端对应版本然后执行命令：
 
 - BungeeCord
 
-```
+```text
 /lpb group default permission set bungeecord.command.server false
 ```
 
 - Velocity
 
-```
+```text
 /lpv group default permission set velocity.* false
 ```
 
@@ -47,7 +47,7 @@ sidebar_position: 8
 
 bc 这个缩写应只指 BungeeCord 核心
 
-但是很多人用 bc 指 BungeeCord 和它的分支，甚至指所有的跨服端（把 Velocity 和包括进去了）
+但是很多人用 bc 指 BungeeCord 和它的分支，甚至指所有的跨服端(把 Velocity 和包括进去了)
 
 希望在看的你用 bc 这个缩写时只用来指 BungeeCord 核心，避免产生不必要的误会
 

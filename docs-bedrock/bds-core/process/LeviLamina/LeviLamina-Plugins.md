@@ -2,12 +2,10 @@
 title: 插件安装教程
 sidebar_position: 1
 ---
-
-:::warning
-本篇文档持续更新中...<br />
-支持后续 PR
+:::info
 
 作者：[星凌QAQ](https://github.com/XingLingQAQ)
+
 :::
 
 # 插件安装教程
@@ -15,11 +13,12 @@ sidebar_position: 1
 ## 插件的结构
 
 LeviLamina 的插件是以文件夹的格式存在的。通常插件文件夹中包含以下内容：
+
 ```c
 插件文件夹
 ├─manifest.json             // 插件元数据文件，该文件必须存在并格式正确才能被 LeviLamina 识别
-├─（插件配置文件和数据库）... // 插件生成的配置文件和数据库等，大多数插件的配置文件名叫config.json，并以一个文件夹或一个 .db 或 .json 后缀文件作为数据库
-├─（插件代码或二进制文件）... // 插件源代码，通常是 .js、.lua、.dll 后缀的文件。不要删除，修改或重命名文件，否则可能导致插件无法运行！
+├─(插件配置文件和数据库)... // 插件生成的配置文件和数据库等，大多数插件的配置文件名叫config.json，并以一个文件夹或一个 .db 或 .json 后缀文件作为数据库
+├─(插件代码或二进制文件)... // 插件源代码，通常是 .js、.lua、.dll 后缀的文件。不要删除，修改或重命名文件，否则可能导致插件无法运行！
 ```
 
 通常情况下，你不需要手动修改 `manifest.json` 这个文件，因为插件作者会将它事先配置好。如果有特殊插件需要手动配置这个文件，该插件文档应该会给出相应教程。
@@ -31,13 +30,14 @@ LeviLamina 的插件是以文件夹的格式存在的。通常插件文件夹中
 要使用 Lip 安装插件，你必须确保该插件**支持通过 Lip 安装** 。如果插件文档没有写明任何使用 Lip 安装的方法或命令，你就不应该使用 Lip 安装该插件。
 
 通常情况下，一个 Lip 插件的安装命令会像这样：
+
 ```shell
 lip install <一个URL>
 ```
 
 ### 通过命令安装插件
 
-在服务端根目录（包含 `bedrock_server_mod.exe` 的文件夹）打开 powershell，执行插件使用说明给出的 Lip 安装命令，
+在服务端根目录(包含 `bedrock_server_mod.exe` 的文件夹)打开 powershell，执行插件使用说明给出的 Lip 安装命令，
 
 ### 通过 LipUI 安装插件
 
@@ -47,7 +47,7 @@ TODO
 
 ## 手动安装插件
 
-### 原生（native）插件
+### 原生(native)插件
 
 解压并整理插件文件夹，确保其结构符合上文结出的插件结构。**有时插件压缩包解压后里面会套一层文件夹，这点要格外留意。**
 
@@ -61,7 +61,9 @@ TODO
 
 指只有一个 .js/.lua/.py 代码文件的插件。
 
-首先将插件文件放入 `plugins` 文件夹，然后启动或重启一次服务器。此时服务器将警告 `WARN [legacy-script-engine-quickjs] Legacy plugins have been migrated, please restart the server to load them!`。**此时插件并未被加载，你需要再次重启服务器** ，之后插件就能加载了。
+首先将插件文件放入 `plugins` 文件夹，然后启动或重启一次服务器。
+此时服务器将警告 `WARN [legacy-script-engine-quickjs] Legacy plugins have been migrated， please restart the server to load them!`。
+**此时插件并未被加载，你需要再次重启服务器** ，之后插件就能加载了。
 
 #### nodejs、python 多文件
 

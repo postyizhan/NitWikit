@@ -10,7 +10,7 @@ Invero 俗称 TrMenu v4
 
 文档不全，部分案例付费入群获取，但是目前不对外出售
 
-别人备份的源码 1.0.3版本 https://github.com/inrhor/Invero
+~~别人备份的源码 1.0.3版本 https://github.com/inrhor/Invero~~ 已经删除
 
 作者自己发的 1.0.8版本 也是老板本 https://gitlab.com/Arasple/Invero
 
@@ -50,6 +50,7 @@ generator:
 ```
 
 #### vault经济与PlayerPoints经济
+
 ```yaml
   'A':
     head: stone
@@ -68,6 +69,7 @@ generator:
 ```
 
 #### ctx与persist与&
+
 ```yaml
 items:
   '1':
@@ -155,15 +157,15 @@ icons:
 
 ### 每日签到
 
-[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/inv-每日签到.yml)
+https://www.minebbs.com/resources/invero-gui-ia.9237/
 
 ### tpa选人菜单
 
-[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/inv-tpa选人菜单.yml)
+https://www.minebbs.com/resources/invero-tpa.9240/
 
 ### 称号系统
 
-[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/inv-称号系统.yml)
+[查看配置](https://github.com/postyizhan/NitWikit/blob/main/docs-java/process/plugin/other/Menu/demo/inv-称号系统.yml) -->
 
 ### 商店
 
@@ -190,6 +192,3 @@ icons:
 #### 个人限售
 
 #### 全服限售
-
-
-

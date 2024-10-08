@@ -7,17 +7,19 @@ sidebar_label: 保护 - WorldGuard
 
 :::info
 
-`文档（英文）` https://worldguard.enginehub.org/en/latest/index.html
-
-`文档（中文）` https://snowcutieowo.github.io/WorldGuard
-
 `Bukkit` https://dev.bukkit.org/projects/worldguard
+
+`Modrinth` https://modrinth.com/plugin/worldguard
+
+`MineBBS` https://www.minebbs.com/resources/.9074/
 
 `GitHub` https://github.com/EngineHub/WorldGuard
 
-`CurseForge` https://www.curseforge.com/minecraft/bukkit-plugins/worldguard
+`文档(英文)` https://worldguard.enginehub.org/en/latest/index.html
 
-`MineBBS` https://www.minebbs.com/resources/.9074/
+`文档(中文)` https://snowcutieowo.github.io/WorldGuard
+
+`插件百科` https://mineplugin.org/Worldguard
 
 :::
 
@@ -29,8 +31,4 @@ sidebar_label: 保护 - WorldGuard
 
 ## 前置
 
-任选一个即可
-
-WorldEdit：https://www.minebbs.com/resources/worldedit-bukkit-1-7-1-20.7429/
-
-FastAsyncWorldEdit：https://www.minebbs.com/resources/fastasyncworldedit-we.9075/
+[WorldEdit](./WorldEdit.md) 或 [FastAsyncWorldEdit](./FastAsyncWorldEdit.md)

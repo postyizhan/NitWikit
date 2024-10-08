@@ -7,17 +7,19 @@ sidebar_position: 1
 
 很好，相信你已经在[可能用到的网站](/docs-java/preparation/websites.md)看到了很多链接，面对成千上万的插件我们应该如何进行选择呢？
 
-我们在此以 spigot.org 为例(假设你已经注册成功)，讲解如何选择插件。
+我们在此以 spigotmc.org 为例(假设你已经注册成功)，讲解如何选择插件。
 
-1. (_可选，推荐_)安装一个 spigot 专用的[搜索引擎](https://fof1092.de/Plugins/SSE/Redirect/)，作为浏览器插件安装即可。
+<!--markdownlint-disable ol-prefix-->
 
-   使用 spigot search engine(spigot 搜索引擎)后， 你能得到比 spigot 自带的搜索相关性强得多的搜索结果。
+1. (_可选，推荐_)安装一个 SpigotMC 专用的[搜索引擎](https://fof1092.de/Plugins/SSE/Redirect/)，作为浏览器插件安装即可。
 
-2. (_可选_)如果你觉得大量的英语很头大，请打开你的浏览器自带的翻译器，如 edge/chrome。
+   使用 SpigotSearchEngine(SpigotMC 搜索引擎)后， 你能得到比 SpigotMC 自带的搜索相关性强得多的搜索结果。
+
+2. (_可选_)如果你觉得大量的英语很头大，请打开你的浏览器自带的翻译器，如 Edge/Chrome。
 
 ![](_images/概览/浏览器翻译.png)
 
-4. 就像逛淘宝一样，根据你的需求将你认为有用的插件收藏起来。
+3. 就像逛淘宝一样，根据你的需求将你认为有用的插件收藏起来。
    最好是分门别类放在一起，我们以随机 TP 插件为例，我们在此搜索 RTP ：
 
 <details>
@@ -46,6 +48,8 @@ sidebar_position: 1
    每个服务器可根据自己的需求自行评价，下图只是一个抛砖引玉的作用，根据自己的需求选择其中一个即可：
 
 ![](_images/概览/同类插件评分选择.png)
+
+<!--markdownlint-enable ol-prefix-->
 
 **_不要装多个同类型插件，不要把 CMI 和 EssentialX 装在一起，也不要一个服务器装 3 ~ 4 个菜单插件！！！_**
 
@@ -117,7 +121,7 @@ sidebar_position: 1
 
 ![](_images/概览/查看语言-2.png)
 
-然后一般要去插件配置文件（多数为 config.yml) 把语言改成这里的文件名 (此处为 zh_cn)。
+然后一般要去插件配置文件(多数为 config.yml) 把语言改成这里的文件名 (此处为 zh_cn)。
 
 </details>
 

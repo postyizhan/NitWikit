@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## 笨蛋脚本
 
-下载此[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/generate-script.exe)，回答几个问题就可以为你自动生成启动脚本!!
+下载此[脚本](https://dl.yizhan.wiki/windows-latest/generate-script.exe)，回答几个问题就可以为你自动生成启动脚本!!
 
 <details>
 <summary>直接在终端里敲命令来启动?</summary>
@@ -62,7 +62,7 @@ sidebar_position: 4
 
 用你前面下的文本编辑器编辑这个文件，写入以下信息并保存，然后双击 `start.bat`
 
-```
+```shell
 java -Xms2G -Xmx2G -jar 核心名.jar --nogui
 ```
 
@@ -72,7 +72,7 @@ java -Xms2G -Xmx2G -jar 核心名.jar --nogui
 
 一旦下载完成，他会提示：
 
-```
+```text
 You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
 ```
 
@@ -82,7 +82,7 @@ eula 就像是用户协议一样的东西，你想知道讲了啥，点 [这里]
 
 改好之后重新开启服务器，当出现以下字样说明服务器已经成功开启。
 
-```
+```text
 Done (6.554s)! For help， type "help"
 ```
 
@@ -102,13 +102,13 @@ Done (6.554s)! For help， type "help"
 
 如果你的服务器卡在：
 
-```
+```text
 Downloading mojang_x.x.x.jar
 ```
 
 请尝试使用科学上网。
 
-### 我不会在命令行界面 (CMD / 终端 / Powershell) 使用科学上网！
+### 我不会在命令行界面 (CMD / 终端 / Powershell) 使用科学上网
 
 :::tip
 
@@ -122,7 +122,7 @@ Downloading mojang_x.x.x.jar
 
 请确定你的科学上网是可用的，不多赘述。
 
-在命令行界面（一般情况下，一个黑 / 蓝框框）中执行这两条
+在命令行界面(一般情况下，一个黑 / 蓝框框)中执行这两条
 
 ```shell
 set http_proxy=http://127.0.0.1:7890
@@ -135,6 +135,49 @@ set https_proxy=http://127.0.0.1:7890
 
 > 大佬们，浏览器能用不是 cmd 能用，不然你猜我为什么写这个。
 
-#### 中文乱码
+### 中文乱码
 
-如果你用的是Windows,你需要在启动脚本**最前面**加上`chcp 65001`
+如果你用的是Windows，你需要在启动脚本**最前面**加上`chcp 65001`
+
+比如你原来的启动脚本长这样
+
+```shell
+java -Xms2G -Xmx2G -jar server.jar --nogui
+```
+
+你需要改成这样
+
+```shell
+chcp 65001
+java -Xms2G -Xmx2G -jar server.jar --nogui
+```
+
+### Java 启动找不到 ***.jar
+
+有些时候写好启动脚本启动后，报错`Error: Unable to access jarfile xxx.jar`，但是相同目录下明明有`xxx.jar`
+
+像这样:
+
+![](_images/4.png)
+
+启动后报错，此时我们可以查看文件后缀名([不懂如何打开请点这里](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80%E5%90%8D))
+
+然后你就会看到这样的惊奇一幕
+
+![](_images/5.png)
+
+此时，你只需要把`xxx.jar.jar`改成`xxx.jar`就可以正常启动了
+
+### Invalid initial heap size: -Xms
+
+不是哥们，内存大小设置长这样
+
+```shell
+-Xms1024M -Xmx2048M
+```
+
+不是这样!!!!!!
+
+```shell
+-Xms 1024M -Xmx 2048M
+```

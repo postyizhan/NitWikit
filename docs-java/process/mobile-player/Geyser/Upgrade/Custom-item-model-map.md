@@ -31,7 +31,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 本地运行你只需要执行
 
-```
+```shell
 ./converter.sh 资源包名称.zip
 ```
 
@@ -49,7 +49,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 * 首先你需要新建一个Issue
 * 在类型选择**Pack Conversion**
-* 在**Java Pack Direct Download URL** 填上你的资源包下载地址（不能是网盘，要求是直链）
+* 在**Java Pack Direct Download URL** 填上你的资源包下载地址(不能是网盘，要求是直链)
 * 最后勾上最下面的用户协议，点击开始就可以
 * 转换好后，有个机器人会提醒你去Github Action下载，下载就来就是转换好的基岩版资源包
 * 将
@@ -64,11 +64,11 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 :::
 
-#### 物品映射
+### 物品映射
 
 这里我非常推荐使用[Geyser Wiki](https://wiki.geysermc.org/geyser/custom-items/)中的Json映射方式，方便编写和修改
 
-##### 注册物品行为
+#### 注册物品行为
 
 这是一个律师勋章，我想让他在基岩版上也显示
 
@@ -92,7 +92,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 示例:
 
-```
+```json
 {
   "format_version": "1",
   "items": {
@@ -112,7 +112,7 @@ json文件不允许有注释，如果你要复制过去记得删除注释
 
 保存，然后我们的自定义物品Geyser已经注册好了，接下来是基岩版资源包方面的教程
 
-##### 制作资源包
+#### 制作资源包
 
 网上有很多制作资源包的教程，这里不多复述最基础的操作
 
@@ -128,18 +128,18 @@ json文件不允许有注释，如果你要复制过去记得删除注释
 
 在 `item_textures.json` 中写入
 
-```
+```json
 {
   "resource_pack_name": "这里填资源包名字",
   "texture_name": "atlas.items",
   "texture_data": {
         //填你在 test_item.json 填写的物品名称
-		"ITEM_LSXZ":
+  "ITEM_LSXZ":
         {
-			"textures": [
-				"textures/items/item/LSXZ" //填你纹理贴图的位置，不需要填png后缀
-			]
-		}
+   "textures": [
+    "textures/items/item/LSXZ" //填你纹理贴图的位置，不需要填png后缀
+   ]
+  }
     }
 }
 ```

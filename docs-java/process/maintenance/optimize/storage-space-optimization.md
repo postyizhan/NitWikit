@@ -23,9 +23,11 @@ sidebar_position: 4
 
 推荐两个备份插件(高效的备份，无需停服即可备份)：
 
-[ebackup](https://www.spigotmc.org/resources/ebackup-simple-and-reliable-backups-for-your-server-supports-ftp-sftp.69917/) 可设置黑名单不备份某些文件，FTP 远程备份支持
+[ebackup](https://www.spigotmc.org/resources/ebackup-simple-and-reliable-backups-for-your-server-supports-ftp-sftp.69917/)
+可设置黑名单不备份某些文件，FTP 远程备份支持
 
-[serverbackup](https://www.spigotmc.org/resources/server-backup-ingame-dropbox-ftp-backup-1-8-1-20-multithreaded.79320/) 可支持动态备份(即只备份最近变更过的文件)，占用空间更小
+[serverbackup](https://www.spigotmc.org/resources/server-backup-ingame-dropbox-ftp-backup-1-8-1-20-multithreaded.79320/)
+可支持动态备份(即只备份最近变更过的文件)，占用空间更小
 
 ## 存档存储空间优化
 
@@ -74,19 +76,19 @@ Linear不适合玩家基数非常大/服务器经常滞后/压缩比较大(推�
 #### 不兼容的插件
 
 ServerBackup 一款备份插件，会由于找不到mca文件报错。
-目前已知不兼容线性区域的格式的插件极少无比，已知的有大部分在线网页地图浏览程序，以及Residence部分不兼容(感谢z大神的优雅代码，当传送到一个未加载区块的领地时会崩溃）
+目前已知不兼容线性区域的格式的插件极少无比，已知的有大部分在线网页地图浏览程序，以及Residence部分不兼容(感谢z大神的优雅代码，当传送到一个未加载区块的领地时会崩溃)
 
 #### 测试结果
 
 感谢 HaHaWTH 提供的测试结果，测试内容为使用 Chunky 加载半径 1000 格的方块并保存，测试核心为 Leaf ，实际结果可能与测试结果有出入
 
-| 世界 | ANVIL(原版格式) | Linear(压缩比为一) | Linear(压缩比为六，默认压缩比) | Linear(压缩比为22)（最大压缩比）|
-| --- | --- | --- | --- | --- |
-| 主世界 | 192MB | 142MB | 117MB | 92MB |
-| 地狱 | 118MB | 70MB | 60MB | 46MB |
-| 末地 | 87MB | 1.72MB | 1.2MB | 914KB |
-| 保存用时 | 3m18s | 3m50s | 4m44s | 23m21s |
-| 内存占用 | 3GB左右 | 3.1GB | 3.3GB | 3.4 ~ 18GB(极不稳定)|
+| 世界   | ANVIL(原版格式) | Linear(压缩比为一) | Linear(压缩比为六，默认压缩比) | Linear(压缩比为22)(最大压缩比) |
+|------|-------------|---------------|---------------------|-----------------------|
+| 主世界  | 192MB       | 142MB         | 117MB               | 92MB                  |
+| 地狱   | 118MB       | 70MB          | 60MB                | 46MB                  |
+| 末地   | 87MB        | 1.72MB        | 1.2MB               | 914KB                 |
+| 保存用时 | 3m18s       | 3m50s         | 4m44s               | 23m21s                |
+| 内存占用 | 3GB左右       | 3.1GB         | 3.3GB               | 3.4 ~ 18GB(极不稳定)      |
 
 :::note
 
@@ -96,13 +98,13 @@ ServerBackup 一款备份插件，会由于找不到mca文件报错。
 
 ## 其他
 
-1。使用软链接 / 快捷方式共享多个服务器的 lib ，Minecraft 本体等（除非空间非常少否则不要这样，后果自负）；
+1。使用软链接 / 快捷方式共享多个服务器的 lib ，Minecraft 本体等(除非空间非常少否则不要这样，后果自负)；
 
 2。使用清理软件；
 
-3。重装系统，并最小化安装（不安装非必要软件）；
+3。重装系统，并最小化安装(不安装非必要软件)；
 
-4。检查是否有多余的 Java（一般来说开服一个版本的 Java 即可）。
+4。检查是否有多余的 Java(一般来说开服一个版本的 Java 即可)。
 
 :::warning
 

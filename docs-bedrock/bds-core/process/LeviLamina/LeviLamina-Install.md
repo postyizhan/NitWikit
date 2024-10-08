@@ -2,20 +2,25 @@
 title: LeviLamina 安装教程
 sidebar_position: 1
 ---
+:::info
 
-:::warning
-本篇文档持续更新中...<br />
-支持后续 PR
+作者：[星凌QAQ](https://github.com/XingLingQAQ)
+
+:::
 
 # LeviLamina 安装教程
 
-作者：[星凌QAQ](https://github.com/XingLingQAQ)
+## 方法零: 使用笨蛋脚本
+
+首先下载[安装脚本](https://dl.yizhan.wiki/windows-latest/liteloaderbds-install.exe)，下载完后右键**以管理员启动**即可
+
+:::tip
+
+你甚至不需要安装VC运行库，自动脚本会自行安装常用运行库，还会自动配置 Lip 镜像以加速下载
+
 :::
 
-   
-
-# 方法一: 使用 Lip 进行一键配置
-
+## 方法一: 使用 Lip 进行一键配置
 
 ### 准备工作-安装 Lip
 
@@ -29,14 +34,13 @@ sidebar_position: 1
 
 如果你使用的是 Windows 系统，你也可以在 GitHub 中下载 `.exe` 后缀的安装程序来安装。
 
-
 ### 安装
 
 首先创建一个新的文件夹
 
 然后运行命令
 
-```
+```shell
 lip install github.com/LiteLDev/LeviLamina
 ```
 
@@ -46,13 +50,13 @@ Lip 会自动下载 BDS 并配置 LeviLamina 加载器
 
 如果因网络问题无法下载 GO 模块或 LeviLamina 及其依赖，可以运行命令
 
-```
+```shell
 lip config GoModuleProxyURL <url>
 ```
 
 和
 
-```
+```shell
 lip config GitHubMirrorURL <url>
 ```
 
@@ -68,15 +72,11 @@ lip config GitHubMirrorURL <url>
 
 现在，你已成功安装了 LeviLamina 了，要启动它，请运行命今
 
-```
+```shell
 bedrock_server_mod.exe
 ```
 
-
-
-
-
-# 方法二: 手动安装（不推荐）
+## 方法二: 手动安装(不推荐)
 
 只有想要调试新版本的开发人员才会手动安装，手动安装只会安装允许 LeviLamina 运行的基本部件，它缺少 CrashLogger、I18N 等组件。
 
@@ -88,7 +88,7 @@ bedrock_server_mod.exe
    * 从所选版本Release中下载文件 `levilamina-windows-x64.zip`
 2. ​**下载 BDS(Minecraft服务器)**​：
    * 访问 [Minecraft 的服务器下载页面](https://www.minecraft.net/en-us/download/server/bedrock)。
-   * 获取与你的 LeviLamina 版本相对应的 Bedrock 专用服务器 （BDS） 版本，名为 
+   * 获取与你的 LeviLamina 版本相对应的 Bedrock 专用服务器 (BDS) 版本，名为
    `bedrock-server-<version>.zip`
 3. ​**获取 PeEditor 和 PreLoader**​：
    * 前往他们各自的 GitHub 发布页面：[PeEditor Releases](https://github.com/LiteLDev/PeEditor/releases) 和 [PreLoader Releases](https://github.com/LiteLDev/PreLoader/releases)。
@@ -115,7 +115,6 @@ bedrock_server_mod.exe
 
 现在，你已成功安装了 LeviLamina 了，要启动它，请运行命今
 
-```
+```shell
 bedrock_server_mod.exe
 ```
-

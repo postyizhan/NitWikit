@@ -5,13 +5,11 @@ sidebar_position: 8
 
 # 格式化代码
 
-**格式化代码（Formatting code）**，又称**颜色代码（Color code）**，能使在游戏中加入含颜色和格式信息。
+**格式化代码(Formatting code)**，又称**颜色代码(Color code)**，能使在游戏中加入含颜色和格式信息。
 
-在 Minecraft 中，可以以分节符号（`§`）产生带色文字。
-
+在 Minecraft 中，可以以分节符号(`§`)产生带色文字。
 
 ![](_images/格式化代码/Minecraft_Formatting.gif)
-
 
 你也可以用 [颜色代码生成器](https://mcg.tuanzi.ink/) 来生成它。
 
@@ -31,7 +29,7 @@ sidebar_position: 8
 
 比如下面这个 TrMenu 菜单例子：
 
-```
+```yaml
 Icons:
   test:
     display:
@@ -45,7 +43,7 @@ Icons:
 
 :::
 
-如果你想要更绚丽的颜色和更丰富的功能（比如点击文本执行命令）。
+如果你想要更绚丽的颜色和更丰富的功能(比如点击文本执行命令)。
 
 可以去看 [MiniMessage](MiniMessage.md) 部分。
 

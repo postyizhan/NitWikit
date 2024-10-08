@@ -19,7 +19,7 @@ java -Xlog:gc+init -XX:+UseLargePages -Xmx1g -version
 如果出现了以下字样，那么说明不完全兼容：
 
 ```shell
-UseLargePages disabled， no large pages configured and available on the system.
+UseLargePages disabled, no large pages configured and available on the system.
 ```
 
 那么就说明当前系统并不支持大页，不过不要急，可以试一下这一行命令：
@@ -32,7 +32,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 但是如果你依然不支持或者想要追求极致性能，可以去百度搜索当前的系统如何开启大页，
 
-这里就不再过多的赘述了。(LargePages 对服务器提升相当巨大,在我的电脑上，它提升了 50%的性能)
+这里就不再过多的赘述了。(LargePages 对服务器提升相当巨大，在我的电脑上，它提升了 50%的性能)
 
 如果支持 LargePages ，加上此参数
 
@@ -104,4 +104,4 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -Dpaper.playerconnection.keepalive=60
 ```
 
-如果你的网络不好,可以适当延长 keepalive 时间,打开[alternate-keepalive](/docs-java/process/maintenance/optimize/go.md#心跳连接)
+如果你的网络不好，可以适当延长 keepalive 时间，打开[alternate-keepalive](/docs-java/process/maintenance/optimize/go.md#心跳连接)

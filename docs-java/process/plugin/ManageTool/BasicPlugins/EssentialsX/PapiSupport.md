@@ -7,19 +7,20 @@ sidebar_position: 4
 
 `官方文档` https://wiki.placeholderapi.com/users/placeholder-list/#essentials
 
-`插件百科（严重过期）` https://mineplugin.org/PlaceholderAPI(%E6%97%A7)
+`插件百科(严重过期)` https://mineplugin.org/PlaceholderAPI(%E6%97%A7)
 
 :::
 
 ## 安装此扩展
-```
+
+```text
 /papi ecloud download Essentials
 /papi reload
 ```
 
 ## 变量
 
-```
+```text
 %essentials_afk%
 %essentials_afk_reason%
 %essentials_fly%

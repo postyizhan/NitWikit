@@ -3,6 +3,8 @@ title: 数据相关
 sidebar_position: 4
 ---
 
+<!--markdownlint-disable no-duplicate-heading-->
+
 # 数据相关
 
 ## 数据类型
@@ -14,11 +16,11 @@ sidebar_position: 4
 
 </details>
 
-### 类型转换（Type）
+### 类型转换(Type)
 
 > https://kether.tabooproject.org/list.html#Type
 
-```
+```kether
 type {token} | type {type} {action}
 ```
 
@@ -28,7 +30,7 @@ type {token} | type {type} {action}
 
 TODO
 
-## 变量（Variable）
+## 变量(Variable)
 
 在这里想一个非常巧妙的比喻
 
@@ -45,7 +47,8 @@ TODO
 #### 设置
 
 > https://kether.tabooproject.org/list.html#Variable_Set
-```
+
+```kether
 set {token} {token} | set {token} to {action}
 ```
 
@@ -59,7 +62,7 @@ set {token} {token} | set {token} to {action}
 
 > https://kether.tabooproject.org/list.html#Variable_Get
 
-```
+```kether
 get {token} | &{token}
 ```
 
@@ -77,7 +80,7 @@ get {token} | &{token}
 
 正确做法：
 
-```
+```text
 /vul eval set yizhan to 114514 tell get yizhan
 ```
 
@@ -89,7 +92,7 @@ get {token} | &{token}
 
 ![](_images/var_4.png)
 
-看到这里，你就应该知道，为什么前面讲 [彩色（color Text）](basic.md#彩色color-text) 动作的时候会说
+看到这里，你就应该知道，为什么前面讲 [彩色(color Text)](basic.md#彩色color-text) 动作的时候会说
 
 > 这里要用 `" "` 把要打印的信息包裹起来
 > 否则他会把这个当成变量，具体的会在后面讲到
@@ -105,7 +108,8 @@ get {token} | &{token}
 > 将动作列表的所有返回值作为集合返回。
 
 语法：
-```
+
+```kether
 array [ 动作1 动作2 动作3 更多 ]
 ```
 
@@ -113,13 +117,13 @@ array [ 动作1 动作2 动作3 更多 ]
 
 ![](_images/var_5.png)
 
-在这个集合中，数据被英文 `,` 分割开来，我们称为 **元素**
+在这个集合中，数据被英文 `，` 分割开来，我们称为 **元素**
 
 比如在上面共有三个元素：`HelloWord!` `postyizhan` `0.0`
 
 接下来，我们把数组存进变量里
 
-```
+```kether
 set yizhan to array [ HelloWord! player name 0.0 ]
 ```
 
@@ -136,7 +140,6 @@ set yizhan to array [ HelloWord! player name 0.0 ]
 #### element
 
 > https://kether.tabooproject.org/list.html#Element
-
 > 将动作的返回值作为列表获取指定元素。
 
 除了上面的 `&变量名[标号]`

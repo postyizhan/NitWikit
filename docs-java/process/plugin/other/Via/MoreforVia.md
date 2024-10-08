@@ -8,7 +8,8 @@ sidebar_position: 5
 
 ## AxSmithing
 
-在 1.20 中，sb mojang 在锻造台上添加了一个新的 UI(也就是添加了锻造模板)，如果你的 1.16-1.19 服务器运行 ViaBackwards，那么 1.20+ 玩家将无法打开锻造台，同样的事情在 1.20+ 服务器和 1.16-1.19 客户端上也是如此。 该插件还使 1.7-1.15 客户端能够打开锻造台。( 你可以恢复到旧的 1.16-1.19 锻造台，不需要下界升级锻造模板)
+在 1.20 中，sb mojang 在锻造台上添加了一个新的 UI(也就是添加了锻造模板)，如果你的 1.16-1.19 服务器运行 ViaBackwards，那么 1.20+ 玩家将无法打开锻造台。
+同样的事情在 1.20+ 服务器和 1.16-1.19 客户端上也是如此。 该插件还使 1.7-1.15 客户端能够打开锻造台。( 你可以恢复到旧的 1.16-1.19 锻造台，不需要下界升级锻造模板)
 
  [下载地址](https://github.com/ViaVersionAddons/AxSmithing)
 
@@ -47,23 +48,17 @@ sidebar_position: 5
 
 这个插件允许愚人节版本加入服务器
 
-:::danger
-
-这插件实测压根没用
-
-:::
-
-[下载地址](https://github.com/malloryhayr/ViaAprilFoolsPaper)
+[下载地址](https://modrinth.com/plugin/viaaprilfools)
 
 ## AutoViaUpdater
 
-这个插件可以自动帮你更新Via，从而帮你摆脱了服务端玩家骚扰
+这个插件可以自动帮你更新Via，从而帮你摆脱了玩家骚扰
 
 功能:
 
 * 与 Minecraft 1.8 及更高版本兼容 Spigot/Velocity/Bungeecord，包括最新版本。
 * 自动从 Jenkins 下载 ViaVersion、ViaBackwards、ViaRewind 和 ViaRewind-Legacy-Support 的成功版本及其开发版本。
 * config.yml允许你指定要更新的 Via 以及是否使用每个插件的开发版本。
-* /updatevias 命令强制更新检查器对所有 Via！（autoviaupdater.admin 权限！
+* /updatevias 命令强制更新检查器对所有 Via！(autoviaupdater.admin 权限！)
 
 [下载地址](https://www.spigotmc.org/resources/autoviaupdater.109331/)

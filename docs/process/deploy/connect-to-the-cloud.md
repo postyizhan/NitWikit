@@ -17,6 +17,7 @@ sidebar_position: 4
   <summary>Windows远程桌面连接</summary>
 
 ### Windows
+
 按下 `win键` + `R键`
 
 ![](_images/连接服务器/1.png)
@@ -29,7 +30,7 @@ sidebar_position: 4
 
 #### 映射驱动器
 
-可以在 vps 中点击 `此电脑` 看到本地的 **驱动器**（c 盘 d 盘的，这下听懂了吧）
+可以在 vps 中点击 `此电脑` 看到本地的 **驱动器**(c 盘 d 盘的，这下听懂了吧)
 
 方便你传输文件
 
@@ -39,10 +40,11 @@ sidebar_position: 4
 
 ![](_images/连接服务器/3.png)
 
-
 ### MacOS 和手机
 
-在 iOS 和 macOS 上，需要在 App Store 登录海外的 Apple ID ，然后搜索 Microsoft Remote Desktop ，就可以找到这个应用。在安卓手机上需要在 Google play 上搜索 Microsoft Remote Desktop 就可以找到这个应用，如果手机无法使用 Google play ，也可以在网上搜索安装包下载。打开应用后，点击加号，点击 **Add PC** ，选择或输入那台电脑上的那串代码，然后点击添加或保存。随后点击或双击添加的那台电脑，然后输入帐号和密码，就可以连接到那台电脑。
+在 iOS 和 macOS 上，需要在 App Store 登录海外的 Apple ID ，然后搜索 Microsoft Remote Desktop ，就可以找到这个应用。
+在安卓手机上需要在 Google play 上搜索 Microsoft Remote Desktop 就可以找到这个应用，如果手机无法使用 Google play ，也可以在网上搜索安装包下载。
+打开应用后，点击加号，点击 **Add PC** ，选择或输入那台电脑上的那串代码，然后点击添加或保存。随后点击或双击添加的那台电脑，然后输入帐号和密码，就可以连接到那台电脑。
 
 </details>
 
@@ -86,11 +88,11 @@ sidebar_position: 4
 
 [申请公网ip](apply-for-public-ip-address.md)
 
-如果申请不到，那么为了在没有公网IP的情况下连接到你的内外机器，你需要 **内网穿透（Frp）**
+如果申请不到，那么为了在没有公网IP的情况下连接到你的内外机器，你需要 **内网穿透(Frp)**
 
 [内网穿透](intranet-penetration.md)
 
-[Linux | 搭建内网穿透（Frp）](../../advance/Linux/frp.md)
+[Linux | 搭建内网穿透(Frp)](../../advance/Linux/frp.md)
 
 </details>
 

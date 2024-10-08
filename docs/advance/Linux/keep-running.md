@@ -36,12 +36,12 @@ import TabItem from '@theme/TabItem';
 
 screen 的基础指令：
 
-```
+```shell
 screen -ls            # 列出所有的 screen
-screen -S xxx         # 创建一个名叫 xxx 的虚拟窗口（推荐以每个子服务器命名）
-screen -r xxx         # 进入 xxx 虚拟窗口（只能进入已创建且无人使用的 screen）
+screen -S xxx         # 创建一个名叫 xxx 的虚拟窗口(推荐以每个子服务器命名)
+screen -r xxx         # 进入 xxx 虚拟窗口(只能进入已创建且无人使用的 screen)
 screen -D xxx         # 踢出正在使用 xxx 窗口的用户
-screen -S xxx -X quit # 删除 xxx 窗口（在 screen 中输入 exit 也可以删除）
+screen -S xxx -X quit # 删除 xxx 窗口(在 screen 中输入 exit 也可以删除)
 ```
 
 :::info
@@ -66,7 +66,7 @@ vim ~/.config/systemd/user/mc.service
 
 文件中的内容按以下配置
 
-```
+```ini
 [Unit]
 Description=Minecraft Server
 After=network.target

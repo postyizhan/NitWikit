@@ -9,13 +9,13 @@ sidebar_position: 2
 
 `SpigotMC` https://www.spigotmc.org/resources/.94496
 
-`papermc` https://hangar.papermc.io/William278/HuskChat
+`PaperMC` https://hangar.papermc.io/William278/HuskChat
 
-`modrinth` https://modrinth.com/plugin/huskchat
+`Modrinth` https://modrinth.com/plugin/huskchat
 
 `GitHub` https://github.com/WiIIiam278/HuskChat
 
-`文档（英文）` https://william278.net/docs/HuskChat
+`文档` https://william278.net/docs/HuskChat
 
 :::
 

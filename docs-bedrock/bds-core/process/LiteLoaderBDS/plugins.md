@@ -9,8 +9,8 @@ sidebar_position: 2
 
 LiteLoaderBDS 的插件共有以下几类：
 
-1. 原生插件（native）：俗称 dll 插件。通常是一个 .dll 后缀的文件。
-2. QuickJS 插件（qjs）：俗称单文件 js 插件。通常是一个 .js 后缀的文件。
+1. 原生插件(native)：俗称 dll 插件。通常是一个 .dll 后缀的文件。
+2. QuickJS 插件(qjs)：俗称单文件 js 插件。通常是一个 .js 后缀的文件。
 3. Lua 插件：通常是一个 .lua 后缀的文件。
 4. NodeJS 插件：通常是一个文件夹或是一个 .llplugin 后缀的文件。
 5. Python 插件：通常是一个文件夹或是一个 .py 后缀的文件。

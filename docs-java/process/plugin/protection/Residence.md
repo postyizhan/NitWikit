@@ -7,17 +7,15 @@ sidebar_label: 领地 - Residence
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.11480/
+`Bukkit(旧)` https://dev.bukkit.org/projects/residence
+
+`SpigotMC` https://www.spigotmc.org/resources/.11480
 
 `GitHub` https://github.com/Zrips/Residence
 
-`文档`https://www.zrips.net/residence/
+`文档`https://www.zrips.net/residence
 
 `插件百科` https://mineplugin.org/Residence
-
-`Bukkit（已过时，只能下载旧版）` https://dev.bukkit.org/projects/residence
-
-`CurseForge（已过时，只能下载旧版）` https://www.curseforge.com/minecraft/bukkit-plugins/residence
 
 :::
 
@@ -34,12 +32,15 @@ sidebar_label: 领地 - Residence
 Residence 需要 CMIlib 作为前置插件
 
 下载:
+
 * [SpigotMC](https://www.spigotmc.org/resources/cmilib.87610/)
 * [Zrips 官网](https://www.zrips.net/cmilib/)
 
 ## 优点与缺点
 
 首先，在说明优缺点前，提前说明一件事: 这个插件的缺点远大于优点，若无必要建议考虑其他插件
+
+或许你可以试试 [Dominion](./Dominion.md) ?
 
 ### 缺点
 
@@ -84,12 +85,12 @@ build.xml就已不能正常完成构建 Residence 的任务了，不过，也有
 若你由于一些原因无法使用新版本，可以考虑禁用相关功能的权限
 
 此处有两个权限需要禁用:
+
 * residence.command.bank
 * residence.command.market
 
-以下是各个权限插件禁用相关权限的命令示例:
+以下是 [LuckPerms](../ManageTool/Permission/WhatIsPermission.md) 权限插件禁用相关权限的命令示例:
 
-#### [LuckPerm]
-```
+```text
 lp group default permission set residence.command.bank false
 ```

@@ -3,7 +3,7 @@ title: 部分插件缩写
 sidebar_position: 4
 ---
 
-# 部分插件缩写
+## 部分插件缩写
 
 ***如果你不确定或不知道缩写该是什么，请不要随便使用缩写！***
 
@@ -76,7 +76,7 @@ tm 通常指 TitleManager
 
 tab 通常指 Nemzamy 的 Tab Reborn
 
-qs 一般指 ~~鬼畜畜~~creatorfromhell 现行维护的 QuickShop-Reremake
+qs 一般指 ~~鬼畜畜~~creatorfromhell 现行维护的 QuickShop-Hikari
 
 we 通常指 WorldEdit
 
@@ -133,3 +133,11 @@ pmr 通常指 楠木的 PMRewards
 plt 通常指米饭的 PlayerTitle
 
 </details>
+
+## 缩写从何而来？
+
+通常是插件作者自己注册的缩写命令，如：
+
+`mythicmobs` == `mm`
+
+![](./_images/mm.png)

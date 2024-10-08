@@ -6,13 +6,21 @@ slug: /optimize/jvm/zing
 
 # Azul Zing
 
-~~神无需优化~~
+通用内容的参数可以使用(比如大页)，但不要自行指定GC，或其他优化参数
 
-通用内容的参数可以使用(比如大页),但不要自行指定GC,或其他优化参数
+## 一步到位
+
+```text
+-XX:ProfileLogIn=readynow -XX:ProfileLogOut=readynow -XX:+FalconUseCompileStashing -XX:+CompactStrings
+```
+
+勇者加上`-XX:FalconOptimizationLevel=3`
+
+安装了 ZST 加上`-XX:+UseZST`
 
 ## ReadyNow
 
-你大概已经注意到了,Zing的预热期很长，ReadyNow就是来解决这个问题的
+你大概已经注意到了，Zing的预热期很长，ReadyNow就是来解决这个问题的
 
 若要启用 ReadyNow，请添加以下命令行选项，其中两者`<file>`通常相同：
 
@@ -36,26 +44,12 @@ C4 是 Zing 中唯一的垃圾收集器，取代了 OpenJDK 中可用的其他�
 
 ## 更高级别的 Falcon 优化
 
-使用选项`-XX:FalconOptimizationLevel=3`可以获得更高级别的优化,但会出现兼容性问题
+使用选项`-XX:FalconOptimizationLevel=3`可以获得更高级别的优化，但会出现更多兼容性问题
 
 ## Zing System Tool
 
-这玩意可以让你的系统更加适应Zing,可以自动优化系统配置
+这玩意可以让你的系统更加适应Zing，可以自动优化系统配置
 
 [官方安装教程](https://docs.azul.com/prime/zst/installation)
 
 使用`-XX:+UseZST` 开启
-
-## 下载
-
-虽然需要公司账户，但我们通过神秘手段搞到了安装包,都是JDK
-
-[RPM](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux.x86_64.rpm)
-
-[TAR.GZ](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux_x64.tar.gz)
-
-[DEB](https://cdn.azul.com/zing-zvm/ZVM24.07.0.0/zing24.07.0.0-3-jdk21.0.3.0.101-linux_amd64.deb)
-
-## 一些特殊情况
-
-zing和mariadb不要一起用

@@ -6,15 +6,15 @@ sidebar_position: 2
 
 :::info
 
-`文档（英文）` https://github.com/NEZNAMY/TAB/wiki
-
-`文档（中文）` https://docs.superiormc.cn/v/tab-wiki
-
 `SpigotMC` https://www.spigotmc.org/resources/tab-1-5-1-20-4.57806/
 
 `GitHub` https://github.com/NEZNAMY/TAB
 
 `Modrinth` https://modrinth.com/plugin/tab-was-taken
+
+`文档(英文)` https://github.com/NEZNAMY/TAB/wiki
+
+`文档(中文)` https://docs.superiormc.cn/v/tab-wiki
 
 `插件百科` https://mineplugin.org/Tab
 
@@ -24,4 +24,4 @@ sidebar_position: 2
 
 TAB插件的计分板相关: https://docs.superiormc.cn/v/tab-wiki/core-features/ji-fen-ban
 
-汉化（见贴内）：https://www.minebbs.com/resources/tab-tab.9057/
+汉化(见贴内)：https://www.minebbs.com/resources/tab-tab.9057/

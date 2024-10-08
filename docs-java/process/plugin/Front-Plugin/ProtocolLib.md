@@ -6,13 +6,13 @@ sidebar_position: 5
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/protocollib.1997/
+`Bukkit(旧)` https://dev.bukkit.org/projects/protocollib
 
-`GitHub` https://github.com/dmulloy2/ProtocolLib
+`SpigotMC` https://www.spigotmc.org/resources/protocollib.1997/
 
 `PaperMC` https://hangar.papermc.io/dmulloy2/ProtocolLib
 
-`Bukkit（太老了不要用）` https://dev.bukkit.org/projects/protocollib
+`GitHub` https://github.com/dmulloy2/ProtocolLib
 
 `ci构建站` https://ci.dmulloy2.net/job/ProtocolLib/
 
@@ -26,7 +26,7 @@ sidebar_position: 5
 
 在 `plugins\ProtocolLib\config.yml` 中
 
-```
+```yaml
 global:
   # Settings for the automatic version updater
   auto updater:

@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ![](_images/概览/餐叉.jpg)
 
-**建议阅读**
+建议阅读：
 
 - [YAML 语法](/docs-java/advance/YAML/YAML.md) - 了解大部分插件配置文件的语法。
 - [插件特征文件](/docs-java/process/plugin/plugin-signature-file.md) - 了解插件的一些信息。
@@ -38,7 +38,7 @@ sidebar_position: 1
 
 ### 笨蛋脚本
 
-下载此[脚本](https://github.com/lilingfengdev/NitWiki-Script/releases/download/windows-latest/auto-install-depend.exe)，我们会为你安装常用插件(自动)。
+下载此[脚本](https://dl.yizhan.wiki/windows-latest/auto-install-depend.exe)，我们会为你安装常用插件(自动)。
 
 <details>
   <summary>安装的插件列表</summary>
@@ -62,7 +62,7 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 ### PluginSearchEngine
 
-（目前仍在测试中）
+(目前仍在测试中)
 
 下载此[软件](https://github.com/lilingfengdev/PluginSearchEngine/releases/download/windows-latest/main.exe)
 
@@ -88,9 +88,9 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 ![](_images/概览/插件列表.png)
 
-绿色为已加载（不是代表你日后使用不报错，只是这里加载上了）。
+绿色为已加载(不是代表你日后使用不报错，只是这里加载上了)。
 
-红色为加载失败（服务端检测到了这个插件，但是没加载上，去控制台看看报错）。
+红色为加载失败(服务端检测到了这个插件，但是没加载上，去控制台看看报错)。
 
 如果这里没有你的插件...服务端甚至没识别这是个插件，去看看你的文件有啥问题。
 
@@ -110,7 +110,7 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 ## miao 系列插件
 
-因为配置简单（没啥功能当然配置简单）而广受小白服主青睐
+因为配置简单(没啥功能当然配置简单)而广受小白服主青睐
 
 之前被爆插件有远程执行代码后门来着
 
