@@ -21,6 +21,8 @@ sidebar_position: 8
 
 你也可以在按住 `Alt` 键的同时，**小键盘** **按顺序** 输入 `167` 以输出 `§` 符号
 
+_(注意: ![image](https://github.com/user-attachments/assets/49472da4-9b50-4fa3-92d1-f14cdb08cbb4) 使用新版时字符对应错误，请使用旧版)_
+
 :::
 
 :::tip
