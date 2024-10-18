@@ -41,5 +41,4 @@ sidebar_label: 领地 - Dominion
 
 ## 作者的整活儿
 
-![](https://www.helloimg.com/i/2024/10/13/670beda2b3f3d.png)
-
+![](_images/Dominion-08.png)
