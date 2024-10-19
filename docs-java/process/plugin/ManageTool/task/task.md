@@ -18,6 +18,6 @@ sidebar_position: 9
 | 客户端 NPC      | ✅ (Adyeshach)                 | ✅         | ❌     | ❌           | ✅          | ❌         | ❌        |
 | 有组织的文件结构 | ✅                             | ✅         | ❌     | ❌           | ✅          | ✅         | ❌        |
 | 基于可编程的脚本 | ✅                             | ❌         | ❌     | ❌           | ❌          | ❌         | ❌        |
-| 自动化任务分发   | ✅ 自动化组件 (Automation Addon) | ❌ 全局事件 (Static Events) | ✅ 计划任务 (Planner) | ❌ | ✅ 任务激活器 (Activators) | ❌ | ❌ |
-| 沉浸式任务追踪   | ✅ 追踪组件 (Track Addon)      | ❌ 任务手册 (Journal) | ❌          | ❌           | ❌         | ❌        |
+| 自动化任务分发   | ✅ 自动化组件 (Automation Addon) | ❌ 全局事件 (Static Events) | ✅ 计划任务 (Planner) | ❌       | ✅ 任务激活器 (Activators) | ❌ |  ❌ |
+| 沉浸式任务追踪   | ✅ 追踪组件 (Track Addon)      | ❌ 任务手册 (Journal) | ❌          | ❌           | ❌         | ❌        |  ❌ |
 | 自定义通知系统   | ✅ 脚本代理 (Kether)           | ✅ Notify IO | ❌    | ❌          | ❌           | ❌         | ❌        |
