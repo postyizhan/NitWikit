@@ -18,7 +18,7 @@
 
 文档正在编写ing...
 
-https://yizhan.wiki/NitWikit/
+https://nitwikit.yizhan.wiki/
 
 [企鹅群🐧611076407](https://qm.qq.com/q/lEnfzgzxjq)
 
