@@ -4,6 +4,8 @@ sidebar_position: 10
 sidebar_label: 商店 - QuickShop
 ---
 
+<!--markdownlint-disable line-length-->
+
 一张图秒懂
 
 ![](_images/QuickShop.jpg)
@@ -23,6 +25,8 @@ sidebar_label: 商店 - QuickShop
 [PotatoCraft-Studio](https://github.com/PotatoCraft-Studio) 团队的 [QuickShop-Reremake](#quickshop-reremakepotatocraft-studio) 的后续版本 [QuickShop-Hikari](#quickshop-hikari) 目前由 [creatorfromhell](https://github.com/creatorfromhell) 维护
 
 `插件百科` https://mineplugin.org/QuickShop
+
+<!--markdownlint-disable line-length-->
 
 ## QuickShop
 
