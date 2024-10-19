@@ -6,6 +6,8 @@ sidebar_position: 9
 
 ## 同类插件比较
 
+<!--markdownlint-disable line-length-->
+
 | ------------- | Chemdah                           | BetonQuest | Quests | BeautyQuests | QuestCreator | MangoQuest | PlayerTask |
 | ------------- | --------------------------------- | ---------- | ------ | ------------ | ------------ | ---------- | ---------- |
 | 免费使用       | ✅(¥300)                         | ✅         | ✅    | ✅           | ❌(¥131.25) | ✅         | ❌        |
@@ -21,3 +23,5 @@ sidebar_position: 9
 | 自动化任务分发   | ✅ 自动化组件 (Automation Addon) | ❌ 全局事件 (Static Events) | ✅ 计划任务 (Planner) | ❌       | ✅ 任务激活器 (Activators) | ❌ |  ❌ |
 | 沉浸式任务追踪   | ✅ 追踪组件 (Track Addon)      | ❌ 任务手册 (Journal) | ❌          | ❌           | ❌         | ❌        |  ❌ |
 | 自定义通知系统   | ✅ 脚本代理 (Kether)           | ✅ Notify IO | ❌    | ❌          | ❌           | ❌         | ❌        |
+
+<!--markdownlint-disable line-length-->
