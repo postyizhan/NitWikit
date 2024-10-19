@@ -189,6 +189,7 @@ ia的文档教了如何使用
 
 - 123pan 要钱
 - 小的直链网盘容易跑路，不稳定
+- 速度堪忧
 
 </TabItem>
 <TabItem value="self" label="自托管">
