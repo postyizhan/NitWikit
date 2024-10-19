@@ -18,7 +18,7 @@
 
 文档正在编写ing...
 
-https://yizhan.wiki/NitWikit/
+https://nitwikit.yizhan.wiki/
 
 [企鹅群🐧611076407](https://qm.qq.com/q/lEnfzgzxjq)
 
@@ -278,6 +278,13 @@ https://yizhan.wiki/NitWikit/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/0XPYEX0">
+                    <img src="https://avatars.githubusercontent.com/u/50171612?v=4" width="50;" alt="0XPYEX0"/>
+                    <br />
+                    <sub><b>XPYEX</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/zzzyyylllty">
                     <img src="https://avatars.githubusercontent.com/u/167876309?v=4" width="50;" alt="zzzyyylllty"/>
                     <br />
@@ -291,6 +298,8 @@ https://yizhan.wiki/NitWikit/
                     <sub><b>蛟龙</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/virgil698">
                     <img src="https://avatars.githubusercontent.com/u/83110631?v=4" width="50;" alt="virgil698"/>
@@ -298,20 +307,11 @@ https://yizhan.wiki/NitWikit/
                     <sub><b>MrVirgil</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/Coquettishpig">
                     <img src="https://avatars.githubusercontent.com/u/107100449?v=4" width="50;" alt="Coquettishpig"/>
                     <br />
                     <sub><b>Coquettishpig</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/0XPYEX0">
-                    <img src="https://avatars.githubusercontent.com/u/50171612?v=4" width="50;" alt="0XPYEX0"/>
-                    <br />
-                    <sub><b>XPYEX</b></sub>
                 </a>
             </td>
             <td align="center">
