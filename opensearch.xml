@@ -4,8 +4,8 @@
   <ShortName>笨蛋 MC 开服教程</ShortName>
   <Description>Search 笨蛋 MC 开服教程</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://yizhan.wiki/NitWikit/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://yizhan.wiki/NitWikit/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://yizhan.wiki/NitWikit/opensearch.xml" />
-  <moz:SearchForm>https://yizhan.wiki/NitWikit/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://nitwikit.yizhan.wiki/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://nitwikit.yizhan.wiki/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://nitwikit.yizhan.wiki/opensearch.xml" />
+  <moz:SearchForm>https://nitwikit.yizhan.wiki/</moz:SearchForm>
 </OpenSearchDescription>
