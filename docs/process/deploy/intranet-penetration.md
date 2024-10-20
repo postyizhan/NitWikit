@@ -13,9 +13,63 @@ sidebar_position: 5
 
 内网穿透一抓一大把，比如[樱花内网穿透](https://www.natfrp.com/)和[OpenFrp](https://www.openfrp.net/)
 
-~~因为rz用户比较多，你甚至能用某人用不用樱花来定性判断这人有没有技术~~
+Cloudflare 也有内网穿透 Tunnel (无需注册！)
 
 Linux自建frp参见[此页面](/advance/Linux/frp)
+
+## Cloudflare Tunnel
+
+~~佛祖的东西肯定得介绍~~
+
+Cloudflare Tunnel 是 CF 下的免费内网穿透
+
+优点：
+* 免费，无需注册
+* 自带 n TB高防
+* 不限流
+* 支持 TCP,UDP,RDP,SSH,HTTP
+* SSH 提供 WebSSH,还可以通过 Access 管理
+
+缺点：
+* 延迟80ms+(不可以优选）
+* 客户端需安装 mod 才能进入(仅限 TCP,UDP)
+
+### 安装
+
+在[Github](https://github.com/cloudflare/cloudflared/releases) 找到适合的版本并安装
+
+### 使用
+
+打开cmd,运行以下命令
+
+```shell
+cloudflared tunnel --url tcp://localhost:服务器端口
+```
+
+`tcp`可以换成其他你需要的协议，比如`http`
+
+很快你就能看到
+
+```text
+INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
+INF Requesting new quick Tunnel on trycloudflare.com...
+INF +--------------------------------------------------------------------------------------------+
+INF |  Your quick Tunnel has been created! Visit it at (it may take some time to be reachable):  |
+INF |  https://corporate-mention-tiles-coordinates.trycloudflare.com                             |
+INF +--------------------------------------------------------------------------------------------+
+```
+
+`*.trycloudflare.com` 就是 CF 给你的免费域名
+
+### 客户端
+
+需要安装[Modflared](https://modrinth.com/mod/modflared)
+
+:::tip
+
+作为服主，你还需要绑定到你自己的域名，参考 Modflared 的教程
+
+:::
 
 ## 可能的问题?
 
@@ -67,3 +121,4 @@ frp 启用 proxy protocol 的方式参考 [Linux自建frp](/advance/Linux/frp)�
 - Spigot端插件 [HAProxyDetector](https://github.com/andylizi/haproxy-detector)
 
 等。BDS 服务器目前不支持此协议。
+
