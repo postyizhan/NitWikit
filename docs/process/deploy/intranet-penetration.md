@@ -50,6 +50,8 @@ cloudflared tunnel --url tcp://localhost:服务器端口
 
 很快你就能看到
 
+<!--markdownlint-disable line-length-->
+
 ```text
 INF Thank you for trying Cloudflare Tunnel. Doing so, without a Cloudflare account, is a quick way to experiment and try it out. However, be aware that these account-less Tunnels have no uptime guarantee. If you intend to use Tunnels in production you should use a pre-created named tunnel by following: https://developers.cloudflare.com/cloudflare-one/connections/connect-apps
 INF Requesting new quick Tunnel on trycloudflare.com...
@@ -60,6 +62,8 @@ INF +---------------------------------------------------------------------------
 ```
 
 `*.trycloudflare.com` 就是 CF 给你的免费域名
+
+<!--markdownlint-disable line-length-->
 
 ### 客户端
 
