@@ -200,13 +200,15 @@ NullCordX 是一个较好的选择。
 
 缺点是似乎还没有任何一家这样的代理拥有国内服务器(延迟高)，且需要花费一点时间设置
 
+那些在 CF 上 A(或AAAA,CNAME)过去到源站(可能配上 SRV)就是**自欺欺人,完全没用**,CF 压根不会代理这些端口和协议的流量,开小黄云也一样
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs queryString="protect">
 <TabItem value="cf-tunnel" label="Cloudflare Tunnel">
 
-CloudFlare 的内网穿透 Tunnel,当高防也是疯了
+Cloudflare 的内网穿透 Tunnel,当高防也是疯了
 
 优点：
 * 免费，无需注册
@@ -235,10 +237,16 @@ Cloudflare 用于 TCP,UDP 协议的防御,可惜价格太贵了(1$/GB抢钱)
 * 价格太贵了(CF Pro+ 流量计费)(CF Partner 计划早没了)
 * 延迟较大(不可以优选)
 
+价格多贵?
+ 
+Cloudflare Pro 25$/月(约合人民币178元,免费流量**5GB**),此后 1$/**GB**
+
+也就是说,1 TB 流量价格为 1044$,约合人民币7443元,还不算 CF Pro 订阅费用,除非你对 CF Pro 其他功能有需求,否则别用
+
 </TabItem>
 <TabItem value="minekube" label="MineKube">
 
-Minekube 的免费保护,这个组织还有另一个有名作品 Gate
+MineKube 的免费保护,这个组织还有另一个有名作品 Gate
 
 个人感觉比 Cloudflare Tunnel 强很多(比 Cloudflare Spectrum 体验都好)
 
@@ -252,6 +260,7 @@ Minekube 的免费保护,这个组织还有另一个有名作品 Gate
 
 缺点：
 * 延迟较大
+* 没 Geyser 支持
 
 [官网](https://connect.minekube.com/)
 
@@ -271,13 +280,41 @@ TCPShield 专业的 Minecraft 网络保护
 
 Asia Network(亚洲网络):
 * 提供新加坡和东京网络
-* 价格:0.01 $/GB(与其他流量分开计费)
+* 价格:0.01 $/GB(与其他流量分开计费,没有免费流量)(约合人民币7分)
 
 Geyser 支持需要 Premium 计划(100 $/月,堪比抢钱)
 
-Pro 计划(25$ 每月):
+Pro 计划(25$ 每月)(约合人民币178元):
 * 5 TB 免费流量
 * IP 防火墙,可过滤流量
+
+[官网](https://tcpshield.com/)
+
+</TabItem>
+<TabItem value="neoprotect" label="NeoProtect">
+
+优点：
+* 提供免费套餐(1TB 免费流量)
+* 提供面板管理流量
+* **L7层保护(反机器人)**
+
+缺点:
+* 延迟较大(only Free plan)
+
+Universal 计划 15 欧/每月(约 115 人民币)
+特点:
+* 3TB 流量
+* **Geyser 支持**(比 TCPShield 便宜)
+* 高级反机器人,高级分析,MOTD 缓存
+
+Neo 计划 30 欧/每月(约 230 人民币)
+特点:
+* 5TB 流量
+* 更多的节点(重点是**香港,日本,新加坡**节点)
+* IP 防火墙,支持黑白名单
+* 反 VPN
+
+还有一个计划纯抢钱
 
 </TabItem>
 </Tabs>
@@ -295,6 +332,8 @@ Pro 计划(25$ 每月):
 <!--![](_images/angryopenfrp.jpg)  -->
 
 :::
+
+有着闲心还不如用上一条的免费防御,虽然速度慢一点
 
 #### 更换 IP
 
