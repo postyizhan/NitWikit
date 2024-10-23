@@ -13,7 +13,7 @@ sidebar_position: 5
 
 内网穿透一抓一大把，比如[樱花内网穿透](https://www.natfrp.com/)和[OpenFrp](https://www.openfrp.net/)
 
-Cloudflare 也有内网穿透 Tunnel (无需注册！)
+Cloudflare 也有内网穿透 Tunnel (无需注册！),Minekube 也有内网穿透 Connect(同样无需注册)
 
 Linux自建frp参见[此页面](/advance/Linux/frp)
 
@@ -31,8 +31,10 @@ Cloudflare Tunnel 是 CF 下的免费内网穿透
 * SSH 提供 WebSSH,还可以通过 Access 管理
 
 缺点：
-* 延迟80ms+(不可以优选）
+* 延迟较大(不可以优选）
 * 客户端需安装 mod 才能进入(仅限 TCP,UDP)
+
+
 
 ### 安装
 
@@ -74,6 +76,24 @@ INF +---------------------------------------------------------------------------
 作为服主，你还需要绑定到你自己的域名，参考 Modflared 的教程
 
 :::
+
+## Minekube Connect
+
+Minekube 的免费内网穿透,这个组织还有另一个有名作品 Gate
+
+个人感觉比 Cloudflare Tunnel 强很多(比 Cloudflare Spectrum 体验都好)
+
+优点：
+* 免费，无需注册
+* 自带高防
+* 不限流
+* 会提供一个免费域名和1个 AnyCast 独立 IPV4
+* 有 Dashboard,可以进行网络分流,管理,黑名单等操作
+
+缺点：
+* 延迟较大
+
+[官网](https://connect.minekube.com/)
 
 ## 可能的问题?
 

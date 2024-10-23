@@ -123,20 +123,20 @@ mcping <服务器地址>
 
 ### `帮助`
 
-返回 https://yizhan.wiki/NitWikit/services/
+返回 https://nitwikit.yizhan.wiki/services/
 
 ### `正确提问`
 
-返回消息 https://yizhan.wiki/NitWikit/start/%E5%90%91%E5%A4%A7%E4%BD%AC%E6%B1%82%E5%8A%A9
+返回消息 https://nitwikit.yizhan.wiki/start/%E5%90%91%E5%A4%A7%E4%BD%AC%E6%B1%82%E5%8A%A9
 
 ### `搜索`
 
-返回消息 https://yizhan.wiki/NitWikit/search?q=
+返回消息 https://nitwikit.yizhan.wiki/search?q=
 
 ### `核心`
 
 返回消息
 
-📦 单端 https://yizhan.wiki/NitWikit/Java/start/server-core-choose
+📦 单端 https://nitwikit.yizhan.wiki/Java/start/server-core-choose
 
-📦 跨服端 https://yizhan.wiki/NitWikit/Java/advance/cross-server/server-core-choose
+📦 跨服端 https://nitwikit.yizhan.wiki/Java/advance/cross-server/server-core-choose

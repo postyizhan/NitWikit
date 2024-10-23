@@ -131,7 +131,7 @@ connection_throttle_limit: 3
 
 ### 付费防御核心
 
-如果你非常有钱，你可以打开跨服端[核心选择](https://yizhan.wiki/NitWikit/Java/advance/cross-server/server-core-choose)，选择那些付费的跨服端核心，
+如果你非常有钱，你可以打开跨服端[核心选择](https://nitwikit.yizhan.wiki/Java/advance/cross-server/server-core-choose)，选择那些付费的跨服端核心，
 NullCordX 是一个较好的选择。
 
 但在没有想好的情况下，**不建议为反假人付费**。
@@ -192,23 +192,95 @@ NullCordX 是一个较好的选择。
 
 如果是 VPS，建议向 VPS 提供商咨询防御服务。
 
-#### 套 CloudFlare
+#### 使用Minecraft代理
 
-最稳定的办法还是白嫖 CloudFlare 的免费套餐，无限防御流量。
-
-但不太好的地方就是免费用户是没有办法使用国内节点的，所以国内访问会较慢。
-
-#### 使用第三方Minecraft代理
-
-例如 TCPShield 和 Infinity-Filter。
+例如 TCPShield,Cloudflare 和 MineKube
 
 包含专门针对于缓解 Minecraft 攻击的负载均衡代理，且能够有效隐藏服务器 IP 地址。
 
-缺点是似乎还没有任何一家这样的代理拥有国内服务器(延迟高)，且需要花费一点时间设置。
+缺点是似乎还没有任何一家这样的代理拥有国内服务器(延迟高)，且需要花费一点时间设置
 
-这些代理的免费套餐都具有一定的限制(例如限制玩家数或流量)，除非你升级套餐。
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-使用前请三思。
+<Tabs queryString="protect">
+<TabItem value="cf-tunnel" label="Cloudflare Tunnel">
+
+CloudFlare 的内网穿透 Tunnel,当高防也是疯了
+
+优点：
+* 免费，无需注册
+* 自带 n TB高防
+* 不限流
+* 支持 TCP,UDP,RDP,SSH,HTTP
+* SSH 提供 WebSSH,还可以通过 Access 管理
+* 自带内网穿透
+
+缺点：
+* 延迟较大(不可以优选)
+* 客户端需安装 mod 才能进入(仅限 TCP,UDP)
+
+</TabItem>
+<TabItem value="cf-spectrum" label="Cloudflare Spectrum">
+
+Cloudflare 用于 TCP,UDP 协议的防御,可惜价格太贵了(1$/GB抢钱)
+
+优点:
+* n TB高防
+* 支持 TCP,UDP,RDP,SSH,HTTP
+* 提供1个 AnyCast 独立 IPV4
+* SSH 提供 WebSSH,还可以通过 Access 管理
+
+缺点：
+* 价格太贵了(CF Pro+ 流量计费)(CF Partner 计划早没了)
+* 延迟较大(不可以优选)
+
+</TabItem>
+<TabItem value="minekube" label="MineKube">
+
+Minekube 的免费保护,这个组织还有另一个有名作品 Gate
+
+个人感觉比 Cloudflare Tunnel 强很多(比 Cloudflare Spectrum 体验都好)
+
+优点：
+* 免费，无需注册
+* 自带高防
+* 不限流
+* 会提供一个免费域名和1个 AnyCast 独立 IPV4
+* 有 Dashboard,可以进行网络分流,管理,黑名单等操作
+* 自带内网穿透
+
+缺点：
+* 延迟较大
+
+[官网](https://connect.minekube.com/)
+
+</TabItem>
+<TabItem value="tcpshield" label="TCPShield">
+
+TCPShield 专业的 Minecraft 网络保护
+
+优点：
+* 提供免费套餐(1TB 免费流量)
+* **L7层保护(会校验流量合法性)**
+* 提供面板管理流量
+* 价格便宜
+
+缺点:
+* 延迟较大(启动 Asia Network 后会好很多)
+
+Asia Network(亚洲网络):
+* 提供新加坡和东京网络
+* 价格:0.01 $/GB(与其他流量分开计费)
+
+Geyser 支持需要 Premium 计划(100 $/月,堪比抢钱)
+
+Pro 计划(25$ 每月):
+* 5 TB 免费流量
+* IP 防火墙,可过滤流量
+
+</TabItem>
+</Tabs>
 
 #### 狂套 Frp
 

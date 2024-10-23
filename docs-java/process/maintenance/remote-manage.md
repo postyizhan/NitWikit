@@ -9,7 +9,7 @@ sidebar_position: 6
 
 ## 面板
 
-查看[通用 | 面板搭建](https://yizhan.wiki/NitWikit/process/dashboard)
+查看[通用 | 面板搭建](https://nitwikit.yizhan.wiki/process/dashboard)
 
 ## ServerCtrl
 
