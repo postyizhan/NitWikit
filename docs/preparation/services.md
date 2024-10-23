@@ -78,8 +78,8 @@ sidebar_position: 5
 
 然后前往[NitWikit-Domain申请](https://github.com/lilingfengdev/NitWikit-Domain/issues/new?assignees=&labels=request&projects=&template=request.yml&title=%5B%E7%94%B3%E8%AF%B7%5D%3A+),请确保你需要的子域名满足以下条件
 
-* 只有数字和字母
-* 没被别人用
+- 只有数字和字母
+- 没被别人用
 
 然后静待机器人回复
 

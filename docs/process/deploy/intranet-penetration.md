@@ -24,6 +24,7 @@ Linux自建frp参见[此页面](/advance/Linux/frp)
 Cloudflare Tunnel 是 CF 下的免费内网穿透
 
 优点：
+
 * 免费，无需注册
 * 自带 n TB高防
 * 不限流
@@ -31,10 +32,9 @@ Cloudflare Tunnel 是 CF 下的免费内网穿透
 * SSH 提供 WebSSH,还可以通过 Access 管理
 
 缺点：
+
 * 延迟较大(不可以优选）
 * 客户端需安装 mod 才能进入(仅限 TCP,UDP)
-
-
 
 ### 安装
 
@@ -84,6 +84,7 @@ Minekube 的免费内网穿透,这个组织还有另一个有名作品 Gate
 个人感觉比 Cloudflare Tunnel 强很多(比 Cloudflare Spectrum 体验都好)
 
 优点：
+
 * 免费，无需注册
 * 自带高防
 * 不限流
@@ -91,6 +92,7 @@ Minekube 的免费内网穿透,这个组织还有另一个有名作品 Gate
 * 有 Dashboard,可以进行网络分流,管理,黑名单等操作
 
 缺点：
+
 * 延迟较大
 
 [官网](https://connect.minekube.com/)
@@ -139,10 +141,9 @@ frp 启用 proxy protocol 的方式参考 [Linux自建frp](/advance/Linux/frp)�
 
 对于mc服务器来说，支持 proxy protocol 的软件有：
 
-- bungeecord 系
-- paper 分支(1.18.2)(仅支持v2)
-- [Geyser](../../../Java/process/mobile-player/Geyser/introduction/FAQ#frp搭建内网穿透想显示真实ip怎么办)
-- Spigot端插件 [HAProxyDetector](https://github.com/andylizi/haproxy-detector)
+* bungeecord 系
+* paper 分支(1.18.2)(仅支持v2)
+* [Geyser](../../../Java/process/mobile-player/Geyser/introduction/FAQ#frp搭建内网穿透想显示真实ip怎么办)
+* Spigot端插件 [HAProxyDetector](https://github.com/andylizi/haproxy-detector)
 
 等。BDS 服务器目前不支持此协议。
-

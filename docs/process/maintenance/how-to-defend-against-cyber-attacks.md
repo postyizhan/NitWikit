@@ -211,16 +211,18 @@ import TabItem from '@theme/TabItem';
 Cloudflare 的内网穿透 Tunnel,当高防也是疯了
 
 优点：
-* 免费，无需注册
-* 自带 n TB高防
-* 不限流
-* 支持 TCP,UDP,RDP,SSH,HTTP
-* SSH 提供 WebSSH,还可以通过 Access 管理
-* 自带内网穿透
+
+- 免费，无需注册
+- 自带 n TB高防
+- 不限流
+- 支持 TCP,UDP,RDP,SSH,HTTP
+- SSH 提供 WebSSH,还可以通过 Access 管理
+- 自带内网穿透
 
 缺点：
-* 延迟较大(不可以优选)
-* 客户端需安装 mod 才能进入(仅限 TCP,UDP)
+
+- 延迟较大(不可以优选)
+- 客户端需安装 mod 才能进入(仅限 TCP,UDP)
 
 </TabItem>
 <TabItem value="cf-spectrum" label="Cloudflare Spectrum">
@@ -228,17 +230,19 @@ Cloudflare 的内网穿透 Tunnel,当高防也是疯了
 Cloudflare 用于 TCP,UDP 协议的防御,可惜价格太贵了(1$/GB抢钱)
 
 优点:
-* n TB高防
-* 支持 TCP,UDP,RDP,SSH,HTTP
-* 提供1个 AnyCast 独立 IPV4
-* SSH 提供 WebSSH,还可以通过 Access 管理
+
+- n TB高防
+- 支持 TCP,UDP,RDP,SSH,HTTP
+- 提供1个 AnyCast 独立 IPV4
+- SSH 提供 WebSSH,还可以通过 Access 管理
 
 缺点：
-* 价格太贵了(CF Pro+ 流量计费)(CF Partner 计划早没了)
-* 延迟较大(不可以优选)
+
+- 价格太贵了(CF Pro+ 流量计费)(CF Partner 计划早没了)
+- 延迟较大(不可以优选)
 
 价格多贵?
- 
+
 Cloudflare Pro 25$/月(约合人民币178元,免费流量**5GB**),此后 1$/**GB**
 
 也就是说,1 TB 流量价格为 1044$,约合人民币7443元,还不算 CF Pro 订阅费用,除非你对 CF Pro 其他功能有需求,否则别用
@@ -251,16 +255,18 @@ MineKube 的免费保护,这个组织还有另一个有名作品 Gate
 个人感觉比 Cloudflare Tunnel 强很多(比 Cloudflare Spectrum 体验都好)
 
 优点：
-* 免费，无需注册
-* 自带高防
-* 不限流
-* 会提供一个免费域名和1个 AnyCast 独立 IPV4
-* 有 Dashboard,可以进行网络分流,管理,黑名单等操作
-* 自带内网穿透
+
+- 免费，无需注册
+- 自带高防
+- 不限流
+- 会提供一个免费域名和1个 AnyCast 独立 IPV4
+- 有 Dashboard,可以进行网络分流,管理,黑名单等操作
+- 自带内网穿透
 
 缺点：
-* 延迟较大
-* 没 Geyser 支持
+
+- 延迟较大
+- 没 Geyser 支持
 
 [官网](https://connect.minekube.com/)
 
@@ -270,23 +276,27 @@ MineKube 的免费保护,这个组织还有另一个有名作品 Gate
 TCPShield 专业的 Minecraft 网络保护
 
 优点：
-* 提供免费套餐(1TB 免费流量)
-* **L7层保护(会校验流量合法性)**
-* 提供面板管理流量
-* 价格便宜
+
+- 提供免费套餐(1TB 免费流量)
+- **L7层保护(会校验流量合法性)**
+- 提供面板管理流量
+- 价格便宜
 
 缺点:
-* 延迟较大(启动 Asia Network 后会好很多)
+
+- 延迟较大(启动 Asia Network 后会好很多)
 
 Asia Network(亚洲网络):
-* 提供新加坡和东京网络
-* 价格:0.01 $/GB(与其他流量分开计费,没有免费流量)(约合人民币7分)
+
+- 提供新加坡和东京网络
+- 价格:0.01 $/GB(与其他流量分开计费,没有免费流量)(约合人民币7分)
 
 Geyser 支持需要 Premium 计划(100 $/月,堪比抢钱)
 
 Pro 计划(25$ 每月)(约合人民币178元):
-* 5 TB 免费流量
-* IP 防火墙,可过滤流量
+
+- 5 TB 免费流量
+- IP 防火墙,可过滤流量
 
 [官网](https://tcpshield.com/)
 
@@ -294,25 +304,31 @@ Pro 计划(25$ 每月)(约合人民币178元):
 <TabItem value="neoprotect" label="NeoProtect">
 
 优点：
-* 提供免费套餐(1TB 免费流量)
-* 提供面板管理流量
-* **L7层保护(反机器人)**
+
+- 提供免费套餐(1TB 免费流量)
+- 提供面板管理流量
+- **L7层保护(反机器人)**
 
 缺点:
-* 延迟较大(only Free plan)
+
+- 延迟较大(only Free plan)
 
 Universal 计划 15 欧/每月(约 115 人民币)
+
 特点:
-* 3TB 流量
-* **Geyser 支持**(比 TCPShield 便宜)
-* 高级反机器人,高级分析,MOTD 缓存
+
+- 3TB 流量
+- **Geyser 支持**(比 TCPShield 便宜)
+- 高级反机器人,高级分析,MOTD 缓存
 
 Neo 计划 30 欧/每月(约 230 人民币)
+
 特点:
-* 5TB 流量
-* 更多的节点(重点是**香港,日本,新加坡**节点)
-* IP 防火墙,支持黑白名单
-* 反 VPN
+
+- 5TB 流量
+- 更多的节点(重点是**香港,日本,新加坡**节点)
+- IP 防火墙,支持黑白名单
+- 反 VPN
 
 还有一个计划纯抢钱
 
