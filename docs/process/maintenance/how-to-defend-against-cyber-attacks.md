@@ -339,17 +339,17 @@ Neo 计划 30 欧/每月(约 230 人民币)
 
 VIP套餐(25 $ 每月,约合人民币177元):
 
-* 支持 Geyser
-* L7 过滤
+- 支持 Geyser
+- L7 过滤
 
 流量状况:
 
-* 无限流量: 仅提供纽约，法兰克福节点
-* Cloudflare Spectrum 流量: 流量数位置,但不是无限
+- 无限流量: 仅提供纽约，法兰克福节点
+- Cloudflare Spectrum 流量: 流量数位置,但不是无限
 
 Enterprise套餐(250 $ 每月,约合人民币1778元):
 
-* Cloudflare Spectrum 无限流量
+- Cloudflare Spectrum 无限流量
 
 :::tip
 

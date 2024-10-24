@@ -100,8 +100,20 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 ### 更长的 KeepAlive 时间
 
+(仅适合 Paper 和 Paper Fork)
+
 ```shell
 -Dpaper.playerconnection.keepalive=60
 ```
 
 如果你的网络不好，可以适当延长 keepalive 时间，打开[alternate-keepalive](/docs-java/process/maintenance/optimize/go.md#心跳连接)
+
+### 禁用文件夹遍历和符号链接验证
+
+(仅适合 Paper 和 Paper Fork)
+
+```shell
+-Dpaper.disableWorldSymlinkValidation=true 
+```
+
+在加载世界时禁用文件夹遍历和符号链接验证.显著提高大型世界的加载速度
