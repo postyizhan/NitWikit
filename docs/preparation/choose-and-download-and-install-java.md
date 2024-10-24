@@ -80,12 +80,12 @@ MOD 服务端
 
 <!--markdownlint-disable line-length-->
 
-| Java 版本 | 下载链接                                                                                                                                                                      |
-|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Java 8  | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.19.20/Alibaba_Dragonwell_Extended_8.19.20_x64_windows.zip)                                                 |
-| Java 11 | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/11.0.23.20.9/Alibaba_Dragonwell_Extended_11.0.23.20.9_x64_windows.zip)                                       |
-| Java 17 | [GraalVM](https://download.oracle.com/graalvm/17/latest/graalvm-jdk-17_windows-x64_bin.zip)  [Zulu](https://cdn.azul.com/zulu/bin/zulu21.36.17-ca-jdk21.0.4-win_x64.zip)  |
-| Java 21 | [GraalVM](https://download.oracle.com/graalvm/21/latest/graalvm-jdk-21_windows-x64_bin.zip)  [Zulu](https://cdn.azul.com/zulu/bin/zulu17.52.17-ca-jdk17.0.12-win_x64.zip) |
+| Java 版本 | 下载链接                                                                                                                                                                                   |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Java 8  | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.19.20/Alibaba_Dragonwell_Extended_8.19.20_x64_windows.zip)                                                              |
+| Java 11 | [Dragonwell](https://dragonwell.oss-cn-shanghai.aliyuncs.com/11.0.23.20.9/Alibaba_Dragonwell_Extended_11.0.23.20.9_x64_windows.zip)                                                    |
+| Java 17 | [GraalVM](https://d.injdk.cn/d/download/graalvm/17.0.11/graalvm-jdk-17.0.11_windows-x64_bin.zip)  [Zulu](https://d.injdk.cn/d/download/zulu/17/zulu17.52.17-ca-jdk17.0.12-win_x64.zip) |
+| Java 21 | [GraalVM](https://d.injdk.cn/d/download/graalvm/21.0.3/graalvm-jdk-21.0.3_windows-x64_bin.zip)  [Zulu](https://d.injdk.cn/d/download/zulu/21/zulu21.36.17-ca-jdk21.0.4-win_x64.zip)    |
 
 <!--markdownlint-enable line-length-->
 
@@ -100,6 +100,10 @@ MOD 服务端
 :::
 
 ## 手动下载
+
+### 下载镜像
+
+[InJDK](https://d.injdk.cn/download) 各种 JDK 的下载镜像
 
 ### Oracle 版
 

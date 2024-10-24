@@ -76,6 +76,7 @@ GraalVM 分为 Community Edition(CE) 和 Enterprise Edition(EE)，除非你服�
 
 - [下载 EE](https://www.graalvm.org/downloads/)
 - [下载 CE](https://github.com/graalvm/graalvm-ce-builds/releases/)
+- [下载镜像](https://d.injdk.cn/download/graalvm)
 
 :::tip
 
@@ -99,6 +100,7 @@ Azul Zing 不能直接被下载，需要填写试用申请表，但我们通过�
 Azul Zulu 支持 Java 8 以上，Java 7 和 6 需要成为客户才能下载
 
 - [官网](https://www.azul.com/downloads/?package=jdk&show-old-builds=true#zulu)
+- [下载镜像](https://d.injdk.cn/download/zulu)
 
 </TabItem>
 <TabItem value="openj9" label="OpenJ9">
@@ -106,6 +108,7 @@ Azul Zulu 支持 Java 8 以上，Java 7 和 6 需要成为客户才能下载
 OpenJ9 有认证版和非认证版，主要是因为和 OpenJ9 的关系和操作系统的关系而使用不同的许可证罢了，本质代码是一样的，直接下`IBM Semeru Runtime Open Edition`就行
 
 - [官网](https://developer.ibm.com/languages/java/semeru-runtimes/downloads/)
+- [下载镜像](https://d.injdk.cn/download/ibm)
 
 </TabItem>
 </Tabs>

@@ -68,6 +68,7 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 ！不建议在不接触配置文件的情况下直接使用该插件。
 
 > GitHub: https://github.com/Updated-NoCheatPlus/NoCheatPlus
+> 下载镜像: https://dl.yizhan.wiki/plugins/NoCheatPlus.jar
 
 或者 Leaf 核心作者 [Dreeam](https://github.com/Dreeam-qwq)(国人)的分支版本，这个版本剔除了一些检测以提升性能。
 
@@ -84,6 +85,7 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 ！可能不适合部分生电服务器或声明允许使用辅助模组的插件。
 
 > GitHub: https://github.com/GrimAnticheat/Grim
+> MineBBS: https://www.minebbs.com/threads/grimanticheat-1-8-x-1-21-x.29384/
 
 ### Vulcan
 
