@@ -13,9 +13,9 @@ sidebar_position: 5
 
 内网穿透一抓一大把，比如[樱花内网穿透](https://www.natfrp.com/)和[OpenFrp](https://www.openfrp.net/)
 
-Cloudflare 也有内网穿透 Tunnel (无需注册！),Minekube 也有内网穿透 Connect(同样无需注册)
+Cloudflare 也有内网穿透 Tunnel (无需注册！),MineKube 也有内网穿透 Connect(同样无需注册)
 
-Linux自建frp参见[此页面](/advance/Linux/frp)
+Linux自建frp参见[此页面](https://nitwikit.yizhan.wiki/advance/Linux/frp)
 
 ## Cloudflare Tunnel
 
@@ -93,7 +93,7 @@ Minekube 的免费内网穿透,这个组织还有另一个有名作品 Gate
 
 缺点：
 
-* 延迟较大
+* 延迟非常大
 
 [官网](https://connect.minekube.com/)
 
@@ -143,7 +143,7 @@ frp 启用 proxy protocol 的方式参考 [Linux自建frp](/advance/Linux/frp)�
 
 * bungeecord 系
 * paper 分支(1.18.2)(仅支持v2)
-* [Geyser](../../../Java/process/mobile-player/Geyser/introduction/FAQ#frp搭建内网穿透想显示真实ip怎么办)
+* [Geyser](https://nitwikit.yizhan.wiki/Java/process/mobile-player/Geyser/introduction/FAQ/#frp%E6%90%AD%E5%BB%BA%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E6%83%B3%E6%98%BE%E7%A4%BA%E7%9C%9F%E5%AE%9Eip%E6%80%8E%E4%B9%88%E5%8A%9E)
 * Spigot端插件 [HAProxyDetector](https://github.com/andylizi/haproxy-detector)
 
 等。BDS 服务器目前不支持此协议。

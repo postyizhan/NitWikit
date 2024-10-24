@@ -265,7 +265,7 @@ MineKube 的免费保护,这个组织还有另一个有名作品 Gate
 
 缺点：
 
-- 延迟较大
+- 延迟非常大
 - 没 Geyser 支持
 
 [官网](https://connect.minekube.com/)
@@ -330,7 +330,7 @@ Neo 计划 30 欧/每月(约 230 人民币)
 - IP 防火墙,支持黑白名单
 - 反 VPN
 
-还有一个计划纯抢钱
+还有一个计划纯抢钱,[官网](https://neoprotect.net/)
 
 </TabItem>
 </Tabs>
