@@ -213,7 +213,7 @@ Cloudflare 的内网穿透 Tunnel,当高防也是疯了
 优点：
 
 - 免费，无需注册
-- 自带 n TB高防
+- 296 Tbps 高防,298 位置
 - 不限流
 - 支持 TCP,UDP,RDP,SSH,HTTP
 - SSH 提供 WebSSH,还可以通过 Access 管理
@@ -231,21 +231,21 @@ Cloudflare 用于 TCP,UDP 协议的防御,可惜价格太贵了(1$/GB抢钱)
 
 优点:
 
-- n TB高防
+- 296 Tbps 高防,298 位置
 - 支持 TCP,UDP,RDP,SSH,HTTP
 - 提供1个 AnyCast 独立 IPV4
 - SSH 提供 WebSSH,还可以通过 Access 管理
 
 缺点：
 
-- 价格太贵了(CF Pro+ 流量计费)(CF Partner 计划早没了)
+- 价格太贵了(CF Pro + 流量计费)(CF Partner 计划早没了)
 - 延迟较大(不可以优选)
 
 价格多贵?
 
 Cloudflare Pro 25$/月(约合人民币178元,免费流量**5GB**),此后 1$/**GB**
 
-也就是说,1 TB 流量价格为 1044$,约合人民币7443元,还不算 CF Pro 订阅费用,除非你对 CF Pro 其他功能有需求,否则别用
+也就是说,1 TB 流量价格为 1044$,约合人民币7443元,还不算 CF Pro 订阅费用,真需要可以考虑 Papyrus
 
 </TabItem>
 <TabItem value="minekube" label="MineKube">
@@ -331,6 +331,33 @@ Neo 计划 30 欧/每月(约 230 人民币)
 - 反 VPN
 
 还有一个计划纯抢钱,[官网](https://neoprotect.net/)
+
+</TabItem>
+<TabItem value="papyrus" label="Papyrus">
+
+没有免费套餐,但看在 Cloudflare Spectrum 的面子上还是写了
+
+VIP套餐(25 $ 每月,约合人民币177元):
+
+* 支持 Geyser
+* L7 过滤
+
+流量状况:
+
+* 无限流量: 仅提供纽约，法兰克福节点
+* Cloudflare Spectrum 流量: 流量数位置,但不是无限
+
+Enterprise套餐(250 $ 每月,约合人民币1778元):
+
+* Cloudflare Spectrum 无限流量
+
+:::tip
+
+说句好笑的,Papyrus 官网上说他们有 330 节点,但实际上,Cloudflare 去掉中国节点后只有 298 个节点,算上中国节点后才 330 个
+
+Cloudflare Spectrum 目前是没中国节点的
+
+:::
 
 </TabItem>
 </Tabs>
