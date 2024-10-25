@@ -21,6 +21,8 @@ sidebar_position: 3
 
 首先，来到 [Forge 官方网站](https://files.minecraftforge.net/net/minecraftforge/forge/)
 
+或者国内下载镜像:[MCSL](https://sync.mcsl.com.cn/core/Forge)
+
 ![](_images/install/1.png)
 
 在左边的 `Minecraft Version` 找到你需要的版本，然后下载下来
@@ -56,7 +58,7 @@ java -jar forge-1.20.4-49.1.2-installer.jar(这里请改成你下载的文件名
 
 ## Fabric
 
-首先前往 Fabric 的[官网](https://fabricmc.net/)
+首先前往 Fabric 的[官网](https://fabricmc.net/),或者[下载镜像](https://sync.mcsl.com.cn/core/Fabric)
 
 然后点击中间那个蓝色的下载按钮
 

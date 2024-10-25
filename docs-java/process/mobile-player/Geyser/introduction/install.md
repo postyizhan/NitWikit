@@ -41,6 +41,8 @@ Standalone 版本 可以作为一个独立的代理端启动
 
 你可以在此处下载 [Geyser](https://geysermc.org/download#geyser) 的对应版本
 
+下载镜像:[MCSL](https://sync.mcsl.com.cn/core/Geyser)
+
 ## 安装
 
 ### 其他版本
@@ -145,7 +147,7 @@ above-bedrock-nether-building: false
 
 ## floodagte
 
-为进一步兼容，你需要安装 [floodgate](https://geysermc.org/download#floodgate)
+为进一步兼容，你需要安装 [floodgate](https://geysermc.org/download#floodgate),[MCSL下载镜像](https://sync.mcsl.com.cn/core/Floodgate)
 
 floodgate 可作为一个插件安装到 Spigot 及其分支的核心上或 BungeeCord、Velocity 之类的代理上
 群组服/独立版 Geyser 的 Floodgate 安装需要进行一些额外步骤，请跟随教程完成

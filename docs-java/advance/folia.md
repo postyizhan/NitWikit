@@ -53,6 +53,17 @@ LightingLuminol 是 Luminol 的分支，旨在修复对 BukkitAPI 的破坏，�
 
 (Molia和Luminol其实是同一个作者~~)
 
+## 下载
+
+如果官网进不去或者下载慢可以使用这里的镜像!
+
+* [Luminol](https://sync.mcsl.com.cn/core/Luminol)
+* [LightingLuminol](https://sync.mcsl.com.cn/core/LightingLuminol)
+* [Molia 1.20.2](https://dl.yizhan.wiki/plugins/molia-1.20.2-dev-paperclip.jar)
+* [Molia 1.20.1](https://dl.yizhan.wiki/plugins/molia-1.20.1-paperclip.jar)
+* [DirtyMolia 1.20.2](https://dl.yizhan.wiki/plugins/molia-1.20.2-dirty-paperclip.jar)
+* [DirtyMolia 1.20.1](https://dl.yizhan.wiki/plugins/molia-1.20.1-dirty-paperclip.jar)
+
 ## 调配置
 
 安装完 Luminol 后你还需要一点小小的配置让你的Luminol更好
