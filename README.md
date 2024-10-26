@@ -40,6 +40,10 @@ https://nitwikit.yizhan.wiki/
 
 如果你发现无法访问文档,请查看[监控](https://status.yizhan.wiki/status/yizhan),确认是不是你的问题
 
+如果你希望部署你自己的文档副本,可以
+
+[![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=lilingfengvvv&utm_source=lilingfengvvv)
+
 # 🔨 构建文档
 
 > [!NOTE]
