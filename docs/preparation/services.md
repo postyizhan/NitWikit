@@ -95,6 +95,10 @@ sidebar_position: 5
 
 官方下载镜像域名`dl.yizhan.wiki`,目前会重定向到`dl.imc.rip`(基于 Cloudflare R2)
 
+## 监控
+
+[笨蛋文档的监控](https://status.yizhan.wiki/status/yizhan)
+
 ## 机器人命令
 
 在群内发送消息即可使用！

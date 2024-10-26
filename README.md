@@ -38,6 +38,8 @@ https://nitwikit.yizhan.wiki/
 - [mcutc 论坛](https://bbs.mcutc.cn/threads/560/)
 - [HiMCBBS](https://www.himcbbs.com/threads/nitwikit-geyser.420/)
 
+如果你发现无法访问文档,请查看[监控](https://status.yizhan.wiki/status/yizhan),确认是不是你的问题
+
 # 🔨 构建文档
 
 > [!NOTE]
