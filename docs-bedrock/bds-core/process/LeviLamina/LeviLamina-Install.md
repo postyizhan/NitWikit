@@ -60,7 +60,12 @@ lip config GoModuleProxyURL <url>
 lip config GitHubMirrorURL <url>
 ```
 
-来配置镜像
+来配置镜像,官方给的镜像
+
+```shell
+lip config GoModuleProxyURL https://goproxy.cn
+lip config GitHubMirrorURL https://github.bibk.top
+```
 
 :::
 
