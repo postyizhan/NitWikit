@@ -97,7 +97,7 @@ sidebar_position: 5
 
 ## 监控
 
-[笨蛋文档的监控](https://status.yizhan.wiki/status/yizhan)
+[笨蛋文档的监控](https://status.yizhan.wiki/)
 
 ## 机器人命令
 
