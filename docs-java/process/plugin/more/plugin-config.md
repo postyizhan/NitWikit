@@ -27,6 +27,16 @@ import TabItem from '@theme/TabItem';
 
 </TabItem>
 
+<TabItem value="crowdin" label="Crowdin">
+
+比如 https://www.spigotmc.org/resources/simpleclans.71242 我们可以看到，语言那里给了个 [链接](https://crowdin.com/project/simpleclans)：
+
+![](_images/查看语言-crowdin.png)
+
+看到有 Chinese Simplified、 chinese、 zh_cn、 zh_CN 之类的字眼就行。
+
+</TabItem>
+
 <TabItem value="folder" label="插件文件夹">
 
 插件文件夹中有类似 Language、 lang、 locale 之类的文件夹(或其他东西？)：
@@ -38,16 +48,6 @@ import TabItem from '@theme/TabItem';
 ![](_images/查看语言-2.png)
 
 然后一般要去插件配置文件(多数为 config.yml) 把语言改成这里的文件名 (此处为 zh_cn)。
-
-</TabItem>
-
-<TabItem value="crowdin" label="Crowdin">
-
-比如 https://www.spigotmc.org/resources/simpleclans.71242 我们可以看到，语言那里给了个 [链接](https://crowdin.com/project/simpleclans)：
-
-![](_images/查看语言-crowdin.png)
-
-看到有 Chinese Simplified、 chinese、 zh_cn、 zh_CN 之类的字眼就行。
 
 </TabItem>
 
@@ -79,11 +79,9 @@ import TabItem from '@theme/TabItem';
 
 像 HoloMobHealth、GSit 等，你可以在插件配置文件中(一般在 config.yml 中)找到 Language，lang 等字眼。
 
-然后把语言项改成 zh_CN、 Chinese 等，具体应该写什么这地方。插件配置的注释可能提到，没提到那得靠你自己寻找了。
+然后把语言项改成 zh_CN、 Chinese 等，具体应该写什么这地方。插件配置的注释可能提到
 
-**有时**可以用压缩软件打开插件 jar 文件找找：
-
-![](_images/拆开jar.png)
+也可以找找 [插件文件夹](https://nitwikit.yizhan.wiki/Java/process/plugin/more/plugin-config?plugin-language=folder) 和 [拆开 jar 文件](https://nitwikit.yizhan.wiki/Java/process/plugin/more/plugin-config?plugin-language=jar)
 
 </TabItem>
 
@@ -116,6 +114,8 @@ import TabItem from '@theme/TabItem';
 如果你要用的这个插件没有以上所提到的所有情况...
 
 他**可能**把你要改的语言直接写死在代码里了，你要自己去改代码...
+
+比如驿站内核汉化的 [DecentHolograms](/docs-java/process/plugin/other/Holograms/DecentHolograms.md)
 
 </TabItem>
 </Tabs>
