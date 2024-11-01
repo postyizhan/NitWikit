@@ -15,7 +15,7 @@ sidebar_position: 1
 建议阅读：
 
 - [YAML 语法](/docs-java/advance/YAML/YAML.md) - 了解大部分插件配置文件的语法。
-- [插件特征文件](/docs-java/process/plugin/plugin-signature-file.md) - 了解插件的一些信息。
+- [插件特征文件](/docs-java/process/plugin/more/plugin-signature-file.md) - 了解插件的一些信息。
 - [格式化代码](/docs-java/advance/format-code.md) - 了解彩色字体，下划线，删除线等。
 - [MiniMessage](/docs-java/advance/MiniMessage.md) - 了解 RGB 颜色，文本悬浮和点击文字执行等。
 - [什么是乱码](https://nitwikit.yizhan.wiki/start/basic/what-is-messy-code) - 了解文本文件中的字符有时为什么会变得奇奇怪怪。

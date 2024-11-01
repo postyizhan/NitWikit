@@ -3,7 +3,7 @@ title: 笨蛋开服教程
 sidebar_position: 1
 ---
 
-![](/static/img/nitwikit-banner.png)
+![](https://img.fastmirror.net/s/2024/11/02/672558bae4ec0.png)
 
 # 笨蛋开服教程
 
