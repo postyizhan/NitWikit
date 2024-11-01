@@ -345,7 +345,7 @@ VIP套餐(25 $ 每月,约合人民币177元):
 流量状况:
 
 - 无限流量: 仅提供纽约，法兰克福节点
-- Cloudflare Spectrum 流量: 流量数位置,但不是无限
+- Cloudflare Spectrum 流量: 流量数未知,但不是无限
 
 Enterprise套餐(250 $ 每月,约合人民币1778元):
 
