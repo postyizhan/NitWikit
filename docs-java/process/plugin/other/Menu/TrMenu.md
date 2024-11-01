@@ -32,15 +32,19 @@ sidebar_position: 4
 
 `文档(新)` https://hhhhhy.gitbook.io/trmenu-v3
 
-`文档(旧)` https://trmenu.trixey.cc/
+`文档(新)(高速)` https://bukkit.wiki/plugins/plugins/trmenu
 
-`如何支持1.8` https://hhhhhy.gitbook.io/trmenu-v3/appendix/v3-guide#datasource.yml-dui-yu-1.8-fu-wu-duan
+`文档(社区)` https://wiki.ptms.ink/index.php?title=%E7%A4%BE%E5%8C%BA:TrMenu
+
+`文档(旧)` https://trmenu.trixey.cc/
 
 `vscode插件-trm语法提示` https://marketplace.visualstudio.com/items?itemName=hhhhhy.trmenu-helper
 
 :::
 
 交流群：325014486
+
+[如何支持1.8](https://hhhhhy.gitbook.io/trmenu-v3/appendix/v3-guide#datasource.yml-dui-yu-1.8-fu-wu-duan)
 
 ## 案例
 
