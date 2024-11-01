@@ -1,5 +1,5 @@
 ---
-title: 配置插件
+title: 汉化插件
 sidebar_position: 2
 ---
 
@@ -15,32 +15,79 @@ sidebar_position: 2
 
 如果你是 Linux ，并且认为这很难操作，可以通过 SFTP 下载到自己的电脑上编辑。
 
-## 如何汉化插件？
+## 查看插件支持的语言
 
-以下是你可能遇到的情况
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<details>
-    <summary>插件自己动♂</summary>
+<Tabs queryString="plugin-language">
+<TabItem value="spigotmc" label="SpigotMC">
+
+![](_images/查看语言-spigotmc.png)
+
+</TabItem>
+
+<TabItem value="folder" label="插件文件夹">
+
+插件文件夹中有类似 Language、 lang、 locale 之类的文件夹(或其他东西？)：
+
+![](_images/查看语言-1.png)
+
+请寻找 zhcn、 zh-cn、 zh-CN、 chinese 等字眼：
+
+![](_images/查看语言-2.png)
+
+然后一般要去插件配置文件(多数为 config.yml) 把语言改成这里的文件名 (此处为 zh_cn)。
+
+</TabItem>
+
+<TabItem value="crowdin" label="Crowdin">
+
+比如 https://www.spigotmc.org/resources/simpleclans.71242/，我们可以看到，语言那里给了个[链接](https://crowdin.com/project/simpleclans)：
+
+![](_images/查看语言-crowdin.png)
+
+看到有 Chinese Simplified、 chinese、 zh_cn、 zh_CN 之类的字眼就行。
+
+</TabItem>
+
+<TabItem value="jar" label="拆开 jar 文件">
+
+比如 SkinsRestorer。
+
+如果我们在插件文件夹找不到语言文件夹，可以直接用解压缩软件打开 jar 包：
+
+![](_images/查看语言-拆开jar.png)
+
+还有可能写在插件文档里，在项目 README 里，甚至在配置文件的注释里。
+
+碰到这之外的情况就需要你自己摸索了
+
+</TabItem>
+</Tabs>
+
+## 汉化插件
+
+<Tabs queryString="plugin-language-cn">
+<TabItem value="DIY" label="插件自己动♂">
 
 像 LuckPerms、 EssentialX 等，只要你的服务器和客户端的语言为简体中文，它们会自动设置为中文。
 
-</details>
+</TabItem>
 
-<details>
-    <summary>配置文件改语言</summary>
+<TabItem value="config" label="配置文件改语言">
 
-像 HoloMobHealth、 GSit 等，你可以在插件配置文件中(一般在 config.yml 中)找到 Language ， lang 等字眼。
+像 HoloMobHealth、GSit 等，你可以在插件配置文件中(一般在 config.yml 中)找到 Language，lang 等字眼。
 
 然后把语言项改成 zh_CN、 Chinese 等，具体应该写什么这地方。插件配置的注释可能提到，没提到那得靠你自己寻找了。
 
 **有时**可以用压缩软件打开插件 jar 文件找找：
 
-![](_images/概览/拆开jar.png)
+![](_images/拆开jar.png)
 
-</details>
+</TabItem>
 
-<details>
-    <summary>自行汉化</summary>
+<TabItem value="your" label="自行汉化">
 
 有些插件不提供别的语言，只提供一个语言文件 如 lang.yml、 message.yml 。
 
@@ -62,13 +109,13 @@ sidebar_position: 2
 
 使用 GPT 可能会被视作一种经济但欠缺考虑的行为，若有能力或财力充足，请尽力贡献人工翻译或自行翻译，万不可直接使用机翻，轻则翻译错误，重则使插件读取不了 config 。
 
-</details>
+</TabItem>
 
-<details>
-    <summary>内核汉化</summary>
+<TabItem value="core" label="内核汉化">
 
 如果你要用的这个插件没有以上所提到的所有情况...
 
 他**可能**把你要改的语言直接写死在代码里了，你要自己去改代码...
 
-</details>
+</TabItem>
+</Tabs>

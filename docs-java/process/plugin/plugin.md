@@ -32,11 +32,7 @@ sidebar_position: 1
 
 :::
 
-## 如何安装插件？
-
-将插件的 jar 文件放入服务端的 `plugins` 文件夹。
-
-### 笨蛋脚本
+## 笨蛋脚本
 
 下载此[脚本](https://dl.yizhan.wiki/windows-latest/auto-install-depend.exe)，我们会为你安装常用插件(自动)。
 
@@ -60,7 +56,7 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 </details>
 
-### PluginSearchEngine
+## PluginSearchEngine
 
 (目前仍在测试中)
 
