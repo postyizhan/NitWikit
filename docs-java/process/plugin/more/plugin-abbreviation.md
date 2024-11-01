@@ -1,5 +1,5 @@
 ---
-title: 部分插件缩写
+title: 插件缩写
 sidebar_position: 4
 ---
 

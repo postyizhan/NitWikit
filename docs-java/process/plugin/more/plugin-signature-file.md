@@ -1,5 +1,5 @@
 ---
-title: 插件特征文件 (plugin.yml)
+title: 特征文件
 sidebar_position: 3
 ---
 

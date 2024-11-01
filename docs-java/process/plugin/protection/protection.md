@@ -1,7 +1,7 @@
 ---
 slug: /Plugins/OtherPlugin/protection
 title: 保护(如地皮领地空岛)
-sidebar_position: 8
+sidebar_position: 4
 ---
 
 # 保护
