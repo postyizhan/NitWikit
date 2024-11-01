@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 
 <TabItem value="crowdin" label="Crowdin">
 
-比如 https://www.spigotmc.org/resources/simpleclans.71242/，我们可以看到，语言那里给了个[链接](https://crowdin.com/project/simpleclans)：
+比如 https://www.spigotmc.org/resources/simpleclans.71242 我们可以看到，语言那里给了个 [链接](https://crowdin.com/project/simpleclans)：
 
 ![](_images/查看语言-crowdin.png)
 
