@@ -1,7 +1,7 @@
 ---
 title: 前置插件
 slug: /Front-Plugin
-sidebar_position: 6
+sidebar_position: 2
 ---
 
 这里是通常被其他插件设定为前置的插件并且大众总是将其划为 **前置插件** 一类的插件

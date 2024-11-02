@@ -1,7 +1,7 @@
 ---
 title: 游戏性插件
 slug: /game
-sidebar_position: 10
+sidebar_position: 6
 ---
 
 # 游戏性插件

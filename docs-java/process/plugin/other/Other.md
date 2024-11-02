@@ -1,7 +1,7 @@
 ---
 title: 其他插件
 slug: /OtherPlugin
-sidebar_position: 11
+sidebar_position: 7
 ---
 
 # 其他插件

@@ -1,6 +1,6 @@
 ---
 title: 常用服务器管理指令
-sidebar_position: 8
+sidebar_position: 10
 ---
 
 # 常用服务器管理指令
