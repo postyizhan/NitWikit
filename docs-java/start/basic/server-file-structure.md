@@ -40,7 +40,7 @@ sidebar_position: 3
         └─region
 ```
 
-对于类似 Catserver 的混合服务器，文件夹结构是类似的，基本就多了 mods 文件夹，少了 Bukkit 的下游服务器特有的配置(如 `purpur.yml` 等)。
+对于类似 Catserver 的混合服务器，文件夹结构是类似的，基本就多了 `/mods` 文件夹，少了 Bukkit 的下游服务器特有的配置(如 `purpur.yml` 等)。
 
 :::info
 

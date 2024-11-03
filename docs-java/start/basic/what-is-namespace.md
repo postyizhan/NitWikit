@@ -19,8 +19,8 @@ sidebar_position: 8
 
 例如，在上面的比喻中：
 
-- 左侧的 IDa.txt 表示为 命名空间A:IDa.txt
-- 右侧的 IDa.txt 表示为 命名空间B:IDa.txt
+- 左侧的 ID a.txt 表示为 命名空间 A:ID a.txt
+- 右侧的 ID a.txt 表示为 命名空间 B:ID a.txt
 
 ## 物品
 
