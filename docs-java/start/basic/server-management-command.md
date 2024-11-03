@@ -73,7 +73,7 @@ sidebar_position: 10
 
 如果你不想玩家通过指令获取插件列表，可以将以下权限设置为 `false` 即可。
 
-```
+```yaml
 bukkit.command.plugins
 bukkit.command.version
 bukkit.command.help
