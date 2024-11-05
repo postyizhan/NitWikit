@@ -365,12 +365,21 @@ https://nitwikit.yizhan.wiki/
                 </a>
             </td>
             <td align="center">
+                <a href="https://github.com/ZoruaFox">
+                    <img src="https://avatars.githubusercontent.com/u/96456728?v=4" width="50;" alt="ZoruaFox"/>
+                    <br />
+                    <sub><b>ZoruaFox</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/alazeprt">
                     <img src="https://avatars.githubusercontent.com/u/92018941?v=4" width="50;" alt="alazeprt"/>
                     <br />
                     <sub><b>alazeprt</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/MSCMDD">
                     <img src="https://avatars.githubusercontent.com/u/128666602?v=4" width="50;" alt="MSCMDD"/>
@@ -378,8 +387,6 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>磁铁开发部(MDD)</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/XingLingQAQ">
                     <img src="https://avatars.githubusercontent.com/u/92240364?v=4" width="50;" alt="XingLingQAQ"/>
@@ -408,6 +415,8 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>云霜</b></sub>
                 </a>
             </td>
+		</tr>
+		<tr>
             <td align="center">
                 <a href="https://github.com/tuanzisama">
                     <img src="https://avatars.githubusercontent.com/u/33369729?v=4" width="50;" alt="tuanzisama"/>
@@ -415,20 +424,11 @@ https://nitwikit.yizhan.wiki/
                     <sub><b>tuanzi</b></sub>
                 </a>
             </td>
-		</tr>
-		<tr>
             <td align="center">
                 <a href="https://github.com/heyhey123-git">
                     <img src="https://avatars.githubusercontent.com/u/156066831?v=4" width="50;" alt="heyhey123-git"/>
                     <br />
                     <sub><b>heyhey123-git</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/ZoruaFox">
-                    <img src="https://avatars.githubusercontent.com/u/96456728?v=4" width="50;" alt="ZoruaFox"/>
-                    <br />
-                    <sub><b>ZoruaFox</b></sub>
                 </a>
             </td>
             <td align="center">
