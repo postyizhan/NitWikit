@@ -114,7 +114,7 @@ FinalShell是一体化的的服务器，网络管理软件，不仅是ssh客户�
 他称自己是 业界最强大的SSH客户机
 
   </TabItem>
-  <TabItem value="termux" lable="安卓手机(termux)">
+  <TabItem value="termux" label="安卓手机(termux)">
 
 你需要安装 termux 这个软件。你可以去 Google Play 下载，也可以去[它的开源地址](https://github.com/termux/termux-app)下载。
 
@@ -124,7 +124,7 @@ FinalShell是一体化的的服务器，网络管理软件，不仅是ssh客户�
 
   </TabItem>
 
-  <TabItem value="zsh" lable="macOS(zsh)">
+  <TabItem value="zsh" label="macOS(zsh)">
 
 macOS 内置 ssh 命令，我们可以用终端来执行它。要打开macos上的终端，可以使用以下方式：
 
