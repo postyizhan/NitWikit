@@ -28,13 +28,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS， mixed mode， s
 
 下方以安装 `openjdk-17` 为例
 
-<Tabs
-  defaultValue="Debian/Ubuntu"
-  values={[
-    {label: 'Debian/Ubuntu', value: 'Debian/Ubuntu'},
-    {label: 'RedHat/CentOS', value: 'RedHat/CentOS'},
-    {label: 'ArchLinux', value: 'ArchLinux'},
-  ]}>
+<Tabs defaultValue="Debian/Ubuntu">
   <TabItem value="Debian/Ubuntu">sudo apt install openjdk-17-jdk</TabItem>
   <TabItem value="RedHat/CentOS">sudo yum install java-11-openjdk</TabItem>
   <TabItem value="ArchLinux">sudo pacman -S jdk11-openjdk</TabItem>
