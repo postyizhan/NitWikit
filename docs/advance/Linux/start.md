@@ -85,13 +85,7 @@ OpenJDK 64-Bit Server VM Zulu21.32+17-CA (build 21.0.2+13-LTS， mixed mode， s
 
 ## 方法一
 
-<Tabs
-  defaultValue="Debian/Ubuntu"
-  values={[
-    {label: 'Debian/Ubuntu', value: 'Debian/Ubuntu'},
-    {label: 'RedHat/CentOS', value: 'RedHat/CentOS'},
-    {label: 'ArchLinux', value: 'ArchLinux'},
-  ]}>
+<Tabs defaultValue="Debian/Ubuntu">
   <TabItem value="Debian/Ubuntu">update-alternatives --config java</TabItem>
   <TabItem value="RedHat/CentOS">update-alternatives --config java</TabItem>
   <TabItem value="ArchLinux">archlinux-java set jdk-vesion</TabItem>
