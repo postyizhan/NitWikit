@@ -1,4 +1,5 @@
 ---
+title: PlayerTask
 sidebar_position: 7
 ---
 

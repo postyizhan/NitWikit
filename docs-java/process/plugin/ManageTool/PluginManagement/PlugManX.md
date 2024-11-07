@@ -1,4 +1,5 @@
 ---
+title: PlugMan
 sidebar_position: 2
 ---
 

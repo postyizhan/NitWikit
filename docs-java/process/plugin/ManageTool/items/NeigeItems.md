@@ -1,4 +1,5 @@
 ---
+title: NeigeItems
 sidebar_position: 6
 ---
 

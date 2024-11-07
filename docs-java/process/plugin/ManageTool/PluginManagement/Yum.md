@@ -1,4 +1,5 @@
 ---
+title: Yum
 sidebar_position: 1
 ---
 

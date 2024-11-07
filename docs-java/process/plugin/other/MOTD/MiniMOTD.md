@@ -1,4 +1,5 @@
 ---
+title: MiniMOTD
 sidebar_position: 2
 ---
 

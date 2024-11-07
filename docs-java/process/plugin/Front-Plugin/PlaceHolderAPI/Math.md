@@ -1,4 +1,5 @@
 ---
+title: Math
 sidebar_position: 3
 ---
 

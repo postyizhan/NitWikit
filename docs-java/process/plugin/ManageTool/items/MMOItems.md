@@ -1,4 +1,5 @@
 ---
+title: MMOItems
 sidebar_position: 1
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: MangoQuest
 sidebar_position: 6
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: EcoItems
 sidebar_position: 3
 ---
 
