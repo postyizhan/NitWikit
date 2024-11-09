@@ -40,7 +40,9 @@ RNG 是 **随机数生成器** 的简写。
 
 其中， [Purpur](https://purpurmc.org/) 和 [Leaves](https://leavesmc.org/) (包括它们的分支)可以自行选择使用的 RNG 算法。
 
-对于 [Purpur](https://purpurmc.org/) 和 [Leaves](https://leavesmc.org/) 用户，你可以将配置改为如下 (默认就是开启的)：
+对于 [Purpur](https://purpurmc.org/) 和 [Leaves](https://leavesmc.org/) 用户，你可以根据自己的核心类型按照下文修改配置 (默认就是开启的)：
+
+**Purpur 核心配置**
 
 `purpur.yml`
 
@@ -50,12 +52,18 @@ RNG 是 **随机数生成器** 的简写。
         shared-random: true
 ```
 
+**Leaves 核心配置**
+
 `leaves.yml`
 
 ```yaml
 use-vanilla-random: false
 ```
 
+:::tips
+
 如果你使用 Paper 核心但想用回原版的 RNG 算法，请参考 [Paper#7166](https://github.com/PaperMC/Paper/issues/7166#issuecomment-998988542) 中提到的解决方法。
 
 如果你使用 Gale、Leaf 等核心，你甚至无需为此担心，因为他们的 RNG 算法已经经过改良，不再是原版的 RNG 。
+
+:::
