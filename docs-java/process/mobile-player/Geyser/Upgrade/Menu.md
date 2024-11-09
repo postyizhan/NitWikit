@@ -9,7 +9,11 @@ sidebar_position: 4
 
 ## 安装
 
+<!--markdownlint-disable line-length-->
+
 可以在[GitHub](https://github.com/onebeastchris/MagicMenu/releases/tag/1.0.3) 下载,或者使用[下载镜像](https://dl.yizhan.wiki/plugins/MagicMenu-1.0.3.jar) 下载
+
+<!--markdownlint-disable line-length-->
 
 ## 配置
 
