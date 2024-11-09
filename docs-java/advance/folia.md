@@ -59,11 +59,11 @@ LightingLuminol 是 Luminol 的分支，旨在修复对 BukkitAPI 的破坏，�
 
 * [Luminol](https://sync.mcsl.com.cn/core/Luminol)
 * [LightingLuminol](https://sync.mcsl.com.cn/core/LightingLuminol)
-* [Molia 1.20.2](https://dl.yizhan.wiki/plugins/molia-1.20.2-dev-paperclip.jar) [McRes](https://vip.123pan.cn/1821558579/Lingyi/core/molia-1.20.2-mcres.cn.jar)
-* [Molia 1.20.1](https://dl.yizhan.wiki/plugins/molia-1.20.1-paperclip.jar) [McRes](https://vip.123pan.cn/1821558579/Lingyi/aaa/molia/molia-1.20.1-mcres.cn.jar)
+* [Molia 1.20.2](https://vip.123pan.cn/1821558579/Lingyi/core/molia-1.20.2-mcres.cn.jar)
+* [Molia 1.20.1](https://vip.123pan.cn/1821558579/Lingyi/aaa/molia/molia-1.20.1-mcres.cn.jar)
 * [Molia 1.19.4](https://vip.123pan.cn/1821558579/Lingyi/aaa/molia/Molia-1.19.4-mcres.cn.jar)
-* [DirtyMolia 1.20.2](https://dl.yizhan.wiki/plugins/molia-1.20.2-dirty-paperclip.jar) [McRes](https://vip.123pan.cn/1821558579/Lingyi/core/dirtymolia-1.20.2-mcres.cn.jar)
-* [DirtyMolia 1.20.1](https://dl.yizhan.wiki/plugins/molia-1.20.1-dirty-paperclip.jar) [McRes](https://vip.123pan.cn/1821558579/8448710)
+* [DirtyMolia 1.20.2](https://vip.123pan.cn/1821558579/Lingyi/core/dirtymolia-1.20.2-mcres.cn.jar)
+* [DirtyMolia 1.20.1](https://vip.123pan.cn/1821558579/8448710)
 
 ## 调配置
 
