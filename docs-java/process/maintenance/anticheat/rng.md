@@ -35,10 +35,10 @@ RNG 是 **随机数生成器** 的简写。
 同理，玩家可以想钓出什么，就能钓出什么。
 
 # 如何防御 RNG 漏洞
+ 
+[Paper](https://papermc.io) 核心(包括它们的分支)，可以防止玩家破解 RNG 。其中， [Purpur](https://purpurmc.org/) 和 [Leaves](https://leavesmc.org/) (包括它们的分支)可以自行选择使用的 RNG 算法。
 
-[purpur](https://purpurmc.org/) 和 [leaves](https://leavesmc.org/) 核心(包括它们的分支)，可以防止玩家破解 RNG 。
-
-你可以将配置改为如下 (默认就是开启的)：
+对于 [Purpur](https://purpurmc.org/) 和 [Leaves](https://leavesmc.org/) 用户，你可以将配置改为如下 (默认就是开启的)：
 
 `purpur.yml`
 
@@ -53,5 +53,7 @@ RNG 是 **随机数生成器** 的简写。
 ```yaml
 use-vanilla-random: false
 ```
+
+如果你使用 Paper 核心但想用回原版的 RNG 算法，请参考 [issue#7166](https://kkgithub.com/PaperMC/Paper/issues/7166) 中提到的安装 [RandomControl](https://modrinth.com/plugin/randomcontrol) 插件的方法。
 
 如果你使用 Gale、Leaf 等核心，你甚至无需为此担心，因为他们的 RNG 算法已经经过改良，不再是原版的 RNG 。
