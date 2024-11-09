@@ -1,4 +1,5 @@
 ---
+title: Oraxen
 sidebar_position: 2
 ---
 

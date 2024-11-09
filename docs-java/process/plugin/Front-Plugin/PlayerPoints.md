@@ -1,4 +1,5 @@
 ---
+title: PlayerPoints
 sidebar_position: 4
 ---
 

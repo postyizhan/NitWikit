@@ -1,4 +1,5 @@
 ---
+title: Vault
 sidebar_position: 2
 ---
 

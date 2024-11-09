@@ -1,4 +1,5 @@
 ---
+title: SX-Item
 sidebar_position: 2
 ---
 

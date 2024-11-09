@@ -1,4 +1,5 @@
 ---
+title: MiniMessage
 sidebar_position: 9
 ---
 

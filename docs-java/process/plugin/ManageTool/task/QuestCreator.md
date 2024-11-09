@@ -1,4 +1,5 @@
 ---
+title: QuestCreator
 sidebar_position: 5
 ---
 

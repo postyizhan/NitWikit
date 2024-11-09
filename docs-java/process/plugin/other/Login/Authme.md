@@ -1,4 +1,5 @@
 ---
+title: Authme
 sidebar_position: 2
 ---
 

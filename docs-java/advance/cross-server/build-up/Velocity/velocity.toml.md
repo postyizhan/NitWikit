@@ -1,4 +1,5 @@
 ---
+title: velocity.toml
 sidebar_position: 3
 ---
 

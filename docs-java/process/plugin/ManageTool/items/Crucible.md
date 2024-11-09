@@ -1,4 +1,5 @@
 ---
+title: Crucible
 sidebar_position: 4
 ---
 
