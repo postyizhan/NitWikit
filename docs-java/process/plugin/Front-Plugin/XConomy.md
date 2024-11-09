@@ -1,4 +1,5 @@
 ---
+title: 经济插件
 sidebar_position: 3
 ---
 

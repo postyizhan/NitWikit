@@ -1,4 +1,5 @@
 ---
+title: BetonQuest
 sidebar_position: 2
 ---
 

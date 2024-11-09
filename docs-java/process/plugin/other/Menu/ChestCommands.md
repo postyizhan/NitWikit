@@ -1,4 +1,5 @@
 ---
+title: ChestCommands
 sidebar_position: 2
 ---
 

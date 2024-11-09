@@ -1,4 +1,5 @@
 ---
+title: DeluxeMenus
 sidebar_position: 3
 ---
 

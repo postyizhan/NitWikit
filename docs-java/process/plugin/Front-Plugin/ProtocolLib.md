@@ -1,4 +1,5 @@
 ---
+title: ProtocolLib
 sidebar_position: 5
 ---
 

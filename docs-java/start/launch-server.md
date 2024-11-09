@@ -68,7 +68,7 @@ java -Xms2G -Xmx2G -jar 核心名.jar --nogui
 
 ## 最初的开启
 
-双击启动脚本后，大概率会卡在你会看到 Downloading mojang_x.x.x.jar，请耐心等待
+双击启动脚本后，大概率会卡在你会看到 `Downloading mojang_x.x.x.jar`，请耐心等待
 
 一旦下载完成，他会提示：
 
@@ -166,7 +166,7 @@ java -Xms2G -Xmx2G -jar server.jar --nogui
 
 ![](_images/5.png)
 
-此时，你只需要把`xxx.jar.jar`改成`xxx.jar`就可以正常启动了
+此时，你只需要把 `xxx.jar.jar` 改成 `xxx.jar` 就可以正常启动了
 
 ### Invalid initial heap size: -Xms
 

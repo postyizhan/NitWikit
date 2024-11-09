@@ -1,4 +1,5 @@
 ---
+title: DecentHolograms
 sidebar_position: 2
 ---
 

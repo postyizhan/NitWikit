@@ -1,4 +1,5 @@
 ---
+title: Plugin Portal
 sidebar_position: 4
 ---
 

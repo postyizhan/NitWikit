@@ -1,4 +1,5 @@
 ---
+title: Command.yml
 sidebar_position: 6
 ---
 

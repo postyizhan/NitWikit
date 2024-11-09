@@ -1,4 +1,5 @@
 ---
+title: HolographicDisplays
 sidebar_position: 3
 ---
 

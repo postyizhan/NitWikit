@@ -1,4 +1,5 @@
 ---
+title: ViaVersion
 sidebar_position: 2
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: BeautyQuests
 sidebar_position: 4
 ---
 

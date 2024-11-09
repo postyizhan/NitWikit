@@ -106,6 +106,8 @@ feature-seeds:
 
 如果使用了 RayTraceAntiXray 请务必使用配置 Ⅲ 。
 
+如果你需要使用权限来配置绕过，可以将 `use-permission` 项设置为 `true` (权限节点: `paper.antixray.bypass`)，该项需要你有一个现代的权限管理插件(如 LuckPerms)，否则检查权限时性能开销会非常大。
+
 :::
 
 <details>
@@ -394,18 +396,6 @@ anticheat:
 其使用了异步多线程光线追踪，判断玩家是否能看到目标方块，从而在玩家能够看到目标方块时发送真实方块信息。
 
 可以优化自带的 Anti-Xray ，减小服务器的带宽开销(甚至比不使用Anti-Xray的宽带占用还低!)，如需构建请自行构建。
-
-#### RaytraceAntiXray
-
-一个功能非常多的反X光插件，支持隐藏方块(并且支持XMat命名)，隐藏，箱子，刷怪笼之类的，作者现在正在编写结构隐藏
-
-[购买链接](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/) 有点小贵
-
-#### Xrai (服务器在国内不推荐)
-
-Xrai 通过 AI 分析玩家是否开启 XRay，并在发现时运行指定操作来帮助您管理您的服务器。
-
-但是该插件的服务器位于国外，所以国内访问会较慢
 
 :::warning
 
