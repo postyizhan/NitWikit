@@ -168,7 +168,7 @@ menus:
 
 ## NPC Form
 
-一种基岩版独有的餐单,长这样
+一种基岩版独有的菜单,长这样
 
 ![](https://learn.microsoft.com/en-us/minecraft/creator/documents/media/npcs/npcdialogueintro.png?view=minecraft-bedrock-stable)
 
