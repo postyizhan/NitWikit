@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkWiki=self.webpackChunkWiki||[]).push([[5694],{95694:(a,e,k)=>{k.r(e),k.d(e,{DocSearchModal:()=>c.a1});var c=k(73504)}}]);
