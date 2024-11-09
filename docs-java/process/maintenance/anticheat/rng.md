@@ -42,7 +42,7 @@ RNG 是 **随机数生成器** 的简写。
 
 对于 [Purpur](https://purpurmc.org/) 和 [Leaves](https://leavesmc.org/) 用户，你可以根据自己的核心类型按照下文修改配置 (默认就是开启的)：
 
-**Purpur 核心配置**
+这是 Purpur 的配置方法：
 
 `purpur.yml`
 
@@ -52,7 +52,7 @@ RNG 是 **随机数生成器** 的简写。
         shared-random: true
 ```
 
-**Leaves 核心配置**
+这是 Leaves 的配置方法；
 
 `leaves.yml`
 
