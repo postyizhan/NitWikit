@@ -172,7 +172,9 @@ menus:
 
 ![](https://learn.microsoft.com/en-us/minecraft/creator/documents/media/npcs/npcdialogueintro.png?view=minecraft-bedrock-stable)
 
-很炫酷,很适合做任务吧,但很可惜,目前没有菜单插件支持NPC Form,但 zim 为我们提供了简单的接口去创建 NPC Form
+很炫酷,很适合做任务吧,但很可惜,目前只有 zim 的 Skript-Floodgate-API 支持创建(后面会讲)
+
+目前没有菜单插件支持NPC Form,但 zim 为我们提供了简单的接口去创建 NPC Form
 
 你需要安装 GeyserUtils,以下是关键代码,你需要一点 Java or Kotlin 编程能力才能使用
 
@@ -181,3 +183,51 @@ menus:
 [NPC Form 源代码](https://github.com/GeyserExtensionists/GeyserUtils/blob/main/geyser/src/main/java/me/zimzaza4/geyserutils/geyser/form/NpcDialogueForm.java)
 
 [菜单组源代码](https://github.com/GeyserExtensionists/GeyserUtils/blob/main/geyser/src/main/java/me/zimzaza4/geyserutils/geyser/form/NpcDialogueForms.java)
+
+## 专用菜单插件
+
+这些菜单插件是专门针对某些用途或插件开发的,自定义性较低,但更加方便
+
+### BedrockFormShop
+
+专门用于制作商店菜单的插件,[项目地址](https://github.com/kejonaMC/BedrockFormShop)
+
+[下载地址](https://ci.kejonamc.dev/job/BedrockFormShop/job/master/),这是官方[Wiki](https://github.com/kejonaMC/BedrockFormShop/wiki)
+
+### Residence 领地
+
+[下载地址](https://github.com/RenYuan-MC/ResidenceForm/releases/tag/dev)
+
+[项目地址](https://github.com/RenYuan-MC/ResidenceForm)
+
+### QuickShop 商店
+
+[下载地址](https://github.com/RenYuan-MC/QuickShopForm/releases/tag/dev)
+
+[项目地址](https://github.com/RenYuan-MC/QuickShopForm)
+
+支持 QuickShop 和 QuickShop-Hikari
+
+### Tpa 菜单
+
+[下载地址](https://github.com/RenYuan-MC/TpaForm/releases/tag/dev)
+
+[项目地址](https://github.com/RenYuan-MC/TpaForm)
+
+支持的插件:
+
+* EssentialX
+* CMI
+* Sunlight
+* HuskHomes (仅单端)
+* TPAPro (需要从 [此处](https://raw.githubusercontent.com/RenYuan-MC/TpaForm/master/extensions/TpaForm-TpaProSupport.jar) 下载扩展以兼容其黑名单功能)
+
+### Skript 脚本
+
+zim 太强啦
+
+zimzaza4 开发的 Skript Geyser 菜单扩展,可以使用 Skript 创建菜单
+
+同时也是目前唯一一个支持 NPC Form 的插件！
+
+[项目地址](https://github.com/zimzaza4/Skript-Floodgate-Api),安装和使用请查看 readme,建议在使用前读一遍源代码,有些功能没写上去

@@ -40,3 +40,7 @@ on join:
 给部分主流登录插件添加了基岩版玩家自动注册、登录功能，其他登录插件也可以在配置文件中设置强制登录命令实现自动登录
 
 [下载](https://github.com/DongShaoNB/BedrockPlayerSupport/releases) | [文档](https://docs.bps.dsnb.cc/#/zh-cn/start/introduce)
+
+## CustomCrops
+
+CustomCrops 的基岩版资源包,[下载](https://www.minebbs.com/resources/customcropsbe.8972/)

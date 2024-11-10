@@ -122,4 +122,4 @@ BedrockChestUI是一个用于实现自定义基岩版箱子UI行数的插件 ，
 
 [项目地址](https://github.com/GeyserExtras/GeyserExtras)
 
-[汉化地址](https://github.com/lilingfengdev/GeyserExtrasCN)
+[汉化下载](https://hangar.papermc.io/Guardian1l/GeyserExtras_CNN)
