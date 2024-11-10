@@ -13,7 +13,7 @@ sidebar_position: 5
 
 内网穿透一抓一大把，比如[樱花内网穿透](https://www.natfrp.com/)和[OpenFrp](https://www.openfrp.net/)
 
-Cloudflare 也有内网穿透 Tunnel (无需注册！),MineKube 也有内网穿透 Connect(同样无需注册)
+Cloudflare 有内网穿透 Tunnel (无需注册！),MineKube 也有内网穿透 Connect(同样无需注册)，还有 Geyser 官方推荐的 Playit.gg
 
 Linux自建frp参见[此页面](https://nitwikit.yizhan.wiki/advance/Linux/frp)
 
@@ -96,6 +96,28 @@ Minekube 的免费内网穿透,这个组织还有另一个有名作品 Gate
 * 延迟非常大
 
 [官网](https://connect.minekube.com/)
+
+## Playit.gg
+
+Playit 的免费内网穿透，需要登录
+
+优点：
+
+* 提供免费版本
+* 无限流量
+* 提供防火墙功能
+* 提供**亚太地区节点**（测试时候路由到了日本）
+* 自带高防
+* 支持 Geyser
+* 支持任意TCP、UDP应用
+
+缺点：
+
+* 免费版本不能绑定自己的域名，只能使用随机域名
+* 延迟略大
+
+Premium 版本一个月3刀(约合人民币27元)，一年30刀
+
 
 ## 可能的问题?
 
