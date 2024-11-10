@@ -15,6 +15,8 @@ sidebar_position: 2
 
 `插件百科` https://github.com/milkbowl/Vault
 
+`VaultUnlocked(Vault 增强版)` https://github.com/TheNewEconomy/VaultUnlocked
+
 :::
 
 ## 什么是Vault
@@ -32,3 +34,9 @@ sidebar_position: 2
 人话：Vault只是提供经济的插件的前置，本身并不提供经济功能，就是给众多经济系统提供了一个统一接口
 
 想要经济可以看看 [XConomy页面](XConomy.md)
+
+### VaultUnlocked
+
+VaultUnlocked 是 Vault 的分支版本,有多货币支持和 Folia 支持,[下载](https://github.com/TheNewEconomy/VaultUnlocked/releases/tag/2.3.0)
+
+[下载镜像](https://dl.yizhan.wiki/plugins/VaultUnlocked-2.3.0.jar)

@@ -42,6 +42,8 @@ sidebar_label: 多世界 - Multiverse
 - 通过权限限制在世界间切换
 - 查看某人在哪个世界中
 
+Multiverse-Core_Zeta 是 Multiverse-Core 的 Folia 兼容版本,可以[在这里](https://dl.yizhan.wiki/plugins/multiverse-core-4.3.13-zeta_folia-experimental.jar)下载
+
 ## Multiverse-Portals
 
 [Multiverse-Portals](https://github.com/Multiverse/Multiverse-Portals/wiki) 是类似于 Multiverse 1 类型的传送门。
