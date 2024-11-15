@@ -1,5 +1,5 @@
 ---
-title: Velocity 端
+title: Velocity
 slug: /velocity
 sidebar_position: 2
 ---

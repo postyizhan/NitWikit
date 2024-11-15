@@ -3,6 +3,8 @@ title: 搭建
 sidebar_position: 2
 ---
 
+<!--markdownlint-disable line-length-->
+
 # 搭建
 
 ## 下载
@@ -22,7 +24,7 @@ sidebar_position: 2
 java -Xms1024M -Xmx1024M -jar 核心名字.jar
 ```
 
-## 配置
+## Velocity 配置
 
 打开 `velocity.toml`
 
@@ -88,25 +90,24 @@ Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服
 你只能选择这些转发格式中的一种。目前不可能“混合匹配”转发模式或同时使用所有转发格式。一般来说，如果你只支持使用 Minecraft 1.13 及更新版本的客户端，请使用 Velocity Modern 转发；
 否则，你必须使用 BungeeCord 转发。
 
-### 配置现代转发(Modern Forwarding)
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<details>
-  <summary>点击展开</summary>
+<Tabs>
+  <TabItem value="现代转发(Modern Forwarding)" label="Modern" default>
 
 **`modern` 转发** 是 Velocity 的原生格式，以高效的二进制格式转发所有玩家信息，并采用 MAC 代码增加安全性，使非法服务器难以绕过你的 Velocity 代理。但它**仅支持 Minecraft 1.13 或更高版本**。
 
-::: warning
+:::warning
 
-- `modern` 转发与 **Minecraft 1.13 以下版本** 和 **ProtocolSupport 插件** 不兼容。如果使用这些，你需要使用传统的 BungeeCord 兼容转发。
+- `modern` 转发与 **Minecraft 1.13 以下版本** 和 **[ProtocolSupport](https://www.spigotmc.org/resources/.7201) 插件** 不兼容。如果使用这些，你需要使用传统的 BungeeCord 兼容转发。
 
 :::
-
-#### 配置步骤
 
 1. 在 `velocity.toml` 文件中将 `player-info-forwarding` 设置为 `modern`。
 2. 确保你的服务器已正确配置以使用 Velocity 转发。
 
-#### 为 Paper 配置现代转发
+### 为 Paper 配置现代转发
 
 - Paper **1.14 及以上版本** 以及 **1.13.1/1.13.2 版本 377 及以上版本** 原生支持 Velocity 现代转发。
 
@@ -123,22 +124,18 @@ Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服
 <details>
   <summary>点击展开-为Fabric/Forge配置现代转发</summary>
 
-#### 为 Fabric 配置现代转发
+### 为 Fabric 配置现代转发
 
 - 使用名为 **FabricProxy-Lite** 的 mod，可以在 Fabric 上使用修改过的服务器与 Velocity 现代转发。
 
-#### 为 Forge 配置现代转发
+### 为 Forge 配置现代转发
 
 - 使用名为 **ProxyCompatibleForge** 的 mod，可以在 Forge **1.16.5 或更高版本** 的修改过的服务器上使用 Velocity 现代转发。
 
 </details>
+  </TabItem>
 
-</details>
-
-### 配置传统 BungeeCord 兼容转发 (Legacy Forwarding)
-
-<details>
-  <summary>点击展开</summary>
+  <TabItem value="传统 BungeeCord 兼容转发 (Legacy Forwarding)" label="legacy" default>
 
 :::warning
 
@@ -151,13 +148,13 @@ Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服
 
 :::
 
-#### 增加安全性
+### 传统转发增加安全性
 
 - 对于托管在共享主机上的代理，Velocity 可选地支持 **BungeeGuard**。
   - 将 `velocity.toml` 中的 `player-info-forwarding` 设置为 `bungeeguard`。
   - 在 BungeeGuard 配置的令牌部分添加 `forwarding.secret` 文件中的值。
 
-#### 为 Spigot / Paper 配置传统转发
+### 为 Spigot / Paper 配置传统转发
 
 1. 在 `spigot.yml` 中将 `settings.bungeecord` 设置为 `true`。
 2. 重新启动服务器。
@@ -165,20 +162,23 @@ Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服
 <details>
   <summary>点击展开-为Sponge/Fabric配置传送转发</summary>
 
-#### 为 Sponge 配置传统转发
+### 为 Sponge 配置传统转发
 
 1. 停止服务器。
 2. 在 `config/sponge/global.conf` 文件中将 `modules.bungeecord` 和 `bungeecord.ip-forwarding` 设置为 true。
 3. 重新启动 Sponge 服务器。
 
-#### 为 Fabric 配置传统转发
+### 为 Fabric 配置传统转发
 
 **警告**：不再有任何积极支持传统转发的 mod。**请改用 Velocity 现代转发**。
 
 </details>
 
-</details>
+  </TabItem>
+</Tabs>
 
 ## 加入
 
 见 [加入服务器](/docs-java/process/cross-server/join-server.md)
+
+<!--markdownlint-enable line-length-->

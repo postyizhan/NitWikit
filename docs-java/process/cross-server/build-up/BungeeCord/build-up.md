@@ -7,9 +7,18 @@ sidebar_position: 2
 
 ## 下载
 
-前往 [核心选择](/docs-java/process/cross-server/server-core-choose.md)
+前往 [核心选择](/docs-java/process/cross-server/server-core-choose.md) 下载 BungeeCord
 
-1.7.10 用 BungeeCord 的 [构建 1119](https://ci.md-5.net/job/BungeeCord/1119/)
+BungeeCord 不再支持过旧版本 Minecraft
+
+如果你需要，使用最后支持的构建：
+
+- 1.7.10 - [#1119](https://ci.md-5.net/job/BungeeCord/1119)
+- 1.6.4 - [#701](https://ci.md-5.net/job/BungeeCord/701)
+- 1.6.2 - [#666](https://ci.md-5.net/job/BungeeCord/666)
+- 1.5.2 - [#548](https://ci.md-5.net/job/BungeeCord/548)
+- 1.5.0 - [#386](https://ci.md-5.net/job/BungeeCord/386)
+- 1.4.7 - [#251](https://ci.md-5.net/job/BungeeCord/251)
 
 ## 启动
 
