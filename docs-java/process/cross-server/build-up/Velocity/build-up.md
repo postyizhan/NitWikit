@@ -22,7 +22,7 @@ sidebar_position: 2
 java -Xms1024M -Xmx1024M -jar 核心名字.jar
 ```
 
-## 配置
+## Velocity 配置
 
 打开 `velocity.toml`
 
@@ -102,12 +102,10 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-#### 配置步骤
-
 1. 在 `velocity.toml` 文件中将 `player-info-forwarding` 设置为 `modern`。
 2. 确保你的服务器已正确配置以使用 Velocity 转发。
 
-#### 为 Paper 配置现代转发
+### 为 Paper 配置现代转发
 
 - Paper **1.14 及以上版本** 以及 **1.13.1/1.13.2 版本 377 及以上版本** 原生支持 Velocity 现代转发。
 
@@ -124,11 +122,11 @@ import TabItem from '@theme/TabItem';
 <details>
   <summary>点击展开-为Fabric/Forge配置现代转发</summary>
 
-#### 为 Fabric 配置现代转发
+### 为 Fabric 配置现代转发
 
 - 使用名为 **FabricProxy-Lite** 的 mod，可以在 Fabric 上使用修改过的服务器与 Velocity 现代转发。
 
-#### 为 Forge 配置现代转发
+### 为 Forge 配置现代转发
 
 - 使用名为 **ProxyCompatibleForge** 的 mod，可以在 Forge **1.16.5 或更高版本** 的修改过的服务器上使用 Velocity 现代转发。
 
@@ -145,13 +143,13 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-#### 增加安全性
+### 传统转发增加安全性
 
 - 对于托管在共享主机上的代理，Velocity 可选地支持 **BungeeGuard**。
   - 将 `velocity.toml` 中的 `player-info-forwarding` 设置为 `bungeeguard`。
   - 在 BungeeGuard 配置的令牌部分添加 `forwarding.secret` 文件中的值。
 
-#### 为 Spigot / Paper 配置传统转发
+### 为 Spigot / Paper 配置传统转发
 
 1. 在 `spigot.yml` 中将 `settings.bungeecord` 设置为 `true`。
 2. 重新启动服务器。
@@ -159,13 +157,13 @@ import TabItem from '@theme/TabItem';
 <details>
   <summary>点击展开-为Sponge/Fabric配置传送转发</summary>
 
-#### 为 Sponge 配置传统转发
+### 为 Sponge 配置传统转发
 
 1. 停止服务器。
 2. 在 `config/sponge/global.conf` 文件中将 `modules.bungeecord` 和 `bungeecord.ip-forwarding` 设置为 true。
 3. 重新启动 Sponge 服务器。
 
-#### 为 Fabric 配置传统转发
+### 为 Fabric 配置传统转发
 
 **警告**：不再有任何积极支持传统转发的 mod。**请改用 Velocity 现代转发**。
 
