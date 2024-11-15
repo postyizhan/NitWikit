@@ -10,7 +10,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="BungeeCord" label="bungeeCord" default>
+  <TabItem value="bungeeCord" label="BungeeCord" default>
 
 <!--markdownlint-disable line-length-->
 
@@ -31,7 +31,7 @@ import TabItem from '@theme/TabItem';
 <!--markdownlint-enable line-length-->
   </TabItem>
 
-  <TabItem value="Velocity" label="velocity" default>
+  <TabItem value="velocity" label="Velocity" default>
 
 <!--markdownlint-disable line-length-->
 
