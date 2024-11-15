@@ -94,7 +94,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs>
-  <TabItem value="现代转发(Modern Forwarding)" label="Modern" default>
+  <TabItem value="Modern" label="现代转发(Modern Forwarding)" default>
 
 **`modern` 转发** 是 Velocity 的原生格式，以高效的二进制格式转发所有玩家信息，并采用 MAC 代码增加安全性，使非法服务器难以绕过你的 Velocity 代理。但它**仅支持 Minecraft 1.13 或更高版本**。
 
@@ -135,7 +135,7 @@ import TabItem from '@theme/TabItem';
 </details>
   </TabItem>
 
-  <TabItem value="传统 BungeeCord 兼容转发 (Legacy Forwarding)" label="legacy" default>
+  <TabItem value="legacy" label="传统 BungeeCord 兼容转发 (Legacy Forwarding)" default>
 
 :::warning
 
