@@ -3,6 +3,8 @@ title: 搭建
 sidebar_position: 2
 ---
 
+<!--markdownlint-disable line-length-->
+
 # 搭建
 
 ## 下载
@@ -172,3 +174,5 @@ import TabItem from '@theme/TabItem';
 ## 加入
 
 见 [加入服务器](/docs-java/process/cross-server/join-server.md)
+
+<!--markdownlint-enable line-length-->
