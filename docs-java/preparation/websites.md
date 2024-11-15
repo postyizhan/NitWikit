@@ -200,8 +200,8 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
   </tr>
 
 > https://builtbybit.com/resources/categories/minecraft-plugins.1
-
-*链接已重定向到 Minecraft 相关资源区*
+>
+> 链接已重定向到 Minecraft 相关资源区
 
 一个综合交易平台，其中的 Minecraft 插件大多数都是付费的。
 
@@ -263,7 +263,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   <tr>
     <td align="center">
-      <a href="https://www.minebbs.com/">
+      <a href="https://www.mcbbs.co">
         <img
           src="https://img.fastmirror.net/s/2024/11/15/67373333d67e6.png"
           width="100px;"
