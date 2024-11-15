@@ -170,6 +170,8 @@ import TabItem from '@theme/TabItem';
 
 **警告**：不再有任何积极支持传统转发的 mod。**请改用 Velocity 现代转发**。
 
+<details>
+
   </TabItem>
 </Tabs>
 
