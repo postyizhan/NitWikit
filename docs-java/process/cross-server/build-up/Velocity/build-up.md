@@ -132,6 +132,7 @@ import TabItem from '@theme/TabItem';
 
 - 使用名为 **ProxyCompatibleForge** 的 mod，可以在 Forge **1.16.5 或更高版本** 的修改过的服务器上使用 Velocity 现代转发。
 
+  </TabItem>
   <TabItem value="传统 BungeeCord 兼容转发 (Legacy Forwarding)" label="legacy" default>
 
 :::warning
@@ -169,6 +170,7 @@ import TabItem from '@theme/TabItem';
 
 **警告**：不再有任何积极支持传统转发的 mod。**请改用 Velocity 现代转发**。
 
+  </TabItem>
 </Tabs>
 
 ## 加入

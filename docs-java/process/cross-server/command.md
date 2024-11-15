@@ -29,6 +29,7 @@ import TabItem from '@theme/TabItem';
 | `/server` | `bungeecord.command.server` | 送到指定子服务器，这个权限默认是高于Bukkit插件权限的，也就是说玩家可以在未登录之前使用此命令跳转到另外一个服务器，如果另外的服务器没登陆插件，那么通过此方法就可以使用到OP账号 |
 
 <!--markdownlint-enable line-length-->
+  </TabItem>
 
   <TabItem value="Velocity" label="velocity" default>
 
@@ -48,5 +49,5 @@ import TabItem from '@theme/TabItem';
 | `/send`                                  | `velocity.command.send`            | 他们可以将其他玩家(或代理上的所有玩家)发送到另一个服务器。 |
 
 <!--markdownlint-enable line-length-->
-
+  </TabItem>
 </Tabs>
