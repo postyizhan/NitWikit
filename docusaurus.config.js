@@ -227,7 +227,7 @@ const config = {
             items: [
               {
                 label: '服主资源导航页',
-                href: 'http://nav.yumc.fun',
+                href: 'http://mcnav.fun',
               },
               {
                 label: 'CSKB 日冕知识库',
