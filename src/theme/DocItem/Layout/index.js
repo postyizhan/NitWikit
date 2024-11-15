@@ -14,7 +14,7 @@ import ContentVisibility from '@theme/ContentVisibility';
 import styles from './styles.module.css';
 import { FloatButton, Modal } from 'antd';
 import { FilePdfOutlined, PrinterOutlined } from '@ant-design/icons';
-
+import Comment from '../../../components/comment';
 /**
  * Decide if the toc should be rendered, on mobile or desktop viewports
  */
@@ -55,6 +55,8 @@ export default function DocItemLayout({children}) {
       },
     })
   };
+  const { frontMatter } = useDoc();
+  const { hide_comment: hideComment } = frontMatter;
   return (
     <div className="row">
       <div className={clsx('col', !docTOC.hidden && styles.docItemCol)}>
@@ -70,6 +72,7 @@ export default function DocItemLayout({children}) {
           </article>
           <DocItemPaginator />
         </div>
+        {!hideComment && <Comment />}
       </div>
       {docTOC.desktop && <div className="col col--3">{docTOC.desktop}</div>}
       <FloatButton.Group shape="circle" style={{right: 24}} className="article-float-buttons">

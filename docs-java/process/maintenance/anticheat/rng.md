@@ -60,7 +60,7 @@ RNG 是 **随机数生成器** 的简写。
 use-vanilla-random: false
 ```
 
-:::tips
+:::tip
 
 如果你使用 Paper 核心但想用回原版的 RNG 算法，请参考 [Paper#7166](https://github.com/PaperMC/Paper/issues/7166#issuecomment-998988542) 中提到的解决方法。
 

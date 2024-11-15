@@ -46,6 +46,9 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  clientModules: [
+      require.resolve('./src/clientModules/routeModules.js')
+  ],
 
   presets: [
     [
@@ -124,6 +127,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      giscus: {
+        repo: 'postyizhan/NitWikit',
+        repoId: 'R_kgDOLkVR-A',
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOLkVR-M4CkTAe'
+      },
       // 标题渲染范围
       tableOfContents: {
         minHeadingLevel: 2,
@@ -245,6 +254,8 @@ const config = {
       },
       // 颜色随系统切换
       colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
         respectPrefersColorScheme: true,
       },
 
