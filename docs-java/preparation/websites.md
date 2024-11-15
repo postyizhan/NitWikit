@@ -30,13 +30,15 @@ sidebar_position: 3
     </td>
   </tr>
 
-全球最大的社交编程及代码托管网站。
+> https://github.com
 
-许多开发者会把自己编写的插件发到 GitHub。
+全球最大的社交编程及代码托管网站。许多开发者会把自己编写的插件发到 GitHub。
 
 虽然不登录账号不影响你浏览仓库和下载 Release 等。
 
 但是登录后可以给作者发 Issues 来报告问题，提交新需求/建议，还可以下载 Actions 中的文件。
+
+因此，建议注册并登陆账号。
 
 <details>
   <summary>注册问题</summary>
@@ -275,11 +277,14 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
 曾经最大的综合性我的世界中文论坛，已经关站
 
-但 [有个网站](https://archive.mcbbs.run) 可以翻旧帖子
+这有个纪念版 https://www.mcbbs.co 不过只是看起来像，没有 MCBBS 的资源的
 
-## 工具网站
+你可以在下方网站中找到部分 MCBBS 的帖子
 
-</Tabs>
+- https://archives.mcbbs.co
+- https://archive.mcbbs.run
+
+  </TabItem>
 
   <TabItem value="mcmod" label="MCmod" default>
 
