@@ -11,42 +11,6 @@ sidebar_position: 3
 
 以下是一些可供参考的推荐网站：
 
-## SpigotMC
-
-Minecraft 最大的插件网站，***建议注册账号并安装 [Spigot Search Engine](https://www.spigotmc.org/resources/spigotsearchengine.54108/)***
-
-<details>
-  <summary>点击展开</summary>
-
-  <tr>
-    <td align="center">
-      <a href="https://www.spigotmc.org/">
-        <img
-          src="https://static.spigotmc.org/img/spigot.png"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>SpigotMC</b></sub>
-      </a>
-    </td>
-  </tr>
-
-SpigotMC 应该是目前 Minecraft 开服圈最大的插件网站了，最大的问题是插件搜索引擎十分狗屎。
-
-<details>
-  <summary>注册问题</summary>
-
-![](_images/spigotmc.png)
-
-使用魔法就可以看到验证了，而不是傻呵呵的跟人说。
-
-*SpigotMC不开放注册* *老外的网站真反人类*
-
-</details>
-
-地址：https://www.spigotmc.org/
-
-</details>
-
 ## GitHub
 
 全球最大的代码托管平台 ***建议注册账号***。
@@ -114,90 +78,46 @@ GitHub 汉化插件：https://github.com/maboloshi/github-chinese
 
 </details>
 
-## MineBBS
+## 资源站
 
-国内较为知名的综合性 Minecraft 论坛。曾以基岩版开服内容为主，MCBBS 关闭后其 Java 版相关内容丰富了许多。
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<details>
-  <summary>点击展开</summary>
+<Tabs>
+  <TabItem value="spigotmc" label="SpigotMC" default>
 
   <tr>
     <td align="center">
-      <a href="https://www.minebbs.com/">
+      <a href="https://www.spigotmc.org/">
         <img
-          src="https://www.minebbs.com/data/assets/logo/mb-logo-blue-1x.png"
+          src="https://static.spigotmc.org/img/spigot.png"
           width="100px;"
           alt=""
-        /><br /><sub><b>MineBBS</b></sub>
+        /><br /><sub><b>SpigotMC</b></sub>
       </a>
     </td>
   </tr>
 
-插件板块：https://www.minebbs.com/forums/mcjeplugin/
+> https://www.spigotmc.org
 
-同时，本教程在 MineBBS 也有搬运贴：https://www.minebbs.com/threads/nitwikit-geyser.26356/
+SpigotMC 是目前 Minecraft 开服圈最大的插件网站，最大的问题是搜索引擎十分狗屎。
+
+建议注册账号并安装 **[Spigot Search Engine](https://www.spigotmc.org/resources/spigotsearchengine.54108/)**
+
+<details>
+  <summary>注册问题</summary>
+
+![](_images/spigotmc.png)
+
+使用魔法就可以看到验证了，而不是傻呵呵的跟人说。
+
+*SpigotMC不开放注册* *老外的网站真反人类*
 
 </details>
 
-## Builtbybit
+  </TabItem>
 
-一个综合交易平台，其中的 Minecraft 插件大多数都是付费的。
-
-有一些圈钱的垃圾插件，请仔细辨别后购买。
-
-<details>
-  <summary>点击展开</summary>
-
-  <tr>
-    <td align="center">
-      <a href="https://builtbybit.com/resources/categories/minecraft-plugins.1/">
-        <img
-          src="https://raw.githubusercontent.com/swanis/builtbybit-java-api-wrapper/main/assets/icon-blue.png"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Builtbybit</b></sub>
-      </a>
-    </td>
-  </tr>
-
-如果你的钱包空空就别考虑了。
-
-此外，此网站和 CurseForge 一样并不只有 Minecraft 相关资源，请注意识别别看错了。
-
-*链接已重定向到 Minecraft 相关资源区*
-地址：https://builtbybit.com/resources/categories/minecraft-plugins.1/
-
-</details>
-
-## Polymart
-
-一个 Minecraft 服务器付费插件资源平台。
-
-<details>
-  <summary>点击展开</summary>
-
-  <tr>
-    <td align="center">
-      <a href="https://polymart.org">
-        <img
-          src="https://polymart.org/style/logoLight.png"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Polymart</b></sub>
-      </a>
-    </td>
-  </tr>
-
-地址：https://polymart.org
-
-</details>
-
-## Bukkit
-
-一个相对 SpigotMC 更加古老的插件发布网站，一般用于寻找远古插件。
-
-<details>
-  <summary>点击展开</summary>
+  <TabItem value="bukkit" label="Bukkit" default>
 
   <tr>
     <td align="center">
@@ -211,45 +131,15 @@ GitHub 汉化插件：https://github.com/maboloshi/github-chinese
     </td>
   </tr>
 
+> https://dev.bukkit.org/bukkit-plugins
+
+一个相对 SpigotMC 更加古老的插件发布网站，一般用于寻找远古插件。
+
 开一些低版本服务器可能用得到。
 
-地址：https://dev.bukkit.org/bukkit-plugins
+  </TabItem>
 
-</details>
-
-## Modrinth
-
-现代化的 Minecraft 新兴资源站，插件相对较新较少，而且大部分都开源。
-
-<details>
-  <summary>点击展开</summary>
-
-  <tr>
-    <td align="center">
-      <a href="Modrinth">
-        <img
-          src="https://avatars.githubusercontent.com/u/67560307?s=280&v=4"
-          width="100px;"
-          alt=""
-        /><br /><sub><b>Modrinth</b></sub>
-      </a>
-    </td>
-  </tr>
-
-插件搜索引擎比 SpigotMC 强了好几倍。
-
-因为是新兴资源站，某些资源并未在此发布，但是足够你用了。
-
-地址：https://modrinth.com/
-
-</details>
-
-## Hangar
-
-PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较新较少，但是都经过 PaperMC 官方验证，并且可以找到支持 Folia 和 Velocity 的插件。
-
-<details>
-  <summary>点击展开</summary>
+  <TabItem value="hangar" label="Hangar" default>
 
   <tr>
     <td align="center">
@@ -263,87 +153,147 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
     </td>
   </tr>
 
+> https://hangar.papermc.io
+
+PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较新较少，但是都经过 PaperMC 官方验证，并且可以找到支持 Folia 和 Velocity 的插件。
+
 插件搜索引擎比 SpigotMC 强了好几倍。
 
-地址：https://hangar.papermc.io/
+  </TabItem>
 
-</details>
+  <TabItem value="modrinth" label="Modrinth" default>
 
-## MCMOD
+  <tr>
+    <td align="center">
+      <a href="Modrinth">
+        <img
+          src="https://avatars.githubusercontent.com/u/67560307?s=280&v=4"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Modrinth</b></sub>
+      </a>
+    </td>
+  </tr>
 
-国人的 MC mod 收录网站，资源很丰富，并且详细列出 mod 之间的关系（如前置，联动，附属等）
+> https://modrinth.com
 
-<details>
-  <summary>点击展开</summary>
+现代化的 Minecraft 新兴资源站，插件相对较新较少，但大部分都开源好评
+
+插件搜索引擎比 SpigotMC 强了好几倍。
+
+因为是新兴资源站，某些资源并未在此发布，但是足够你用了。
+
+  </TabItem>
+
+  <TabItem value="builtbybit" label="Builtbybit" default>
+
+  <tr>
+    <td align="center">
+      <a href="https://builtbybit.com/resources/categories/minecraft-plugins.1/">
+        <img
+          src="https://raw.githubusercontent.com/swanis/builtbybit-java-api-wrapper/main/assets/icon-blue.png"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Builtbybit</b></sub>
+      </a>
+    </td>
+  </tr>
+
+> https://builtbybit.com/resources/categories/minecraft-plugins.1
+
+*链接已重定向到 Minecraft 相关资源区*
+
+一个综合交易平台，其中的 Minecraft 插件大多数都是付费的。
+
+有一些圈钱的垃圾插件，请仔细辨别后购买。
+
+如果你的钱包空空就别考虑了。
+
+此外，此网站和 CurseForge 一样并不只有 Minecraft 相关资源，请注意识别别看错了。
+
+  </TabItem>
+
+  <TabItem value="polymart" label="Polymart" default>
+
+  <tr>
+    <td align="center">
+      <a href="https://polymart.org">
+        <img
+          src="https://polymart.org/style/logoLight.png"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Polymart</b></sub>
+      </a>
+    </td>
+  </tr>
+
+> https://polymart.org
+
+一个 Minecraft 服务器付费插件资源平台。
+
+  </TabItem>
+</Tabs>
+
+## 论坛
+
+<Tabs>
+  <TabItem value="minebbs" label="MineBBS" default>
+
+  <tr>
+    <td align="center">
+      <a href="https://www.minebbs.com/">
+        <img
+          src="https://www.minebbs.com/data/assets/logo/mb-logo-blue-1x.png"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>MineBBS</b></sub>
+      </a>
+    </td>
+  </tr>
+
+> 插件板块：https://www.minebbs.com/forums/mcjeplugin
+
+国内较为知名的综合性 Minecraft 论坛。曾以基岩版开服内容为主，MCBBS 关闭后其 Java 版相关内容丰富了许多。
+
+同时，本教程在 MineBBS 也有搬运贴：https://www.minebbs.com/threads/nitwikit-geyser.26356/
+
+  </TabItem>
+
+  <TabItem value="mcbbs" label="MCBBS" default>
+
+  <tr>
+    <td align="center">
+      <a href="https://www.minebbs.com/">
+        <img
+          src="https://img.fastmirror.net/s/2024/11/15/67373333d67e6.png"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>MCBBS</b></sub>
+      </a>
+    </td>
+  </tr>
+
+曾经最大的综合性我的世界中文论坛，已经关站
+
+但 [有个网站](https://archive.mcbbs.run) 可以翻旧帖子
+
+## 工具网站
+
+</Tabs>
+
+  <TabItem value="mcmod" label="MCmod" default>
 
 ![](https://img.fastmirror.net/s/2024/10/01/66fbe12c6bb07.png)
 
-https://www.mcmod.cn
+> https://www.mcmod.cn
 
-</details>
+国人的 MC mod 收录网站，资源很丰富，并且详细列出 mod 之间的关系（如前置，联动，附属等）
 
-## MCBBS
+  </TabItem>
 
-曾经最大的综合性我的世界中文论坛，已经关站，但有个网站可以翻旧帖子
+  <TabItem value="bstats" label="bStats" default>
 
-<details>
-  <summary>点击展开</summary>
-
-![](https://www.mcbbs2.net/template/mcbbs_v2/images/logo.png)
-
-在这可以翻旧帖子 https://archive.mcbbs.run
-
-</details>
-
-## MOTD 生成网站
-
-MOTD 就是 Minecraft 客户端在尝试连接服务器之前，服务器对客户端发送的一条短消息，这通常包含1-3行文字和一张图片。
-
-![](_images/motd.png)
-
-<details>
-  <summary>点击展开</summary>
-
-MOTD 是玩家进入服务器之前最先看到的东西，决定了玩家对一个服务器的第一印象，所以，请任选一个 MOTD 生成器生成个性化 MOTD：
-
-[MOTD.gg](https://motd.gg)(非常非常推荐)(~~还可以偷别的服务器的motd~~)
-
-[MOTD creator](https://mctools.org/motd-creator)
-
-[Minecraft MOTD tool](https://minecraft.tools/en/motd.php)
-
-</details>
-
-## Minecraft 工具箱
-
-有时候你项要加三两个数据包形式的自定义合成，自定义超平坦地图，烟花，文本生成等，但苦恼不会使用？
-
-<details>
-  <summary>点击展开</summary>
-
-请选择 [Minecraft 工具箱](https://minecraft.tools/)，自动生成各种 Minecraft 指令、数据包等。
-
-</details>
-
-## 像素云黑
-
-<details>
-  <summary>点击展开</summary>
-
-指像素论坛的[失信人员名单页面](https://www.pixelbbs.cn/f-50-1.html)。
-
-交易前查询下这人有没有被记录过，被记录过就别交易了。如果你被骗了，搜集证据去发个帖，给大家避个雷。
-
-能为你避开 90% 诈骗坑的[防骗小技巧](https://www.pixelbbs.cn/t-1377-1-1.html)。
-
-</details>
-
-## bStats
-
-常用的统计数据网站，不少开发者会在自己的插件中写统计数据功能(一般默认开启)
-
-<details>
-  <summary>点击展开</summary>
+常用的统计数据网站，不少开发者会在自己的插件中写统计数据功能
 
 例如：
 
@@ -355,4 +305,51 @@ DecentHolograms 插件统计：
 
 ![](https://bstats.org/signatures/bukkit/DecentHolograms.svg)
 
-</details>
+  </TabItem>
+
+  <TabItem value="minecraft-tools" label="Minecraft 工具箱" default>
+
+  <tr>
+    <td align="center">
+      <a href="https://www.minebbs.com/">
+        <img
+          src="https://minecraft.tools/en/css/img/logo.png"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>Minecraft tools</b></sub>
+      </a>
+    </td>
+  </tr>
+
+> https://minecraft.tools
+
+有时候你项要加三两个数据包形式的自定义合成，自定义超平坦地图，烟花，文本生成等，但苦恼不会使用？
+
+请选择 [Minecraft 工具箱](https://minecraft.tools/)，自动生成各种 Minecraft 指令、数据包等。
+
+  </TabItem>
+
+  <TabItem value="pixelbbs" label="PixelBBS" default>
+
+指像素论坛的[失信人员名单页面](https://www.pixelbbs.cn/f-50-1.html)。
+
+交易前查询下这人有没有被记录过，被记录过就别交易了。如果你被骗了，搜集证据去发个帖，给大家避个雷。
+
+能为你避开 90% 诈骗坑的[防骗小技巧](https://www.pixelbbs.cn/t-1377-1-1.html)。
+
+  </TabItem>
+
+  <TabItem value="motd" label="MOTD" default>
+
+![](_images/motd.png)
+
+MOTD 就是 Minecraft 客户端在尝试连接服务器之前，服务器对客户端发送的一条短消息，这通常包含1-3行文字和一张图片。
+
+MOTD 是玩家进入服务器之前最先看到的东西，决定了玩家对一个服务器的第一印象，所以，请任选一个 MOTD 生成器生成个性化 MOTD：
+
+- [MOTD.gg](https://motd.gg)(非常非常推荐)(~~还可以偷别的服务器的motd~~)
+- [MOTD creator](https://mctools.org/motd-creator)
+- [Minecraft MOTD tool](https://minecraft.tools/en/motd.php)
+
+  </TabItem>
+</Tabs>
