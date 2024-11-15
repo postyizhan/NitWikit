@@ -88,16 +88,17 @@ Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服
 你只能选择这些转发格式中的一种。目前不可能“混合匹配”转发模式或同时使用所有转发格式。一般来说，如果你只支持使用 Minecraft 1.13 及更新版本的客户端，请使用 Velocity Modern 转发；
 否则，你必须使用 BungeeCord 转发。
 
-### 配置现代转发(Modern Forwarding)
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-<details>
-  <summary>点击展开</summary>
+<Tabs>
+  <TabItem value="现代转发(Modern Forwarding)" label="Modern" default>
 
 **`modern` 转发** 是 Velocity 的原生格式，以高效的二进制格式转发所有玩家信息，并采用 MAC 代码增加安全性，使非法服务器难以绕过你的 Velocity 代理。但它**仅支持 Minecraft 1.13 或更高版本**。
 
-::: warning
+:::warning
 
-- `modern` 转发与 **Minecraft 1.13 以下版本** 和 **ProtocolSupport 插件** 不兼容。如果使用这些，你需要使用传统的 BungeeCord 兼容转发。
+- `modern` 转发与 **Minecraft 1.13 以下版本** 和 **[ProtocolSupport](https://www.spigotmc.org/resources/.7201) 插件** 不兼容。如果使用这些，你需要使用传统的 BungeeCord 兼容转发。
 
 :::
 
@@ -131,14 +132,7 @@ Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服
 
 - 使用名为 **ProxyCompatibleForge** 的 mod，可以在 Forge **1.16.5 或更高版本** 的修改过的服务器上使用 Velocity 现代转发。
 
-</details>
-
-</details>
-
-### 配置传统 BungeeCord 兼容转发 (Legacy Forwarding)
-
-<details>
-  <summary>点击展开</summary>
+  <TabItem value="传统 BungeeCord 兼容转发 (Legacy Forwarding)" label="legacy" default>
 
 :::warning
 
@@ -175,9 +169,7 @@ Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服
 
 **警告**：不再有任何积极支持传统转发的 mod。**请改用 Velocity 现代转发**。
 
-</details>
-
-</details>
+</Tabs>
 
 ## 加入
 
