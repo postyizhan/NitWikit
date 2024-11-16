@@ -31,21 +31,45 @@ sidebar_position: 4
 
 `GitHub(推荐，社区维护)` https://github.com/Dreeam-qwq/TrMenu
 
-`文档(新)` https://hhhhhy.gitbook.io/trmenu-v3
-
-`文档(新)(高速)` https://bukkit.wiki/plugins/plugins/trmenu
-
-`文档(社区)` https://wiki.ptms.ink/index.php?title=%E7%A4%BE%E5%8C%BA:TrMenu
-
-`文档(旧)` https://trmenu.trixey.cc/
-
-`vscode插件-trm语法提示` https://marketplace.visualstudio.com/items?itemName=hhhhhy.trmenu-helper
-
 :::
 
 交流群：325014486
 
 [如何支持1.8](https://hhhhhy.gitbook.io/trmenu-v3/appendix/v3-guide#datasource.yml-dui-yu-1.8-fu-wu-duan)
+
+## 文档
+
+- https://trmenu.trixey.cc
+
+旧文档，不推荐阅读
+
+- https://hhhhhy.gitbook.io/trmenu-v3
+
+新文档，推荐阅读，但可能需要挂梯子
+
+- https://mirror.yizhan.wiki/https://hhhhhy.gitbook.io/trmenu-v3
+
+新文档的笨蛋镜像，不挂梯也可访问
+
+- https://bukkit.wiki/plugins/plugins/trmenu
+
+阔大帅的文档，拥有上方新文档的全部内容且访问速度快
+
+- https://wiki.ptms.ink/index.php?title=%E7%A4%BE%E5%8C%BA:TrMenu
+
+社区文档，或许比上方的文档更容易理解
+
+## vscode 插件
+
+与 TrMenu 或 [kether](/docs-java/advance/kether/kether.md) 有关的 vscode 插件
+
+- [TrMenu-Helper](https://marketplace.visualstudio.com/items?itemName=hhhhhy.trmenu-helper)
+
+TrMenu 语法提示
+
+- [kether-snippet](https://marketplace.visualstudio.com/items?itemName=LiteCat.kether-snippet)
+
+kether 语法提示
 
 ## 案例
 
