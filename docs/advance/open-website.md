@@ -86,7 +86,7 @@ Repository name填 你的用户名.github.io
 
 然后回到DNS记录
 
-添加一个类型为CNAME 名称为cdn 内容为
+添加一个类型为 CNAME 名称为cdn 内容为
 cf-cname.xingpingcn.top 不需要开启小黄云
 ![微信图片_20240916092435.png](_images/open-web-photo/close-yellow-cloud.png)
 
@@ -194,7 +194,7 @@ cf-cname.xingpingcn.top 不需要开启小黄云
 
 :::warning
 
-如果你的域名没有备案的话，请不要购买国内的虚拟主机(因为工信部为了打击不良网站,所以只要在国内的虚拟主机或服务器要进行建站的话，域名需要备案)
+如果你的域名没有备案的话，请不要购买国内的虚拟主机(因为工信部为了打击不良网站，所以只要在国内的虚拟主机或服务器要进行建站的话，域名需要备案)
 
 :::
 
@@ -233,7 +233,7 @@ cf-cname.xingpingcn.top 不需要开启小黄云
 
 :::warning
 
-如果你的域名没有备案的话，请不要购买国内的服务器(因为工信部为了打击不良网站,所以只要在国内的虚拟主机或服务器要进行建站的话，域名需要备案)
+如果你的域名没有备案的话，请不要购买国内的服务器(因为工信部为了打击不良网站，所以只要在国内的虚拟主机或服务器要进行建站的话，域名需要备案)
 
 :::
 
@@ -242,25 +242,18 @@ cf-cname.xingpingcn.top 不需要开启小黄云
 namelessmc的配置要求原文要求的是
 
 PHP 7.4、8.0或8.1（推荐），具有以下扩展：
+* php curl
+* php-exif
+* php-gd支持png和jpeg
+* php mbstring
+* php-mysql或php-mysqlnd
+* php pdo
+* php xml
+还有 MySQL 5.7.22 或更高 或 MariaDB 10.2 或更高
 
-  php curl
+还有一台安装了 Apache 或 NGINX 或 Caddy 的服务器
 
-  php-exif
-
-  php-gd支持png和jpeg
-
-  php mbstring
-
-  php-mysql或php-mysqlnd
-
-  php pdo
-
-  php xml
-还有MySQL 5.7.22或更高 或 MariaDB 10.2或更高
-
-还有一台安装了Apache或NGINX或Caddy的服务器
-
-这些宝塔面板都有(除php插件外)
+这些宝塔面板都有
 
 #### 正式开始
 
@@ -296,15 +289,61 @@ PHP 7.4、8.0或8.1（推荐），具有以下扩展：
 然后按照提示完成安装
 :::warning
 
-有时候安装完之后可能会识别不出来重启一下php就可以解决了
+有时候安装完之后可能会识别不出来重启一下php就可以解决了，有一点提醒:数据库名字一定要为namelessmc否则会无法下一步
 
 :::
-完成后会跳转到仪表盘,然后记得去把API开一下，到时候可以直接和你的MC服务器连接
+完成后会跳转到仪表盘，然后记得去把API开一下，到时候可以直接和你的MC服务器连接
 ![](_images/open-web-photo/api.png)
 
-然后它会出现连接地址和API密钥,到时候输入你插件的配置文件里面就可以实现联通了,这里就不做演示了
+然后它会出现连接地址和API密钥，到时候输入你插件的配置文件里面就可以实现联通了，这里就不做演示了
 
 然后主页面就长这样子
 ![](_images/open-web-photo/index.png)
 
 如果你看到这个界面那么如果你是第1次使用宝塔面板搭建网站，那么恭喜你，你成功了
+
+## 使用 vercel 搭建网站服务
+
+此方法在我看来是最简单的方法，他的加载速度加上优选IP之后可以比cloudflare saas后还快(没有设置缓存的情况下)，而且比cloudflare saas要简单许多
+
+如果你无法正常访问 vercel 请下载 [Watt Toolkit](https://steampp.net) 并在最下面的其他服务内勾选的加速vercel.app
+
+### 要准备的东西
+* 一个 Github 账号
+* 一个邮箱
+
+### 注册 vercel 账号
+
+首先进入[vercel](https://vercel.com)
+
+然后可以点击图片上的这两个，那个黑色的是注册那个圈起来的白色的是登录，如果你已经有了github账号可以直接登录
+![](_images/open-web-photo/vercel-login.png)
+
+登录完之后去 Github 新建一个仓库，上传你的网站源码(这里前面讲过如何新建仓库并上传源码，这里就不讲了)
+
+上传完之后在 vercel 里的主页，点击 add new
+![](_images/open-web-photo/add-new.png)
+
+然后选择第2个
+![](_images/open-web-photo/choose-second.png)
+
+进入之后找到你刚刚创建并上传了源码的仓库，然后点击那个仓库旁的 import ，然后再点 deploy
+
+然后耐心等待构建完成
+
+完成之后，点击最下面那个黑色的按钮
+
+然后来到管理网站的仪表盘然后点击 settings-domains
+![](_images/open-web-photo/dom.png)
+
+然后再最上面的那个框那里输入你要绑定的域名，然后点击 add
+![](_images/open-web-photo/add.png)
+
+这时他会提示你要添加一个 cname 记录，千万不要使用这个地址，要使用其他人制作的优选IP 优选IP是vercel.182682.xyz
+![](_images/open-web-photo/cname.png)
+
+添加完之后等待它自动检查检查完成并签发完证书之后然后访问你绑定的域名就可以访问到你的网站了
+
+### 一些弊端
+
+不知为何 vercel 在构建本站文档的时候，出现了一点奇怪的错误，我尝试了其他的构建网站可是都没有问题
