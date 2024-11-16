@@ -204,8 +204,16 @@ const config = {
             title: '文档',
             items: [
               {
-                label: '开始',
-                to: '/intro',
+                label: '驿站主页',
+                to: 'https://yizhan.wiki',
+              },
+              {
+                label: 'Docusaurus 主题',
+                to: 'https://nitwikit.yizhan.wiki',
+              },
+              {
+                label: 'VitePress 主题',
+                to: 'https://nitwikit2.yizhan.wiki',
               },
               {
                 label: 'GitHub',
