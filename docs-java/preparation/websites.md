@@ -85,8 +85,8 @@ GitHub 汉化插件：https://github.com/maboloshi/github-chinese
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs>
-  <TabItem value="spigotmc" label="SpigotMC" default>
+<Tabs queryString="website">
+  <TabItem value="spigotmc" label="SpigotMC">
 
   <tr>
     <td align="center">
@@ -119,7 +119,7 @@ SpigotMC 是目前 Minecraft 开服圈最大的插件网站，最大的问题是
 
   </TabItem>
 
-  <TabItem value="bukkit" label="Bukkit" default>
+  <TabItem value="bukkit" label="Bukkit">
 
   <tr>
     <td align="center">
@@ -141,7 +141,7 @@ SpigotMC 是目前 Minecraft 开服圈最大的插件网站，最大的问题是
 
   </TabItem>
 
-  <TabItem value="hangar" label="Hangar" default>
+  <TabItem value="hangar" label="Hangar">
 
   <tr>
     <td align="center">
@@ -163,7 +163,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   </TabItem>
 
-  <TabItem value="modrinth" label="Modrinth" default>
+  <TabItem value="modrinth" label="Modrinth">
 
   <tr>
     <td align="center">
@@ -187,7 +187,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   </TabItem>
 
-  <TabItem value="builtbybit" label="Builtbybit" default>
+  <TabItem value="builtbybit" label="Builtbybit">
 
   <tr>
     <td align="center">
@@ -215,7 +215,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   </TabItem>
 
-  <TabItem value="polymart" label="Polymart" default>
+  <TabItem value="polymart" label="Polymart">
 
   <tr>
     <td align="center">
@@ -238,8 +238,8 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
 ## 论坛
 
-<Tabs>
-  <TabItem value="minebbs" label="MineBBS" default>
+<Tabs queryString="discuss">
+  <TabItem value="minebbs" label="MineBBS">
 
   <tr>
     <td align="center">
@@ -261,7 +261,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   </TabItem>
 
-  <TabItem value="mcbbs" label="MCBBS" default>
+  <TabItem value="mcbbs" label="MCBBS">
 
   <tr>
     <td align="center">
@@ -281,12 +281,13 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
 你可以在下方网站中找到部分 MCBBS 的帖子
 
-- https://archives.mcbbs.co
-- https://archive.mcbbs.run
+> https://archives.mcbbs.co
+> 
+> https://archive.mcbbs.run
 
   </TabItem>
 
-  <TabItem value="mcmod" label="MCmod" default>
+  <TabItem value="mcmod" label="MCmod">
 
 ![](https://img.fastmirror.net/s/2024/10/01/66fbe12c6bb07.png)
 
@@ -296,7 +297,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   </TabItem>
 
-  <TabItem value="bstats" label="bStats" default>
+  <TabItem value="bstats" label="bStats">
 
 常用的统计数据网站，不少开发者会在自己的插件中写统计数据功能
 
@@ -312,7 +313,7 @@ DecentHolograms 插件统计：
 
   </TabItem>
 
-  <TabItem value="minecraft-tools" label="Minecraft 工具箱" default>
+  <TabItem value="minecraft-tools" label="Minecraft 工具箱">
 
   <tr>
     <td align="center">
@@ -334,7 +335,7 @@ DecentHolograms 插件统计：
 
   </TabItem>
 
-  <TabItem value="pixelbbs" label="PixelBBS" default>
+  <TabItem value="pixelbbs" label="PixelBBS">
 
 指像素论坛的[失信人员名单页面](https://www.pixelbbs.cn/f-50-1.html)。
 
@@ -344,7 +345,7 @@ DecentHolograms 插件统计：
 
   </TabItem>
 
-  <TabItem value="motd" label="MOTD" default>
+  <TabItem value="motd" label="MOTD">
 
 ![](_images/motd.png)
 
@@ -352,9 +353,11 @@ MOTD 就是 Minecraft 客户端在尝试连接服务器之前，服务器对客�
 
 MOTD 是玩家进入服务器之前最先看到的东西，决定了玩家对一个服务器的第一印象，所以，请任选一个 MOTD 生成器生成个性化 MOTD：
 
-- [MOTD.gg](https://motd.gg)(非常非常推荐)(~~还可以偷别的服务器的motd~~)
-- [MOTD creator](https://mctools.org/motd-creator)
-- [Minecraft MOTD tool](https://minecraft.tools/en/motd.php)
+> [MOTD.gg](https://motd.gg)(非常非常推荐)(~~还可以偷别的服务器的motd~~)
+> 
+> [MOTD creator](https://mctools.org/motd-creator)
+> 
+> [Minecraft MOTD tool](https://minecraft.tools/en/motd.php)
 
   </TabItem>
 </Tabs>

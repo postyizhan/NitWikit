@@ -65,7 +65,7 @@ https://itemsadder.devs.beer/v/chinese/plugin-usage/resourcepack-hosting
 
 看配置文件
 
-# 托管
+## 托管
 
 以下均为ia文档中所说的 第三方平台托管(external-host)
 
