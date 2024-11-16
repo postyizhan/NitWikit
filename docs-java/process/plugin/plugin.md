@@ -40,7 +40,7 @@ sidebar_position: 1
 
 ### 列出插件
 
-使用 `/plugins`或者`/pl` 列出插件列表。
+使用 `/plugins` 或者 `/pl` 列出插件列表。
 
 ![](_images/概览/插件列表.png)
 
