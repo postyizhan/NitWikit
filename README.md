@@ -31,7 +31,7 @@
 - [klpbbs](https://klpbbs.com/forum.php?mod=viewthread&tid=136184&page=1&extra=#pid10518779)
 - [九域](https://bbs.mc9y.net/threads/1624/)
 - [暮光方块论坛](https://bbs.tsfk.top/threads/399/)
-- [mcbbs2](https://mcbbs2.net/thread-103-1-1.html)
+- [mcbbs纪念版](https://mcbbs.co/thread-103-1-1.html)
 - [mcutc 论坛](https://bbs.mcutc.cn/threads/560/)
 - [HiMCBBS](https://www.himcbbs.com/threads/nitwikit-geyser.420/)
 
