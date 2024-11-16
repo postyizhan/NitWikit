@@ -13,11 +13,6 @@ sidebar_position: 3
 
 ## GitHub
 
-全球最大的代码托管平台 ***建议注册账号***。
-
-<details>
-  <summary>点击展开</summary>
-
   <tr>
     <td align="center">
       <a href="https://github.com">
@@ -39,6 +34,8 @@ sidebar_position: 3
 但是登录后可以给作者发 Issues 来报告问题，提交新需求/建议，还可以下载 Actions 中的文件。
 
 因此，建议注册并登陆账号。
+
+GitHub界面是全英文，可以尝试安装油猴汉化插件：https://github.com/maboloshi/github-chinese
 
 <details>
   <summary>注册问题</summary>
@@ -66,17 +63,9 @@ sidebar_position: 3
 
 使用魔法或者用加速地址：
 
-https://gitmirror.com/files.html
-
-https://moeyy.cn/gh-proxy
-
-https://ghps.cc/
-
-</details>
-
-GitHub 汉化插件：https://github.com/maboloshi/github-chinese
-
-地址：https://github.com
+- https://gitmirror.com/files.html
+- https://moeyy.cn/gh-proxy
+- https://ghps.cc
 
 </details>
 
@@ -191,7 +180,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   <tr>
     <td align="center">
-      <a href="https://builtbybit.com/resources/categories/minecraft-plugins.1/">
+      <a href="https://builtbybit.com/resources/categories/minecraft-plugins.1">
         <img
           src="https://raw.githubusercontent.com/swanis/builtbybit-java-api-wrapper/main/assets/icon-blue.png"
           width="100px;"
@@ -221,7 +210,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
     <td align="center">
       <a href="https://polymart.org">
         <img
-          src="https://polymart.org/style/logoLight.png"
+          src="https://img.fastmirror.net/s/2024/11/16/673815d815a3c.png"
           width="100px;"
           alt=""
         /><br /><sub><b>Polymart</b></sub>
@@ -282,10 +271,40 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 你可以在下方网站中找到部分 MCBBS 的帖子
 
 > https://archives.mcbbs.co
-> 
+>
 > https://archive.mcbbs.run
 
   </TabItem>
+
+  <TabItem value="pixelbbs" label="PixelBBS">
+
+  <tr>
+    <td align="center">
+      <a href="https://www.pixelbbs.cn">
+        <img
+          src="https://www.pixelbbs.cn/template/quater_2023_dji/src/Pixelbbs.gif"
+          width="100px;"
+          alt=""
+        /><br /><sub><b>PixelBBS</b></sub>
+      </a>
+    </td>
+  </tr>
+
+像素论坛还在搞云黑
+
+即 像素论坛的 [失信人员名单页面](https://www.pixelbbs.cn/f-50-1.html)。
+
+交易前查询下这人有没有被记录过，被记录过就别交易了。如果你被骗了，搜集证据去发个帖，给大家避个雷。
+
+能为你避开 90% 诈骗坑的[防骗小技巧](https://www.pixelbbs.cn/t-1377-1-1.html)。
+
+  </TabItem>
+
+</Tabs>
+
+## 工具网站
+
+<Tabs queryString="tool">
 
   <TabItem value="mcmod" label="MCmod">
 
@@ -335,16 +354,6 @@ DecentHolograms 插件统计：
 
   </TabItem>
 
-  <TabItem value="pixelbbs" label="PixelBBS">
-
-指像素论坛的[失信人员名单页面](https://www.pixelbbs.cn/f-50-1.html)。
-
-交易前查询下这人有没有被记录过，被记录过就别交易了。如果你被骗了，搜集证据去发个帖，给大家避个雷。
-
-能为你避开 90% 诈骗坑的[防骗小技巧](https://www.pixelbbs.cn/t-1377-1-1.html)。
-
-  </TabItem>
-
   <TabItem value="motd" label="MOTD">
 
 ![](_images/motd.png)
@@ -354,9 +363,9 @@ MOTD 就是 Minecraft 客户端在尝试连接服务器之前，服务器对客�
 MOTD 是玩家进入服务器之前最先看到的东西，决定了玩家对一个服务器的第一印象，所以，请任选一个 MOTD 生成器生成个性化 MOTD：
 
 > [MOTD.gg](https://motd.gg)(非常非常推荐)(~~还可以偷别的服务器的motd~~)
-> 
+>
 > [MOTD creator](https://mctools.org/motd-creator)
-> 
+>
 > [Minecraft MOTD tool](https://minecraft.tools/en/motd.php)
 
   </TabItem>
