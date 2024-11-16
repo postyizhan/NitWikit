@@ -77,7 +77,7 @@ import TabItem from '@theme/TabItem';
 
 <TabItem value="config" label="配置文件改语言">
 
-像 HoloMobHealth、GSit 等，你可以在插件配置文件中(一般在 config.yml 中)找到 Language，lang 等字眼。
+像 HoloMobHealth、GSit 等，你可以在插件配置文件中(一般在 config.yml 中)找到 Language，lang ，locale 等字眼。
 
 然后把语言项改成 zh_CN、 Chinese 等，具体应该写什么这地方。插件配置的注释可能提到
 

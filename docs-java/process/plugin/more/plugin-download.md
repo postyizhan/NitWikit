@@ -3,7 +3,9 @@ title: 插件下载
 sidebar_position: 1
 ---
 
-# 插件选择
+# 插件下载
+
+## 选择插件
 
 很好，相信你已经在 [可能用到的网站](/docs-java/preparation/websites.md) 看到了很多链接，面对成千上万的插件我们应该如何进行选择呢？
 
@@ -53,7 +55,17 @@ sidebar_position: 1
 
 **_不要装多个同类型插件，不要把 CMI 和 EssentialX 装在一起，也不要一个服务器装 3 ~ 4 个菜单插件！！！_**
 
-## 下载插件历史版本
+## 下载插件
+
+### 最新版本
+
+TOPO
+
+### 开发版本
+
+TODO
+
+### 历史版本
 
 **建议**你用**最新版本**的插件，但如果你因为一些原因必须要用旧版的话...
 
@@ -101,7 +113,3 @@ import TabItem from '@theme/TabItem';
 
 </TabItem>
 </Tabs>
-
-## 安装插件
-
-将插件的 jar 文件放入服务端的 `plugins` 文件夹。
