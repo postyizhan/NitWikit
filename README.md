@@ -48,6 +48,9 @@
 
 1. 将此仓库克隆至本地
    `git clone https://github.com/postyizhan/NitWikit.git`
+
+   更快的克隆
+   `git clone  --single-branch --depth 1 -b main https://github.com/postyizhan/NitWikit.git `
 2. 移动至仓库根目录
    `cd NitWikit`
 3. 安装依赖
@@ -57,7 +60,7 @@
 5. 部署测试网站
    `pnpm serve`
 6. 一键构建&测试
-    `pnpm test`
+   `pnpm test`
 
 # ⬆️ 提交贡献
 
