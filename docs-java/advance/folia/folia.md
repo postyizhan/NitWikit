@@ -37,3 +37,24 @@ Folia这么好，但并不是每个服务器都可以体验的，你需要确保
 * 你需要的插件支持 Folia
 
 如果你不符合，去用Leaf吧，符合的话继续看下去!
+
+## 选择
+
+Folia 有许多分支,你可能不知道怎么选,有个简单的办法:
+
+```mermaid
+flowchart TD
+    A[Folia]
+    A --> B[快速升到高版本]
+    A --> C[性能,稳定性和功能]
+    A --> D[插件兼容性]
+    B --> DeerFolia
+    C --> E[1.20.4+] --> Luminol
+    C --> F[1.20/2] --> Molia
+    C --> G[1.19.3/4] --> Kaiiju
+    D --> 1.20.4+ --> LightingLuminol
+    D --> 1.20/2 --> DirtyMolia
+    D --> 1.19.3/4 --> DirtyFolia
+```
+
+根据这张图表选好后去下载就可以了
