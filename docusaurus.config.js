@@ -9,6 +9,10 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  future: {
+    experimental_faster: true,
+  },
+
   customFields: {
     // 标题前缀
     titlePrefix: "主页",
@@ -64,12 +68,16 @@ const config = {
         },
         blog: false,
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [
+              require.resolve('./src/css/custom.css'),
+          ],
         },
       }),
     ],
   ],
   plugins: [
+      'docusaurus-plugin-image-zoom',
+      'docusaurus-plugin-sass',
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -133,6 +141,13 @@ const config = {
         category: 'Announcements',
         categoryId: 'DIC_kwDOLkVR-M4CkTAe'
       },
+      zoom: {
+        selector: '.markdown :not(em) > img',
+        background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)',
+        },
+      },
       // 标题渲染范围
       tableOfContents: {
         minHeadingLevel: 2,
@@ -156,7 +171,7 @@ const config = {
           alt: 'Logo',
           src: 'img/book.png',
         },
-        hideOnScroll: false,
+        hideOnScroll: true,
         items: [
           {
             type: 'doc',
@@ -196,6 +211,7 @@ const config = {
           // },
         ],
       },
+
       // 底部链接
       footer: {
         style: 'dark',
@@ -285,6 +301,13 @@ const config = {
 
   themes: [
     '@docusaurus/theme-mermaid'
+
+  ],
+  scripts: [
+    {
+      src: '/autoload.js',
+      defer: true,
+    },
   ],
 };
 
