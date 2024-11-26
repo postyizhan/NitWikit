@@ -45,6 +45,8 @@ TODO
 
 ### 更高效的储存方式
 
+#### Linear
+
 :::danger
 
 Linear不适合玩家基数非常大/服务器经常滞后/压缩比较大(推荐默认1-5)/ CPU 核心数目小/服务器硬盘空间足够大的服务器。
@@ -61,24 +63,24 @@ Linear不适合玩家基数非常大/服务器经常滞后/压缩比较大(推�
 
 主世界可以节省大约 50% 的空间，末地大约为 90% ，且使用现代的 zstd 压缩，可以获得更快的加载和保存速度
 
-#### 转换区域格式
+##### 转换区域格式
 
 使用之前你需要将 ANVIL 转换成 Linear 区域格式，如果你使用的是 Leaves ，你可以在服务端内部自动转换。
 
 [转换工具](https://github.com/xymb-endcrystalme/LinearRegionFileFormatTools) ，转换非常简单你只需要看着教程做就行(记得做备份)
 
-#### 开启区域格式
+##### 开启区域格式
 
 目前，支持线性区域格式的仅有 LinearPurpur ， LinearPaper ， Leaves ， Leaf ， Kaiiju (还有一堆Fork)，
 
 开启教程不多说，你只需要查看 Wiki 就行。
 
-#### 不兼容的插件
+##### 不兼容的插件
 
 ServerBackup 一款备份插件，会由于找不到mca文件报错。
 目前已知不兼容线性区域的格式的插件极少无比，已知的有大部分在线网页地图浏览程序，以及Residence部分不兼容(感谢z大神的优雅代码，当传送到一个未加载区块的领地时会崩溃)
 
-#### 测试结果
+##### 测试结果
 
 感谢 HaHaWTH 提供的测试结果，测试内容为使用 Chunky 加载半径 1000 格的方块并保存，测试核心为 Leaf ，实际结果可能与测试结果有出入
 
@@ -95,6 +97,10 @@ ServerBackup 一款备份插件，会由于找不到mca文件报错。
 不推荐压缩比开到最大，推荐值为 6
 
 :::
+
+#### Slime
+
+请查看[Slime 区域格式](https://nitwikit.yizhan.wiki/Java/advance/slime-world)
 
 ## 其他
 
