@@ -151,4 +151,4 @@ mcping <服务器地址>
 
 📦 单端 https://nitwikit.yizhan.wiki/Java/start/server-core-choose
 
-📦 跨服端 https://nitwikit.yizhan.wiki/Java/advance/cross-server/server-core-choose
+📦 跨服端 https://nitwikit.yizhan.wiki/Java/process/cross-server/server-core-choose
