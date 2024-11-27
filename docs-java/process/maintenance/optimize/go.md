@@ -21,6 +21,14 @@ sidebar_position: 4
 
 自动优化脚本，[下载](https://dl.yizhan.wiki/windows-latest/auto-optimize.exe)，在服务器根目录执行，目前支持CraftBukkit，Spigot，Paper，PufferFish，Purpur，Gale，Leaf
 
+:::tip
+
+以下教程的优化项并不全面(比如没有 Leaf 配置项),如果你希望了解所有的优化配置项
+
+你可以看看**笨蛋脚本的源代码**或**服务器核心的文档**
+
+:::
+
 ## 网络优化
 
 网络优化主要目的是解决服务器上行带宽占用导致的玩家 **Ping**(即网络延迟)过高导致的糟糕游戏体验。
