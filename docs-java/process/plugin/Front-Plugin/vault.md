@@ -17,6 +17,8 @@ sidebar_position: 2
 
 `VaultUnlocked(Vault 增强版)` https://github.com/TheNewEconomy/VaultUnlocked
 
+`ServiceIO(Vault 超级增强版,1.21+)` https://hangar.papermc.io/TheNextLvl/ServiceIO
+
 :::
 
 ## 什么是Vault
@@ -40,3 +42,9 @@ sidebar_position: 2
 VaultUnlocked 是 Vault 的分支版本,有多货币支持和 Folia 支持,[下载](https://github.com/TheNewEconomy/VaultUnlocked/releases/tag/2.3.0)
 
 [下载镜像](https://dl.yizhan.wiki/plugins/VaultUnlocked-2.3.0.jar)
+
+### ServiceIO
+
+ServiceIO 是 Vault 的分支版本,支持 1.21 +, 无缝兼容 Vault,拥有更好的性能和更多的功能
+
+[下载](https://hangar.papermc.io/TheNextLvl/ServiceIO) 非常强大
