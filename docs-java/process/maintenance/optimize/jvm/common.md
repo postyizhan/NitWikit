@@ -62,7 +62,9 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 ## 下载源加速
 
-默认的 SpigotLibraryLoader 下载源在国内访问很慢，如果你使用的是 Leaf，你可以添加参数使用国内下载源：
+默认的 SpigotLibraryLoader 下载源或插件使用 PaperLibraryLoader 添加的 Maven 中心仓库下载源在国内访问很慢，
+
+如果你使用的是 Leaf，你可以添加参数使用国内下载源：
 
 ```shell
 -DLeaf.library-download-repo=https://maven.aliyun.com/repository/public
@@ -84,19 +86,25 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -Dgale.log.warning.root=false -Dgale.log.warning.offline.mode=false
 ```
 
-## 更快的安全随机数发生
+## 更快的安全随机数生成器
+
+(仅适合 Linux 和 MacOS 系统, 在 Windows 上无效)
 
 ```shell
 -Djava.security.egd=file:/dev/urandom
 ```
 
-## 异步日志
+## 异步输出 JVM 调试日志
+
+(仅适合 Java17 及以上)
 
 ```shell
  -Xlog:async
 ```
 
-异步日志记录可能会导致日志记录的顺序不确定
+异步输出 Java 统一日志系统(Unified Logging)打印的 JVM 调试信息
+
+仅在使用 -Xlog:gc 等 flag 开启 JVM 调试信息打印的时候发挥作用
 
 ### 更长的 KeepAlive 时间
 
