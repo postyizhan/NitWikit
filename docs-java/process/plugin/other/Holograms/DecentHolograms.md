@@ -17,7 +17,7 @@ sidebar_position: 2
 
 `文档(英文)` https://wiki.decentholograms.eu
 
-`文档(中文)` https://snowcutieowo.github.io/DecentHolograms/#/
+`文档(中文)` https://snowcutieowo.github.io/DecentHolograms/README.html
 
 `插件百科` https://mineplugin.org/Tab
 
