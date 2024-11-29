@@ -42,4 +42,4 @@ Adyeshach 是一款基于 TabooLib 进行开发的纯发包 NPC 插件，旨在�
 
 ## Bstats
 
-[![https://bstats.org/signatures/bukkit/Adyeshach.svg]](https://bstats.org/plugin/bukkit/Adyeshach/8827)
+[![](https://bstats.org/signatures/bukkit/Adyeshach.svg)](https://bstats.org/plugin/bukkit/Adyeshach/8827)
