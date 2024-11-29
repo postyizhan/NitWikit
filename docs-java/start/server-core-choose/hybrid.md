@@ -5,6 +5,14 @@ sidebar_position: 2
 
 # 混合端
 
+:::info
+
+你可以点击名称栏中的字体跳转并找到下载
+
+下载镜像只是备选选项
+
+:::
+
 ## Forge
 
 <!--markdownlint-disable line-length-->

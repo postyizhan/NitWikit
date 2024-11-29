@@ -10,7 +10,9 @@ sidebar_position: 2
 
 目前有三类主流的选择：
 
-- [插件端](plugin.md)
+## 插件端
+
+点此跳转到 [插件端](plugin.md)
 
 :::tip
 
@@ -30,7 +32,9 @@ sidebar_position: 2
 
 :::
 
-- [混合端](hybrid.md)
+## 混合端
+
+点此跳转到 [混合端](hybrid.md)
 
 :::tip
 
@@ -46,7 +50,9 @@ sidebar_position: 2
 
 混合端常见的有 Catserver；高版本推荐使用 Mohist 或 Arclight，就目前来看，它们的本身稳定性良好，也比纯 Forge 有所优化(但 Mod /插件数量多了之后兼容性问题可能会莫名让人头疼)
 
-- [Mod 端](mod.md)
+## Mod 端
+
+点此跳转到 [Mod 端](mod.md)
 
 :::tip
 
@@ -71,6 +77,7 @@ sidebar_position: 2
 这类操作几乎无感
 
 > 核心只要是同版本的分支基本可以考虑后期再替换
+>
 > 如使用 Spigot 替换 Paper 或 Purpur 等
 
 - [混合端](hybrid.md)
@@ -82,16 +89,6 @@ sidebar_position: 2
 这几乎不可能，你基本没有可选择的核心
 
 Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题。
-
-> 此处仅为部分开服核心
-
-:::info
-
-你可以点击名称栏中的字体跳转并找到下载
-
-下载镜像只是备选选项
-
-:::
 
 ## 笨蛋脚本
 
