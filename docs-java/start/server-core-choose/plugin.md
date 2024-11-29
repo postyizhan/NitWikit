@@ -149,7 +149,7 @@ leaves 基本完全支持客户端生电 Mod ，包括但不限于 Carpet，pca�
 :::
 
 <Tabs queryString="server-core-choose-1.8">
-<TabItem value="pandaspigot" label="1.8-PandaSpigot">
+<TabItem value="pandaspigot" label="PandaSpigot">
 
 **优势**：
 
@@ -167,7 +167,7 @@ leaves 基本完全支持客户端生电 Mod ，包括但不限于 Carpet，pca�
 - [McRes](https://vip.123pan.cn/1821558579/Lingyi/core/pandaspigot-116-mcres.cn.jar)
 
 </TabItem>
-<TabItem value="sportpaper" label="1.8-SportPaper">
+<TabItem value="sportpaper" label="SportPaper">
 
 **优势**：
 
