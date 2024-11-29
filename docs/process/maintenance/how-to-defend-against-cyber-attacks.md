@@ -301,36 +301,28 @@ Pro 计划(25$ 每月)(约合人民币178元):
 [官网](https://tcpshield.com/)
 
 </TabItem>
-<TabItem value="neoprotect" label="NeoProtect">
+<TabItem value="playit" label="Playit.gg(推荐)">
 
-优点：
+性价比非常高,虽说~~正式用途是朋友联机~~
 
-- 提供免费套餐(1TB 免费流量)
-- 提供面板管理流量
-- **L7层保护(反机器人)**
+优点:
+
+* 不限流量
+* 支持任意 TCP,UDP 代理
+* 提供亚洲节点(一般来说会被分配到日本节点)
+* 提供免费域名
+* 自带内网穿透
+* 提供防火墙
 
 缺点:
 
-- 延迟较大(only Free plan)
+* 没有分析面板
+* 绑定自己的域名需要 Premium
+* 没有 L7 过滤
 
-Universal 计划 15 欧/每月(约 115 人民币)
+Premium 价格:**3美元**/月(约合20人民币)(非常便宜!)
 
-特点:
-
-- 3TB 流量
-- **Geyser 支持**(比 TCPShield 便宜)
-- 高级反机器人,高级分析,MOTD 缓存
-
-Neo 计划 30 欧/每月(约 230 人民币)
-
-特点:
-
-- 5TB 流量
-- 更多的节点(重点是**香港,日本,新加坡**节点)
-- IP 防火墙,支持黑白名单
-- 反 VPN
-
-还有一个计划纯抢钱,[官网](https://neoprotect.net/)
+可以购买独立 IPV4 IP 和 IPV6 IP
 
 </TabItem>
 <TabItem value="papyrus" label="Papyrus">
