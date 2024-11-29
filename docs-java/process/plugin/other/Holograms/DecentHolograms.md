@@ -98,7 +98,7 @@ sidebar_position: 2
 
 如何在您的项目中引入 DecentHolograms API
 
-```
+```text
 用 DecentHolograms 当前版本替换 VERSION (Latest release)
 ```
 
