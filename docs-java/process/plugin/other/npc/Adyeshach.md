@@ -4,6 +4,28 @@ sidebar_position: 4
 
 # Adyeshach
 
+![](_images/Adyeshach/Adyeshach-1.png)
+
+[![](https://img.shields.io/github/forks/taboolib/adyeshach?style=flat)](https://github.com/TabooLib/adyeshach)
+[![](https://img.shields.io/github/stars/taboolib/adyeshach?style=flat)](https://github.com/TabooLib/adyeshach)
+[![](https://img.shields.io/github/license/taboolib/adyeshach)](https://github.com/TabooLib/adyeshach/blob/2.0/LICENSE)
+
+```text
+Adyeshach 是一款基于 TabooLib 进行开发的纯发包 NPC 插件，旨在大幅提升性能并提供更高级的功能和 API 。
+```
+
+## 照骗
+
+![](https://a.ptms.ink/img/command-edit-1.png)
+
+![](https://a.ptms.ink/img/command-edit-16.png)
+
+![](https://a.ptms.ink/img/command-edit-17.png)
+
+![](https://a.ptms.ink/img/command-edit-12.png)
+
+## 链接
+
 :::info
 
 `GitHub` https://github.com/TabooLib/Adyeshach
@@ -12,4 +34,12 @@ sidebar_position: 4
 
 :::
 
-坏黑大佬写的纯发包NPC
+- 我不想花钱，我能用吗？
+
+可以，但是你需要自己编译插件。[点击此处](https://a.ptms.ink/docs/start/build)
+
+如果你想付费购买作者的服务 [点击此处](https://a.ptms.ink/docs/service)
+
+## Bstats
+
+[![https://bstats.org/signatures/bukkit/Adyeshach.svg]](https://bstats.org/plugin/bukkit/Adyeshach/8827)
