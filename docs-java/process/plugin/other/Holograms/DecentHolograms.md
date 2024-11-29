@@ -143,4 +143,4 @@ dependencies {
 
 ## bStats​
 
-![](https://bstats.org/signatures/bukkit/DecentHolograms.svg)
+[![](https://bstats.org/signatures/bukkit/DecentHolograms.svg)](https://bstats.org/plugin/bukkit/DecentHolograms/12797)

@@ -103,7 +103,7 @@ kether 语法提示
 
 ## bStats​
 
-![](https://bstats.org/signatures/bukkit/TrMenu.svg)
+[![](https://bstats.org/signatures/bukkit/TrMenu.svg)](https://bstats.org/plugin/bukkit/TrMenu/5742)
 
 ## 案例
 
