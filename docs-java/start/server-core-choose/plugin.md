@@ -40,7 +40,7 @@ flowchart TD
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-<Tabs queryString="server-core-choose-1">
+<Tabs queryString="server-core-choose">
 <TabItem value="paper" label="Paper">
 
 **优势**：
@@ -182,6 +182,9 @@ leaves 基本完全支持客户端生电 Mod ，包括但不限于 Carpet，pca�
 
 - [官方](https://github.com/Electroid/SportPaper)
 - [McRes](https://vip.123pan.cn/1821558579/6492156)
+
+</TabItem>
+</Tabs>
 
 ### 1.12
 
