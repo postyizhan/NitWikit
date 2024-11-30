@@ -1,13 +1,13 @@
 ---
-title: 进度条
+title: Progress
 sidebar_position: 7
 ---
 
-# 进度条
+# Progress
 
 :::info
 
-`eCloud` https://api.extendedclip.com/expansions/progress/
+`eCloud` https://api.extendedclip.com/expansions/progress
 
 `Placeholder List` https://wiki.placeholderapi.com/users/placeholder-list/#progress
 
