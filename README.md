@@ -26,7 +26,7 @@
 
 这里是本文档相关转载地址
 
-- [GitHub](https://github.com/postyizhan/NitWikit)
+- [GitHub](https://github.com/8aka-Team/NitWikit)
 - [MineBBS](https://www.minebbs.com/threads/nitwikit-geyser.26356/)
 - [klpbbs](https://klpbbs.com/forum.php?mod=viewthread&tid=136184&page=1&extra=#pid10518779)
 - [九域](https://bbs.mc9y.net/threads/1624/)
@@ -47,10 +47,10 @@
 > 请先安装 Node.js 和 pnpm
 
 1. 将此仓库克隆至本地
-   `git clone https://github.com/postyizhan/NitWikit.git`
+   `git clone https://github.com/8aka-Team/NitWikit.git`
 
    更快的克隆
-   `git clone  --single-branch --depth 1 -b main https://github.com/postyizhan/NitWikit.git `
+   `git clone  --single-branch --depth 1 -b main https://github.com/8aka-Team/NitWikit.git `
 2. 移动至仓库根目录
    `cd NitWikit`
 3. 安装依赖

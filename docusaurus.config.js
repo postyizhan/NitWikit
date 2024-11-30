@@ -62,7 +62,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          editUrl: 'https://github.com/postyizhan/NitWikit/tree/main',
+          editUrl: 'https://github.com/8aka-Team/NitWikit/tree/main',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
@@ -84,7 +84,7 @@ const config = {
         id: 'docs-java',
         path: 'docs-java',
         routeBasePath: 'Java',
-        editUrl: 'https://github.com/postyizhan/NitWikit/tree/main',
+        editUrl: 'https://github.com/8aka-Team/NitWikit/tree/main',
         sidebarPath: require.resolve('./sidebars.js'),
         editCurrentVersion: true,
         showLastUpdateAuthor: true,
@@ -200,7 +200,7 @@ const config = {
           },
           // GitHub
           {
-            href: "https://github.com/postyizhan/NitWikit",
+            href: "https://github.com/8aka-Team/NitWikit",
             className: "header-github-link",
             position: "right",
           },
@@ -233,7 +233,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/postyizhan/NitWikit',
+                href: 'https://github.com/8aka-Team/NitWikit',
               },
             ],
           },
@@ -263,7 +263,7 @@ const config = {
               },
               {
                 label: 'Tinksp 资源站',
-                href: 'https://www.tinksp.com/',
+                href: 'https://www.tinksp.com',
               },
             ],
           },
