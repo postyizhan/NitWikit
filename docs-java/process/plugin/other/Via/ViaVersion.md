@@ -5,12 +5,25 @@ sidebar_position: 2
 
 # ViaVersion
 
-ViaVersion 是Via三件套的核心，提供了向上兼容，如果你想要向下兼容，可以再安装 ViaBackwards 和 ViaRewind
+:::info
 
-- **向上兼容：** 支持新版本客户端进服
-- **向下兼容：** 支持旧版本客户端进服
+`SpigotMC` https://www.spigotmc.org/resources/.19254
 
-[下载地址](https://ci.viaversion.com/job/ViaVersion/)
+`PaperMC` https://hangar.papermc.io/ViaVersion/ViaVersion
+
+`Modrinth` https://modrinth.com/plugin/viaversion
+
+`GitHub` https://github.com/ViaVersion/ViaVersion
+
+`文档` https://viaversion.atlassian.net/wiki/spaces/VIAVERSION/overview
+
+`插件百科` https://mineplugin.org/ViaVersion
+
+:::
+
+ViaVersion 是 Via 三件套的核心，提供了向上兼容，如果你想要向下兼容，可以再安装 [ViaBackwards](ViaBackwards.md) 和 [ViaRewind](ViaRewind.md)
+
+[ViaVersion 构建站](https://ci.viaversion.com/job/ViaVersion)
 
 ## FAQ
 

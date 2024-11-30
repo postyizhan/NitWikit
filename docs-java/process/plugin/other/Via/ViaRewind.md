@@ -4,9 +4,21 @@ sidebar_position: 4
 
 # ViaRewind
 
+:::info
+
+`SpigotMC` https://www.spigotmc.org/resources/.52109
+
+`PaperMC` https://hangar.papermc.io/ViaVersion/ViaRewind
+
+`Modrinth` https://modrinth.com/plugin/viarewind
+
+`GitHub` https://github.com/ViaVersion/ViaRewind
+
+:::
+
 ViaRewind 可以让超低版本(1.7-1.8)客户端进入高版本服务器
 
-需要下载两个插件才能发挥兼容性[ViaRewind](https://ci.viaversion.com/view/ViaRewind/job/ViaRewind)，[ViaRewind Legacy Support](https://ci.viaversion.com/view/ViaRewind/job/ViaRewind%20Legacy%20Support/)
+需要安装 [ViaRewind](https://ci.viaversion.com/view/ViaRewind/job/ViaRewind) 和 [ViaRewind Legacy Support](https://ci.viaversion.com/view/ViaRewind/job/ViaRewind%20Legacy%20Support/) 才能发挥兼容性
 
 ## FAQ
 

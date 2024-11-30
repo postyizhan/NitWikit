@@ -5,9 +5,21 @@ sidebar_position: 3
 
 # ViaBackwards
 
-Via三件套中的向下兼容，前置为ViaVersion
+:::info
 
-[下载地址](https://ci.viaversion.com/view/ViaBackwards/job/ViaBackwards/)
+`SpigotMC` https://www.spigotmc.org/resources/.27448
+
+`PaperMC` https://hangar.papermc.io/ViaVersion/ViaBackwards
+
+`Modrinth` https://modrinth.com/plugin/viabackwards
+
+`GitHub` https://github.com/ViaVersion/ViaBackwards
+
+:::
+
+Via三件套中的向下兼容，需要安装 [ViaVersion](ViaVersion.md) 作为前置
+
+[ViaBackwards 构建站](https://ci.viaversion.com/view/ViaBackwards/job/ViaBackwards/)
 
 ## FAQ
 
