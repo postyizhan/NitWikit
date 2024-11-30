@@ -136,7 +136,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       giscus: {
-        repo: 'postyizhan/NitWikit',
+        repo: '8aka-Team/NitWikit',
         repoId: 'R_kgDOLkVR-A',
         category: 'Announcements',
         categoryId: 'DIC_kwDOLkVR-M4CkTAe'
