@@ -13,7 +13,7 @@ sidebar_position: 7
 
 在 Minecraft 中，可以以分节符号(`§`)产生带色文字。
 
-![](_images/格式化代码/Minecraft_Formatting.gif)
+![](_images/color-message/Minecraft_Formatting.gif)
 
 你也可以用 [颜色代码生成器](https://mcg.tuanzi.ink/) 来生成它。
 
@@ -45,7 +45,7 @@ Icons:
         - '&aa &bb &cc'
 ```
 
-![](_images/格式化代码/游戏内.png)
+![](_images/color-message/游戏内.png)
 
 :::
 
@@ -105,7 +105,7 @@ Icons:
         - '<rainbow>Hello world'
 ```
 
-![](_images/MiniMessage/展示.png)
+![](_images/color-message/展示.png)
 
 记住 MiniMessage 语言使用标签，也就是说你所做的一切都将使用标签进行定义。
 

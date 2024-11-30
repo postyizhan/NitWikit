@@ -43,6 +43,6 @@ join 是拼接多个语句，不会像 inline 那样创造新的环境，所以�
 
 TabooLib Components 行内复合文本
 
-像 [MiniMessage](../MiniMessage.md) 一样的东西？
+像 [MiniMessage](/docs-java/process/plugin/more/color-message.md#minimessage) 一样的东西？
 
 Invero 最新版已经不支持 MiniMessage 而是使用行内复合文本了
