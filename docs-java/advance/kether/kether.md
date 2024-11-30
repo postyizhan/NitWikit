@@ -1,7 +1,7 @@
 ---
 title: kether 教程
 slug: /Advance/kether
-sidebar_position: 12
+sidebar_position: 11
 ---
 
 # 概览

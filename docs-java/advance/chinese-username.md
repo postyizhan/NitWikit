@@ -1,6 +1,6 @@
 ---
 title: 中文游戏名
-sidebar_position: 10
+sidebar_position: 7
 ---
 
 # 使用中文名进入服务器

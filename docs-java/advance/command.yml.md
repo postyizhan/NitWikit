@@ -1,6 +1,6 @@
 ---
 title: Command.yml
-sidebar_position: 6
+sidebar_position: 4
 ---
 
 # Command.yml 介绍

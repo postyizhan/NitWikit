@@ -11,22 +11,10 @@ sidebar_position: 1
 建议阅读：
 
 - [YAML 语法](/docs-java/advance/YAML/YAML.md) - 了解大部分插件配置文件的语法。
-- [插件特征文件](/docs-java/process/plugin/more/plugin-signature-file.md) - 了解插件的一些信息。
-- [格式化代码](/docs-java/advance/format-code.md) - 了解彩色字体，下划线，删除线等。
-- [MiniMessage](/docs-java/advance/MiniMessage.md) - 了解 RGB 颜色，文本悬浮和点击文字执行等。
+- [特征文件](/docs-java/process/plugin/more/plugin-signature-file.md) - 了解插件的一些信息。
+- [颜色代码](./more/color-message.md) - 改变服务器中文本的颜色
 - [什么是乱码](https://nitwikit.yizhan.wiki/start/basic/what-is-messy-code) - 了解文本文件中的字符有时为什么会变得奇奇怪怪。
 
-:::danger
-
-服务器在**开发阶段**可以使用 PlugmanX，ServerUtils 等插件热重载插件。
-
-过了开发阶段后切记，多数插件自带了重载 如何 [重载插件](#重载插件) ？。
-
-尽量少使用热重载插件，因为如果插件本身并不支持热重载，即使热重载了也容易出问题。
-
-请阅读 [此文章](https://madelinemiller.dev/blog/problem-with-reload/) 来了解为何。
-
-:::
 
 ## 基本操作
 
@@ -37,6 +25,18 @@ sidebar_position: 1
 多数插件会提供重载命令，一般是 `/插件名或插件缩写 reload`
 
 如 `/tab reload`
+
+:::danger
+
+服务器在**开发阶段**可以使用 PlugmanX，ServerUtils 等插件热重载插件。
+
+过了开发阶段后切记，多数插件自带了重载（上方就是）。
+
+尽量少使用热重载插件，因为如果插件本身并不支持热重载，即使热重载了也容易出问题。
+
+请阅读 [此文章](https://madelinemiller.dev/blog/problem-with-reload/) 来了解为何。
+
+:::
 
 ### 列出插件
 

@@ -1,15 +1,65 @@
 ---
-title: MiniMessage
-sidebar_position: 9
+title: 颜色代码
+sidebar_position: 7
 ---
 
-# MiniMessage
+# 颜色代码
+
+改变你服务器中信息的颜色！
+
+## 格式化代码
+
+**格式化代码(Formatting code)**，又称**颜色代码(Color code)**，能使在游戏中加入含颜色和格式信息。
+
+在 Minecraft 中，可以以分节符号(`§`)产生带色文字。
+
+![](_images/格式化代码/Minecraft_Formatting.gif)
+
+你也可以用 [颜色代码生成器](https://mcg.tuanzi.ink/) 来生成它。
+
+:::note
+
+通常在游戏客户端中，你不能打出 `§` 这个符号。需要使用 `\u00A7` 或者 `\u00a7`
+
+在配置文件中，你可以直接复制粘贴这个符号而不用自己输入。
+
+你也可以在按住 `Alt` 键的同时，**小键盘** **按顺序** 输入 `167` 以输出 `§` 符号
+
+_(注意: ![image](https://github.com/user-attachments/assets/49472da4-9b50-4fa3-92d1-f14cdb08cbb4) 使用新版时字符对应错误，请使用旧版)_
+
+:::
+
+:::tip
+
+为了方便，多数插件的配置中支持使用 `&` 来代表 `§` 。
+
+比如下面这个 TrMenu 菜单例子：
+
+```yaml
+Icons:
+  test:
+    display:
+      material: stone
+      lore:
+        - '&11 &22 &33'
+        - '&aa &bb &cc'
+```
+
+![](_images/格式化代码/游戏内.png)
+
+:::
+
+如果你想要更绚丽的颜色和更丰富的功能(比如点击文本执行命令)。
+
+可以去看 [MiniMessage](#minimessage) 部分。
+
+## MiniMessage
 
 MiniMessage 旨在用简单字符串表示聊天组件，便于用户学习和开发人员扩展。
 
 MiniMessage 的实质是一个叫 Adventure 的库，这是它的 [文档](https://docs.advntr.dev/getting-started.html)。
 
-## 支持列表
+### 支持列表
 
 目前，一些平台已经支持原生使用 Adventure 来扩展字符串，以下是内置此库的列表：
 
@@ -34,7 +84,7 @@ MiniMessage 的实质是一个叫 Adventure 的库，这是它的 [文档](https
 
 :::
 
-## 如何使用
+### 如何使用
 
 :::warning
 
@@ -77,5 +127,6 @@ Icons:
 
 ### 参考
 
+- https://zh.minecraft.wiki/w/%E6%A0%BC%E5%BC%8F%E5%8C%96%E4%BB%A3%E7%A0%81
 - https://docs.advntr.dev/minimessage/format.html
 - https://docs.advntr.dev/platform/native.html
