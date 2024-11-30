@@ -18,9 +18,11 @@ Folia 与 Vanilla 最大的不同在于 Tick 不再有主线程，而是将区�
 
 现在有一个地图，有四个区块，分别是A，B，C，D
 
-小明在A处建造了一个卡服机，能把服务器TPS干到10一下的那种
+小明在 A 处建造了一个卡服机，能把服务器 TPS 干到 10 以下的那种
 
-如果是Paper(或者Purpur及其分支)，那么A，B，C，D四处的 TPS 都会掉到 10 以下，但如果我们用 Folia (假设ABCD分在不同的Region)，那么只有 A 处的 TPS 会掉到 10 以下，B，C，D 的 TPS 仍然不受影响
+如果是 Paper(或者Purpur及其分支)，那么 A，B，C，D 四处的 TPS 都会掉到 10 以下
+
+但如果我们用 Folia (假设ABCD分在不同的Region)，那么只有 A 处的 TPS 会掉到 10 以下，B，C，D 的 TPS 仍然不受影响
 
 并且 Folia 可以更好的利用 CPU 多核
 
