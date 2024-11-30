@@ -5,8 +5,10 @@ sidebar_position: 1
 
 # MiniPlayerTitle
 
-[![](https://github.com/DeerGiteaMirror/MiniPlayerTitle)
-[![](https://ssl.lunadeer.cn:14446/zhangyuheng/MiniPlayerTitle)
+![](_images/MiniPlayerTitle/MiniPlayerTitle-1.png)
+
+[![](https://img.shields.io/github/languages/code-size/DeerGiteaMirror/MiniPlayerTitle)](https://github.com/DeerGiteaMirror/MiniPlayerTitle)
+[![](https://img.shields.io/github/license/DeerGiteaMirror/MiniPlayerTitle)](https://github.com/DeerGiteaMirror/MiniPlayerTitle/blob/main/LICENSE)
 
 ```text
 一个简化版的称号插件
@@ -20,6 +22,8 @@ sidebar_position: 1
 
 - 本插件为 [PlayerTitle](https://ricedoc.handyplus.cn/wiki/PlayerTitle/) 的简易版，基本实现了其大部分功能
 - 由于历史原因 PlayerTitle 使用玩家名称而非 UUID 作为数据库主键，因此玩家改名后称号会丢失，本插件使用 UUID 作为主键，不会出现该问题
+
+![](_images/MiniPlayerTitle/MiniPlayerTitle-2.png)
 
 ## 功能介绍
 
@@ -50,7 +54,10 @@ QQ群：309428300
 
 `文档` https://ssl.lunadeer.cn:14448/doc/2
 
-`开源地址`
-https://ssl.lunadeer.cn:14446/zhangyuheng/MiniPlayerTitle
+`GitHub` https://github.com/DeerGiteaMirror/MiniPlayerTitle
 
 :::
+
+## Stats
+
+[![](https://bstats.org/signatures/bukkit/MiniPlayerTitle.svg)](https://bstats.org/plugin/bukkit/MiniPlayerTitle/21444)
