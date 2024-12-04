@@ -48,8 +48,9 @@ Linux环境下：
 
 目前已知该版本的EndStone支持对接1.21.41版本
 
-关闭界面，前往 [EndStone Github API](https://raw.githubusercontent.com/EndstoneMC/bedrock-server-data/main/bedrock_server_data.json) 找到相应版本的下载地址
-复制url后的下载链接，直接粘贴到新窗口的web地址栏回车进行下载
+关闭界面，前往 [EndStone-Github-API](https://raw.githubusercontent.com/EndstoneMC/bedrock-server-data/main/bedrock_server_data.json) 找到相应版本的下载地址
+
+复制相应的url后的下载链接，直接粘贴到新窗口的web地址栏回车进行下载
 
 ![6](./imgs/6.png)
 
@@ -77,8 +78,7 @@ Linux环境下：
 
 ![10](./imgs/10.png)
 
-
-**恭喜你！你已经成功开启了可以支持插件的基岩版服务器！赶紧体验一下吧~**
+**恭喜你！你已经成功开启了可以支持插件的基岩版服务器！**
 
 ## 方法二：使用 Python pip 运行
 
@@ -92,19 +92,19 @@ Linux环境下：
 
 运行Python安装包城西进行安装：
 
-![1-1](./imgs/1-1.png)
+![101](./imgs/1-1.png)
 
-![1-2](./imgs/1-2.png)
+![102](./imgs/1-2.png)
 
-![1-3](./imgs/1-3.png)
+![103](./imgs/1-3.png)
 
 安装完成后，打开CMD，按住 `WIN + R` 打开后输入 `cmd` 回车，输入以下指令检测python是否正常安装
 
-```
+```cmd
 python
 ```
 
-![1-4](./imgs/1-4.png)
+![104](./imgs/1-4.png)
 
 ### 二、安装 EndStone 本体
 
@@ -117,7 +117,7 @@ python
 如果在D盘，请按照下图操作进行(**Linux一类系统可直接使用 `cd 文件夹路径` 进入相应目录**)
 :::
 
-![1-5](./imgs/1-5.png)
+![105](./imgs/1-5.png)
 
 输入下面指令安装 EndStone 本体(Python默认的下载会比较慢，如果想加快下载速度推荐必应搜索 **Python换国内下载源** 配置，本教程不再过多阐述)
 
@@ -127,7 +127,7 @@ pip install endstone
 
 下载完后应该是这样的
 
-![1-6](./imgs/1-6.png)
+![106](./imgs/1-6.png)
 
 ### 三、安装 VC 运行库
 
@@ -143,10 +143,9 @@ pip install endstone
 
 CMD控制台输入 `endstone` ，获得该版本的EndStone支持的BDS服务端版本
 
-![1-7](./imgs/1-7.png)
+![107](./imgs/1-7.png)
 
-
-目前已知该版本的EndStone支持对接1.21.41版本
+通过上图可知，目前该版本的EndStone支持对接1.21.41版本
 
 关闭界面，前往 [EndStone Github API](https://raw.githubusercontent.com/EndstoneMC/bedrock-server-data/main/bedrock_server_data.json) 找到相应版本的下载地址，
 复制url后的下载链接，直接粘贴到新窗口的web地址栏回车进行下载
@@ -159,7 +158,7 @@ CMD控制台输入 `endstone` ，获得该版本的EndStone支持的BDS服务端
 
 创建 bedrock_server 文件夹
 
-![1-8](./imgs/1-8.png)
+![108](./imgs/1-8.png)
 
 将BDS服务端zip压缩包解压到 bedrock_server 文件夹
 
@@ -173,10 +172,9 @@ CMD控制台输入 `endstone` ，获得该版本的EndStone支持的BDS服务端
 
 回到CMD，输入 `endstone` 开始运行服务器。
 
-
 启动成功后会显示下面内容
 
-![1-9](./imgs/1-9.png)
+![109](./imgs/1-9.png)
 
 **恭喜你！你已经成功开启了可以支持插件的基岩版服务器！赶紧体验一下吧~**
 
