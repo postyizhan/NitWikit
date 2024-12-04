@@ -13,7 +13,7 @@ EndStone 提供类似 Bukkit 插件开发者的友好 API，简化了低层系�
 
 以下内容为 EndStone 的配置教程
 
-EndStone国内非官方交流群：982797241
+EndStone国内非官方最大交流群：982797241
 
 import DocCardList from '@theme/DocCardList';
 
