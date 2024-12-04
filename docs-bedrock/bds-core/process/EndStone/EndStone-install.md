@@ -147,8 +147,9 @@ CMD控制台输入 `endstone` ，获得该版本的EndStone支持的BDS服务端
 
 通过上图可知，目前该版本的EndStone支持对接1.21.41版本
 
-关闭界面，前往 [EndStone Github API](https://raw.githubusercontent.com/EndstoneMC/bedrock-server-data/main/bedrock_server_data.json) 找到相应版本的下载地址，
-复制url后的下载链接，直接粘贴到新窗口的web地址栏回车进行下载
+关闭界面，前往 [EndStone API](https://raw.githubusercontent.com/EndstoneMC/bedrock-server-data/main/bedrock_server_data.json)
+
+找到相应版本的下载地址，复制url后的下载链接，直接粘贴到新窗口的web地址栏回车进行下载
 
 ![6](./imgs/6.png)
 
