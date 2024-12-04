@@ -48,7 +48,7 @@ Linux环境下：
 
 目前已知该版本的EndStone支持对接1.21.41版本
 
-关闭界面，前往 [EndStone-Github-API](https://raw.githubusercontent.com/EndstoneMC/bedrock-server-data/main/bedrock_server_data.json) 找到相应版本的下载地址
+关闭界面，前往 [EndStone API](https://raw.githubusercontent.com/EndstoneMC/bedrock-server-data/main/bedrock_server_data.json) 找到相应版本的下载地址
 
 复制相应的url后的下载链接，直接粘贴到新窗口的web地址栏回车进行下载
 
@@ -78,7 +78,7 @@ Linux环境下：
 
 ![10](./imgs/10.png)
 
-**恭喜你！你已经成功开启了可以支持插件的基岩版服务器！**
+恭喜你！你已经成功开启了可以支持插件的基岩版服务器！赶紧体验一下吧~
 
 ## 方法二：使用 Python pip 运行
 
@@ -176,7 +176,7 @@ CMD控制台输入 `endstone` ，获得该版本的EndStone支持的BDS服务端
 
 ![109](./imgs/1-9.png)
 
-**恭喜你！你已经成功开启了可以支持插件的基岩版服务器！赶紧体验一下吧~**
+恭喜你！你已经成功开启了可以支持插件的基岩版服务器！赶紧体验一下吧~
 
 ## 方法三、使用Docker安装并运行 EndStone （目前不推荐）
 
