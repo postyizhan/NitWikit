@@ -14,7 +14,7 @@ sidebar_position: 1
 ### [pip源](https://pypi.org/search/?q=endstone) （EndStone绝大多数插件都在这里发布了）
 ![202](./imgs/2-2.png)
 
-### [Bedrinth下载站](https://bedrinth.com/?platform=endstone) （除了pip外另一个比较知名的的国际下载源）
+### [Bedrinth下载站](https://bedrinth.com/?platform=endstone) （除了pip外另一个比较知名的下载源，网速较慢，不太推荐）
 ![203](./imgs/2-3.png)
 
 ## 第二步、如何安装？
