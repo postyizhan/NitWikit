@@ -11,9 +11,9 @@ EndStone 提供类似 Bukkit 插件开发者的友好 API，简化了低层系�
 
 现在EndStone的很多插件可以在 **[minebbs](https://www.minebbs.com/resources/categories/bdserver.38/)** 上查找了。
 
-以下内容为 EndStone 的配置教程
+以下内容为 EndStone 的安装、配置教程
 
-EndStone国内非官方最大交流群：982797241
+EndStone国内非官方交流群：982797241
 
 import DocCardList from '@theme/DocCardList';
 
