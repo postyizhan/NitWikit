@@ -79,6 +79,10 @@ const config = {
       'docusaurus-plugin-image-zoom',
       'docusaurus-plugin-sass',
     [
+      "@gracefullight/docusaurus-plugin-microsoft-clarity",
+      { projectId: "oyfswsvfpc" },
+    ],
+    [
       '@docusaurus/plugin-content-docs',
       {
         id: 'docs-java',
