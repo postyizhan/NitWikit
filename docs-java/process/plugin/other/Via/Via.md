@@ -6,17 +6,21 @@ sidebar_position: 4
 
 # 什么是跨版本
 
-跨版本就是可以让不同于服务器版本的客户端版本进入服务器，比如服务器版本为 1.20.1，安装跨版本之后可以让 1.19.4 进入服务器
+跨版本就是可以让不同于服务器版本的客户端版本进入服务器，比如服务器版本为 1.20.1，安装跨版本之后可以让 1.19.4 的客户端进入服务器
 
 :::danger
 
-跨版本不适合模组服，代理端，Leaves！！会出很多问题！！
+跨版本不适合模组服，代理端，Leaves！会出很多问题！
 
 :::
 
 :::danger
 
-跨版本不宜太大，除非你有能力使低版本玩家获得更好的游戏体验(最简单的例子:1.17 以下的玩家一进入 1.17+服务器的 y 小于 0，就会疯狂回弹，严重影响游戏体验)
+跨版本不宜太大，除非你有能力使低版本玩家获得更好的游戏体验
+
+最简单的例子：
+
+1.17 以下的玩家一进入 1.17+服务器的 y 小于 0，就会疯狂回弹，严重影响游戏体验
 
 :::
 
@@ -24,19 +28,37 @@ sidebar_position: 4
 
 插件版本的 via 支持以下版本进入服务器
 
-ViaVersion+ViaBackwards:1.9-最新
+![](_images/版本兼容图.png)
 
-ViaRewind:1.7-1.8(进入高版本服务器)
+- ViaVersion - 向上兼容
 
-外置版本(ViaProxy)(本篇文档不会讲到)支持以下版本进入服务器
+如图中服务器版本为 1.9.x 时，允许使用 1.9.x - 1.21.x 的客户端进服
+
+- ViaBackwards - 向下兼容
+
+如图中服务器版本为 1.21.x 时，允许 1.9.x -1.20.x 的客户端进服
+
+- ViaRewind - 向下兼容更老版本
+
+让你的服务器支持 1.7.x 以及 1.8.x 客户端进服
 
 ## 支持的服务器
 
 ### 插件版
 
-ViaVersion+ViaBackwards+ViaRewind
+ViaVersion + ViaBackwards + ViaRewind
 
-这三个支持的服务器是1.17～1.21(Via*插件剔除了Java8支持，需要在[Via官方构建站](https://ci.viaversion.com)获取支持Java8的1.8～1.21插件)
+这 3 个插件支持的服务端版本为 1.17～1.21
+
+:::tip
+
+Via* 插件剔除了 Java8 支持，这导致你不能在更低的服务端版本使用他
+
+如果你想要支持服务端版本 1.8～1.21 的插件
+
+在 [这里](https://ci.viaversion.com/job/ViaVersion-Java8) 获取 Java8 版本
+
+:::
 
 ### 独立版(ViaProxy)
 
@@ -48,12 +70,12 @@ ViaVersion+ViaBackwards+ViaRewind
 - 战斗测试快照 (Combat Test 8c)
 - 基岩版服务器 1.20.70 ([某些功能缺失](https://github.com/RaphiMC/ViaBedrock#features))
 
-## 支持的客户端版本
+## 支持的客户端
 
 - Release (1.7.2 - 1.21)
-- 基岩版 (需要[Geyser 插件](https://geysermc.org/download))
+- 基岩版 (需要 [Geyser](/docs-java/process/mobile-player/Geyser/geyser.md) 插件)
 
-你没看错，ViaProxy 可以让 1.20.4 客户端进入 Classic 版本的服务器(后者大概发布于十年前)，
+你没看错，ViaProxy 可以让 1.20.4 客户端进入 Classic 版本的服务器(后者大概发布于十年前)
 
 也可以让一个 JAVA 版玩家进入基岩版服务器，或者基岩版玩家进入 JAVA 版服务器！
 

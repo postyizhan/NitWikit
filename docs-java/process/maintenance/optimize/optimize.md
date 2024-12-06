@@ -53,7 +53,7 @@ sidebar_position: 1
 
 <summary>选择更换的服务器核心</summary>
 
-此处只是作为最基础的核心选择推荐，完整版请查看[核心选择](/docs-java/start/server-core-choose.md)
+此处只是作为最基础的核心选择推荐，完整版请查看[核心选择](/docs-java/start/server-core-choose/server-core-choose.md)
 
 ### Paper - 追求极致稳定 _推荐度 ★★★★☆_
 

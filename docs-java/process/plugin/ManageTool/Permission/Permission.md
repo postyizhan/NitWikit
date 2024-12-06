@@ -22,7 +22,7 @@ sidebar_position: 1
 
 `文档(英文)` https://luckperms.net/wiki/Home
 
-`文档(中文)` https://snowcutieowo.github.io/LuckPerms/
+`文档(中文)` https://snowcutieowo.github.io/LuckPerms/README.html
 
 `插件百科` https://mineplugin.org/LuckPerms
 

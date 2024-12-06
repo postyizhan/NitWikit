@@ -15,24 +15,15 @@ Spark是一个Minecraft的性能分析器，支持广泛(如 Bukkit，BungeeCord
 
 `官网` :https://spark.lucko.me
 
-`官网下载` :https://spark.lucko.me/download
+`SpigotMC` https://www.spigotmc.org/resources/spark.57242/
 
-<details>
-    <summary>其他相关链接</summary>
+`Modrinth` https://modrinth.com/mod/spark
 
-`文档(英文)` :https://spark.lucko.me/docs
+`GitHub` https://github.com/lucko/spark
 
-`文档(中文)` :https://snowcutieowo.github.io/spark
+`文档(英文)` https://spark.lucko.me/docs
 
-`SpigotMC` :https://www.spigotmc.org/resources/spark.57242/
-
-`Modrinth` :https://modrinth.com/mod/spark
-
-`GitHub` :https://github.com/lucko/spark
-
-`MC百科` :https://www.mcmod.cn/class/4073.html
-
-</details>
+`文档(中文)` https://snowcutieowo.github.io/spark/README.html
 
 :::
 

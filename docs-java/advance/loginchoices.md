@@ -1,6 +1,6 @@
 ---
 title: 登录方式
-sidebar_position: 7
+sidebar_position: 5
 ---
 
 # 登录方式

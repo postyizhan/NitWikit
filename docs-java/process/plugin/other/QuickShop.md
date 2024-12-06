@@ -24,9 +24,13 @@ sidebar_label: 商店 - QuickShop
 
 [PotatoCraft-Studio](https://github.com/PotatoCraft-Studio) 团队的 [QuickShop-Reremake](QuickShop.md#quickshop-reremakeghost-chupotatocraft-studio) 的后续版本 [QuickShop-Hikari](QuickShop.md#quickshop-hikari) 目前由 [creatorfromhell](https://github.com/creatorfromhell) 维护
 
+:::info
+
 `插件百科` https://mineplugin.org/QuickShop
+
 `QuickShop-Hikari插件百科` https://quickshop-community.github.io/QuickShop-Hikari-Documents/
 
+:::
 
 <!--markdownlint-disable line-length-->
 

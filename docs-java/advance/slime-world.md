@@ -1,6 +1,6 @@
 ---
 title: Slime 世界格式
-sidebar_position: 11
+sidebar_position: 9
 ---
 
 # Slime 世界格式

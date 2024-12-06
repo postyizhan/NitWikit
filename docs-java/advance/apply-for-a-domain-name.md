@@ -1,6 +1,6 @@
 ---
 title: 申请域名
-sidebar_position: 6
+sidebar_position: 3
 ---
 
 # 申请域名

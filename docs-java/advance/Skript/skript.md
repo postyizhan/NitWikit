@@ -1,7 +1,7 @@
 ---
 slug: /plugins/other/Skript
 title: Skript 概览
-sidebar_position: 11
+sidebar_position: 8
 ---
 
 # 概览

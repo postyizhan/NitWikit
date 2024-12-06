@@ -1,6 +1,6 @@
 ---
 title: 资源包分发
-sidebar_position: 10
+sidebar_position: 6
 ---
 
 # 资源包分发

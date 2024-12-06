@@ -5,11 +5,39 @@ sidebar_position: 4
 
 # TrMenu
 
-一个功能强大的菜单插件，国人插件。
+![](https://gitee.com/postyizhan/images-hosting/releases/download/gif/animation.gif)
 
-![](_images/trm一定要看wiki呐.jpg)
+[![](https://img.shields.io/github/v/release/Dreeam-qwq/TrMenu)](https://github.com/Dreeam-qwq/TrMenu/releases)
+[![](https://img.shields.io/github/downloads/Dreeam-qwq/TrMenu/total)](https://github.com/Dreeam-qwq/TrMenu/releases)
+[![](https://img.shields.io/github/languages/code-size/Dreeam-qwq/TrMenu)](https://github.com/Dreeam-qwq/TrMenu)
+[![](https://img.shields.io/badge/license-TrMenu-lightgreen.svg)](https://github.com/Dreeam-qwq/TrMenu/blob/stable/v3/LICENSE.md)
 
-## TrMenu v2
+```text
+一个功能强大的菜单插件，国人插件。目前由社区维护。
+```
+
+## 忽悠
+
+### 这个分支中有哪些新功能？
+
+- 支持 1.8.9 ~ 最新版本
+- 修复头颅显示问题
+- [国际化语言](https://github.com/Dreeam-qwq/TrMenu/pull/64)
+- 更多功能...
+
+Notice：维护这个分支完全是个人兴趣。
+
+### TrMenu v3 的优势
+
+- 极佳的速度和性能：不仅针对条件判断进行了优化，而且重构了虚拟背包的API
+- 大量的模块已经确认拥有更好的性能，同时提供了一个特别的方式来检测 TrMenu 的性能表现
+- 一如既往的强大功能：几乎所有功能都经过优化和保留，并添加了新功能。
+- 功能与脚本：统一并标准化了内联函数的使用，重构了 TrMenu 动作，并全面支持新的 kether 脚本语言。
+- 更多信息：请看 wiki
+
+## 链接
+
+### TrMenu v2
 
 早已停更，不推荐使用
 
@@ -21,7 +49,7 @@ sidebar_position: 4
 
 :::
 
-## TrMenu v3
+### TrMenu v3
 
 :::info
 
@@ -59,6 +87,8 @@ sidebar_position: 4
 
 社区文档，或许比上方的文档更容易理解
 
+![](_images/TrMenu/trm一定要看wiki呐.jpg)
+
 ## vscode 插件
 
 与 TrMenu 或 [kether](/docs-java/advance/kether/kether.md) 有关的 vscode 插件
@@ -70,6 +100,10 @@ TrMenu 语法提示
 - [kether-snippet](https://marketplace.visualstudio.com/items?itemName=LiteCat.kether-snippet)
 
 kether 语法提示
+
+## bStats​
+
+[![](https://bstats.org/signatures/bukkit/TrMenu.svg)](https://bstats.org/plugin/bukkit/TrMenu/5742)
 
 ## 案例
 
