@@ -106,7 +106,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 仅在使用 -Xlog:gc 等 flag 开启 JVM 调试信息打印的时候发挥作用
 
-### 更长的 KeepAlive 时间
+## 更长的 KeepAlive 时间
 
 (仅适合 Paper 和 Paper Fork)
 
@@ -116,7 +116,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 如果你的网络不好，可以适当延长 keepalive 时间，打开[alternate-keepalive](/docs-java/process/maintenance/optimize/go.md#心跳连接)
 
-### 禁用文件夹遍历和符号链接验证
+## 禁用文件夹遍历和符号链接验证
 
 (仅适合 Paper 和 Paper Fork)
 

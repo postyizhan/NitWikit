@@ -6,7 +6,7 @@ sidebar_position: 4
 
 # Folia
 
-Folia 是 Paper 的一个分支，由 Minecraft 优化 BOSS Spottedleaf 开发。
+Folia 是 Paper 的一个分支，由 Spottedleaf 开发。
 
 ## 简介
 
