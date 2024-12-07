@@ -41,7 +41,7 @@ Minecraft 服务器用到的 YAML 语法都是非常非常基础的，只要了�
 
 :::
 
-# 参考
+## 参考
 
 https://www.runoob.com/w3cnote/yaml-intro.html
 
