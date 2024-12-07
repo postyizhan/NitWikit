@@ -8,6 +8,12 @@ sidebar_position: 4
 
 Folia 是 Paper 的一个分支，由 Spottedleaf 开发。
 
+:::danger
+
+Folia 不适合新手,无论如何都不要考虑
+
+:::
+
 ## 简介
 
 ### 好处
