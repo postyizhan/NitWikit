@@ -111,7 +111,7 @@ leaves 基本完全支持客户端生电 Mod ，包括但不限于 Carpet，pca�
 - [官方](https://leavesmc.org/downloads/leaves)
 - [McRes](https://mcres.cn/downloads/leaves.html)
 - [MCSL](https://sync.mcsl.com.cn/core/Leaves)
-- [Leaves 1.18.2](https://dl.yizhan.wiki/plugins/Leaves-paperclip-1.18.2.jar)
+- [Leaves 1.18.2](https://vip.123pan.cn/1821558579/6492009)
 
 </TabItem>
 <TabItem value="Leaf" label="Leaf">
