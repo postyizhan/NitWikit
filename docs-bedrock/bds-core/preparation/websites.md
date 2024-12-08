@@ -9,7 +9,7 @@ sidebar_position: 1
 
 以下是一些可供参考的推荐网站：
 
-# MineBBS
+## MineBBS
 
 国内较为知名的综合性 Minecraft 论坛。曾以基岩版开服内容为主，MCBBS 关闭后其 Java 版相关内容丰富了许多。
 
@@ -34,7 +34,7 @@ sidebar_position: 1
 
 </details>
 
-# GitHub
+## GitHub
 
 全球最大的代码托管平台 **_建议注册账号_**。
 
