@@ -80,4 +80,16 @@ Java版和基岩版的UUID不一致，请查阅进阶教程
 
 ## 加入服务器后出现区块空白
 
-你可以尝试添加启动参数```-XX:+UnlockDiagnosticVMOptions -XX:-UseAESCTRIntrinsics```，如果还不行，你可以升级**电脑配置**
+如果你的服务器使用的是 Java 18 以下并且 CPU 支持 AVX512(通常来说是Intel 10 代以上和 AMD),你可以尝试添加启动参数```-XX:+UnlockDiagnosticVMOptions -XX:-UseAESCTRIntrinsics```
+
+:::tip
+
+这个问题已经在 Java 18 及以上修复,通常来说出现区块空白已经不是这个问题
+
+:::
+
+当基岩版视距小于服务器视距时会出现区块无法渲染的现象(仍有碰撞体积但看不见)([Geyser Issue 3809](https://github.com/GeyserMC/Geyser/issues/3809))
+
+可以在服务器上安装 [SeeMore](https://modrinth.com/plugin/seemore) 来解决这个问题
+
+如果还不行，你可以升级**电脑配置**
