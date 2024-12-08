@@ -23,6 +23,6 @@ MineCraft 自 `1.18` 版本后，默认不再允许使用 _除英文字母、数
 
 正确安装后，在启动器中填入中文名字正常启动，即可开始享受游戏
 
-CnUsername 与某些昵称插件不同: CnUsername 是真正实现中文名，而非披着中文名的幌子，里子还是英文名的“游戏昵称”
+CnUsername 与某些昵称插件不同: CnUsername 是真正实现中文名，而非披着中文名的幌子，里子还是英文名的“游戏昵称(显示名称)”
 
-后续教程及下载请查阅[Github](https://github.com/0XPYEX0/CnUsername)
+后续教程及下载请查阅[GitHub](https://github.com/0XPYEX0/CnUsername)
