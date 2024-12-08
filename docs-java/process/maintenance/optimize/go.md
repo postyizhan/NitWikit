@@ -55,6 +55,8 @@ view-distance: 8  #视野距离为 8 chunks
 
 安装 [View Distance Tweaks](https://www.spigotmc.org/resources/view-distance-tweaks.75164/) 实现自动调整视野距离使得玩家增多时自动减少视野，玩家减少时自动增加视野。
 
+你还可以安装 [SeeMore](https://modrinth.com/plugin/seemore) 为低视野的玩家自动降低,记得将配置中的`maximum-view-distance`设置为服务器视野距离
+
 ## 降低区块加载速度
 
 在 `/config/paper-global.yml` 中有关于区块生成的一些参数
