@@ -89,6 +89,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 ## 更快的安全随机数生成器
 
 (仅适合 Linux 和 MacOS 系统, 在 Windows 上无效)
+(原版 Minecraft 仅在个人信息公钥签名中使用到 SecureRandom)
 
 ```shell
 -Djava.security.egd=file:/dev/urandom
