@@ -19,14 +19,6 @@ Mod 端的选择一般优先考虑玩法(即主要的玩法 Mod),再考虑性能
 
 通常来说,1.21 以上**可以**使用 NeoForge
 
-### Cleanroom
-
-Cleanroom 是 Forge 1.12.2 的 Mod 加载器分支,相比于原版有更好的性能,但会有部分 mod 不兼容
-
-[下载地址](https://www.mcmod.cn/class/9689.html)
-
-为了增加兼容性,最好安装 [Fugue](https://www.mcmod.cn/class/13259.html)和[Scalar](https://www.mcmod.cn/class/14677.html)
-
 ### Sinytra Connector
 
 Sinytra Connector(中文名:信雅互联) 可以在 Forge 上运行 Fabric 模组
@@ -63,3 +55,11 @@ Kilt 可以在 Fabric 上运行 Forge 模组
 1.14 以下版本的 Fabric,主要支持 1.3-1.13.2 以及愚人节版本
 
 [下载地址](https://www.mcmod.cn/class/3391.html),还需要安装[Legacy Fabric API](https://www.mcmod.cn/class/3398.html)
+
+### Cleanroom
+
+Cleanroom 是 Forge 1.12.2 的 Mod 加载器分支,为 Mod 开发提供了更新的工具链, 但会有部分 mod 不兼容
+
+[下载地址](https://www.mcmod.cn/class/9689.html)
+
+为了增加兼容性, 最好安装 [Fugue](https://www.mcmod.cn/class/13259.html)和[Scalar(如果你有用 Scala 编写的 Mod)](https://www.mcmod.cn/class/14677.html)
