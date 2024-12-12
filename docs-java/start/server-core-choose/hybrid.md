@@ -11,6 +11,14 @@ sidebar_position: 2
 
 下载镜像只是备选选项
 
+非必要不混合，先找平替再混合。
+
+:::
+
+:::danger 混合端注意事项
+
+Mod 作者们绝大多数都不会受理与混合端相关的问题，风险自行承担。
+
 :::
 
 ## Forge
@@ -52,9 +60,10 @@ flowchart TD
 
 :::tip 使用 Fabric 混合端前的提示
 
-目前部分常用的 Bukkit 插件已有 Fabric 平替模组，非必要不hybrid。
+目前部分常用的 Bukkit 插件已有 Fabric 平替模组。
 
 CoreProtect -> Ledger
+
 EssentialsX/CMI/HuskHomes -> HuskHomes(Fabric 版)
 
 :::
