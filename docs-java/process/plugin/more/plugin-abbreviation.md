@@ -54,6 +54,7 @@ sidebar_position: 4
 | -------------------- | ---- | ---- |
 | Essentials           | -    | ess  |
 | EssentialsX          | -    | essx |
+| EliteMobs            | MagmaGuy | em |
 
 ### F
 
