@@ -56,3 +56,7 @@ bc 这个缩写应只指 BungeeCord 核心
 服务端有个命令是 `/bc` ，用来发公告的，这和此处的 BungeeCord 没有关系
 
 :::
+
+## Velocity 的缩写
+
+最常见的缩写是 `vc`

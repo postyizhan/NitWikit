@@ -12,7 +12,7 @@ sidebar_position: 2
 
 ### 什么是 Velocity ？
 
-velocity 可以说是目前最优秀的**Minecraft代理端**之一，由经验丰富的PaperMC团队研发，Velocity 拥有先进的转发方式和极高的安全性。与此同时，Velocity 也有优秀的性能表现
+Velocity 可以说是目前最优秀的**Minecraft代理端**之一，由经验丰富的 PaperMC 团队研发，Velocity 拥有先进的转发方式和极高的安全性。与此同时，Velocity 也有优秀的性能表现
 
 使用 Velocity ，能让你的群组服务器锦上添花
 
@@ -30,15 +30,15 @@ velocity 可以说是目前最优秀的**Minecraft代理端**之一，由经验�
 
 <!--markdownlint-disable ol-prefix-->
 
-1. Q： velocity 支持bungeecord和waterfall插件吗？
+1. Q： velocity 支持 Bungeecord 和 Waterfall 插件吗？
 
-A： 不支持，因为如果我们支持 BungeeCord 插件的话，那么很多velocity的功能就无从实现了。
+A： 不支持，因为如果支持 BungeeCord 插件的话，那么很多 Velocity 的功能就无从实现了。
 
 但是有些插件可能同时也支持 Velocity 或者有 Velocity 的版本。并且，有些 BungeeCord 插件仅要求在子服务器安装，那么这些插件理论上也是可以在 Velocity 为基础的代理服务器上使用的
 
-2. Q： 我应当使用哪个版本的 JAVA 来运行 Velocity
+2. Q： 我应当使用哪个版本的 Java 来运行 Velocity
 
-A: 推荐你使用 JAVA 17 以及以上版本的 JAVA ，如 JAVA 21
+A: 推荐你使用 Java 17 以及以上版本的 Java ，如 Java 21
 
 3. Q： 为什么我的玩家连不进服务器？**
 
