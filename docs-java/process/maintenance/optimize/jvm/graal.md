@@ -6,7 +6,7 @@ slug: /optimize/jvm/graalvm
 
 # GraalVM
 
-::: tip
+:::tip
 
 这些参数只适合 GraalVM EE
 
