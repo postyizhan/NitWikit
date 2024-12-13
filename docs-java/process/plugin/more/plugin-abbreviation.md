@@ -66,6 +66,7 @@ sidebar_position: 4
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
 | GroupManager         | -    | gm   |
+| GlobalMarketPlus     | TRCStudioDean | gmp |
 
 ### H
 
