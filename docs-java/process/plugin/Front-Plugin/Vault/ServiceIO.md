@@ -77,7 +77,7 @@ ServiceIO 的一个关键特性是与现有 Vault 接口的无缝集成，允许
 ## 联系
 
 [![](https://img.shields.io/discord/1293606111177609277?logo=discord&label=Discord)](https://thenextlvl.net/discord)
-<- 点击加入 作者的 Discord
+\<- 点击加入 作者的 Discord
 
 ## Bstats
 

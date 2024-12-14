@@ -18,9 +18,6 @@ Vault 的分支版本，提供更多功能
 - 无需源代码集成：作为独立插件运作，只需引入 jar 文件即可。避免多个插件冲突，便捷集成。
 - 广泛插件兼容：支持经济和权限类型的插件抽象层，提升兼容性。
 
-Freedom of Choice One of the best aspects of Bukkit is the freedom to
-choose what to use. More options benefit developers,so here’s to embracing choice!
-
 ## 特性
 
 - 多货币支持
@@ -51,15 +48,7 @@ choose what to use. More options benefit developers,so here’s to embracing cho
 
 ## 联系
 
-[![](https://img.shields.io/badge/Discord-creatorfromhell-blue?logo=Discord)](https://discord.gg/WNdwzpy) <- 点击加入 作者的 Discord
-
-## 开源许可
-
-Copyright (C) 2024 Daniel "creatorfromhell" Vidmar
-
-VaultUnlocked 是 GNU Lesser General Public License（GPLv3）的自由软件，可以重新分发和修改。更多信息请参考许可证。
-
-www.gnu.org www.gnu.org
+[![](https://img.shields.io/badge/Discord-creatorfromhell-blue?logo=Discord)](https://discord.gg/WNdwzpy) \<- 点击加入 作者的 Discord
 
 ## Bstats
 
