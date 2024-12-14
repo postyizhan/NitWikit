@@ -1,5 +1,6 @@
 ---
 title: Vault
+slug: Vault
 sidebar_position: 2
 ---
 
@@ -9,15 +10,13 @@ sidebar_position: 2
 
 `Bukkit` https://dev.bukkit.org/projects/vault
 
-`SpigotMC` https://www.spigotmc.org/resources/.34315/
+`SpigotMC` https://www.spigotmc.org/resources/.34315
+
+`MineBBS` https://www.minebbs.com/resources/.7869
 
 `GitHub` https://github.com/milkbowl/Vault
 
-`插件百科` https://github.com/milkbowl/Vault
-
-`VaultUnlocked(Vault 增强版)` https://github.com/TheNewEconomy/VaultUnlocked
-
-`ServiceIO(Vault 超级增强版,1.21+)` https://hangar.papermc.io/TheNextLvl/ServiceIO
+`插件百科` https://mineplugin.org/Vault
 
 :::
 
@@ -36,15 +35,3 @@ sidebar_position: 2
 人话：Vault只是提供经济的插件的前置，本身并不提供经济功能，就是给众多经济系统提供了一个统一接口
 
 想要经济可以看看 [XConomy页面](XConomy.md)
-
-### VaultUnlocked
-
-VaultUnlocked 是 Vault 的分支版本,有多货币支持和 Folia 支持,[下载](https://github.com/TheNewEconomy/VaultUnlocked/releases/tag/2.3.0)
-
-[下载镜像](https://dl.yizhan.wiki/plugins/VaultUnlocked-2.3.0.jar)
-
-### ServiceIO
-
-ServiceIO 是 Vault 的分支版本,支持 1.21 +, 无缝兼容 Vault,拥有更好的性能和更多的功能
-
-[下载](https://hangar.papermc.io/TheNextLvl/ServiceIO) 非常强大
