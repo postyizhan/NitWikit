@@ -9,13 +9,17 @@ Vault 的分支版本，提供更多功能
 
 ## 安装
 
-将 `VaultUnlocked.jar` 放入 `plugins` 文件夹中，其余将自动处理。如果你想调整配置，可修改配置文件，但通常情况下并不需要。详情参阅 AdvancedConfiguration 部分。
+将 `VaultUnlocked.jar` 放入 `plugins` 文件夹中，其余将自动处理。如果你想调整配置，可修改配置文件，但通常情况下并不需要。
+
+详情参阅 AdvancedConfiguration 部分。
 
 ## 功能
 
 - 无需源代码集成：作为独立插件运作，只需引入 jar 文件即可。避免多个插件冲突，便捷集成。
 - 广泛插件兼容：支持经济和权限类型的插件抽象层，提升兼容性。
-- Freedom of Choice One of the best aspects of Bukkit is the freedom to choose what to use. More options benefit developers, so here’s to embracing choice!
+
+Freedom of Choice One of the best aspects of Bukkit is the freedom to
+choose what to use. More options benefit developers,so here’s to embracing choice!
 
 ## 特性
 

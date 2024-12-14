@@ -27,7 +27,9 @@ ServiceIO 通过提供强大的 null 标注、全面的文档和维护良好的�
 
 ServiceIO 的一个关键特性是与现有 Vault 接口的无缝集成，允许插件同时使用两个 API，无需额外修改代码。这确保了平稳过渡，同时利用现代、可靠的平台优势。
 
-此外，ServiceIO 支持不同插件间的数据转换，包括 banks, permissions, chat 和 groups。这消除了开发者编写自定义转换逻辑的需要，节省时间和精力。对于服务器所有者而言，这意味着更换插件比以往任何时候都更为顺畅，确保操作平稳且灵活，而无需手动迁移数据的烦恼。
+此外，ServiceIO 支持不同插件间的数据转换，包括 banks, permissions, chat 和 groups。
+
+这消除了开发者编写自定义转换逻辑的需要，节省时间和精力。对于服务器所有者而言，这意味着更换插件比以往任何时候都更为顺畅，确保操作平稳且灵活，而无需手动迁移数据的烦恼。
 
 ## 命令
 
@@ -74,7 +76,8 @@ ServiceIO 的一个关键特性是与现有 Vault 接口的无缝集成，允许
 
 ## 联系
 
-[![](https://img.shields.io/discord/1293606111177609277?logo=discord&label=Discord)](https://thenextlvl.net/discord) <- 点击加入 作者的 Discord
+[![](https://img.shields.io/discord/1293606111177609277?logo=discord&label=Discord)](https://thenextlvl.net/discord)
+<- 点击加入 作者的 Discord
 
 ## Bstats
 
