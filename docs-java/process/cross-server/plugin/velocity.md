@@ -48,7 +48,8 @@ sidebar_position: 2
 **注意事项：**
 
  - 自 4.0.0 版本开始，AuthMeVelocity 需要在 Velocity 和服务端分别部署两个不同的文件，而不是像旧版本那样在 Velocity 和服务端部署相同的文件。
- - 在 Modrinth 下载这些文件时，最好点击页面右上角的 Download （下载），或前往插件的 [Versions](https://modrinth.com/plugin/authmevelocity/versions) 页面，分别下载适用于 Velocity 和 Folia/Paper/Purpur 的文件。
+在 Modrinth 下载这些文件时，最好点击页面右上角的 Download （下载），或前往插件的 [Versions](https://modrinth.com/plugin/authmevelocity/versions) 页面，
+分别下载适用于 Velocity 和 Folia/Paper/Purpur 的文件。
  - 下载适用于 Floia/Paper/Purpur 的文件时，需注意自 4.1.2 版本开始不再支持 1.19.x 及以下版本
  - 在 Velocity 端安装好 AuthMeVelocity 后，需编辑 `plugins\authmevelocity` 中的config.conf文件，将其中的 `auth-servers` 配置项修改为登录服的服务器
 ```conf
