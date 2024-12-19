@@ -40,8 +40,6 @@ sidebar_position: 1
 
 对于文档中的错误请进入 [GitHub](https://github.com/8aka-Team/NitWikit) 提出 Issue 或提交 Pr。
 
-欢迎加入 [企鹅群 🐧611076407](https://qm.qq.com/q/lEnfzgzxjq)。
-
 ## 本节视频教程
 
 [**点此前往B站**: 笨蛋级MC开服教程-第一集:服主的基本要求](https://www.bilibili.com/video/BV16W421R7tm/?share_source=copy_web&vd_source=53975e70eabfc1d6563221a670d4021a)
