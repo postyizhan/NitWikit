@@ -281,7 +281,7 @@ PackSquash 需要你在目录下创建配置文件`packsquash.toml`才可以使�
 pack_directory = 'C:\path\to\pack(填写你的资源包所在目录)'
 ```
 
-然后在当前目录运行`packsquash` 即可
+然后在当前目录运行`packsquash packsquash.toml` 即可
 
 ### 其他选项
 
