@@ -90,7 +90,7 @@ sidebar_position: 100
 - [x] plugin.yml讲解
 - [X] §和&和RGB颜色 格式化代码
 - [x] 驿站的机器人的命令
-- [ ] docker开服?
+- [x] docker开服
 - [ ] git管理服务端?
 - [x] 二分法和控制变量法排查问题
 - [x] Q机器人教程?
