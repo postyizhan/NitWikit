@@ -23,9 +23,7 @@ sidebar_position: 1
 
 ### JVM 参数优化
 
-可以在 [JVM 参数生成器](https://startmc.jakaco.xyz/)生成适合你服务器的基本 JVM 参数，然后复制并保存到你的启动脚本里，然后重启就完成了
-
-别急，还有一些更高阶的参数。[JVM 优化](./jvm/jvm.md)
+参见 [JVM 优化](https://nitwikit.yizhan.wiki/Java/optimize/jvm)
 
 ## 第二步 - 预生成
 
