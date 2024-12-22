@@ -53,7 +53,7 @@ sidebar_position: 6
 |:---:|:---:|:---|
 |INFO|信息|聊天内容/玩家状态/玩家指令/插件信息/……|
 |WARN|警告|对于一些潜在的风险进行警告，有可能发展为报错|
-|ERROR|报错|服务器出现错误后输出的信息|
+|ERROR|错误|服务器出现错误后输出的信息|
 
 总的来说，当服务器出现异常时请立刻检查日志中是否出现了 WARN 或 ERROR 级别的报错，建议先搜索查看是否有人遇到类似情况，再结合翻译结果尝试修复。如果搞不定可以请教其他人，但是切记一定要先读一读 [如何提问](/docs/start/ask-for-help.md)
 
@@ -68,11 +68,11 @@ sidebar_position: 6
 例：
 
 ```text
-[00:47:55] [Server thread/INFO]: Radiation_pi issued server command: /lp user Radiation_pi permission set rtp.use true
-[00:47:55] [luckperms-command-executor/INFO]: [LP] LOG > (Radiation_pi) [U] (radiation_pi)
+[00:47:55] [Server thread/INFO]: Player_A issued server command: /lp user Player_A permission set rtp.use true
+[00:47:55] [luckperms-command-executor/INFO]: [LP] LOG > (Player_A) [U] (radiation_pi)
 ```
 
-这段日志记录了玩家输入指令，以及 Luckperm 插件记录权限更改情况。
+这段日志记录了玩家输入指令，以及 LuckPerms 插件记录权限更改情况。
 
 #### WARN
 
