@@ -41,7 +41,7 @@ sidebar_position: 1
 对于文档中的错误请进入 [GitHub](https://github.com/8aka-Team/NitWikit) 提出 Issue 或提交 Pr。
 
 <a href="https://qm.qq.com/q/I1LDr0TNui">
-  <img src="https://raw.githubusercontent.com/8aka-Team/NitWikit/refs/heads/main/docs/_images/qqgroupshield.svg" alt="QQ群">
+  <img src="https://raw.githubusercontent.com/8aka-Team/NitWikit/refs/heads/main/docs/_images/qqgroupshield.svg" alt="QQ群"></img>
 </a>
 
 ## 本节视频教程
