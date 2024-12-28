@@ -63,7 +63,7 @@ auth-servers=[
 :::info
 推荐使用来自 HaHaWTH 佬的 [AuthMeReReloaded](https://github.com/HaHaWTH/AuthMeReReloaded) 分支作为上文提到的 AuthMe 插件的平替，在完全兼容上游的同时引入了完整的 Velocity 支持。
 
-如果你已经使用了这个分支的插件，只需要在配置文件中找到并开启（请根据实际情况选择开启 Bungeecord 或 Velocity 配置项）：
+如果你已经使用了这个分支的插件，只需要在配置文件中找到并开启：
 ```yaml
 Hooks:
     # Do we need to hook with BungeeCord?
@@ -71,7 +71,7 @@ Hooks:
     # Do we need to hook with Velocity?
     velocity: true
 ```
-即可。
+根据实际情况选择开启 Bungeecord 或 Velocity 配置项即可。
 :::
 
 如果未修改 AuthMeVelocity 的配置，可能导致所有玩家无法进入服务器，提示连接超时
