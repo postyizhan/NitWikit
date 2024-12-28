@@ -43,7 +43,45 @@ sidebar_position: 2
 
 这是 Velocity 版本的 AuthMe 。如果你的登录服使用 AuthMe 登录，请务必在 Velocity 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
 
-如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服
+如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服。
+
+**注意事项：**
+
+ - 自 4.0.0 版本开始，AuthMeVelocity 需要在 Velocity 和服务端分别部署两个不同的文件，而不是像旧版本那样在 Velocity 和服务端部署相同的文件。
+在 Modrinth 下载这些文件时，最好点击页面右上角的 Download （下载），或前往插件的 [Versions](https://modrinth.com/plugin/authmevelocity/versions) 页面，
+分别下载适用于 Velocity 和 Folia/Paper/Purpur 的文件。
+ - 下载适用于 Folia/Paper/Purpur 的文件时，需注意自 4.1.2 版本开始不再支持 1.19.x 及以下版本
+ - 在 Velocity 端安装好 AuthMeVelocity 后，需编辑 `plugins\authmevelocity` 中的config.conf文件，将其中的 `auth-servers` 配置项修改为登录服的服务器
+```conf
+# 比如你的登录服在velocity中配置的名称是login
+auth-servers=[
+    login
+]
+```
+至于 Folia/Paper/Purpur 端则不需要修改任何配置，保证插件正常工作即可。
+
+:::info
+推荐使用来自 HaHaWTH 佬的 [AuthMeReReloaded](https://github.com/HaHaWTH/AuthMeReReloaded) 分支作为上文提到的 AuthMe 插件的平替，在完全兼容上游的同时引入了完整的 Velocity 支持。
+
+如果你已经使用了这个分支的插件，只需要在配置文件中找到并开启（请根据实际情况选择开启 Bungeecord 或 Velocity 配置项）：
+```yaml
+Hooks:
+    # Do we need to hook with BungeeCord?
+    bungeecord: true
+    # Do we need to hook with Velocity?
+    velocity: true
+```
+即可。
+:::
+
+如果未修改 AuthMeVelocity 的配置，可能导致所有玩家无法进入服务器，提示连接超时
+ - **不要移除 Folia/Paper/Purpur 端的 AuthMe 插件**，保证其和 AuthMeVelocity 插件都被加载，因为 AuthMeVelocity 需要和 AuthMe 配合工作。
+若 AuthMe 未被加载则会导致 AuthMeVelocity 要求玩家登录但玩家却无法登录，导致所有人无法正常在服务器中游玩。
+ - 如果在 AuthMeVelocity 被加载时出现形如以下报错：
+```shell
+java.lang.RuntimeException: Failed to download library
+```
+是由于 AuthMeVelocity 在下载资源时网络不稳定导致的，一般重启几次服务器即可解决
 
 ### HuskChat
 
