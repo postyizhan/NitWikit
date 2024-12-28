@@ -58,11 +58,25 @@ auth-servers=[
     login
 ]
 ```
-至于 Folia/Paper/Purpur 端则不需要修改任何配置，保证插件正常工作即可  
+至于 Folia/Paper/Purpur 端则不需要修改任何配置，保证插件正常工作即可。
+
+:::info
+推荐使用来自 HaHaWTH 佬的 [AuthMeReReloaded](https://github.com/HaHaWTH/AuthMeReReloaded) 分支作为上文提到的 AuthMe 插件的平替，在完全兼容上游的同时引入了完整的 Velocity 支持。
+
+如果你已经使用了这个分支的插件，只需要在配置文件中找到并开启（请根据实际情况选择开启 Bungeecord 或 Velocity 配置项）：
+```yaml
+Hooks:
+    # Do we need to hook with BungeeCord?
+    bungeecord: true
+    # Do we need to hook with Velocity?
+    velocity: true
+```
+即可。
+:::
+
 如果未修改 AuthMeVelocity 的配置，可能导致所有玩家无法进入服务器，提示连接超时
  - **不要移除 Folia/Paper/Purpur 端的 AuthMe 插件**，保证其和 AuthMeVelocity 插件都被加载，因为 AuthMeVelocity 需要和 AuthMe 配合工作。
 若 AuthMe 未被加载则会导致 AuthMeVelocity 要求玩家登录但玩家却无法登录，导致所有人无法正常在服务器中游玩。
- - 推荐使用来自 HaHaWTH 佬的 [AuthMeReReloaded](https://github.com/HaHaWTH/AuthMeReReloaded) 分支作为上文提到的 AuthMe 插件的平替，在完全兼容上游的同时引入了完整的 Velocity 支持。
  - 如果在 AuthMeVelocity 被加载时出现形如以下报错：
 ```shell
 java.lang.RuntimeException: Failed to download library
