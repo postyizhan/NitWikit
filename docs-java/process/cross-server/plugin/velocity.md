@@ -61,7 +61,7 @@ auth-servers=[
 至于 Folia/Paper/Purpur 端则不需要修改任何配置，保证插件正常工作即可。
 
 :::info
-推荐使用来自 HaHaWTH 佬的 [AuthMeReReloaded](https://github.com/HaHaWTH/AuthMeReReloaded) 分支作为上文提到的 AuthMe 插件的平替，在完全兼容上游的同时引入了完整的 Velocity 支持。
+推荐使用来自 HaHaWTH 佬的 [AuthMeReReloaded](https://github.com/HaHaWTH/AuthMeReReloaded) 引入了完整的 Velocity 支持。
 
 如果你已经使用了这个分支的插件，只需要在配置文件中找到并开启：
 ```yaml
