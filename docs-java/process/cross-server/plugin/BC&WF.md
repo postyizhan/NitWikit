@@ -49,7 +49,7 @@ sidebar_position: 1
 
 :::danger[缺点]
 
-无
+暂未发现。
 
 :::
 
@@ -63,21 +63,12 @@ sidebar_position: 1
 
 :::danger[缺点]
 
-不能使用 [ViaVersion 的 papi 变量](https://wiki.placeholderapi.com/users/placeholder-list/#viaversion)
+由于 Velocity/BungeeCord 本身即设计为可以沟通多个不同版本服务器的代理端解决方案，因此虽然 ViaVersion 系列能够安装在代理端上，但是**强烈不建议直接在代理上使用 ViaVersion**。如果你执意这么做，请做好以下心理准备：
 
-比如 %viaversion_player_protocol_version% 来查看玩家客户端版本
-
-不利于任何反作弊的运行，因为后端服务器中的反作弊将认为玩家均来自于服务版本，这会导致**大量的误判**。
-
-:::
-
-### SkinsRestorer
-
-[插件 | 皮肤 - skinsRestorer](/docs-java/process/plugin/other/SkinsRestorer.md)
-
-:::danger[缺点]
-
-不能使用 [变量](https://skinsrestorer.net/docs/integrations/placeholderapi) 和命令打开菜单 UI 切换皮肤
+* 反作弊插件不生效。
+* 核心数据包处理出现大量异常。
+* 代理端性能下降。
+* 你不会获得因使用 ViaVersion 导致问题的任何技术支持。
 
 :::
 
@@ -91,10 +82,10 @@ sidebar_position: 1
 
 :::danger[缺点]
 
-- 不方便让反作弊支持
-- 不能用基岩版 UI
+- 大部分反作弊可能并未兼容。
+- 基岩版 UI 可能无法使用
 - 不方便单端判断 BE 玩家
-- 还有更多......
+- 其他的潜在问题……
 
 :::
 
@@ -123,6 +114,13 @@ sidebar_position: 1
 见 [插件 | ServerUtils](/docs-java/process/plugin/ManageTool/PluginManagement/ServerUtils.md)
 
 :::
+
+
+### SkinsRestorer
+
+[插件 | 皮肤 - skinsRestorer](/docs-java/process/plugin/other/SkinsRestorer.md)
+
+SkinRestorer 拥有完善的 Proxy Mode 以支持在代理服与字符同时部署，其本身作为老牌皮肤插件并无其他明显缺点。
 
 ### Tab
 

@@ -22,12 +22,18 @@ sidebar_position: 6
 通常攻击者会利用应用中的漏洞，来让应用占用更多的计算机资源，或者通过大量请求使带宽不堪重负，使服务器难以处理新连接。
 
 #### 假人攻击
+:::info
+本处仅讨论关于Minecraft服务器网络安全的概念，不涉及关于“生电”中假人的相关概念。
+:::
 
-简单来说，假人攻击一般是通过模拟客户端协议，伪造有玩家接入服务器，并发送进入服务器的数据包。
+假人攻击（Fake Player Attack），是指攻击者利用技术手段，模拟正常玩家的行为并向 Minecraft 服务器发起非正常请求，进而使得 Minecraft 服务器因各种原因而瘫痪崩溃或被渗透的一种攻击方式。
 
-这些假人大多数是不动的、名字高度相似或者非常随机的。
+假人对服务器造成的影响不尽相同，包括但不限于：
+1. 大量假人涌入服务器使服务器达到最大人数限制从而导致正常玩家无法进入服务器。
+2. 假人的加入与退出操作可能会导致某些开发不完全的插件在处理此类逻辑时发生内存泄漏和其他非预期的异常。
+3. 利用聊天框发送垃圾信息刷屏，扰乱正常消息处理与聊天体验。
 
-随着假人的快速加入和退出游戏，导致服务器需要处理大量的数据包，会让服务器卡顿。
+在某些程度上，假人攻击类似于 Web 安全中的 [CC 攻击](https://www.qiuwenbaike.cn/wiki/拒绝服务攻击#资源消耗型攻击)。
 
 #### MOTD (状态请求) 攻击
 
@@ -99,7 +105,7 @@ connection_throttle: 4000
 connection_throttle_limit: 3
 ```
 
-这意味着，在 4000ms 内最多能连接服务器 3 次，如果超过该值，服务器将拒绝其登入请求。
+这意味着，单个 IP 地址在 4000ms 内最多能连接服务器 3 次，如果超过该值，服务器将拒绝其此 IP 的任何登入请求，即使该 IP 使用了不同的游戏 ID 尝试加入服务器。
 
 ### 在代理端安装反假人插件
 
@@ -112,7 +118,7 @@ connection_throttle_limit: 3
 | 名称                                                       | 介绍                             | 支持平台                              | 缺点                            |
 |----------------------------------------------------------|--------------------------------|-----------------------------------|-------------------------------|
 | [Sonar](https://github.com/jonesdevelopment/sonar)       | 轻量级反机器人，皆在检测和移除机器人，而不影响任何真正的玩家 | Velocity， BungeeCord              | 暂时没有？                         |
-| [LimboFilter](https://github.com/jonesdevelopment/sonar) | 强大的过滤机器人方案                     | Velocity                          | 笨重且配置复杂，且仅在必要的时候提供更新。 (缺少维护)  |
+| [LimboFilter](https://github.com/Elytrium/LimboFilter) | 强大的过滤机器人方案                     | Velocity                          | 笨重且配置复杂，且仅在必要的时候提供更新。 (缺少维护)  |
 | [nAntiBot](https://en.docs.nickuc.com/v/nantibot)        | 一个高效反机器人插件                     | Spigot， Velocity， BungeeCord      | 依赖云服务，无法在服务器网络不好的情况下使用该插件。    |
 | [EpicGuard](https://github.com/4drian3d/EpicGuard)       | 基于事件的反机器人和反VPN插件               | Waterfall (停止维护)， Paper， Velocity | 容易绕过(但没那么烦人)，且只支持特定的Paper服务端。 |
 | [AntiAttackRL](https://github.com/AntiAttackMC/AATRL_Public) | 支持多平台的AntiBot插件 | Bukkit， BungeeCord， Folia， Sponge， Velocity与它们的分支 | 受攻击时新玩家无法直接进入，需要管理员操作; 防御方案过时 |
