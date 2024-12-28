@@ -43,7 +43,7 @@ sidebar_position: 2
 
 这是 Velocity 版本的 AuthMe 。如果你的登录服使用 AuthMe 登录，请务必在 Velocity 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
 
-如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服
+如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服。
 
 **注意事项：**
 
@@ -61,7 +61,8 @@ auth-servers=[
 至于 Folia/Paper/Purpur 端则不需要修改任何配置，保证插件正常工作即可  
 如果未修改 AuthMeVelocity 的配置，可能导致所有玩家无法进入服务器，提示连接超时
  - **不要移除 Folia/Paper/Purpur 端的 AuthMe 插件**，保证其和 AuthMeVelocity 插件都被加载，因为 AuthMeVelocity 需要和 AuthMe 配合工作。
-若 AuthMe 未被加载则会导致 AuthMeVelocity 要求玩家登录但玩家却无法登录，导致所有人无法正常在服务器中游玩
+若 AuthMe 未被加载则会导致 AuthMeVelocity 要求玩家登录但玩家却无法登录，导致所有人无法正常在服务器中游玩。
+ - 推荐使用来自 HaHaWTH 佬的 [AuthMeReReloaded](https://github.com/HaHaWTH/AuthMeReReloaded) 分支作为上文提到的 AuthMe 插件的平替，在完全兼容上游的同时引入了完整的 Velocity 支持。
  - 如果在 AuthMeVelocity 被加载时出现形如以下报错：
 ```shell
 java.lang.RuntimeException: Failed to download library
