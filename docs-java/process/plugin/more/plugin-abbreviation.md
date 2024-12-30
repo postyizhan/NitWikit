@@ -23,21 +23,21 @@ sidebar_position: 4
 | -------------------- | ---- | ---- |
 | AttributePlus        | 楠木 | AP   |
 | Adyeshach            | 坏黑 | ady  |
-| AdvancedEnchantments | -    | ae   |
-| AdvancedAntiCheat    | -    | aac  |
+| AdvancedEnchantments | GC. | ae   |
+| AdvancedAntiCheat    | LearXD | aac  |
 
 ### B
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| BetonQuests          | -    | bq   |
-| BungeeTablistPlus    | -    | btlp |
+| BetonQuest          | Wolf2323 | bq   |
+| BungeeTablistPlus    | CodeCrafter47 | btlp |
 
 ### C
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| ClearScreen          | -    | cls  |
+| ClearScreen          | fromgate | cls  |
 
 ### D
 
@@ -45,43 +45,43 @@ sidebar_position: 4
 | -------------------- | ---- | ---- |
 | DragonCore           | 空白格 | 龙核 |
 | DungeonPlus          | 楠木 | dp   |
-| DecentHolograms      | -    | dh   |
-| DeluxeMenus          | -    | dm   |
+| DecentHolograms      | D0bby_ | dh   |
+| DeluxeMenus          | HelpChat | dm   |
 
 ### E
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| Essentials           | -    | ess  |
-| EssentialsX          | -    | essx |
+| Essentials           | khobbits | ess  |
+| EssentialsX          | md678685 | essx |
 | EliteMobs            | MagmaGuy | em |
 
 ### F
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| FasyAsyncWorldEdit   | -    | fawe |
+| FasyAsyncWorldEdit   | IntellectualSites | fawe |
 
 ### G
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| GroupManager         | -    | gm   |
+| GroupManager         | ElgarL | gm   |
 | GlobalMarketPlus     | TRCStudioDean | gmp |
 
 ### H
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| HolographicDisplays  | -    | hd   |
+| HolographicDisplays  | filoghost | hd   |
 
 ### I
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| ItemsAdder           | -    | ia   |
-| ItemLoreStats        | -    | ils  |
-| InteractionVisualizer | -   | iv   |
+| ItemsAdder           | LoneDev | ia   |
+| ItemLoreStats        | Supavitax | ils  |
+| InteractionVisualizer | LOOHP | iv   |
 
 ### J
 
@@ -95,43 +95,42 @@ sidebar_position: 4
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| LuckPerms            | -    | lp   |
+| LuckPerms            | lucko | lp   |
 
 ### M
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| Multiverse           | -    | mv   |
-| MMOitems             | -    | mi   |
-| MyItems              | -    | mi   |
-| MythicMobs           | -    | mm   |
-| Model Engine         | -    | meg  |
-| MultiWorld           | -    | mw   |
-| MythicArtifacts      | -    | mma  |
-| MangoQuests          | -    | mq   |
+| Multiverse           | fernferret | mv   |
+| MMOitems             | Indyuce | mi   |
+| MyItems              | Praya | mi   |
+| MythicMobs           | Xikage | mm   |
+| Model Engine         | Ticxo | meg  |
+| MultiWorld           | ferrybig | mw   |
+| MythicArtifacts      | MythicCraft 团队 | mma  |
+| MangoQuests          | Cutiemango | mq   |
 
 ### N
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
 | NeigeItems           | Neige | ni  |
-| NoCheatPlus          | -    | ncp  |
+| NoCheatPlus          | asofold | ncp  |
 
 ### O
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| OriginAttribute      | -    | oa   |
+| OriginAttribute      | 未找到 | oa   |
 
 ### P
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| PermissionEX         | -    | pex  |
-| PlaceholderAPI       | -    | papi |
-| PlotSquared          | -    | ps   |
-| PlayMoney            | -    | pm   |
-| PlayerPoints         | -    | pp   |
+| PermissionsEX         | Sitmobedaf | pex  |
+| PlaceholderAPI       | HelpChat | papi |
+| PlotSquared          | IntellectualSites | ps   |
+| PlayerPoints         | Esophose | pp   |
 | PMRewards            | 楠木 | pmr  |
 | PlayerTitle          | 米饭 | plt  |
 
@@ -152,9 +151,9 @@ sidebar_position: 4
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| SX-Attribute         | -    | sx   |
-| Skript               | -    | sk   |
-| SkillAPI             | -    | sk   |
+| SX-Attribute         | 格洛 | sx   |
+| Skript               | SkriptLang 贡献者团队 | sk   |
+| SkillAPI             | Eniripsa96 | sk   |
 
 ### T
 
@@ -162,7 +161,7 @@ sidebar_position: 4
 | -------------------- | ---- | ---- |
 | TrMenu               | Arspale/Score9 | trm |
 | TrChat               | Arspale/Score9 | trc |
-| TitleManager         | -    | tm  |
+| TitleManager         | Puharesource | tm  |
 | Tab Reborn          | Nemzamy | tab |
 
 ### U
@@ -179,9 +178,9 @@ sidebar_position: 4
 
 | 全名                 | 作者 | 缩写 |
 | -------------------- | ---- | ---- |
-| WorldEdit            | -    | we   |
-| WorldGuard           | -    | wg   |
-| WorldBorder          | -    | wb   |
+| WorldEdit            | sk89q | we   |
+| WorldGuard           | sk89q | wg   |
+| WorldBorder          | Echo24h | wb   |
 
 ### X
 
