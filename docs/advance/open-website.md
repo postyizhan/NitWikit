@@ -1,4 +1,4 @@
-﻿---
+---
 title: 搭建官网
 sidebar_position: 8
 ---
@@ -32,13 +32,12 @@ Repository name填 你的用户名.github.io
 如果不会git的话就勾选Add a README
 
 然后点Create repository
-![微信图片_20240916082548.png](_images/open-web-photo/xingjianxiangm.png)
 
 会直接到创建的项目主页
 
 点Add file 会出来两个选项点Upload files
 
-![微信图片_20240916082915.png](_images/open-web-photo/add.png)
+
 
 会来到上传界面，上传你的网站源码(首页的名字要改成index)
 
@@ -95,6 +94,23 @@ cf-cname.xingpingcn.top 不需要开启小黄云
 添加一个类型为CNAME 名称为输入你刚刚在自定义主机名时输入的前缀 内容为cdn.你的回源域名
 
 并等待DNS记录生效，生效后就可以正常使用你的域名访问了
+
+### 3.开启 Cloudflare 缓存
+
+
+先登录[Cloudflare](https://dash.cloudflare.com/)
+
+来到面板主页之后点击进入你自己的域名，然后点击缓存-Cache Rules-创建规则
+![huanc-1](_images/open-web-photo/huanc-1.png)
+
+来到创建规则页面后点击最上面的缓存所有内容
+![huanc-2](_images/open-web-photo/huanc-2.png)
+然后添加边缘 TTL设置按照图片选择
+![huanc-3](_images/open-web-photo/huanc-3.png)
+然后添加浏览器 TTL设置按照图片选择
+![huanc-4](_images/open-web-photo/huanc-4.png)
+完成后点下面的部署，缓存就设置完成了
+
 
 ## 使用服务器搭建
 
@@ -346,4 +362,56 @@ PHP 7.4、8.0或8.1（推荐），具有以下扩展：
 
 ### 一些弊端
 
-不知为何 vercel 在构建本站文档的时候，出现了一点奇怪的错误，我尝试了其他的构建网站可是都没有问题
+不知为何 vercel 在构建本站文档的时候，出现了一点奇怪的错误，我尝试了其他的构建网站可是都没有问题(已解决)
+
+### 开启 vercel 缓存
+
+开启vercel缓存很简单，只需要先创建一个名为vercel.json的文件，然后将以下代码复制进入文件内再上传到网站的根目录下，然后等待vercel自动更新部署成功就可以使用了
+
+```bash
+
+{
+    "headers": [
+      {
+        "source": "/sw.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=0, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "(.*)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, s-maxage=86400, max-age=86400"
+          }, {
+            "key": "Vercel-CDN-Cache-Control",
+            "value": "max-age=3600"
+          }
+        ]
+      }
+    ]
+  }
+```
+
+## 对比
+
+开设这个对比是为了让没有服务器的建站新手更好的选择到底是使用cloudflare saas回源还是使用vercel
+
+:::warning
+
+此测试仅做参考，不代表这两个平台完全真实的测试结果
+:::
+### itdog 在线ping测试
+Cloudflare
+![cloudflare-ping](_images/open-web-photo/cloudflare-ping.png)
+vercel
+![vercel-ping](_images/open-web-photo/vercel-ping.png)
+### itdog 网站测试
+Cloudflare
+![cloudflare-test](_images/open-web-photo/cloudflare-test.png)
+vercel
+![vercel-test](_images/open-web-photo/vercel-test.png)
