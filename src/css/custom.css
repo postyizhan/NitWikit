@@ -150,8 +150,8 @@ article .markdown img {
 }
 
 article .markdown img.stylish-image {
-  display: inline-block; /* 使图片并列显示 */
-  margin: 0; /* 移除默认的外边距 */
+  display: inline-block !important;  /* 使图片并列显示 */
+  margin: 0 !important; /* 移除默认的外边距 */
 }
 
 article .markdown > h2 {

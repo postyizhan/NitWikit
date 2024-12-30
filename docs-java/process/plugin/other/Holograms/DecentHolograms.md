@@ -5,12 +5,10 @@ sidebar_position: 2
 
 # DecentHolograms
 
-<div class="stylish-image">
-[![](https://img.shields.io/github/v/release/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms/releases)
-[![](https://img.shields.io/spiget/downloads/96927?label=Downloads)](https://www.spigotmc.org/resources/.96927)
-[![](https://img.shields.io/github/languages/code-size/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms)
-[![](https://img.shields.io/github/license/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms/blob/main/LICENSE)
-</div>
+[![](https://img.shields.io/github/v/release/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms/releases){.stylish-image}
+[![](https://img.shields.io/spiget/downloads/96927?label=Downloads)](https://www.spigotmc.org/resources/.96927){.stylish-image}
+[![](https://img.shields.io/github/languages/code-size/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms){.stylish-image}
+[![](https://img.shields.io/github/license/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms/blob/main/LICENSE){.stylish-image}
 
 ```text
 一个轻量级但功能强大的全息图插件，具有许多功能和配置项。
