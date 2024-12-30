@@ -6,16 +6,16 @@ sidebar_position: 2
 # DecentHolograms
 
 <a href="https://github.com/DecentSoftware-eu/DecentHolograms/releases">
-  <img src="https://img.shields.io/github/v/release/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="Release">
+  <img src="https://img.shields.io/github/v/release/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="Release" />
 </a>
 <a href="https://www.spigotmc.org/resources/.96927">
-  <img src="https://img.shields.io/spiget/downloads/96927?label=Downloads" class="stylish-image" alt="Downloads">
+  <img src="https://img.shields.io/spiget/downloads/96927?label=Downloads" class="stylish-image" alt="Downloads" />
 </a>
 <a href="https://github.com/DecentSoftware-eu/DecentHolograms">
-  <img src="https://img.shields.io/github/languages/code-size/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="Code Size">
+  <img src="https://img.shields.io/github/languages/code-size/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="Code Size" />
 </a>
 <a href="https://github.com/DecentSoftware-eu/DecentHolograms/blob/main/LICENSE">
-  <img src="https://img.shields.io/github/license/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="License">
+  <img src="https://img.shields.io/github/license/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="License" />
 </a>
 
 ```text
