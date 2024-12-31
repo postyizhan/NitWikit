@@ -43,10 +43,10 @@ sidebar_position: 5
 正确：我最欣赏的科技公司有 Google、Facebook、腾讯、阿里和百度等。
 ```
 
-(2)英文句子中，并列词语之间使用半角逗号(`，`)分隔。
+(2)英文句子中，并列词语之间使用半角逗号(`,`)分隔。
 
 ```text
-例句：Microsoft Office includes Word， Excel， PowerPoint， Outlook and other components.
+例句：Microsoft Office includes Word, Excel, PowerPoint, Outlook and other components.
 ```
 
 (3)中文句子内部的并列词，最后一个尽量使用(`和`)来连接，使句子读起来更加连贯，下面两个句子都可以，第二个更优。
