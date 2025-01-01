@@ -6,7 +6,7 @@
     NitWikit
   </b>
   <div>
-    <sup>一群笨蛋们编写的开服文档</sup>
+    <sup>一群笨蛋编写的开服文档</sup>
   </div>
 </div>
 
