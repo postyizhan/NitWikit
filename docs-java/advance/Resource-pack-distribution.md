@@ -27,7 +27,7 @@ mc服务端自己就有这个材质包分发功能
 
 ### 例子
 
-我们拿到slimefun的资源包直链地址是:
+我们拿到 slimefun 的资源包直链地址是:
 https://github.com/xMikux/Slimefun-Resourcepack/releases/download/latest-build/Slimefun-ResourcePack.zip ，
 然后我们打开`server.properties`，找到以下内容：
 
