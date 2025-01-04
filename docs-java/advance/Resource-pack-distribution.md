@@ -57,11 +57,34 @@ require-resource-pack=false
 
 :::
 
-## 使用 ItemsAdder
+## 托管插件
+
+### RoseResourcepack
+
+RoseResourcepack 是一个强大的资源包管理插件,拥有许多很好的功能
+
+* **集成资源包托管: 直接从您的服务器托管资源包**(比 IA 那个唐诗好多了)
+* 多版本支持: 兼容 Minecraft 1.16.5 至 1.21.3 版本。
+* MiniMessage 支持: 使用 MiniMessage 自定义消息。
+* 与其他插件集成: 与 BetterHUD、ItemsAdder 和 Oraxen 等插件兼容。
+* 资源包保护: 保护您的资源包不被解包。
+* 异步处理: 异步构建资源包，减少延迟。
+* 自动 SHA1 哈希生成: 自动生成 SHA1 哈希值。
+* 自动交付: 玩家登录时自动交付资源包。
+* 重置资源包命令: 允许玩家通过命令重置其资源包。
+* **多包应用: 为玩家应用多个资源包（Minecraft 1.20.3+）**
+* 强制安装: 强制客户端安装资源包（Minecraft 1.17+）。
+* 自定义消息支持: 在客户端的提示屏幕上显示自定义消息。
+
+[下载地址](https://www.spigotmc.org/resources/roseresourcepack-easy-auto-hosting-for-a-unique-pack.107483/)
+
+[中文文档](https://plugins.yizhan.wiki/ShortDoc/RoseResourcepack/)
+
+### ItemsAdder
 
 https://itemsadder.devs.beer/v/chinese/plugin-usage/resourcepack-hosting
 
-## 使用 Oraxen
+### Oraxen
 
 看配置文件
 
@@ -73,6 +96,23 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs queryString="store">
+<TabItem value="mcpack" label="MCPacks">
+
+官网: https://mc-packs.net/
+
+完全免费,最大可上传 95MB
+
+**优势**：
+
+- 免费,无需注册
+- 速度可以
+- 稳定
+
+**劣势**：
+
+- 无法更新资源包,每次都需要更改链接
+
+</TabItem>
 <TabItem value="cf" label="Cloudflare">
 
 官网: https://cloudflare.com
