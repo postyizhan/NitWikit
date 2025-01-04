@@ -5,10 +5,18 @@ sidebar_position: 2
 
 # DecentHolograms
 
-[![](https://img.shields.io/github/v/release/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms/releases)
-[![](https://img.shields.io/spiget/downloads/96927?label=Downloads)](https://www.spigotmc.org/resources/.96927)
-[![](https://img.shields.io/github/languages/code-size/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms)
-[![](https://img.shields.io/github/license/DecentSoftware-eu/DecentHolograms)](https://github.com/DecentSoftware-eu/DecentHolograms/blob/main/LICENSE)
+<a href="https://github.com/DecentSoftware-eu/DecentHolograms/releases">
+  <img src="https://img.shields.io/github/v/release/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="Release" />
+</a>
+<a href="https://www.spigotmc.org/resources/.96927">
+  <img src="https://img.shields.io/spiget/downloads/96927?label=Downloads" class="stylish-image" alt="Downloads" />
+</a>
+<a href="https://github.com/DecentSoftware-eu/DecentHolograms">
+  <img src="https://img.shields.io/github/languages/code-size/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="Code Size" />
+</a>
+<a href="https://github.com/DecentSoftware-eu/DecentHolograms/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/license/DecentSoftware-eu/DecentHolograms" class="stylish-image" alt="License" />
+</a>
 
 ```text
 一个轻量级但功能强大的全息图插件，具有许多功能和配置项。
@@ -77,15 +85,17 @@ sidebar_position: 2
 
 `文档(英文)` https://wiki.decentholograms.eu
 
-`文档(中文)` https://snowcutieowo.github.io/DecentHolograms/README.html
+`文档(中文)` https://snowcutieowo.github.io/DecentHolograms
 
 :::
 
 ## 贡献 ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
+
 ​
 欢迎提交 pr ！但对于重大的更改，请先创建一个 issues 来讨论此更改
 
 ## 构建
+
 ​
 你需要使用 JDK 8+, Gradle, Git 和 IDE 或 命令行 二选一
 
@@ -124,6 +134,7 @@ sidebar_position: 2
     </dependency>
 </dependencies>
 ```
+
 </details>
 
 <details>

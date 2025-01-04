@@ -7,9 +7,11 @@ sidebar_position: 3
 
 Mod 端的选择一般优先考虑玩法(即主要的玩法 Mod),再考虑性能
 
-比方说,我的服务器主要玩法是匠魂,它只支持 Forge,那我就只能选择 Forge
+比方说,我的服务器主要玩法是匠魂, 它只支持 Forge,那我就只能选择 Forge
 
-但如果我的服务器主要玩法是铁砧工艺,他同时支持 Forge 和 Fabric,那我应该选择优化 mod 更多的 Fabric
+但如果我的服务器主要玩法是铁砧工艺, 他同时支持 Forge 和 Fabric, 那我应该选择优化 mod 更多的 Fabric。
+
+如果后续想要更新版本, 应该尽量选择对模组开发者更友好的 Forge/NeoForge
 
 ## 扩展
 
@@ -40,7 +42,7 @@ Kilt 可以在 Fabric 上运行 Forge 模组
 
 :::danger
 
-使用此mod默认你已经疯了
+使用此 mod 默认你已经疯了。
 
 :::
 
@@ -56,10 +58,8 @@ Kilt 可以在 Fabric 上运行 Forge 模组
 
 [下载地址](https://www.mcmod.cn/class/3391.html),还需要安装[Legacy Fabric API](https://www.mcmod.cn/class/3398.html)
 
-### Cleanroom
+:::warning
 
-Cleanroom 是 Forge 1.12.2 的 Mod 加载器分支,为 Mod 开发提供了更新的工具链, 但会有部分 mod 不兼容
+Legacy Fabric 的模组生态相较于 Forge 并不完善，不建议使用。
 
-[下载地址](https://www.mcmod.cn/class/9689.html)
-
-为了增加兼容性, 最好安装 [Fugue](https://www.mcmod.cn/class/13259.html)和[Scalar(如果你有用 Scala 编写的 Mod)](https://www.mcmod.cn/class/14677.html)
+:::

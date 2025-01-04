@@ -199,7 +199,9 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 **经典如何提问: https://settingdust.gitbook.io/stop-ask-questions-the-stupid-ways/**
 
-欢迎加入 [企鹅群 🐧611076407](https://qm.qq.com/q/lEnfzgzxjq) 进行交流。
+<a href="https://www.yizhan.wiki/qq">
+  <img src="https://raw.githubusercontent.com/8aka-Team/NitWikit/refs/heads/main/docs/_images/qqgroupshield.svg" alt="QQ群"></img>
+</a>
 
 ### 经典老图
 

@@ -27,7 +27,7 @@ mc服务端自己就有这个材质包分发功能
 
 ### 例子
 
-我们拿到slimefun的资源包直链地址是:
+我们拿到 slimefun 的资源包直链地址是:
 https://github.com/xMikux/Slimefun-Resourcepack/releases/download/latest-build/Slimefun-ResourcePack.zip ，
 然后我们打开`server.properties`，找到以下内容：
 
@@ -373,8 +373,6 @@ zip_spec_conformance_level = 'disregard'
 size_increasing_zip_obfuscation = true
 percentage_of_zip_structures_tuned_for_obfuscation_discretion = 100
 ```
-
-## FAQ
 
 ### 我想让客户端不要下载重复的资源包可以吗？
 

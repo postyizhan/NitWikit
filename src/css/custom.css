@@ -149,6 +149,11 @@ article .markdown img {
   margin: 0 auto;
 }
 
+article .markdown img.stylish-image {
+  display: inline-block !important;  /* 使图片并列显示 */
+  margin: 0 !important; /* 移除默认的外边距 */
+}
+
 article .markdown > h2 {
   font-size: 1.6em;
 }
