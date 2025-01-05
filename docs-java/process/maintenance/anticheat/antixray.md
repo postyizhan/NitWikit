@@ -311,7 +311,7 @@ anticheat:
 </details>
 
 <details>
-  <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般(但下届合金一定会被隐藏)*</summary>
+  <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般(但下界合金一定会被隐藏)*</summary>
 
 ```yaml
 anticheat:
@@ -378,6 +378,8 @@ anticheat:
 
 注意，如果你需要隐藏暴露在空气中的方块，需要将 `air` 添加到 `hidden-blocks` 和 `replacement-blocks` ，但这非常影响性能，不推荐。
 
+如果你需要隐藏岩浆中的方块,请打开`lava-obscures`,但会影响性能
+
 :::info
 
 将配置文件复制到对应 `.yml` 文件中时，如果已经存在，请相应的进行覆盖而不是简单复制到最后。
@@ -388,7 +390,13 @@ anticheat:
 
 ### Anti-xray 插件
 
-#### RayTraceAntiXray
+:::warning
+
+在使用 Paper 及其 Fork 时。请停止使用 [Orebfuscator](https://modrinth.com/plugin/orebfuscator) 等假矿插件。换用 Paper 自带的 Anti-Xray。
+
+:::
+
+#### RayTraceAntiXray(推荐)
 
 [RayTraceAntiXray](https://builtbybit.com/resources/raytraceantixray.24914/)，
 [开源](https://github.com/stonar96/RayTraceAntiXray)付费且仅售 7 美元。
@@ -399,8 +407,97 @@ anticheat:
 
 可以优化自带的 Anti-Xray ，减小服务器的带宽开销(甚至比不使用Anti-Xray的宽带占用还低!)，如需构建请自行构建。
 
-:::warning
+RayTraceAntiXray 文档提供两种配置方式
 
-在使用 Paper 及其 Fork 时。请停止使用 [Orebfuscator](https://modrinth.com/plugin/orebfuscator) 等假矿插件。换用 Paper 自带的 Anti-Xray。
+<details>
+  <summary>优化版本 - 速度更快，但游戏体验更差，保护性更弱</summary>
 
-:::
+```yaml
+settings:
+  anti-xray:
+    update-ticks: 1
+    ms-per-ray-trace-tick: 50
+    # 根据可用的（最好是未使用的）CPU线程进行调整。
+    ray-trace-threads: 2
+world-settings:
+  default:
+    anti-xray:
+      ray-trace: true
+      ray-trace-third-person: false
+      ray-trace-distance: 64.0
+      rehide-blocks: false
+      rehide-distance: .inf
+      max-ray-trace-block-count-per-chunk: 30
+      ray-trace-blocks:
+      # 你可以在这里添加更多的方块，
+      # 但可能需要调整max-ray-trace-block-count-per-chunk设置。
+      - chest
+      - diamond_ore
+      - deepslate_diamond_ore
+      - emerald_ore
+      - deepslate_emerald_ore
+      - gold_ore
+      - deepslate_gold_ore
+      - lapis_ore
+      - deepslate_lapis_ore
+      - spawner
+  world_nether:
+    anti-xray:
+      # 注意，ancient_debris(下界合金)永远不会自然生成在暴露于空气的地方。
+      # 普通引擎模式：1已经足够，在下界禁用射线追踪。
+      ray-trace: false
+  # 调整世界名称。
+  world_the_end:
+    anti-xray:
+      ray-trace: false
+```
+
+</details>
+
+<details>
+  <summary>安全版本 - 较慢，但游戏体验更佳且更具保护性</summary>
+
+```yaml
+settings:
+  anti-xray:
+    update-ticks: 1
+    ms-per-ray-trace-tick: 50
+    # 根据可用的（最好是未使用的）CPU线程进行调整。
+    ray-trace-threads: 2
+world-settings:
+  default:
+    anti-xray:
+      ray-trace: true
+      # 请注意，这大约需要三倍的资源。
+      ray-trace-third-person: true
+      ray-trace-distance: 80.0
+      rehide-blocks: true
+      rehide-distance: 76.0
+      max-ray-trace-block-count-per-chunk: 60
+      ray-trace-blocks:
+      # 您可以在此处添加更多方块，
+      # 但可能需要调整max-ray-trace-block-count-per-chunk设置。
+      - chest
+      - diamond_ore
+      - deepslate_diamond_ore
+      - emerald_ore
+      - deepslate_emerald_ore
+      - gold_ore
+      - deepslate_gold_ore
+      - lapis_ore
+      - deepslate_lapis_ore
+      - mossy_cobblestone
+      - spawner
+  # 调整世界名称。
+  world_nether:
+    anti-xray:
+      # 注意，ancient_debris(下界合金)永远不会自然生成在暴露于空气的地方。
+      # 普通引擎模式：1已经足够，在下界禁用射线追踪。
+      ray-trace: false
+  # 调整世界名称。
+  world_the_end:
+    anti-xray:
+      ray-trace: false
+```
+
+</details>
