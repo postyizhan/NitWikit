@@ -101,8 +101,6 @@ sidebar_position: 1
 
 `GitHub` https://github.com/BGHDDevelopment/PlayerBalancer
 
-`modrinth` https://modrinth.com/plugin/minimotd
-
 :::
 
 可以用来设置多个子大厅，设置主大厅，并按照你配置的方式发送玩家到子服。
