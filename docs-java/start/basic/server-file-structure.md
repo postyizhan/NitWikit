@@ -28,7 +28,7 @@ sidebar_position: 3
 │  └─stats          // 统计信息
 ├─world_nether      // 地狱世界文件夹
 │    └─DIM-1
-│       ├─data      // 末地
+│       ├─data
 │       ├─entities
 │       ├─poi
 │       └─region
