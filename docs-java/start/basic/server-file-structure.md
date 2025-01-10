@@ -26,12 +26,12 @@ sidebar_position: 3
 │  ├─poi            // 兴趣点数据
 │  ├─region         // 区块数据
 │  └─stats          // 统计信息
-├─world_nether      // 地狱世界文件夹
-│    └─DIM-1
-│       ├─data
-│       ├─entities
-│       ├─poi
-│       └─region
+├─world_nether       // 地狱世界文件夹
+│  └─DIM-1
+│      ├─data
+│      ├─entities
+│      ├─poi
+│      └─region
 └─world_the_end     // 末地世界文件夹
     └─DIM1
         ├─data
