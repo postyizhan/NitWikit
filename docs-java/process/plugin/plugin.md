@@ -98,7 +98,7 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 之前被爆插件有远程执行代码后门来着
 
-详情请见：https://yizhan.wiki/lezi-wiki/article/%E5%9C%9F%E7%9A%87%E5%B8%9D%E5%96%B5
+详情请见：https://lezi.yizhan.wiki/article/%E5%9C%9F%E7%9A%87%E5%B8%9D%E5%96%B5
 
 ### 米饭系列插件
 
@@ -108,4 +108,4 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 作者剽窃国外作者开源的插件，声称是自己的作品并公开售卖
 
-详情请见：https://yizhan.wiki/lezi-wiki/article/%E7%89%88%E4%B8%BB%E7%B1%B3%E9%A5%AD%E4%BC%A0
+详情请见：https://lezi.yizhan.wiki/article/%E7%89%88%E4%B8%BB%E7%B1%B3%E9%A5%AD%E4%BC%A0
