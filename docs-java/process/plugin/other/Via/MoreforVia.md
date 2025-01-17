@@ -12,7 +12,7 @@ sidebar_position: 5
 
 `SpigotMC` https://www.spigotmc.org/resources/.112793
 
-`PaperMC` https://hangar.papermc.io/Artillex-Studios/AxSmithing
+`Hangar` https://hangar.papermc.io/Artillex-Studios/AxSmithing
 
 `Modrinth` https://modrinth.com/plugin/axsmithing
 
@@ -72,7 +72,7 @@ sidebar_position: 5
 
 :::info
 
-`PaperMC` https://hangar.papermc.io/ViaVersion/ViaAprilFools
+`Hangar` https://hangar.papermc.io/ViaVersion/ViaAprilFools
 
 `Modrinth` https://modrinth.com/plugin/viaaprilfools
 

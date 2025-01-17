@@ -9,7 +9,7 @@ sidebar_position: 3
 
 `SpigotMC` https://www.spigotmc.org/resources/.104544
 
-`PaperMC` https://hangar.papermc.io/handy/PlayerTitle
+`Hangar` https://hangar.papermc.io/handy/PlayerTitle
 
 `文档` https://ricedoc.handyplus.cn/wiki/PlayerTitle
 

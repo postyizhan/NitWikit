@@ -9,7 +9,7 @@ sidebar_position: 4
 
 `SpigotMC` https://www.spigotmc.org/resources/.95748
 
-`PaperMC` https://forums.papermc.io/threads/.330
+`Hangar` https://forums.papermc.io/threads/.330
 
 `Modrinth` https://modrinth.com/plugin/limboauth
 

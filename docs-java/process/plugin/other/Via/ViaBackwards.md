@@ -9,7 +9,7 @@ sidebar_position: 3
 
 `SpigotMC` https://www.spigotmc.org/resources/.27448
 
-`PaperMC` https://hangar.papermc.io/ViaVersion/ViaBackwards
+`Hangar` https://hangar.papermc.io/ViaVersion/ViaBackwards
 
 `Modrinth` https://modrinth.com/plugin/viabackwards
 

@@ -49,7 +49,7 @@ QQ群：309428300
 
 :::info
 
-`PaperMC` https://hangar.papermc.io/zhangyuheng/MiniPlayerTitle
+`Hangar` https://hangar.papermc.io/zhangyuheng/MiniPlayerTitle
 
 `MineBBS` https://www.minebbs.com/resources/.7930
 

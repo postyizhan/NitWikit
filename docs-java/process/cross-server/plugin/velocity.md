@@ -13,7 +13,7 @@ sidebar_position: 2
 
 :::info
 
-`PaperMC` https://hangar.papermc.io/4drian3d/VLobby
+`Hangar` https://hangar.papermc.io/4drian3d/VLobby
 
 `GitHub` https://github.com/4drian3d/VLobby
 

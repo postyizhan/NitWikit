@@ -9,7 +9,7 @@ sidebar_label: 城镇 - Towny
 
 `SpigotMC` https://www.spigotmc.org/resources/towny-advanced.72694/
 
-`PaperMC` https://hangar.papermc.io/TownyAdvanced/Towny
+`Hangar` https://hangar.papermc.io/TownyAdvanced/Towny
 
 `GitHub` https://github.com/TownyAdvanced/Towny
 

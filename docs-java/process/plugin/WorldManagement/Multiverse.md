@@ -11,7 +11,7 @@ sidebar_label: 多世界 - Multiverse
 
 `SpigotMC` https://www.spigotmc.org/resources/.390/
 
-`PaperMC` https://hangar.papermc.io/Multiverse/Multiverse-Core
+`Hangar` https://hangar.papermc.io/Multiverse/Multiverse-Core
 
 `Modrinth` https://modrinth.com/plugin/multiverse-core
 

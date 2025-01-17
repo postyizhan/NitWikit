@@ -13,7 +13,7 @@ sidebar_position: 2
 
 `SpigotMC` https://www.spigotmc.org/resources/.94496
 
-`PaperMC` https://hangar.papermc.io/William278/HuskChat
+`Hangar` https://hangar.papermc.io/William278/HuskChat
 
 `Modrinth` https://modrinth.com/plugin/huskchat
 

@@ -8,7 +8,7 @@ sidebar_position: 4
 
 `SpigotMC` https://www.spigotmc.org/resources/.52109
 
-`PaperMC` https://hangar.papermc.io/ViaVersion/ViaRewind
+`Hangar` https://hangar.papermc.io/ViaVersion/ViaRewind
 
 `Modrinth` https://modrinth.com/plugin/viarewind
 

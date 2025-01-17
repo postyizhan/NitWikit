@@ -11,7 +11,7 @@ sidebar_position: 5
 
 `SpigotMC` https://www.spigotmc.org/resources/protocollib.1997/
 
-`PaperMC` https://hangar.papermc.io/dmulloy2/ProtocolLib
+`Hangar` https://hangar.papermc.io/dmulloy2/ProtocolLib
 
 `GitHub` https://github.com/dmulloy2/ProtocolLib
 

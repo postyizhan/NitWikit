@@ -11,7 +11,7 @@ sidebar_position: 2
 
 `SpigotMC` https://www.spigotmc.org/resources/.6269/
 
-`PaperMC` https://hangar.papermc.io/0D00_0721/AuthMeReReloaded
+`Hangar` https://hangar.papermc.io/0D00_0721/AuthMeReReloaded
 
 `Modrinth` https://modrinth.com/plugin/authmereloaded
 

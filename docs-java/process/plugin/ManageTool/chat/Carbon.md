@@ -7,7 +7,7 @@ sidebar_position: 3
 
 :::info
 
-`PaperMC` https://hangar.papermc.io/Vicarious/Carbon
+`Hangar` https://hangar.papermc.io/Vicarious/Carbon
 
 `Modrinth` https://modrinth.com/plugin/carbon
 

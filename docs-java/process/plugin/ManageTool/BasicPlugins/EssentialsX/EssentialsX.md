@@ -13,7 +13,7 @@ sidebar_position: 1
 
 `SpigotMC` https://www.spigotmc.org/resources/.9089
 
-`PaperMC` https://hangar.papermc.io/EssentialsX/Essentials
+`Hangar` https://hangar.papermc.io/EssentialsX/Essentials
 
 `Modrinth` https://modrinth.com/plugin/essentialsx
 

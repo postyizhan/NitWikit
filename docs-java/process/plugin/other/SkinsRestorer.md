@@ -12,7 +12,7 @@ sidebar_label: 皮肤 - SkinsRestorer
 
 `SpigotMC` https://www.spigotmc.org/resources/.2124
 
-`PaperMC` https://hangar.papermc.io/SRTeam/SkinsRestorer
+`Hangar` https://hangar.papermc.io/SRTeam/SkinsRestorer
 
 `GitHub` https://github.com/SkinsRestorer/SkinsRestorer
 

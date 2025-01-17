@@ -11,7 +11,7 @@ sidebar_label: FAWE - FastAsyncWorldEdit
 
 `SpigotMC` https://www.spigotmc.org/resources/.13932
 
-`PaperMC` https://hangar.papermc.io/IntellectualSites/FastAsyncWorldEdit
+`Hangar` https://hangar.papermc.io/IntellectualSites/FastAsyncWorldEdit
 
 `Modrinth` https://modrinth.com/plugin/fastasyncworldedit
 

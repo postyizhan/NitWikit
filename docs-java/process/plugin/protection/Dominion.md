@@ -9,7 +9,7 @@ sidebar_label: 领地 - Dominion
 
 `SpigotMC` https://www.minebbs.com/resources/.7933/
 
-`PaperMC` https://hangar.papermc.io/zhangyuheng/Dominion
+`Hangar` https://hangar.papermc.io/zhangyuheng/Dominion
 
 `GitHub` https://github.com/ColdeZhang/Dominion
 
