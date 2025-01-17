@@ -1,6 +1,6 @@
 ---
 title: Java 相关
-slug: /java/verview
+slug: /lava/overview
 sidebar_position: 1
 ---
 
@@ -31,3 +31,5 @@ Java 标准类库 (rt.jar)
 import DocCardList from '@theme/DocCardList';
 
 <DocCardList />
+
+![](_images/lava.jpg)
