@@ -1,6 +1,6 @@
 ---
 title: Java 相关
-slug: /java
+slug: /java/verview
 sidebar_position: 1
 ---
 
