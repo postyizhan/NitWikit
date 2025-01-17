@@ -5,12 +5,6 @@ slug: /plugins
 sidebar_label: 实体 - MythicMobs
 ---
 
----
-title: 充值插件
-slug: /plugins/money
-sidebar_position: 7
----
-
 # MythicMobs
 
 :::info
