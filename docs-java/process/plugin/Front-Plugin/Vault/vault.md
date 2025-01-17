@@ -34,4 +34,4 @@ sidebar_position: 2
 
 人话：Vault只是提供经济的插件的前置，本身并不提供经济功能，就是给众多经济系统提供了一个统一接口
 
-想要经济可以看看 [XConomy页面](XConomy.md)
+想要经济可以看看 [XConomy](../XConomy.md) 页面
