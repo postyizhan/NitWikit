@@ -133,6 +133,7 @@ sidebar_position: 4
 | PlayerPoints         | Esophose | pp   |
 | PMRewards            | 楠木 | pmr  |
 | PlayerTitle          | 米饭 | plt  |
+| ProtocolStringReplacer | Rothes | psr |
 
 ### Q
 
