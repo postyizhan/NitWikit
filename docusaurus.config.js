@@ -25,7 +25,7 @@ const config = {
   },
 
   title: '笨蛋 MC 开服教程',
-  tagline: '一群笨蛋写的 Minecraft 开服教程',
+  tagline: '一群笨蛋编写的 Minecraft 开服教程',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -166,8 +166,8 @@ const config = {
       },
       image: 'img/docusaurus-social-card.jpg',
       metadata: [
-        { name: '开服教程', content: '一群笨蛋写的 Minecraft 开服教程' },
-        { name: 'MC教程', content: '一群笨蛋写的 Minecraft 开服教程' },
+        { name: '开服教程', content: '一群笨蛋编写的 Minecraft 开服教程' },
+        { name: 'MC教程', content: '一群笨蛋编写的 Minecraft 开服教程' },
       ],
       navbar: {
         title: 'NitWikit',
