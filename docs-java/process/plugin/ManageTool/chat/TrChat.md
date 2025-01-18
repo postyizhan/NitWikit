@@ -29,6 +29,8 @@ sidebar_position: 1
 
 ## 说明
 
+<!--markdownlint-disable line-length-->
+
 <a href="https://github.com/FlickerProjects/TrChat/releases">
   <img src="https://img.shields.io/github/v/release/TrPlugins/TrChat?logo=VirusTotal&style=for-the-badge" class="stylish-image" alt="Version" />
 </a>
