@@ -7,9 +7,15 @@ sidebar_position: 2
 
 ![](_images/Citizens/Citizens-1.png)
 
-[![](https://img.shields.io/github/forks/CitizensDev/Citizens2?style=flat)](https://github.com/CitizensDev/Citizens2)
-[![](https://img.shields.io/github/stars/CitizensDev/Citizens2?style=flat)](https://github.com/CitizensDev/Citizens2)
-[![](https://img.shields.io/github/license/CitizensDev/Citizens2)](https://github.com/CitizensDev/Citizens2/blob/master/LICENSE)
+<a href="https://github.com/CitizensDev/Citizens2">
+  <img src="https://img.shields.io/github/forks/CitizensDev/Citizens2?style=flat" class="stylish-image" alt="Forks" />
+</a>
+<a href="https://github.com/CitizensDev/Citizens2">
+  <img src="https://img.shields.io/github/stars/CitizensDev/Citizens2?style=flat" class="stylish-image" alt="Stars" />
+</a>
+<a href="https://github.com/CitizensDev/Citizens2/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/CitizensDev/Citizens2" class="stylish-image" alt="License" />
+</a>
 
 ```text
 老牌 NPC 插件。
