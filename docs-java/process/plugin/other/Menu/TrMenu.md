@@ -7,10 +7,18 @@ sidebar_position: 4
 
 ![](https://gitee.com/postyizhan/images-hosting/releases/download/gif/animation.gif)
 
-[![](https://img.shields.io/github/v/release/Dreeam-qwq/TrMenu)](https://github.com/Dreeam-qwq/TrMenu/releases)
-[![](https://img.shields.io/github/downloads/Dreeam-qwq/TrMenu/total)](https://github.com/Dreeam-qwq/TrMenu/releases)
-[![](https://img.shields.io/github/languages/code-size/Dreeam-qwq/TrMenu)](https://github.com/Dreeam-qwq/TrMenu)
-[![](https://img.shields.io/badge/license-TrMenu-lightgreen.svg)](https://github.com/Dreeam-qwq/TrMenu/blob/stable/v3/LICENSE.md)
+<a href="https://github.com/Dreeam-qwq/TrMenu/releases">
+  <img src="https://img.shields.io/github/v/release/Dreeam-qwq/TrMenu" class="stylish-image" alt="Release" />
+</a>
+<a href="https://github.com/Dreeam-qwq/TrMenu/releases">
+  <img src="https://img.shields.io/github/downloads/Dreeam-qwq/TrMenu/total" class="stylish-image" alt="Downloads" />
+</a>
+<a href="https://github.com/Dreeam-qwq/TrMenu">
+  <img src="https://img.shields.io/github/languages/code-size/Dreeam-qwq/TrMenu" class="stylish-image" alt="Code Size" />
+</a>
+<a href="https://github.com/Dreeam-qwq/TrMenu/blob/stable/v3/LICENSE.md">
+  <img src="https://img.shields.io/badge/license-TrMenu-lightgreen.svg" class="stylish-image" alt="License" />
+</a>
 
 ```text
 一个功能强大的菜单插件，国人插件。目前由社区维护。

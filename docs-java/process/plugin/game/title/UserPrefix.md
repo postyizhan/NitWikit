@@ -9,12 +9,21 @@ sidebar_position: 2
 
 ![](./_images/UserPrefix/1.png)
 
-[![CodeFactor](https://www.codefactor.io/repository/github/carmjos/userprefix/badge?s=b76fec1f64726b5f19989aace6adb5f85fdab840)](https://www.codefactor.io/repository/github/carmjos/userprefix)
-![CodeSize](https://img.shields.io/github/languages/code-size/CarmJos/UserPrefix)
-[![Download](https://img.shields.io/github/downloads/CarmJos/UserPrefix/total)](https://github.com/CarmJos/UserPrefix/releases)
-[![Java CI with Maven](https://github.com/CarmJos/UserPrefix/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/CarmJos/UserPrefix/actions/workflows/maven.yml)
-![Support](https://img.shields.io/badge/Minecraft-Java%201.8--Latest-green)
-![](https://visitor-badge.glitch.me/badge?page_id=userprefix.readme)
+<a href="https://www.codefactor.io/repository/github/carmjos/userprefix">
+  <img src="https://www.codefactor.io/repository/github/carmjos/userprefix/badge?s=b76fec1f64726b5f19989aace6adb5f85fdab840" class="stylish-image" alt="CodeFactor" />
+</a>
+<a href="https://github.com/CarmJos/UserPrefix">
+  <img src="https://img.shields.io/github/languages/code-size/CarmJos/UserPrefix" class="stylish-image" alt="CodeSize" />
+</a>
+<a href="https://github.com/CarmJos/UserPrefix/releases">
+  <img src="https://img.shields.io/github/downloads/CarmJos/UserPrefix/total" class="stylish-image" alt="Download" />
+</a>
+<a href="(https://github.com/CarmJos/UserPrefix/actions/workflows/maven.yml">
+  <img src="https://github.com/CarmJos/UserPrefix/actions/workflows/maven.yml/badge.svg?branch=master" class="stylish-image" alt="Java CI with Maven" />
+</a>
+<a href="https://github.com/CarmJos/UserPrefix">
+  <img src="https://img.shields.io/badge/Minecraft-Java%201.8--Latest-green" class="stylish-image" alt="Support" />
+</a>
 
 轻便、高效、实时的用户前缀系统。
 

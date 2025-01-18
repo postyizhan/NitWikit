@@ -29,10 +29,18 @@ sidebar_position: 1
 
 ## 说明
 
-[![Version](https://img.shields.io/github/v/release/TrPlugins/TrChat?logo=VirusTotal&style=for-the-badge)](https://github.com/FlickerProjects/TrChat/releases)
-[![Issues](https://img.shields.io/github/issues/TrPlugins/TrChat?logo=StackOverflow&style=for-the-badge)](https://github.com/FlickerProjects/TrChat/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/TrPlugins/TrChat?logo=ApacheRocketMQ&style=for-the-badge&color=1e90ff)](https://github.com/FlickerProjects/TrChat/commits/v2)
-[![Downloads](https://img.shields.io/github/downloads/TrPlugins/TrChat/total?style=for-the-badge&logo=docusign)](https://github.com/FlickerProjects/TrChat/releases)
+<a href="https://github.com/FlickerProjects/TrChat/releases">
+  <img src="https://img.shields.io/github/v/release/TrPlugins/TrChat?logo=VirusTotal&style=for-the-badge" class="stylish-image" alt="Version" />
+</a>
+<a href="https://github.com/FlickerProjects/TrChat/issues">
+  <img src="https://img.shields.io/github/issues/TrPlugins/TrChat?logo=StackOverflow&style=for-the-badge" class="stylish-image" alt="Issues" />
+</a>
+<a href="https://github.com/FlickerProjects/TrChat/commits/v2">
+  <img src="https://img.shields.io/github/last-commit/TrPlugins/TrChat?logo=ApacheRocketMQ&style=for-the-badge&color=1e90ff" class="stylish-image" alt="Last Commit" />
+</a>
+<a href="https://github.com/NEZNAMY/TAB/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/downloads/TrPlugins/TrChat/total?style=for-the-badge&logo=docusign" class="stylish-image" alt="Downloads" />
+</a>
 
 [TrChat](https://github.com/TrPlugins/TrChat) 是基于 [TabooLib](https://github.com/TabooLib/taboolib) 开发，发布于 2019-8-16 的高级聊天系统插件
 

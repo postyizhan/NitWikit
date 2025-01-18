@@ -5,10 +5,18 @@ sidebar_position: 2
 
 # TAB
 
-[![](https://img.shields.io/github/v/release/NEZNAMY/TAB)](https://github.com/NEZNAMY/TAB/releases)
-[![](https://img.shields.io/spiget/downloads/57806?label=Downloads)](https://www.spigotmc.org/resources/.57806)
-[![](https://img.shields.io/github/languages/code-size/NEZNAMY/TAB)](https://github.com/NEZNAMY/TAB)
-[![](https://img.shields.io/github/license/NEZNAMY/TAB)](https://github.com/NEZNAMY/TAB/blob/main/LICENSE)
+<a href="https://github.com/NEZNAMY/TAB/releases">
+  <img src="https://img.shields.io/github/v/release/NEZNAMY/TAB" class="stylish-image" alt="Releases" />
+</a>
+<a href="https://www.spigotmc.org/resources/.57806">
+  <img src="https://img.shields.io/spiget/downloads/57806?label=Downloads" class="stylish-image" alt="Downloads" />
+</a>
+<a href="https://github.com/NEZNAMY/TAB">
+  <img src="https://img.shields.io/github/languages/code-size/NEZNAMY/TAB" class="stylish-image" alt="Languages" />
+</a>
+<a href="https://github.com/NEZNAMY/TAB/blob/main/LICENSE">
+  <img src="https://img.shields.io/github/license/NEZNAMY/TAB" class="stylish-image" alt="License" />
+</a>
 
 ```text
 TAB 是一个用于在不同位置显示信息的多功能插件，旨在在功能、兼容性和性能方面超越所有类似的插件。
