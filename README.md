@@ -50,7 +50,7 @@
    `git clone https://github.com/8aka-Team/NitWikit.git`
 
    更快的克隆
-   `git clone  --single-branch --depth 1 -b main https://github.com/8aka-Team/NitWikit.git `
+   `git clone --single-branch --depth 1 -b main https://github.com/8aka-Team/NitWikit.git`
 2. 移动至仓库根目录
    `cd NitWikit`
 3. 安装依赖
