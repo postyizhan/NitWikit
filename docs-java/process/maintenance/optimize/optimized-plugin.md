@@ -45,7 +45,7 @@ sidebar_position: 6
 
 ### 对于 AI 有影响的插件
 
-使用 Pufferfish Fork(如Purpur / Leaf等)降低远处生物的 AI 比插件利用 API 更加有效和符合游戏逻辑，
+使用 Pufferfish DAB 降低远处生物的 AI 比插件利用 API 更加有效和符合游戏逻辑，
 
 因此，停止使用类似插件，如:
 
@@ -67,11 +67,7 @@ sidebar_position: 6
 
 另外在 `config/paper-world-defaults.yml` 中有一部分可以优化的内容和村民相关，但这可能会导致村民看起来有一点呆。
 
-在 `调服务端配置`自己找
-
-因此，停止使用类似插件，如:
-
-*[Villager Optimiser](https://www.spigotmc.org/resources/villager-optimiser-1-14-2-1-16-5.68517/) - 降低村民寻路操作的插件*
+在 `调服务端配置` 自己找
 
 ### 地面清理插件
 
