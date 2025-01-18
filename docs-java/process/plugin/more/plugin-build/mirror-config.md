@@ -148,4 +148,4 @@ systemProp.gradle.wrapperUrl=https://maven.aliyun.com/repository/gradle-dist/
 某些依赖可能不在镜像源中，需要：
 1. 添加原始仓库
 2. 或使用其他镜像源
-3. 或直接从原始仓库下载 
+3. 或直接从原始仓库下载

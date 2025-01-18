@@ -64,11 +64,12 @@ sidebar_position: 2
 ### 项目结构说明
 
 #### Maven项目结构
+
 ```text
 项目根目录
-├── src/                    # 源代码目录
-│   ├── main/              # 主要代码目录
-│   │   ├── java/         # Java源代码
+├── src/                                       # 源代码目录
+│   ├── main/                                  # 主要代码目录
+│   │   ├── java/                              # Java源代码
 │   │   │   └── com/
 │   │   │       └── example/
 │   │   │           └── plugin/
@@ -76,23 +77,24 @@ sidebar_position: 2
 │   │   │               ├── commands/          # 命令类
 │   │   │               ├── listeners/         # 监听器类
 │   │   │               └── utils/             # 工具类
-│   │   └── resources/   # 资源文件目录
-│   │       ├── plugin.yml     # 插件配置文件
-│   │       ├── config.yml     # 插件默认配置
-│   │       └── messages/      # 语言文件
-│   └── test/              # 测试代码目录
-│       ├── java/         # 测试源代码
-│       └── resources/    # 测试资源
-├── target/               # 构建输出目录
-├── pom.xml              # Maven项目配置文件
-└── README.md            # 项目说明文件
+│   │   └── resources/                         # 资源文件目录
+│   │       ├── plugin.yml                     # 插件配置文件
+│   │       ├── config.yml                     # 插件默认配置
+│   │       └── messages/                      # 语言文件
+│   └── test/                                  # 测试代码目录
+│       ├── java/                              # 测试源代码
+│       └── resources/                         # 测试资源
+├── target/                                    # 构建输出目录
+├── pom.xml                                    # Maven项目配置文件
+└── README.md                                  # 项目说明文件
 
 #### Gradle项目结构
+
 ```text
 项目根目录
-├── src/                    # 源代码目录
-│   ├── main/              # 主要代码目录
-│   │   ├── java/         # Java源代码
+├── src/                                       # 源代码目录
+│   ├── main/                                  # 主要代码目录
+│   │   ├── java/                              # Java源代码
 │   │   │   └── com/
 │   │   │       └── example/
 │   │   │           └── plugin/
@@ -100,24 +102,24 @@ sidebar_position: 2
 │   │   │               ├── commands/          # 命令类
 │   │   │               ├── listeners/         # 监听器类
 │   │   │               └── utils/             # 工具类
-│   │   ├── kotlin/      # Kotlin源代码（如果使用）
-│   │   └── resources/   # 资源文件目录
-│   │       ├── plugin.yml     # 插件配置文件
-│   │       ├── config.yml     # 插件默认配置
-│   │       └── messages/      # 语言文件
-│   └── test/              # 测试代码目录
-│       ├── java/         # 测试源代码
-│       ├── kotlin/       # Kotlin测试代码
-│       └── resources/    # 测试资源
-├── build/                # 构建输出目录
-│   └── libs/            # 构建产物（jar文件）
-├── gradle/              # Gradle包装器目录
+│   │   ├── kotlin/                            # Kotlin源代码（如果使用）
+│   │   └── resources/                         # 资源文件目录
+│   │       ├── plugin.yml                     # 插件配置文件
+│   │       ├── config.yml                     # 插件默认配置
+│   │       └── messages/                      # 语言文件
+│   └── test/                                  # 测试代码目录
+│       ├── java/                              # 测试源代码
+│       ├── kotlin/                            # Kotlin测试代码
+│       └── resources/                         # 测试资源
+├── build/                                     # 构建输出目录
+│   └── libs/                                  # 构建产物（jar文件）
+├── gradle/                                    # Gradle包装器目录
 │   └── wrapper/
-├── build.gradle         # Gradle构建脚本
-├── settings.gradle      # Gradle设置文件
-├── gradlew             # Gradle包装器脚本(Unix)
-├── gradlew.bat         # Gradle包装器脚本(Windows)
-└── README.md           # 项目说明文件
+├── build.gradle                               # Gradle构建脚本
+├── settings.gradle                            # Gradle设置文件
+├── gradlew                                    # Gradle包装器脚本(Unix)
+├── gradlew.bat                                # Gradle包装器脚本(Windows)
+└── README.md                                  # 项目说明文件
 ```
 
 ### 重要文件说明
@@ -163,4 +165,4 @@ sidebar_position: 2
   dependencies {
       compileOnly 'io.papermc.paper:paper-api:1.19.4-R0.1-SNAPSHOT'
   }
-  ``` 
+  ```

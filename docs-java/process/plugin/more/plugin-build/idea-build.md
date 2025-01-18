@@ -44,4 +44,4 @@ sidebar_position: 4
 
 2. **找不到生成的jar**：
    - Maven: 检查 `target` 目录
-   - Gradle: 检查 `build/libs` 目录 
+   - Gradle: 检查 `build/libs` 目录
