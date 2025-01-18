@@ -1,7 +1,7 @@
 ---
 title: 插件构建
 slug: /plugin-build
-sidebar_position: 1
+sidebar_position: 6
 ---
 
 # 插件构建
