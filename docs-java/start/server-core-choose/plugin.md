@@ -110,7 +110,7 @@ import TabItem from '@theme/TabItem';
 
 leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca，投影，共享原理图，minihud，bbor，ommc，Xaero 小地图，Jade，appleskin。
 
-![点我](https://docs.leavesmc.org/zh_Hans) 查看 Leaves 官方文档
+[点我](https://docs.leavesmc.org/zh_Hans) 查看 Leaves 官方文档
 
 **下载**:
 
