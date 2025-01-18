@@ -56,6 +56,8 @@ import TabItem from '@theme/TabItem';
 
 总的来说，Paper 核心适合那些追究 *极端的* 稳定的人
 
+[点我](https://docs.papermc.io/paper) 查看 Paper 官方文档
+
 **下载**：
 
 - [官方](https://papermc.io/downloads/all)
@@ -82,6 +84,8 @@ import TabItem from '@theme/TabItem';
 
 综上所述，目前 Purpur 是综合最优选择
 
+[点我](https://purpurmc.org/docs/purpur) 查看 Purpur 官方文档
+
 **下载**：
 
 - [官方](https://purpurmc.org/downloads)
@@ -104,7 +108,9 @@ import TabItem from '@theme/TabItem';
 
 专为生电而生的核心。
 
-leaves 基本完全支持客户端生电 Mod ，包括但不限于 Carpet，pca，投影，共享原理图，minihud，bbor，ommc，Xaero 小地图，Jade，appleskin等
+leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca，投影，共享原理图，minihud，bbor，ommc，Xaero 小地图，Jade，appleskin。
+
+![点我](https://docs.leavesmc.org/zh_Hans) 查看 Leaves 官方文档
 
 **下载**:
 
@@ -127,6 +133,8 @@ leaves 基本完全支持客户端生电 Mod ，包括但不限于 Carpet，pca�
 - 兼容 - 有极少插件不兼容(可向核心作者反馈)
 
 总的来说，相比 Purpur 会有更好的优化，极少不兼容的插件可以及时找作者反馈，所以非常推荐此核心
+
+![点我](https://docs.leafmc.one/zh) 查看 Leaf 官方文档
 
 **下载**：
 
