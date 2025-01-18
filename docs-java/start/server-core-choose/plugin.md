@@ -134,7 +134,7 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 
 总的来说，相比 Purpur 会有更好的优化，极少不兼容的插件可以及时找作者反馈，所以非常推荐此核心
 
-![点我](https://docs.leafmc.one/zh) 查看 Leaf 官方文档
+[点我](https://docs.leafmc.one/zh) 查看 Leaf 官方文档
 
 **下载**：
 
