@@ -42,7 +42,7 @@ sidebar_position: 4
 
 这里返回了 yes
 
-[如何返回 true/false ？](/docs-java/process/plugin/Front-Plugin/PlaceHolderAPI/outline.md#更改-boolean)
+[如何返回 true/false ？](/docs-java/process/plugin/Front-Plugin/PlaceHolderAPI/Q&A.md#更改-boolean)
 
 例如：
 

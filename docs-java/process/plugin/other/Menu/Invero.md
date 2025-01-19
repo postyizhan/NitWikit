@@ -173,7 +173,7 @@ https://www.minebbs.com/resources/invero-tpa.9240/
 
 你需要安装 [CheckItem](../../Front-Plugin/PlaceHolderAPI/CheckItem.md)
 
-并 [开启give和remove](../../Front-Plugin/PlaceHolderAPI/CheckItem.md#启用give和remove) 和 [更改-boolean](../../Front-Plugin/PlaceHolderAPI/outline.md#更改-boolean)
+并 [开启give和remove](../../Front-Plugin/PlaceHolderAPI/CheckItem.md#启用give和remove) 和 [更改-boolean](../../Front-Plugin/PlaceHolderAPI/Q&A.md#更改-boolean)
 
 :::
 

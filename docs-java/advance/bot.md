@@ -21,7 +21,7 @@ sidebar_position: 10
 
 ### [EasyBot](https://www.minebbs.com/resources/easyBot-minecraft.7918/)
 
-> EasyBot 是一个基于 Blazor 开发的跨平台群服互通框架,旨在优化您的游戏社区体验。  
+> EasyBot 是一个基于 Blazor 开发的跨平台群服互通框架,旨在优化您的游戏社区体验。
 > 它不仅提供了消息同步功能，还具备自定义命令、绑定管理、高级权限控制以及群组互动等多种实用特性。
 
 - [文档](https://docs.hualib.com/) - 主页
@@ -74,7 +74,7 @@ sidebar_position: 10
 ### [MiraiMC](https://github.com/DreamVoid/MiraiMC)
 
 MiraiMC 是一款能够作为服务器插件加载的机器人框架。它非常适合仅有一个服务端，尤其是使用面板开服的 **小型服务器** 使用。
-MiraiMC 的大多数排障方法和特性都与 Mirai 相同，遇到问题时你可以参考 [Mirai](../../advance/bot/framework#mirai) 框架的使用文档。
+MiraiMC 的大多数排障方法和特性都与 Mirai 相同，遇到问题时你可以参考 Mirai 框架的使用文档。
 
 MiraiMC 已添加了 [对 Overflow 的支持附属插件](https://github.com/DreamVoid/MiraiMC/issues/510)，因此你可以使用 Overflow 协助登录。
 这也帮助了许多停更的基于 MiraiMC 的老机器人插件。

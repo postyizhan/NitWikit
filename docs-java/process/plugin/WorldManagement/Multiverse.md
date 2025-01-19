@@ -169,7 +169,7 @@ https://mineplugin.org/Multiverse-Core#%E4%BD%A0%E8%83%BD%E8%AE%A9%E6%AF%8F%E4%B
 所需插件：
 
 - Multiverse-Core
-- [PlaceHolderAPI](../Front-Plugin/PlaceHolderAPI/outline.md)
+- [PlaceHolderAPI](../Front-Plugin/PlaceHolderAPI/PlaceHolderAPI.md)
 - [聊天插件](../ManageTool/chat/chat.md)
 - [TAB和计分板插件](../other/TAB&Scoreboard/Tab&Scoreboard.md)
 - 其他你想展示中文世界名的插件
