@@ -228,6 +228,8 @@ eCloud 命令
 
 `SpigotMC` https://www.spigotmc.org/resources/.6245
 
+`MineBBS` https://www.minebbs.com/resources/.8229
+
 `GitHub` https://github.com/PlaceholderAPI/PlaceholderAPI
 
 `文档(英文)` https://wiki.placeholderapi.com
