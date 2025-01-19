@@ -4,7 +4,7 @@ slug: /command
 sidebar_position: 4
 ---
 
-# 反代核心常用指令
+# 跨服端命令
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
