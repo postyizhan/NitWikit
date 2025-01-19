@@ -1,6 +1,6 @@
 ---
 title: velocity.toml
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # 配置文件
