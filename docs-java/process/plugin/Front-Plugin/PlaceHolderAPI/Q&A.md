@@ -19,8 +19,8 @@ sidebar_position: 2
 
 ```mermaid
 flowchart TD
-    插件 -->|内建变量| --> 显示
-    插件 -->|papi变量| PlaceHolderAPI --> 显示
+插件 -->|内建变量| 显示
+插件 -->|papi变量| PlaceHolderAPI --> 显示
 ```
 
 `build-in placeholder`，在此处我将其翻译为 “**内建变量**”。
