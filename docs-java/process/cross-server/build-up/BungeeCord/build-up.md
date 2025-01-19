@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 下载
 
-前往 [核心选择](/docs-java/process/cross-server/server-core-choose.md) 下载 BungeeCord
+前往 [核心选择](/docs-java/process/cross-server/server-core-choose.md) 下载 BungeeCord / Waterfall
 
 BungeeCord 不再支持过旧版本 Minecraft
 
