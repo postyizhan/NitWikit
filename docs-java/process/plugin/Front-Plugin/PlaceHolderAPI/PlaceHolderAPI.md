@@ -1,6 +1,6 @@
 ---
 title: PlaceHolderAPI
-slug /PlaceHolderAPI
+slug: /PlaceHolderAPI
 sidebar_position: 1
 ---
 
