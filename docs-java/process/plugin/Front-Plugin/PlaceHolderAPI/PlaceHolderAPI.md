@@ -4,6 +4,8 @@ slug /PlaceHolderAPI
 sidebar_position: 1
 ---
 
+<!--markdownlint-disable line-length-->
+
 # PlaceHolderAPI
 
 ![](_images/PlaceHolderAPI/1.png)
