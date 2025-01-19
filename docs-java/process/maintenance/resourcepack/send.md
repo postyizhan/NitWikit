@@ -1,61 +1,11 @@
 ---
-title: 资源包分发
-sidebar_position: 6
+title: 托管
+sidebar_position: 1
 ---
 
-# 资源包分发
+# 托管
 
-你可能希望玩家入服自动下载某个材质包
-
-## 注意
-
-JAVA 版的资源包分发与基岩版不同，它是云分发的，提供给客户端的应该是一个**直链**，而不是资源包本身
-
-不管你用什么方式，都必须是直链才可正常使用！
-
-**什么是直链？**
-
-> 直接从服务器下载数据
-
-不需要登陆账号，不需要点击链接打开网页才下载
-
-## 分发
-
-## server.properties
-
-mc服务端自己就有这个材质包分发功能
-
-### 例子
-
-我们拿到 slimefun 的资源包直链地址是:
-https://github.com/xMikux/Slimefun-Resourcepack/releases/download/latest-build/Slimefun-ResourcePack.zip ，
-然后我们打开`server.properties`，找到以下内容：
-
-```properties
-resource-pack=
-```
-
-把我们刚才拿到的资源包直链放进去，现在看起来应该是这样
-
-```properties
-resource-pack=https://github.com/xMikux/Slimefun-Resourcepack/releases/download/latest-build/Slimefun-ResourcePack.zip
-```
-
-然后我们再找到下面
-
-```properties
-require-resource-pack=false
-```
-
-这个值代表是否需要强制资源包，开启后，如果玩家拒绝应用这个资源包，就不让玩家进入服务器
-
-调好后，你只需要重启服务器就可以享受到资源包了
-
-:::note
-
-上面的例子链接是 GitHub 的，而国内的网络环境有时连不上 GitHub
-
-:::
+由于 MC 资源包是通过 URL 传递的,因此,你需要一个服务器去托管资源包
 
 ## 托管插件
 
@@ -88,7 +38,7 @@ https://itemsadder.devs.beer/v/chinese/plugin-usage/resourcepack-hosting
 
 看配置文件
 
-## 托管
+## 托管网站
 
 以下均为ia文档中所说的 第三方平台托管(external-host)
 
@@ -96,7 +46,24 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs queryString="store">
-<TabItem value="mcpack" label="MCPacks">
+<TabItem value="setup" label="Setup.md(最推荐)">
+
+官网: https://www.setup.md/usercontent
+
+完全免费,最大可上传 250 MB
+
+**优势**：
+
+- 免费
+- 速度可以
+- 稳定
+
+**劣势**：
+
+- 好像没有
+
+</TabItem>
+<TabItem value="mcpack" label="MCPacks(免登录)">
 
 官网: https://mc-packs.net/
 
@@ -301,134 +268,40 @@ ItemsAdder，可以直接在服务器上托管资源包：https://itemsadder.dev
 </TabItem>
 </Tabs>
 
-## 压缩
+## 分发
 
-为了让玩家更快的下载资源包(并节省你的流量),你需要对资源包进行压缩
+通常,IA,RoseResourcepack 这些插件会自动将资源包发送给玩家
 
-推荐使用 [PackSquash](https://packsquash.aylas.org/) 进行压缩
+当然,你也可以使用自带的`server.properties` 进行分发
 
-### 下载
+### 例子
 
-前往[官网](https://packsquash.aylas.org/) 下载即可
-
-### 使用
-
-PackSquash 需要你在目录下创建配置文件`packsquash.toml`才可以使用
-
-然后向文件中写入以下内容
-
-```toml
-pack_directory = 'C:\path\to\pack(填写你的资源包所在目录)'
-```
-
-然后在当前目录运行`packsquash packsquash.toml` 即可
-
-### 其他选项
-
-:::tip
-
-这并不是所有的选项,**只列出了一些**对于新手有用的选项
-
-同时简化了一些选项表达,完整版请参考[GitHub Wiki](https://github.com/ComunidadAylas/PackSquash/wiki/Options-files)
-
-:::
-
-#### 指定输出文件位置
-
-```toml
-output_file_path = 'C:\path\to\result\pack\zip\file\my_pack.zip'
-```
-
-#### 压缩标准
-
-```toml
-zip_spec_conformance_level = 'pedantic'
-```
-
-默认取值为`pedantic`,表示完全遵循 ZIP 文件规范,所有的查看和托管都可以识别
-
-`disregard`为加料模式,包括提取保护和改进的内部 ZIP 文件结构压缩,会获得更好的性能,非常推荐
-
-:::warning
-
-并不是所有的托管和查看程序都能识别`disregard`模式的 zip 文件
-
-:::
-
-#### ZIP 混淆
-
-```toml
-size_increasing_zip_obfuscation = true
-```
-
-当使用`disregard`模式时,启用此选项将增加对生成的 ZIP
-文件进行查看、提取或篡改的保护，这会略微增加其大小。此选项不影响是否添加**不增加文件大小**的保护，并且如果ZIP标准不提供保护，则没有任何影响
-
-#### 压缩保密性
-
-```toml
-percentage_of_zip_structures_tuned_for_obfuscation_discretion = 100
-```
-
-当此选项设置为 0（最小值）时，每个 ZIP 记录将优先存储以提高压缩性。相反，当设置为 100（最大值）时，每个 ZIP
-记录将优先存储以提高保密性。其他值将结合提高保密性和压缩性。
-
-#### OGG 混淆
-
-```toml
-ogg_obfuscation = true
-two_pass_vorbis_optimization_and_validation = true
-```
-
-如果开启该选项,生成的 Ogg 文件将会被破坏,使得它们在 Minecraft 之外难以播放
-
-### FAQ
-
-#### ItemsAdder Armor 在使用 PackSquash 后无法正常工作
-
-在配置文件中添加如下内容
-
-```toml
-['**/*?.{fsh,vsh,glsl}']
-minify_shader = false
-
-['**/textures/models/armor/*?.png']
-image_data_compression_iterations = 0
-skip_alpha_optimizations = true
-color_quantization_target = 'none'
-```
-
-### 战绩
-
-对测试资源包使用 PackSquash 进行压缩,其体积从 79 MB 下降至 35 MB
-
-使用 OGG 混淆后,7 款音频播放器均无法播放(MC 内正常)
-
-使用 ZIP 混淆后,大部分 ZIP 查看器无法打开(不是合法的 ZIP 文件),仅 BandiZIP 成功解压
-
-当压缩保密性设为 100 时,所有 ZIP 查看器陨落,无人打开,测试配置文件:
-
-```toml
-zip_spec_conformance_level = 'disregard'
-size_increasing_zip_obfuscation = true
-percentage_of_zip_structures_tuned_for_obfuscation_discretion = 100
-```
-
-### 我想让客户端不要下载重复的资源包可以吗？
-
-当然可以，找到以下配置
+我们拿到 slimefun 的资源包直链地址是:
+https://github.com/xMikux/Slimefun-Resourcepack/releases/download/latest-build/Slimefun-ResourcePack.zip ，
+然后我们打开`server.properties`，找到以下内容：
 
 ```properties
-resource-pack-sha1=
+resource-pack=
 ```
 
-填入资源包的sha1就行，如果你不知道怎么生成，你可以前往 [在线网站](https://www.strerr.com/cn/sha1_file.html)
-，把你文件上传然后复制生成的哈希值到这里就可以
-
-我们以 Slimefun 为例子
+把我们刚才拿到的资源包直链放进去，现在看起来应该是这样
 
 ```properties
-resource-pack-sha1=633183ce43a0282328153e63ba6ab8788a0417164b2146db8da1b5c40c8cf411
+resource-pack=https://github.com/xMikux/Slimefun-Resourcepack/releases/download/latest-build/Slimefun-ResourcePack.zip
 ```
 
-最后整出来应该是这样子的
+然后我们再找到下面
+
+```properties
+require-resource-pack=false
+```
+
+这个值代表是否需要强制资源包，开启后，如果玩家拒绝应用这个资源包，就不让玩家进入服务器
+
+调好后，你只需要重启服务器就可以享受到资源包了
+
+:::note
+
+上面的例子链接是 GitHub 的，而国内的网络环境有时连不上 GitHub
+
+:::

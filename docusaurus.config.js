@@ -273,7 +273,7 @@ const config = {
           },
         ],
         // 底部版权信息
-        copyright: `Copyright © ${new Date().getFullYear()} <b>postyizhan</b>, All Rights Reserved.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <b>8aka-Team</b>, All Rights Reserved.`,
       },
       // 深浅主题
       prism: {
