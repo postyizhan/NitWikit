@@ -17,7 +17,7 @@ sidebar_label: 保护 - WorldGuard
 
 `文档(英文)` https://worldguard.enginehub.org/en/latest/index.html
 
-`文档(中文)` https://snowcutieowo.github.io/WorldGuard/README.html
+`文档(中文)` https://snowcutieowo.github.io/WorldGuard
 
 `插件百科` https://mineplugin.org/Worldguard
 
