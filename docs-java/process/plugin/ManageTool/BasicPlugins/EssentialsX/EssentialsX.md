@@ -90,3 +90,7 @@ Essentials插件分为两个版本：
 [Essentials MySQL Storage Extension](https://www.spigotmc.org/resources/.25673/)
 
 一个付费插件，为 Essentials 的带来了 MySQL 支持
+
+## Bstats
+
+[![](https://bstats.org/signatures/bukkit/EssentialsX.svg)](https://bstats.org/plugin/bukkit/EssentialsX/858)
