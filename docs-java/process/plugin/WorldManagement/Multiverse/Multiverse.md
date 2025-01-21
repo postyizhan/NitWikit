@@ -66,6 +66,11 @@ sidebar_label: 多世界 - Multiverse
 
 值得一提的是，在 [GitHub](https://github.com/Multiverse/Multiverse-Core/releases) 上的版本比在 SpigotMC 上能下载到的版本要新。
 
+## Folia
+
+[Multiverse-Core_Zeta](https://github.com/RenYuan-MC/Multiverse-Core_Zeta) 是 Multiverse-Core 的一个 fork,支持 Folia
+,你可以[在这](https://dl.yizhan.wiki/plugins/multiverse-core-4.3.14-zeta_folia-experimental.jar) 下载预编译版本,或自行编译
+
 ## 崩服漏洞
 
 > Fix issue where special chars cause PatternSyntaxException leading to a server crash.
