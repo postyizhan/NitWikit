@@ -72,7 +72,7 @@ sidebar_position: 2
 
 ## 更换核心
 
-- [插件端](plugin.md)
+- **[插件端](plugin.md)**
 
 这类操作几乎无感
 
@@ -80,11 +80,11 @@ sidebar_position: 2
 >
 > 如使用 Spigot 替换 Paper 或 Purpur 等
 
-- [混合端](hybrid.md)
+- **[混合端](hybrid.md)**
 
 这有待商榷，因为各个端兼容性差异较大
 
-- [Mod 端](mod.md)
+- **[Mod 端](mod.md)**
 
 这几乎不可能，你基本没有可选择的核心
 

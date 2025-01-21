@@ -21,7 +21,7 @@ sidebar_position: 1
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.50219/
+`SpigotMC` https://www.spigotmc.org/resources/.50219
 
 `GitHub` https://github.com/AuthMe/AuthMeBungee
 
@@ -39,11 +39,11 @@ sidebar_position: 1
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.81254/
+`SpigotMC` https://www.spigotmc.org/resources/.81254
 
-`GitHub` https://github.com/jpenilla/MiniMOTD/
+`Modrinth` https://modrinth.com/plugin/minimotd
 
-`modrinth` https://modrinth.com/plugin/minimotd
+`GitHub` https://github.com/jpenilla/MiniMOTD
 
 :::
 
@@ -132,13 +132,13 @@ SkinRestorer 拥有完善的 Proxy Mode 以支持在代理服与字符同时部�
 
 :::info
 
-`spigot` https://www.spigotmc.org/resources/papiproxybridge.108415/
+`Spigotmc` https://www.spigotmc.org/resources/papiproxybridge.108415/
+
+`Modrinth` https://modrinth.com/plugin/papiproxybridge
 
 `GitHub` https://github.com/WiIIiam278/PAPIProxyBridge
 
-`modrinth` https://modrinth.com/plugin/papiproxybridge
-
-`官方文档` https://william278.net/project/papiproxybridge
+`文档` https://william278.net/project/papiproxybridge
 
 :::
 

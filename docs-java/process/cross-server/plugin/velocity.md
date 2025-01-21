@@ -35,7 +35,7 @@ sidebar_position: 2
 
 :::info
 
-`modrinth` https://modrinth.com/plugin/authmevelocity
+`Modrinth` https://modrinth.com/plugin/authmevelocity
 
 `GitHub` https://github.com/4drian3d/AuthMeVelocity
 
@@ -89,7 +89,7 @@ java.lang.RuntimeException: Failed to download library
 
 `SpigotMC` https://www.spigotmc.org/resources/.94496
 
-`modrinth` https://modrinth.com/plugin/huskchat
+`Modrinth` https://modrinth.com/plugin/huskchat
 
 `GitHub` https://github.com/WiIIiam278/HuskChat
 
@@ -116,11 +116,11 @@ java.lang.RuntimeException: Failed to download library
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.115239/
-
-`GitHub` https://github.com/jonesdevelopment/sonar/
+`SpigotMC` https://www.spigotmc.org/resources/.115239
 
 `modrinth` https://modrinth.com/plugin/sonar
+
+`GitHub` https://github.com/jonesdevelopment/sonar
 
 :::
 
@@ -172,11 +172,11 @@ java.lang.RuntimeException: Failed to download library
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.57806/
+`SpigotMC` https://www.spigotmc.org/resources/.57806
+
+`Modrinth` https://modrinth.com/plugin/tab-was-taken
 
 `GitHub` https://github.com/NEZNAMY/TAB
-
-`modrinth` https://modrinth.com/plugin/tab-was-taken
 
 :::
 
@@ -208,7 +208,7 @@ _插件需要安装在代理端上，如果你在子服安装了TAB，可能会�
 
 :::info
 
-`modrinth` https://modrinth.com/plugin/signedvelocity
+`Modrinth` https://modrinth.com/plugin/signedvelocity
 
 :::
 
