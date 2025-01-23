@@ -55,3 +55,7 @@ sidebar_position: 7
 同二分法底下的提示，不只是插件问题可以用控制变量法
 
 :::
+
+## Arthas
+
+使用 Arthas 对报错进行分析,[文档](https://nitwikit.yizhan.wiki/arthas),需要拥有较强的技术力
