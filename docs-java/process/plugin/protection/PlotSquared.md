@@ -13,7 +13,7 @@ sidebar_label: 地皮 - PlotSquared
 
 `GitHub` https://github.com/IntellectualSites/PlotSquared
 
-`文档(英文)`https://www.zrips.net/residence
+`文档(英文)`https://intellectualsites.gitbook.io/plotsquared
 
 `文档(中文)`https://docs.superiormc.cn/v/plotsquared-wiki
 
