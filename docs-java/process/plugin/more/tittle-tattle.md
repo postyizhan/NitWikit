@@ -9,13 +9,35 @@ sidebar_position: 9
 
 并非如此！
 
-事实上，大多数付费插件都能找到很好的免费替代。
+事实上，大多数付费插件都能找到很好甚至更好的免费替代,比如 BetterHUD 比付费的 HappyHUD(MythicHUD) 好很多
 
 ## 插件能做的事
 
+来自 https://github.com/Godlander/objmc :
+
+![](_images/148869708-310e7ec4-7d89-40e8-8fc6-38d2e6116cb7.png)
+![](_images/155235807-250932d3-0ffd-43ca-92c8-3112df12a64e.png)
+
+来自 https://github.com/toxicity188/BetterHealthBar3 :
+
+![](_images/327982758-d0903a79-e55d-4634-babb-063af2ef0c7c.gif)
+
+来自 https://github.com/JNNGL/VanillaMinimaps :
+
+![](_images/videoframe_0.png)
+![](_images/videoframe_5048.png)
+
+来自 https://www.spigotmc.org/resources/itemframe-touchscreens-advancedgui.83636/
+
+![](_images/9d106a9197f3a7b34e5941716f48a3bb0acf76ce.gif)
+
+还有 https://github.com/TheCymaera/minecraft-spider
+
+## 插件不能做的事
+
 例如（无客户端 mod 的情况）：
 
-- 插件不能做自定义新的按键
+- 插件不能做自定义新的按键(原版仅能监听 Shift,F,Q 共四种组合)
 - 获取玩家视角（第一人称，第二人称，第三人称）
 - 不靠资源包或 mod 什么的不能修改计分板的背景
 - 不大可能检测和拦截灵魂出窍
