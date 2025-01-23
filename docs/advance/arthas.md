@@ -4,6 +4,8 @@ slug: /arthas
 sidebar_position: 7
 ---
 
+<!--markdownlint-disable line-length-->
+
 # Arthas
 
 Arthas(中文名:阿尔萨斯) 是一个 Java 诊断工具,在 Minecraft 中可以用来分析报错或追踪调用
