@@ -27,7 +27,7 @@ sidebar_position: 1
 【IA入门指南.新手必看.简洁版】
 -
 第一步：IA是基于原版的材质包框架所开发的插件，所以遵守Mojang制定的材质包规范， 如果你会材质包开发甚至不需要用到IA。如果你在使用IA时连CMD，命名空间，着色器，JSON这些最基本的内容都不知道请恶补以下内容：
-https://zhangshenxing.gitee.io/vanillamodtutorial/#%E8%B5%84%E6%BA%90%E5%8C%85
+https://zhangshenxing.github.io/VanillaModTutorial
 -
 第二步：
 使用IA官方WIKI并结合原版材质包开发产出内容，但是请注意IA内有大量无用功能和屎山代码，所以将IA当作一个打包器是最优解的选择
