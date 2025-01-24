@@ -18,7 +18,7 @@ sidebar_position: 3
       <a href="https://github.com">
         <img
           src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>GitHub</b></sub>
       </a>
@@ -69,6 +69,26 @@ GitHub界面是全英文，可以尝试安装油猴汉化插件：https://github
 
 </details>
 
+## Discord
+
+  <tr>
+    <td align="center">
+      <a href="https://discord.com">
+        <img
+          src="https://img.fastmirror.net/s/2025/01/24/67936fb558f81.png"
+          width="200px;"
+          alt=""
+        /><br /><sub><b>Discord</b></sub>
+      </a>
+    </td>
+  </tr>
+
+> https://discord.com
+
+国外开发者经常使用的聊天软件。你通常可以在 README 或 文档中找到开发者的 Discord 频道的邀请链接。
+
+得益于有中国特色的互联网环境，你需要成为哈利波特才能成功访问。
+
 ## 资源站
 
 import Tabs from '@theme/Tabs';
@@ -82,7 +102,7 @@ import TabItem from '@theme/TabItem';
       <a href="https://www.spigotmc.org/">
         <img
           src="https://static.spigotmc.org/img/spigot.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>SpigotMC</b></sub>
       </a>
@@ -115,7 +135,7 @@ SpigotMC 是目前 Minecraft 开服圈最大的插件网站，最大的问题是
       <a href="https://dev.bukkit.org/">
         <img
           src="https://minecraft.fr/wp-content/uploads/2013/05/bukkit.jpg"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>Bukkit</b></sub>
       </a>
@@ -137,7 +157,7 @@ SpigotMC 是目前 Minecraft 开服圈最大的插件网站，最大的问题是
       <a href="https://hangar.papermc.io/">
         <img
           src="https://docs.papermc.io/assets/images/papermc-logomark-512-f125384f3367cd4d9291ca983fcb7334.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>Hangar</b></sub>
       </a>
@@ -159,7 +179,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
       <a href="Modrinth">
         <img
           src="https://avatars.githubusercontent.com/u/67560307?s=280&v=4"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>Modrinth</b></sub>
       </a>
@@ -183,7 +203,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
       <a href="https://builtbybit.com/resources/categories/minecraft-plugins.1">
         <img
           src="https://raw.githubusercontent.com/swanis/builtbybit-java-api-wrapper/main/assets/icon-blue.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>Builtbybit</b></sub>
       </a>
@@ -211,7 +231,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
       <a href="https://polymart.org">
         <img
           src="https://img.fastmirror.net/s/2024/11/16/673815d815a3c.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>Polymart</b></sub>
       </a>
@@ -235,7 +255,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
       <a href="https://www.minebbs.com/">
         <img
           src="https://www.minebbs.com/data/assets/logo/mb-logo-blue-1x.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>MineBBS</b></sub>
       </a>
@@ -257,7 +277,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
       <a href="https://www.mcbbs.co">
         <img
           src="https://img.fastmirror.net/s/2024/11/15/67373333d67e6.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>MCBBS</b></sub>
       </a>
@@ -283,7 +303,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
       <a href="https://www.pixelbbs.cn">
         <img
           src="https://www.pixelbbs.cn/template/quater_2023_dji/src/Pixelbbs.gif"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>PixelBBS</b></sub>
       </a>
@@ -296,7 +316,7 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
 交易前查询下这人有没有被记录过，被记录过就别交易了。如果你被骗了，搜集证据去发个帖，给大家避个雷。
 
-能为你避开 90% 诈骗坑的[防骗小技巧](https://www.pixelbbs.cn/t-1377-1-1.html)。
+能为你避开 90% 诈骗坑的 [防骗小技巧](https://www.pixelbbs.cn/t-1377-1-1.html)。
 
   </TabItem>
 
@@ -308,7 +328,17 @@ PaperMC 的现代化的插件平台，目前正在 Beta 阶段，插件相对较
 
   <TabItem value="mcmod" label="MCmod">
 
-![](https://img.fastmirror.net/s/2024/10/01/66fbe12c6bb07.png)
+  <tr>
+    <td align="center">
+      <a href="https://www.mcmod.cn">
+        <img
+          src="https://img.fastmirror.net/s/2024/10/01/66fbe12c6bb07.png"
+          width="200px;"
+          alt=""
+        /><br /><sub><b>MCmod</b></sub>
+      </a>
+    </td>
+  </tr>
 
 > https://www.mcmod.cn
 
@@ -339,7 +369,7 @@ DecentHolograms 插件统计：
       <a href="https://www.minebbs.com/">
         <img
           src="https://minecraft.tools/en/css/img/logo.png"
-          width="100px;"
+          width="200px;"
           alt=""
         /><br /><sub><b>Minecraft tools</b></sub>
       </a>
