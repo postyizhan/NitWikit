@@ -53,7 +53,7 @@ sidebar_position: 1
 
 ### 笨蛋脚本
 
-下载此 [脚本](https://dl.yizhan.wiki/windows-latest/auto-install-depend.exe)，我们会为你安装常用插件(自动)。
+下载此 [脚本](https://script.yizhan.wiki/auto-install-depend)，我们会为你安装常用插件(自动)。
 
 <details>
   <summary>安装的插件列表</summary>

@@ -81,7 +81,7 @@ Via* 插件剔除了 Java8 支持，这导致你不能在更低的服务端版�
 
 ## 笨蛋脚本
 
-[下载](https://dl.yizhan.wiki/windows-latest/via-setup.exe)，为你自动配置 Via
+[下载](https://script.yizhan.wiki/via-setup)，为你自动配置 Via
 
 ## FAQ
 

@@ -153,13 +153,13 @@ GitHub：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
 ## ViaBackwards
 
-如果你在你的服务器使用了跨版本插件(Viaversion)，你需要开启这个选项以增加反作弊对其他版本的兼容性。
+如果你在你的服务器使用了跨版本插件(ViaVersion)，你需要开启这个选项以增加反作弊对其他版本的兼容性。
 
 打开 `ViaBackwards/config.yml` ，找到 `handle-pings-as-inv-acknowledgements` 配置项，把它改成 `true` 就可以增加对反作弊的兼容性
 
 ## 笨蛋脚本
 
-[自动为你配置反作弊，下载!](https://dl.yizhan.wiki/windows-latest/config-anticheat.exe)
+[自动为你配置反作弊，下载!](https://script.yizhan.wiki/config-anticheat)
 
 ## 组合反作弊
 

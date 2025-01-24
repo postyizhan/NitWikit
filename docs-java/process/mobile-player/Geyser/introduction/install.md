@@ -256,7 +256,7 @@ send-floodgate-data: true
 
 ## 笨蛋脚本
 
-下载[脚本](https://dl.yizhan.wiki/windows-latest/geyser-egg.exe)，为你自动生成 Geyser 环境，免于配置
+下载[脚本](https://script.yizhan.wiki/geyser-egg)，为你自动生成 Geyser 环境，免于配置
 
 即使不用配置，你仍然需要看完 wiki，**明白你在做什么**
 
