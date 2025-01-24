@@ -14,8 +14,8 @@ sidebar_label: 大厅插件
 - 关闭伤害
 - 二段跳
 - 物品栏菜单
-- 掉虚空返回
-- 阻止丢出物品
+- 虚空传送
+- 阻止丢出&拾取物品
 
 import DocCardList from '@theme/DocCardList';
 
