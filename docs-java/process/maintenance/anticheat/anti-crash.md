@@ -1,8 +1,9 @@
 ---
-title: 如何预防崩服
+title: 预防崩服
+sidebar_position: 5
 ---
 
-# 如何预防崩服问题
+# 预防崩服
 
 会有部分不怀好意的人去测试服务器的崩溃漏洞。
 
@@ -75,8 +76,50 @@ title: 如何预防崩服
 
 ### 发包类/物品类(也称原版漏洞)
 
+:::tip
+
+防御原版漏洞最好的方法永远是将你的服务端核心**更新到最新版**
+
+以下解决方案大部分都是为非最新版本提供的,有些特殊的在最新版本也能生效
+
+:::
+
 简单来说，就是向服务器发送一些无法处理/处理缓慢的包。
 
 如经典的Book崩服/告示牌崩服(高版本已修复)
 
-这类如果你是低版本服务器，就需要安装相应的插件进行防御。
+这类如果你是低版本服务器，就需要安装相应的插件进行防御,以下是一些推荐的插件,推荐以下四个插件一起安装
+
+#### AnarchyExploitFixes(免费)
+
+[下载地址](https://github.com/xGinko/AnarchyExploitFixes/releases),一个 Minecraft 原版漏洞的修复插件
+例如非法物品,无效游戏名
+
+:::tip
+
+该插件会破坏原版的一些特性,比如不可以破坏末地传送门,当然可以关闭
+
+:::
+
+#### LPX (付费)
+
+[购买地址](https://builtbybit.com/resources/lpx-antipacketexploit.15709/),准确来说,LPX 防御的不是原版漏洞,而是防止攻击者使用特殊的包让
+Netty 处理超时(NettyCrashers),虽然不会崩服,但会严重影响玩家游戏体验
+
+这个插件在最新版本依旧有用
+
+#### Panilla (付费开源)
+
+[购买地址](https://www.spigotmc.org/resources/panilla-prevent-hacked-items.65694/)(被标为 inactive 是因为换维护者了,还没通知 Spigot),[GitHub](https://github.com/ds58/Panilla)
+
+Panilla 主要是用于防止服务器上滥用 NBT 和数据包的插件,禁用了一些生存模式下无法获得的东西,修复了一些漏洞,该插件不仅可以预防服务器崩溃,还可预防非法 NBT 导致客户端崩溃
+
+:::warning
+
+有服主反映说 Panilla 会影响潜影盒中的物品(物品消失),所以在安装到生产服务器前请**测试**
+
+:::
+
+#### Surf (免费)
+
+[下载地址](https://github.com/Winds-Studio/Surf/releases),Surf 修复了很多 Minecraft 漏洞,同时支持 Folia
