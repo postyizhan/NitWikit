@@ -15,7 +15,8 @@ sidebar_position: 6
 
 :::warning[特别说明]
 
-我们在这里列出的不建议使用的插件是一个类型的插件，而不是仅仅只是不推荐某个插件. 对于推荐的"优化插件"，其实大多数也是通过限制红石/漏斗/实体数量和AI等完成的，
+我们在这里列出的不建议使用的插件是一个类型的插件，而不是仅仅只是不推荐某个插件. 对于推荐的"优化插件"
+，其实大多数也是通过限制红石/漏斗/实体数量和AI等完成的，
 
 在狭义上任何使用插件操作限制任何东西都不能称之为"*优化*"而是"*限制*"，这里只是以"*优化插件*"代指一些"*限制插件*".
 
@@ -49,7 +50,8 @@ sidebar_position: 6
 
 因此，停止使用类似插件，如:
 
-*LaggRemover (Fork) - 有时候会导致即使插件卸载，实体 AI 也被移除了，比不上 Pufferfish(使用 Purpur Fork即可)根据距离衰减的 AI.*
+*LaggRemover (Fork) - 有时候会导致即使插件卸载，实体 AI 也被移除了，比不上 Pufferfish(使用 Purpur Fork即可)根据距离衰减的
+AI.*
 
 ### 任何对于内存 GC 进行操作的插件
 
@@ -61,7 +63,8 @@ sidebar_position: 6
 
 ### 村民优化插件
 
-村民非常吃性能，如果只需要保留公用交易性质可以使用 [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/) 插件创建无 AI 的村民，
+村民非常吃性能，如果只需要保留公用交易性质可以使用 [Shopkeepers](https://www.spigotmc.org/resources/shopkeepers.80756/)
+插件创建无 AI 的村民，
 
 如果你想保留村民和 AI 只需要在 `purpur.yml` 中搜索 lobotomize 启用即可，
 
@@ -96,7 +99,8 @@ sidebar_position: 6
 
 因此，停止使用类似插件，如:
 
-*[StackMob](https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance-without-the-sacrifice.29999/) - 实体密集时进行堆叠的插件(若一定要使用仍推荐本插件而不是其他堆叠插件)*
+*[StackMob](https://www.spigotmc.org/resources/stackmob-enhance-your-servers-performance-without-the-sacrifice.29999/) -
+实体密集时进行堆叠的插件(若一定要使用仍推荐本插件而不是其他堆叠插件)*
 
 其实叠加后的一小段时间，应该是占用下降的，但是服务器会因为实际的实体变少，重新刷新怪物，这会让占用缓慢恢复。
 
@@ -140,17 +144,24 @@ Paper 酱为你在 `/config/paper-world-default.yml` 中准备了爆炸优化。
 <details>
   <summary>为什么不要用这个插件</summary>
 
-1. ChunkAnalyser - 简单的搜索世界的红石，漏斗，实体之类，有很多平替插件如 [Insights](https://modrinth.com/plugin/insights)/ [Entitydetection](https://www.spigotmc.org/resources/entitydetection-tile-entity-support.20588/)；
+1. ChunkAnalyser -
+   简单的搜索世界的红石，漏斗，实体之类，有很多平替插件如 [Insights](https://modrinth.com/plugin/insights)/ [Entitydetection](https://www.spigotmc.org/resources/entitydetection-tile-entity-support.20588/)；
 
 2. LagMonitor，LagMap，Benchmark - 很鸡肋的性能检测(不如 [Spark](performance-analysis.md#spark) )；
 
-3. RedstoneCuller - 直接破坏红石机器，平替插件 [AntiRedstoneClock](https://hangar.papermc.io/OneLiteFeather/AntiRedstoneClock-Remastered?fbclid=IwAR0sVVd50oTgHd9UVJJ7C8dTyL3PiVIBaJtpT6NyMy_D2T2Ho0umzrqtaDw)；
+3. RedstoneCuller -
+   直接破坏红石机器，平替插件 [AntiRedstoneClock](https://hangar.papermc.io/OneLiteFeather/AntiRedstoneClock-Remastered)；
 
-4. ChunkHoppers - 有专门的区块漏斗插件如 [UpgradeableHoppers](https://www.spigotmc.org/resources/upgradeable-hoppers-%E2%AD%95-fast-hopper-plugin-link-containers-%E2%9C%85-item-transfer-suction-chunk-1-20-sup.69201/)，体验远好于此插件；
+4. ChunkHoppers -
+   有专门的区块漏斗插件如 [UpgradeableHoppers](https://www.spigotmc.org/resources/upgradeable-hoppers-%E2%AD%95-fast-hopper-plugin-link-containers-%E2%9C%85-item-transfer-suction-chunk-1-20-sup.69201/)
+   ，体验远好于此插件；
 
-5. ChunkLimiter - 平替插件 [Farmcontrol](https://www.spigotmc.org/resources/farmcontrol-1-15-1-19.86923/) / [Mob-Farm-Manager](https://www.spigotmc.org/resources/mob-farm-manager-supports-1-7-10-up-to-1-20-hopper-support.15127/)，甚至更多配置项；
+5. ChunkLimiter -
+   平替插件 [Farmcontrol](https://www.spigotmc.org/resources/farmcontrol-1-15-1-19.86923/) / [Mob-Farm-Manager](https://www.spigotmc.org/resources/mob-farm-manager-supports-1-7-10-up-to-1-20-hopper-support.15127/)
+   ，甚至更多配置项；
 
-6. Dynamic View Distance - 平替插件 [View-distance-tweaks](https://www.spigotmc.org/resources/view-distance-tweaks.75164/)；
+6. Dynamic View Distance -
+   平替插件 [View-distance-tweaks](https://www.spigotmc.org/resources/view-distance-tweaks.75164/)；
 
 总之每个所谓优化都是槽点，插件占用的性能多于"优化"的性能，请不要继续使用了。
 
@@ -188,6 +199,15 @@ Paper 酱为你在 `/config/paper-world-default.yml` 中准备了爆炸优化。
 
 ## 有用的~~优化~~限制插件
 
+:::warning 红石限制?
+
+目前,市面上的红石限制插件限制红石的方式都是通过破坏或停用实现的
+
+一项国外的玩家调查表明,82% 的玩家不喜欢自己的机器被破坏,所以最好的方法是建立服规
+,通过 Insights 查明卡服的红石区域
+
+:::
+
 ### FarmControl
 
 主要是降低超大或超高密度的生物养殖
@@ -203,7 +223,8 @@ Paper 酱为你在 `/config/paper-world-default.yml` 中准备了爆炸优化。
 
 ### OkTreasures
 
-原版 Minecraft 有一个错误，即埋藏的寻宝速度非常慢，有时会冻结你的游戏。这也发生在多人游戏中，如果有人打开埋藏的宝藏搜索，服务器有时会崩溃。并且很难发现真正的错误，从 Minecraft 1.20.1 开始，这还没有修复。
+原版 Minecraft 有一个错误，即埋藏的寻宝速度非常慢，有时会冻结你的游戏。这也发生在多人游戏中，如果有人打开埋藏的宝藏搜索，服务器有时会崩溃。并且很难发现真正的错误，从
+Minecraft 1.20.1 开始，这还没有修复。
 
 这个插件通过用一个自定义的、更快、更简单的搜索替换原版埋藏的寻宝来修复这些类型的崩溃：它只是在合理的距离内随机选择一个海滩并将宝藏放在那里。由于这主要是异步的，因此不会导致延迟。
 
