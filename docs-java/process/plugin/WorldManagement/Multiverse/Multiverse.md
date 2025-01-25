@@ -9,16 +9,16 @@ sidebar_label: 多世界 - Multiverse
 ![](_images/multiverse2-long.png)
 
 <a href="https://modrinth.com/plugin/multiverse-core">
-  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg" class="stylish-image" alt="Modrinth" />
+  <img src="https://cdn.jsdmirror.cn/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg" class="stylish-image" alt="Modrinth" />
 </a>
 <a href="https://hangar.papermc.io/Multiverse/Multiverse-Core">
-  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/hangar_vector.svg" class="stylish-image" alt="Hangar" />
+  <img src="https://cdn.jsdmirror.cn/npm/@intergrav/devins-badges@3/assets/cozy/available/hangar_vector.svg" class="stylish-image" alt="Hangar" />
 </a>
 <a href="https://dev.bukkit.org/projects/multiverse-core">
-  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/bukkit_vector.svg" class="stylish-image" alt="Bukkit" />
+  <img src="https://cdn.jsdmirror.cn/npm/@intergrav/devins-badges@3/assets/cozy/supported/bukkit_vector.svg" class="stylish-image" alt="Bukkit" />
 </a>
 <a href="https://www.spigotmc.org/resources/multiverse-core.390">
-  <img src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/supported/spigot_vector.svg" class="stylish-image" alt="Spigot" />
+  <img src="https://cdn.jsdmirror.cn/npm/@intergrav/devins-badges@3/assets/cozy/supported/spigot_vector.svg" class="stylish-image" alt="Spigot" />
 </a>
 <a href="https://github.com/DecentSoftware-eu/DecentHolograms/releases">
   <img src="https://img.shields.io/github/v/release/Multiverse/Multiverse-Core" class="stylish-image" alt="Release" />

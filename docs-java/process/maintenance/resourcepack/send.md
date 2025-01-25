@@ -57,10 +57,11 @@ import TabItem from '@theme/TabItem';
 - 免费
 - 速度可以
 - 稳定
+- 支持多种文件格式,不止 ZIP
 
 **劣势**：
 
-- 好像没有
+- 注册要开梯子
 
 </TabItem>
 <TabItem value="mcpack" label="MCPacks(免登录)">
