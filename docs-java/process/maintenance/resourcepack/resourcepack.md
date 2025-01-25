@@ -65,44 +65,6 @@ slug: /resourcepack
 
 这都是原版资源包能做到的东西，ia 只是一个打包器，你有能力甚至可以自己手搓材质包。
 
-## 材质包相关工具
-
-我发现的和材质包相关的工具
-
-### tooltip
-
-发现一个整 tooltip 的妙妙工具
-
-![](_images/tooltip1.png)
-
-![](_images/tooltip2.png)
-
-https://github.com/Godlander/tooltip
-
-### Minecraft Title Generator
-
-一个用来整服务器 title 的 blockbench 插件
-
-![](_images/title.png)
-
-https://www.blockbench.net/plugins/minecraft_title_generator
-
-### 2D head
-
-2D的和占四格的头颅，可以使用皮肤
-
-![](_images/head.png)
-
-https://www.spigotmc.org/resources/.99121/
-
-### emojis
-
-驿站的表情包配置
-
-![](https://www.minebbs.com/attachments/emojis_bilibili-png.75165/)
-
-https://www.minebbs.com/resources/emojis-itemsadder.9045/
-
 ## 注意
 
 JAVA 版的资源包分发与基岩版不同，它是云分发的，提供给客户端的应该是一个**直链**，而不是资源包本身

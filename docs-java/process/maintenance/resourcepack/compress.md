@@ -1,6 +1,6 @@
 ---
 title: 压缩&混淆
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # 压缩&混淆

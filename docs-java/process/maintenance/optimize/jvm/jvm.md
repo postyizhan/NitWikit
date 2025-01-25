@@ -14,7 +14,7 @@ slug: /optimize/jvm
 
 ```mermaid
 flowchart TD
-    A[选择] 
+    A[选择]
     A --> Java8
     A --> Java11
     A --> Java21
@@ -136,7 +136,7 @@ OpenJ9 有认证版和非认证版，主要是因为和 OpenJ9 的关系和操�
 
 ```mermaid
 flowchart TD
-    A[选择] 
+    A[选择]
     A --> B[机器配置足够，起步4h8g，推荐8h8g]
     A --> 机器配置不达标
     B --> C[Java 21+，或Dragonwell 11]
