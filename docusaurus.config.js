@@ -22,7 +22,7 @@ const config = {
     tagline: '一群笨蛋编写的 Minecraft 开服教程',
     favicon: 'img/favicon.ico',
 
-    url: 'https://nitwikit.yizhan.wiki',
+    url: 'https://nitwikit.8aka.org',
 
     baseUrl: '/',
 
