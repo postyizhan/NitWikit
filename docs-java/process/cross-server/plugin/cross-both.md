@@ -59,12 +59,12 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="bad" label="坏处*">
 
-由于 Velocity/BungeeCord 本身即设计为可以沟通多个不同版本服务器的代理端解决方案，因此虽然 ViaVersion 系列能够安装在代理端上，但是**强烈不建议直接在代理上使用 ViaVersion**。如果你执意这么做，请做好以下心理准备：
+    由于 Velocity/BungeeCord 本身即设计为可以沟通多个不同版本服务器的代理端解决方案，因此虽然 ViaVersion 系列能够安装在代理端上，但是**强烈不建议直接在代理上使用 ViaVersion**。如果你执意这么做，请做好以下心理准备：
 
-* 反作弊插件不生效。
-* 核心数据包处理出现大量异常。
-* 代理端性能下降。
-* 你不会获得因使用 ViaVersion 导致问题的任何技术支持。
+    * 反作弊插件误判。
+    * 核心数据包处理出现大量异常。
+    * 代理端性能下降。
+    * 你不会获得因使用 ViaVersion 导致问题的任何技术支持。
 
   </TabItem>
 </Tabs>
