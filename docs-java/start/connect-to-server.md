@@ -76,3 +76,57 @@ server-port=25565
 ### 我没公网
 
 查看 [内网穿透](https://nitwikit.yizhan.wiki/process/deploy/intranet-penetration) 部分，按照上面的教程把你的端口映射出去
+
+## 常见错误
+
+这些都是连接 Minecraft 服务器时常见的问题
+
+- `Unknown host / 未知的主机`
+
+1.检查你有没有打错域名
+
+2.如果你刚刚更改 DNS 解析，等一会儿再试(或者 CMD 执行`ipconfig /flushdns` 试试)
+
+3.你的域名可能被DNS污染,你可以检查实际解析出来的IP和设置的是否一致,不一致就是被污染了,临时解决方案是更改 DNS
+服务器,长远来看最好打开 DNSSEC
+
+- `数据流终止`
+
+这个报错已经不多见,通常来说是运营商干的,比如早期网通和电信,海外流量过境有时会被 GFW 阻断也可能产生此错误
+
+- `Connection timed out / 连接超时`
+
+1.检查你有没有打错域名
+
+2.检查网络状况(可以试试 ping 服务器,超时就是网的问题)
+
+3.如果使用 FRP,检查 frp 的配置文件是否正确
+
+- `Invalid characters in username/ 用户名包含无效字符`
+
+用户使用了非 Minecraft 原班允许的用户名进入服务器,可以安装 CnUsername 来解决
+
+- `Flying is not enabled on this server/ 此服务器未启用飞行`
+
+打开 server.properties 文件，把 `allow-flight` 设置为 `true` 然后重启服务器
+
+- `You are sending too many packets!/ 由于超出数据包速率限制而被踢出游戏`
+
+一般是开连点器导致的,你可以在`paper-global.yml`中调整`packet-limiter`中的`max-packet-rate`,跳大即可
+
+如果使用了 ViaVersion,也需要跳大配置文件中的`max-pps`和`tracking-warning-pps`值
+
+- `忽略状态请求` 没遇到过这个问题
+- `java.io.IOException: Connection reset by peer`
+
+网络太差
+
+-`无效会话`
+
+没有使用正版登录进入正版服务器,也可以关闭`online-mode`来解决
+
+- `身份验证服务器目前处于宕机状态。请稍后再试，抱歉`
+
+Mojang 的验证服务器去维护了,或者自己网络太差,连接不上,可以安装 [AlwaysOnline](https://modrinth.com/plugin/alwaysonlineplugin) 来解决
+
+More and More TODO
