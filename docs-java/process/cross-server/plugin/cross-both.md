@@ -88,10 +88,10 @@ import TabItem from '@theme/TabItem';
 
   <TabItem value="bad" label="坏处*">
 
-- 大部分反作弊可能并未兼容。
-- 基岩版 UI 可能无法使用
-- 不方便单端判断 BE 玩家
-- 其他的潜在问题……
+    - 大部分反作弊可能并未兼容。
+    - 基岩版 UI 可能无法使用
+    - 不方便单端判断 BE 玩家
+    - 其他的潜在问题……
 
   </TabItem>
 </Tabs>
