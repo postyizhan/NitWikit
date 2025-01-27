@@ -5,6 +5,8 @@ sidebar_position: 5
 
 # BetterHUD
 
+<!--markdownlint-disable line-length-->
+
 ![](https://gitee.com/postyizhan/images-hosting/releases/download/BetterHud/BetterHud_1.gif)
 
 <div align="center">
