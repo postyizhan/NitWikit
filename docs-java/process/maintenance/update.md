@@ -37,4 +37,4 @@ java -Xms2G -Xmx2G -jar server.jar --nogui --forceUpgrade
 
 然后启动服务端，等待转换完成，**不要进入服务器或操作服务器**，这是非常危险的，可能会**直接废档**
 
-转换完后，删掉`--forceUpgrade`在启动就可以了
+转换完后，删掉 `--forceUpgrade` 再启动就可以了
