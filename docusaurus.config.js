@@ -147,6 +147,7 @@ const config = {
             metadata: [
                 {name: '开服教程', content: '一群笨蛋编写的 Minecraft 开服教程'},
                 {name: 'MC教程', content: '一群笨蛋编写的 Minecraft 开服教程'},
+                {name: 'baidu-site-verification', content: 'codeva-POvxxO9Mk4'},
             ],
             navbar: {
                 title: 'NitWikit',
