@@ -31,7 +31,7 @@ lp verbose <on|record|off|upload> [filter]
 
 打开 Luckperms 的详细日志：
 
-```
+```text
 /lp verbose on
 ```
 
