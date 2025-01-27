@@ -20,6 +20,7 @@ sidebar_label: 多世界 - Multiverse
 <a href="https://www.spigotmc.org/resources/multiverse-core.390">
   <img src="https://cdn.jsdmirror.cn/npm/@intergrav/devins-badges@3/assets/cozy/supported/spigot_vector.svg" class="stylish-image" alt="Spigot" />
 </a>
+
 <a href="https://github.com/DecentSoftware-eu/DecentHolograms/releases">
   <img src="https://img.shields.io/github/v/release/Multiverse/Multiverse-Core" class="stylish-image" alt="Release" />
 </a>
