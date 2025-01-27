@@ -15,7 +15,11 @@ sidebar_position: 2
 
 `SpigotMC` https://www.spigotmc.org/resources/.81254
 
+`Hangar` https://hangar.papermc.io/jmp/MiniMOTD
+
 `Modrinth` https://modrinth.com/plugin/minimotd
+
+`MineBBS` https://www.minebbs.com/resources/.7238
 
 `GitHub` https://github.com/jpenilla/MiniMOTD
 
@@ -50,7 +54,7 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-见 [此处](/docs-java/process/plugin/other/Via/Via.md)
+见 [插件 | ViaVersion](/docs-java/process/plugin/other/Via/Via.md)
 
 :::
 
@@ -85,7 +89,7 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-见 [此处](/docs-java/process/mobile-player/Geyser/introduction/overview.md)
+见 [插件 | Geyser](/docs-java/process/mobile-player/Geyser/introduction/overview.md)
 
 :::
 
@@ -150,7 +154,7 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.55011/
+`SpigotMC` https://www.spigotmc.org/resources/.55011
 
 `GitHub` https://github.com/BGHDDevelopment/PlayerBalancer
 
@@ -184,11 +188,7 @@ TODO
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.57806
-
-`Modrinth` https://modrinth.com/plugin/tab-was-taken
-
-`GitHub` https://github.com/NEZNAMY/TAB
+见 [插件 | TAB](/docs-java/process/plugin/other/TAB&Scoreboard/TAB.md)
 
 :::
 

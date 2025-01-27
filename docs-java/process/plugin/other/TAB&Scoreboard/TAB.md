@@ -136,9 +136,11 @@ https://github.com/NEZNAMY/TAB/wiki/Developer-API
 
 `SpigotMC` https://www.spigotmc.org/resources/.57806
 
-`GitHub` https://github.com/NEZNAMY/TAB
-
 `Modrinth` https://modrinth.com/plugin/tab-was-taken
+
+`MineBBS` https://www.minebbs.com/resources/.9057
+
+`GitHub` https://github.com/NEZNAMY/TAB
 
 `文档(英文)` https://github.com/NEZNAMY/TAB/wiki
 

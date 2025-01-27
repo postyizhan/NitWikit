@@ -13,7 +13,9 @@ sidebar_position: 1
 
 `SpigotMC` https://www.spigotmc.org/resources/.115239
 
-`modrinth` https://modrinth.com/plugin/sonar
+`Modrinth` https://modrinth.com/plugin/sonar
+
+`MineBBS` https://www.minebbs.com/resources/.8533
 
 `GitHub` https://github.com/jonesdevelopment/sonar
 
@@ -47,9 +49,6 @@ sidebar_position: 1
 <a href="">
   <img src="https://img.shields.io/badge/BungeeCord-orange?&style=flat-square" class="stylish-image" alt="BungeeCord" />
 </a>
-<a href="">
-  <img src="https://img.shields.io/badge/Velocity-blue?&style=flat-square" class="stylish-image" alt="Velocity" />
-</a>
 
 这是 BungeeCord 版本的 AuthMe 。如果你的登录服使用 AuthMe 登录，请务必在 BungeeCord 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
 
@@ -66,9 +65,6 @@ sidebar_position: 1
 :::
 
 核心支持：
-<a href="">
-  <img src="https://img.shields.io/badge/BungeeCord-orange?&style=flat-square" class="stylish-image" alt="BungeeCord" />
-</a>
 <a href="">
   <img src="https://img.shields.io/badge/Velocity-blue?&style=flat-square" class="stylish-image" alt="Velocity" />
 </a>
