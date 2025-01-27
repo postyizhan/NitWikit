@@ -19,7 +19,13 @@ sidebar_position: 1
 
 :::
 
-核心支持：![](https://img.shields.io/badge/BungeeCord-orange?&style=flat-square) ![](https://img.shields.io/badge/Velocity-blue?&style=flat-square)
+核心支持：
+<a href="">
+  <img src="https://img.shields.io/badge/BungeeCord-orange?&style=flat-square" class="stylish-image" alt="BungeeCord" />
+</a>
+<a href="">
+  <img src="https://img.shields.io/badge/Velocity-blue?&style=flat-square" class="stylish-image" alt="Velocity" />
+</a>
 
 一款轻量级的反假人插件，能够有效的防止大部分假人进入你的服务器。
 
@@ -37,7 +43,13 @@ sidebar_position: 1
 
 :::
 
-核心支持：![](https://img.shields.io/badge/BungeeCord-orange?&style=flat-square) ![](https://img.shields.io/badge/Velocity-blue?&style=flat-square)
+核心支持：
+<a href="">
+  <img src="https://img.shields.io/badge/BungeeCord-orange?&style=flat-square" class="stylish-image" alt="BungeeCord" />
+</a>
+<a href="">
+  <img src="https://img.shields.io/badge/Velocity-blue?&style=flat-square" class="stylish-image" alt="Velocity" />
+</a>
 
 这是 BungeeCord 版本的 AuthMe 。如果你的登录服使用 AuthMe 登录，请务必在 BungeeCord 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
 
@@ -53,7 +65,13 @@ sidebar_position: 1
 
 :::
 
-核心支持：![](https://img.shields.io/badge/BungeeCord-orange?&style=flat-square) ![](https://img.shields.io/badge/Velocity-blue?&style=flat-square)
+核心支持：
+<a href="">
+  <img src="https://img.shields.io/badge/BungeeCord-orange?&style=flat-square" class="stylish-image" alt="BungeeCord" />
+</a>
+<a href="">
+  <img src="https://img.shields.io/badge/Velocity-blue?&style=flat-square" class="stylish-image" alt="Velocity" />
+</a>
 
 这是 Velocity 版本的 AuthMe 。如果你的登录服使用 AuthMe 登录，请务必在 Velocity 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
 
@@ -107,7 +125,10 @@ java.lang.RuntimeException: Failed to download library
 
 :::
 
-核心支持：![](https://img.shields.io/badge/Velocity-blue?&style=flat-square)
+核心支持：
+<a href="">
+  <img src="https://img.shields.io/badge/Velocity-blue?&style=flat-square" class="stylish-image" alt="Velocity" />
+</a>
 
 一个简单的 `/lobby` `/hub` 插件
 
@@ -119,6 +140,9 @@ java.lang.RuntimeException: Failed to download library
 
 :::
 
-核心支持：![](https://img.shields.io/badge/Velocity-blue?&style=flat-square)
+核心支持：
+<a href="">
+  <img src="https://img.shields.io/badge/Velocity-blue?&style=flat-square" class="stylish-image" alt="Velocity" />
+</a>
 
 一个不错的登录插件。

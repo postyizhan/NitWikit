@@ -1,6 +1,6 @@
 ---
 title: 只安装在子服
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # 只安装在子服
