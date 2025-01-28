@@ -164,7 +164,7 @@ menus:
 
 ## 注意事项
 
-基岩版菜单中的图片**必须**是 URL,而不是资源包,你可以使用[笨蛋图床](https://image.yizhan.wiki)上传你的图片
+基岩版菜单中的图片**必须**是 URL,而不是资源包,你可以使用[笨蛋图床](https://image.8aka.org)上传你的图片
 
 ## NPC Form
 

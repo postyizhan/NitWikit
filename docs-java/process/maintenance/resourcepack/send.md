@@ -28,7 +28,7 @@ RoseResourcepack 是一个强大的资源包管理插件,拥有许多很好的�
 
 [下载地址](https://www.spigotmc.org/resources/roseresourcepack-easy-auto-hosting-for-a-unique-pack.107483/)
 
-[中文文档](https://plugins.yizhan.wiki/ShortDoc/RoseResourcepack/)
+[中文文档](https://plugins.8aka.org/ShortDoc/RoseResourcepack/)
 
 ### ItemsAdder
 

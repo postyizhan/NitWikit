@@ -105,7 +105,7 @@ sidebar_position: 5
 
 `文档(英文)` https://github.com/toxicity188/BetterHud/wiki
 
-`文档(中文)` https://plugins.yizhan.wiki/BetterHud/intro
+`文档(中文)` https://plugins.8aka.org/BetterHud/intro
 
 :::
 

@@ -159,7 +159,7 @@ GitHub：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
 ## 笨蛋脚本
 
-[自动为你配置反作弊，下载!](https://script.yizhan.wiki/config-anticheat)
+[自动为你配置反作弊，下载!](https://script.8aka.org/config-anticheat)
 
 ## 组合反作弊
 

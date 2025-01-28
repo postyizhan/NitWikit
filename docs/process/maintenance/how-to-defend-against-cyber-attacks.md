@@ -194,7 +194,7 @@ connection_throttle_limit: 3
 
 ### 付费防御核心
 
-如果你非常有钱，你可以打开跨服端[核心选择](https://nitwikit.yizhan.wiki/Java/process/cross-server/server-core-choose)，选择那些付费的跨服端核心，
+如果你非常有钱，你可以打开跨服端[核心选择](https://nitwikit.8aka.org/Java/process/cross-server/server-core-choose)，选择那些付费的跨服端核心，
 NullCordX 是一个较好的选择。
 
 但在没有想好的情况下，**不建议为反假人付费**。

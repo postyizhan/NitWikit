@@ -6,4 +6,4 @@ sidebar_position: 5
 
 # 笨蛋服务
 
-请见 [通用 | 笨蛋服务](https://nitwikit.yizhan.wiki/services)
+请见 [通用 | 笨蛋服务](https://nitwikit.8aka.org/services)

@@ -129,7 +129,7 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 #### 笨蛋脚本
 
-使用此[脚本](https://script.yizhan.wiki/update-log)，
+使用此[脚本](https://script.8aka.org/update-log)，
 会将日志自动上传到 `https://mclo.gs` (默认上传的日志是 `logs/latest.log`)
 
 #### 如何上传
@@ -199,7 +199,7 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 **经典如何提问: https://settingdust.gitbook.io/stop-ask-questions-the-stupid-ways/**
 
-<a href="https://www.yizhan.wiki/qq">
+<a href="https://www.8aka.org/qq">
   <img src="https://raw.githubusercontent.com/8aka-Team/NitWikit/refs/heads/main/docs/_images/qqgroupshield.svg" alt="QQ群"></img>
 </a>
 

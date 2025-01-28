@@ -9,9 +9,9 @@ sidebar_position: 5
 
 ### 1. 安装JDK
 1. **Windows**：
-   - 从[JDK选择](https://nitwikit.yizhan.wiki/preparation/java/choose-and-download-and-install-java)选择并下载jdk
+   - 从[JDK选择](https://nitwikit.8aka.org/preparation/java/choose-and-download-and-install-java)选择并下载jdk
    - 按照提示完成安装
-   - 配置[环境变量](https://nitwikit.yizhan.wiki/preparation/java/environment)
+   - 配置[环境变量](https://nitwikit.8aka.org/preparation/java/environment)
    - 验证安装：
      1. 按 `Win + R`，输入 `cmd` 打开终端
      2. 输入 `java -version`
@@ -42,7 +42,7 @@ sidebar_position: 5
      1. 访问[Maven官网](https://maven.apache.org/download.cgi)下载最新版本
      2. 下载 `apache-maven-x.x.x-bin.zip`（x.x.x是版本号）
      3. 解压到合适位置（建议：`C:\Program Files\Apache\maven`）
-     4. 配置[环境变量](https://nitwikit.yizhan.wiki/preparation/java/environment)：
+     4. 配置[环境变量](https://nitwikit.8aka.org/preparation/java/environment)：
         - 新建系统变量 `MAVEN_HOME`，值为Maven解压目录
         - 在 `Path` 变量末尾添加 `;%MAVEN_HOME%\bin`
      5. 验证安装：
