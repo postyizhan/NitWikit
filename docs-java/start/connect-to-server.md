@@ -81,7 +81,7 @@ server-port=25565
 
 这些都是连接 Minecraft 服务器时常见的问题
 
-- `Unknown host / 未知的主机`
+- `Unknown host / 未知的主机 / Can't resolve hostname / 无法解析主机名`
 
 1.检查你有没有打错域名
 
@@ -121,12 +121,45 @@ server-port=25565
 
 网络太差
 
--`无效会话`
+-` 无效会话`
 
 没有使用正版登录进入正版服务器,也可以关闭`online-mode`来解决
 
 - `身份验证服务器目前处于宕机状态。请稍后再试，抱歉`
 
+确认 Mojang 或微软账户服务器状态（可通过 [Mojang Status](https://status.mojang.com/) 查询）
+
 Mojang 的验证服务器去维护了,或者自己网络太差,连接不上,可以安装 [AlwaysOnline](https://modrinth.com/plugin/alwaysonlineplugin) 来解决
 
-More and More TODO
+- `Outdated server! / 服务器版本过时`
+客户端与服务器版本不一致时会出现此提示。
+1. 检查客户端启动器选择的游戏版本是否与服务器一致（如 1.20.1）
+2. 若服务器支持跨版本（如安装了 ViaVersion），确保客户端版本在插件支持的范围内
+3. 若为原版服务器，客户端需降级或升级至匹配版本
+
+
+- `io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused`
+1. 服务器未启动或已崩溃，检查服务器控制台是否正常运行
+2. 确认服务器 IP 和端口填写正确（默认端口为 `25565`）
+3. 若使用内网穿透（如 FRP/Ngrok），检查穿透服务是否配置正确
+
+
+- `Internal Exception: java.io.IOException: 远程主机强迫关闭了一个现有的连接`**
+1. 服务器或客户端网络不稳
+2. 服务器插件冲突（如反作弊插件误判，尝试移除插件排查）
+3. 被服务器防火墙强行关闭了
+4. 连接到海外服务器时被 GFW 阻断了
+
+- `Server is full! / 服务器已满`
+
+调整 `server.properties` 中的 `max-players` 值并重启
+
+- `java.net.SocketException: Connection reset`
+
+1. 被本地/服务器防火墙强行关闭了
+2. 连接到海外服务器时被 GFW 阻断了
+
+- `You are already connected to this server!`
+
+1. 有同名的人在服务器上
+2. 网络太差,服务器认为你还在服务器上
