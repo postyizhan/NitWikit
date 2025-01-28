@@ -19,7 +19,7 @@ sidebar_position: 4
 
 ## 更简单的
 
-自动优化脚本，[下载](https://script.yizhan.wiki/auto-optimize)
+自动优化脚本，[下载](https://script.8aka.org/auto-optimize)
 ，在服务器根目录执行，目前支持CraftBukkit，Spigot，Paper，PufferFish，Purpur，Gale，Leaf
 
 :::tip

@@ -68,7 +68,7 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 ！不建议在不接触配置文件的情况下直接使用该插件。
 
 > GitHub: https://github.com/Updated-NoCheatPlus/NoCheatPlus
-> 下载镜像: https://dl.yizhan.wiki/plugins/NoCheatPlus.jar
+> 下载镜像: https://dl.8aka.org/plugins/NoCheatPlus.jar
 
 ### GrimAC 2.0
 

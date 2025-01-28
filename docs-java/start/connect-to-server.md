@@ -65,7 +65,7 @@ server-port=25565
 
 比如我现在把 **`server-port`** 改成了 **`9180`**，应该这么进入服务器 `114.51.14.191:9180`
 
-如果我为 `114.51.14.191` 绑定了域名 `yizhan.wiki` ，那么你可以这么进 `yizhan.wiki:9180`
+如果我为 `114.51.14.191` 绑定了域名 `8aka.org` ，那么你可以这么进 `8aka.org:9180`
 
 如果很不幸，你的玩家没有正常连接上来，请先按以下步骤检查
 
@@ -75,7 +75,7 @@ server-port=25565
 
 ### 我没公网
 
-查看 [内网穿透](https://nitwikit.yizhan.wiki/process/deploy/intranet-penetration) 部分，按照上面的教程把你的端口映射出去
+查看 [内网穿透](https://nitwikit.8aka.org/process/deploy/intranet-penetration) 部分，按照上面的教程把你的端口映射出去
 
 ## 常见错误
 

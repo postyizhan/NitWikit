@@ -44,7 +44,7 @@ Vault 的分支版本，提供更多功能
 
 :::
 
-笨蛋镜像下载 [点击这里](https://dl.yizhan.wiki/plugins/VaultUnlocked-2.3.0.jar)
+笨蛋镜像下载 [点击这里](https://dl.8aka.org/plugins/VaultUnlocked-2.3.0.jar)
 
 ## 联系
 

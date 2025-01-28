@@ -9,7 +9,7 @@ sidebar_position: 2
 
 > 插件一般会使用 **Yaml** 作为配置文件格式，建议先学习 [Yaml](/docs-java/advance/YAML/YAML.md) 语法。
 
-我们在开始前所做的准备工作中，推荐你安装任意一款推荐的文档编辑软件：请查看[文本编辑器](https://nitwikit.yizhan.wiki/preparation/text-editor)
+我们在开始前所做的准备工作中，推荐你安装任意一款推荐的文档编辑软件：请查看[文本编辑器](https://nitwikit.8aka.org/preparation/text-editor)
 
 如果你是 Windows ，现在让我们双击 .yml 文件就可以开始修改配置文件了！
 
@@ -81,7 +81,7 @@ import TabItem from '@theme/TabItem';
 
 然后把语言项改成 zh_CN、 Chinese 等，具体应该写什么这地方。插件配置的注释可能提到
 
-也可以找找 [插件文件夹](https://nitwikit.yizhan.wiki/Java/process/plugin/more/plugin-config?plugin-language=folder) 和 [拆开 jar 文件](https://nitwikit.yizhan.wiki/Java/process/plugin/more/plugin-config?plugin-language=jar)
+也可以找找 [插件文件夹](https://nitwikit.8aka.org/Java/process/plugin/more/plugin-config?plugin-language=folder) 和 [拆开 jar 文件](https://nitwikit.8aka.org/Java/process/plugin/more/plugin-config?plugin-language=jar)
 
 </TabItem>
 

@@ -9,7 +9,7 @@ sidebar_position: 4
 
 ## 笨蛋脚本
 
-下载此[脚本](https://script.yizhan.wiki/generate-script)，回答几个问题就可以为你自动生成启动脚本!!
+下载此[脚本](https://script.8aka.org/generate-script)，回答几个问题就可以为你自动生成启动脚本!!
 
 <details>
 <summary>直接在终端里敲命令来启动?</summary>

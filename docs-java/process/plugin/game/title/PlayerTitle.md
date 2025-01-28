@@ -19,4 +19,4 @@ sidebar_position: 3
 
 作者剽窃国外作者开源的插件，声称是自己的作品并公开售卖
 
-详情请见：https://yizhan.wiki/lezi-wiki/article/%E7%89%88%E4%B8%BB%E7%B1%B3%E9%A5%AD%E4%BC%A0
+详情请见：https://8aka.org/lezi-wiki/article/%E7%89%88%E4%B8%BB%E7%B1%B3%E9%A5%AD%E4%BC%A0

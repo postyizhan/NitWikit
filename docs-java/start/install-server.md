@@ -11,7 +11,7 @@ sidebar_position: 3
 
 :::
 
-全篇以 1.20.4 Mod 服务端安装为例子，如果看不懂可以使用[笨蛋脚本](https://script.yizhan.wiki/select-server) **(目前不支持 Fabric)**
+全篇以 1.20.4 Mod 服务端安装为例子，如果看不懂可以使用[笨蛋脚本](https://script.8aka.org/select-server) **(目前不支持 Fabric)**
 
 ## Forge
 

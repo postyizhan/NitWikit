@@ -26,4 +26,4 @@ sidebar_position: 7
 
 ### 解析到自己域名
 
-+ 可参考本文档中的 [申请域名](https://nitwikit.yizhan.wiki/advance/domain-application-and-dns-resolution)
++ 可参考本文档中的 [申请域名](https://nitwikit.8aka.org/advance/domain-application-and-dns-resolution)

@@ -94,6 +94,6 @@ Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题�
 
 帮你选择服务端，并自动下载!
 
-[下载](https://script.yizhan.wiki/select-server)
+[下载](https://script.8aka.org/select-server)
 
 ![](_images/那些服务端有后门吗.png)

@@ -25,7 +25,7 @@ sidebar_position: 2
 
 #### 自动版
 
-请使用[笨蛋脚本](https://script.yizhan.wiki/auto-antiseedcracker)，在服务器根目录执行即可自动配置!!
+请使用[笨蛋脚本](https://script.8aka.org/auto-antiseedcracker)，在服务器根目录执行即可自动配置!!
 
 #### 特征使用随机种子
 
@@ -98,7 +98,7 @@ feature-seeds:
 
 #### 自动版
 
-使用[笨蛋脚本](https://script.yizhan.wiki/auto_antixray)，在服务器根目录执行脚本即可自动配置!!
+使用[笨蛋脚本](https://script.8aka.org/auto_antixray)，在服务器根目录执行脚本即可自动配置!!
 
 ⚠警告：`engine-mode: 3` 在 `paper 1.19.3` 往后的版本才添加⚠
 

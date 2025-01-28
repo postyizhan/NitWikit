@@ -14,7 +14,7 @@ sidebar_position: 2
 
 ## 下载
 
-第一步，下载[资源包](https://dl.yizhan.wiki/plugins/Slimefun.mcpack)，安装到 `服务端/geyser/packs` 文件夹
+第一步，下载[资源包](https://dl.8aka.org/plugins/Slimefun.mcpack)，安装到 `服务端/geyser/packs` 文件夹
 
 ![](_image/Geyser4.png)
 

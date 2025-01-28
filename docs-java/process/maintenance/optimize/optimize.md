@@ -19,11 +19,11 @@ sidebar_position: 1
 
 ### 选择合适的 Java
 
-参考[Java 下载及安装](https://nitwikit.yizhan.wiki/preparation/choose-and-download-and-install-java/)安装合适的 Java
+参考[Java 下载及安装](https://nitwikit.8aka.org/preparation/choose-and-download-and-install-java/)安装合适的 Java
 
 ### JVM 参数优化
 
-参见 [JVM 优化](https://nitwikit.yizhan.wiki/Java/optimize/jvm)
+参见 [JVM 优化](https://nitwikit.8aka.org/Java/optimize/jvm)
 
 ## 第二步 - 预生成
 
@@ -96,7 +96,7 @@ sidebar_position: 1
 
 无论在性能还是稳定性， Linux 都比 Windows 更适合用于开服，对于 Linux 根据自己的使用经验选择即可，如果没有使用经验可以先使用 Ubuntu 等主流系统。
 
-如果想要了解更多请前往进阶 [Linux 开服教程](https://nitwikit.yizhan.wiki/Sundry/Advance/Linux)
+如果想要了解更多请前往进阶 [Linux 开服教程](https://nitwikit.8aka.org/Sundry/Advance/Linux)
 
 ## 第七步 - 性能分析
 

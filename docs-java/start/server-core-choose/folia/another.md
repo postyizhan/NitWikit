@@ -52,5 +52,5 @@ Lumina 目前在官网上不提供下载,你可以选择自己去编译,或使�
 下载镜像:
 
 * [1.20.1](https://vip.123pan.cn/1821558579/Lingyi/kaiiju-paperclip-1.20.1-R0.1-SNAPSHOT-reobf.jar)
-* [1.19.4](https://dl.yizhan.wiki/plugins/kaiiju-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar)
-* [1.19.3](https://dl.yizhan.wiki/plugins/kaiiju-paperclip-1.19.3-R0.1-SNAPSHOT-reobf.jar)
+* [1.19.4](https://dl.8aka.org/plugins/kaiiju-paperclip-1.19.4-R0.1-SNAPSHOT-reobf.jar)
+* [1.19.3](https://dl.8aka.org/plugins/kaiiju-paperclip-1.19.3-R0.1-SNAPSHOT-reobf.jar)

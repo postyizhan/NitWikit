@@ -205,15 +205,15 @@ const config = {
                         items: [
                             {
                                 label: '驿站主页',
-                                to: 'https://yizhan.wiki',
+                                to: 'https://8aka.org',
                             },
                             {
                                 label: 'Docusaurus 主题',
-                                to: 'https://nitwikit.yizhan.wiki',
+                                to: 'https://nitwikit.8aka.org',
                             },
                             {
                                 label: 'VitePress 主题',
-                                to: 'https://nitwikit2.yizhan.wiki',
+                                to: 'https://nitwikit2.8aka.org',
                             },
                             {
                                 label: 'GitHub',

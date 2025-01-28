@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ## 笨蛋脚本
 
-[下载](https://script.yizhan.wiki/config-eazy)，我们会询问一些问题，帮你 **自动配置**
+[下载](https://script.8aka.org/config-eazy)，我们会询问一些问题，帮你 **自动配置**
 
 目前可以配置的
 
