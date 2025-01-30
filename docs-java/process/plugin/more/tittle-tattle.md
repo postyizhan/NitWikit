@@ -9,7 +9,7 @@ sidebar_position: 9
 
 并非如此！
 
-事实上，大多数付费插件都能找到很好甚至更好的免费替代,比如 BetterHUD 比付费的 HappyHUD(MythicHUD) 好很多
+事实上，大多数付费插件都能找到很好的免费替代，比如开源的 BetterHud 比付费的 HappyHUD(MythicHUD) 好很多。
 
 ## 插件能做的事
 
