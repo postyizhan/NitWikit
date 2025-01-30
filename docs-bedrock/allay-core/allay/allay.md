@@ -44,23 +44,23 @@ Allay基于Java21，故在运行&构建Allay前你需要安装Java21。
 
 ### 直接运行
 
-前往 [Github Releases](https://github.com/AllayMC/Allay/releases) 下载
+前往[Github Releases](https://github.com/AllayMC/Allay/releases)下载
 
 使用以下启动脚本启动服务端（jar文件名为示例，请改为你设置的jar核心名）
 
-```
+```cmd
 java -jar allay.jar
 ```
 
 ### 源码运行
 
-```
+```cmd
 gradlew Allay-Server:runShadow
 ```
 
 ### 构建
 
-```
+```cmd
 gradlew Allay-Server:build
 ```
 
