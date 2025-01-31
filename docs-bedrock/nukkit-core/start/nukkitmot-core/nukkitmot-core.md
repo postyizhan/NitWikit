@@ -1,10 +1,10 @@
 ---
-title: WaterdogePE 跨服
-slug: /waterdogepe-core
+title: Nukkit-MOT 核心
+slug: /nukkitmot-core
 sidebar_position: 5
 ---
 
-# WaterdogePE 跨服核心
+# Nukkit-MOT 核心
 
 import DocCardList from '@theme/DocCardList';
 

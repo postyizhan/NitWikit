@@ -1,10 +1,10 @@
 ---
-title: WaterdogePE 跨服
-slug: /waterdogepe-core
+title: PowerNukkitX 核心
+slug: /pnx-core
 sidebar_position: 5
 ---
 
-# WaterdogePE 跨服核心
+# PowerNukkitX 核心
 
 import DocCardList from '@theme/DocCardList';
 
