@@ -27,3 +27,6 @@ Nukkit生态丰富多彩，成百上千各种各样的插件供您选择，您�
 - 支持使用JavaSrcipt语言编写插件 （初步完成，开发文档在此处）。
 - 支持自定义方块 / 物品 / 实体（完善中，文档待补充）。
 - 内置生物AI，无需安装MobPlugin（开发中，未完善）。
+
+## 链接
+- [Github链接](https://github.com/PowerNukkitX/PowerNukkitX)

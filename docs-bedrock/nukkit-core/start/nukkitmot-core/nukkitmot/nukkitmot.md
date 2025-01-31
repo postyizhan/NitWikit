@@ -19,3 +19,9 @@ Nukkit-MOT 是 Nukkit Minecraft Bedrock Edition 服务器软件的特殊版本�
 - 支持下界和末地
 - 生成地牢和洞穴
 - 支持原版命令
+
+## 链接
+
+- 🌐 下载：[Jenkins](https://motci.cn/job/Nukkit-MOT/job/master/) / [GitHub Actions](https://github.com/MemoriesOfTime/Nukkit-MOT/actions/workflows/maven.yml?query=branch%3Amaster)
+- 💬 [Discord](https://discord.gg/pJjQDQC)
+- 🐞 [报告错误](https://github.com/MemoriesOfTime/Nukkit-MOT/issues/new/choose)

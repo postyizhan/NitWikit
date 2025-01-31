@@ -22,3 +22,6 @@ NukkitPetteriM1Edition（简称NukkitPM1E）是PetteriM1为他的服务器SuomiC
 - 内置多世界命令（/world、/genworld、启动时自动加载所有世界的选项）
 - 许多性能改进
 - 世界生成的一些调整和原版建筑结构的生成
+
+## 链接
+- [Github链接](https://github.com/PetteriM1/NukkitPetteriM1Edition)
