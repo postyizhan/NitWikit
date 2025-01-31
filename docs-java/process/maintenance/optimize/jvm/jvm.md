@@ -30,7 +30,7 @@ flowchart TD
     Linux --> D[内存充足]
     D --> 好的兼容性
     好的兼容性 -->|需要| C
-    好的兼容性 -->|不需要| E[Azul Zing]
+    好的兼容性 -->|不需要(需要有实力)| E[Azul Zing]
 ```
 
 :::tip Zulu的性能
@@ -87,25 +87,7 @@ Oracle 官网同样提供 GraalVM,但是上面的 GraalVM EE 包含了企业版�
 </TabItem>
 <TabItem value="zing" label="Azul Zing">
 
-Azul Zing 不能直接被下载，需要填写试用申请表，但我们通过神秘手段搞到了安装包
-
-JDK 21:
-
-- [RPM](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk21.0.4.0.101-linux.x86_64.rpm)
-- [TAR.GZ](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk21.0.4.0.101-linux_x64.tar.gz)
-- [DEB](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk21.0.4.0.101-linux_amd64.deb)
-
-JDK 17:
-
-- [RPM](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk17.0.12.0.101-linux.x86_64.rpm)
-- [TAR.GZ](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk17.0.12.0.101-linux_x64.tar.gz)
-- [DEB](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk17.0.12.0.101-linux_amd64.deb)
-
-JDK 8:
-
-- [RPM](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk8.0.431-linux.x86_64.rpm)
-- [TAR.GZ](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk8.0.431-linux_x64.tar.gz)
-- [DEB](https://cdn.azul.com/zing-zvm/ZVM24.10.0.0/zing24.10.0.0-4-jdk8.0.431-linux_amd64.deb)
+Azul Zing 不能直接被下载，需要填写试用申请表，可以直接乱填
 
 [官网](https://www.azul.com/downloads/#prime)
 
