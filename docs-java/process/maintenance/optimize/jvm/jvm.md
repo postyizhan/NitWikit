@@ -30,7 +30,7 @@ flowchart TD
     Linux --> D[内存充足]
     D --> 好的兼容性
     好的兼容性 -->|需要| C
-    好的兼容性 -->|不需要(需要有实力)| E[Azul Zing]
+    好的兼容性 -->|不需要,需要有实力| E[Azul Zing]
 ```
 
 :::tip Zulu的性能
