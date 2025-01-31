@@ -98,7 +98,7 @@ sidebar_position: 7
 
 因此，我们就需要将参考物在脑中抽象化，将细节用方块纹路提现，用方块模型来表示大体结构
 
-#### 使用非完整方块
+### 使用非完整方块
 
 > 以下建筑实例图片采样于 [laobaitu156](https://space.bilibili.com/252415332) 
 
@@ -184,7 +184,7 @@ sidebar_position: 7
 
 **[ezEdit](https://www.patreon.com/ezedits)**
 
-#### 客户端模组
+### 客户端模组
 
 **[Axiom](https://modrinth.com/mod/axiom/)**
 
@@ -218,7 +218,7 @@ sidebar_position: 7
 
 :::
 
-### 关于建筑类型与风格
+## 关于建筑类型与风格
 
 常见的建筑类型有现代、中式、欧式、中世纪等，根据风格的不同又有正统、西方幻想、中式玄幻等，细分太多在此不过多赘述。
 
