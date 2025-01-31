@@ -3,6 +3,10 @@ title: PocketMine 核心介绍
 sidebar_position: 1
 ---
 
+:::tip
+作为最早出现的 Minecraft Bedrock Edition 服务端之一，PocketMine-MP 与 Nukkit 一样，为基岩版社区贡献了重要力量。它凭借强大的功能和灵活的插件系统，成为众多玩家和开发者的选择。随着 PocketMine-MP 的知名度不断提升，我们相信后继开发者将继续在此基础上创新，为基岩版社区注入新活力，提供更优质的服务。
+:::
+
 ![PMMPLogo](https://www.minebbs.com/attachments/pocketmine-light-rgb-gif.47206/)
 
 ## 什么是 PocketMine

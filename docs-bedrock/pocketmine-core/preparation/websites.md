@@ -48,7 +48,7 @@ PocketMine-MP官方团队建设的PMMP技术论坛，支持下载PocketMine-MP�
           src="https://poggit.pmmp.io/res/poggit-icon.png"
           width="100px;"
           alt=""
-        /><br /><sub><b>MineBBS</b></sub>
+        /><br /><sub><b>poggit</b></sub>
       </a>
     </td>
   </tr>
