@@ -54,3 +54,11 @@ Chunker.app 是一个多功能的转换工具,支持基岩版和 Java 之间的�
 一个非常高级的地图编辑工具,支持 Java 1.12+ 和基岩版 1.7+ 所有地图格式
 
 [下载地址](https://www.amuletmc.com/)
+
+:::warning
+
+Amulet 可用于高版本地图转低版本，但在地图转换后可能出现光源问题
+
+使用 **[FastAsynWorldEdit](https://modrinth.com/plugin/fastasyncworldedit/)** 选择光源异常区域，先 //removelight 再 //fixlighting
+
+:::
