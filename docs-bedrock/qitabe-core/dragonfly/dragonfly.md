@@ -3,7 +3,7 @@ title: Dragonfly 核心介绍
 sidebar_position: 1
 ---
 
-![DragonflyLogo](https://user-images.githubusercontent.com/16114089/121805566-0cd81280-cc4c-11eb-9b7d-b5f8a6db4f8d.png)
+![DragonflyLogo](./dragonfly.png)
 
 ## 什么是 Dragonfly
 
