@@ -12,40 +12,41 @@ slug: /ad
 * 合法合规(不要求有备案)
 * **申请时**在信用方面没有问题
 
-价格(单位:人民币/月):
-
-## 免费
-
-在赞助商那里加上你的网站链接或联系方式
-
-要求:
-
-* 在你的网站/视频上加上笨蛋文档的网站链接
+价格 (单位:人民币/月)
 
 ## Tier 1
 
-根据你的付费内容,我们会在对应页面开教程,并且在赞助商那里加上你的网站链接或联系方式,以下是对应的内容:
+根据你的付费内容,我们会在对应页面开 教程*，并且在赞助商那里加上你的网站链接或联系方式,以下是对应的内容:
 
-* VPS -> [购买服务器](https://nitwikit.8aka.org/process/deploy/purchase-server)
-* 模型定制 -> [创建美术资源](https://nitwikit.8aka.org/process/create-art-assets)
-* 插件定制 -> [插件 - 更多页面](https://nitwikit.8aka.org/Java/more)
-* 高防/CDN -> [如何抵御网络攻击](https://nitwikit.8aka.org/process/maintenance/how-to-defend-against-cyber-attacks)
+- VPS -> [购买服务器](https://nitwikit.8aka.org/process/deploy/purchase-server)
+- 模型定制 -> [创建美术资源](https://nitwikit.8aka.org/process/create-art-assets)
+- 插件定制 -> [插件 - 更多页面](https://nitwikit.8aka.org/Java/more)
+- 高防/CDN -> [如何抵御网络攻击](https://nitwikit.8aka.org/process/maintenance/how-to-defend-against-cyber-attacks)
 
 更多的就不链接了,只要和 MC 有关,都有地方挂广告,没有就立刻开新的天坑
+
+教程*：需要你提供教程内容
 
 :::tip
 
 如果你有多个服务项,Tier 1 只会开一个教程(挂哪一部分自己选),其他的不会写
 
+例如，你同时提供 VPS 和 插件定制，你只能二者选其一，如果你都想宣传，看看 Tier 2
+
 :::
 
-价格:
+价格：120/月
 
 ## Tier 2
 
-对你网站所有内容在适当位置(请查看 Tier 1)编写教程，在赞助商那里加上你的网站链接或联系方式
+对你提供的服务 所有* 内容在适当位置(请查看 Tier 1)编写教程，在赞助商那里加上你的网站链接或联系方式
 
-价格:
+所有*：
+
+- 只能宣传自己的服务，不能以任何理由为自己以外的其他人宣传
+- 服务数量适可而止，你一个人是怎么提供几十种服务的？
+
+价格：300/月
 
 ## Tier 3
 
@@ -58,10 +59,24 @@ slug: /ad
 - [Typewriter 文档](https://typewriter.8aka.org)
 - [Pumpkin 文档](https://pumpkin.8aka.org)
 
-同时包括 Tier 2 所有内容,价格: 
+同时包括 Tier 2 所有内容
+
+价格: 500/月
 
 ## 一些优惠
 
 在你的网站/视频下加上笨蛋文档的链接可以减免 5 ~ 20 元的广告价格(视流量而定/每月)
 
 对文档部分内容有巨大贡献(一般认为是 400 ++)可以在编写的那一部分适当宣传(不超过 2++ 并且不包括图片),免费
+
+## 注意
+
+1. 广告费按月计算，不支持按天付费，不支持退费
+2. 对于 跑路/诈骗/较久联系不上 或发生一些恶劣影响事件，撤销广告（不退费）
+3. 禁止在广告中出现不文明词汇或攻击其他广告
+4. 特殊情况和本页之外的情况，完全由站长驿站忆行决定
+
+## 联系
+
+- 站长 驿站忆行：185839426
+- 技术 lilingfeng：3644147215
