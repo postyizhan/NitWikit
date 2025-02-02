@@ -58,6 +58,8 @@ const config = {
                 theme: {
                     customCss: [
                         require.resolve('./src/css/custom.css'),
+                        require.resolve('./src/css/github.css'),
+                        require.resolve('./src/css/ad.css'),
                     ],
                 },
             }),
