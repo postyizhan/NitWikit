@@ -41,6 +41,8 @@ slug: /ad
 
 对你提供的服务 所有* 内容在适当位置(请查看 Tier 1)编写教程，在赞助商那里加上你的网站链接或联系方式
 
+允许每天在群里发一次广告(不超过 50 字)
+
 所有*：
 
 - 只能宣传自己的服务，不能以任何理由为自己以外的其他人宣传
@@ -53,11 +55,16 @@ slug: /ad
 在我们所有的网站(一般是右上角)上加上你的网站链接或联系方式,目前包括以下网站
 
 - [笨蛋文档](https://nitwikit.8aka.org)
-- [笨蛋文档 Next](https://nitwikit2.8aka.org)
 - [插件翻译文档](https://plugins.8aka.org)
-- [Docker 开服文档](https://docker.8aka.org)
 - [Typewriter 文档](https://typewriter.8aka.org)
+
+技术问题暂时不添加:
+
 - [Pumpkin 文档](https://pumpkin.8aka.org)
+- [笨蛋文档 Next](https://nitwikit2.8aka.org)
+- [Docker 开服文档](https://docker.8aka.org)
+
+在第一次赞助时会在群里发布群公告
 
 同时包括 Tier 2 所有内容
 
