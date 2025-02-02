@@ -250,6 +250,10 @@ const config = {
                                 label: 'Tinksp 资源站',
                                 href: 'https://www.tinksp.com',
                             },
+                            {
+                                label: 'MCNav',
+                                href: 'https://www.mcnav.net',
+                            },
                         ],
                     },
                 ],
