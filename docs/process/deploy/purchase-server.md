@@ -181,6 +181,6 @@ QQ群：644099584
 
 ## 性能跑分截图
 
-![](https://www.dkdun.cn/aff/LECDFEQA)
+![](https://img.fastmirror.net/s/2025/01/30/679b22143617e.png)
 
 <!--markdownlint-enable no-duplicate-heading-->
