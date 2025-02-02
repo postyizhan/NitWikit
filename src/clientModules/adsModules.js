@@ -1,3 +1,4 @@
+import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
 
 
 async function fetchAds(serverUrl) {
@@ -11,7 +12,7 @@ async function fetchAds(serverUrl) {
     }
 }
 
-function createAdElement({ name, url }) {
+function createAdElement({name, url}) {
     const adLink = document.createElement('a');
     adLink.href = url;
     adLink.textContent = name;
@@ -40,14 +41,16 @@ const CONFIG = {
 };
 
 export function onRouteDidUpdate() {
-    fetchAds(CONFIG.serverUrl)
-        .then(ads => {
-            if (ads?.length > 0) injectAds(ads);
-        })
-        .catch(e => console.warn('[广告插件] 渲染失败:', e));
+    if (ExecutionEnvironment.canUseDOM) {
+        fetchAds(CONFIG.serverUrl)
+            .then(ads => {
+                if (ads?.length > 0) injectAds(ads);
+            })
+            .catch(e => console.warn('[广告插件] 渲染失败:', e));
+    }
 }
 
 // 可选：初始化立即加载
 if (typeof window !== 'undefined') {
-    setTimeout(() => onRouteDidUpdate(),1000); // 延迟确保DOM加载完成
+    setTimeout(() => onRouteDidUpdate(), 1000); // 延迟确保DOM加载完成
 }
