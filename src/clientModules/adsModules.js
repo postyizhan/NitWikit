@@ -49,5 +49,5 @@ export function onRouteDidUpdate() {
 
 // 可选：初始化立即加载
 if (typeof window !== 'undefined') {
-    setTimeout(() => onRouteDidUpdate(),t1000); // 延迟确保DOM加载完成
+    setTimeout(() => onRouteDidUpdate(),1000); // 延迟确保DOM加载完成
 }
