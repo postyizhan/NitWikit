@@ -38,7 +38,8 @@ const config = {
         locales: ['zh-Hans'],
     },
     clientModules: [
-        require.resolve('./src/clientModules/routeModules.js')
+        require.resolve('./src/clientModules/routeModules.js'),
+        require.resolve('./src/clientModules/adsModules.js'),
     ],
 
     presets: [
