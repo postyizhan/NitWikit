@@ -87,6 +87,7 @@ sidebar_position: 2
 ├── target/                                    # 构建输出目录
 ├── pom.xml                                    # Maven项目配置文件
 └── README.md                                  # 项目说明文件
+```
 
 #### Gradle项目结构
 
