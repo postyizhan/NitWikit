@@ -2,62 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 基础广告项样式 */
-.ad-item {
-  font-size: 14px;
-  padding: 6px 12px;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+/* 桌面端广告间距调整 */
+.navbar__items--right .ad-container {
+  margin-left: 1.5rem;
 }
 
-/* 桌面端专用样式 */
-.ad-item-desktop {
-  margin-left: 8px;
-  white-space: nowrap;
-}
-
-/* 移动端侧边栏广告样式 */
-@media (max-width: 996px) {
-  .ad-item-desktop {
-    display: none !important;
-  }
-
-  .mobile-ad-wrapper {
-    margin-top: auto; /* 将广告推到侧边栏底部 */
-    padding: 12px;
-    border-top: 1px solid var(--ifm-color-emphasis-200);
-    background: var(--ifm-menu-color-background-active);
-  }
-
-  .ad-item-mobile {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
-    margin: 8px 0;
-    border-radius: 8px;
-    background: var(--ifm-color-primary-lightest);
-    color: var(--ifm-color-primary-darkest);
-    font-weight: 500;
-    text-align: center;
-    transition: transform 0.2s;
-  }
-
-  .ad-item-mobile:active {
-    transform: scale(0.98);
-  }
-
-  /* 最后一个广告与底部保持间距 */
-  .mobile-ad-wrapper > :last-child {
-    margin-bottom: env(safe-area-inset-bottom);
-  }
-}
-
-/* 桌面端悬停效果 */
-@media (hover: hover) {
-  .ad-item-desktop:hover {
-    background-color: rgba(0, 0, 0, 0.05);
-  }
+/* 移动端侧边栏底部定位 */
+.menu__list .mobile-ad {
+  position: sticky;
+  bottom: 0;
+  background: var(--ifm-background-color);
+  z-index: 1;
 }
 
 @layer base {

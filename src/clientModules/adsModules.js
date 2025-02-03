@@ -1,143 +1,98 @@
-import ExecutionEnvironment from "@docusaurus/ExecutionEnvironment";
+// src/clientModules/adModule.js
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
-// 缓存和配置
-const CONFIG = {
-    serverUrl: 'https://ad-api.8aka.org/ads',
-    cacheKey: 'adCache',
-    cacheDuration: 5 * 60 * 1000, // 5分钟缓存
-    mobileBreakpoint: 996, // 匹配Docusaurus的响应式断点
-    maxMobileAds: 2 // 移动端最多显示广告数
-};
-
-// 带缓存的广告获取
-async function fetchAds() {
+async function injectAd() {
     try {
-        const cachedData = JSON.parse(sessionStorage.getItem(CONFIG.cacheKey));
-        if (cachedData && Date.now() - cachedData.timestamp < CONFIG.cacheDuration) {
-            return cachedData.ads;
-        }
-
-        const response = await fetch(CONFIG.serverUrl);
-        if (!response.ok) throw new Error('广告数据加载失败');
+        // 1. 获取广告数据
+        const response = await fetch('https://ad-api.8aka.org/ads');
         const ads = await response.json();
 
-        sessionStorage.setItem(CONFIG.cacheKey, JSON.stringify({
-            timestamp: Date.now(),
-            ads
-        }));
-        return ads;
-    } catch (error) {
-        console.error('[广告插件] 数据获取失败:', error);
-        return [];
-    }
-}
+        // 2. 验证数据格式
+        if (!Array.isArray(ads) || ads.length === 0) return;
 
-// 创建响应式广告元素
-function createAdElement(ad, isMobile) {
-    const adLink = document.createElement('a');
-    adLink.href = ad.url;
-    adLink.textContent = ad.name;
-    adLink.className = `ad-item ${isMobile ? 'ad-item-mobile' : 'ad-item-desktop'}`;
-    adLink.target = '_blank';
-    adLink.rel = 'noopener noreferrer';
+        // 3. 创建广告容器
+        const adContainer = document.createElement('div');
+        adContainer.className = 'ad-container';
 
-    // 移动端添加触摸反馈
-    if (isMobile) {
-        adLink.addEventListener('touchstart', () => {
-            adLink.style.backgroundColor = '#f5f5f5';
-        });
-        adLink.addEventListener('touchend', () => {
-            adLink.style.backgroundColor = '';
-        });
-    }
-    return adLink;
-}
-
-// 响应式广告注入
-function injectAds(ads) {
-    const isMobile = window.matchMedia(`(max-width: ${CONFIG.mobileBreakpoint}px)`).matches;
-    const filteredAds = isMobile ? ads.slice(0, CONFIG.maxMobileAds) : ads;
-
-    // 桌面端容器
-    const desktopContainer = document.querySelector('.navbar__items--right');
-
-    // 移动端容器（侧边栏底部）
-    const mobileContainer = document.querySelector('.navbar-sidebar__items'); // 修改后的选择器
-
-    // 清除旧广告
-    [desktopContainer, mobileContainer].forEach(container => {
-        container?.querySelectorAll('.ad-item').forEach(el => el.remove());
-    });
-
-    // 创建新元素
-    const elements = filteredAds.map(ad => ({
-        desktop: createAdElement(ad, false),
-        mobile: createAdElement(ad, true)
-    }));
-
-    // 桌面端处理（保持不变）
-    if (desktopContainer) {
-        elements.reverse().forEach(({ desktop }) => {
-            desktopContainer.prepend(desktop);
-        });
-    }
-
-    // 移动端处理（添加到侧边栏底部）
-    if (isMobile && mobileContainer) {
-        const wrapper = document.createElement('div');
-        wrapper.className = 'mobile-ad-wrapper';
-
-        elements.forEach(({ mobile }) => {
-            wrapper.appendChild(mobile);
+        // 4. 创建广告元素
+        ads.forEach(ad => {
+            const link = document.createElement('a');
+            link.href = ad.url;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = ad.name;
+            link.className = 'ad-link';
+            adContainer.appendChild(link);
         });
 
-        // 插入到侧边栏底部
-        mobileContainer.appendChild(wrapper);
-    }
-}
+        // 5. 响应式插入逻辑
+        const updateAdPosition = () => {
+            // 移除旧广告位置
+            const existingAd = document.querySelector('.ad-container');
+            if (existingAd) existingAd.remove();
 
-// 优化后的路由处理（带防抖）
-let pendingRequest;
-export function onRouteDidUpdate() {
-    if (!ExecutionEnvironment.canUseDOM) return;
-
-    clearTimeout(pendingRequest);
-    pendingRequest = setTimeout(async () => {
-        try {
-            const ads = await fetchAds();
-            if (ads?.length) {
-                requestAnimationFrame(() => injectAds(ads));
+            // 桌面端插入位置（导航栏右侧）
+            if (window.innerWidth >= 996) {
+                const desktopTarget = document.querySelector('.navbar__items--right');
+                if (desktopTarget) {
+                    desktopTarget.prepend(adContainer);
+                }
             }
-        } catch (e) {
-            console.warn('[广告插件] 渲染失败:', e);
-        }
-    }, 300);
-}
+            // 移动端插入位置（侧边栏底部）
+            else {
+                const mobileTarget = document.querySelector('.menu__list');
+                if (mobileTarget) {
+                    mobileTarget.appendChild(adContainer);
+                    // 添加移动端专用样式
+                    adContainer.classList.add('mobile-ad');
+                }
+            }
+        };
 
-// 初始化时确保容器存在
-if (typeof window !== 'undefined') {
-    const observer = new MutationObserver(() => {
-        if (document.querySelector('.navbar__items--right, .navbar-sidebar__content')) {
-            observer.disconnect();
-            onRouteDidUpdate();
-        }
-    });
+        // 初始插入
+        updateAdPosition();
 
-    if (!document.querySelector('.navbar__items--right')) {
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-    } else {
-        onRouteDidUpdate();
+        // 监听窗口变化
+        window.addEventListener('resize', updateAdPosition);
+
+        // 6. 基础样式
+        const style = document.createElement('style');
+        style.textContent = `
+        .ad-container {
+          display: flex;
+          gap: 1rem;
+          align-items: center;
+        }
+        .ad-link {
+          color: var(--ifm-link-color);
+          padding: 0.5rem;
+          border-radius: 4px;
+          transition: opacity 0.2s;
+        }
+        .ad-link:hover {
+          opacity: 0.8;
+          text-decoration: none;
+        }
+        .mobile-ad {
+          flex-direction: column;
+          padding: 1rem;
+          border-top: 1px solid var(--ifm-color-emphasis-300);
+          margin-top: auto;
+        }
+      `;
+        document.head.appendChild(style);
+
+    } catch (error) {
+        console.error('Failed to load ads:', error);
     }
-    // 响应窗口尺寸变化
-    window.addEventListener('resize', () => {
-        if (window.adResizeTimer) clearTimeout(adResizeTimer);
-        window.adResizeTimer = setTimeout(() => {
-            injectAds(JSON.parse(sessionStorage.getItem(CONFIG.cacheKey))?.ads || []);
-        }, 200);
-    });
 }
 
-
+// 只在客户端执行
+if (ExecutionEnvironment.canUseDOM) {
+    injectAd()
+}
+export function onRouteDidUpdate() {
+    if (ExecutionEnvironment.canUseDOM) {
+        injectAd();
+    }
+}
