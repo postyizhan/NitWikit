@@ -131,12 +131,13 @@ if (typeof window !== 'undefined') {
     } else {
         onRouteDidUpdate();
     }
+    // 响应窗口尺寸变化
+    window.addEventListener('resize', () => {
+        if (window.adResizeTimer) clearTimeout(adResizeTimer);
+        window.adResizeTimer = setTimeout(() => {
+            injectAds(JSON.parse(sessionStorage.getItem(CONFIG.cacheKey))?.ads || []);
+        }, 200);
+    });
 }
 
-// 响应窗口尺寸变化
-window.addEventListener('resize', () => {
-    if (window.adResizeTimer) clearTimeout(adResizeTimer);
-    window.adResizeTimer = setTimeout(() => {
-        injectAds(JSON.parse(sessionStorage.getItem(CONFIG.cacheKey))?.ads || []);
-    }, 200);
-});
+
