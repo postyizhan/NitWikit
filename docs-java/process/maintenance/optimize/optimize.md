@@ -45,6 +45,7 @@ sidebar_position: 1
 :::warning
 
 任何时候都不要再使用 CraftBukkit 和 Spigot 了。追求稳定/性能上 Purpur ，追求原版特性上 Leaves，性能上 Leaf
+
 :::
 
 <details>
