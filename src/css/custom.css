@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 /* 桌面端广告间距调整 */
-.navbar__items--right .ad-container {
+.navbar__items--right .extern-container {
   margin-left: 1.5rem;
 }
 
