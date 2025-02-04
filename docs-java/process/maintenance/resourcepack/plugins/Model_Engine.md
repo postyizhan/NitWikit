@@ -42,4 +42,6 @@ sidebar_position: 3
 
 `文档(英文)` https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home
 
+`文档(中文)` https://gitlab.com/TranslatedByShark/ModelEngine-Manual-CN/-/wikis/home
+
 :::

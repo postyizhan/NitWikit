@@ -20,9 +20,7 @@ sidebar_position: 1
 
 </div>
 
-## 介绍
-
-![](_images/PlaceHolderAPI/6.png)
+## ![介绍](_images/PlaceHolderAPI/6.png)
 
 PlaceholderAPI 是适用于 Spigot 及其衍生服务端的插件，它允许服务器管理者以固定的格式替换占位符 (俗称变量) 为各种插件的信息。
 
@@ -32,15 +30,11 @@ PlaceholderAPI 是适用于 Spigot 及其衍生服务端的插件，它允许服
 
 PlaceholderAPI 已破 170 万下载量，同时使用本插件的服务器数已超过 4.5 万，成为了各规模各类型服务器的必需品。
 
-## 安装
-
-![](_images/PlaceHolderAPI/7.png)
+## ![安装](_images/PlaceHolderAPI/7.png)
 
 ![](_images/PlaceHolderAPI/8.png)
 
-## 在其他插件使用
-
-![](_images/PlaceHolderAPI/9.png)
+## ![在其他插件使用](_images/PlaceHolderAPI/9.png)
 
 默认你已安装 player 变量扩展。
 
@@ -61,9 +55,7 @@ PlaceholderAPI 已破 170 万下载量，同时使用本插件的服务器数已
 
 `%math_2_{player_health}%`
 
-## 配置文件
-
-![](_images/PlaceHolderAPI/10.png)
+## ![配置文件](_images/PlaceHolderAPI/10.png)
 
 配置文件 `config.yml` 有核心插件的个性化设置，也有专门为扩展预留的设置选项。
 
@@ -96,9 +88,7 @@ debug: false
 
 </details>
 
-## 权限列表
-
-![](_images/PlaceHolderAPI/11.png)
+## ![权限列表](_images/PlaceHolderAPI/11.png)
 
 <details>
   <summary>点击展开</summary>
@@ -192,10 +182,7 @@ permissions:
 
 </details>
 
-## 插件命令
-
-![](_images/PlaceHolderAPI/12.png)
-
+## ![插件命令](_images/PlaceHolderAPI/12.png)
 
 解析命令 (`me` 代表自己)
 

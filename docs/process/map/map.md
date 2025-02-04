@@ -244,7 +244,7 @@ sidebar_position: 7
 
 若你无法使用 Minecraft JE ，尝试使用 **[Geyser](https://geysermc.org/)** 来进入为自己搭建的 JAVA 版工程服
 
-**[点击转跳到`将地图转移到基岩版`](#将地图转移到基岩版)**
+[点击转跳到`将地图转移到基岩版`](./convert.md#将地图转移到基岩版)
 
 :::
 

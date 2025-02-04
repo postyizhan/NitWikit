@@ -19,7 +19,7 @@ sidebar_position: 1
 
 ### 选择合适的 Java
 
-参考[Java 下载及安装](https://nitwikit.8aka.org/preparation/choose-and-download-and-install-java/)安装合适的 Java
+参考[选择、下载和安装 Java](https://nitwikit.8aka.org/preparation/java/choose-and-download-and-install-java)安装合适的 Java
 
 ### JVM 参数优化
 
@@ -45,6 +45,7 @@ sidebar_position: 1
 :::warning
 
 任何时候都不要再使用 CraftBukkit 和 Spigot 了。追求稳定/性能上 Purpur ，追求原版特性上 Leaves，性能上 Leaf
+
 :::
 
 <details>

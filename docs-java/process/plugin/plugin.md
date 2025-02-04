@@ -41,7 +41,7 @@ sidebar_position: 1
 
 使用 `/plugins` 或者 `/pl` 列出插件列表。
 
-![](_images/概览/插件列表.png)
+![](_images/插件列表.png)
 
 绿色为已加载(不是代表你日后使用不报错，只是这里加载上了)。
 
