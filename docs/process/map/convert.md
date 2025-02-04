@@ -65,7 +65,7 @@ Chunker.app 是一个多功能的转换工具,支持基岩版和 Java 之间的�
 
 `官网` https://www.amuletmc.com
 
-`` https://github.com/Amulet-Team/Amulet-Map-Editor
+`GitHub` https://github.com/Amulet-Team/Amulet-Map-Editor
 
 `文档` https://learn.microsoft.com/en-us/minecraft/creator/documents/chunkeroverview?view=minecraft-bedrock-stable
 
