@@ -19,7 +19,7 @@ sidebar_position: 1
 
 ### 选择合适的 Java
 
-参考[Java 下载及安装](https://nitwikit.8aka.org/preparation/choose-and-download-and-install-java/)安装合适的 Java
+参考[选择、下载和安装 Java](https://nitwikit.8aka.org/preparation/java/choose-and-download-and-install-java)安装合适的 Java
 
 ### JVM 参数优化
 
