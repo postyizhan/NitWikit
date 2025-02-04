@@ -139,12 +139,6 @@ above-bedrock-nether-building: false
 
 **`above-bedrock-nether-building`**：开启后你将被允许在下界高度 127 以上建造，缺点是整个下界中雾的颜色不再可变，将一直是红色(GeyserExtras 可以解决这个问题)
 
-:::warning
-
-若你在使用模组端 Geyser，那接下来的教程就和你无关了(包括进阶)，因为模组端 Geyser 根本不能实现这些功能
-
-:::
-
 ## floodagte
 
 为进一步兼容，你需要安装 [floodgate](https://geysermc.org/download#floodgate),[MCSL下载镜像](https://sync.mcsl.com.cn/core/Floodgate)

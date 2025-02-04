@@ -20,11 +20,13 @@ Java版和基岩版的UUID不一致，请查阅进阶教程
 
 ## 有时，世界跑的很远以后客户端会很卡
 
-这是 **基岩版** 客户端的问题。具体请 [查看这里](https://minecraft.fandom.com/zh/wiki/%E5%9F%BA%E5%B2%A9%E7%89%88%E8%B7%9D%E7%A6%BB%E7%8E%B0%E8%B1%A1)
+这是 **基岩版**
+客户端的问题。具体请 [查看这里](https://minecraft.fandom.com/zh/wiki/%E5%9F%BA%E5%B2%A9%E7%89%88%E8%B7%9D%E7%A6%BB%E7%8E%B0%E8%B1%A1)
 
 ## frp搭建内网穿透想显示真实IP怎么办
 
-在frp中[开启proxy protocol](../../../../../advance/Linux/frp#配置proxy-protocol)后，在配置文件里将enable-proxy-protocol设置为true。后续如果不再使用内网穿透，**一定记得把这个配置改回false**
+在frp中[开启proxy protocol](../../../../../advance/Linux/frp#配置proxy-protocol)
+后，在配置文件里将enable-proxy-protocol设置为true。后续如果不再使用内网穿透，**一定记得把这个配置改回false**
 
 ## 皮肤不显示怎么办
 
@@ -61,7 +63,8 @@ Java版和基岩版的UUID不一致，请查阅进阶教程
 
 - **你的服务商可能没有及时打开UDP端口**
 
-这通常和你的主机端的端口有关。最常见的是，跟Java版的常用的 TCP 协议的端口不同，你的主机很有可能没有开放基岩版所使用的 UDP 协议的端口。
+这通常和你的主机端的端口有关。最常见的是，跟Java版的常用的 TCP 协议的端口不同，你的主机很有可能没有开放基岩版所使用的 UDP
+协议的端口。
 一个确认此问题的方法是关闭你的服务器，然后选择其他 基岩版服务端，例如 Nukkit(你不一定非要用 Nukkit)以检查是否是该问题导致的
 
 - **尝试重启服务器和游戏**
@@ -80,7 +83,11 @@ Java版和基岩版的UUID不一致，请查阅进阶教程
 
 ## 加入服务器后出现区块空白
 
-如果你的服务器使用的是 Java 18 以下并且 CPU 支持 AVX512(通常来说是Intel 10 代以上和 AMD),你可以尝试添加启动参数```-XX:+UnlockDiagnosticVMOptions -XX:-UseAESCTRIntrinsics```
+如果你的服务器使用的是 Java 18 以下并且 CPU 支持 AVX512(通常来说是Intel 10 代以上和 AMD),你可以尝试添加启动参数
+
+```
+-XX:+UnlockDiagnosticVMOptions -XX:-UseAESCTRIntrinsics
+```
 
 :::tip
 
@@ -88,7 +95,8 @@ Java版和基岩版的UUID不一致，请查阅进阶教程
 
 :::
 
-当基岩版视距小于服务器视距时会出现区块无法渲染的现象(仍有碰撞体积但看不见)([Geyser Issue 3809](https://github.com/GeyserMC/Geyser/issues/3809))
+当基岩版视距小于服务器视距时会出现区块无法渲染的现象(
+仍有碰撞体积但看不见)([Geyser Issue 3809](https://github.com/GeyserMC/Geyser/issues/3809))
 
 可以在服务器上安装 [SeeMore](https://modrinth.com/plugin/seemore) 来解决这个问题
 
