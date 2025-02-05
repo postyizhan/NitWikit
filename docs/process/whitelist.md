@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 
 在`server.properties`中打开`white-list`
 
-```
+```properties
 white-list=true
 ```
 
@@ -38,7 +38,7 @@ white-list=true
 
 在`server.properties`中打开`allow-list`
 
-```
+```properties
 allow-list=true
 ```
 
@@ -49,7 +49,7 @@ allow-list=true
 
 在`server.properties`中打开`allow-list`
 
-```
+```properties
 allow-list=on
 ```
 
