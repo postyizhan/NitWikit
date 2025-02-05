@@ -27,9 +27,9 @@ sidebar_position: 9
 
 不建议使用任何报错屏蔽插件，哪怕那个报错/警告在你看来不影响使用
 
-当然，总还是有喜欢掩耳盗铃（也许他们知识体系不够健全？）的人
+当然,有些连接超时等报错屏蔽了也无所谓
 
-你非要用的话，试试 [Console Spam Fix](https://www.spigotmc.org/resources/.18410)
+可以使用 [Console Spam Fix Reborn](https://www.spigotmc.org/resources/console-spam-fix-reborn.121703/)
 
 ## 圈内破事
 
