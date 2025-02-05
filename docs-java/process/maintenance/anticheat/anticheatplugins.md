@@ -29,7 +29,13 @@ sidebar_position: 1
 
 :::
 
-### Matrix(推荐)
+### 主流反作弊插件
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="anticheat">
+<TabItem value="matrix" label="Matrix(推荐)">
 
 Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取代 AAC 这款反作弊插件，
 
@@ -55,7 +61,8 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 
 > 官网: matrix.rip
 
-### NoCheatPlus-Update
+</TabItem>
+<TabItem value="ncp" label="NoCheatPlus-Update">
 
 非常经典的老牌反作弊，拥有悠久历史且和作弊者们对抗许久，但目前并不积极的进行更新，
 
@@ -68,9 +75,11 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 ！不建议在不接触配置文件的情况下直接使用该插件。
 
 > GitHub: https://github.com/Updated-NoCheatPlus/NoCheatPlus
+> 
 > 下载镜像: https://dl.8aka.org/plugins/NoCheatPlus.jar
 
-### GrimAC 2.0
+</TabItem>
+<TabItem value="grim" label="GrimAC">
 
 一个不错的实验性反作弊，支持避免检查来自 Geyser 的玩家，移动检测虽然强大但有很多误判。
 
@@ -81,9 +90,11 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 ！可能不适合部分生电服务器或声明允许使用辅助模组的插件。
 
 > GitHub: https://github.com/GrimAnticheat/Grim
+> 
 > MineBBS: https://www.minebbs.com/threads/grimanticheat-1-8-x-1-21-x.29384/
 
-### Vulcan
+</TabItem>
+<TabItem value="vulcan" label="Vulcan">
 
 老牌火神反作弊，虽然在几个版本存在十分严重的漏洞，但并不影响他一些检测强力的事实，尽管他的配置文件非常脑淤血，但还是深受多人喜爱。
 
@@ -91,7 +102,8 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 
 > SpigotMC: https://www.spigotmc.org/resources/vulcan-anti-cheat-advanced-cheat-detection-1-7-1-20-4.83626/
 
-### 不推荐 - Spartan
+</TabItem>
+<TabItem value="spartan" label="Spartan(不推荐)">
 
 老牌垃圾反作弊，性能拉胯误判多，有很多无用和多余的检测，不如其它开源或具有相同价格的反作弊。
 
@@ -103,7 +115,15 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 
 > SpigotMC: https://www.spigotmc.org/resources/spartan-anti-cheat-advanced-cheat-hack-detection-1-7-1-20-4-33-off.25638/
 
-### AntiCheatAddition
+</TabItem>
+</Tabs>
+
+### 扩展反作弊插件
+
+一些扩展的反作弊插件,通常不提供直接的防作弊功能,而是扩展
+
+<Tabs queryString="ext">
+<TabItem value="aca" label="AntiCheatAddition">
 
 添加了其他反作弊不会反的部分，目前添加了以下：
 
@@ -115,19 +135,41 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 - 分析不可能发送的数据包
 - (以及更多)
 
-[查看地址](https://www.spigotmc.org/resources/anticheataddition.33590/)
+> 购买地址: https://www.spigotmc.org/resources/anticheataddition.33590/
 
-### AntiCheatObfuscator
+</TabItem>
+<TabItem value="aco" label="AntiCheatObfuscator">
 
 此插件会 "混淆 你的服务器上的反作弊，可以避免作弊者发现你的反作弊组合而针对性绕过
 
-[下载地址](https://www.minebbs.com/resources/anticheatobfuscator-1-8-1-20.9251/)
+> 下载地址: https://www.minebbs.com/resources/anticheatobfuscator-1-8-1-20.9251/
+> 
+> Modrinth: https://modrinth.com/plugin/anticheatobfuscator
 
-### ClientDetectorPlus
+</TabItem>
+<TabItem value="cdp" label="ClientDetectorPlus">
 
 一个可以用来查端的插件，可以检测客户端是什么类型的客户端，可以检测到部分模组。
 
-[查看地址](https://www.spigotmc.org/resources/clientdetectorplus-now-in-alpha-testing.90375/)
+> 下载地址: https://www.spigotmc.org/resources/clientdetectorplus-now-in-alpha-testing.90375/
+>
+> 开发版本(推荐): http://patreon.com/CraptiCraftDevelopment
+
+</TabItem>
+<TabItem value="iseeyou" label="ISeeYou">
+
+ISeeYou 是一个免费的录制插件,可以录制玩家的一举一动
+
+:::warning
+
+仅支持 Leaf 和 Leaves
+
+:::
+
+> 下载地址: https://github.com/MC-XiaoHei/ISeeYou/releases
+
+</TabItem>
+</Tabs>
 
 ---
 
@@ -151,7 +193,7 @@ Matrix 是由国人 RE 编写的一款反作弊插件，当年诞生是用于取
 
 GitHub：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
-## ViaBackwards
+### ViaBackwards
 
 如果你在你的服务器使用了跨版本插件(ViaVersion)，你需要开启这个选项以增加反作弊对其他版本的兼容性。
 
@@ -177,3 +219,4 @@ GitHub：https://github.com/TalentsRC/Talents-AntiCheat-Config
 
 - Matrix + GrimAC
 - NoChestPlus + GrimAC
+- Vulcan + Matrix
