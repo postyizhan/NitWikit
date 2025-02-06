@@ -20,7 +20,7 @@ sidebar_position: 4
 Adyeshach 是一款基于 TabooLib 进行开发的纯发包 NPC 插件，旨在大幅提升性能并提供更高级的功能和 API 。
 ```
 
-## 照骗
+## 照片
 
 ![](https://a.ptms.ink/img/command-edit-1.png)
 

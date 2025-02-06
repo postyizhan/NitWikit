@@ -22,7 +22,7 @@ sidebar_position: 2
 一个轻量级但功能强大的全息图插件，具有许多功能和配置项。
 ```
 
-## 照骗
+## 照片
 
 ![](_images/DecentHolograms/DecentHolograms_1.png)
 

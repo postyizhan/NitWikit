@@ -32,7 +32,7 @@ sidebar_position: 2
 > 本插件已在 [MCBBS](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1261503)
 > 与 [SpigotMC](https://www.spigotmc.org/resources/userprefix-hex-color-support-all-version.96277/) 上发布。
 
-## 照骗
+## 照片
 
 ![](./_images/UserPrefix/2.png)
 

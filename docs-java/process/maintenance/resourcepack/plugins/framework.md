@@ -1,9 +1,15 @@
 ---
-title: ItemsAdder
-sidebar_position: 1
+sidebar_position: 2
+title: 资源包框架
 ---
 
-# ItemsAdder
+# 资源包框架
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="ff">
+<TabItem value="ia" label="ItemsAdder">
 
 :::info
 
@@ -43,3 +49,53 @@ https://itemsadder.devs.beer
 ```
 
 连基础都没学不要他妈的问问问
+
+</TabItem>
+<TabItem value="orx" label="Oraxen">
+
+:::info
+
+`SpigotMC` https://www.spigotmc.org/resources/.72448/
+
+`GitHub` https://github.com/oraxen/oraxen
+
+`文档(英文)` https://docs.oraxen.com/
+
+`文档(中文)` https://snowcutieowo.github.io/Oraxen/README.html
+
+:::
+
+和 ItemsAdder 同类型的插件，付费开源，不想花钱可以自己构建。
+
+如果你没有能力手搓出你想要的东西(如对资源包非常了解，能自己写代码补Oraxen没有的功能)那就去花钱用旁边的 ItemsAdder
+
+还找到另一个中文文档 https://3504743864.gitbook.io/oraxen-wiki
+
+</TabItem>
+<TabItem value="nexo" label="Nexo">
+
+:::info
+
+`Polymart` https://polymart.org/resource/nexo.6901
+
+:::
+
+Oraxen 翻版,目前不推荐使用,英文文档都被删除了
+
+</TabItem>
+<TabItem value="Crucible" label="Crucible">
+
+:::info
+
+`MythicCraft` https://mythiccraft.io/index.php?resources/2/
+
+`文档(英文)` https://git.mythiccraft.io/mythiccraft/mythiccrucible
+
+`文档(中文)` https://gitlab.com/TranslatedByShark/MythicCrucible-Manual-CN/-/wikis/home
+
+:::
+
+较为小众的资源包框架，不推荐使用
+
+</TabItem>
+</Tabs>
