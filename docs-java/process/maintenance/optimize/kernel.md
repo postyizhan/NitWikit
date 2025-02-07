@@ -127,7 +127,7 @@ sudo cpupower frequency-set -g performance
 
 TCP 网络优化主要是改进拥塞控制算法,BBR 是由 Google 开发的网络拥塞控制算法，它可以优化数据包的处理方式，显著提升网络传输效率和稳定性
 
-1. 检查当前 BBR 状态,避免重复操作
+首先检查当前 BBR 状态,避免重复操作
 
 ```shell
 sysctl net.ipv4.tcp_congestion_control
@@ -136,9 +136,9 @@ sysctl net.ipv4.tcp_congestion_control
 * 如果返回`net.ipv4.tcp_congestion_control = bbr`,表示 BBR 已启用。
 * 如果返回其它算法，比如`cubic`或`reno`，则说明 BBR 尚未激活。
 
-2. 激活 BBR
+接着激活 BBR
 
-首先需要检查兼容性:
+检查兼容性:
 
 ```shell
 sudo modprobe tcp_bbr
@@ -154,7 +154,7 @@ sudo sh -c 'echo "net.ipv4.tcp_congestion_control=bbr" >> /etc/sysctl.conf'
 sudo sysctl -p
 ```
 
-3. 重启网络服务
+之后重启网络服务
 
 最后运行第一步的检查 BBR 是否已经启动
 
