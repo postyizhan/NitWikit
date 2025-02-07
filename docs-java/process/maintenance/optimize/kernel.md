@@ -96,24 +96,6 @@ sudo systemctl restart sysfsutils
 
 这样就可以了,然后重启机器即可
 
-### BBRv3
-
-BBRv3 是 Google 最新开发的 BBR 算法,不过目前没有合并到 Linux 内核，需要自行更新内核
-
-:::warning
-
-在更新内核前,请先备份内核
-
-:::
-
-```shell
-wget https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh
-chmod +x install.sh
-./install.sh
-```
-
-输入`1`安装 BBR V3,安装重启后选择`BBR + FQ`算法即可使用 BBR V3
-
 ## CPU 调优
 
 强制所有 CPU 核心运行在最高频率(不同于超频,不会影响 CPU 寿命)
@@ -158,6 +140,24 @@ sudo sysctl -p
 3. 重启网络服务
 
 最后运行第一步的检查 BBR 是否已经启动
+
+### BBRv3
+
+BBRv3 是 Google 最新开发的 BBR 算法,不过目前没有合并到 Linux 内核，需要自行更新内核
+
+:::warning
+
+在更新内核前,请先备份内核
+
+:::
+
+```shell
+wget https://raw.githubusercontent.com/byJoey/Actions-bbr-v3/refs/heads/main/install.sh
+chmod +x install.sh
+./install.sh
+```
+
+输入`1`安装 BBR V3,安装重启后选择`BBR + FQ`算法即可使用 BBR V3
 
 ### TCP Fast Open
 
