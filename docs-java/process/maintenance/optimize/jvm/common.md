@@ -30,9 +30,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 如果看到 `Large Page Support: Enabled (Transparent)` ，表示你的系统支持透明大页
 
-但是如果你依然不支持或者想要追求极致性能，可以去百度搜索当前的系统如何开启大页，
-
-这里就不再过多的赘述了。(LargePages 对服务器提升相当巨大，在我的电脑上，它提升了 50%的性能)
+但是如果你依然不支持或者想要追求极致性能，可以查看 [内核优化](../kernel.md)
 
 如果支持 LargePages ，加上此参数
 
@@ -40,10 +38,10 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -XX:+UseLargePages  -XX:LargePageSizeInBytes=2m
 ```
 
-如果支持 TransparentHugePages (不要把两个都加上，优先 LargePages)，加上此参数
+如果支持 TransparentHugePages，加上此参数
 
 ```shell
--XX:+UseTransparentHugePages -XX:LargePageSizeInBytes=2m
+-XX:+UseTransparentHugePages
 ```
 
 :::tip
