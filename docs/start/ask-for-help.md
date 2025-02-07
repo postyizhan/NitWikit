@@ -142,13 +142,28 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 :::tip
 
-推荐一个网站 [Mclogs](https://mclo.gs/)，它允许你很方便地上传日志。
+推荐一个网站 [8aka Mclogs](https://log.8aka.org/)，它允许你很方便地上传日志。
 
 :::
 
 你需要明白你面对的是群友而不是道友，没有人可以在没有日志的情况下帮你解决问题，
 
 如果你遇到的是大佬还可以给你算一卦。
+
+<details>
+  <summary>如何使用 8aka Mclogs </summary>
+
+> https://log.8aka.org
+
+![](_images/屏幕截图%202025-02-07%20182759.png)
+
+服务器 log 文件在服务端根目录的 logs 文件夹，一般上传 latest.log (服务端最新的日志)即可
+
+![](_images/屏幕截图%202025-02-07%20182930.png)
+
+把这个链接复制粘贴发给大佬
+
+</details>
 
 <details>
   <summary>如何使用 Mclogs </summary>
