@@ -17,9 +17,26 @@ tuned 调优服务可以通过设置调优配置文件来调整操作系统，�
 执行以下命令来安装 tuned:
 
 <Tabs defaultValue="Debian/Ubuntu">
-  <TabItem value="Debian/Ubuntu">sudo apt install tuned</TabItem>
-  <TabItem value="RedHat/CentOS">sudo yum install tuned</TabItem>
-  <TabItem value="ArchLinux">sudo pacman -S tuned</TabItem>
+<TabItem value="Debian/Ubuntu">
+
+```shell
+sudo apt install tuned
+```
+</TabItem>
+  <TabItem value="RedHat/CentOS">\
+
+```shell
+sudo yum install tuned
+```
+
+</TabItem>
+<TabItem value="ArchLinux">
+
+```shell
+sudo pacman -S tuned
+```
+
+</TabItem>
 </Tabs>
 
 然后启动:
@@ -141,7 +158,7 @@ sudo sysctl -p
 
 最后运行第一步的检查 BBR 是否已经启动
 
-### BBRv3
+#### BBRv3
 
 BBRv3 是 Google 最新开发的 BBR 算法,不过目前没有合并到 Linux 内核，需要自行更新内核
 
