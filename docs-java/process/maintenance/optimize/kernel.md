@@ -23,7 +23,7 @@ tuned 调优服务可以通过设置调优配置文件来调整操作系统，�
 sudo apt install tuned
 ```
 </TabItem>
-  <TabItem value="RedHat/CentOS">\
+  <TabItem value="RedHat/CentOS">
 
 ```shell
 sudo yum install tuned
