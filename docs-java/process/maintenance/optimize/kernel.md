@@ -148,20 +148,20 @@ CPU supports x86-64-v4
 
 :::
 
-2. 添加上游公钥：
+1. 添加上游公钥：
 
 ```shell
 wget -qO - https://dl.xanmod.org/archive.key | gpg --dearmor -vo /usr/share/keyrings/xanmod-archive-keyring.gpg
 ```
 
-3. 添加源：
+1. 添加源：
 
 ```shell
 echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/xanmod releases main' | tee /etc/apt/sources.list.d/xanmod-release.list
 apt update
 ```
 
-4. 安装
+1. 安装
 
 ```shell
 apt install -y linux-xanmod-rt-x64v4
@@ -169,7 +169,7 @@ apt install -y linux-xanmod-rt-x64v4
 
 `v4` 需要根据第1步的 CPU supports 更改,最后重启即可
 
-5. 检查安装
+1. 检查安装
 
 重启后检查安装
 
