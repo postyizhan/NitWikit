@@ -31,7 +31,7 @@ sidebar_position: 2
 
 你需要安装 [Vault](./../Vault/vault.md) 插件和 [经济插件](../XConomy.md)，接着使用
 
-```
+```bash
 /papi ecloud download Vault
 /papi reload
 ```
@@ -50,7 +50,7 @@ flowchart TD
 插件 -->|papi变量| PlaceHolderAPI --> 显示
 ```
 
-`build-in placeholder`，在此处我将其翻译为 “**内建变量**”。
+`build-in placeholder`，在此处我将其翻译为 "**内建变量**"。
 
 指的是插件没有通过 PlaceHolderAPI，而是由自己实现的一种变量。通常，这类变量只有这个插件自己可以使用。
 
