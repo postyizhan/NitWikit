@@ -128,7 +128,7 @@ XanMod Linux 内核融合了许多优化补丁,包括许多来自 Cloudflare,Goo
 
 ### 安装
 
-0. 检查兼容性
+1. 检查兼容性
 
 ```shell
 awk -f <(wget -qO- https://dl.xanmod.org/check_x86-64_psabi.sh)
@@ -148,20 +148,20 @@ CPU supports x86-64-v4
 
 :::
 
-1. 添加上游公钥：
+2. 添加上游公钥：
 
 ```shell
 wget -qO - https://dl.xanmod.org/archive.key | gpg --dearmor -vo /usr/share/keyrings/xanmod-archive-keyring.gpg
 ```
 
-2. 添加源：
+3. 添加源：
 
 ```shell
 echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/xanmod releases main' | tee /etc/apt/sources.list.d/xanmod-release.list
 apt update
 ```
 
-3. 安装
+4. 安装
 
 ```shell
 apt install -y linux-xanmod-rt-x64v4
@@ -169,7 +169,7 @@ apt install -y linux-xanmod-rt-x64v4
 
 `v4` 需要根据第0步的 CPU supports 更改,最后重启即可
 
-4. 检查安装
+5. 检查安装
 
 重启后检查安装
 
@@ -282,7 +282,7 @@ net.ipv4.tcp_retries2=5
 # Backlog 设置将被忽略. syncookie 是一个出于对现实的妥协,
 # 严重违反 TCP 协议的设计, 会造成 TCP option 不可用, 且实现上
 # 通过计算 hash 避免维护半开连接也是一种 tradeoff 而非万金油,
-# 勿听信所谓“安全优化教程”而无脑开启
+# 勿听信所谓"安全优化教程"而无脑开启
 net.ipv4.tcp_syncookies=0
 
 # Ref: https://linuxgeeks.github.io/2017/03/20/212135-Linux%E5%86%85%E6%A0%B8%E5%8F%82%E6%95%B0rp_filter/
