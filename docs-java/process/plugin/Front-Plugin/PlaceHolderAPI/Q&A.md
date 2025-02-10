@@ -15,6 +15,33 @@ sidebar_position: 2
 
 `%playerpoints_points%` 是显示 PlayerPoints 插件的玩家点券
 
+## 变量怎么不显示
+
+![](_images/Q&A/变量不显示-1.png)
+
+通常有以下几种情况：
+
+1. 变量写错了
+2. 没下载扩展
+3. 没 `/papi reload`
+
+这里讲解一下第二种情况：
+
+在上方图片中，可以看到点券一行是 `%vault_eco_balance%`
+
+你需要安装 [Vault](./../Vault/vault.md) 插件和 [经济插件](../XConomy.md)，接着使用
+
+```
+/papi ecloud download Vault
+/papi reload
+```
+
+然后你就可以看到变量了。
+
+![](_images/Q&A/变量不显示-2.png)
+
+如果下载失败，看 [变量下载失败？](#变量下载失败)
+
 ## 什么是内建变量？
 
 ```mermaid
@@ -65,28 +92,14 @@ boolean:
 
 然后执行命令 `/papi reload`
 
-### 下载失败？
+## 变量下载失败？
 
-![](_images/变量下载失败.png)
+![](_images/Q&A/变量下载失败.png)
 
-看起来你连不上ecloud
+看起来你连不上 ecloud
 
-手动下载吧 https://api.extendedclip.com/all/
+手动下载吧 https://api.extendedclip.com/all
 
 把下载的jar文件塞到 `plugins\PlaceholderAPI\expansions` 文件夹
 
 然后执行命令 `/papi reload`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
