@@ -167,7 +167,7 @@ apt update
 apt install -y linux-xanmod-rt-x64v4
 ```
 
-`v4` 需要根据第0步的 CPU supports 更改,最后重启即可
+`v4` 需要根据第1步的 CPU supports 更改,最后重启即可
 
 5. 检查安装
 
