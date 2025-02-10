@@ -130,54 +130,50 @@ XanMod Linux 内核融合了许多优化补丁,包括许多来自 Cloudflare,Goo
 
 1. 检查兼容性
 
-```shell
-awk -f <(wget -qO- https://dl.xanmod.org/check_x86-64_psabi.sh)
-```
+    ```shell
+    awk -f <(wget -qO- https://dl.xanmod.org/check_x86-64_psabi.sh)
+    ```
 
-输出结果
+    输出结果
 
-```shell
-CPU supports x86-64-v4
-```
+    ```shell
+    CPU supports x86-64-v4
+    ```
 
-这里可以看到我的 CPU 是支持 v4 版本的，安装时可以按照此结果进行选择。
+    这里可以看到我的 CPU 是支持 v4 版本的，安装时可以按照此结果进行选择。
 
-:::warning
+    :::warning
+    一定要选择符合的版本进行安装，否则将导致无法正常启动！
+    :::
 
-一定要选择符合的版本进行安装，否则将导致无法正常启动！
+2. 添加上游公钥：
 
-:::
+    ```shell
+    wget -qO - https://dl.xanmod.org/archive.key | gpg --dearmor -vo /usr/share/keyrings/xanmod-archive-keyring.gpg
+    ```
 
-1. 添加上游公钥：
+3. 添加源：
 
-```shell
-wget -qO - https://dl.xanmod.org/archive.key | gpg --dearmor -vo /usr/share/keyrings/xanmod-archive-keyring.gpg
-```
+    ```shell
+    echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/xanmod releases main' | tee /etc/apt/sources.list.d/xanmod-release.list
+    apt update
+    ```
 
-1. 添加源：
+4. 安装
 
-```shell
-echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/xanmod releases main' | tee /etc/apt/sources.list.d/xanmod-release.list
-apt update
-```
+    ```shell
+    apt install -y linux-xanmod-rt-x64v4
+    ```
 
-1. 安装
+    `v4` 需要根据第1步的 CPU supports 更改,最后重启即可
 
-```shell
-apt install -y linux-xanmod-rt-x64v4
-```
+5. 检查安装
 
-`v4` 需要根据第1步的 CPU supports 更改,最后重启即可
+    重启后检查安装
 
-1. 检查安装
-
-重启后检查安装
-
-```shell
-uname -r
-```
-
-输出包含`xanmod` 即为安装成功
+    ```shell
+    uname -r
+    ```
 
 ### 配置优化
 
