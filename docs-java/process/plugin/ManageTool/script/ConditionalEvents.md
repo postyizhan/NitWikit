@@ -17,6 +17,8 @@ sidebar_position: 3
 
 `文档(英文)` https://ajneb97.gitbook.io/conditionalevents
 
+`文档(中文)` https://bukkit.wiki/plugins/plugins/conditionalevents
+
 :::
 
 ## Bstats
