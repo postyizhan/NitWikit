@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 指一个独立程序运行的 QQ 机器人程序，这些机器人程序仅只有 QQ 消息处理功能， QQ 连接需要依赖 QQ 机器人框架
 
-部分 QQ 机器人程序会依赖 Minecraft 插件或者 RCON 来实现部分无法完成的功能。
+部分 QQ 机器人程序会依赖 Minecraft 插件来实现部分无法完成的功能。
 
 关于机器人框架详情请见 [通用 | 机器人框架](https://nitwikit.8aka.org/advance/bot/framework/)
 
@@ -43,7 +43,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [文档站](https://wiki.bioc.fun/) |
 | 作者 | [MiuxuE](https://github.com/zzh4141) |
-| 支持 **Java 版** | Bukkit 以及其他 Bukkit 分支 |
+| 支持 **Java 版** | Bukkit 及其分支 |
 | 介绍 | 基于 Blazor 开发的跨平台群服互通框架，使用 OneBot11 标准接入 QQ，配置较为复杂但实现效果较好 |
 | 下载 | [官网下载](https://wiki.bioc.fun/down.html) |
 
@@ -65,7 +65,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/summerkirakira/CirnoBot) \| [文档站](https://biaoju.site/cirnobot/) |
 | 作者 | [summerkirakira](https://github.com/summerkirakira) |
-| 支持平台 | Java 版 |
+| 支持 **Java 版** | Bukkit 及其分支 |
 | 介绍 | 基于 NoneBot2 开发的机器人平台，可使用 OneBot11 标准接入 QQ，有机器人相关配置并且有平台支持插件进行功能拓展 |
 | 下载 | [文档教程](https://biaoju.site/cirnobot/docs/%E7%AE%80%E5%8D%95%E4%B8%8A%E6%89%8B) |
 
@@ -76,7 +76,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/Minecraft-QQBot/BotServer) \| [文档站](https://qqbot.bugjump.xyz/) |
 | 作者 | [sparkbridge](https://github.com/sparkbridge) |
-| 支持平台 | Java 版 |
+| 支持 **Java 版** | Bukkit 及其分支 |
 | 介绍 | 一款基于 NoneBot2 用多种方式与 Minecraft 交互的 Python QQ 机器人，可使用 OneBot11 标准接入 QQ，有机器人相关配置并且有平台支持插件进行功能拓展 |
 | 下载 | [文档教程](https://qqbot.bugjump.xyz/%E6%96%87%E6%A1%A3/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B.html) |
 

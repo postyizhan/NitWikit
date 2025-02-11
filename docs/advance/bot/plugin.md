@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/DreamVoid/MiraiMC) \| [文档站](https://docs.miraimc.dreamvoid.me/) |
 | 作者 | [DreamVoid](https://github.com/DreamVoid) |
-| 支持 **Java 版** | Bukkit 以及其他 Bukkit 分支 \| BungeeCord \| Waterfall \| Sponge \| Velocity |
+| 支持 **Java 版** | Bukkit 及其分支 \| BungeeCord \| Waterfall \| Sponge \| Velocity |
 | 支持 **基岩版** | NukkitX |
 | 介绍 | 一个基于 Mirai 的 Minecraft 服务端插件，能够让你在 Minecraft 服务器上使用 Mirai QQ 机器人程序，同时提供一些 API 帮助开发者简单的调用机器人接口为自己的插件实现多样的功能 |
 | 下载 | [Github](https://github.com/DreamVoid/MiraiMC/releases) \| [Modrinth](https://modrinth.com/plugin/miraimc) |
@@ -58,7 +58,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/RegadPoleCN/PlumBot) \| [Modrinth页面](https://modrinth.com/plugin/plumbot) |
 | 作者 | [RegadPoleCN](https://github.com/RegadPoleCN) |
-| 支持 **Java 版** | Bukkit 以及其他 Bukkit 分支 |
+| 支持 **Java 版** | Bukkit 及其分支 |
 | 介绍 | 一个可以安装在 Bukkit 等服务端上的 QQ 机器人插件，它能将你的 mc 服务器与 QQ 群或 kook 频道联通，支持消息转发，死亡转发等功能 |
 | 下载 | [Github](https://github.com/RegadPoleCN/PlumBot/releases) \| [Modrinth](https://modrinth.com/plugin/plumbot) |
 
@@ -69,7 +69,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/alazeprt/AQQBot) |
 | 作者 | [alazeprt](https://github.com/alazeprt) |
-| 支持 **Java 版** | Bukkit 以及其他 Bukkit 分支 |
+| 支持 **Java 版** | Bukkit 及其分支 |
 | 介绍 | 一个轻量级、模块化和多功能的 Bukkit 服务器 QQ 机器人插件，内置群服互通功能，允许用户通过 QQ 群实行更多操作 |
 | 下载 | [Github](https://github.com/alazeprt/AQQBot/releases) |
 
@@ -80,7 +80,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/Xinxin-ent/XinxinBotApi) \| [文档站](https://wiki.mcxin.cn/zh/%E6%96%B0%E9%91%AB%E6%8F%92%E4%BB%B6%E6%95%99%E7%A8%8B/XinxinBotApi) [官网](https://bbs.mcxin.cn/archives/216) |
 | 作者 | [Xinxin-ent](https://github.com/Xinxin-ent) |
-| 支持 **Java 版** | Bukkit 以及其他 Bukkit 分支 |
+| 支持 **Java 版** | Bukkit 及其分支 |
 | 介绍 | 一个可以安装在 Bukkit 等服务端上的 QQ 机器人插件，并且提供一些 API 帮助开发者拓展功能，配置复杂但效果较好 |
 | 下载 | [官网下载](https://bbs.mcxin.cn/archives/216) |
 
