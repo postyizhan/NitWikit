@@ -7,7 +7,22 @@ sidebar_label: 地形生成 - IrisWorldGen
 
 <!--markdownlint-disable line-length-->
 
+# IrisWorldGen
+
 ![Iris](https://s1.ax1x.com/2022/07/07/jd5y0s.png)
+
+## 效果展示
+
+![Iris 地形展示](https://s1.ax1x.com/2022/07/07/jd55X4.png)
+
+<div align="center">
+<img src="https://s1.ax1x.com/2022/07/07/jd5onJ.png" width="100%" />
+
+<div style="margin-top: 20px">
+<img src="https://s1.ax1x.com/2022/07/07/jd577R.png" width="45%" style="margin-right: 20px" />
+<img src="https://s1.ax1x.com/2022/07/07/jd5TB9.png" width="45%" />
+</div>
+</div>
 
 ## 介绍
 
@@ -32,18 +47,6 @@ Iris 的地形生成系统非常强大：
 - 完全的方块状态控制
 - 超过 50 种噪声生成器可供选择
 - 支持自定义结构和装饰物
-# 效果展示
-
-![Iris 地形展示](https://s1.ax1x.com/2022/07/07/jd55X4.png)
-
-<div align="center">
-<img src="https://s1.ax1x.com/2022/07/07/jd5onJ.png" width="100%" />
-
-<div style="margin-top: 20px">
-<img src="https://s1.ax1x.com/2022/07/07/jd577R.png" width="45%" style="margin-right: 20px" />
-<img src="https://s1.ax1x.com/2022/07/07/jd5TB9.png" width="45%" />
-</div>
-</div>
 
 ## 安装
 
@@ -77,6 +80,36 @@ Iris 的地形生成系统非常强大：
 ## 配置文件
 
 配置文件位于 `plugins/Iris/config.yml`
+
+<details>
+  <summary>点击展开配置示例</summary>
+
+```yaml
+# Iris 主配置文件
+
+# 性能设置
+performance:
+  # 区块生成线程数
+  threads: 4
+  # 预加载区块半径
+  preload-radius: 3
+  
+# 世界设置
+worlds:
+  # 默认维度包
+  default-pack: "overworld"
+  # 是否在服务器启动时加载所有世界
+  load-all-worlds: true
+  
+# 兼容性设置
+compatibility:
+  # 是否启用 MythicMobs 支持
+  mythicmobs: true
+  # 是否启用 PlaceholderAPI 支持
+  placeholderapi: true
+```
+
+</details>
 
 ## 权限列表
 
