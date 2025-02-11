@@ -108,15 +108,9 @@ skip_alpha_optimizations = true
 color_quantization_target = 'none'
 ```
 
-## 战绩
+## 推荐配置文件
 
-对测试资源包使用 PackSquash 进行压缩,其体积从 79 MB 下降至 35 MB
-
-使用 OGG 混淆后,7 款音频播放器均无法播放(MC 内正常)
-
-使用 ZIP 混淆后,大部分 ZIP 查看器无法打开(不是合法的 ZIP 文件),仅 BandiZIP 成功解压
-
-当压缩保密性设为 100 时,所有 ZIP 查看器陨落,无人打开,测试配置文件:
+### 保护性
 
 ```toml
 zip_spec_conformance_level = 'disregard'
@@ -124,4 +118,16 @@ size_increasing_zip_obfuscation = true
 percentage_of_zip_structures_tuned_for_obfuscation_discretion = 100
 ```
 
+### 压缩性
+
+```toml
+pack_directory = 'src'
+output_file_path = 'resources.min.zip'
+zip_spec_conformance_level = 'disregard'
+zip_compression_iterations = 255
+never_store_squash_times = true
+
+['**/*?.png']
+image_data_compression_iterations = 255
+```
 
