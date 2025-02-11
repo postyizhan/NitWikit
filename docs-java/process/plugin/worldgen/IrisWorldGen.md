@@ -19,7 +19,7 @@ sidebar_label: 地形生成 - IrisWorldGen
 <img src="https://s1.ax1x.com/2022/07/07/jd5onJ.png" width="100%" />
 
 <div style="margin-top: 20px">
-<img src="https://s1.ax1x.com/2022/07/07/jd577R.png" width="45%" style="margin-right: 20px" />
+<img src="https://s1.ax1x.com/2022/07/07/jd577R.png" width="45%" style={{marginRight: '20px'}} />
 <img src="https://s1.ax1x.com/2022/07/07/jd5TB9.png" width="45%" />
 </div>
 </div>

@@ -12,7 +12,7 @@ sidebar_label: 地形生成 - TerraformGenerator
 ![TerraformGenerator 地形展示](https://img.fastmirror.net/s/2024/08/03/66ad8d09b6679.png)
 
 <div align="center">
-<img src="https://img.fastmirror.net/s/2024/08/03/66ad8fef89d62.png" width="45%" style="margin-right: 20px" />
+<img src="https://img.fastmirror.net/s/2024/08/03/66ad8fef89d62.png" width="45%" style={{marginRight: '20px'}} />
 <img src="https://img.fastmirror.net/s/2024/08/03/66ad8fea5ff5a.png" width="45%" />
 </div>
 
