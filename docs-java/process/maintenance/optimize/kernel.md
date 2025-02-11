@@ -128,56 +128,52 @@ XanMod Linux 内核融合了许多优化补丁,包括许多来自 Cloudflare,Goo
 
 ### 安装
 
-0. 检查兼容性
+1. 检查兼容性
 
-```shell
-awk -f <(wget -qO- https://dl.xanmod.org/check_x86-64_psabi.sh)
-```
+    ```shell
+    awk -f <(wget -qO- https://dl.xanmod.org/check_x86-64_psabi.sh)
+    ```
 
-输出结果
+    输出结果
 
-```shell
-CPU supports x86-64-v4
-```
+    ```shell
+    CPU supports x86-64-v4
+    ```
 
-这里可以看到我的 CPU 是支持 v4 版本的，安装时可以按照此结果进行选择。
+    这里可以看到我的 CPU 是支持 v4 版本的，安装时可以按照此结果进行选择。
 
-:::warning
+    :::warning
+    一定要选择符合的版本进行安装，否则将导致无法正常启动！
+    :::
 
-一定要选择符合的版本进行安装，否则将导致无法正常启动！
+2. 添加上游公钥：
 
-:::
+    ```shell
+    wget -qO - https://dl.xanmod.org/archive.key | gpg --dearmor -vo /usr/share/keyrings/xanmod-archive-keyring.gpg
+    ```
 
-1. 添加上游公钥：
+3. 添加源：
 
-```shell
-wget -qO - https://dl.xanmod.org/archive.key | gpg --dearmor -vo /usr/share/keyrings/xanmod-archive-keyring.gpg
-```
+    ```shell
+    echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/xanmod releases main' | tee /etc/apt/sources.list.d/xanmod-release.list
+    apt update
+    ```
 
-2. 添加源：
+4. 安装
 
-```shell
-echo 'deb [signed-by=/usr/share/keyrings/xanmod-archive-keyring.gpg] https://mirrors.tuna.tsinghua.edu.cn/xanmod releases main' | tee /etc/apt/sources.list.d/xanmod-release.list
-apt update
-```
+    ```shell
+    apt install -y linux-xanmod-rt-x64v4
+    ```
 
-3. 安装
+    `v4` 需要根据第1步的 CPU supports 更改,最后重启即可
 
-```shell
-apt install -y linux-xanmod-rt-x64v4
-```
+5. 检查安装
 
-`v4` 需要根据第0步的 CPU supports 更改,最后重启即可
+    重启后检查安装
 
-4. 检查安装
-
-重启后检查安装
-
-```shell
-uname -r
-```
-
-输出包含`xanmod` 即为安装成功
+    ```shell
+    uname -r
+    ```
 
 ### 配置优化
 
@@ -282,7 +278,7 @@ net.ipv4.tcp_retries2=5
 # Backlog 设置将被忽略. syncookie 是一个出于对现实的妥协,
 # 严重违反 TCP 协议的设计, 会造成 TCP option 不可用, 且实现上
 # 通过计算 hash 避免维护半开连接也是一种 tradeoff 而非万金油,
-# 勿听信所谓“安全优化教程”而无脑开启
+# 勿听信所谓"安全优化教程"而无脑开启
 net.ipv4.tcp_syncookies=0
 
 # Ref: https://linuxgeeks.github.io/2017/03/20/212135-Linux%E5%86%85%E6%A0%B8%E5%8F%82%E6%95%B0rp_filter/
