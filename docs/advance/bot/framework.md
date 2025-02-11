@@ -23,7 +23,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="NapCatQQ" label="NapCatQQ">
 
-| LLOneBot | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
+| NapCatQQ | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/NapNeko/NapCatQQ) \| [文档站](https://napneko.github.io/) |
 | 作者 | [NapNeko](https://github.com/NapNeko) |
