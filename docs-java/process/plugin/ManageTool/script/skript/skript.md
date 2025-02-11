@@ -1,10 +1,9 @@
 ---
-slug: /plugins/other/Skript
-title: Skript 概览
-sidebar_position: 8
+title: Skript
+sidebar_position: 1
 ---
 
-# 概览
+# Skript
 
 :::warning
 
