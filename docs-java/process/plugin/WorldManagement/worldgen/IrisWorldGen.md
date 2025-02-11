@@ -2,7 +2,7 @@
 title: IrisWorldGen
 slug: /IrisWorldGen
 sidebar_position: 7
-sidebar_label: 地形生成 - IrisWorldGen
+sidebar_label: IrisWorldGen
 ---
 
 <!--markdownlint-disable line-length-->

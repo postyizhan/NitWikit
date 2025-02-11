@@ -2,7 +2,7 @@
 title: TerraformGenerator
 slug: /TerraformGenerator
 sidebar_position: 8
-sidebar_label: 地形生成 - TerraformGenerator
+sidebar_label: TerraformGenerator
 ---
 
 <!--markdownlint-disable line-length-->
