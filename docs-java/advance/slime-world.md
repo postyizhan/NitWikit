@@ -20,11 +20,37 @@ Slime 世界格式是 Hypixel 开发的一种世界存储格式
 
 ## 下载
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="mcver">
+<TabItem value="new" label="1.20.4+">
+
+
 前往[Github Release](https://github.com/InfernalSuite/AdvancedSlimePaper/releases),找到适合的版本下载即可
 
-* `plugin-***-R0.1-SNAPSHOT.1.jar` ASM 的插件版本
-* `asp-server.jar` ASM 的独立服务器核心版本(基于Paper)(不推荐)
+* `plugin-***-R0.1-SNAPSHOT.1.jar` ASM 的插件版本(推荐)
+* `asp-server.jar` ASM 的独立服务器核心版本(基于Paper)
 * `importer-***-R0.1-SNAPSHOT.jar` ASM 独立的导入工具,可以将原版世界格式转为 SRF 格式
+
+</TabItem>
+<TabItem value="old" label="1.8">
+
+前往[Github Release](https://github.com/Swofty-Developments/Continued-Slime-World-Manager/releases),下载最新版
+
+* 下载`swoftyworldmanager-plugin-<version>.jar` 到插件目录
+* 下载`swoftyworldmanager-classmodifier-<version>.jar` 到服务器根目录
+
+添加启动参数
+
+```shell
+-javaagent:swoftyworldmanager-classmodifier-<version>.jar
+```
+
+* 你可以使用 `swoftyworldmanager-importer-<version>.jar` 来导入原版世界格式到 SRF 格式
+
+</TabItem>
+</Tabs>
 
 ## 配置
 
@@ -119,15 +145,25 @@ mongodb:
 
 请查阅官方[wiki](https://infernalsuite.com/docs/asp/swp/commands)
 
+[1.8 版本 wiki](https://github.com/Swofty-Developments/Continued-Slime-World-Manager/blob/develop/.docs/usage/commands-and-permissions.md)
+
 ## 转换世界
 
 请查阅官方[wiki](https://infernalsuite.com/docs/asp/swp/converting_worlds)
 
+[1.8 版本 wiki](https://github.com/Swofty-Developments/Continued-Slime-World-Manager/blob/develop/.docs/config/convert-world-to-srf.md)
+
+## 异步世界生成
+
+:::warning
+
+该功能仅限 1.8 版本
+
+:::
+
+在配置文件中打开`enable_async_world_gen`选项即可
+
 ## FAQ
-
-### 与 Spigot 兼容吗?
-
-不兼容,Slime 是基于 Paper 的
 
 ### 可以覆盖默认世界吗?
 
@@ -135,7 +171,7 @@ mongodb:
 
 ### Slime 与 Multiverse-Core 兼容吗?
 
-Multiverse-Core 会检测到 Slime世界为未加载状态,因为它找不到世界目录,然后直接忽略它们.不应该有任何问题;然而,Multiverse-Core 无法与 Slime 世界一起使用.
+Multiverse-Core 会检测到 Slime 世界为未加载状态,因为它找不到世界目录,然后直接忽略它们.不应该有任何问题;然而,Multiverse-Core 无法与 Slime 世界一起使用.
 
 ### Slime 有世界大小限制吗?
 
