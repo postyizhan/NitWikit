@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 slug: /Multiverse
 sidebar_label: 多世界 - Multiverse
 ---

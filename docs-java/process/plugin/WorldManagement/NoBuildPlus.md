@@ -1,9 +1,19 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 sidebar_label: 保护 - NoBuildPlus
 ---
 
 # NoBuildPlus
+
+## ![概览](_images/NoBuildPlus/banner_nobuildplus_zh_CN.png)
+
+![](_images/NoBuildPlus/banner_type_nobuildplus_zh_CN.png)
+
+![](_images/NoBuildPlus/banner_deny_nobuildplus_zh_CN.png)
+
+![](_images/NoBuildPlus/banner_compat_nobuildplus_zh_CN.png)
+
+## 链接
 
 :::info
 
@@ -15,14 +25,8 @@ sidebar_label: 保护 - NoBuildPlus
 
 :::
 
-和下面WorldGuard相比更简单易上手的世界保护插件
+和上面 WorldGuard 相比更简单易上手的世界保护插件
 
-## 傻逼
+## Bstats
 
-![](_images/孤独论nbp.png)
-
-这插件的定位不就是世界保护？
-
-孤独依旧稳定发挥：https://github.com/postyizhan/lezi-wiki/issues/29
-
-![](_images/把自己放上去.png)
+[![](https://bstats.org/signatures/bukkit/NoBuildPlus.svg)](https://bstats.org/plugin/bukkit/NoBuildPlus/15126)

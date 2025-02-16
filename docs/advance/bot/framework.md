@@ -3,28 +3,113 @@ title: 机器人框架
 sidebar_position: 1
 ---
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 # 机器人框架
-## NoneBot
-NoneBot 是一个基于 Python 的机器人框架，支持同时接入多个平台，使用插件可实现搭建群服互通机器人。   
-支持的MC插件：[MCQQ](https://github.com/17TheWord/nonebot-plugin-mcqq)
 
-框架链接：https://github.com/nonebot/nonebot2
+## 第三方机器人框架
 
-## Koishi
-Koishi 是一个跨平台、可扩展、高性能的聊天机器人框架，支持同时接入多个平台。使用插件可实现搭建群服互通机器人。 
+<Tabs queryString="qqbot">
+<TabItem value="LLOneBot" label="LLOneBot">
 
-框架链接：https://github.com/koishijs/koishi
+| LLOneBot | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/LLOneBot/LLOneBot) \| [文档站](https://llonebot.github.io/zh-CN/) |
+| 作者 | [LLOneBot](https://github.com/LLOneBot) |
+| 介绍 | LiteLoaderQQNT 插件，实现 OneBot 11 和 Satori 协议，用于 QQ 机器人开发 |
+| 下载 | [Github](https://github.com/LLOneBot/LLOneBot/releases) 或者 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) 插件市场下载 |
 
-## Mirai
-Mirai 是一个在全平台下运行，提供 QQ Android 协议支持的高效率机器人库。**Mirai不原生支持 QQNT**
+</TabItem>
+<TabItem value="NapCatQQ" label="NapCatQQ">
 
-相对其他框架，Mirai具有较强的扩展生态。可搭配 [Overflow](https://github.com/MrXiaoM/overflow) 与其他框架以支持QQNT。
+| NapCatQQ | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/NapNeko/NapCatQQ) \| [文档站](https://napneko.github.io/) |
+| 作者 | [NapNeko](https://github.com/NapNeko) |
+| 介绍 | NapCatQQ 是现代化的基于 NTQQ 的 Bot 协议端实现 |
+| 下载 | [Github](https://github.com/NapNeko/NapCatQQ/releases) 或者 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) 插件市场下载 |
 
-框架链接：https://github.com/mamoe/mirai
+</TabItem>
+<TabItem value="Lagrange.OneBot" label="Lagrange.OneBot">
 
-## NapCat (推荐)
-一个基于 TypeScript 构建的 Bot 框架，通过相应的启动器或者框架，主动调用 QQ Node 模块提供给客户端的接口，实现 Bot 的功能。
+| Lagrange.OneBot | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/LagrangeDev/Lagrange.Core) \| [文档站](https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/) |
+| 作者 | [LagrangeDev](https://github.com/LagrangeDev) |
+| 介绍 | Lagrange.Core 是一个开源的 NTQQ 协议实现，实现了 OneBot V11 的通信协议, 可以和主流 Bot 框架进行通信 |
+| 下载 | [Github](https://github.com/LagrangeDev/Lagrange.Core/releases) |
 
-该框架支持 QQNT。
+</TabItem>
+<TabItem value="Overflow" label="Overflow">
 
-框架链接：https://github.com/NapNeko/NapCatQQ
+| Overflow | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/MrXiaoM/overflow) \| [文档站](https://mirai.mrxiaom.top/docs/UserManual) |
+| 作者 | [MrXiaoM](https://github.com/MrXiaoM) |
+| 介绍 | Overflow 是 mirai-core-api 的实现，对接 OneBot 11 标准，实现 mirai 的无缝迁移 |
+| 下载 | [官网下载](https://mirai.mrxiaom.top/) |
+
+</TabItem>
+</Tabs>
+
+## 接入QQ官方接口的机器人框架
+
+<Tabs queryString="qqbot">
+<TabItem value="Gensokyo" label="Gensokyo">
+
+| Gensokyo | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/Hoshinonyaruko/Gensokyo) |
+| 作者 | [Hoshinonyaruko](https://github.com/Hoshinonyaruko) |
+| 介绍 | 基于 OneBot QQ官方机器人Api Golang 原生实现 |
+| 下载 | [Github](https://github.com/Hoshinonyaruko/Gensokyo/releases) |
+
+</TabItem>
+</Tabs>
+
+## 已停止更新的机器人框架
+
+<Tabs queryString="qqbot">
+<TabItem value="Shamrock" label="Shamrock">
+
+| Shamrock | ![](https://img.shields.io/badge/状态-停止维护-red?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/whitechi73/OpenShamrock) \| [文档站](https://whitechi73.github.io/OpenShamrock/) |
+| 作者 | [whitechi73](https://github.com/whitechi73) |
+| 介绍 | 基于 Lsposed（Non-Riru） 实现 Kritor 标准的 QQ 机器人框架 |
+| 下载 | [Github](https://github.com/whitechi73/OpenShamrock/releases) |
+
+</TabItem>
+<TabItem value="chronocat" label="chronocat">
+
+| chronocat | ![](https://img.shields.io/badge/状态-不再积极维护-yellow?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/chrononeko/chronocat) |
+| 作者 | [chrononeko](https://github.com/chrononeko) |
+| 介绍 | 模块化的 Satori 框架 |
+| 下载 | [Github](https://github.com/chrononeko/chronocat/releases) |
+
+</TabItem>
+<TabItem value="go-cqhttp" label="go-cqhttp">
+
+| go-cqhttp | ![](https://img.shields.io/badge/状态-停止维护-red?style=for-the-badge) \| [停更公告地址](https://github.com/Mrs4s/go-cqhttp/issues/2471) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/Mrs4s/go-cqhttp) \| [文档站](https://docs.go-cqhttp.org/) |
+| 作者 | [Mrs4s](https://github.com/Mrs4s) |
+| 介绍 | 基于 Mirai 以及 MiraiGo 的 OneBot Golang 原生实现 |
+| 下载 | [Github](https://github.com/Mrs4s/go-cqhttp/releases) |
+
+</TabItem>
+<TabItem value="Mirai" label="Mirai">
+
+| Mirai | ![](https://img.shields.io/badge/状态-不再积极维护-yellow?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/mamoe/mirai) \| [官方论坛](https://mirai.mamoe.net/) \| [用户手册](https://github.com/mamoe/mirai/blob/dev/docs/UserManual.md) |
+| 作者 | [mamoe](https://github.com/mamoe) |
+| 介绍 | mirai 是一个在全平台下运行，提供 QQ Android 协议支持的高效率机器人库 |
+| 下载 | [Github](https://github.com/iTXTech/mirai-console-loader/releases) |
+
+</TabItem>
+</Tabs>
+
