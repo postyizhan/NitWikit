@@ -112,16 +112,19 @@ server-port=25565
 
 - `You are sending too many packets!/ 由于超出数据包速率限制而被踢出游戏`
 
-一般是开连点器导致的,你可以在`paper-global.yml`中调整`packet-limiter`中的`max-packet-rate`,跳大即可
+一般是开连点器导致的,你可以讲在`paper-global.yml`中`packet-limiter`中的`max-packet-rate`调大
 
-如果使用了 ViaVersion,也需要跳大配置文件中的`max-pps`和`tracking-warning-pps`值
+如果使用了 ViaVersion ,也需要调大配置文件中的`max-pps`和`tracking-warning-pps`值
 
-- `忽略状态请求` 没遇到过这个问题
+- `忽略状态请求`
+  
+没遇到过这个问题
+  
 - `java.io.IOException: Connection reset by peer`
 
 网络太差
 
--` 无效会话`
+- `无效会话`
 
 没有使用正版登录进入正版服务器,也可以关闭`online-mode`来解决
 
@@ -132,19 +135,18 @@ server-port=25565
 Mojang 的验证服务器去维护了,或者自己网络太差,连接不上,可以安装 [AlwaysOnline](https://modrinth.com/plugin/alwaysonlineplugin) 来解决
 
 - `Outdated server! / 服务器版本过时`
+
 客户端与服务器版本不一致时会出现此提示。
-1. 检查客户端启动器选择的游戏版本是否与服务器一致（如 1.20.1）
+1. 检查客户端启动器选择的游戏版本是否与服务器一致
 2. 若服务器支持跨版本（如安装了 ViaVersion），确保客户端版本在插件支持的范围内
 3. 若为原版服务器，客户端需降级或升级至匹配版本
-
 
 - `io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused`
 1. 服务器未启动或已崩溃，检查服务器控制台是否正常运行
 2. 确认服务器 IP 和端口填写正确（默认端口为 `25565`）
 3. 若使用内网穿透（如 FRP/Ngrok），检查穿透服务是否配置正确
 
-
-- `Internal Exception: java.io.IOException: 远程主机强迫关闭了一个现有的连接`**
+- `Internal Exception: java.io.IOException: 远程主机强迫关闭了一个现有的连接`
 1. 服务器或客户端网络不稳
 2. 服务器插件冲突（如反作弊插件误判，尝试移除插件排查）
 3. 被服务器防火墙强行关闭了
