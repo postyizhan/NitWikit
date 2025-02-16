@@ -1,9 +1,9 @@
 ---
-title: Command.yml
+title: Commands.yml
 sidebar_position: 4
 ---
 
-# Command.yml 介绍
+# Commands.yml 介绍
 
 commands.yml 是一个配置文件，用于为 CraftBukkit 服务器定义自定义命令和命令方块覆盖。
 
@@ -27,7 +27,7 @@ Mojang Commands(Mojang 命令)：如果没有找到匹配的 Bukkit 命令，作
 
 每个 fallback 都有相应的权限控制，除插件命令外，Bukkit 命令的权限为 `bukkit.command.*`，Mojang 命令的权限为 `minecraft.command.*`
 
-## Command.yml 内容
+## Commands.yml 内容
 
 ```yaml
 command-block-overrides: []

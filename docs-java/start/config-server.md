@@ -5,7 +5,13 @@ sidebar_position: 5
 
 # 配置服务端
 
-开启后，你需要进行一些简单配置，比如修改服务器端口，正版验证等
+开启服务器后，你需要进行一些简单配置，比如修改服务器端口，正版验证等
+
+:::note
+
+本篇只包含`server.proprites`和`游戏规则`的解释，要想完整的配置服务端，请不要只依赖本篇
+
+:::
 
 ## 笨蛋脚本
 
@@ -18,23 +24,24 @@ sidebar_position: 5
 - 服务器种子
 - 最大玩家数
 
-## 正版验证
+## server.proprites
+这一小节配置文件都位于服务端根目录下的`server.proprites`文件。如需修改，请打开该文件并找到对应选项
 
-正版验证默认被开启，不关闭正版验证的话盗版玩家是不能加入游戏的。如果你没有用正版启动游戏，那么加入服务器会出现：
-
-![](_images/无效会话.png)
-
-在 **server.properties** 中找到此项
+### 正版验证
 
 ```properties
 online-mode=true
 ```
 
+正版验证默认被开启，不关闭正版验证的话盗版玩家是不能加入游戏的。如果你没有用正版启动游戏，那么加入服务器会出现：
+
+![](_images/无效会话.png)
+
 如果你想关闭正版验证，将 `true` 改为 `false` ，保存，重启服务端
 
 :::danger
 
-**不要开服开到一半去改正版验证!** 这会造成 UUID 混乱，玩家数据丢失，当然你可以转换 UUID 来解决这个问题 [查看解决方法](https://dodo939.love/2024/06/20/mc-online-conv-tool/)
+**不要在服务器投入运营后去改正版验证状态!** 这会造成 UUID 混乱，玩家数据丢失，当然你可以转换 UUID 来解决这个问题 [查看解决方法](https://dodo939.love/2024/06/20/mc-online-conv-tool/)
 
 如果需要更多的验证方式(如 **皮肤站**/**统一认证** 等)，请在服务器 **公测前** 确定，具体请参考[更多验证方式](/docs-java/advance/loginchoices.md)
 
@@ -42,9 +49,7 @@ online-mode=true
 
 注意，在离线模式下，玩家大概率没皮肤，你需要 [SkinsRestorer](/docs-java/process/plugin/other/SkinsRestorer.md)，根据需求选择 SkinsRestorer 的版本。
 
-## 最大玩家数
-
-在 **server.properties** 中找到此项
+### 最大玩家数
 
 ```properties
 max-players=20
@@ -52,19 +57,24 @@ max-players=20
 
 后面的数字就是你希望这个服务器最大能进入的玩家数。
 
-## 服务器种子
-
-在 **server.properties** 中找到此项
+### 服务器种子
 
 ```properties
 level-seed=
 ```
 
-这里面就可以填上你想要的种子。
+这里面就可以填上你想要的种子，不填表示随机种子
+:::note
+
+在服务器生成地图后修改种子是**无效的**
+
+因此，请确保修改种子时，地图未生成
+
+:::
 
 :::note
 
-你可能会发现一些结构，比如村庄的生成，并不会遵循种子，是由于 `Spigot` 及其下游服务端加入了随机种子，
+你可能会发现一些结构，比如村庄的生成，并不会遵循种子，是由于 `Spigot` 及其下游服务端加入了随机种子
 
 地形的生成也会出现一些偏差，一些服务端也会添加一些地形生成优化补丁，通常会小范围改变地形生成
 
@@ -72,23 +82,19 @@ level-seed=
 
 :::
 
-## 启用命令方块？
-
-服务器中命令方块默认关闭，**并且不建议开启**。
-
-**命令方块是性能低下的，并且所有功能都可以用插件替代。**
-
-如何开启：
-
-在 `server.properties` 中
+### 启用命令方块
 
 ```properties
 enable-command-block=false
 ```
 
-将此项设置为 `true`。
+服务器中命令方块默认关闭，**并且不建议开启**。
 
-## 设置难度
+**命令方块是性能低下的，并且其所有功能都可以用插件替代。**
+
+将此项设置为 `true`，即可启用命令方块。
+
+### 设置难度
 
 ```properties
 difficulty=hard
@@ -96,12 +102,12 @@ difficulty=hard
 
 支持以下值
 
-- peaceful(0) - 和平
-- easy(1) - 简单
-- normal(2) - 普通
-- hard(3) - 困难
+- peaceful / 0 - 和平
+- easy / 1 - 简单
+- normal / 2 - 普通
+- hard / 3 - 困难
 
-## 出生点保护
+### 出生点保护
 
 ```properties
 spawn-protection=16
@@ -111,15 +117,25 @@ spawn-protection=16
 
 设置为0可以禁用
 
-## 允许玩家前往地狱/生成地狱世界
+:::warning
+
+强烈**建议禁用**这一配置，无论你是否需要出生点保护。
+
+这一配置的保护**并不能**防御苦力怕、TNT等造成的破坏。
+
+如有保护出生点的需求，可以考虑使用插件 [WorldGuard](../process/plugin/WorldManagement/WorldGuard.md)
+
+:::
+
+### 是否允许玩家前往下界/是否生成下界世界
 
 ```properties
 allow-nether=true
 ```
 
-设置为 `false` 可以禁用地狱
+设置为 `false` 可以禁用下界
 
-## 默认游戏模式
+### 默认游戏模式
 
 ```properties
 gamemode=survival
@@ -127,12 +143,12 @@ gamemode=survival
 
 支持以下模式
 
-- 生存 - survival 或 0
-- 创造 - creative 或 1
-- 冒险 - adventure 或 2
-- 旁观 - spectator 或 3
+- survival / 0 - 生存
+- creative / 1 - 创造
+- adventure / 2 - 冒险
+- spectator / 3 - 旁观
 
-## 强制游戏模式
+### 强制游戏模式
 
 ```properties
 force-gamemode=false
@@ -140,7 +156,7 @@ force-gamemode=false
 
 如果设置为 `true` ，玩家加入后将会被强制改为默认游戏模式
 
-## 结构生成
+### 结构生成
 
 ```properties
 generate-structures=true
@@ -154,13 +170,15 @@ generate-structures=true
 
 :::
 
-## 允许玩家互相攻击
+### 玩家互相攻击
 
 ```properties
 pvp=true
 ```
 
-## 允许飞行
+设置为true，即可允许玩家互相攻击
+
+### 允许飞行
 
 ```properties
 allow-flight=true
@@ -168,25 +186,25 @@ allow-flight=true
 
 :::warning
 
-最好将此值设为 `true`，无论你是否需要飞行，如果你需要反飞行，请查看反作弊一章
+该选项极易误判，因此最好将此值设为 `true`，无论你是否需要飞行，如果你需要反飞行，请查看反作弊一章
 
 :::
 
-## 服务器端口
+### 服务器端口
 
-在下一章!
+请前往 [连接服务器](connect-to-server.md) 章节查看
 
 ## 游戏规则
 
 这一部分的配置需要使用 `/gamerule` 来完成，而非 `server.properties`
 
-[全部](https://minecraft.fandom.com/zh/wiki/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99#%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%E5%88%97%E8%A1%A8)
+点击查看[全部游戏规则](https://minecraft.fandom.com/zh/wiki/%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99#%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99%E5%88%97%E8%A1%A8)
 
 :::tip
 
-请注意，默认情况下 `/gamerule` 所设置的游戏规则**只会在**执行命令的世界**生效**
+请注意，默认情况下 `/gamerule` 所设置的游戏规则**只会**在执行命令的世界生效
 
-[Ultimate Gamerules Manager](https://www.spigotmc.org/resources/ultimate-gamerules-manager-1-13-1-20-3.102215/) 是个不错的插件，适合新手
+[Ultimate Gamerules Manager](https://www.spigotmc.org/resources/ultimate-gamerules-manager-1-13-1-20-3.102215/) 是个不错的插件，适合新手管理 gamerule 时使用
 
 :::
 
