@@ -65,13 +65,14 @@ server-port=25565
 
 比如我现在把 **`server-port`** 改成了 **`9180`**，应该这么进入服务器 `114.51.14.191:9180`
 
-如果我为 `114.51.14.191` 绑定了域名 `8aka.org` ，那么你可以这么进 `8aka.org:9180`
+如果我为 `114.51.14.191` 绑定了域名 `8aka.org` ，那么你可以使用 `8aka.org:9180` 进入服务器
 
-如果很不幸，你的玩家没有正常连接上来，请先按以下步骤检查
+如果很不幸，你的玩家没有正常连接，请先按以下步骤检查
 
 - 请尝试本地连接，如果不行，那么就是服务器有问题
 - 如果本地连接正常，你可以尝试在防火墙中放行端口
 - 检查你在路由器中是否把这个端口公开到公网
+- 根据 [常见错误](#常见错误) 章节进行排查
 
 ### 我没公网
 
@@ -100,11 +101,11 @@ server-port=25565
 
 2.检查网络状况(可以试试 ping 服务器,超时就是网的问题)
 
-3.如果使用 FRP,检查 frp 的配置文件是否正确
+3.如果使用 FRP ,检查 frp 的配置文件是否正确
 
 - `Invalid characters in username/ 用户名包含无效字符`
 
-用户使用了非 Minecraft 原班允许的用户名进入服务器,可以安装 CnUsername 来解决
+用户使用了非 Minecraft 原版允许的用户名进入服务器,可以安装 CnUsername 来解决
 
 - `Flying is not enabled on this server/ 此服务器未启用飞行`
 
@@ -112,7 +113,7 @@ server-port=25565
 
 - `You are sending too many packets!/ 由于超出数据包速率限制而被踢出游戏`
 
-一般是开连点器导致的,你可以讲在`paper-global.yml`中`packet-limiter`中的`max-packet-rate`调大
+一般是开连点器导致的,你可以将在`paper-global.yml`中`packet-limiter`中的`max-packet-rate`调大
 
 如果使用了 ViaVersion ,也需要调大配置文件中的`max-pps`和`tracking-warning-pps`值
 
@@ -126,13 +127,13 @@ server-port=25565
 
 - `无效会话`
 
-没有使用正版登录进入正版服务器,也可以关闭`online-mode`来解决
+没有使用正版登录进入正版服务器,也可以通过将 `online-mode` 改为` false` 解决
 
 - `身份验证服务器目前处于宕机状态。请稍后再试，抱歉`
 
 确认 Mojang 或微软账户服务器状态（可通过 [Mojang Status](https://status.mojang.com/) 查询）
 
-Mojang 的验证服务器去维护了,或者自己网络太差,连接不上,可以安装 [AlwaysOnline](https://modrinth.com/plugin/alwaysonlineplugin) 来解决
+如果不是 Mojang 的验证服务器维护了,也可能是你的网络太差,连接不到验证服务器,可以安装 [AlwaysOnline](https://modrinth.com/plugin/alwaysonlineplugin) 插件来解决
 
 - `Outdated server! / 服务器版本过时`
 
