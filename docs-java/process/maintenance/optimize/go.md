@@ -998,7 +998,7 @@ ticks-per:
 
 ## 减少后台垃圾内容
 
-服务端自带一些非常简陋的反作弊，检测玩家是否飞行、过速等，但效果非常差。
+服务端自带一些非常简陋的反作弊，检测玩家是否飞行、超速等，但效果非常差。
 
 特别是服务器出现卡顿的时候，这将在后台进行大量刷屏。如果安装了至少一个反作弊。
 
@@ -1023,6 +1023,12 @@ settings:
   moved-too-quickly-multiplier: 99999
   # 忽略玩家移动过快
 ```
+
+:::tip
+
+[在 1.21.2 以上](https://zh.minecraft.wiki/w/游戏规则/disablePlayerMovementCheck?variant=zh)，你也可以使用 `/gamerule disablePlayerMovementCheck true` 关闭移动检测
+
+:::
 
 ---
 
