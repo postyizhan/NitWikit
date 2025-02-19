@@ -1024,6 +1024,12 @@ settings:
   # 忽略玩家移动过快
 ```
 
+:::tip
+
+在 1.21.2 以上，你也可以使用 `/gamerule disablePlayerMovementCheck true` 关闭移动检测
+
+:::
+
 ---
 
 :::warning
