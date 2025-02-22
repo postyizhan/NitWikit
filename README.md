@@ -1,3 +1,11 @@
+# 大家 star 错位置了！
+
+NitWikit 曾经在我的 GitHub 账号下，现在已经转移到我们的团队！
+
+请给我们团队的 NitWikit star：https://github.com/8aka-Team/NitWikit
+
+而不是现在这个 fork ！
+
 <div align="center">
   <div>
     <img src="/static/img/nitwikit-banner.png" alt="Yizhan" />
