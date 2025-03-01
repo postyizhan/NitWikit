@@ -95,6 +95,10 @@ Notice：维护这个分支完全是个人兴趣。
 
 社区文档，或许比上方的文档更容易理解
 
+- https://docs.qq.com/aio/DWWV6SFVuWmlES1po
+
+TrMenu 入门学习文档
+
 ![](_images/TrMenu/trm一定要看wiki呐.jpg)
 
 ## vscode 插件
