@@ -433,6 +433,8 @@ MOTD 是玩家进入服务器之前最先看到的东西，决定了玩家对一
 
 基于 PCL2 开源代码二次开发的社区版本，包括了主线暂未制作的功能和改进
 
+  </TabItem>
+
   <TabItem value="bakaxl" label="bakaXL">
 
 ![](https://contents.baka.zone/web-cdn/neo//assets/video/bakaxl-v3-welcome-hero.mp4)
