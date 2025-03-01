@@ -400,3 +400,56 @@ MOTD 是玩家进入服务器之前最先看到的东西，决定了玩家对一
 
   </TabItem>
 </Tabs>
+
+## 启动器
+
+<Tabs queryString="launcher">
+
+  <TabItem value="hmcl" label="HMCL">
+
+![](https://hmcl.huangyuhui.net/assets/img/main_page.png)
+
+> https://hmcl.huangyuhui.net
+
+知名老牌开源启动器
+
+  </TabItem>
+
+  <TabItem value="pcl" label="PCL2">
+
+![](https://pic1.afdiancdn.com/user/df2dfad2960911e89c5252540025c377/common/0b2e5b9a6596eaee20f00f56da30f502_w1500_h300_s457.jpg)
+
+> https://afdian.com/a/LTCat
+
+知名老牌启动器，现已开源大部分代码，由此衍生出社区版（一旁的 CE 版）
+
+  </TabItem>
+
+  <TabItem value="pcl-ce" label="PCL2-CE">
+
+![](https://pic1.afdiancdn.com/user/df2dfad2960911e89c5252540025c377/common/0b2e5b9a6596eaee20f00f56da30f502_w1500_h300_s457.jpg)
+
+> https://github.com/PCL-Community/PCL2-CE
+
+基于 PCL2 开源代码二次开发的社区版本，包括了主线暂未制作的功能和改进
+
+  <TabItem value="bakaxl" label="bakaXL">
+
+![](https://contents.baka.zone/web-cdn/neo//assets/video/bakaxl-v3-welcome-hero.mp4)
+
+> https://www.bakaxl.com
+
+御三家启动器之一
+
+  </TabItem>
+
+  <TabItem value="launcherx" label="LauncherX">
+
+![](https://www.minebbs.com/attachments/1739290352524-png.90678)
+
+> https://corona.studio/lx
+
+美观、强大、优雅的 Java 版启动器
+
+  </TabItem>
+</Tabs>
