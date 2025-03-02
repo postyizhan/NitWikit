@@ -1,7 +1,7 @@
 ---
-title: kether 教程
-slug: /Advance/kether
-sidebar_position: 11
+title: Kether
+slug: /lang/kether
+sidebar_position: 2
 ---
 
 # 概览
