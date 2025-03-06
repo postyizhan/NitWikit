@@ -5,36 +5,10 @@ async function injectExternLink() {
     try {
         // 1. 获取广告数据
         const response = await fetch('https://ad-api.8aka.org/ads');
-        const text = await response.text(); // 先获取文本内容
-        
-        // 清理 JSON 文本
-        const cleanedText = text
-            .replace(/,(\s*[\]}])/g, '$1') // 移除对象或数组末尾的多余逗号
-            .trim();
-            
-        // 解析清理后的 JSON
-        const rawLinks = JSON.parse(cleanedText);
+        const links = await response.json();
 
-        // 2. 验证数据格式并解码
-        if (!Array.isArray(rawLinks) || rawLinks.length === 0) return;
-        
-        // 解码广告数据
-        const links = rawLinks.map(ad => {
-            try {
-                return {
-                    name: decodeURIComponent(escape(ad.name || '')),
-                    url: ad.url || '#'
-                };
-            } catch (e) {
-                console.warn('Failed to decode ad name:', ad.name);
-                return {
-                    name: ad.name || '',
-                    url: ad.url || '#'
-                };
-            }
-        }).filter(ad => ad.name && ad.url !== '#'); // 过滤掉无效的广告
-
-        if (links.length === 0) return; // 如果没有有效的广告，直接返回
+        // 2. 验证数据格式
+        if (!Array.isArray(links) || links.length === 0) return;
 
         // 3. 创建广告容器
         const adContainer = document.createElement('div');
@@ -110,10 +84,6 @@ async function injectExternLink() {
 
     } catch (error) {
         console.error('Failed to load ads:', error);
-        // 添加更详细的错误日志
-        if (error instanceof SyntaxError) {
-            console.debug('JSON parsing error. Raw response:', error.message);
-        }
     }
 }
 
