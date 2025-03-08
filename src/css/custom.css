@@ -1,5 +1,6 @@
-/* Base Tailwind styles */
-/* Replace @tailwind directives with traditional CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* 桌面端广告间距调整 */
 .navbar__items--right .extern-container {
@@ -14,93 +15,96 @@
   z-index: 1;
 }
 
-/* Custom variables */
-:root {
-  --color-pink-light: rgb(93 168 255); /* 定义亮色主题下的滚动条颜色 */
-  height: 100vh;
-  --content-background: #fefefe;
-  --ifm-color-primary: #12affa;
-  --ifm-color-primary-dark: rgba(59,130,246,.5);
-  --ifm-color-primary-darker: #0598df;
-  --ifm-color-primary-darkest: #047eb8;
-  --ifm-color-primary-light: rgba(59,130,246,.5);
-  --ifm-color-primary-lighter: #b0e6ff;
-  --ifm-color-primary-lightest: #d5f1fd;
-  --ifm-code-font-size: 95%;
-  --ifm-font-family-base: misans, ui-sans-serif, system-ui, -apple-system;
+@layer base {
+  :root {
+    --color-pink-light: rgb(93 168 255); /* 定义亮色主题下的滚动条颜色 */
+    height: 100vh;
+    --content-background: #fefefe;
+    --ifm-color-primary: #3578E6;
+    --ifm-color-primary-dark: #2567d9;
+    --ifm-color-primary-darker: #1e5bc8;
+    --ifm-color-primary-darkest: #1749a3;
+    --ifm-color-primary-light: #4b89e8;
+    --ifm-color-primary-lighter: #6199eb;
+    --ifm-color-primary-lightest: #77a9ee;
+    --ifm-code-font-size: 95%;
+    --ifm-font-family-base: misans, ui-sans-serif, system-ui, -apple-system;
 
-  --ifm-heading-font-family: ui-sans-serif, system-ui, -apple-system;
+    --ifm-heading-font-family: ui-sans-serif, system-ui, -apple-system;
 
-  --ifm-navbar-background-color: white;
-  --ifm-navbar-shadow: 0 4px 28px rgb(0 0 0 / 10%);
+    --ifm-navbar-background-color: white;
+    --ifm-navbar-shadow: 0 4px 28px rgb(0 0 0 / 10%);
 
-  --ifm-menu-color: #0d203a;
+    --ifm-menu-color: #0d203a;
 
-  /* 代码块 */
-  --prism-background-color: #f6f8fa;
-  --ifm-code-padding-horizontal: 0.2rem;
-  --ifm-code-padding-vertical: 0.2rem;
+    /* 代码块 */
+    --prism-background-color: #f6f8fa;
+    --ifm-code-padding-horizontal: 0.2rem;
+    --ifm-code-padding-vertical: 0.2rem;
 
-  /* 文本 */
-  --ifm-text-color: #333;
-  --ifm-secondary-text-color: #555;
+    /* 文本 */
+    --ifm-text-color: #333;
+    --ifm-secondary-text-color: #555;
 
-  --site-primary-hue-saturation: 167 68%;
-  --site-primary-hue-saturation-light: 167 56%;
+    --site-primary-hue-saturation: 167 68%;
+    --site-primary-hue-saturation-light: 167 56%;
 
-  --site-color-favorite-background: #f6fdfd;
-  --site-color-tooltip: #fff;
-  --site-color-tooltip-background: #353738;
-  --site-color-svg-icon-favorite: #e9669e;
-  --site-color-checkbox-checked-bg: hsl(167deg 56% 73% / 25%);
+    --site-color-favorite-background: #f6fdfd;
+    --site-color-tooltip: #fff;
+    --site-color-tooltip-background: #353738;
+    --site-color-svg-icon-favorite: #e9669e;
+    --site-color-checkbox-checked-bg: hsl(167deg 56% 73% / 25%);
 
-  --ifm-container-width: 1024px;
+    --ifm-container-width: 1024px;
 
-  --ifm-heading-color: hsl(214deg 78% 17%);
-  --ifm-heading-font-weight: 500;
-  --ifm-font-weight-bold: 520;
-  --ifm-border-color: #e5e7eb;
-  --ifm-toc-border-color: var(--ifm-border-color);
+    --ifm-heading-color: hsl(214deg 78% 17%);
+    --ifm-heading-font-weight: 500;
+    --ifm-font-weight-bold: 520;
+    --ifm-border-color: #e5e7eb;
+    --ifm-toc-border-color: var(--ifm-border-color);
 
-  --blog-item-background-color: linear-gradient(180deg, #fcfcfc, #fff);
-  --blog-item-shadow: 0 10px 18px #f1f5f9dd, 0 0 10px 0 #e4e4e7dd;
-  --blog-item-shade: #f4f4f5;
+    --blog-item-background-color: linear-gradient(180deg, #fcfcfc, #fff);
+    --blog-item-shadow: 0 10px 18px #f1f5f9dd, 0 0 10px 0 #e4e4e7dd;
+    --blog-item-shade: #f4f4f5;
 
-  -webkit-font-smoothing: unset;
+    -webkit-font-smoothing: unset;
 
-  --docusaurus-highlighted-code-line-bg: #d1d5db;
-}
+    --docusaurus-highlighted-code-line-bg: #d1d5db;
+  }
 
-html[data-theme="dark"] {
-  --color-green-light: #322d31; /* 定义暗色主题下的滚动条颜色 */
-  --content-background: #18181b;
-  --ifm-color-primary: hsl(214deg 100% 60%);
-  --ifm-color-primary-light: hsl(214deg 100% 75%);
-  --ifm-heading-color: hsl(0deg 0% 100%);
-  --ifm-menu-color: #eceef1;
-  --ifm-text-color: var(--ifm-menu-color);
-  --ifm-secondary-text-color: #eee;
-  --ifm-border-color: #313131;
+  html[data-theme="dark"] {
+    --color-green-light: #322d31; /* 定义暗色主题下的滚动条颜色 */
+    --content-background: #18181b;
+    --ifm-color-primary: hsl(214deg 100% 60%);
+    --ifm-color-primary-light: hsl(214deg 100% 75%);
+    --ifm-heading-color: #ffffff;  /* 修改为白色 */
+    --ifm-menu-color: #eceef1;
+    --ifm-text-color: var(--ifm-menu-color);
+    --ifm-secondary-text-color: #eee;
+    --ifm-border-color: #313131;
 
-  --ifm-navbar-background-color: var(--content-background);
-  --ifm-toc-border-color: var(--ifm-border-color);
+    --ifm-navbar-background-color: var(--content-background);
+    --ifm-toc-border-color: var(--ifm-border-color);
 
-  --blog-item-background-color: linear-gradient(180deg, #171717, #18181b);
-  --blog-item-shadow: 0 10px 18px #25374833, 0 0 8px #25374866;
-  --blog-item-shade: #27272a;
+    --blog-item-background-color: linear-gradient(180deg, #171717, #18181b);
+    --blog-item-shadow: 0 10px 18px #25374833, 0 0 8px #25374866;
+    --blog-item-shade: #27272a;
 
-  --docusaurus-highlighted-code-line-bg: #4b5563;
+    --docusaurus-highlighted-code-line-bg: #4b5563;
+  }
 }
 
 a:hover {
   color: #72a1ed;
 }
 
-.bg-blog {
-  background: var(--blog-item-background-color);
-}
-.bg-blog-shade {
-  background: var(--blog-item-shade);
+@layer components {
+  .bg-blog {
+    background: var(--blog-item-background-color);
+  }
+  .bg-blog-shade {
+    background: var(--blog-item-shade);
+  }
 }
 
 html,
@@ -120,8 +124,7 @@ body {
 }
 
 .navbar__link {
-  display: flex;
-  align-items: center;
+  @apply flex items-center;
 }
 
 .theme-code-block {
@@ -353,6 +356,9 @@ div[class^="announcementBar_"] {
   transform: scaleY(-0.5);
 }
 
+
+
+
 /* 分割线================================================================================================================================== */
 /* 侧边栏左侧线条 */
 .menu__list .menu__list {
@@ -369,6 +375,12 @@ div[class^="announcementBar_"] {
   /* 设置左边内边距 */
   padding-left: 0.3rem;
 }
+
+
+
+
+
+
 
 /* 分割线================================================================================================================================== */
 /* 分页导航 */
@@ -402,6 +414,9 @@ div[class^="announcementBar_"] {
   color: #72a1ed;
 }
 
+
+
+
 /* 样式规则适用于所有的 .table-of-contents__link 元素 */
 .table-of-contents__link {
   border-radius: 8px; /* 圆角边框 */
@@ -424,6 +439,10 @@ div[class^="announcementBar_"] {
   background-color: #00d7a8; /* 背景颜色 */
   color: #FFF; /* 字体颜色 */
 }
+
+
+
+
 
 /* 分割线================================================================================================================================== */
 /* 全局滚动条样式 */
@@ -469,6 +488,10 @@ div[class^="announcementBar_"] {
   border-radius: 2em;
 }
 
+
+
+
+
 /* 确保目录容器可滚动 */
 .tableOfContents_src-theme-TOC-styles-module {
   overflow-y: auto; /* 启用垂直滚动条 */
@@ -497,12 +520,20 @@ div[class^="announcementBar_"] {
   display: none; /* 隐藏滚动条按钮 */
 }
 
+
 /* 隐藏滚动条背景 */
 .tableOfContents_src-theme-TOC-styles-module::-webkit-scrollbar {
   background: transparent; /* 隐藏滚动条背景 */
 }
 
+
+
+
+
 /* 分割线================================================================================================================================== */
+
+
+
 
 /* src/css/custom.css */
 
@@ -527,4 +558,42 @@ div[class^="announcementBar_"] {
 .feature-text p {
   margin: 0;
   font-size: 1rem; /* 根据需要调整字体大小 */
+}
+
+/* 添加标题白色样式 */
+[class*="docTitle_"] h1:first-child {
+  color: #ffffff !important;
+  text-shadow: none;
+}
+
+.hero__title {
+  color: #ffffff !important;
+  text-shadow: none;
+}
+
+/* 确保在日间和夜间模式下都保持白色，且没有阴影 */
+html[data-theme="light"] [class*="docTitle_"] h1:first-child,
+html[data-theme="dark"] [class*="docTitle_"] h1:first-child,
+html[data-theme="light"] .hero__title,
+html[data-theme="dark"] .hero__title {
+  color: #ffffff !important;
+  text-shadow: none;
+}
+
+/* 确保标题在所有主题模式下都是白色 */
+.hero__title,
+.hero__subtitle,
+[class*="docTitle_"] h1,
+.markdown h1 {
+  color: #ffffff !important;
+  text-shadow: none;
+}
+
+/* 特别确保暗色模式下的标题是白色，且没有阴影 */
+html[data-theme="dark"] .hero__title,
+html[data-theme="dark"] .hero__subtitle,
+html[data-theme="dark"] [class*="docTitle_"] h1,
+html[data-theme="dark"] .markdown h1 {
+  color: #ffffff !important;
+  text-shadow: none;
 }
