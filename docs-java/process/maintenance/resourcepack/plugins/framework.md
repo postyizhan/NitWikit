@@ -55,7 +55,7 @@ https://itemsadder.devs.beer
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.72448/
+`SpigotMC` https://www.spigotmc.org/resources/.72448
 
 `GitHub` https://github.com/oraxen/oraxen
 
@@ -72,6 +72,21 @@ https://itemsadder.devs.beer
 还找到另一个中文文档 https://3504743864.gitbook.io/oraxen-wiki
 
 </TabItem>
+
+<TabItem value="ce" label="CraftEngine">
+
+:::info
+
+`GitHub` https://github.com/Xiao-MoMi/craft-engine
+
+`文档(英文)` https://mo-mi.gitbook.io/xiaomomi-plugins
+
+`文档(中文)` https://momi.gtemc.cn
+
+:::
+
+</TabItem>
+
 <TabItem value="nexo" label="Nexo">
 
 :::info
@@ -87,7 +102,7 @@ Oraxen 翻版,目前不推荐使用,英文文档都被删除了
 
 :::info
 
-`MythicCraft` https://mythiccraft.io/index.php?resources/2/
+`MythicCraft` https://mythiccraft.io/index.php?resources/2
 
 `文档(英文)` https://git.mythiccraft.io/mythiccraft/mythiccrucible
 

@@ -10,8 +10,8 @@ sidebar_position: 2
 如果你想了解全部变量，点击 [此处](https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html)
 
 ## Player
->
-> https://wiki.placeholderapi.com/users/placeholder-list/#player
+
+> https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html#player
 
 ```text
 /papi ecloud download Player
@@ -26,8 +26,8 @@ sidebar_position: 2
 ```
 
 ## Server
->
-> https://wiki.placeholderapi.com/users/placeholder-list/#server
+
+> https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html#server
 
 ```text
 /papi ecloud download Server
@@ -45,8 +45,8 @@ sidebar_position: 2
 ```
 
 ## Vault
->
-> https://wiki.placeholderapi.com/users/placeholder-list/#vault
+
+> https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html#vault
 
 ```text
 /papi ecloud download Vault
@@ -57,8 +57,8 @@ sidebar_position: 2
 ```
 
 ## Multiverse
->
-> https://wiki.placeholderapi.com/users/placeholder-list/#multiverse-core
+
+> https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html#multiverse-core
 
 ```text
 /papi ecloud download multiverse
@@ -68,4 +68,33 @@ sidebar_position: 2
 %multiverse_world_alias% - 显示世界别名
 ```
 
-[案例 | 中文世界名](../../WorldManagement/Multiverse.md#中文世界名)
+[案例 | 中文世界名](../../WorldManagement/Multiverse/Multiverse.md)
+
+## PlayerPoints
+
+> https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html#playerpoints
+
+```text
+%playerpoints_points% - 点券数
+```
+
+PlayerPoints 在 3.0.0 以及更高版本会自动挂钩 papi，不再需要自行安装扩展
+
+如果你承认你有大病，一定要使用旧版本，可以手动下载 [此扩展](https://api.extendedclip.com/expansions/playerpoints)
+
+## Statistic
+
+> https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html#statistic
+
+```text
+/papi ecloud download Statistic
+```
+
+```text
+%statistic_time_played:days% - 在线时间（天）
+%statistic_time_played:hours% - 在线时间（时）
+%statistic_time_played:minutes% - 在线时间（分）
+%statistic_time_played:seconds% - 在线时间（秒）
+%statistic_mob_kills% - 生物击杀数
+%statistic_deaths% - 死亡数
+```

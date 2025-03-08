@@ -57,11 +57,33 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/121561/
+`SpigotMC` https://www.spigotmc.org/resources/121561
+
+`Hangar` https://hangar.papermc.io/toxicity188/BetterModel
+
+`Modrinth` https://modrinth.com/plugin/bettermodel
+
+`MineBBS` https://www.minebbs.com/resources/.10158
+
+`GitHub` https://github.com/toxicity188/BetterModel
 
 :::
 
 免费的生物实体插件,相对于 ModelEngine 在网络上优化较好，支持的版本为 1.20.6 - 1.21
+
+</TabItem>
+
+<TabItem value="fmm" label="Free Minecraft Models">
+
+:::info
+
+`SpigotMC` https://www.spigotmc.org/resources/.111660
+
+`GitHub` https://github.com/MagmaGuy/FreeMinecraftModels
+
+`文档(英文)` https://github.com/MagmaGuy/FreeMinecraftModels
+
+:::
 
 </TabItem>
 </Tabs>

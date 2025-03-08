@@ -95,11 +95,15 @@ Notice：维护这个分支完全是个人兴趣。
 
 社区文档，或许比上方的文档更容易理解
 
+- https://docs.qq.com/aio/DWWV6SFVuWmlES1po
+
+TrMenu 入门学习文档
+
 ![](_images/TrMenu/trm一定要看wiki呐.jpg)
 
 ## vscode 插件
 
-与 TrMenu 或 [kether](/docs-java/advance/kether/kether.md) 有关的 vscode 插件
+与 TrMenu 或 [kether](/docs-java/process/maintenance/lang/kether/kether.md) 有关的 vscode 插件
 
 - [TrMenu-Helper](https://marketplace.visualstudio.com/items?itemName=hhhhhy.trmenu-helper)
 
@@ -235,7 +239,7 @@ https://hhhhhy.gitbook.io/trmenu-v3/usage/shortcuts
 **知识点：**
 
 - TrMenu 文档熟读并背诵
-- [kether](/docs-java/advance/kether/basic.md)
+- [kether](/docs-java/process/maintenance/lang/kether/basic.md)
 - [CheckItem](../../Front-Plugin/PlaceHolderAPI/CheckItem.md)
 
 ```yaml
@@ -291,7 +295,7 @@ https://hhhhhy.gitbook.io/trmenu-v3/usage/shortcuts
 **知识点：**
 
 - TrMenu 文档熟读并背诵
-- [kether](/docs-java/advance/kether/basic.md)
+- [kether](/docs-java/process/maintenance/lang/kether/basic.md)
 - [CheckItem](../../Front-Plugin/PlaceHolderAPI/CheckItem.md)
 - [妙妙写法](#妙妙写法)
 - [\{condition=\}条件](https://hhhhhy.gitbook.io/trmenu-v3/menu/action/option#tiao-jian)

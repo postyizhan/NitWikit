@@ -1,5 +1,6 @@
 ---
 title: Skript
+slug: /lang/skript
 sidebar_position: 1
 ---
 
