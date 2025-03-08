@@ -1,4 +1,5 @@
-/* 基础样式 */
+/* Base Tailwind styles */
+/* Replace @tailwind directives with traditional CSS */
 
 /* 桌面端广告间距调整 */
 .navbar__items--right .extern-container {
@@ -13,7 +14,7 @@
   z-index: 1;
 }
 
-/* 自定义变量 */
+/* Custom variables */
 :root {
   --color-pink-light: rgb(93 168 255); /* 定义亮色主题下的滚动条颜色 */
   height: 100vh;
@@ -68,33 +69,6 @@
   -webkit-font-smoothing: unset;
 
   --docusaurus-highlighted-code-line-bg: #d1d5db;
-}
-
-/* 高对比度模式支持 */
-@media (forced-colors: active) {
-  :root {
-    --ifm-color-primary: CanvasText;
-    --ifm-color-primary-dark: CanvasText;
-    --ifm-color-primary-darker: CanvasText;
-    --ifm-color-primary-darkest: CanvasText;
-    --ifm-color-primary-light: CanvasText;
-    --ifm-color-primary-lighter: CanvasText;
-    --ifm-color-primary-lightest: CanvasText;
-    --ifm-text-color: CanvasText;
-    --ifm-secondary-text-color: CanvasText;
-  }
-  
-  /* 确保链接在高对比度模式下可见 */
-  a {
-    color: LinkText;
-  }
-  
-  /* 确保按钮在高对比度模式下可见 */
-  button {
-    border: 1px solid ButtonText;
-    color: ButtonText;
-    background-color: ButtonFace;
-  }
 }
 
 html[data-theme="dark"] {
