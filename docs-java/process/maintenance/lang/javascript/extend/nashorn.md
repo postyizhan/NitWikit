@@ -179,7 +179,7 @@ loadWithNewGlobal('script.js');
 
 一个 `try..catch` 语句可以有多个 `catch` 子句，每个子句都有自己的捕获条件。
 
-#### 示例
+- 条件捕获子句示例：
 ```javascript
 try {
     func()
@@ -194,7 +194,7 @@ try {
 
 该语法允许在定义简单单行函数时省略大括号和 `return` 关键字。详情见 [MDN 1.8 新功能](https://developer.mozilla.org/en-US/docs/Web/JavaScript/New_in_JavaScript/1.8)。
 
-**闭包表达式示例**
+- 闭包函数表达式示例：
 ```javascript
 function sqr(x) x*x
 
@@ -206,7 +206,7 @@ function sqr(x) x*x
 
 ECMAScript 的 `for..in` 遍历对象的属性名或数组的索引，而 `for..each..in` 循环遍历对象的属性值，而不是属性名或索引。详情见 [MDN 参考](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for_each...in)。
 
-**`for each` 循环示例**
+- `for each` 循环示例：
 ```javascript
 // 遍历对象的每个值
 var arr = [ "hello", "world" ];
@@ -245,7 +245,7 @@ for each (e in System.env.entrySet()) {
 
 在一个 `new` 表达式中，如果最后一个参数是对象字面量，可以在 `")"` 后指定该参数。
 
-**匿名类样式的表达式示例**
+- 匿名类样式的表达式示例：
 ```javascript
 var r = new java.lang.Runnable() {
     run: function() { print("run"); }
@@ -256,7 +256,7 @@ var r = new java.lang.Runnable() {
 
 顶级函数语句可以是匿名的。
 
-#### 示例
+- 匿名函数语句示例：
 ```javascript
 function () {
     print("hello")
