@@ -8,15 +8,13 @@ Invero 俗称 TrMenu v4
 
 **目前**还不推荐使用
 
-文档不全，部分案例付费入群获取，但是目前不对外出售
+:::info
 
-~~别人备份的源码 1.0.3版本 https://github.com/inrhor/Invero~~ 已经删除
+`GitHub` https://github.com/8aka-Team/Invero
 
-作者自己发的 1.0.8版本 也是老板本 https://gitlab.com/Arasple/Invero
+:::
 
-~~文档 https://legacy.invero.fining.io/~~
-
-文档地址改了，我就不放新地址了
+> 文档地址: https://invero.8aka.org
 
 ## 案例
 
