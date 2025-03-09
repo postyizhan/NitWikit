@@ -11,13 +11,19 @@ sidebar_position: 3
 
 :::
 
-全篇以 1.20.4 Mod 服务端安装为例子，如果看不懂可以使用[笨蛋脚本](https://script.8aka.org/select-server) **(目前不支持 Fabric)**
+全篇以 1.20.4 Mod 服务端安装为例子，如果看不懂可以使用[笨蛋脚本](https://script.8aka.org/mod-installer) **(目前支持
+Forge/NeoForge/Fabric)**
 
-## Forge
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="install">
+<TabItem value="forge" label="Forge">
 
 ### Installer 下载
 
-首先，来到 [Forge 官方网站](https://files.minecraftforge.net/net/minecraftforge/forge/)或国内下载镜像 [MCSL](https://sync.mcsl.com.cn/core/Forge)
+首先，来到 [Forge 官方网站](https://files.minecraftforge.net/net/minecraftforge/forge/)
+或国内下载镜像 [MCSL](https://sync.mcsl.com.cn/core/Forge)
 
 ![](_images/install/1.png)
 
@@ -53,11 +59,13 @@ java -jar forge-1.20.4-49.1.2-installer.jar(这里请改成你下载的文件名
 
 然后静待一会，直到控制台输出 `The server installed successfully` 就完成了!
 
-## NeoForge
+</TabItem>
+<TabItem value="neoforge" label="NeoForge">
 
 与 Forge 差不多，官网换[NeoForge 官网](https://neoforged.net/)
 
-## Fabric
+</TabItem>
+<TabItem value="fabric" label="Fabric">
 
 首先前往 Fabric 的[官网](https://fabricmc.net/)或者[下载镜像](https://sync.mcsl.com.cn/core/Fabric)
 
@@ -84,3 +92,44 @@ java -jar forge-1.20.4-49.1.2-installer.jar(这里请改成你下载的文件名
 下载完成后拖进空文件夹，随后新建脚本文件将启动命令复制到同一文件夹下，
 
 双击启动服务器，等待后续安装，出现 `Done` 等语句后视为安装成功
+
+### Fabric API
+
+安装完服务端核心后还需要安装 Fabric API,[在这下载](https://modrinth.com/mod/fabric-api),下载完后放进 `mods` 文件夹即可
+
+</TabItem>
+<TabItem value="quilt" label="Quilt">
+
+与 Fabric 差不多,官网换成这个 [QuiltMC](https://quiltmc.org/en/install/)
+
+安装完后还需要安装 [Quilt Standard Library](https://modrinth.com/mod/qsl),下载完后放进 `mods` 文件夹即可
+
+</TabItem>
+<TabItem value="ignite" label="Ignite">
+
+适用于 Paper 的 Mod 框架(**这不是混合端**),目前在用的主要有 CraftEngine
+
+首先前往 [GitHub](https://github.com/vectrix-space/ignite/releases) 下载 Ignite,放到服务端根目录
+
+然后更改启动参数,比如:
+
+```shell
+java -Xms2G -Xmx2G -jar 核心名.jar
+```
+
+改为
+
+```shell
+java -Xms2G -Xmx2G  -Dignite.locator=paper -Dignite.paper.jar=核心名.jar -jar ignite.jar
+```
+
+即可安装 Ignite,安装 Ignite 的 mod 可以放到 `mods` 文件夹下
+
+:::tip
+
+安装的 Mod 仅限于支持 Ignite 的 Mod,Forge 和 Fabric 等的 mod 不可以加载
+
+:::
+
+</TabItem>
+</Tabs>
