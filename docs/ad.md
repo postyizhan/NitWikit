@@ -75,12 +75,12 @@ slug: /ad
 - [笨蛋文档](https://nitwikit.8aka.org)
 - [插件翻译文档](https://plugins.8aka.org)
 - [Typewriter 文档](https://typewriter.8aka.org)
-
-技术问题暂时不添加:
-
 - [Pumpkin 文档](https://pumpkin.8aka.org)
 - [笨蛋文档 Next](https://nitwikit2.8aka.org)
 - [Docker 开服文档](https://docker.8aka.org)
+- [Invero 文档](https://invero.8aka.org)
+- [Paper 文档](https://paper.8aka.org)
+- [Purpur 文档](https://purpur.8aka.org)
 
 在第一次赞助时会在群里发布群公告
 
