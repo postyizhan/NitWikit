@@ -119,6 +119,16 @@ const config = {
             },
         ],
     ],
+    headTags: [
+        {
+            tagName: 'link',
+            attributes: {
+                rel: 'shortcut icon',
+                type: "image/x-icon",
+                href: '/favicon.ico',
+            },
+        }
+    ],
 
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -148,9 +158,7 @@ const config = {
             },
             image: 'img/docusaurus-social-card.jpg',
             metadata: [
-                {name: '开服教程', content: '一群笨蛋编写的 Minecraft 开服教程'},
-                {name: 'MC教程', content: '一群笨蛋编写的 Minecraft 开服教程'},
-                {name: 'baidu-site-verification', content: 'codeva-POvxxO9Mk4'},
+                {name: 'keywords', content: 'Minecraft, 开服教程, MC, 开服, 插件, 联机, 我的世界'},
             ],
             navbar: {
                 title: 'NitWikit',
