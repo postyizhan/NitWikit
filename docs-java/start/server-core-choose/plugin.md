@@ -56,7 +56,8 @@ import TabItem from '@theme/TabItem';
 
 总的来说，Paper 核心适合那些追究 *极端的* 稳定的人
 
-[点我](https://docs.papermc.io/paper) 查看 Paper 官方文档
+- 官方英文文档 [点我](https://docs.papermc.io/paper)
+- 笨蛋汉化文档 [点我](https://paper.8aka.org/paper)
 
 **下载**：
 
@@ -84,7 +85,8 @@ import TabItem from '@theme/TabItem';
 
 综上所述，目前 Purpur 是综合最优选择
 
-[点我](https://purpurmc.org/docs/purpur) 查看 Purpur 官方文档
+- 官方英文文档 [点我](https://purpurmc.org/docs/purpur)
+- 笨蛋汉化文档 [点我](https://purpur.8aka.org/purpur)
 
 **下载**：
 
