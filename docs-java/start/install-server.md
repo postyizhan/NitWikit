@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="install">
 <TabItem value="forge" label="Forge">
 
-### Installer （安装器）下载
+## Installer （安装器）下载
 
 首先，来到 [Forge 官方网站](https://files.minecraftforge.net/net/minecraftforge/forge/)
 或国内下载镜像 [MCSL](https://sync.mcsl.com.cn/core/Forge)
@@ -37,9 +37,9 @@ import TabItem from '@theme/TabItem';
 
 然后你就成功下载了 `Forge Installer`。然而由于 MC 的 eula 限制，Forge Installer 不会内含 Minecraft 服务端本体，所以现在我们需要去单独下载一个 `Minecraft server` 本体。
 
-### Minecraft server （原版端）下载
+## Minecraft server （原版端）下载
 
-#### 使用国内镜像 BMCLAPI
+### 使用国内镜像 BMCLAPI
 
 在浏览器中输入链接 `https://bmclapi2.bangbang93.com/version/这里填你的MC版本/server`
 
@@ -51,7 +51,7 @@ import TabItem from '@theme/TabItem';
 
 ![](_images/install/4.png)
 
-#### 从 MOJANG 官方下载
+### 从 MOJANG 官方下载
 
 首先前往对应版本的发行页面
 
@@ -65,13 +65,13 @@ import TabItem from '@theme/TabItem';
 
 在这个小标题下，点击 **Minecraft server jar** 超链接即可开始下载可用于 Forge 安装的原版端。
 
-#### 从官方启动器下载
+### 从官方启动器下载
 
 首先打开你的官方启动器并登录你的正版帐号，随后在左侧选中 MINECRAFT: Java Edition，在顶部选中配置，新配置，进入新建配置的页面。
 
 随后在版本一栏选中自己想要的服务端版本，再点击下拉菜单上方靠右的“服务器”，即可跳转到浏览器下载服务端。下载好后，直接关闭官启中的新建配置页面即可，无需点击右下角的安装按钮。
 
-### 执行安装
+## 执行安装
 
 接着打开 cmd，不会请查看[开启 cmd](launch-server.md#笨蛋脚本)，输入以下命令
 
@@ -95,7 +95,7 @@ java -jar <你下载的安装器的文件名> --installServer
 
 然后点击中间那个蓝色的下载按钮，Fabric 有两种下载方案
 
-### 方法 1
+## 方法 1
 
 进入新页面后点击中间的蓝色下载按钮，此时你会下载一个安装器
 
@@ -107,7 +107,7 @@ java -jar <你下载的安装器的文件名> --installServer
 
 如果你懒得配置启动脚本也可以点击 **生成** 按钮让它给你生成一个临时的。
 
-### 方法 2
+## 方法 2
 
 回到刚才的网页去点击下方的 `Minecraft Server`
 
@@ -117,7 +117,7 @@ java -jar <你下载的安装器的文件名> --installServer
 
 双击启动服务器，等待后续安装，出现 `Done` 等语句后视为安装成功
 
-### Fabric API
+## Fabric API
 
 安装完服务端核心后还需要安装 Fabric API,[在这下载](https://modrinth.com/mod/fabric-api),下载完后放进 `mods` 文件夹即可
 
