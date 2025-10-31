@@ -20,7 +20,7 @@ sidebar_position: 1
 
 对于 Windows 用户，请下载 `.msi` 或 `zip` 的包，其中 `.msi` 是安装包，`.zip` 是绿色版，推荐下载 `.msi` 版本来安装
 
-对于 MySQL 安装，请看这篇文章: [2024 年 MySQL 8.0 安装 配置 教程 最简易(保姆级)](https://blog.csdn.net/m0_52559040/article/details/121843945)
+对于 MySQL 安装，请看这篇文章：[2024 年 MySQL 8.0 安装 配置 教程 最简易 (保姆级)](https://blog.csdn.net/m0_52559040/article/details/121843945)
 
 而标着 `ubuntu` 或 `debian` 是 linux 版本的安装包，linux 用户请下载这个
 
@@ -50,7 +50,7 @@ sidebar_position: 1
 </details>
 
 <details>
-  <summary>卸载MySQL5和安装MySQL8</summary>
+  <summary>卸载 MySQL5 和安装 MySQL8</summary>
 
 MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够用了
 
@@ -121,7 +121,7 @@ MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够�
 </details>
 
 <details>
-  <summary>安装MySQL</summary>
+  <summary>安装 MySQL</summary>
 
 ![](_images/22.png)
 
@@ -131,11 +131,11 @@ MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够�
 
 </details>
 
-#### 1Panel面板
+#### 1Panel 面板
 
 :::warning
 
-1Panel面板目前仅支持Linux系统，不支持Windows系统
+1Panel 面板目前仅支持 Linux 系统，不支持 Windows 系统
 
 :::
 
@@ -152,7 +152,7 @@ MySQL5 版本太低了，很多插件需要更高版本的，装 MySQL8 就够�
 </details>
 
 <details>
-  <summary>安装MySQL</summary>
+  <summary>安装 MySQL</summary>
 
 ![](_images/50.png)
 

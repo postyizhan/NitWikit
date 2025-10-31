@@ -25,7 +25,7 @@ sidebar_position: 5
 
 ## 权限的设置
 
-我们有且只推荐 LuckPerms 作为权限插件，具体的使用方法请参考 [LuckPerms 使用方法](https://nitwikit.8aka.org/Java/permission)
+我们有且只推荐 LuckPerms 作为权限插件，具体的使用方法请参考 [LuckPerms 使用方法](/Java/permission)
 
 以下举例了一些常见的权限组分类：
 
@@ -36,4 +36,4 @@ sidebar_position: 5
 | Helper(协管员) | 一般允许拥有踢出玩家、监禁玩家、封禁玩家 IP 等权限。                    |
 | Admin(管理员)  | 一般允许使用所有权限，且通常是唯一一个拥有控制插件、规定用户组、关闭/重启服务器命令的用户组。 |
 
-当然你也可以自定义一个例如 VIP1 、 VIP2 的权限组，拥有比普通用户更多的权限。
+当然你也可以自定义一个例如 VIP1、VIP2 的权限组，拥有比普通用户更多的权限。

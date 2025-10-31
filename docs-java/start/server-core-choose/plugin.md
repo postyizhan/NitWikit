@@ -43,6 +43,8 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="server-core-choose">
 <TabItem value="paper" label="Paper">
 
+![](_images/papermc-wild.svg)
+
 **优势**：
 
 - 性能 - 性能还可以
@@ -70,11 +72,13 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 <TabItem value="purpur" label="Purpur">
 
+![](_images/purpur.png)
+
 **优势**：
 
 - 性能 - Purpur 的性能相比于 Paper 提升大约 10-20%，略有提升
 - 稳定 - Purpur 兼容 Paper 的全部插件，只要 Paper 能跑，Purpur 就可以跑
-- 特性 - Purpur 还原了 Minecraft 的部分特性，用来开生存服务器更加适合(当然生电还是得 Leaves)
+- 特性 - Purpur 还原了 Minecraft 的部分特性，用来开生存服务器更加适合 (当然生电还是得 Leaves)
 - 兼容 - 很多插件会以此核心为标准之一进行兼容
 - 功能 - 配置文件中有一些基础插件的功能，合理使用可以减少插件使用量。
 
@@ -97,6 +101,8 @@ import TabItem from '@theme/TabItem';
 
 </TabItem>
 <TabItem value="leaves" label="Leaves">
+
+![](_images/leaves.svg)
 
 **优势**：
 
@@ -124,24 +130,26 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 </TabItem>
 <TabItem value="Leaf" label="Leaf">
 
+![](_images/leaf.png)
+
 **优势**：
 
 - 性能 - 比 purpur 好的多的性能（在实体方面甚至能达到 50% 以上的提升）
 - 支持 - 国人开发的核心
 
-  对插件的兼容程度: Paper = Purpur > Leaf /Leaves
+  对插件的兼容程度：Paper = Purpur > Leaf /Leaves
 
 **劣势**：
 
-- 兼容 - 有极少插件不兼容(可向核心作者反馈)
+- 兼容 - 有极少插件不兼容 (可向核心作者反馈)
 
 总的来说，相比 Purpur 会有更好的优化，极少不兼容的插件可以及时找作者反馈，所以非常推荐此核心
 
-[点我](https://docs.leafmc.one/zh) 查看 Leaf 官方文档
+[点我](https://www.leafmc.one/zh/docs) 查看 Leaf 官方文档
 
 **下载**：
 
-- [官方](https://github.com/Winds-Studio/Leaf/releases)
+- [官方](https://www.leafmc.one/zh/download)
 - [McRes](https://mcres.cn/downloads/leaf.html)
 
 </TabItem>
@@ -155,7 +163,7 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 
 目前仅有 1.8.8 版本的核心，而没有 1.8.9
 
-1.8.8 与 1.8.9 区别小到安装 [ViaVersion](/docs-java/process/plugin/other/Via/Via.md) 之后感觉不到区别
+1.8.8 与 1.8.9 区别小到安装 [ViaVersion](../../process/plugin/other/Via/Via.md) 之后感觉不到区别
 
 :::
 
@@ -201,6 +209,8 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 
 我们推荐 Beast
 
+![](_images/Beast.jpg)
+
 **优势**：
 
 - 性能 - 1.12 相比高版本本身吃资源就少，此核心提供更多优化
@@ -226,4 +236,4 @@ leaves 基本完全支持客户端生电 Mod，包括但不限于 Carpet，pca�
 | 名称                                                        | 介绍                        |
 |-----------------------------------------------------------|---------------------------|
 | [CraftBukkit](https://getbukkit.org/download/craftbukkit) | 插件端鼻祖核心，无优化               |
-| [Spigot](https://getbukkit.org/download/spigot/)          | CraftBukkit的分支，有一点优化，仍不推荐 |
+| [Spigot](https://getbukkit.org/download/spigot/)          | CraftBukkit 的分支，有一点优化，仍不推荐 |

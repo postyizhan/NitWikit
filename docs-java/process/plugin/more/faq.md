@@ -9,7 +9,7 @@ sidebar_position: 8
 
 ## 缺失依赖项
 
-特征:
+特征：
 
 <!--markdownlint-disable line-length-->
 
@@ -26,7 +26,7 @@ sidebar_position: 8
 
 ## 无效 `plugin.yml`
 
-特征:
+特征：
 
 <!--markdownlint-disable line-length-->
 
@@ -37,10 +37,10 @@ sidebar_position: 8
 
 <!--markdownlint-disable line-length-->
 
-这意味着你下载的不是一个有效的插件.这通常是由以下原因之一引起的:
+这意味着你下载的不是一个有效的插件。这通常是由以下原因之一引起的：
 
 * 你下载的插件根本不是插件，而是 Forge、Fabric 或类似软件的 mod。这些在插件端上无法运行
-* 插件下载不完整,重新下载即可
+* 插件下载不完整，重新下载即可
 
 ## Java 版本低
 
@@ -74,13 +74,13 @@ org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError
 
 ## 循环依赖
 
-指的是 A 依赖 B,B 依赖 C,C 依赖 A,导致 Paper 无法判断加载顺序
+指的是 A 依赖 B,B 依赖 C,C 依赖 A，导致 Paper 无法判断加载顺序
 
-解决方案: 添加参数`-Dpaper.useLegacyPluginLoading=true` 即可
+解决方案：添加参数`-Dpaper.useLegacyPluginLoading=true` 即可
 
 ## 重复插件
 
-特征:
+特征：
 
 <!--markdownlint-disable line-length-->
 
@@ -90,4 +90,4 @@ org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError
 
 <!--markdownlint-disable line-length-->
 
-这意味着你有两个同名插件.确保你一次只安装每个插件的单一版本。删除重复插件的旧版本，并重新启动你的服务器.
+这意味着你有两个同名插件。确保你一次只安装每个插件的单一版本。删除重复插件的旧版本，并重新启动你的服务器。

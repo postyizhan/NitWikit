@@ -2,6 +2,7 @@
 title: 插件
 slug: /plugin
 sidebar_position: 1
+sidebar_label: Java插件
 ---
 
 # 插件
@@ -10,10 +11,10 @@ sidebar_position: 1
 
 建议阅读：
 
-- [YAML 语法](/docs-java/advance/YAML/YAML.md) - 了解大部分插件配置文件的语法。
-- [特征文件](/docs-java/process/plugin/more/plugin-signature-file.md) - 了解插件的一些信息。
+- [YAML 语法](../../advance/YAML/YAML.md) - 了解大部分插件配置文件的语法。
+- [特征文件](./more/plugin-signature-file.md) - 了解插件的一些信息。
 - [颜色代码](./more/color-message.md) - 改变服务器中文本的颜色
-- [什么是乱码](https://nitwikit.8aka.org/start/basic/what-is-messy-code) - 了解文本文件中的字符有时为什么会变得奇奇怪怪。
+- [什么是乱码](/start/basic/what-is-messy-code) - 了解文本文件中的字符有时为什么会变得奇奇怪怪。
 
 ## 基本操作
 
@@ -43,9 +44,9 @@ sidebar_position: 1
 
 ![](_images/插件列表.png)
 
-绿色为已加载(不是代表你日后使用不报错，只是这里加载上了)。
+绿色为已加载 (不是代表你日后使用不报错，只是这里加载上了)。
 
-红色为加载失败(服务端检测到了这个插件，但是没加载上，去控制台看看报错)。
+红色为加载失败 (服务端检测到了这个插件，但是没加载上，去控制台看看报错)。
 
 如果这里没有你的插件...服务端甚至没识别这是个插件，去看看你的文件有啥问题。
 
@@ -53,7 +54,7 @@ sidebar_position: 1
 
 ### 笨蛋脚本
 
-下载此 [脚本](https://script.8aka.org/auto-install-depend)，我们会为你安装常用插件(自动)。
+下载此 [脚本](https://script.8aka.org/auto-install-depend)，我们会为你安装常用插件 (自动)。
 
 <details>
   <summary>安装的插件列表</summary>
@@ -88,4 +89,4 @@ Via 自动安装已经移动到[此处](./other/Via/Via.md#笨蛋脚本)
 
 ## 我有疑问
 
-如果你想问问题，查看 [如何向大佬求助](https://nitwikit.8aka.org/start/ask-for-help)
+如果你想问问题，查看 [如何向大佬求助](/start/ask-for-help)

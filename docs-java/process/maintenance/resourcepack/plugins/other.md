@@ -34,13 +34,13 @@ import TabItem from '@theme/TabItem';
 
 `Github` https://github.com/toxicity188/BetterHealthBar3
 
-`文档(英文)` https://github.com/toxicity188/BetterHealthBar3/wiki
+`文档 (英文)` https://github.com/toxicity188/BetterHealthBar3/wiki
 
-`文档(中文)` https://plugins.8aka.org/ShortDoc/BetterHealthBar3/
+`文档 (中文)` https://plugins.8aka.org/ShortDoc/BetterHealthBar3/
 
 :::
 
-一个非常棒的生命指示插件,还支持药水效果显示
+一个非常棒的生命指示插件，还支持药水效果显示
 
 ![](_images/30a53ea3a4d029784f4ed54d17a335e099b805b4.gif)
 
@@ -53,7 +53,7 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-一个生命指示插件,支持版本为 1.20 - 1.20.6
+一个生命指示插件，支持版本为 1.20 - 1.20.6
 
 ![](_images/4f4a015981222b37bfa3b2324113d919a33b090f.png)
 
@@ -90,7 +90,7 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-该插件增强了原版的生存体验,加入了口渴值,温度系统等,推荐与 BodyHealth 一起使用
+该插件增强了原版的生存体验，加入了口渴值，温度系统等，推荐与 BodyHealth 一起使用
 
 ![](_images/f6b239e0689c433ef5a2c0e85f710e988bf1ba4e.gif)
 

@@ -1,6 +1,7 @@
 ---
 title: 基础知识
 sidebar_position: 1
+sidebar_label: BDS 基础知识
 ---
 
 # 基础知识

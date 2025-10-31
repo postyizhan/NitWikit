@@ -8,11 +8,11 @@ import TabItem from '@theme/TabItem';
 
 # 内核优化
 
-内核优化主要针对 Linux 操作系统而非 Windows,以下命令需要以 root 权限运行
+内核优化主要针对 Linux 操作系统而非 Windows，以下命令需要以 root 权限运行
 
 ## 内核参数优化
 
-tuned 调优服务可以通过设置调优配置文件来调整操作系统，以便在特定工作负载下更好地执行.
+tuned 调优服务可以通过设置调优配置文件来调整操作系统，以便在特定工作负载下更好地执行。
 
 执行以下命令来安装 tuned:
 
@@ -40,13 +40,13 @@ sudo pacman -S tuned
 </TabItem>
 </Tabs>
 
-然后启动:
+然后启动：
 
 ```shell
 systemctl enable tuned --now
 ```
 
-然后运行工具并使用以下命令调整内核:
+然后运行工具并使用以下命令调整内核：
 
 ```shell
 tuned-adm profile throughput-performance
@@ -60,13 +60,13 @@ tuned-adm profile throughput-performance
 vm.nr_hugepages = <需要的页数>
 ```
 
-可以通过一个公式知道需要的页数:
+可以通过一个公式知道需要的页数：
 
 ```text
-(分配的内存数(单位：MB)) / 2 + 300 
+(分配的内存数 (单位：MB)) / 2 + 300 
 ```
 
-比如我分配了 12GB 的内存(也就是 12288 MB),那么设置的值为`12288 / 2+ 300 = 6444`,最后的设置应该长这样
+比如我分配了 12GB 的内存 (也就是 12288 MB),那么设置的值为`12288 / 2+ 300 = 6444`,最后的设置应该长这样
 
 ```text
 vm.nr_hugepages = 6444
@@ -76,13 +76,13 @@ vm.nr_hugepages = 6444
 
 ## 激活透明大页面
 
-首先需要检查操作系统是否支持大页面:
+首先需要检查操作系统是否支持大页面：
 
 ```shell
 cat /sys/kernel/mm/transparent_hugepage/shmem_enabled
 ```
 
-如果返回包含以下内容,那么操作系统支持透明大页面
+如果返回包含以下内容，那么操作系统支持透明大页面
 
 ```shell
 always within_size advise never deny force
@@ -97,7 +97,7 @@ echo defer | sudo tee /sys/kernel/mm/transparent_hugepage/defrag
 echo 1 | sudo tee /sys/kernel/mm/transparent_hugepage/khugepaged/defrag
 ```
 
-最后,我们需要配置开机自启动
+最后，我们需要配置开机自启动
 
 ```shell
 sudo apt install sysfsutils
@@ -112,11 +112,11 @@ EOF
 sudo systemctl restart sysfsutils
 ```
 
-这样就可以了,然后重启机器即可
+这样就可以了，然后重启机器即可
 
 ## CPU 调优
 
-强制所有 CPU 核心运行在最高频率(不同于超频,不会影响 CPU 寿命)
+强制所有 CPU 核心运行在最高频率 (不同于超频，不会影响 CPU 寿命)
 
 ```shell
 sudo cpupower frequency-set -g performance
@@ -124,7 +124,7 @@ sudo cpupower frequency-set -g performance
 
 ## XanMod
 
-XanMod Linux 内核融合了许多优化补丁,包括许多来自 Cloudflare,Google 等未被合并进主分支的优化
+XanMod Linux 内核融合了许多优化补丁，包括许多来自 Cloudflare,Google 等未被合并进主分支的优化
 
 ### 安装
 
@@ -134,17 +134,17 @@ XanMod Linux 内核融合了许多优化补丁,包括许多来自 Cloudflare,Goo
     awk -f <(wget -qO- https://dl.xanmod.org/check_x86-64_psabi.sh)
     ```
 
-    输出结果
+   输出结果
 
     ```shell
     CPU supports x86-64-v4
     ```
 
-    这里可以看到我的 CPU 是支持 v4 版本的，安装时可以按照此结果进行选择。
+   这里可以看到我的 CPU 是支持 v4 版本的，安装时可以按照此结果进行选择。
 
-    :::warning
-    一定要选择符合的版本进行安装，否则将导致无法正常启动！
-    :::
+   :::warning
+   一定要选择符合的版本进行安装，否则将导致无法正常启动！
+   :::
 
 2. 添加上游公钥：
 
@@ -162,14 +162,20 @@ XanMod Linux 内核融合了许多优化补丁,包括许多来自 Cloudflare,Goo
 4. 安装
 
     ```shell
-    apt install -y linux-xanmod-rt-x64v4
+    apt install -y linux-xanmod-rt-x64v3
     ```
 
-    `v4` 需要根据第1步的 CPU supports 更改,最后重启即可
+   `v3` 需要根据第 1 步的 CPU supports 更改，最后重启即可
+
+   :::tip
+   
+   `CPU supports x86-64-v4` 仍然需要安装 `x64v3`,AVX512 对于内核没有影响
+   
+   :::
 
 5. 检查安装
 
-    重启后检查安装
+   重启后检查安装
 
     ```shell
     uname -r
@@ -186,6 +192,7 @@ XanMod Linux 内核融合了许多优化补丁,包括许多来自 Cloudflare,Goo
 :::
 
 ```text
+cat <<'TEXT' > /etc/sysctl.conf
 # ------ 网络调优: 基本 ------
 # TTL 配置, Linux 默认 64
 # net.ipv4.ip_default_ttl=64
@@ -278,7 +285,7 @@ net.ipv4.tcp_retries2=5
 # Backlog 设置将被忽略. syncookie 是一个出于对现实的妥协,
 # 严重违反 TCP 协议的设计, 会造成 TCP option 不可用, 且实现上
 # 通过计算 hash 避免维护半开连接也是一种 tradeoff 而非万金油,
-# 勿听信所谓"安全优化教程"而无脑开启
+# 勿听信所谓“安全优化教程”而无脑开启
 net.ipv4.tcp_syncookies=0
 
 # Ref: https://linuxgeeks.github.io/2017/03/20/212135-Linux%E5%86%85%E6%A0%B8%E5%8F%82%E6%95%B0rp_filter/
@@ -399,9 +406,27 @@ net.ipv4.ip_forward = 0
 net.ipv4.icmp_echo_ignore_broadcasts = 1
 # 开启恶意 ICMP 错误消息保护
 net.ipv4.icmp_ignore_bogus_error_responses = 1
+
+TEXT
+
+cat <<'TEXT' > /etc/security/limits.conf
+* soft nofile 65535
+* hard nofile 65535
+* soft noproc 65535
+* hard noproc 65535
+root soft nofile 65535
+root hard nofile 65535
+root soft noproc 65535
+root hard noproc 65535
+TEXT
+
+cat <<'TEXT' > /etc/security/limits.d/90-nproc.conf
+* soft nproc 65535
+root soft nproc 65535
+TEXT
 ```
 
-参考 NodeSeek 大佬教程:
+参考 NodeSeek 大佬教程：
 
 * https://www.nodeseek.com/post-37225-1
 * https://www.nodeseek.com/post-197087-1

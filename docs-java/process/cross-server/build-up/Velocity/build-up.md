@@ -28,9 +28,9 @@ java -Xms1024M -Xmx1024M -jar 核心名字.jar
 
 打开 `velocity.toml`
 
-找到并修改以下内容:
+找到并修改以下内容：
 
-> 在 **[servers]** 那里该填什么?
+> 在 **[servers]** 那里该填什么？
 >
 > > 答:
 > > `子服名 = "子服地址"`
@@ -46,19 +46,19 @@ java -Xms1024M -Xmx1024M -jar 核心名字.jar
 [详细配置文件讲解](velocity.toml.md)
 
 ```toml
-# velocity端的端口号，数字1000~65536随意
+# velocity 端的端口号，数字 1000~65536 随意
 bind = "0.0.0.0:25577"
-# 正版验证，有1.19.1+的子服不建议开启此项
+# 正版验证，有 1.19.1+ 的子服不建议开启此项
 online-mode = false
-# 1.13+这里填modern 1.12-填bungeeguard
+# 1.13+ 这里填 modern 1.12-填 bungeeguard
 player-info-forwarding-mode = "modern"
-# 是否应将服务器列表ping请求传递给后端服务器？
+# 是否应将服务器列表 ping 请求传递给后端服务器？
 # 可用选项：
-# - "disabled"：不会进行任何传递。velocity.toml和server-icon.png将确定初始服务器列表ping响应。
-# - "mods"：仅将后端服务器的mod列表传递到响应中。将使用具有mod列表的后端服务器的第一个服务器。如果无法联系后端服务器，则Velocity不会显示任何mod信息。
-# - "description"：使用后端服务器的描述和mod列表。将使用响应的第一个服务器列表中的第一个服务器(或强制主机)进行描述和mod列表。
-# - "all"：将后端服务器的响应用作代理响应。如果无法联系服务器，则使用Velocity配置。
-# 人话，motd插件在代理端用"disabled"，否则用"all"
+# - "disabled"：不会进行任何传递。velocity.toml 和 server-icon.png 将确定初始服务器列表 ping 响应。
+# - "mods"：仅将后端服务器的 mod 列表传递到响应中。将使用具有 mod 列表的后端服务器的第一个服务器。如果无法联系后端服务器，则 Velocity 不会显示任何 mod 信息。
+# - "description"：使用后端服务器的描述和 mod 列表。将使用响应的第一个服务器列表中的第一个服务器 (或强制主机) 进行描述和 mod 列表。
+# - "all"：将后端服务器的响应用作代理响应。如果无法联系服务器，则使用 Velocity 配置。
+# 人话，motd 插件在代理端用"disabled"，否则用"all"
 ping-passthrough = "all"
 # 子服名称和地址，名称不可包含”.”
 [servers]
@@ -81,9 +81,9 @@ try = [
 
 ## 子服配置
 
-Velocity 支持将玩家信息(如 IP 地址、UUID 和皮肤)转发到你的服务器。Velocity 支持三种转发格式：
+Velocity 支持将玩家信息 (如 IP 地址、UUID 和皮肤) 转发到你的服务器。Velocity 支持三种转发格式：
 
-- **Velocity Modern 转发** (现代转发)是一种自定义的转发格式(modern 转发)，它更安全。
+- **Velocity Modern 转发** (现代转发) 是一种自定义的转发格式 (modern 转发)，它更安全。
 - **BungeeCord 转发**(也称为*传统转发*)，它有更好的兼容性但安全性较低。
 - **BungeeGuard**，与传统 BungeeCord 转发相同，但包含了一个密钥。它比单独的 BungeeCord 转发更好，但不如 Velocitymodern 转发理想。
 
@@ -122,7 +122,7 @@ import TabItem from '@theme/TabItem';
 **注意**：如果你使用的是 Paper **1.18.2 或更低版本**，请在 `paper.yml` 文件中查找相关设置。
 
 <details>
-  <summary>点击展开-为Fabric/Forge配置现代转发</summary>
+  <summary>点击展开 - 为 Fabric/Forge 配置现代转发</summary>
 
 ### 为 Fabric 配置现代转发
 
@@ -160,7 +160,7 @@ import TabItem from '@theme/TabItem';
 2. 重新启动服务器。
 
 <details>
-  <summary>点击展开-为Sponge/Fabric配置传送转发</summary>
+  <summary>点击展开 - 为 Sponge/Fabric 配置传送转发</summary>
 
 ### 为 Sponge 配置传统转发
 

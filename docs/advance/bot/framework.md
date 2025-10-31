@@ -31,16 +31,7 @@ import TabItem from '@theme/TabItem';
 | 下载 | [Github](https://github.com/NapNeko/NapCatQQ/releases) 或者 [LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) 插件市场下载 |
 
 </TabItem>
-<TabItem value="Lagrange.OneBot" label="Lagrange.OneBot">
 
-| Lagrange.OneBot | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
-| --- | --- |
-| 相关链接 | [Github 仓库](https://github.com/LagrangeDev/Lagrange.Core) \| [文档站](https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/) |
-| 作者 | [LagrangeDev](https://github.com/LagrangeDev) |
-| 介绍 | Lagrange.Core 是一个开源的 NTQQ 协议实现，实现了 OneBot V11 的通信协议，可以和主流 Bot 框架进行通信 |
-| 下载 | [Github](https://github.com/LagrangeDev/Lagrange.Core/releases) |
-
-</TabItem>
 <TabItem value="Overflow" label="Overflow">
 
 | Overflow | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
@@ -53,7 +44,7 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 </Tabs>
 
-## 接入QQ官方接口的机器人框架
+## 接入 QQ 官方接口的机器人框架
 
 <Tabs queryString="qqbot">
 <TabItem value="Gensokyo" label="Gensokyo">
@@ -62,7 +53,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/Hoshinonyaruko/Gensokyo) |
 | 作者 | [Hoshinonyaruko](https://github.com/Hoshinonyaruko) |
-| 介绍 | 基于 OneBot QQ官方机器人Api Golang 原生实现 |
+| 介绍 | 基于 OneBot QQ 官方机器人 Api Golang 原生实现 |
 | 下载 | [Github](https://github.com/Hoshinonyaruko/Gensokyo/releases) |
 
 </TabItem>
@@ -77,7 +68,7 @@ import TabItem from '@theme/TabItem';
 | --- | --- |
 | 相关链接 | [Github 仓库](https://github.com/whitechi73/OpenShamrock) \| [文档站](https://whitechi73.github.io/OpenShamrock/) |
 | 作者 | [whitechi73](https://github.com/whitechi73) |
-| 介绍 | 基于 Lsposed（Non-Riru） 实现 Kritor 标准的 QQ 机器人框架 |
+| 介绍 | 基于 Lsposed（Non-Riru）实现 Kritor 标准的 QQ 机器人框架 |
 | 下载 | [Github](https://github.com/whitechi73/OpenShamrock/releases) |
 
 </TabItem>
@@ -109,6 +100,16 @@ import TabItem from '@theme/TabItem';
 | 作者 | [mamoe](https://github.com/mamoe) |
 | 介绍 | mirai 是一个在全平台下运行，提供 QQ Android 协议支持的高效率机器人库 |
 | 下载 | [Github](https://github.com/iTXTech/mirai-console-loader/releases) |
+
+</TabItem>
+<TabItem value="Lagrange.OneBot" label="Lagrange.OneBot">
+
+| Lagrange.OneBot | ![](https://img.shields.io/badge/状态-停止维护-red?style=for-the-badge) |
+| --- | --- |
+| 相关链接 | [Github 仓库](https://github.com/LagrangeDev/Lagrange.Core) \| [文档站](https://lagrangedev.github.io/Lagrange.Doc/Lagrange.OneBot/) |
+| 作者 | [LagrangeDev](https://github.com/LagrangeDev) |
+| 介绍 | Lagrange.Core 是一个开源的 NTQQ 协议实现，实现了 OneBot V11 的通信协议，可以和主流 Bot 框架进行通信 |
+| 下载 | [Github](https://github.com/LagrangeDev/Lagrange.Core/releases) |
 
 </TabItem>
 </Tabs>

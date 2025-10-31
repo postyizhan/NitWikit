@@ -16,7 +16,7 @@ sidebar_position: 4
 
 </details>
 
-### 类型转换(Type)
+### 类型转换 (Type)
 
 > https://kether.tabooproject.org/list.html#Type
 
@@ -30,11 +30,11 @@ type {token} | type {type} {action}
 
 TODO
 
-## 变量(Variable)
+## 变量 (Variable)
 
 在这里想一个非常巧妙的比喻
 
-思考ing...
+思考 ing...
 
 ## kether
 
@@ -76,7 +76,7 @@ get {token} | &{token}
 
 > 此变量特点是 kether 环境摧毁就消失
 
-是的，当你执行完 `/vul eval set yizhan to 114514` 之后，kether环境已经被摧毁了，所以这个变量就消失了
+是的，当你执行完 `/vul eval set yizhan to 114514` 之后，kether 环境已经被摧毁了，所以这个变量就消失了
 
 正确做法：
 
@@ -92,7 +92,7 @@ get {token} | &{token}
 
 ![](_images/var_4.png)
 
-看到这里，你就应该知道，为什么前面讲 [彩色(color Text)](basic.md#彩色color-text) 动作的时候会说
+看到这里，你就应该知道，为什么前面讲 [彩色 (color Text)](./basic#彩色-color-text) 动作的时候会说
 
 > 这里要用 `" "` 把要打印的信息包裹起来
 > 否则他会把这个当成变量，具体的会在后面讲到

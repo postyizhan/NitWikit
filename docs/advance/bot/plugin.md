@@ -14,7 +14,7 @@ import TabItem from '@theme/TabItem';
 
 部分插件模组或者外部独立程序会内置 QQ 机器人框架
 
-关于机器人框架详情请见 [通用 | 机器人框架](https://nitwikit.8aka.org/advance/bot/framework/)
+关于机器人框架详情请见 [通用 | 机器人框架](./framework)
 
 <Tabs queryString="jrqqbot">
 <TabItem value="MiraiMC" label="MiraiMC">
@@ -27,7 +27,7 @@ import TabItem from '@theme/TabItem';
 | 支持 **基岩版** | NukkitX |
 | 介绍 | 一个基于 Mirai 的 Minecraft 服务端插件，能够让你在 Minecraft 服务器上使用 Mirai QQ 机器人程序，同时提供一些 API 帮助开发者简单的调用机器人接口为自己的插件实现多样的功能 |
 | 下载 | [Github](https://github.com/DreamVoid/MiraiMC/releases) \| [Modrinth](https://modrinth.com/plugin/miraimc) |
-| **注意事项** | 由于 Mirai 原生登陆平台已停止更新，并且 MiraiMC 插件自身不支持 Onebot 协议，您需要使用[这个拓展](https://github.com/DreamVoid/MiraiMCAddon-Overflow)来给 MiraiMC 添加 Onebot 协议支持 |
+| **注意事项** | 由于 Mirai 原生登陆平台已停止更新，并且 MiraiMC 插件自身不支持 Onebot 协议，您需要使用 [这个拓展](https://github.com/DreamVoid/MiraiMCAddon-Overflow) 来给 MiraiMC 添加 Onebot 协议支持 |
 
 </TabItem>
 <TabItem value="SparkBridge" label="SparkBridge">
@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
 | 相关链接 | [Github 仓库](https://github.com/sparkbridge/sparkbridge2) \| [文档站](https://sparkbridge.cn/) |
 | 作者 | [sparkbridge](https://github.com/sparkbridge) |
 | 支持 **基岩版** | LeviLaminaBDS |
-| 介绍 | 轻量级、模块化和多功能的 Minecraft Bedrock Server BDS 服务器QQ机器人适配器，内置群服互通功能，支持插件接入，支持内核分离级别的二次开发 |
+| 介绍 | 轻量级、模块化和多功能的 Minecraft Bedrock Server BDS 服务器 QQ 机器人适配器，内置群服互通功能，支持插件接入，支持内核分离级别的二次开发 |
 | 下载 | [Github](https://github.com/sparkbridge/sparkbridge2/releases) |
 
 </TabItem>
@@ -45,10 +45,10 @@ import TabItem from '@theme/TabItem';
 
 | McBot | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
 | --- | --- |
-| 相关链接 | [Github 仓库](https://github.com/Nova-Committee/McBot) \| [Mcmod文档](https://www.mcmod.cn/class/4903.html) |
+| 相关链接 | [Github 仓库](https://github.com/Nova-Committee/McBot) \| [Mcmod 文档](https://www.mcmod.cn/class/4903.html) |
 | 作者 | [Nova-Committee](https://github.com/Nova-Committee) |
 | 支持 **Java 版** | Forge \| Fabric \| Quite \| Rift |
-| 介绍 | 基于 Forge 、 Fabric 等模组平台开发的QQ机器人模组，能让你在 Minecraft 模组服务器上使用 QQ 机器人程序，同时提供一些 API 帮助开发者拓展功能 |
+| 介绍 | 基于 Forge、Fabric 等模组平台开发的 QQ 机器人模组，能让你在 Minecraft 模组服务器上使用 QQ 机器人程序，同时提供一些 API 帮助开发者拓展功能 |
 | 下载 | [Modrinth](https://modrinth.com/mod/mcbot) \| [Mcmod](https://www.mcmod.cn/download/4903.html) \| [CruseForge](https://www.curseforge.com/minecraft/mc-mods/mcbot) |
 
 </TabItem>
@@ -56,7 +56,7 @@ import TabItem from '@theme/TabItem';
 
 | McBot | ![](https://img.shields.io/badge/状态-积极维护-green?style=for-the-badge) |
 | --- | --- |
-| 相关链接 | [Github 仓库](https://github.com/RegadPoleCN/PlumBot) \| [Modrinth页面](https://modrinth.com/plugin/plumbot) |
+| 相关链接 | [Github 仓库](https://github.com/RegadPoleCN/PlumBot) \| [Modrinth 页面](https://modrinth.com/plugin/plumbot) |
 | 作者 | [RegadPoleCN](https://github.com/RegadPoleCN) |
 | 支持 **Java 版** | Bukkit 及其分支 |
 | 介绍 | 一个可以安装在 Bukkit 等服务端上的 QQ 机器人插件，它能将你的 mc 服务器与 QQ 群或 kook 频道联通，支持消息转发，死亡转发等功能 |

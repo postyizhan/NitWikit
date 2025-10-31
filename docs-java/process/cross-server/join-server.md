@@ -56,7 +56,7 @@ https://github.com/gonalez/znpcs/wiki/Commands#server
 ```
 
 - [id] 是 NPC 的 id.
-- [server] 是子服名字.
+- [server] 是子服名字。
 
 ### 菜单
 
@@ -87,7 +87,7 @@ https://hhhhhy.gitbook.io/trmenu-v3/menu/action/types#kua-fu-chuan-song
 
 #### Invero
 
-文档没写
+https://invero.8aka.org/docs/advance/basic/kether#%E8%B7%A8%E6%9C%8D
 
 ```yaml
 - 'connect 子服名'

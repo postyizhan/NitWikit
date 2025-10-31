@@ -13,9 +13,9 @@ sidebar_position: 2
 
 键值对的集合。
 
-形如 `key: value` ， 也可以形如 `key1: {key1: value1, key2: value2, ...}` 。
+形如 `key: value` ，也可以形如 `key1: {key1: value1, key2: value2, ...}` 。
 
-比如这里 `key` 是键， `value` 是这个键的值 `:`(冒号后有个空格)被称为 `映射标记` 。
+比如这里 `key` 是键， `value` 是这个键的值 `:`(冒号后有个空格) 被称为 `映射标记` 。
 
 ### 数组
 
@@ -44,7 +44,7 @@ companies:
       price: 500W
 ```
 
-意思是 companies 属性是一个数组，数组中的每一个元素又由 id， name， price 三个属性构成。
+意思是 companies 属性是一个数组，数组中的每一个元素又由 id，name，price 三个属性构成。
 
 ### 复合结构
 
@@ -92,8 +92,8 @@ websites:
 
 ```yaml
 boolean:
-    - TRUE  # true， True 都可以。
-    - FALSE  # false， False 都可以。
+    - TRUE  # true，True 都可以。
+    - FALSE  # false，False 都可以。
 float:
     - 3.14
     - 6.8523015e+5  # 可以使用科学计数法。
@@ -102,16 +102,16 @@ int:
     - 0b1010_0111_0100_1010_1110  # 二进制表示。
 null:
     nodeName: 'node'
-    parent: ~  # 使用 ~ 表示 null 。
+    parent: ~  # 使用 ~ 表示 null。
 string:
     - 哈哈
     - 'Hello world'  # 可以使用双引号或者单引号包裹特殊字符。
     - newline
       newline2  # 字符串可以拆成多行，每一行会被转化成一个空格。
 date:
-    - 2018-02-17  # 日期必须使用 ISO 8601 格式，即 yyyy-MM-dd 。
+    - 2018-02-17  # 日期必须使用 ISO 8601 格式，即 yyyy-MM-dd。
 datetime:
-    -  2018-02-17T15:02:31+08:00  # 时间和日期之间使用 T 连接， 最后使用 + 代表时区。
+    -  2018-02-17T15:02:31+08:00  # 时间和日期之间使用 T 连接，最后使用 + 代表时区。
 ```
 
 ## 缩进

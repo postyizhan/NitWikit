@@ -13,6 +13,12 @@ sidebar_position: 7
 
 :::
 
+:::tip
+
+我们**非常推荐**你阅读 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)
+
+:::
+
 ### 错误问问题的方式
 
 一般来说，入门任何的领域会遇到问题，都需要问问题，但大家基本都不欢迎以下的问题：
@@ -105,9 +111,9 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 几乎所有的软件都会附上 Wiki，它们一般位于：
 
-- 插件的 README 文件(GitHub 主页往下翻一般就是)
-- 插件作者在社交媒体发布的视频文章等或自行搭建的网站(入口一般可以在插件的论坛介绍页、官网、 README 中找到)
-- 插件作者在即时通讯软件上发布的视频文章等(比如有的插件作者会让你加他的 QQ 群，之后把使用文档放在群文件或群公告里)
+- 插件的 README 文件 (GitHub 主页往下翻一般就是)
+- 插件作者在社交媒体发布的视频文章等或自行搭建的网站 (入口一般可以在插件的论坛介绍页、官网、README 中找到)
+- 插件作者在即时通讯软件上发布的视频文章等 (比如有的插件作者会让你加他的 QQ 群，之后把使用文档放在群文件或群公告里)
 
 **请先耐心寻找这些文档**，实在找不到说明作者可能确实没有写，这种情况下再提问
 
@@ -121,7 +127,7 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 #### docx(Word 文档)
 
-按下 `Ctrl + F` (Windows)或 `Command + F` (macOS)即可启动 Microsoft Word 或 WPS 的搜索功能，搜索当前文档。
+按下 `Ctrl + F` (Windows) 或 `Command + F` (macOS) 即可启动 Microsoft Word 或 WPS 的搜索功能，搜索当前文档。
 
 #### txt
 
@@ -157,7 +163,7 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 ![](_images/屏幕截图%202025-02-07%20182759.png)
 
-服务器 log 文件在服务端根目录的 logs 文件夹，一般上传 latest.log (服务端最新的日志)即可
+服务器 log 文件在服务端根目录的 logs 文件夹，一般上传 latest.log (服务端最新的日志) 即可
 
 ![](_images/屏幕截图%202025-02-07%20182930.png)
 
@@ -168,11 +174,11 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 <details>
   <summary>如何使用 Mclogs </summary>
 
-![](_images/问问题的技巧/如何使用Mclogs-1.png)
+![](_images/问问题的技巧/如何使用 Mclogs-1.png)
 
-服务器 log 文件在服务端根目录的 logs 文件夹，一般上传 latest.log (服务端最新的日志)即可
+服务器 log 文件在服务端根目录的 logs 文件夹，一般上传 latest.log (服务端最新的日志) 即可
 
-![](_images/问问题的技巧/如何使用Mclogs-2.png)
+![](_images/问问题的技巧/如何使用 Mclogs-2.png)
 
 把这个链接复制粘贴发给大佬
 
@@ -180,7 +186,7 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 ![](_images/qnmd_raw.png)
 
-不要点右上角的Raw进行分享，那是API接口链接，给开发人员提供的，不是分享链接的，不能用于分享日志使用
+不要点右上角的 Raw 进行分享，那是 API 接口链接，给开发人员提供的，不是分享链接的，不能用于分享日志使用
 
 :::
 
@@ -212,14 +218,14 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 
 :::warning
 
-不遵守以上规则，可能会导致你写入**乐子文档**
+不遵守以上规则，可能会导致你被写入**乐子文档**
 
 :::
 
-**经典如何提问: https://settingdust.gitbook.io/stop-ask-questions-the-stupid-ways/**
+**经典如何提问：https://settingdust.gitbook.io/stop-ask-questions-the-stupid-ways/**
 
 <a href="https://www.8aka.org/qq">
-  <img src="https://raw.githubusercontent.com/8aka-Team/NitWikit/refs/heads/main/docs/_images/qqgroupshield.svg" alt="QQ群"></img>
+  <img src="https://raw.githubusercontent.com/8aka-Team/NitWikit/refs/heads/main/docs/_images/qqgroupshield.svg" alt="QQ 群"></img>
 </a>
 
 ### 经典老图
@@ -231,11 +237,3 @@ Wiki 就是让你解决常见问题的，不看这玩意儿就在那瞎问只会
 ![](_images/问问题的技巧/经典老图-3.jpg)
 
 ![](_images/问问题的技巧/没事不要免费帮人.jpg)
-
-### 真正的傻逼
-
-![](_images/问问题的技巧/林然-1.png)
-
-![](_images/问问题的技巧/林然-2.png)
-
-对不起大佬，是我疏忽了，没说明服务器没停也是会输出日志到 `latest.log` 的

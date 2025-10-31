@@ -13,6 +13,6 @@ sidebar_position: 3
 
 :::
 
-不推荐使用 CatSeedLogin 如果你执意使用 CatSeedLogin,请使用 Fork 版本
+不推荐使用 CatSeedLogin 如果你执意使用 CatSeedLogin，请使用 Fork 版本
 
-为什么不用: 功能少(可以对比 AuthMeReReloaded)
+为什么不用：功能少 (可以对比 AuthMeReReloaded)

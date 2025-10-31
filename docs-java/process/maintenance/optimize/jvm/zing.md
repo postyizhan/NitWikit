@@ -6,17 +6,23 @@ slug: /optimize/jvm/zing
 
 # Azul Zing
 
-通用内容的参数可以使用(比如大页)，但不要自行指定GC，或其他优化参数
+通用内容的参数可以使用 (比如大页)，但不要自行指定 GC，或其他优化参数
 
 :::warning
 
-Azul Zing 的专业性较强,新手请不要使用
+Azul Zing 的专业性较强，新手请不要使用
 
 :::
 
 ## ReadyNow
 
-你大概已经注意到了，Zing的预热期很长，ReadyNow就是来解决这个问题的
+你大概已经注意到了，Zing 的预热期很长，ReadyNow 就是来解决这个问题的
+
+:::danger
+
+**重要警告**：如果你使用了大量插件，ReadyNow 在部分情况下可能会导致插件加载出现错误，例如启动时出现 `ClassNotFoundException` 等异常。如果遇到此类问题，请移除 ReadyNow 相关参数。
+
+:::
 
 若要启用 ReadyNow，请添加以下命令行选项，其中两者`<file>`通常相同：
 
@@ -26,9 +32,21 @@ Azul Zing 的专业性较强,新手请不要使用
 
 然后，运行应用程序将自动生成或更新配置文件日志。此配置文件日志将在应用程序的后续运行时使用，从而改进预热。
 
-官方推荐所有重要函数执行**5万遍**
+官方推荐所有重要函数执行**5 万遍**
 
-添加`-XX:+FalconUseCompileStashing -XX:+FalconLoadObjectCache -XX:-FalconSaveObjectCache`以使用编译存储
+### 编译存储（已弃用）
+
+:::warning
+
+以下 Falcon 参数已在 Zing 25.02 版本中被标记为弃用，并可能在未来版本中移除，不建议继续使用：
+
+* `-XX:+FalconUseCompileStashing`
+* `-XX:+FalconLoadObjectCache`
+* `-XX:-FalconSaveObjectCache`
+
+这些参数与 `UseUnifiedCompilerFrontend` 不兼容，使用时会自动禁用 `UseUnifiedCompilerFrontend`。
+
+:::
 
 ## 垃圾回收器
 
@@ -48,15 +66,21 @@ C4 是 Zing 中唯一的垃圾收集器，取代了 OpenJDK 中可用的其他�
 
 ## Zing System Tool
 
-这玩意可以让你的系统更加适应Zing，可以自动优化系统配置
+这玩意可以让你的系统更加适应 Zing，可以自动优化系统配置
 
 [官方安装教程](https://docs.azul.com/prime/zst/installation)
 
 使用`-XX:+UseZST` 开启
 
+:::info
+
+**关于 ZST 的使用**：根据 Azul 官方说明，如果你的 Linux 内核版本足够新，你可以**不使用 ZST**，直接安装 Zing 即可。ZST 组件是可选的，主要用于较旧的内核版本。
+
+:::
+
 :::warning
 
-请不要在使用 ZST 的同时使用透明大页面,请禁用透明大页面
+请不要在使用 ZST 的同时使用透明大页面，请禁用透明大页面
 
 :::
 
@@ -72,7 +96,7 @@ C4 是 Zing 中唯一的垃圾收集器，取代了 OpenJDK 中可用的其他�
 
 ## 存疑参数
 
-这些参数未经测试,仅作为标记
+这些参数未经测试，仅作为标记
 
 * `-XX:+UseSpecialHashSet` 启用对特殊 HashSet 填充模式的优化，当输入集合的元素频繁添加到空 HashSet 时。
-* `-XX:-OptimizeIdentityHashForDistribution` 启用 System.identityHashCode()的替代实现，以牺份哈希计算速度为代价，提供更好的对象分布
+* `-XX:-OptimizeIdentityHashForDistribution` 启用 System.identityHashCode() 的替代实现，以牺份哈希计算速度为代价，提供更好的对象分布

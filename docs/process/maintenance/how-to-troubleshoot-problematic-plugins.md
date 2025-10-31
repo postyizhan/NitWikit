@@ -11,9 +11,9 @@ sidebar_position: 7
 
 对于 ERROR 和 WARN 类型的 log 进行分析，查看堆栈报错中是否有某个插件名或者插件的 `.jar` 文件。
 
-将报错先翻译一遍，确定其中是否提示了错误的类型(如缺少前置，缺少类，插件需要更新等)。
+将报错先翻译一遍，确定其中是否提示了错误的类型 (如缺少前置，缺少类，插件需要更新等)。
 
-然后你可以尝试按照[如何向大佬求助](https://nitwikit.8aka.org/Java/start/ask-for-help)中提到的方法，增加问题解决的可能性。
+然后你可以尝试按照[如何向大佬求助](/Java/start/ask-for-help)中提到的方法，增加问题解决的可能性。
 
 ## 二分法
 
@@ -58,4 +58,4 @@ sidebar_position: 7
 
 ## Arthas
 
-使用 Arthas 对报错进行分析，[文档](https://nitwikit.8aka.org/arthas)，需要拥有较强的技术力
+使用 Arthas 对报错进行分析，[文档](/arthas)，需要拥有较强的技术力

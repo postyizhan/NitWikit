@@ -5,9 +5,9 @@ sidebar_position: 2
 
 # 扩展特性
 
-这些并非是 JavaScript 标准所规定的,而是 JS 引擎所特有的
+这些并非是 JavaScript 标准所规定的，而是 JS 引擎所特有的
 
-这些方法提供了 JavaScript 调用 Java 的能力,扩展了 JS 的功能
+这些方法提供了 JavaScript 调用 Java 的能力，扩展了 JS 的功能
 
 ## 参考
 

@@ -17,7 +17,7 @@ sidebar_position: 4
 </a>
 
 ```text
-Adyeshach 是一款基于 TabooLib 进行开发的纯发包 NPC 插件，旨在大幅提升性能并提供更高级的功能和 API 。
+Adyeshach 是一款基于 TabooLib 进行开发的纯发包 NPC 插件，旨在大幅提升性能并提供更高级的功能和 API。
 ```
 
 ## 照片
@@ -36,15 +36,27 @@ Adyeshach 是一款基于 TabooLib 进行开发的纯发包 NPC 插件，旨在�
 
 `GitHub` https://github.com/TabooLib/Adyeshach
 
-`文档` https://a.ptms.ink/docs/start
+`文档` https://a.ptms.ink/category/adyeshach
 
 :::
 
 - 我不想花钱，我能用吗？
 
-可以，但是你需要自己编译插件。[点击此处](https://a.ptms.ink/docs/start/build)
+可以，但是你需要自己编译插件。[点击此处](https://a.ptms.ink/plugin/adyeshach/start/build)
 
 如果你想付费购买作者的服务 [点击此处](https://a.ptms.ink/docs/service)
+
+## 1.21
+
+:::info
+
+`GitHub` https://github.com/iiabc/adyeshach
+
+:::
+
+一个为 Adyeshach 做 1.21 + 支持的第三方分支
+
+你可以在 [GitHub Actions](https://github.com/iiabc/adyeshach/actions) 下载
 
 ## Bstats
 

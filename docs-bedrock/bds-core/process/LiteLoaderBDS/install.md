@@ -10,13 +10,13 @@ sidebar_position: 1
 LiteLoaderBDS 不会自动下载安装对应版本 BDS，你需要手动寻找和下载相应版本的旧版 BDS。
 
 除了一些第三方网站提供的存档以外，你可以通过这种方式下载到旧版 BDS：将 `https://minecraft.azureedge.net/bin-win/` 与 BDS 压缩包文件名拼接起来。
-例如要下载1.20.30.02，你就可以在浏览器中访问 `https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.30.02.zip`
+例如要下载 1.20.30.02，你就可以在浏览器中访问 `https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.30.02.zip`
 
 ## 下载 LiteLoaderBDS
 
 :::warning
 
-LiteLoaderBDS 仅适配了 BDS 的1.20.32 及以下版本。对于更高版本的 BDS 需要使用 [LeviLamina](../LeviLamina/LeviLamina.md) 加载器。
+LiteLoaderBDS 仅适配了 BDS 的 1.20.32 及以下版本。对于更高版本的 BDS 需要使用 [LeviLamina](../LeviLamina/LeviLamina.md) 加载器。
 对于 1.20.40 - 1.20.51 版本，你需要使用其他加载器。如果你只需要兼容 1.20.40 - 1.20.51 的客户端进服，你可以选用 BDS 1.20.32、最新版 LiteLoader 和 Glacie 插件的方案。
 
 :::

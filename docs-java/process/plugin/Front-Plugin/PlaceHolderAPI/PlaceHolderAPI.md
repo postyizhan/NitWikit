@@ -14,8 +14,8 @@ sidebar_position: 1
 
 ![](_images/PlaceHolderAPI/2.png)
 
-[![](_images/PlaceHolderAPI/3.png)](https://snowcutieowo.github.io/PlaceholderAPI)
-[![](_images/PlaceHolderAPI/4.png)](https://snowcutieowo.github.io/PlaceholderAPI/user-guides.placeholder-list.html)
+[![](_images/PlaceHolderAPI/3.png)](https://continue-project.netlify.app/PlaceholderAPI)
+[![](_images/PlaceHolderAPI/4.png)](https://continue-project.netlify.app/PlaceholderAPI/user-guides.placeholder-list.html)
 [![](_images/PlaceHolderAPI/5.png)](https://api.extendedclip.com/home)
 
 </div>
@@ -24,7 +24,7 @@ sidebar_position: 1
 
 PlaceholderAPI 是适用于 Spigot 及其衍生服务端的插件，它允许服务器管理者以固定的格式替换占位符 (俗称变量) 为各种插件的信息。
 
-也可以做到一些你以为它不能做的事，比如 Math(数学运算) Checkitem(操作玩家物品) JavaScript(执行js) Progress(制作进度条)。
+也可以做到一些你以为它不能做的事，比如 Math(数学运算) Checkitem(操作玩家物品) JavaScript(执行 js) Progress(制作进度条)。
 
 对于插件的变量支持，通常由插件自己提供，或者安装变量扩展来提供变量。变量扩展可以在游戏内通过 PAPI eCloud 下载安装。现有超过 230 个扩展可下载，可支持非常多的插件，比如 Essentials、Factions、LuckPerms、Vault 等。如果你是开发者，并且希望为你的插件添加 PlaceholderAPI 支持，请参阅 [API 使用文档](https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Hook-into-PlaceholderAPI)。
 
@@ -51,7 +51,7 @@ PlaceholderAPI 已破 170 万下载量，同时使用本插件的服务器数已
 
 如果你需要变量嵌套，把一个变量的解析结果套到另一个变量的参数中，使用 `{}` 来代替 `%%` 即可。
 
-示例如下，将 `%player_health%` 的结果添加到 `%math_2_%` 中 (需要安装 math 扩展)，实现血量保留2位小数显示。
+示例如下，将 `%player_health%` 的结果添加到 `%math_2_%` 中 (需要安装 math 扩展)，实现血量保留 2 位小数显示。
 
 `%math_2_{player_health}%`
 
@@ -66,15 +66,15 @@ PlaceholderAPI 已破 170 万下载量，同时使用本插件的服务器数已
 
 ```YAML
 # PlaceholderAPI
-# 版本: 2.11.4
-# 作者: extended_clip
-# 贡献者: https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
-# 问题反馈: https://github.com/PlaceholderAPI/PlaceholderAPI/issues
-# 变量扩展中心: https://api.extendedclip.com/all/
-# 文档: https://wiki.placeholderapi.com/
+# 版本：2.11.4
+# 作者：extended_clip
+# 贡献者：https://github.com/PlaceholderAPI/PlaceholderAPI/graphs/contributors
+# 问题反馈：https://github.com/PlaceholderAPI/PlaceholderAPI/issues
+# 变量扩展中心：https://api.extendedclip.com/all/
+# 文档：https://wiki.placeholderapi.com/
 # Discord: https://helpch.at/discord
 # 插件默认不提供任何变量.
-# 请用这个命令下载变量: /papi ecloud
+# 请用这个命令下载变量：/papi ecloud
 check_updates: true
 cloud_enabled: true
 cloud_sorting: "name"
@@ -221,7 +221,7 @@ eCloud 命令
 
 `文档(英文)` https://wiki.placeholderapi.com
 
-`文档(中文)` https://snowcutieowo.github.io/PlaceholderAPI
+`文档(中文)` https://continue-project.netlify.app/PlaceholderAPI
 
 `插件百科` https://mineplugin.org/PlaceHolderAPI
 

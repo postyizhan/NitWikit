@@ -11,7 +11,7 @@ sidebar_position: 6
 
 ## 权限
 
-实际上，你可以给予用户和组 *不存在的*(没有被其他插件使用)的权限节点
+实际上，你可以给予用户和组 *不存在的*(没有被其他插件使用) 的权限节点
 
 这些权限有着和其他权限一样的性质
 
@@ -25,7 +25,7 @@ sidebar_position: 6
 
 子图标的 material 改成 air 就可以做点击后消失了
 
-案例(TrMenu)：
+案例 (TrMenu)：
 
 ```yaml
   'A':
@@ -40,7 +40,7 @@ sidebar_position: 6
       - 'refresh: A'
 ```
 
-### 升级制vip
+### 升级制 vip
 
 <!--markdownlint-disable line-length-->
 
@@ -52,16 +52,16 @@ sidebar_position: 6
     icons:
       - condition: 'perm rank.vip+'
         display:
-          lore: '最顶级vip'
+          lore: '最顶级 vip'
       - condition: 'perm rank.vip'
         display:
-          lore: '你是普通玩家，点击花费20金币升级到vip+'
+          lore: '你是普通玩家，点击花费 20 金币升级到 vip+'
         actions:
           all:
             - 'command inline "lp user {{player name}} permission set rank.vip+ true" as console {condition=check papi %vault_eco_balance% >= 20}'
       - condition: 'perm rank.default'
         display:
-          lore: '你是普通玩家，点击花费10金币升级到vip'
+          lore: '你是普通玩家，点击花费 10 金币升级到 vip'
         actions:
           all:
             - 'command inline "lp user {{player name}} permission set rank.vip true" as console {condition=check papi %vault_eco_balance% >= 10}'
@@ -69,7 +69,7 @@ sidebar_position: 6
 
 <!--markdownlint-enable line-length-->
 
-用权限的好处是适用性广，不过对op不太方便，因为op所有权限都是true嘛
+用权限的好处是适用性广，不过对 op 不太方便，因为 op 所有权限都是 true 嘛
 
 ## 限时权限
 
@@ -85,7 +85,7 @@ sidebar_position: 6
 
 ### 按钮冷却
 
-案例(TrMenu)：
+案例 (TrMenu)：
 
 ![](_images/memory_4.png)
 
@@ -113,7 +113,7 @@ sidebar_position: 6
 
 :::
 
-### 限时vip
+### 限时 vip
 
 除了限时权限，还有限时权限组可以使用
 
@@ -125,7 +125,7 @@ sidebar_position: 6
 
 值得一提的是，如果命令中最后没有加 **accumulate** ，他会把权限时间重置到你给的数字而不是累加时间
 
-下表来自：[此处](https://snowcutieowo.github.io/LuckPerms/#/command-usage.permission?id=lp-usergroup-lt%e7%8e%a9%e5%ae%b6%e6%9d%83%e9%99%90%e7%bb%84gt-permission-settemp-lt%e6%9d%83%e9%99%90gt-lttruefalsegt-lt%e6%97%b6%e9%97%b4gt-%e6%96%bd%e5%8a%a0%e6%a8%a1%e5%bc%8f-%e4%b8%8a%e4%b8%8b%e6%96%87)
+下表来自：[此处](https://continue-project.netlify.app/LuckPerms/#/command-usage.permission?id=lp-usergroup-lt%e7%8e%a9%e5%ae%b6%e6%9d%83%e9%99%90%e7%bb%84gt-permission-settemp-lt%e6%9d%83%e9%99%90gt-lttruefalsegt-lt%e6%97%b6%e9%97%b4gt-%e6%96%bd%e5%8a%a0%e6%a8%a1%e5%bc%8f-%e4%b8%8a%e4%b8%8b%e6%96%87)
 
 | 模式关键词 | 描述                                         |
 | ---------- | -------------------------------------------- |
@@ -137,11 +137,11 @@ sidebar_position: 6
 
 ### 每日刷新
 
-原理：假如现在是13点，那么距离今天结束就是 24h - 13h = 11h
+原理：假如现在是 13 点，那么距离今天结束就是 24h - 13h = 11h
 
-我给玩家 11h 的限时权限，今日24点一过就是无权限状态，那些判断此权限的东西就变成每日刷新了
+我给玩家 11h 的限时权限，今日 24 点一过就是无权限状态，那些判断此权限的东西就变成每日刷新了
 
-实现(kether)：
+实现 (kether)：
 
 搓命令：
 
@@ -151,7 +151,7 @@ sidebar_position: 6
 inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 24 - time as HH}}h{{math 60 - time as mm}}m{{math 60 - time as ss}}s"
 ```
 
-tell搓出来的看看
+tell 搓出来的看看
 
 ![](_images/memory_6.png)
 
@@ -167,7 +167,7 @@ command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 
 - `%math_0_60-{server_time_mm}%` // 分
 - `%math_0_60-{server_time_ss}%` // 秒
 
-不过我不太喜欢这种做法，另一种： [案例 | 变量|每日刷新](../../../maintenance/lang/kether/variable.md#每日刷新)
+不过我不太喜欢这种做法，另一种： [案例 | 变量 | 每日刷新](../../../maintenance/lang/kether/variable.md#每日刷新)
 
 <!--markdownlint-enable line-length-->
 
@@ -193,7 +193,7 @@ command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 
 
 ![](_images/memory_10.png)
 
-此方法op不受影响，但适用性没权限广，因为一些插件只支持判断权限
+此方法 op 不受影响，但适用性没权限广，因为一些插件只支持判断权限
 
 :::warning
 
@@ -205,16 +205,16 @@ command inline "lp user {{sender}} permission settemp nitwikit.demo true {{math 
 
 :::
 
-但是使用lp的命令设置meta要写一大串不说，还会输出log
+但是使用 lp 的命令设置 meta 要写一大串不说，还会输出 log
 
 好在 [Vulpecula](https://github.com/Lanscarlos/Vulpecula) 的
-[memory](https://www.yuque.com/lanscarlos/vulpecula-wiki-v2/og93eqlegc0geyfi) 动作可以用来设置meta
+[memory](https://www.yuque.com/lanscarlos/vulpecula-wiki-v2/og93eqlegc0geyfi) 动作可以用来设置 meta
 
 ```text
 memory 键名 to 值 using lp
 ```
 
-存meta
+存 meta
 
 ![](_images/memory_11.png)
 
@@ -222,7 +222,7 @@ memory 键名 to 值 using lp
 memory 键名 using lp
 ```
 
-取meta
+取 meta
 
 ![](_images/memory_12.png)
 
@@ -230,13 +230,13 @@ memory 键名 using lp
 
 ### 案例
 
-上面权限能做的meta基本都能做
+上面权限能做的 meta 基本都能做
 
 ### 称号系统
 
 见 [案例 | Invero|称号系统](../../../plugin/other/Menu/Invero.md)
 
-## 限时meta
+## 限时 meta
 
 ```text
 /lp user postyizhan meta settemp 键 值 时间

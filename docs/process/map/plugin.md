@@ -23,7 +23,7 @@ Ouranos 是一个 Java 版的城市生成插件，可以用来无限的城市地
 
 Arnis 是一个通过 OpenStreetMap 将现实世界的城市转换到 Minecraft 中的软件，可以自己选择转换的坐标
 
-[下载地址](https://arnis.app/)，官方生成样例:
+[下载地址](https://arnis.app/)，官方生成样例：
 
 ![](_images/mc.gif)
 
@@ -37,7 +37,7 @@ Arnis 是一个通过 OpenStreetMap 将现实世界的城市转换到 Minecraft 
 
 ### DungeonMMO(付费)
 
-DungeonMMO 是一个 Java 版的地下城生成插件，自带一些模版， 每次运行后，每个地下城都将被更新，所以你将永远不会看到相同的地下城
+DungeonMMO 是一个 Java 版的地下城生成插件，自带一些模版，每次运行后，每个地下城都将被更新，所以你将永远不会看到相同的地下城
 
 [购买地址](https://www.spigotmc.org/resources/106150/)
 

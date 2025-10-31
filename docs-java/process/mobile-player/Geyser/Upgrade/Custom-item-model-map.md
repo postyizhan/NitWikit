@@ -5,11 +5,11 @@ sidebar_position: 5
 
 # 自定义物品模型映射
 
-Geyser提供了自定义物品映射功能，可以为CustomModelData物品注册基岩版行为，以实现自定义物品
+Geyser 提供了自定义物品映射功能，可以为 CustomModelData 物品注册基岩版行为，以实现自定义物品
 
-## Kas-tle的java2bedrock
+## Kas-tle 的 java2bedrock
 
-java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将JAVA版的资源包转化成基岩版资源包的工具
+java2bedrock.sh(俗称转换器) 是一个自动资源包转换工具，可以将 JAVA 版的资源包转化成基岩版资源包的工具
 
 :::tip
 
@@ -25,7 +25,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 :::tip
 
-转换器需要在linux系统上运行，如果你使用WINDOWS，你可以选择wsl或者虚拟机
+转换器需要在 linux 系统上运行，如果你使用 WINDOWS，你可以选择 wsl 或者虚拟机
 
 :::
 
@@ -35,24 +35,43 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 ./converter.sh 资源包名称.zip
 ```
 
-如果你需要更加复杂的转换，请查看项目的Github
+如果你需要更加复杂的转换，请查看项目的 Github
 
 ### 在线转换
 
 :::tip
 
-你需要拥有一个GitHUB账号才可以
+你需要拥有一个 GitHUB 账号才可以
 
 :::
 
 #### 操作步骤
 
-* 首先你需要新建一个Issue
+* 首先你需要新建一个 Issue
 * 在类型选择**Pack Conversion**
-* 在**Java Pack Direct Download URL** 填上你的资源包下载地址(不能是网盘，要求是直链)
+* 在**Java Pack Direct Download URL** 填上你的资源包下载地址 (不能是网盘，要求是直链)
 * 最后勾上最下面的用户协议，点击开始就可以
-* 转换好后，有个机器人会提醒你去Github Action下载，下载就来就是转换好的基岩版资源包
-* 将
+* 转换好后，有个机器人会提醒你去 Github Action 下载，下载就来就是转换好的基岩版资源包
+
+### 字体图像转换
+
+AZPixel-Team 的 Java2Bedrock
+
+:::tip
+
+注意！字体偏移是 Java 版独有的，基岩版没有这个功能，因此一些利用字体偏移做到的东西 (如 IA 菜单) 无法正常显示，但你可以通过万能的 jsonui 来实现，或者给大佬爆金币定制基岩 jsonui
+
+我非常建议使用这个来管理基岩版的字体资源包，否则你的字体图像管理是非常痛苦的
+
+:::
+
+### 如何使用
+
+与上面没有区别
+
+- 但是在填写资源包下载地址地方的下面，要把`Font Conversion`选项设置为 Ture
+
+[项目地址](https://github.com/AZPixel-Team/Java2Bedrock)
 
 ## 人工手写映射
 
@@ -60,13 +79,13 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 此教程需要你有一定的动手和理解基岩版资源包结构，你可以动脑去看[基岩版资源包模板](https://github.com/Mojang/bedrock-samples/releases)学习
 
-此教程假设你已能熟练使用ItemsAdder插件、并且正在边看[Geyser Wiki](https://wiki.geysermc.org/geyser/custom-items/)边看这文档学着做
+此教程假设你已能熟练使用 ItemsAdder 插件、并且正在边看[Geyser Wiki](https://wiki.geysermc.org/geyser/custom-items/)边看这文档学着做
 
 :::
 
 ### 物品映射
 
-这里我非常推荐使用[Geyser Wiki](https://wiki.geysermc.org/geyser/custom-items/)中的Json映射方式，方便编写和修改
+这里我非常推荐使用[Geyser Wiki](https://wiki.geysermc.org/geyser/custom-items/)中的 Json 映射方式，方便编写和修改
 
 #### 注册物品行为
 
@@ -74,7 +93,7 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 ![](./_image/CIMM1.jpg)
 
-我们来到 `服务端/plugins/geyser/custom_mappings` 目录，创建一个json文件用于Geyser映射自定义物品
+我们来到 `服务端/plugins/geyser/custom_mappings` 目录，创建一个 json 文件用于 Geyser 映射自定义物品
 
 ![](./_image/CIMM2.jpg)
 
@@ -90,27 +109,27 @@ java2bedrock.sh(俗称转换器)是一个自动资源包转换工具，可以将
 
 然后根据我们获得的物品信息，在 `test_item.json` 写入以下信息
 
-示例:
+示例：
 
 ```json
 {
   "format_version": "1",
   "items": {
-    //这里填物品的ID
+    //这里填物品的 ID
     "minecraft:paper": [
       {
         "name": "ITEM_LSXZ", //物品的名字可以随便填
         "allow_offhand": true, //是否允许将物品放在副手
-        "custom_model_data": 10534 //这里填CMD值
+        "custom_model_data": 10534 //这里填 CMD 值
       }
     ]
   }
 }
 ```
 
-json文件不允许有注释，如果你要复制过去记得删除注释
+json 文件不允许有注释，如果你要复制过去记得删除注释
 
-保存，然后我们的自定义物品Geyser已经注册好了，接下来是基岩版资源包方面的教程
+保存，然后我们的自定义物品 Geyser 已经注册好了，接下来是基岩版资源包方面的教程
 
 #### 制作资源包
 
@@ -137,18 +156,18 @@ json文件不允许有注释，如果你要复制过去记得删除注释
   "ITEM_LSXZ":
         {
    "textures": [
-    "textures/items/item/LSXZ" //填你纹理贴图的位置，不需要填png后缀
+    "textures/items/item/LSXZ" //填你纹理贴图的位置，不需要填 png 后缀
    ]
   }
     }
 }
 ```
 
-完事后打包资源包，把你的资源包丢给Geyser
+完事后打包资源包，把你的资源包丢给 Geyser
 
-现在重启服务器，你的自定义物品应该能在基岩版显示了!
+现在重启服务器，你的自定义物品应该能在基岩版显示了！
 
-#### 3D模型物品
+#### 3D 模型物品
 
 (施工中)
 
@@ -158,6 +177,6 @@ json文件不允许有注释，如果你要复制过去记得删除注释
 
 #### 自定义方块映射
 
-[Geyser自定义方块映射](https://wiki.geysermc.org/geyser/custom-blocks/)
+[Geyser 自定义方块映射](https://wiki.geysermc.org/geyser/custom-blocks/)
 
 (施工中)

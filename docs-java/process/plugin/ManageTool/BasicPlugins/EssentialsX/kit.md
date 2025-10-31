@@ -8,21 +8,21 @@ sidebar_position: 5
 ## 创建礼包
 
 ```text
-/kitcreate <kit名字> 冷却
+/kitcreate <kit 名字> 冷却
 ```
 
 ![](_images/kit_1.png)
 
 他会将你背包中所有物品保存到这个 kit 礼包中
 
-值得一提的是，如果冷却写 -1 ，那么这个礼包只能被领取一次
+值得一提的是，如果冷却写 -1，那么这个礼包只能被领取一次
 
 可用于制作新手礼包
 
 ## 获得礼包
 
 ```text
-/kit <kit名字>
+/kit <kit 名字>
 ```
 
 ![](_images/kit_2.png)
@@ -40,12 +40,12 @@ sidebar_position: 5
 ## 删除礼包
 
 ```text
-/deletekit <kit名字>
+/deletekit <kit 名字>
 ```
 
 ## 更多信息
 
-### 保存nbt
+### 保存 nbt
 
 [点击此处](ConfigTips.md#礼包工具包)
 
@@ -69,7 +69,7 @@ sidebar_position: 5
 [点击此处](PapiSupport.md)
 
 ```text
-%essentials_has_kit_<kitname>%                  - 是否有XX工具包
-%essentials_kit_is_available_<kitname>%         - 是否可以获得XX工具包
+%essentials_has_kit_<kitname>%                  - 是否有 XX 工具包
+%essentials_kit_is_available_<kitname>%         - 是否可以获得 XX 工具包
 %essentials_kit_time_until_available_<kitname>% - 礼包冷却时间
 ```

@@ -9,7 +9,7 @@ sidebar_position: 6
 
 ## inline
 
-inline是在一段文本中插入语句，实际上会创造一个新的 kether 环境
+inline 是在一段文本中插入语句，实际上会创造一个新的 kether 环境
 
 例如这个 TrMenu 例子中：
 
@@ -43,6 +43,6 @@ join 是拼接多个语句，不会像 inline 那样创造新的环境，所以�
 
 TabooLib Components 行内复合文本
 
-像 [MiniMessage](/docs-java/process/plugin/more/color-message.md#minimessage) 一样的东西？
+像 [MiniMessage](../../../plugin/more/color-message.md#minimessage) 一样的东西？
 
 Invero 最新版已经不支持 MiniMessage 而是使用行内复合文本了

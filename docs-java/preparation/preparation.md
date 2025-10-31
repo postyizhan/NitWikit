@@ -2,6 +2,7 @@
 title: 准备工作
 slug: /preparation
 sidebar_position: 3
+sidebar_label: Java 版准备工作
 ---
 
 # 准备工作

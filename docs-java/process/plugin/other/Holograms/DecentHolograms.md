@@ -46,7 +46,7 @@ sidebar_position: 2
 
 ## 支持
 
-我们（指插件维护方）在 Discord 非常活跃，因此获得支持的最佳方式是加入我们的 Discord 服务器。此外，可以在 GitHub 上或本插件的 Spigot 页面 的 “讨论” 页面上反馈问题
+我们（指插件维护方）在 Discord 非常活跃，因此获得支持的最佳方式是加入我们的 Discord 服务器。此外，可以在 GitHub 上或本插件的 Spigot 页面 的“讨论”页面上反馈问题
 
 注：国内无法访问 Discord，需要挂梯
 
@@ -60,8 +60,8 @@ sidebar_position: 2
 这些是 Minecraft 本身限制，插件本身没有办法解决
 但搬运者（我）有一点歪门邪道
 
-- AdvancedGUI “文本"固定，不再转向玩家
-- [资源包做字体（ia文档）](https://itemsadder.devs.beer/v/chinese/plugin-usage/adding-content/fonts) 使用资源包来改变字体
+- AdvancedGUI“文本"固定，不再转向玩家
+- [资源包做字体（ia 文档）](https://itemsadder.devs.beer/v/chinese/plugin-usage/adding-content/fonts) 使用资源包来改变字体
 
 ## 汉化
 
@@ -85,14 +85,14 @@ sidebar_position: 2
 
 `文档(英文)` https://wiki.decentholograms.eu
 
-`文档(中文)` https://snowcutieowo.github.io/DecentHolograms
+`文档(中文)` https://continue-project.netlify.app/DecentHolograms
 
 :::
 
 ## 贡献 ![](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)
 
 ​
-欢迎提交 pr ！但对于重大的更改，请先创建一个 issues 来讨论此更改
+欢迎提交 pr！但对于重大的更改，请先创建一个 issues 来讨论此更改
 
 ## 构建
 

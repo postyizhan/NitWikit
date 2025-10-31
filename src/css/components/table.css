@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+}
+
+th {
+  background-color: var(--primary-alpha-light);
+  font-weight: 600;
+  text-align: left;
+  padding: 0.875rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+td {
+  padding: 0.875rem 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+tr:hover td {
+  background-color: rgba(37, 160, 110, 0.02);
+}
+
+tr:first-child td {
+  border-top: none;
+}
+

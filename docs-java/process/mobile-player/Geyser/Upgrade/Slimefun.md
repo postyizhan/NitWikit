@@ -1,9 +1,9 @@
 ---
-title: 兼容Slimefun
+title: 兼容 Slimefun
 sidebar_position: 2
 ---
 
-# 兼容Slimefun
+# 兼容 Slimefun
 
 :::danger
 
@@ -25,6 +25,6 @@ sidebar_position: 2
 
 另一个扩展的 [Slimefun 资源包](https://dl.8aka.org/plugins/slimefun-extension.zip) 下载后全部拖入 Geyser 文件夹即可使用
 
-**重启**服务端即可!
+**重启**服务端即可！
 
 

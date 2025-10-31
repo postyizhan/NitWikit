@@ -41,13 +41,13 @@ online-mode=true
 
 :::danger
 
-**不要在服务器投入运营后去改正版验证状态!** 这会造成 UUID 混乱，玩家数据丢失，当然你可以转换 UUID 来解决这个问题 [查看解决方法](https://klpbbs.com/thread-131458-1-1.html)
+**不要在服务器投入运营后去改正版验证状态！** 这会造成 UUID 混乱，玩家数据丢失，当然你可以转换 UUID 来解决这个问题 [查看解决方法](https://klpbbs.com/thread-131458-1-1.html)
 
-如果需要更多的验证方式(如 **皮肤站**/**统一认证** 等)，请在服务器 **公测前** 确定，具体请参考[更多验证方式](/docs-java/advance/loginchoices.md)
+如果需要更多的验证方式 (如 **皮肤站**/**统一认证** 等)，请在服务器 **公测前** 确定，具体请参考[更多验证方式](../advance/loginchoices.md)
 
 :::
 
-注意，在离线模式下，玩家大概率没皮肤，你需要 [SkinsRestorer](/docs-java/process/plugin/other/SkinsRestorer.md)，根据需求选择 SkinsRestorer 的版本。
+注意，在离线模式下，玩家大概率没皮肤，你需要 [SkinsRestorer](../process/plugin/other/SkinsRestorer.md)，根据需求选择 SkinsRestorer 的版本。
 
 ### 最大玩家数
 
@@ -113,15 +113,15 @@ difficulty=hard
 spawn-protection=16
 ```
 
-出生点的保护范围，在保护范围中只有OP可以破坏或者放置
+出生点的保护范围，在保护范围中只有 OP 可以破坏或者放置
 
-设置为0可以禁用
+设置为 0 可以禁用
 
 :::warning
 
 强烈**建议禁用**这一配置，无论你是否需要出生点保护。
 
-这一配置的保护**并不能**防御苦力怕、TNT等造成的破坏。
+这一配置的保护**并不能**防御苦力怕、TNT 等造成的破坏。
 
 如有保护出生点的需求，可以考虑使用插件 [WorldGuard](../process/plugin/WorldManagement/WorldGuard.md)
 
@@ -166,7 +166,7 @@ generate-structures=true
 
 :::note
 
-即使设置为false，地牢仍会生成
+即使设置为 false，地牢仍会生成
 
 :::
 
@@ -176,7 +176,7 @@ generate-structures=true
 pvp=true
 ```
 
-设置为true，即可允许玩家互相攻击
+设置为 true，即可允许玩家互相攻击
 
 ### 允许飞行
 
@@ -212,24 +212,24 @@ allow-flight=true
 
 是否在聊天框中公告玩家进度的达成。
 
-开启: `/gamerule announceAdvancements true`
+开启：`/gamerule announceAdvancements true`
 
-关闭: `/gamerule announceAdvancements false`
+关闭：`/gamerule announceAdvancements false`
 
 ### 死亡不掉落
 
-设置为true时，死亡时玩家的背包物品和经验值会得到保留。
+设置为 true 时，死亡时玩家的背包物品和经验值会得到保留。
 
-设置为false时，重生后玩家的物品和部分经验值会掉落在死亡位置。
+设置为 false 时，重生后玩家的物品和部分经验值会掉落在死亡位置。
 
-开启: `/gamerule keepInventory true`
+开启：`/gamerule keepInventory true`
 
-关闭: `/gamerule keepInventory false`
+关闭：`/gamerule keepInventory false`
 
 ### 记录管理员使用过的命令
 
 是否在服务器日志中记录管理员使用过的命令。
 
-开启: `/gamerule logAdminCommands true`
+开启：`/gamerule logAdminCommands true`
 
-关闭: `/gamerule logAdminCommands false`
+关闭：`/gamerule logAdminCommands false`

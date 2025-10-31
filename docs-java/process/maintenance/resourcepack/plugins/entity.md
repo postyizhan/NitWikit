@@ -30,9 +30,9 @@ import TabItem from '@theme/TabItem';
 
 `SpigotMC` https://www.spigotmc.org/resources/.79477/
 
-`文档(英文)` https://github.com/Ticxo/Model-Engine-Wiki/wiki
+`文档 (英文)` https://github.com/Ticxo/Model-Engine-Wiki/wiki
 
-`文档(中文)` https://inrhor.gitbook.io/modelengine-wen-d
+`文档 (中文)` https://inrhor.gitbook.io/modelengine-wen-d
 
 :::
 
@@ -44,13 +44,13 @@ import TabItem from '@theme/TabItem';
 
 `MythicCraft` https://mythiccraft.io/index.php?resources/.1213/
 
-`文档(英文)` https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home
+`文档 (英文)` https://git.lumine.io/mythiccraft/model-engine-4/-/wikis/home
 
-`文档(中文)` https://gitlab.com/TranslatedByShark/ModelEngine-Manual-CN/-/wikis/home
+`文档 (中文)` https://gitlab.com/TranslatedByShark/ModelEngine-Manual-CN/-/wikis/home
 
 :::
 
-[ModelEngineDecoration](https://www.spigotmc.org/resources/106916/) 是 ModelEngine V4 的一个扩展,可以把生物实体变成装饰
+[ModelEngineDecoration](https://www.spigotmc.org/resources/106916/) 是 ModelEngine V4 的一个扩展，可以把生物实体变成装饰
 
 </TabItem>
 <TabItem value="bm" label="BetterModel">
@@ -69,7 +69,7 @@ import TabItem from '@theme/TabItem';
 
 :::
 
-免费的生物实体插件,相对于 ModelEngine 在网络上优化较好，支持的版本为 1.20.6 - 1.21
+免费的生物实体插件，相对于 ModelEngine 在网络上优化较好，支持的版本为 1.20.6 - 1.21
 
 </TabItem>
 
@@ -81,7 +81,7 @@ import TabItem from '@theme/TabItem';
 
 `GitHub` https://github.com/MagmaGuy/FreeMinecraftModels
 
-`文档(英文)` https://github.com/MagmaGuy/FreeMinecraftModels
+`文档 (英文)` https://github.com/MagmaGuy/FreeMinecraftModels
 
 :::
 

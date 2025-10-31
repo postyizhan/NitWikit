@@ -7,12 +7,18 @@ sidebar_position: 4
 
 你已经做好了准备工作，开始启动你的服务器了
 
+:::tip
+
+新版本的 Forge 和 Neoforge 使用安装器安装后会自动生成启动脚本。参阅 [新版 Forge 和 NeoForge 启动方法](#新版-forge-和-neoforge-启动)
+
+:::
+
 ## 笨蛋脚本
 
 下载此[脚本](https://script.8aka.org/generate-script)，回答几个问题就可以为你自动生成启动脚本!!
 
 <details>
-<summary>直接在终端里敲命令来启动?</summary>
+<summary>直接在终端里敲命令来启动？</summary>
 
 如果你第一次开服，或者你看不懂这个折叠里的内容，那就跳过，直接去看底下的编写启动脚本
 
@@ -24,7 +30,7 @@ sidebar_position: 4
 
 (估计有人不知道文件资源管理器是什么，所以放张图)
 
-有路径一样，你的 cmd 也是有路径的(红框中为此 cmd 所在的路径)
+有路径一样，你的 cmd 也是有路径的 (红框中为此 cmd 所在的路径)
 
 [cmd 是什么](https://cn.bing.com/search?q=cmd%E6%98%AF%E4%BB%80%E4%B9%88)
 
@@ -62,13 +68,13 @@ sidebar_position: 4
 
 用你前面下的文本编辑器编辑这个文件，写入以下信息并保存，然后双击 `start.bat`
 
-```shell
+```shell title="start.bat"
 java -Xms2G -Xmx2G -jar 核心名.jar --nogui
 ```
 
 ## 最初的开启
 
-双击启动脚本后，大概率会卡在你会看到 `Downloading mojang_x.x.x.jar`，请耐心等待
+双击启动脚本后，大概会卡在 `Downloading mojang_x.x.x.jar`，请耐心等待
 
 一旦下载完成，他会提示：
 
@@ -83,18 +89,83 @@ eula 就像是用户协议一样的东西，你想知道讲了啥，点 [这里]
 改好之后重新开启服务器，当出现以下字样说明服务器已经成功开启。
 
 ```text
-Done (6.554s)! For help， type "help"
+Done (6.554s)! For help, type "help"
 ```
 
 :::tip
 
-你可以点击目录中的配置服务器进入下一节内容了!
+你可以点击目录中的配置服务器进入下一节内容了！
 
 :::
 
 ## 更复杂的 bat
 
-请参考 [JVM 优化](../process/maintenance/optimize/jvm/jvm.md)
+### pause
+
+在脚本的最后加上 `pause`，让你可以看到 bat 的输出，避免黑窗口一闪而过的情况。
+
+```batch
+java -jar paper.jar
+pause
+```
+
+### 通配符
+
+使用通配符来匹配服务端核心，这样每次更新核心就不需要更改脚本内容或者重命名文件的名字了。
+
+```bash
+java -jar *.jar
+java -jar paper-*.jar
+java -jar leaf-*.jar
+```
+
+### 自动重启
+
+当服务器崩溃或关闭时，使用脚本实现自动重启：
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs queryString="system">
+<TabItem value="windows" label="Windows">
+
+```batch
+@echo off
+:start
+java -Xmx4G -Xms1G -jar server.jar nogui
+echo 服务器已关闭，5秒后重启...
+timeout /t 5
+goto start
+```
+
+</TabItem>
+<TabItem value="linux" label="Linux">
+
+```bash
+#!/bin/bash
+while true; do
+    java -Xmx4G -Xms1G -jar server.jar nogui
+    echo "服务器已关闭，5秒后重启..."
+    sleep 5
+done
+```
+
+</TabItem>
+</Tabs>
+
+### 模块化内容
+
+使用变量拆分脚本内容，不再堆在同一行，使得内容更清晰，也方便修改。
+
+```batch title="示例脚本"
+@echo off
+set JAVA_OPTS=-Xmx4G -Xms1G -XX:+UseG1GC
+set SERVER_JAR=paper-*.jar
+set ADDITIONAL_ARGS=nogui
+
+java %JAVA_OPTS% -jar %SERVER_JAR% %ADDITIONAL_ARGS%
+pause
+```
 
 ## 常见问题
 
@@ -107,6 +178,10 @@ Downloading mojang_x.x.x.jar
 ```
 
 请尝试使用科学上网。
+
+import GlobalContent from '@site/src/components/GlobalContent'
+
+<GlobalContent>
 
 ### 我不会在命令行界面 (CMD / 终端 / Powershell) 使用科学上网
 
@@ -122,7 +197,7 @@ Downloading mojang_x.x.x.jar
 
 请确定你的科学上网是可用的，不多赘述。
 
-在命令行界面(一般情况下，一个黑 / 蓝框框)中执行这两条
+在命令行界面 (一般情况下，一个黑 / 蓝框框) 中执行这两条
 
 ```shell
 set http_proxy=http://127.0.0.1:7890
@@ -142,9 +217,11 @@ export HTTPS_PROXY=http://127.0.0.1:7890
 
 > 大佬们，浏览器能用不是 cmd 能用，不然你猜我为什么写这个。
 
+</GlobalContent>
+
 ### 中文乱码
 
-如果你用的是Windows，你需要在启动脚本**最前面**加上`chcp 65001`
+如果你用的是 Windows，你需要在启动脚本**最前面**加上`chcp 65001`
 
 如上面的方法无效，检查你的系统区域设置是否为中国和中文语言包是否下载。
 
@@ -165,11 +242,11 @@ java -Xms2G -Xmx2G -jar server.jar --nogui
 
 有些时候写好启动脚本启动后，报错`Error: Unable to access jarfile xxx.jar`，但是相同目录下明明有`xxx.jar`
 
-像这样:
+像这样：
 
 ![](_images/4.png)
 
-启动后报错，此时我们可以查看文件后缀名([不懂如何打开请点这里](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80%E5%90%8D))
+启动后报错，此时我们可以查看文件后缀名 ([不懂如何打开请点这里](https://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80%E5%90%8D))
 
 然后你就会看到这样的惊奇一幕
 
@@ -179,14 +256,54 @@ java -Xms2G -Xmx2G -jar server.jar --nogui
 
 ### Invalid initial heap size: -Xms
 
-不是哥们，内存大小设置长这样
+:::note 
+
+内存大小设置长这样
 
 ```shell
 -Xms1024M -Xmx2048M
 ```
 
-不是这样!!!!!!
+不是这样！
 
 ```shell
 -Xms 1024M -Xmx 2048M
+```
+:::
+
+### 新版 Forge 和 NeoForge 启动
+
+使用安装器安装后，你无法在根目录找到 `xxx.jar`，同时会生成一个 bat 脚本。里面大概是这样的
+
+```shell
+@echo off
+REM Forge requires a configured set of both JVM and program arguments.
+REM Add custom JVM arguments to the user_jvm_args.txt
+REM Add custom program arguments {such as nogui} to this file in the next line before the %* or
+REM  pass them to this script directly
+java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-40.1.60/win_args.txt %*
+pause
+```
+
+这是因为新版的 Forge 和 NeoForge 将服务器 jar 包放在 libraries 文件夹里面，并通过自带的启动脚本进行启动。
+前面 `REM` 开头的是注释，大概就是说
+
+> Forge 需要一组配置好的 JVM 和程序参数。
+> 向 user_JVM_args.txt 添加自定义 JVM 参数
+> 在%*或之前的下一行将自定义程序参数（如 nogui）添加到此文件中
+> 直接将它们传递给此脚本
+
+此时你会发现有一个 `user_JVM_args.txt` 在你的根目录下，打开他，将原来的
+
+```shell
+java -Xms2G -Xmx2G -jar server.jar --nogui
+```
+中 `java` 和 `-jar` 之间的内容填写到该文件中。
+
+如果你想使用 `nogui`，就像注释里面说的，在 `@libraries/net/minecraftforge/forge/1.18.2-40.1.60/win_args.txt` 和 `%*` 之间写入 `nogui`
+
+就像这样
+
+```shell
+java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-40.1.60/win_args.txt nogui %*
 ```

@@ -1,19 +1,19 @@
 ---
 title: 手机玩家支持
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # 支持方式
 
 ## 手机运行 Java
 
-目前有两种主流方案: Pojav Launcher和Fold Craft Launcher,其中后者对于中国用户更加友好,推荐使用
+目前有两种主流方案：Pojav Launcher 和 Fold Craft Launcher，其中后者对于中国用户更加友好，推荐使用
 
 ## Geyser 转换
 
 使基岩版客户端进入 Java 版服务器的代理软件。
 
-[点此阅读](https://nitwikit.8aka.org/Java/Geyser) 关于 Geyser 的文档。
+[点此阅读](/Java/Geyser) 关于 Geyser 的文档。
 
 ## 基岩版客户端下载
 

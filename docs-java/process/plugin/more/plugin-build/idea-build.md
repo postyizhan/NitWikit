@@ -42,6 +42,6 @@ sidebar_position: 4
    - 刷新项目（右键项目 → Maven/Gradle → Reload Project）
    ![依赖](./_image/image-4.png)
 
-2. **找不到生成的jar**：
+2. **找不到生成的 jar**：
    - Maven: 检查 `target` 目录
    - Gradle: 检查 `build/libs` 目录

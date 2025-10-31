@@ -3,19 +3,19 @@ title: EndStone 插件安装教程
 sidebar_position: 1
 ---
 
-## 第一步、EndStone插件来源
+## 第一步、EndStone 插件来源
 
 目前插件来源：
 
-### [MineBBS论坛](https://www.minebbs.com/resources/categories/bdserver.38/)（发展国内基岩版社区的你敢说没有？）
+### [MineBBS 论坛](https://www.minebbs.com/resources/categories/bdserver.38/)（发展国内基岩版社区的你敢说没有？）
 
 ![201](./imgs/2-1.png)
 
-### [pip源](https://pypi.org/search/?q=endstone) （EndStone绝大多数插件都在这里发布了）
+### [pip 源](https://pypi.org/search/?q=endstone) （EndStone 绝大多数插件都在这里发布了）
 
 ![202](./imgs/2-2.png)
 
-### [Bedrinth下载站](https://bedrinth.com/?platform=endstone) （除了pip外另一个比较知名的下载源，网速较慢，不太推荐）
+### [Bedrinth 下载站](https://bedrinth.com/?platform=endstone) （除了 pip 外另一个比较知名的下载源，网速较慢，不太推荐）
 
 ![203](./imgs/2-3.png)
 
@@ -23,37 +23,37 @@ sidebar_position: 1
 
 ### 单文件安装
 
-如果你在 MineBBS 上下载，或者其他人给你的一个EndStone插件，请看这里
+如果你在 MineBBS 上下载，或者其他人给你的一个 EndStone 插件，请看这里
 
 :::tip
-EndStone的插件一般文件是以 .whl 或者 .dll 为后缀的文件，有的插件作者为了易于分发或者安装插件会将上述内容和配置文件一起弄成压缩文件
+EndStone 的插件一般文件是以 .whl 或者 .dll 为后缀的文件，有的插件作者为了易于分发或者安装插件会将上述内容和配置文件一起弄成压缩文件
 :::
 
 :::info
-附带：什么是whl文件：
+附带：什么是 whl 文件：
 
-whl格式本质上是一个压缩包，里面包含了py文件，以及经过编译的pyd文件。
+whl 格式本质上是一个压缩包，里面包含了 py 文件，以及经过编译的 pyd 文件。
 
-可以在不具备编译环境的情况下，选择合适自己的Python环境进行安装。
+可以在不具备编译环境的情况下，选择合适自己的 Python 环境进行安装。
 
-说白了，whl 就是Python的压缩包。
+说白了，whl 就是 Python 的压缩包。
 
-常玩 Java 版的话，你可以理解为它是 **Python版 的 .jar 文件**，只是运行环境由 *Java* 改为 *Python*（可以这么想吧）
+常玩 Java 版的话，你可以理解为它是 **Python 版 的 .jar 文件**，只是运行环境由 *Java* 改为 *Python*（可以这么想吧）
 :::
 
 ![204](./imgs/2-4.png)
 
 #### 第一步、下载插件
 
-在MineBBS以及其他论坛或者QQ群等渠道下载的文件，你可能会获得
+在 MineBBS 以及其他论坛或者 QQ 群等渠道下载的文件，你可能会获得
 
 - whl 文件
-- 或者 zip一类 压缩包
+- 或者 zip 一类 压缩包
 
 压缩包请使用常用压缩软件打开备用
 
 :::tip
-打开压缩包推荐使用BandiZIP、360压缩、7z或者WinRAR等专业压缩文件
+打开压缩包推荐使用 BandiZIP、360 压缩、7z 或者 WinRAR 等专业压缩文件
 :::
 
 #### 第二步、安装插件
@@ -62,13 +62,13 @@ whl格式本质上是一个压缩包，里面包含了py文件，以及经过编
 
 ##### 如果是 whl 文件
 
-1、打开 bedrock_server 文件夹，你会惊奇的发现：什么时候多了个plugins文件夹？！！
+1、打开 bedrock_server 文件夹，你会惊奇的发现：什么时候多了个 plugins 文件夹？！！
 
 ![205](./imgs/2-5.png)
 
 2、打开 plugins 文件夹，将下载的 whl 插件文件拽入该文件夹中
 
-3、启动！当CMD显示插件名称时说明插件已加载成功！
+3、启动！当 CMD 显示插件名称时说明插件已加载成功！
 
 ![206](./imgs/2-6.png)
 
@@ -105,12 +105,12 @@ whl格式本质上是一个压缩包，里面包含了py文件，以及经过编
 编辑他们很简单，打开相应插件的文件夹，然后使用 VSCode 或者 Nodepad-- 一类编辑器对插件进行配置
 
 :::danger
-请注意插件配置的文件格式，并按照他们的规则去写！，如果插件有wiki一类请先看他们的wiki再编辑！
+请注意插件配置的文件格式，并按照他们的规则去写！，如果插件有 wiki 一类请先看他们的 wiki 再编辑！
 :::
 
-### pip安装
+### pip 安装
 
-在上面给的 pip渠道 上找到心仪的插件后，使用下面指令完成下载：
+在上面给的 pip 渠道 上找到心仪的插件后，使用下面指令完成下载：
 
 ```cmd
 pip install 插件名

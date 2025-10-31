@@ -25,7 +25,7 @@ Minecraft 服务器卡顿的底层逻辑是什么？
 
 ![](https://spark.lucko.me/docs/assets/images/ticks-lagging-0bec1e4f565281af7a643f94222df521.png)
 
-**正常情况下**，每个 Tick 都小于 50ms ，为了保证 Minecraft 以 20 Tick 每秒的速度运行，服务器将选择等待下一个 Tick；
+**正常情况下**，每个 Tick 都小于 50ms，为了保证 Minecraft 以 20 Tick 每秒的速度运行，服务器将选择等待下一个 Tick；
 
 ![](https://spark.lucko.me/docs/assets/images/ticks-with-sleeping-3b944bf10f5a21b16d1454f2d7fee434.png)
 
@@ -41,12 +41,12 @@ Minecraft 服务器卡顿的底层逻辑是什么？
 
 ### TPS
 
-TPS(Ticks Per Second)(每秒 Tick 数) 正常应为 20 ，即服务器每秒钟进行 20 次更新，确保红石、生物 AI 等按照正常工作。
+TPS(Ticks Per Second)(每秒 Tick 数) 正常应为 20，即服务器每秒钟进行 20 次更新，确保红石、生物 AI 等按照正常工作。
 
 :::warning
 
 TPS 只是最基础的量化卡顿程度。并不是 TPS 高，玩家就感受不到卡顿，也不是 TPS 低就一定会感受到非常卡顿。
-这是因为，TPS 只是计算一个平均值，如果某一个 Tick 花费了 800 ms ，而剩下的 18 Tick 只花费了 200 ms，即使计算出的 TPS 为 19 但玩家会感受到的 800 ms 的滞后。下文提到的 MSPT 能够更加精准量化卡顿程度。
+这是因为，TPS 只是计算一个平均值，如果某一个 Tick 花费了 800 ms，而剩下的 18 Tick 只花费了 200 ms，即使计算出的 TPS 为 19 但玩家会感受到的 800 ms 的滞后。下文提到的 MSPT 能够更加精准量化卡顿程度。
 
 :::
 
@@ -54,7 +54,7 @@ TPS 只是最基础的量化卡顿程度。并不是 TPS 高，玩家就感受�
 
 MSPT(Milliseconds Per Tick)(就是每进行一次 Tick 所花费的毫秒数)
 
-如果 MSPT 数值较低，说明服务器可以迅速快速进行每次 Tick ，游戏运行更为流畅。
+如果 MSPT 数值较低，说明服务器可以迅速快速进行每次 Tick，游戏运行更为流畅。
 
 反之，如果 MSPT 过高，意味着每次 Tick 所需的时间变长，游戏的运行速度就会变慢，进而影响到整体的 TPS。
 
@@ -70,7 +70,7 @@ MSPT(Milliseconds Per Tick)(就是每进行一次 Tick 所花费的毫秒数)
 
 ## 网络延迟
 
-在 Minecraft 中，网络延迟(通常表示为 Ping)是玩家连接到服务器时数据传输所花费的时间。
+在 Minecraft 中，网络延迟 (通常表示为 Ping) 是玩家连接到服务器时数据传输所花费的时间。
 
 Ping 值的高低直接影响了玩家在游戏中的体验，特别是在需要快速反应和精确操作的场合。
 
@@ -100,6 +100,6 @@ Ping 的具体要求大概和服务器本身的性质有关系
 
 1. 在多人游戏列表中，当玩家在多人游戏列表中浏览服务器时，每个服务器旁边通常会显示一个 Ping 值。
 
-2. 进入服务器后，按下 TAB 即可查看每个人的 Ping 大概状态(根据信号格数)。
+2. 进入服务器后，按下 TAB 即可查看每个人的 Ping 大概状态 (根据信号格数)。
 
 3. 安装了 PlaceholderAPI 和 任意 TAB 类插件，将 `%player_ping%` 作为变量可在目标位置显示具体延迟。

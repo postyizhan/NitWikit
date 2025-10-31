@@ -10,7 +10,7 @@ slug: /optimize/jvm/common
 
 注意在 WINDOWS 上使用大页，必须要以管理员启动
 
-当然，在动手前，让我们先试一试是不是系统已经支持了这项功能 ，在控制台执行此命令
+当然，在动手前，让我们先试一试是不是系统已经支持了这项功能，在控制台执行此命令
 
 ```shell
 java -Xlog:gc+init -XX:+UseLargePages -Xmx1g -version
@@ -32,7 +32,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 但是如果你依然不支持或者想要追求极致性能，可以查看 [内核优化](../kernel.md)
 
-如果支持 LargePages ，加上此参数
+如果支持 LargePages，加上此参数
 
 ```shell
 -XX:+UseLargePages  -XX:LargePageSizeInBytes=2m
@@ -52,7 +52,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 ## SIMD
 
-如果你使用的是 Pufferfish 的分支(Purpur，Leaf，Leaves，Gale)，你可以添加此参数
+如果你使用的是 Pufferfish 的分支 (Purpur，Leaf，Leaves，Gale)，你可以添加此参数
 
 ```shell
 --add-modules=jdk.incubator.vector
@@ -68,12 +68,52 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -DLeaf.library-download-repo=https://maven.aliyun.com/repository/public
 ```
 
+如果你使用的是 Paper 1.21.6(及其分支) 之后的版本 ，可以使用以下系统属性配置 Maven 中心仓库镜像：
+
+```shell
+-Dorg.bukkit.plugin.java.LibraryLoader.centralURL=https://maven.aliyun.com/repository/central
+```
+
+或者设置环境变量（优先级更高）：
+
+```shell
+# Linux/MacOS
+export PAPER_DEFAULT_CENTRAL_REPOSITORY=https://maven.aliyun.com/repository/central
+
+# Windows (PowerShell)
+$env:PAPER_DEFAULT_CENTRAL_REPOSITORY="https://maven.aliyun.com/repository/central"
+
+# Windows (CMD)
+set PAPER_DEFAULT_CENTRAL_REPOSITORY=https://maven.aliyun.com/repository/central
+```
+
+如果不是上述核心，你可以使用 [Spigot Library Booster](../../../plugin/more/tittle-tattle.md#spigot-library-booster)
+
+### 其他国内镜像源
+
+- **阿里云 Maven 中心仓库**: `https://maven.aliyun.com/repository/central`
+- **阿里云公共仓库**: `https://maven.aliyun.com/repository/public`
+- **华为云 Maven 中心仓库**: `https://repo.huaweicloud.com/repository/maven/`
+- **腾讯云 Maven 中心仓库**: `https://mirrors.cloud.tencent.com/nexus/repository/maven-public/`
+
+:::tip 性能提示
+
+使用国内镜像源可以显著提升插件依赖库的下载速度，特别是在服务器首次启动或安装新插件时。
+
+:::
+
 ## 中文编码
 
 防止乱码
 
 ```shell
 -Dfile.encoding=UTF-8
+```
+
+如果仍然乱码,可以添加运行:
+
+```shell
+chcp 65001 # for Windows
 ```
 
 ## 删除垃圾信息
@@ -86,7 +126,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 
 ## 更快的安全随机数生成器
 
-(仅适合 Linux 和 MacOS 系统, 在 Windows 上无效)
+(仅适合 Linux 和 MacOS 系统，在 Windows 上无效)
 (原版 Minecraft 仅在个人信息公钥签名中使用到 SecureRandom)
 
 ```shell
@@ -101,7 +141,7 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
  -Xlog:async
 ```
 
-异步输出 Java 统一日志系统(Unified Logging)打印的 JVM 调试信息
+异步输出 Java 统一日志系统 (Unified Logging) 打印的 JVM 调试信息
 
 仅在使用 -Xlog:gc 等 flag 开启 JVM 调试信息打印的时候发挥作用
 
@@ -123,4 +163,4 @@ java -Xlog:gc+init -XX:+UseTransparentHugePages -Xmx1g -version
 -Dpaper.disableWorldSymlinkValidation=true 
 ```
 
-在加载世界时禁用文件夹遍历和符号链接验证.显著提高大型世界的加载速度
+在加载世界时禁用文件夹遍历和符号链接验证。显著提高大型世界的加载速度

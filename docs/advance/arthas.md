@@ -8,7 +8,7 @@ sidebar_position: 7
 
 # Arthas
 
-Arthas(中文名:阿尔萨斯) 是一个 Java 诊断工具，在 Minecraft 中可以用来分析报错或追踪调用
+Arthas(中文名：阿尔萨斯) 是一个 Java 诊断工具，在 Minecraft 中可以用来分析报错或追踪调用
 
 :::warning
 
@@ -32,7 +32,7 @@ Arthas 的 idea 插件，可以帮助你生成 Arthas 命令
 
 自行参考[官方文档 - 快速开始](https://arthas.aliyun.com/doc/quick-start.html)
 
-## 开始!
+## 开始！
 
 :::tip
 
@@ -46,7 +46,7 @@ Arthas 的 idea 插件，可以帮助你生成 Arthas 命令
 watch -x 2 net.minecraft.server.network.PlayerConnection * '{params[0],@java.lang.Thread@currentThread().getStackTrace()}' 'params.length==2 && (params[0].class.name == "net.minecraft.network.protocol.game.ClientboundPlayerChatPacket" || params[0].class.name == "net.minecraft.network.protocol.game.ClientboundSystemChatPacket")'
 ```
 
-解释:
+解释：
 
 * `-x 2` 表示遍历深度，可以调整来打印具体的参数和结果内容
 * `net.minecraft.server.network.PlayerConnection` 是 1.17+ 玩家连接的主类

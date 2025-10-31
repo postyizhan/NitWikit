@@ -7,7 +7,7 @@ sidebar_position: 2
 
 这一分类中的插件有单端版和跨服端版，你可以删除单端版使用跨服端版，在此页会对比此举的优缺点。
 
-在 “好处” 与 “坏处” 对比中，如果一方被 “*” 标记，表示我们认为此方要远大于另一方。
+在“好处”与“坏处”对比中，如果一方被“*”标记，表示我们认为此方要远大于另一方。
 
 ## MiniMOTD
 
@@ -54,7 +54,7 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-见 [插件 | ViaVersion](/docs-java/process/plugin/other/Via/Via.md)
+见 [插件 | ViaVersion](../../plugin/other/Via/Via.md)
 
 :::
 
@@ -122,7 +122,7 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-见 [插件 | ServerUtils](/docs-java/process/plugin/ManageTool/PluginManagement/ServerUtils.md)
+见 [插件 | ServerUtils](../../plugin/ManageTool/PluginManagement/ServerUtils.md)
 
 :::
 
@@ -188,7 +188,7 @@ TODO
 
 :::info
 
-见 [插件 | TAB](/docs-java/process/plugin/other/TAB&Scoreboard/TAB.md)
+见 [插件 | TAB](../../plugin/other/TAB&Scoreboard/TAB.md)
 
 :::
 
@@ -204,7 +204,7 @@ TODO
 
 支持制作文字动画，支持 RGB 颜色
 
-想让他显示 PlaceholderAPI 的变量?请在所有子服务器上安装 [Tab-Bridge](https://www.spigotmc.org/resources/.83966/)
+想让他显示 PlaceholderAPI 的变量？请在所有子服务器上安装 [Tab-Bridge](https://www.spigotmc.org/resources/.83966/)
 
 此外，如果你使用了 Layout 功能，如果你不安装此插件，会导致一些显示 Bug
 
@@ -230,7 +230,7 @@ TODO
 
 :::info
 
-[插件 | 皮肤 - skinsRestorer](/docs-java/process/plugin/other/SkinsRestorer.md)
+[插件 | 皮肤 - skinsRestorer](../../plugin/other/SkinsRestorer.md)
 
 :::
 

@@ -4,7 +4,7 @@ slug: /Plugins/OtherPlugin/Holograms
 sidebar_position: 1
 ---
 
-# 啥是全息图?
+# 啥是全息图？
 
 如图，图中的悬浮字，还有包括展示的实体和物品，都算全息图。
 

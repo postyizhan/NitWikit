@@ -17,7 +17,7 @@ sidebar_position: 3
 
 :::
 
-Via三件套中的向下兼容，需要安装 [ViaVersion](ViaVersion.md) 作为前置
+Via 三件套中的向下兼容，需要安装 [ViaVersion](ViaVersion.md) 作为前置
 
 [ViaBackwards 构建站](https://ci.viaversion.com/view/ViaBackwards/job/ViaBackwards/)
 
@@ -33,16 +33,16 @@ Via三件套中的向下兼容，需要安装 [ViaVersion](ViaVersion.md) 作为
 
 ### 低版本看不到高版本物品的材质，怎么办
 
-使用ViaBackwards-Plus，后文会讲
+使用 ViaBackwards-Plus，后文会讲
 
 ## 配置文件
 
-* 为 1.12 版玩家转换 1.13 版的皮肤数据包。 需要一些额外的缓存
+* 为 1.12 版玩家转换 1.13 版的皮肤数据包。需要一些额外的缓存
 
 打开 `fix-1_13-face-player`
 
 * 发送物品栏确认数据包，以替代 1.17 以下版本客户端的 ping 数据包
 
-这仅对短范围内的 id 有效。 这对反作弊的兼容性很有用。
+这仅对短范围内的 id 有效。这对反作弊的兼容性很有用。
 
 打开 `handle-pings-as-inv-acknowledgements`

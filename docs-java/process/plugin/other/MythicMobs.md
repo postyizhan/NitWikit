@@ -24,7 +24,7 @@ sidebar_label: 实体 - MythicMobs
 
 :::
 
-使用此插件来创造任何你想创造的实体，从普通野怪到炫酷技能的 Boss ，它全都可以做
+使用此插件来创造任何你想创造的实体，从普通野怪到炫酷技能的 Boss，它全都可以做
 
 闭源付费，有免费版 [免费版与付费版的区别](https://gitlab.com/TranslatedByShark/Mythic-Manual-CN/-/wikis/%E4%BB%98%E8%B4%B9%E7%89%88%E5%86%85%E5%AE%B9)
 

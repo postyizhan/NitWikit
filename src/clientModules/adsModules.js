@@ -1,98 +1,191 @@
-// src/clientModules/adModule.js
+// src/clientModules/adsModules.js
 import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
-async function injectExternLink() {
-    try {
-        // 1. 获取广告数据
-        const response = await fetch('https://ad-api.8aka.org/ads');
-        const links = await response.json();
+// Helper to add styles to the document head
+function addStyles(cssText) {
+    const styleElement = document.createElement('style');
+    styleElement.textContent = cssText;
+    document.head.appendChild(styleElement);
+}
 
-        // 2. 验证数据格式
-        if (!Array.isArray(links) || links.length === 0) return;
+// Injects text-based ads into the navbar
+function injectTextAds(ads) {
+    if (ads.length === 0) return;
 
-        // 3. 创建广告容器
-        const adContainer = document.createElement('div');
-        adContainer.className = 'extern-container';
+    // Create ad container
+    const adContainer = document.createElement('div');
+    adContainer.className = 'extern-container';
 
-        // 4. 创建广告元素
-        links.forEach(ad => {
-            const link = document.createElement('a');
-            link.href = ad.url;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-            link.textContent = ad.name;
-            link.className = 'extern-link';
-            adContainer.appendChild(link);
-        });
+    ads.forEach(ad => {
+        const link = document.createElement('a');
+        link.href = ad.url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        link.textContent = ad.name;
+        link.className = 'extern-item';
+        adContainer.appendChild(link);
+    });
 
-        // 5. 响应式插入逻辑
-        const updateAdPosition = () => {
-            // 移除旧广告位置
-            const existingAd = document.querySelector('.extern-container');
-            if (existingAd) existingAd.remove();
+    // Responsive insertion logic
+    const updateAdPosition = () => {
+        // Remove old ad position
+        const existingAd = document.querySelector('.extern-container');
+        if (existingAd) existingAd.remove();
 
-            // 桌面端插入位置（导航栏右侧）
-            if (window.innerWidth >= 996) {
-                const desktopTarget = document.querySelector('.navbar__items--right');
-                if (desktopTarget) {
-                    desktopTarget.prepend(adContainer);
+        if (window.innerWidth >= 996) { // Desktop
+            const desktopTarget = document.querySelector('.navbar__items--right');
+            if (desktopTarget) {
+                const firstChild = desktopTarget.firstChild;
+                if (firstChild) {
+                    desktopTarget.insertBefore(adContainer.cloneNode(true), firstChild);
+                } else {
+                    desktopTarget.prepend(adContainer.cloneNode(true));
                 }
             }
-            // 移动端插入位置（侧边栏底部）
-            else {
-                const mobileTarget = document.querySelector('.menu__list');
-                if (mobileTarget) {
-                    mobileTarget.appendChild(adContainer);
-                    // 添加移动端专用样式
-                    adContainer.classList.add('mobile-ad');
-                }
+        } else { // Mobile
+            const mobileTarget = document.querySelector('.menu__list');
+            if (mobileTarget) {
+                const mobileAdContainer = adContainer.cloneNode(true);
+                mobileAdContainer.classList.add('mobile-extern');
+                mobileTarget.appendChild(mobileAdContainer);
+            }
+        }
+    };
+
+    updateAdPosition();
+    window.addEventListener('resize', updateAdPosition);
+}
+
+// Injects image-based ads into the sidebar
+function injectImageAds(ads) {
+    if (ads.length === 0) return;
+
+    const target = document.querySelector('.col--3');
+    if (!target) return; // Exit if sidebar isn't there
+
+    // Remove existing ad container to prevent duplicates
+    const existingAd = document.getElementById('image-ad-container');
+    if (existingAd) existingAd.remove();
+
+    const adContainer = document.createElement('div');
+    adContainer.id = 'image-ad-container';
+
+    if (ads.length === 1) {
+        const ad = ads[0];
+        adContainer.innerHTML = `
+            <a href="${ad.url}" target="_blank" rel="noopener noreferrer">
+                <img src="${ad.img}" alt="${ad.alt_text || ad.name}" style="width: 100%; border-radius: 8px;">
+            </a>`;
+    } else {
+        adContainer.innerHTML = `
+            <div class="carousel-container">
+                ${ads.map((ad, index) => `
+                    <div class="carousel-slide ${index === 0 ? 'active' : ''}">
+                        <a href="${ad.url}" target="_blank" rel="noopener noreferrer">
+                            <img src="${ad.img}" alt="${ad.alt_text || ad.name}" style="width: 100%;">
+                        </a>
+                    </div>
+                `).join('')}
+            </div>
+            <button class="carousel-control prev">&lt;</button>
+            <button class="carousel-control next">&gt;</button>`;
+        
+        let currentSlide = 0;
+        const slides = adContainer.querySelectorAll('.carousel-slide');
+        const totalSlides = slides.length;
+
+        const showSlide = (index) => {
+            slides.forEach((s, i) => {
+                s.style.display = 'none';
+                s.style.opacity = '0';
+            });
+            const activeSlide = slides[index];
+            if (activeSlide) {
+                activeSlide.style.display = 'block';
+                // A tiny delay is needed for the opacity transition to trigger correctly after display change
+                setTimeout(() => {
+                    activeSlide.style.opacity = '1';
+                }, 10);
             }
         };
 
-        // 初始插入
-        updateAdPosition();
+        // Show the first slide initially
+        showSlide(currentSlide);
+        
+        adContainer.querySelector('.next').addEventListener('click', () => {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        });
 
-        // 监听窗口变化
-        window.addEventListener('resize', updateAdPosition);
-
-        // 6. 基础样式
-        const style = document.createElement('style');
-        style.textContent = `
-        .extern-container {
-          display: flex;
-          gap: 1rem;
-          align-items: center;
-        }
-        .extern-link {
-          color: var(--ifm-link-color);
-          padding: 0.5rem;
-          border-radius: 4px;
-          transition: opacity 0.2s;
-        }
-        .extern-link:hover {
-          opacity: 0.8;
-          text-decoration: none;
-        }
-        .mobile-ad {
-          flex-direction: column;
-          padding: 1rem;
-          border-top: 1px solid var(--ifm-color-emphasis-300);
-          margin-top: auto;
-        }
-      `;
-        document.head.appendChild(style);
-
-    } catch (error) {
-        console.error('Failed to load ads:', error);
+        adContainer.querySelector('.prev').addEventListener('click', () => {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide(currentSlide);
+        });
+    }
+    
+    // Add margin to the container itself
+    const rightSidebar = target.querySelector('div');
+    if (rightSidebar) {
+        rightSidebar.appendChild(adContainer);
     }
 }
 
-// 只在客户端执行
-if (ExecutionEnvironment.canUseDOM) {
-    injectExternLink()
+
+async function initializeAds() {
+    try {
+        const isChina = window.location.hostname.includes('.cn');
+        const apiUrl = isChina ? 'https://ad-api.8aka.cn/ads-v2.json' : 'https://ad-api.8aka.org/ads-v2.json';
+        
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        const ads = await response.json();
+
+        if (!Array.isArray(ads) || ads.length === 0) return;
+
+        const textAds = ads.filter(ad => !ad.img);
+        const imageAds = ads.filter(ad => ad.img);
+
+        injectTextAds(textAds);
+        injectImageAds(imageAds);
+
+    } catch (error) {
+        console.error('Failed to load or inject ads:', error);
+    }
 }
+
+// Main execution logic
+if (ExecutionEnvironment.canUseDOM) {
+    // Add all styles once
+    addStyles(`
+        /* Text Ad Styles */
+        .extern-container { display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; margin-right: 1rem; }
+        .mobile-extern { flex-direction: column; align-items: flex-start; padding: 1rem 0.5rem; border-top: 1px solid var(--ifm-color-emphasis-300); margin-top: 1rem; width: 100%; }
+        .mobile-extern .extern-item { margin: 0.25rem 0; font-size: 0.9rem; }
+        @media (max-width: 1100px) and (min-width: 996px) {
+          .extern-container { margin-right: 0.5rem; gap: 0.5rem; }
+          .extern-container .extern-item { font-size: 0.85rem; }
+        }
+
+        /* Image Ad & Carousel Styles */
+        #image-ad-container { position: relative; width: 88%; margin: 1rem auto; }
+        .carousel-container { position: relative; width: 100%; overflow: hidden; border-radius: 8px; min-height: 100px; /* Prevent collapse */ }
+        .carousel-slide { position: absolute; top: 0; left: 0; display: none; width: 100%; opacity: 0; transition: opacity 0.5s ease-in-out; }
+        .carousel-slide.active { display: block; position: relative; } /* .active is no longer used for display, but good to have */
+        .carousel-control { position: absolute; top: 50%; transform: translateY(-50%); background-color: rgba(0,0,0,0.5); color: white; border: none; padding: 5px 10px; cursor: pointer; z-index: 10; border-radius: 4px; }
+        .carousel-control.prev { left: 5px; }
+        .carousel-control.next { right: 5px; }
+    `);
+
+    // Docusaurus lifecycle
+    if (document.readyState === 'complete') {
+        initializeAds();
+    } else {
+        window.addEventListener('load', initializeAds);
+    }
+}
+
 export function onRouteDidUpdate() {
     if (ExecutionEnvironment.canUseDOM) {
-        injectExternLink();
+        initializeAds();
     }
 }

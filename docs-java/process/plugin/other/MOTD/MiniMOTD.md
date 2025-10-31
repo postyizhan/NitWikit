@@ -19,4 +19,4 @@ sidebar_position: 2
 
 :::
 
-一个支持广泛的MOTD插件
+一个支持广泛的 MOTD 插件

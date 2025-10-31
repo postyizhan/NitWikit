@@ -1,6 +1,9 @@
+const fixAlignItems = require('./postcss-plugins/fix-align-items');
+
 module.exports = {
-  plugins: {
-    tailwindcss: {},
-    autoprefixer: {},
-  },
+  plugins: [
+    require('@tailwindcss/postcss'),
+    fixAlignItems(),
+    require('autoprefixer'),
+  ],
 }; 

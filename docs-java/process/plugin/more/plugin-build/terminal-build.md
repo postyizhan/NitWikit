@@ -7,11 +7,11 @@ sidebar_position: 5
 
 ## 环境准备
 
-### 1. 安装JDK
+### 1. 安装 JDK
 1. **Windows**：
-   - 从[JDK选择](https://nitwikit.8aka.org/preparation/java/choose-and-download-and-install-java)选择并下载jdk
+   - 从[JDK 选择](/preparation/java/choose-and-download-and-install-java)选择并下载 jdk
    - 按照提示完成安装
-   - 配置[环境变量](https://nitwikit.8aka.org/preparation/java/environment)
+   - 配置[环境变量](/preparation/java/environment)
    - 验证安装：
      1. 按 `Win + R`，输入 `cmd` 打开终端
      2. 输入 `java -version`
@@ -26,9 +26,9 @@ sidebar_position: 5
    ```bash
    # Ubuntu/Debian系统
    sudo apt update                    # 更新软件源
-   sudo apt install openjdk-8-jdk     # 安装JDK 8
+   sudo apt install openjdk-8-jdk     # 安装 JDK 8
    
-   # CentOS系统
+   # CentOS 系统
    sudo yum install java-1.8.0-openjdk-devel
    
    # 验证安装
@@ -39,11 +39,11 @@ sidebar_position: 5
 
 1. **Maven**：
    - **Windows**：
-     1. 访问[Maven官网](https://maven.apache.org/download.cgi)下载最新版本
-     2. 下载 `apache-maven-x.x.x-bin.zip`（x.x.x是版本号）
+     1. 访问[Maven 官网](https://maven.apache.org/download.cgi)下载最新版本
+     2. 下载 `apache-maven-x.x.x-bin.zip`（x.x.x 是版本号）
      3. 解压到合适位置（建议：`C:\Program Files\Apache\maven`）
-     4. 配置[环境变量](https://nitwikit.8aka.org/preparation/java/environment)：
-        - 新建系统变量 `MAVEN_HOME`，值为Maven解压目录
+     4. 配置[环境变量](/preparation/java/environment)：
+        - 新建系统变量 `MAVEN_HOME`，值为 Maven 解压目录
         - 在 `Path` 变量末尾添加 `;%MAVEN_HOME%\bin`
      5. 验证安装：
         ```bash
@@ -55,20 +55,20 @@ sidebar_position: 5
      # Ubuntu/Debian系统
      sudo apt install maven
      
-     # CentOS系统
+     # CentOS 系统
      sudo yum install maven
      
      # 验证安装
      mvn -version
      ```
 
-2. **Gradle**（可选，如果项目使用Gradle）：
+2. **Gradle**（可选，如果项目使用 Gradle）：
    - **Windows**：
-     1. 访问[Gradle官网](https://gradle.org/releases/)下载最新版本
-     2. 下载 `gradle-x.x.x-bin.zip`（x.x.x是版本号）
+     1. 访问[Gradle 官网](https://gradle.org/releases/)下载最新版本
+     2. 下载 `gradle-x.x.x-bin.zip`（x.x.x 是版本号）
      3. 解压到合适位置（建议：`C:\Program Files\Gradle`）
      4. 配置环境变量：
-        - 新建系统变量 `GRADLE_HOME`，值为Gradle解压目录
+        - 新建系统变量 `GRADLE_HOME`，值为 Gradle 解压目录
         - 在 `Path` 变量末尾添加 `;%GRADLE_HOME%\bin`
      5. 验证安装：
         ```bash
@@ -77,16 +77,16 @@ sidebar_position: 5
    
    - **Linux**：
      ```bash
-     # 使用SDKMAN安装（推荐）
-     curl -s "https://get.sdkman.io" | bash     # 安装SDKMAN
-     source "$HOME/.sdkman/bin/sdkman-init.sh"  # 初始化SDKMAN
-     sdk install gradle                         # 安装Gradle
+     # 使用 SDKMAN 安装（推荐）
+     curl -s "https://get.sdkman.io" | bash     # 安装 SDKMAN
+     source "$HOME/.sdkman/bin/sdkman-init.sh"  # 初始化 SDKMAN
+     sdk install gradle                         # 安装 Gradle
      
      # 验证安装
      gradle -version
      ```
 
-## Maven构建步骤
+## Maven 构建步骤
 
 ### 1. 进入项目目录
 ```bash
@@ -136,12 +136,12 @@ explorer target
 # Linux/macOS
 ls -l target
 ```
-jar文件通常命名为：`项目名-版本号.jar`
+jar 文件通常命名为：`项目名-版本号.jar`
 
-## Gradle构建步骤
+## Gradle 构建步骤
 
-### 1. 使用Gradle Wrapper（推荐）
-Wrapper是项目专用的Gradle启动器，不需要本地安装Gradle。
+### 1. 使用 Gradle Wrapper（推荐）
+Wrapper 是项目专用的 Gradle 启动器，不需要本地安装 Gradle。
 
 ```bash
 # Windows系统
@@ -153,8 +153,8 @@ chmod +x ./gradlew              # 给予执行权限
 ./gradlew clean build          # 清理并构建
 ```
 
-### 2. 使用全局Gradle
-如果项目没有Wrapper或者你想使用本地安装的Gradle：
+### 2. 使用全局 Gradle
+如果项目没有 Wrapper 或者你想使用本地安装的 Gradle：
 ```bash
 gradle clean build
 ```
@@ -180,29 +180,29 @@ ls -l build/libs
 
 2. **手动下载依赖**：
    ```bash
-   # Maven项目
-   mvn dependency:get -DgroupId=组ID -DartifactId=项目ID -Dversion=版本号
-   # 示例：下载Paper API
+   # Maven 项目
+   mvn dependency:get -DgroupId=组 ID -DartifactId=项目 ID -Dversion=版本号
+   # 示例：下载 Paper API
    mvn dependency:get -DgroupId=io.papermc.paper -DartifactId=paper-api -Dversion=1.19.4-R0.1-SNAPSHOT
 
-   # Gradle项目
+   # Gradle 项目
    gradle --refresh-dependencies
    ```
 
 ### 2. 内存不足
 如果看到 `OutOfMemoryError` 错误：
 
-1. **Maven项目**：
+1. **Maven 项目**：
    ```bash
-   # Windows（在cmd中运行）
+   # Windows（在 cmd 中运行）
    set MAVEN_OPTS=-Xmx512m
-   # 如果512m不够，可以设置更大，如-Xmx1024m
+   # 如果 512m 不够，可以设置更大，如-Xmx1024m
 
    # Linux/macOS
    export MAVEN_OPTS="-Xmx512m"
    ```
 
-2. **Gradle项目**：
+2. **Gradle 项目**：
    ```bash
    # Windows
    set GRADLE_OPTS=-Xmx512m
@@ -214,13 +214,13 @@ ls -l build/libs
 ### 3. 编码问题
 如果看到 `编码GBK的不可映射字符` 等错误：
 
-1. **Maven项目**：
+1. **Maven 项目**：
    ```bash
    # 在运行时指定编码
    mvn -Dfile.encoding=UTF-8 clean package
    ```
 
-2. **Gradle项目**：
+2. **Gradle 项目**：
    在 `build.gradle` 中添加：
    ```groovy
    tasks.withType(JavaCompile) {
@@ -229,20 +229,20 @@ ls -l build/libs
    ```
 
 ### 4. 其他常见错误
-1. **找不到JAVA_HOME**：
+1. **找不到 JAVA_HOME**：
    - 检查环境变量是否正确设置
    - 重新打开终端让环境变量生效
 
-2. **找不到mvn/gradle命令**：
+2. **找不到 mvn/gradle 命令**：
    - 检查环境变量是否正确设置
    - 确认安装路径是否正确
    - 尝试重新安装构建工具
 
 3. **构建失败但没有明显错误**：
    ```bash
-   # Maven项目，使用debug模式构建
+   # Maven 项目，使用 debug 模式构建
    mvn clean package -X
    
-   # Gradle项目，使用debug模式构建
+   # Gradle 项目，使用 debug 模式构建
    gradle clean build --debug
    

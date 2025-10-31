@@ -2,6 +2,7 @@
 title: 插件
 slug: /cross-server/plugin
 sidebar_position: 4
+sidebar_label: 跨服插件
 ---
 
 # 插件

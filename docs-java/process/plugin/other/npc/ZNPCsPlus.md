@@ -15,4 +15,4 @@ sidebar_position: 5
 
 :::
 
-比Citizens简单的NPC插件，ZNPCs的加强版本。
+比 Citizens 简单的 NPC 插件，ZNPCs 的加强版本。

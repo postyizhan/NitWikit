@@ -25,7 +25,7 @@ import TabItem from '@theme/TabItem';
 
 包括所有 Java 服务端
 
-在`server.properties`中打开`white-list`
+在 `server.properties` 中打开 `white-list`
 
 ```properties
 white-list=true
@@ -36,7 +36,7 @@ white-list=true
 
 包括 LeviLamina 和 EndStone 服务器
 
-在`server.properties`中打开`allow-list`
+在 `server.properties` 中打开 `allow-list`
 
 ```properties
 allow-list=true
@@ -47,7 +47,7 @@ allow-list=true
 
 包括 NukkitX，PowerNukkitX，NukkitX-MOT，PM1E
 
-在`server.properties`中打开`allow-list`
+在 `server.properties` 中打开 `allow-list`
 
 ```properties
 allow-list=on
@@ -66,8 +66,8 @@ allow-list=on
 * `/whitelist off` — 在此服务器上禁用白名单验证。
 * `/whitelist on` — 在此服务器上启用白名单验证。
 * `/whitelist reload` —
-  从硬盘中重新读取`white-list.txt`（1.7.5及以前）或`whitelist.json`（1.7.6及以后）中的白名单列表（当`white-list.txt`或w
-  `whitelist.json`在Minecraft外被修改时使用）。
+  从硬盘中重新读取 `white-list.txt`（1.7.5 及以前）或 `whitelist.json`（1.7.6 及以后）中的白名单列表（当 `white-list.txt` 或 w
+  `whitelist.json` 在 Minecraft 外被修改时使用）。
 * `/whitelist remove` — 将玩家名从白名单中移除。该玩家不需要在线。
 
 </TabItem>
@@ -78,7 +78,7 @@ allow-list=on
 * `/allowlist off` — 在此服务器上禁用白名单验证。
 * `/allowlist on` — 在此服务器上启用白名单验证。
 * `/allowlist reload` —
-  从硬盘中`allowlist.json`中的白名单列表（当`allowlist.json`在Minecraft外被修改时使用）。
+  从硬盘中 `allowlist.json` 中的白名单列表（当 `allowlist.json` 在 Minecraft 外被修改时使用）。
 * `/allowlist remove` — 将玩家名从白名单中移除。该玩家不需要在线。
 
 </TabItem>
@@ -100,4 +100,4 @@ allow-list=on
 
 :::
 
-带有许多功能的白名单插件，支持Q群白名单，Geyser，跨服白名单等
+带有许多功能的白名单插件，支持 Q 群白名单，Geyser，跨服白名单等

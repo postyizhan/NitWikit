@@ -1,10 +1,10 @@
 ---
-title: 进阶
+title: Geyser进阶
 slug: /geyser/upgrade
 sidebar_position: 2
 ---
 
-# 进阶
+# Geyser进阶
 
 import DocCardList from '@theme/DocCardList';
 

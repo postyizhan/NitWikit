@@ -25,13 +25,13 @@ server-port=25565
 
 :::
 
-本机 IP ，通常有这样几种形式：
+本机 IP，通常有这样几种形式：
 
 - localhost
 - 127.0.0.1
 - 0.0.0.0
 
-如果你没有修改你的服务器端口，那么在你的 Minecraft 客户端中:
+如果你没有修改你的服务器端口，那么在你的 Minecraft 客户端中：
 
 1. 点击多人游戏
 2. 点击添加服务器
@@ -41,7 +41,7 @@ server-port=25565
 
 如果你修改了你的服务器端口，在回环地址后面加个冒号加上你改的端口即可
 
-假设你的服务器端口是 12345，你应该将上方所说的 本机IP 替换为:
+假设你的服务器端口是 12345，你应该将上方所说的 本机 IP 替换为：
 
 - localhost:12345
 - 127.0.0.1:12345
@@ -76,7 +76,7 @@ server-port=25565
 
 ### 我没公网
 
-查看 [内网穿透](https://nitwikit.8aka.org/process/deploy/intranet-penetration) 部分，按照上面的教程把你的端口映射出去
+查看 [内网穿透](/process/deploy/intranet-penetration) 部分，按照上面的教程把你的端口映射出去
 
 ## 常见错误
 
@@ -91,24 +91,24 @@ server-port=25565
   - 在 Windows 下，CMD 执行`ipconfig /flushdns`
   - 在 Linux 下，终端执行 `sudo systemd-resolve --flush-caches`
 
-3.你的域名可能被DNS污染,你可以检查实际解析出来的IP和设置的是否一致,不一致就是被污染了,临时解决方案是更改 DNS
-服务器,长远来看最好打开 DNSSEC
+3.你的域名可能被 DNS 污染，你可以检查实际解析出来的 IP 和设置的是否一致，不一致就是被污染了，临时解决方案是更改 DNS
+服务器，长远来看最好打开 DNSSEC
 
 ### `数据流终止`
 
-这个报错已经不多见,通常来说是运营商干的,比如早期网通和电信,海外流量过境有时会被 GFW 阻断也可能产生此错误
+这个报错已经不多见，通常来说是运营商干的，比如早期网通和电信，海外流量过境有时会被 GFW 阻断也可能产生此错误
 
 ### `Connection timed out / 连接超时`
 
 1.检查你有没有打错域名
 
-2.检查网络状况(可以试试 ping 服务器,超时就是网的问题)
+2.检查网络状况 (可以试试 ping 服务器，超时就是网的问题)
 
 3.如果使用 FRP ,检查 frp 的配置文件是否正确
 
 ### `Invalid characters in username/ 用户名包含无效字符`
 
-用户使用了非 Minecraft 原版允许的用户名进入服务器,可以安装 CnUsername 来解决
+用户使用了非 Minecraft 原版允许的用户名进入服务器，可以安装 CnUsername 来解决
 
 ### `Flying is not enabled on this server/ 此服务器未启用飞行`
 
@@ -116,7 +116,7 @@ server-port=25565
 
 ### `You are sending too many packets!/ 由于超出数据包速率限制而被踢出游戏`
 
-一般是开连点器导致的,你可以将在`paper-global.yml`中`packet-limiter`中的`max-packet-rate`调大
+一般是开连点器导致的，你可以将在`paper-global.yml`中`packet-limiter`中的`max-packet-rate`调大
 
 如果使用了 ViaVersion ,也需要调大配置文件中的`max-pps`和`tracking-warning-pps`值
 
@@ -130,13 +130,13 @@ server-port=25565
 
 ### `无效会话`
 
-没有使用正版登录进入正版服务器,也可以通过将 `online-mode` 改为` false` 解决
+没有使用正版登录进入正版服务器，也可以通过将 `online-mode` 改为` false` 解决
 
 ### `身份验证服务器目前处于宕机状态。请稍后再试，抱歉`
 
 确认 Mojang 或微软账户服务器状态（可通过 [Mojang Status](https://status.mojang.com/) 查询）
 
-如果不是 Mojang 的验证服务器维护了,也可能是你的网络太差,连接不到验证服务器,可以安装 [AlwaysOnline](https://modrinth.com/plugin/alwaysonlineplugin) 插件来解决
+如果不是 Mojang 的验证服务器维护了，也可能是你的网络太差，连接不到验证服务器，可以安装 [AlwaysOnline](https://modrinth.com/plugin/alwaysonlineplugin) 插件来解决
 
 ### `Outdated server! / 服务器版本过时`
 
@@ -168,4 +168,4 @@ server-port=25565
 ### `You are already connected to this server!`
 
 1. 有同名的人在服务器上
-2. 网络太差,服务器认为你还在服务器上
+2. 网络太差，服务器认为你还在服务器上

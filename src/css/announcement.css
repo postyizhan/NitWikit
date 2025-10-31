@@ -1,0 +1,20 @@
+/**
+ * announcement.css - 极简公告横幅样式
+ */
+
+/* 公告横幅基础样式 */
+div[class*="announcementBar"] {
+  background: #25a06e !important;
+  color: white !important;
+}
+
+/* 超链接样式 */
+div[class*="announcementBar"] a {
+  color: white !important;
+  text-decoration: underline !important;
+}
+
+div[class*="announcementBar"] a:hover {
+  color: #e0e0e0 !important;
+  text-decoration: underline !important;
+}

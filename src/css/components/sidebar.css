@@ -1,0 +1,64 @@
+.theme-doc-sidebar-container {
+  border: none !important;
+  border-right: 1px solid var(--border) !important;
+  background-color: var(--bg-card);
+  transition: background-color var(--transition-base);
+  margin-right: 1rem;
+  display: block;
+  min-width: 0;
+  flex-shrink: 0;
+}
+
+.menu {
+  padding: 1.25rem 0.75rem 2rem 0.75rem;
+  background-color: transparent;
+}
+
+.menu__link {
+  border-radius: var(--radius-md);
+  font-size: 0.9375rem;
+  padding: 0.5rem 0.75rem;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-menu-color-background-hover);
+  color: var(--primary);
+  transform: translateX(6px);
+}
+
+.menu__link--active {
+  font-weight: 500;
+  background-color: var(--ifm-menu-color-background-active);
+  color: var(--primary);
+}
+
+.menu__list-item-collapsible {
+  border-radius: var(--radius-md);
+  font-weight: 500;
+}
+
+.menu__list-item-collapsible:hover {
+  background-color: var(--ifm-menu-color-background-hover);
+}
+
+.menu__list-item-collapsible--active {
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+.menu__list .menu__list {
+  margin-top: 0.15rem;
+  margin-bottom: 0.25rem;
+  border-left: 1px solid var(--border);
+  margin-left: 0.75rem;
+  padding-left: 0.5rem;
+}
+
+@media (max-width: 996px) {
+  .menu__link:hover {
+    transform: translateX(4px);
+  }
+}
+

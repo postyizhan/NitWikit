@@ -7,9 +7,9 @@ sidebar_position: 2
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.119751/
+`SpigotMC` https://www.spigotmc.org/resources/.119751
 
-`MineBBS` https://www.minebbs.com/resources/.7252/
+`MineBBS` https://www.minebbs.com/resources/.7252
 
 `GitHub` https://github.com/Saukiya/SX-Item
 

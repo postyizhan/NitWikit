@@ -46,7 +46,7 @@ sidebar_position: 6
 ```c
 数据包名
 ├─pack.mcmeta // 用于识别数据包及存储数据包信息。
-├─pack.png // 数据包的图片(可选)。
+├─pack.png // 数据包的图片 (可选)。
 ├─data
 │  ├─advancements
 │  │  └─特定进度名.json
@@ -74,54 +74,54 @@ sidebar_position: 6
 │  ├─recipes
 │  │  └─特定合成配方.json
 │  │     ├─type // 合成配方类型，如 crafting_shaped、crafting_shapeless 等
-│  │     ├─group // 合成组名(可选)
+│  │     ├─group // 合成组名 (可选)
 │  │     ├─ingredients // 合成所需的材料列表
 │  │     │  └─特定材料.json
 │  │     │     ├─item // 物品名称
-│  │     │     └─count // 物品数量(可选)
+│  │     │     └─count // 物品数量 (可选)
 │  │     └─result // 合成结果
 │  │        ├─item // 合成后的物品名称
-│  │        └─count // 合成后的物品数量(可选)
+│  │        └─count // 合成后的物品数量 (可选)
 │  ├─tags
 │  │  ├─blocks
 │  │  │  └─特定方块标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 方块名称列表
 │  │  ├─fluids
 │  │  │  └─特定流体标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 流体名称列表
 │  │  ├─items
 │  │  │  └─特定物品标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 物品名称列表
 │  │  ├─entity_types
 │  │  │  └─特定实体类型标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 实体类型名称列表
 │  │  ├─functions
 │  │  │  └─特定函数标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 函数名称列表
 │  │  ├─predicates
 │  │  │  └─特定谓词标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 谓词名称列表
 │  │  ├─damage_types
 │  │  │  └─特定伤害类型标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 伤害类型名称列表
 │  │  ├─enchantments
 │  │  │  └─特定附魔标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 附魔名称列表
 │  │  ├─game_events
 │  │  │  └─特定游戏事件标签.json
-│  │  │     ├─replace // 是否替换已有标签(可选)
+│  │  │     ├─replace // 是否替换已有标签 (可选)
 │  │  │     └─values // 游戏事件名称列表
 │  │  └─其他可能的标签类型
 │  │     └─特定标签.json
-│  │        ├─replace // 是否替换已有标签(可选)
+│  │        ├─replace // 是否替换已有标签 (可选)
 │  │        └─values // 对应名称列表
 │  ├─functions
 │  │  └─特定函数文件.mcfunction

@@ -1,7 +1,7 @@
 ---
 title: 世界生成器
 slug: /worldgen
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 # 世界生成器插件

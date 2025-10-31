@@ -2,6 +2,7 @@
 title: 开始阶段
 slug: /start
 sidebar_position: 3
+sidebar_label: Java 版开始阶段
 ---
 
 # 开始阶段

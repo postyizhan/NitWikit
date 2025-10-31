@@ -6,7 +6,7 @@ sidebar_position: 2
 # 概述
 
 ## 什么是构建？
-构建就是将源代码转换成可以运行的插件（jar文件）的过程。就像把散落的零件组装成一个完整的机器一样。
+构建就是将源代码转换成可以运行的插件（jar 文件）的过程。就像把散落的零件组装成一个完整的机器一样。
 
 ## 选择合适的构建方式
 根据你的情况，可以选择以下三种方式之一：
@@ -63,13 +63,13 @@ sidebar_position: 2
 
 ### 项目结构说明
 
-#### Maven项目结构
+#### Maven 项目结构
 
 ```text
 项目根目录
 ├── src/                                       # 源代码目录
 │   ├── main/                                  # 主要代码目录
-│   │   ├── java/                              # Java源代码
+│   │   ├── java/                              # Java 源代码
 │   │   │   └── com/
 │   │   │       └── example/
 │   │   │           └── plugin/
@@ -85,17 +85,17 @@ sidebar_position: 2
 │       ├── java/                              # 测试源代码
 │       └── resources/                         # 测试资源
 ├── target/                                    # 构建输出目录
-├── pom.xml                                    # Maven项目配置文件
+├── pom.xml                                    # Maven 项目配置文件
 └── README.md                                  # 项目说明文件
 ```
 
-#### Gradle项目结构
+#### Gradle 项目结构
 
 ```text
 项目根目录
 ├── src/                                       # 源代码目录
 │   ├── main/                                  # 主要代码目录
-│   │   ├── java/                              # Java源代码
+│   │   ├── java/                              # Java 源代码
 │   │   │   └── com/
 │   │   │       └── example/
 │   │   │           └── plugin/
@@ -103,23 +103,23 @@ sidebar_position: 2
 │   │   │               ├── commands/          # 命令类
 │   │   │               ├── listeners/         # 监听器类
 │   │   │               └── utils/             # 工具类
-│   │   ├── kotlin/                            # Kotlin源代码（如果使用）
+│   │   ├── kotlin/                            # Kotlin 源代码（如果使用）
 │   │   └── resources/                         # 资源文件目录
 │   │       ├── plugin.yml                     # 插件配置文件
 │   │       ├── config.yml                     # 插件默认配置
 │   │       └── messages/                      # 语言文件
 │   └── test/                                  # 测试代码目录
 │       ├── java/                              # 测试源代码
-│       ├── kotlin/                            # Kotlin测试代码
+│       ├── kotlin/                            # Kotlin 测试代码
 │       └── resources/                         # 测试资源
 ├── build/                                     # 构建输出目录
-│   └── libs/                                  # 构建产物（jar文件）
-├── gradle/                                    # Gradle包装器目录
+│   └── libs/                                  # 构建产物（jar 文件）
+├── gradle/                                    # Gradle 包装器目录
 │   └── wrapper/
-├── build.gradle                               # Gradle构建脚本
-├── settings.gradle                            # Gradle设置文件
-├── gradlew                                    # Gradle包装器脚本(Unix)
-├── gradlew.bat                                # Gradle包装器脚本(Windows)
+├── build.gradle                               # Gradle 构建脚本
+├── settings.gradle                            # Gradle 设置文件
+├── gradlew                                    # Gradle 包装器脚本 (Unix)
+├── gradlew.bat                                # Gradle 包装器脚本 (Windows)
 └── README.md                                  # 项目说明文件
 ```
 
@@ -131,7 +131,7 @@ sidebar_position: 2
   name: MyPlugin            # 插件名称
   version: 1.0.0           # 插件版本
   main: com.example.plugin.Main  # 主类路径
-  api-version: '1.19'      # API版本
+  api-version: '1.19'      # API 版本
   commands:                # 命令配置
     mycmd:
       description: 示例命令

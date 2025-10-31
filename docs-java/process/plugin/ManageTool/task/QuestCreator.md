@@ -1,6 +1,6 @@
 ---
 title: QuestCreator
-sidebar_position: 5
+sidebar_position: 7
 ---
 
 # QuestCreator
@@ -11,6 +11,6 @@ sidebar_position: 5
 
 `插件百科` https://mineplugin.org/QuestCreator
 
-`文档` http://www.guillaumevdn.com/plugins/doc/#/
+`文档` http://www.guillaumevdn.com/plugins/doc/#
 
 :::

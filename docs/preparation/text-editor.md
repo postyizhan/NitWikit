@@ -37,13 +37,13 @@ sidebar_position: 2
 
 ![](_images/白点.png)
 
-VSCode 会在未保存的文件后标记一个白点，提示你这个文件编辑了但是没有保存(其他文本编辑器类似)。
+VSCode 会在未保存的文件后标记一个白点，提示你这个文件编辑了但是没有保存 (其他文本编辑器类似)。
 
 ![](_images/vscode保存和自动保存.png)
 
-保存按钮(红色箭头)，也可以用快捷键来保存 Ctrl + S 。
+保存按钮 (红色箭头)，也可以用快捷键来保存 Ctrl + S。
 
-开启自动保存(绿色箭头)。
+开启自动保存 (绿色箭头)。
 
 ~~当年 TrMenu 的自动重载治好了我的 autosave~~
 
@@ -62,7 +62,7 @@ VSCode 会在未保存的文件后标记一个白点，提示你这个文件编�
 
 ![Sublime Text](_images/sublime展示.png)
 
-我不太喜欢的一点是保存文件时，对非激活的用户有一定概率弹出个窗口，提示你去付费支持(可以选择不支持)。但这依旧是一个非常优秀的文本编辑器。
+我不太喜欢的一点是保存文件时，对非激活的用户有一定概率弹出个窗口，提示你去付费支持 (可以选择不支持)。但这依旧是一个非常优秀的文本编辑器。
 
 官网链接：https://www.sublimetext.com/
 
@@ -92,7 +92,7 @@ VSCode 会在未保存的文件后标记一个白点，提示你这个文件编�
 
 也是一个比较不错的文本编辑器。要求：**Windows 8 +**。
 
-官网链接: https://rizonesoft.com/downloads/notepad3/
+官网链接：https://rizonesoft.com/downloads/notepad3/
 
 GitHub: https://github.com/rizonesoft/Notepad3
 
@@ -105,15 +105,15 @@ GitHub: https://github.com/rizonesoft/Notepad3
 
 ![NPPesu](_images/Npp展示.png)
 
-可用， 相关功能也较为完善。
+可用，相关功能也较为完善。
 
 :::warning
 
-作者政治立场可能引起众怒， 但请理性看待：
+作者政治立场可能引起众怒，但请理性看待：
 
-[notepad++](http://www.notepadplus.com.cn/)台独 + 多次辱H [这里](https://cn.bing.com/search?q=notepad%252B%252B%E8%BE%B1%E5%8D%8E)。
+[notepad++](http://www.notepadplus.com.cn/) 台独 + 多次辱 H [这里](https://cn.bing.com/search?q=notepad%252B%252B%E8%BE%B1%E5%8D%8E)。
 
-dizhi 08年奥运会 声称(仅声明，但还是挺过分的)不同意它的政治观点就在你的源码中添加随机字符 [这里](https://zhuanlan.zhihu.com/p/609192758)。
+dizhi 08 年奥运会 声称 (仅声明，但还是挺过分的) 不同意它的政治观点就在你的源码中添加随机字符 [这里](https://zhuanlan.zhihu.com/p/609192758)。
 
 可替代为 **Notepad--** 等。
 
@@ -146,9 +146,15 @@ dizhi 08年奥运会 声称(仅声明，但还是挺过分的)不同意它的政
 
 一个国产的文本编辑器。
 
-### 关联右键菜单?
+:::warning
 
-可以在工具→设置(Ctrl+Alt+，)打开设置，找到“常用配置”手动选中【关联右键菜单】。
+该软件存在一些问题，例如编译需要登录、命令行中夹带广告等（[来源](https://www.zhihu.com/question/47889106/answer/3189683653)）。
+
+:::
+
+### 关联右键菜单？
+
+可以在工具→设置 (Ctrl+Alt+，) 打开设置，找到“常用配置”手动选中【关联右键菜单】。
 
 </details>
 
@@ -160,6 +166,23 @@ dizhi 08年奥运会 声称(仅声明，但还是挺过分的)不同意它的政
 ![](https://www.geany.org/media/uploads/screenshots/homepage/.thumbnails/geany_dark_2019-05-20.png/geany_dark_2019-05-20-500x0.png)
 
 官网链接：https://www.geany.org/
+
+</details>
+
+## Vim
+
+<details>
+  <summary>点击展开</summary>
+
+![](https://www.vim.org/images/vim_header.gif)
+
+官网链接：https://www.vim.org/
+
+这是一个纯命令行的编辑器，适用于在 SSH 或 Web Shell 中编辑，甚至是服务器上没有安装图形界面的场景，也具有图形化版本（GVim）和其他分支（例如 NeoVim）。
+
+使用 `vim 文件名` 打开一个文件或者创建一个文件，然后按下 `I` 键开始编辑，编辑好后按下 `ESC` 退出，输入 `:wq` 命令即可保存，若不能保存，使用 `:wq!` 命令。
+
+Vim 是可自由分发的开放源代码软件。
 
 </details>
 

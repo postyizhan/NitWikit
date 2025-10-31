@@ -56,7 +56,7 @@ servers:
 servers:
   子服名称:
     motd: "服务器标语"
-    address: 服务器地址:服务器端口
+    address: 服务器地址：服务器端口
     restricted: false
 ```
 

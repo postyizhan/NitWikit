@@ -25,7 +25,7 @@ sidebar_position: 1
 
 :::tip
 
-需要注意的是，`Vanilla` 本身的意思有 “香草(的)”、“原版”、“基本的” 在计算机领域也代指“**原版**”。
+需要注意的是，`Vanilla` 本身的意思有“香草 (的)”、“原版”、“基本的”在计算机领域也代指“**原版**”。
 
 :::
 
@@ -34,7 +34,7 @@ sidebar_position: 1
 由于原版 **Minecraft Server** 拓展性及性能不足，社区衍生出了多种提供 *多人游戏* 的 **服务端**，
 
 这些提供 *多人游戏* 服务的 **程序/软件** 常被人称为 **核心**，大致可分为
-**[Mod](https://nitwikit.8aka.org/Java/start/basic/what-is-mod)** 服务端和 **[插件](what-is-plugin.md)** 服务端。
+**[Mod](/Java/start/basic/what-is-mod)** 服务端和 **[插件](what-is-plugin.md)** 服务端。
 
 常见的 **Mod** 服务端有 **Forge** 和 **Fabric** 等。
 

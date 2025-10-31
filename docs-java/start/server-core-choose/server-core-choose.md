@@ -26,15 +26,15 @@ sidebar_position: 2
 
 :::
 
-性能较好，是初学者最适合开的服务器，拓展性较强，配置性强，但坏处就是有的插件需自行配置后使用，客户端无需安装 Mod 。
+性能较好，是初学者最适合开的服务器，拓展性较强，配置性强，但坏处就是有的插件需自行配置后使用，客户端无需安装 Mod。
 
-个人推荐插件服使用 Purpur ，是截止到 2024 年的稳定性和优化最好的选择
+个人推荐插件服使用 Purpur，是截止到 2024 年的稳定性和优化最好的选择
 
 :::info
 
 此类核心的存档结构有些不同
 
-如果你是从非 Bukkit 系核心或单人存档迁移，请查看[Leaves 的迁移文档](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)(通用所有Bukkit插件端)
+如果你是从非 Bukkit 系核心或单人存档迁移，请查看[Leaves 的迁移文档](https://docs.leavesmc.org/zh_Hans/leaves/guides/migration)(通用所有 Bukkit 插件端)
 
 :::
 
@@ -54,7 +54,7 @@ sidebar_position: 2
 
 :::
 
-混合端常见的有 Catserver；高版本推荐使用 Mohist 或 Arclight，就目前来看，它们的本身稳定性良好，也比纯 Forge 有所优化(但 Mod /插件数量多了之后兼容性问题可能会莫名让人头疼)
+混合端常见的有 Catserver；高版本推荐使用 Mohist 或 Arclight，就目前来看，它们的本身稳定性良好，也比纯 Forge 有所优化 (但 Mod /插件数量多了之后兼容性问题可能会莫名让人头疼)
 
 ## Mod 端
 
@@ -66,9 +66,9 @@ sidebar_position: 2
 
 :::
 
-性能较差，某些 Mod 就不是想给多人游戏设计的；拓展性强，内存需求较大，游戏性可以做的很丰富，但客户端需要安装相同的 Mod 。纯 Mod 服主流只有 Forge 和 Fabric 两种，
+性能较差，某些 Mod 就不是想给多人游戏设计的；拓展性强，内存需求较大，游戏性可以做的很丰富，但客户端需要安装相同的 Mod。纯 Mod 服主流只有 Forge 和 Fabric 两种，
 
-高版本一般推荐使用 Fabric ，因为 Fabric 优化 Mod 多效果比较好，但是最重要的还是：如果有什么 Mod 只有 Fabric / Forge 版本而你又非玩不可，只能选择相应的核心。
+高版本一般推荐使用 Fabric，因为 Fabric 优化 Mod 多效果比较好，但是最重要的还是：如果有什么 Mod 只有 Fabric / Forge 版本而你又非玩不可，只能选择相应的核心。
 
 ## 更换核心
 
@@ -92,7 +92,7 @@ Mod 服最开始就必须选好核心，也就是 Forge 还是 Fabric 的问题�
 
 ## 笨蛋脚本
 
-帮你选择服务端，并自动下载!
+帮你选择服务端，并自动下载！
 
 [下载](https://script.8aka.org/select-server)
 

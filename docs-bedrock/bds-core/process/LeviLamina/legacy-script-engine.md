@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## 什么是 Legacy Script Engine
 
-Legacy Script Engine 简称 LSE，是 LeviLamina 上的一系列插件，被用作 LiteLoader Scipt Engine(LLSE)到 LeviScript(LS)的过渡。
+Legacy Script Engine 简称 LSE，是 LeviLamina 上的一系列插件，被用作 LiteLoader Scipt Engine(LLSE) 到 LeviScript(LS) 的过渡。
 LSE 的一些特性与 LLSE 相同，你可以阅读 LLSE 来了解该插件的特点。以下是这两个插件的不同之处：
 
 1. LSE 只能在 LeviLamina 上运行，LLSE 只能在 LiteLoader 上运行
@@ -22,9 +22,9 @@ LSE 的一些特性与 LLSE 相同，你可以阅读 LLSE 来了解该插件的�
 
 - **LegacyMoney** ：用于为 LSE 插件提供经济 API 相关功能
 - **LegacyParticleAPI** ：用于为 LSE 插件提供 ParticleAPI 相关功能
-- **LegacyRemoteCall** ： 用于为 LSE 插件提供插件间相互调用功能
+- **LegacyRemoteCall** ：用于为 LSE 插件提供插件间相互调用功能
 - **legacy-script-engine-lua** ：用于加载和运行 lua 插件
-- **legacy-script-engine-quickjs** ：用于加载和运行单文件 js 插件(quickjs 插件)
+- **legacy-script-engine-quickjs** ：用于加载和运行单文件 js 插件 (quickjs 插件)
 - **legacy-script-engine-nodejs** ：用于加载和运行 nodejs 插件
 - **legacy-script-engine-python** ：用于加载和运行 python 插件，**和系统中的 python 解释器冲突**
 
@@ -67,4 +67,4 @@ lip install gitea.litebds.com/LiteLDev/legacy-script-engine-python
 
 ### 手动安装
 
-手动安装要装一大堆插件，我还没试过，教程求大佬补充qaq
+手动安装要装一大堆插件，我还没试过，教程求大佬补充 qaq

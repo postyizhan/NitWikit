@@ -11,19 +11,19 @@ sidebar_position: 2
 
 我们先了解几个简单的动作
 
-## 输出文本(Tell)
+## 输出文本 (Tell)
 
 > https://kether.tabooproject.org/list.html#Tell
 
 ![](_images/vul-tell.png)
 
-这个动作的作用是给玩家发送一条信息(图中的 1 )
+这个动作的作用是给玩家发送一条信息 (图中的 1 )
 
-下面的 `< > Result:` 是动作的返回值(下面会讲)
+下面的 `< > Result:` 是动作的返回值 (下面会讲)
 
 :::note
 
-非调试(/vul evel)是不会看到这个的
+非调试 (/vul evel) 是不会看到这个的
 
 ![](_images/result.png)
 
@@ -37,7 +37,7 @@ sidebar_position: 2
 
 我们可以用下面的 `color Text` 动作来搞颜色
 
-## 彩色(color Text)
+## 彩色 (color Text)
 
 > https://kether.tabooproject.org/list.html#Color_Text
 
@@ -49,7 +49,7 @@ sidebar_position: 2
 
 :::note
 
-值得一提的是，Invero插件会自动翻译tell中的颜色，内联，papi
+值得一提的是，Invero 插件会自动翻译 tell 中的颜色，内联，papi
 
 :::
 
@@ -75,7 +75,7 @@ sidebar_position: 2
 
 ![](_images/痴呆.jpg)
 
-## \{action\}，\{token\}和Literal
+## \{action\}，\{token\}和 Literal
 
 查阅 https://kether.tabooproject.org/list.html 我们可以发现
 
@@ -92,11 +92,11 @@ sidebar_position: 2
 
 所以在 [语句的连用](#语句的连用) 那里，我们可以在 `tell` 后面接一个 `color` 动作
 
-那么问题来了，为什么在 [Tell](#输出文本tell) 那里可以接一句话(此处写了个1)？
+那么问题来了，为什么在 [Tell](#输出文本 Tell) 那里可以接一句话 (此处写了个 1)？
 
 ![](_images/vul-tell.png)
 
-因为在这个示例中，kether找不到名为 `1` 的动作，所以用了 `Literal` 动作将他转为字符串
+因为在这个示例中，kether 找不到名为 `1` 的动作，所以用了 `Literal` 动作将他转为字符串
 
 > https://kether.tabooproject.org/list.html#Literal
 
@@ -104,11 +104,11 @@ sidebar_position: 2
 
 两种使用方式，特别是后一种，你随便写点啥，只要不是已有的动作，它最后就会被转为字符串
 
-## 变量(PlaceholderAPI)
+## 变量 (PlaceholderAPI)
 
 > https://kether.tabooproject.org/list.html#PlaceholderAPI
 
-翻译一个papi变量(如图)
+翻译一个 papi 变量 (如图)
 
 ![](_images/vul-papi.png)
 
@@ -116,17 +116,17 @@ sidebar_position: 2
 papi {action} | placeholder {action}
 ```
 
-两种用法，papi是简写
+两种用法，papi 是简写
 
-## inline和join
+## inline 和 join
 
 ![](_images/vul-tell_papiNoInline.png)
 
-假如你用的那个插件不会给你自动翻译动作中的papi，阁下又当如何应对？
+假如你用的那个插件不会给你自动翻译动作中的 papi，阁下又当如何应对？
 
 > https://kether.tabooproject.org/list.html#Inline
 
-`内联(inline)` 动作！在一段文本中插入 kether ！
+`内联(inline)` 动作！在一段文本中插入 kether！
 
 用法为：
 

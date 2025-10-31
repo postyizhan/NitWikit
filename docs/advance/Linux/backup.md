@@ -11,7 +11,7 @@ sidebar_position: 8
 sudo vim /root/backup.sh
 ```
 
-然后将以下内容粘贴到文件中，按实际情况与需要修改(如果你是Linux新手请不要修改)：
+然后将以下内容粘贴到文件中，按实际情况与需要修改 (如果你是 Linux 新手请不要修改)：
 
 ```bash
 #!/bin/bash
@@ -97,7 +97,7 @@ if [ ${#tar_gz_files[@]} -gt $MAX_BACKUPS ]; then
 fi
 ```
 
-按 `Esc` 键,切换到英文输入法输入 `:wq` 保存并退出。
+按 `Esc` 键，切换到英文输入法输入 `:wq` 保存并退出。
 
 # 将备份脚本添加到定时任务
 
@@ -119,9 +119,9 @@ crontab -e
 
 其中：
 
-- `/path/to/server`： 替换为你的服务器目录的绝对路径；
-- `/path/to/backup`： 替换为你的备份文件保存目录的绝对路径；
-- `5`： 是最大备份文件数；
+- `/path/to/server`：替换为你的服务器目录的绝对路径；
+- `/path/to/backup`：替换为你的备份文件保存目录的绝对路径；
+- `5`：是最大备份文件数；
 
 > 如何获得服务器目录的绝对路径？对应目录下执行 `pwd` 命令即可获得当前目录的绝对路径。
 
@@ -147,6 +147,6 @@ crontab -e
 
 > 如果你恢复存档后启动服务器报错：
 > `[main/FATAL]: Failed to start the minecraft server net.minecraft.util.SessionLock$ExceptionWorldConfict: /home/minecraft/lobby/./world/session.lock: already locked (possibly by other Minecraft instance?)`
-> 请检查 `world` 存档下是否存在 `session.lock` 文件,如果存在请删除,然后重启服务器。
+> 请检查 `world` 存档下是否存在 `session.lock` 文件，如果存在请删除，然后重启服务器。
 
 <!--markdownlint-enable line-length-->

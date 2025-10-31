@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## skript-reflect
 
-**skript-reflect** 是 **Skript** 的一个拓展插件，允许你运用Java的反射机制来进行更高级的操作，它旨在将 **Java** 的功能与 **Skript** 易于使用的开发环境相结合。
+**skript-reflect** 是 **Skript** 的一个拓展插件，允许你运用 Java 的反射机制来进行更高级的操作，它旨在将 **Java** 的功能与 **Skript** 易于使用的开发环境相结合。
 
 有了 **skript-reflect** 的 **Skript** 几乎可以完成插件能做的任何事，不过是复杂性的问题。
 
@@ -85,7 +85,7 @@ on TPARequestEvent:
 
 **skript-reflect** 很好的解决了这一点。
 
-比如，你正在使用 **Leaves** 服务端，想要用sk来改变Leaves中假人在玩家列表中显示的名字，那么可以遵循以下步骤：
+比如，你正在使用 **Leaves** 服务端，想要用 sk 来改变 Leaves 中假人在玩家列表中显示的名字，那么可以遵循以下步骤：
 
 #### 查询 Javadoc
 
@@ -132,11 +132,11 @@ on BotJoinEvent:
     {_bot}.setPlayerListName("假的%{_bot_name}%")   # 修改假人在tab列表里的名字
 ```
 
-这一过程也可适用于其他插件，比如[zimzaza4大蛇](https://github.com/zimzaza4)的
+这一过程也可适用于其他插件，比如[zimzaza4 大蛇](https://github.com/zimzaza4)的
 [Skript-Floodgate-Api](https://github.com/zimzaza4/Skript-Floodgate-Api) ，
 就是利用 **skript-reflect** 来调用 [Floodagate API](https://wiki.geysermc.org/floodgate/api/) 的。
 
-可以查看下面的教程来详细学习 **skript-reflect** 的基础功能(对，下面这一大坨只是基础)
+可以查看下面的教程来详细学习 **skript-reflect** 的基础功能 (对，下面这一大坨只是基础)
 
 ### skript-reflect 基础教程
 
@@ -148,7 +148,7 @@ on BotJoinEvent:
 
 #### 导入 Java 类
 
-##### _在解析时导入类(推荐)_
+##### _在解析时导入类 (推荐)_
 
 在大多数情况下，无需运行脚本即可知道所需类的确切限定名称。如果是这种情况，你应该使用 **skript-reflect** 的`import`块：
 
@@ -226,7 +226,7 @@ command /example:
         message "%{Player}%" # org.bukkit.entity.Player
 ```
 
-###### 在effect命令中导入
+###### 在 effect 命令中导入
 
 由于导入块在 effect 命令中不可用，因此你可以使用 import effect(仅在 effect 命令中可用)：
 
@@ -290,9 +290,9 @@ player.giveExpLevels({_levels})
 {_arraylist}.[ArrayList]fastRemove(1)
 ```
 
-###### 调用Overload的方法
+###### 调用 Overload 的方法
 
-通常， **skript-reflect** 可以从运行时传递的参数中推断出要调用的正确的Overload方法。如果需要使用某个方法的某种实现，可以在方法名称的末尾附加一个逗号分隔的列表，并用括号括起来。
+通常， **skript-reflect** 可以从运行时传递的参数中推断出要调用的正确的 Overload 方法。如果需要使用某个方法的某种实现，可以在方法名称的末尾附加一个逗号分隔的列表，并用括号括起来。
 
 语法：
 
@@ -338,7 +338,7 @@ new Location(player's world， 0， 0， 0)
 
 ##### 监听事件
 
-你可以通过引用导入的类来收听任何基于 Bukkit 的事件(包括其他插件添加的事件)。例如，如果要收听 `org.bukkit.event.entity.EnderDragonChangePhaseEvent`：
+你可以通过引用导入的类来收听任何基于 Bukkit 的事件 (包括其他插件添加的事件)。例如，如果要收听 `org.bukkit.event.entity.EnderDragonChangePhaseEvent`：
 
 ```skript
 import:
@@ -350,7 +350,7 @@ on EnderDragonChangePhaseEvent:
 
 :::warning
 
-一些插件使用自己的事件处理系统，或者不通过 **Bukkit** 的事件执行器传递他们的事件( **Skript** 的一些内部事件就是这种情况)。
+一些插件使用自己的事件处理系统，或者不通过 **Bukkit** 的事件执行器传递他们的事件 ( **Skript** 的一些内部事件就是这种情况)。
 
 为了侦听事件，它必须扩展`org.bukkit.event.Event`并由 **Bukkit** 的事件执行器执行。
 
@@ -457,7 +457,7 @@ on all BlockBreakEvent:
 ...%object%
 ```
 
-将Java类型的数组转化为sk可读形式。
+将 Java 类型的数组转化为 sk 可读形式。
 
 实例：
 
@@ -583,6 +583,6 @@ effect put %objects% in %objects%:
 [(an|the)] instance of [the] plugin %javatype/string%
 ```
 
-返回给定插件的实例(字符串形式的名称或插件类)。
+返回给定插件的实例 (字符串形式的名称或插件类)。
 
-更高级的用法及详细内容请自行查阅[skript-reflect文档](https://tpgamesnl.gitbook.io/skript-reflect)
+更高级的用法及详细内容请自行查阅[skript-reflect 文档](https://tpgamesnl.gitbook.io/skript-reflect)

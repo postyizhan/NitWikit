@@ -7,7 +7,7 @@ sidebar_position: 4
 
 :::info
 
-`mythiccraft` https://mythiccraft.io/index.php?resources/.2/
+`mythiccraft` https://mythiccraft.io/index.php?resources/.2
 
 `文档(英文)` https://git.mythiccraft.io/mythiccraft/mythiccrucible/-/wikis/home
 

@@ -50,7 +50,7 @@ sidebar_position: 1
   <img src="https://img.shields.io/badge/BungeeCord-orange?&style=for-the-badge" class="stylish-image" alt="BungeeCord" />
 </a>
 
-这是 BungeeCord 版本的 AuthMe 。如果你的登录服使用 AuthMe 登录，请务必在 BungeeCord 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
+这是 BungeeCord 版本的 AuthMe。如果你的登录服使用 AuthMe 登录，请务必在 BungeeCord 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
 
 如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服
 
@@ -69,19 +69,19 @@ sidebar_position: 1
   <img src="https://img.shields.io/badge/Velocity-blue?&style=for-the-badge" class="stylish-image" alt="Velocity" />
 </a>
 
-这是 Velocity 版本的 AuthMe 。如果你的登录服使用 AuthMe 登录，请务必在 Velocity 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
+这是 Velocity 版本的 AuthMe。如果你的登录服使用 AuthMe 登录，请务必在 Velocity 上安装此插件，以增加登录系统的安全性和完整性，这可以为你避免一些不必要的麻烦
 
 如果你不安装此插件，在玩家登录时很可能乘此跳到其他子服务器来跳过登录，以此获取管理员账号来炸服。
 
 **注意事项：**
 
  - 自 4.0.0 版本开始，AuthMeVelocity 需要在 Velocity 和服务端分别部署两个不同的文件，而不是像旧版本那样在 Velocity 和服务端部署相同的文件。
-在 Modrinth 下载这些文件时，最好点击页面右上角的 Download （下载），或前往插件的 [Versions](https://modrinth.com/plugin/authmevelocity/versions) 页面，
+在 Modrinth 下载这些文件时，最好点击页面右上角的 Download（下载），或前往插件的 [Versions](https://modrinth.com/plugin/authmevelocity/versions) 页面，
 分别下载适用于 Velocity 和 Folia/Paper/Purpur 的文件。
  - 下载适用于 Folia/Paper/Purpur 的文件时，需注意自 4.1.2 版本开始不再支持 1.19.x 及以下版本
- - 在 Velocity 端安装好 AuthMeVelocity 后，需编辑 `plugins\authmevelocity` 中的config.conf文件，将其中的 `auth-servers` 配置项修改为登录服的服务器
+ - 在 Velocity 端安装好 AuthMeVelocity 后，需编辑 `plugins\authmevelocity` 中的 config.conf 文件，将其中的 `auth-servers` 配置项修改为登录服的服务器
 ```conf
-# 比如你的登录服在velocity中配置的名称是login
+# 比如你的登录服在 velocity 中配置的名称是 login
 auth-servers=[
     login
 ]
@@ -132,7 +132,7 @@ java.lang.RuntimeException: Failed to download library
 
 :::info
 
-见 [插件 | LimboAuth](/docs-java/process/plugin/other/Login/LimboAuth.md)
+见 [插件 | LimboAuth](../../plugin/other/Login/LimboAuth.md)
 
 :::
 

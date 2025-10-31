@@ -15,19 +15,23 @@ sidebar_position: 2
 
 ## MCSManager
 
-MCSManager是一款免费，易用，现代化的游戏服务器管理面板，非常适合小白
+MCSManager 是一款免费，易用，现代化的游戏服务器管理面板，非常适合小白
 
 ### 下载与安装
 
 #### Windows
 
-首先，点击[此链接](https://awwa.cc/mcsm/win) 一键下载到本地后解压
+首先，点击[此链接](https://cdn.imlazy.ink:233/files/mcsmanager_windows_release.zip) 一键下载到本地后解压
 
-解压之后，你就可以看到`start.bat`，打开就可以启动(就是这么简单)
+解压之后，你就可以看到 `start.bat`，打开就可以启动 (就是这么简单)
 
-关闭面板
+关闭面板只需分别进入两个终端执行 `Ctrl+C` 即可。
 
-只需分别进入两个终端执行 `Ctrl+C` 即可。
+若需要设置开机自启动，可采用这种方法：
+
+1. 在[微软官方网站](https://learn.microsoft.com/zh-cn/sysinternals/downloads/autologon)上下载 Autologon 程序并按照页面介绍配置好开机自动登录。
+2. 为上文所述的 `start.bat` 创建一个快捷方式，并将这个快捷方式移动至 `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`。
+3. 重新启动并验证效果（可选），然后在面板的实例设置中启用实例的自动启动功能。
 
 #### Linux
 
@@ -39,9 +43,9 @@ MCSManager是一款免费，易用，现代化的游戏服务器管理面板，�
 sudo su -c "wget -qO- https://script.mcsmanager.com/setup_cn.sh | bash"
 ```
 
-然后?就完成~\(≧▽≦)/~啦
+然后？就完成~\(≧▽≦)/~啦
 
-启动方式:
+启动方式：
 
 ```shell
 # 先启动面板守护进程。
@@ -62,8 +66,8 @@ systemctl stop mcsm-daemon.service
 
 :::tip
 
-如果 `systemctl` 命令无法启动面板，或无法获得sudo权限，可以参考下文的 `手动安装` 中的 `启动方式` 来启动 MCSManager。
-但这需要你用其他后台运行程序(比如screen)来接管它，否则当你的 `SSH` 终端断开之时，手动启动的 MCSManager 面板也会随之被系统强制结束。
+如果 `systemctl` 命令无法启动面板，或无法获得 sudo 权限，可以参考下文的 `手动安装` 中的 `启动方式` 来启动 MCSManager。
+但这需要你用其他后台运行程序 (比如 screen) 来接管它，否则当你的 `SSH` 终端断开之时，手动启动的 MCSManager 面板也会随之被系统强制结束。
 
 面板 Web 服务是提供用户管理与网页访问功能的服务，守护进程是提供进程管理和容器管理的服务，两者缺一不可。如果某个功能不正常，可以只重启这一部分的服务来热修复问题。
 
@@ -106,7 +110,7 @@ tar -zxf mcsmanager_linux_release.tar.gz
 # 安装依赖库
 ./install.sh
 
-# 请使用 Screen 程序打开两个终端窗口(或者其他接管程序)
+# 请使用 Screen 程序打开两个终端窗口 (或者其他接管程序)
 
 # 先启动节点程序
 ./start-daemon.sh

@@ -5,11 +5,11 @@ sidebar_position: 1
 
 ## 什么是 NukkitPetteriM1Edition
 
-NukkitPetteriM1Edition（简称NukkitPM1E）是PetteriM1为他的服务器SuomiCraft PE制作的Nukkit服务器软件的特殊版本，
-理论上支持Minecraft基岩版1.2.X-最新版本（根据PetteriM1的更新情况而定），但不会积极维护对过旧版本的支持，
-建议使用1.12.X以上进服以获得更好的体验。使用方法与Nukkit基本一致。
+NukkitPetteriM1Edition（简称 NukkitPM1E）是 PetteriM1 为他的服务器 SuomiCraft PE 制作的 Nukkit 服务器软件的特殊版本，
+理论上支持 Minecraft 基岩版 1.2.X-最新版本（根据 PetteriM1 的更新情况而定），但不会积极维护对过旧版本的支持，
+建议使用 1.12.X 以上进服以获得更好的体验。使用方法与 Nukkit 基本一致。
 
-注意，由于需要兼容多版本，NukkitPM1E删除了一些高版本方块和其他物品，请准备开生存服和RPG服的服主谨慎选择使用。本核心适用于开设小游戏服务器。
+注意，由于需要兼容多版本，NukkitPM1E 删除了一些高版本方块和其他物品，请准备开生存服和 RPG 服的服主谨慎选择使用。本核心适用于开设小游戏服务器。
 
 ## 特色
 
@@ -24,4 +24,4 @@ NukkitPetteriM1Edition（简称NukkitPM1E）是PetteriM1为他的服务器SuomiC
 - 世界生成的一些调整和原版建筑结构的生成
 
 ## 链接
-- [Github链接](https://github.com/PetteriM1/NukkitPetteriM1Edition)
+- [Github 链接](https://github.com/PetteriM1/NukkitPetteriM1Edition)

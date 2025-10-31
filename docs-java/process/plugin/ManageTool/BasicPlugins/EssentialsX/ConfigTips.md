@@ -13,13 +13,13 @@ sidebar_position: 2
 teleport-cooldown: 0
 ```
 
-传送功能的冷却时间(以秒为单位)，如/home， /tp， etc 等命令。
+传送功能的冷却时间 (以秒为单位)，如/home， /tp，etc 等命令。
 
 ```yaml
 teleport-delay: 0
 ```
 
-传送延迟时间(以秒为单位)，在玩家被确实传送之前的时间.如果玩家在该时间内移动了或者受到攻击，传送将取消。
+传送延迟时间 (以秒为单位)，在玩家被确实传送之前的时间。如果玩家在该时间内移动了或者受到攻击，传送将取消。
 
 ## 礼包/工具包
 
@@ -27,19 +27,19 @@ teleport-delay: 0
 skip-used-one-time-kits-from-kit-list: false
 ```
 
-当该选项开启后 (例如. delay < 0) 则玩家使用过一次该项工具包以后，将从玩家的kit列表中删去该项可用工具包。
+当该选项开启后 (例如。delay < 0) 则玩家使用过一次该项工具包以后，将从玩家的 kit 列表中删去该项可用工具包。
 
 ```yaml
 kit-auto-equip: false
 ```
 
-启用后，只要玩家的盔甲槽是空的，就会自动装备领取的kit包中的盔甲。
+启用后，只要玩家的盔甲槽是空的，就会自动装备领取的 kit 包中的盔甲。
 
 ```yaml
 use-nbt-serialization-in-createkit: false
 ```
 
-默认为false。
+默认为 false。
 
 应该是说，开启后 kit 可以存 nbt 的东西了。
 
@@ -49,7 +49,7 @@ use-nbt-serialization-in-createkit: false
 auto-afk: 300
 ```
 
-在超时(以秒为单位)后，用户将被设置为 AFK。
+在超时 (以秒为单位) 后，用户将被设置为 AFK。
 此功能需要玩家拥有 essentials.afk.auto 权限。
 设置为 -1 表示不会超时。
 
@@ -57,7 +57,7 @@ auto-afk: 300
 auto-afk-kick: -1
 ```
 
-在超时(以秒为单位)后，用户将被踢出服务器。
+在超时 (以秒为单位) 后，用户将被踢出服务器。
 拥有 essentials.afk.kickexempt 权限可以避免被踢出。
 设置为 -1 表示不会超时。
 
@@ -65,7 +65,7 @@ auto-afk-kick: -1
 afk-list-name: "挂机中"
 ```
 
-设置玩家AFK时的列表名称。 默认情况下为 none 。
+设置玩家 AFK 时的列表名称。默认情况下为 none。
 
 ## 杂项
 
@@ -76,9 +76,9 @@ death-messages: true
 你可以在此处禁用原版的死亡消息。
 
 ```yaml
-custom-join-message: "&e[&a+&e]&6比驿站丑的 {USERNAME} 加入了游戏"
-custom-quit-message: "&e[&c-&e]&6比驿站丑的 {USERNAME} 退出了游戏"
-custom-new-username-message: "&e[&a+&e]&6比驿站丑的新玩家 {USERNAME} 加入了游戏"
+custom-join-message: "&e[&a+&e]&6 比驿站丑的 {USERNAME} 加入了游戏"
+custom-quit-message: "&e[&c-&e]&6 比驿站丑的 {USERNAME} 退出了游戏"
+custom-new-username-message: "&e[&a+&e]&6 比驿站丑的新玩家 {USERNAME} 加入了游戏"
 ```
 
 你可以在此处设置自定义加入和退出消息。
@@ -91,11 +91,11 @@ custom-new-username-message: "&e[&a+&e]&6比驿站丑的新玩家 {USERNAME} 加
 spawn-if-no-home: true
 ```
 
-玩家执行了/home ，但他没有设置家。
+玩家执行了/home，但他没有设置家。
 
-如果此项设置为 true ，玩家将会传送回出生点。
+如果此项设置为 true，玩家将会传送回出生点。
 
-如果此项设置为 false ，玩家不会被传送。
+如果此项设置为 false，玩家不会被传送。
 
 ## 经济
 
@@ -110,7 +110,7 @@ starting-balance: 0
 注意：你需要安装 EssentialsX Spawn 才可以使用。
 
 ```yaml
-announce-format: '&7[&b驿站&7]&a欢迎大傻蛋来服务器！'
+announce-format: '&7[&b 驿站&7]&a 欢迎大傻蛋来服务器！'
 ```
 
 设置玩家进服的欢迎语。

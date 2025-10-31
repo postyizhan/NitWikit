@@ -21,6 +21,8 @@ sidebar_label: 多世界 - Multiverse
   <img src="https://cdn.jsdmirror.cn/npm/@intergrav/devins-badges@3/assets/cozy/supported/spigot_vector.svg" class="stylish-image" alt="Spigot" />
 </a>
 
+
+
 <a href="https://github.com/DecentSoftware-eu/DecentHolograms/releases">
   <img src="https://img.shields.io/github/v/release/Multiverse/Multiverse-Core" class="stylish-image" alt="Release" />
 </a>
@@ -41,11 +43,13 @@ sidebar_label: 多世界 - Multiverse
 - [Multiverse-NetherPortals](https://github.com/Multiverse/Multiverse-NetherPortals) -> 允许玩家创建能够带他们去指定世界的地狱传送门！
 - [Multiverse-Portals](https://github.com/Multiverse/Multiverse-Portals) -> 创建传送到指定地点的传送门。
 - [Multiverse-Inventories](https://github.com/Multiverse/Multiverse-Inventories) -> 将玩家背包按世界隔离。
-- [Multiverse-SignPortals](https://github.com/Multiverse/Multiverse-SignPortals) -> 告示牌传送!
+- [Multiverse-SignPortals](https://github.com/Multiverse/Multiverse-SignPortals) -> 告示牌传送！
 
 ## 链接
 
 :::info
+
+`官网` https://mvplugins.org
 
 `Bukkit` https://dev.bukkit.org/projects/multiverse-core
 
@@ -65,12 +69,36 @@ sidebar_label: 多世界 - Multiverse
 
 :::
 
-值得一提的是，在 [GitHub](https://github.com/Multiverse/Multiverse-Core/releases) 上的版本比在 SpigotMC 上能下载到的版本要新。
+~~值得一提的是，在 [GitHub](https://github.com/Multiverse/Multiverse-Core/releases) 上的版本比在 SpigotMC 上能下载到的版本要新。~~
+
+开发组貌似想起来自己曾在 SpigotMC 发过此资源了
+
+## 禁止生成默认世界
+
+要这么做的原因无非是因为一个服务器可能被作为大厅服务器，或者小游戏服务器无须其它世界。
+
+- 主世界
+  各类服务端均无法禁用。~~禁用了还玩什么？~~
+- 下界
+  在原版的配置文件 `server.properties` 中，将 `allow-nether` 设置为 `false`。
+- 末地
+  打开 Bukkit 配置文件 `bukkit.yml`，将 `settings` 中的 `allow-end` 设置为 `false`。
+
+在 `/plugins/Multiverse-Core/config.yml` 中，有这样的配置：
+
+```yaml
+  world-name-format:
+    nether: '%overworld%_nether'
+    end: '%overworld%_the_end'
+```
+
+这里规定了默认的世界名称格式，只需要更改这里的配置，或者在禁用了默认世界后创建名称不符合这里格式的世界，这样就可以间接实现对地狱门和末地门
+的禁用，因为它们不再与主世界有关联，因此地狱门和末地门会失效（即使它们可以被激活）。
 
 ## Folia
 
-[Multiverse-Core_Zeta](https://github.com/RenYuan-MC/Multiverse-Core_Zeta) 是 Multiverse-Core 的一个 fork,支持 Folia
-,你可以[在这](https://dl.8aka.org/plugins/multiverse-core-4.3.14-zeta_folia-experimental.jar) 下载预编译版本,或自行编译
+[Multiverse-Core_Zeta](https://github.com/RenYuan-MC/Multiverse-Core_Zeta) 是 Multiverse-Core 的一个 fork，支持 Folia
+,你可以[在这](https://dl.8aka.org/plugins/multiverse-core-4.3.14-zeta_folia-experimental.jar) 下载预编译版本，或自行编译
 
 ## 崩服漏洞
 
@@ -80,7 +108,7 @@ Multiverse-Core [4.3.1](https://www.spigotmc.org/resources/multiverse-core.390/u
 
 如果你因为某些原因不能更新到最新版，可以使用修复补丁
 
-补丁(只需安装其中一个)：
+补丁 (只需安装其中一个)：
 
 - [Multiverse-Patches](https://www.spigotmc.org/resources/.96390)
 - [Multiverse-Core Fix](https://www.spigotmc.org/resources/.70218)

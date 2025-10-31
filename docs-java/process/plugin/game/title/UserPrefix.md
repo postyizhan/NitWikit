@@ -27,7 +27,7 @@ sidebar_position: 2
 
 轻便、高效、实时的用户前缀系统。
 
-本插件基于Spigot实现，**理论上支持全版本**。
+本插件基于 Spigot 实现，**理论上支持全版本**。
 
 > 本插件已在 [MCBBS](https://www.mcbbs.net/forum.php?mod=viewthread&tid=1261503)
 > 与 [SpigotMC](https://www.spigotmc.org/resources/userprefix-hex-color-support-all-version.96277/) 上发布。
@@ -51,15 +51,15 @@ sidebar_position: 2
 - 当玩家权限变更时会实时监测前缀，若权限不足则自动更换前缀并提示
 - 可配置的声音、消息！
 - 前缀图标可配置“选中”、“有权限”与“无权限”三种状态的物品
-- TabList自动按照前缀的权重排序 (如有冲突可关掉)
+- TabList 自动按照前缀的权重排序 (如有冲突可关掉)
 - 玩家头顶前缀显示 (如有冲突可关掉)
 - 简单的聊天变量修改功能！(不推荐使用) `[自 v2.1.0 版本起]`
-- 自动排序，且可翻页的GUI！
-- 支持PlaceholderAPI变量！(凡支持的都可以使用，如BungeeTabListPlus)
-- 支持[Hex颜色](https://www.hexcolortool.com/)！(1.16以上版本) `[自 v1.2.3 版本起]`
+- 自动排序，且可翻页的 GUI！
+- 支持 PlaceholderAPI 变量！(凡支持的都可以使用，如 BungeeTabListPlus)
+- 支持[Hex 颜色](https://www.hexcolortool.com/)！(1.16 以上版本) `[自 v1.2.3 版本起]`
   - 格式： `&(#颜色代码)`
-  - 示例： LightSlateBlue `&(#8470FF)` 、 DarkSlateBlue `&(#483D8B)`
-- 支持渐变色！(1.16以上版本) `[自 v1.2.3 版本起]`
+  - 示例：LightSlateBlue `&(#8470FF)` 、 DarkSlateBlue `&(#483D8B)`
+- 支持渐变色！(1.16 以上版本) `[自 v1.2.3 版本起]`
   - 格式： `&<#颜色代码1>消息内容&<#颜色代码2>`
   - 示例： `&<#8470FF>Hello World!&<#483D8B>`
 
@@ -67,13 +67,13 @@ sidebar_position: 2
 
 ### 1. 版本支持问题
 
-本插件理论全版本支持，如果出现图标不加载、声音无法播放等问题请检查配置文件中物品与声音的type在当前版本是否存在。
+本插件理论全版本支持，如果出现图标不加载、声音无法播放等问题请检查配置文件中物品与声音的 type 在当前版本是否存在。
 
-以声音举例，村民表示可以的声音在低版本中为 “`VILLAGER_YES`”,而在高版本中则变为了“`ENTITY_VILLAGER_YES`”。
+以声音举例，村民表示可以的声音在低版本中为“`VILLAGER_YES`”,而在高版本中则变为了“`ENTITY_VILLAGER_YES`”。
 
 ### 2. 计分板异常问题
 
-头顶上前缀的显示与TabList的排序均使用到了计分板API。
+头顶上前缀的显示与 TabList 的排序均使用到了计分板 API。
 
 如有冲突导致其他插件的计分板无法显示，请关掉配置文件中`functions.on-name-prefix`。
 
@@ -118,7 +118,7 @@ Many thanks to Jetbrains for kindly providing a license for me to work on this a
 >
 > ### 可自由分发
 >
-> 在你的网站提供下载，拷贝到U盘送人，或者将源代码打印出来从窗户扔出去（环保起见，请别这样做）。
+> 在你的网站提供下载，拷贝到 U 盘送人，或者将源代码打印出来从窗户扔出去（环保起见，请别这样做）。
 >
 > ### 可以用来盈利
 >
@@ -131,7 +131,7 @@ Many thanks to Jetbrains for kindly providing a license for me to work on this a
 > 需要注意的是，分发的时候，需要明确提供源代码和二进制文件，另外，用于某些程序的某些协议有一些问题和限制，你可以看一下 @PierreJoye 写的 Practical Guide to GPL Compliance 一文。使用 GPL
 > 协议，你必须在源代码代码中包含相应信息，以及协议本身。
 >
-> *以上文字来自 [五种开源协议GPL,LGPL,BSD,MIT,Apache](https://www.oschina.net/question/54100_9455) 。*
+> *以上文字来自 [五种开源协议 GPL,LGPL,BSD,MIT,Apache](https://www.oschina.net/question/54100_9455) 。*
 </details>
 
 ## bStats

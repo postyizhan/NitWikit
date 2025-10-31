@@ -7,7 +7,7 @@ sidebar_position: 7
 
 <!--markdownlint-disable ol-prefix-->
 
-1. 检查你的服务器有没有安装 Spark 插件， 尝试 `/spark` 命令或者 `/pl` 看看有没有 Spark
+1. 检查你的服务器有没有安装 Spark 插件，尝试 `/spark` 命令或者 `/pl` 看看有没有 Spark
 
 如果没有，手动安装一下 [Spark](performance-analysis.md)
 
@@ -31,6 +31,6 @@ sidebar_position: 7
 
 它会给你一个链接，你把这个链接发给大佬并 **礼貌的** 请求帮助你
 
-注:链接位置在下图中红框标记的部分
+注：链接位置在下图中红框标记的部分
 
 ![](_images/怎么让大佬帮我/spark_stop.png)

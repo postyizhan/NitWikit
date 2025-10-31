@@ -23,7 +23,7 @@ sidebar_label: 地皮 - PlotSquared
 
 知名老牌地皮插件
 
-## 免费下载?
+## 免费下载？
 
 可自行构建
 

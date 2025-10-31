@@ -15,7 +15,7 @@ import TabItem from '@theme/TabItem';
 
 `SpigotMC` https://www.spigotmc.org/resources/70523/
 
-`文档(英文)` https://docs.sbdevelopment.tech/vehiclesplus-v3/about/
+`文档 (英文)` https://docs.sbdevelopment.tech/vehiclesplus-v3/about/
 
 :::
 
@@ -28,7 +28,7 @@ import TabItem from '@theme/TabItem';
 
 `SpigotMC` https://www.spigotmc.org/resources/12446/
 
-`文档(英文)` https://docs.vehiclesplugin.com/
+`文档 (英文)` https://docs.vehiclesplugin.com/
 
 :::
 

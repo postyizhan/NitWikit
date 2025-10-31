@@ -20,7 +20,7 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="install">
 <TabItem value="forge" label="Forge">
 
-## Installer （安装器）下载
+## Installer（安装器）下载
 
 首先，来到 [Forge 官方网站](https://files.minecraftforge.net/net/minecraftforge/forge/)
 或国内下载镜像 [MCSL](https://sync.mcsl.com.cn/core/Forge)
@@ -37,7 +37,7 @@ import TabItem from '@theme/TabItem';
 
 然后你就成功下载了 `Forge Installer`。然而由于 MC 的 eula 限制，Forge Installer 不会内含 Minecraft 服务端本体，所以现在我们需要去单独下载一个 `Minecraft server` 本体。
 
-## Minecraft server （原版端）下载
+## Minecraft server（原版端）下载
 
 ### 使用国内镜像 BMCLAPI
 
@@ -59,7 +59,7 @@ import TabItem from '@theme/TabItem';
 
 比如 1.20.4 版本应该是 `https://www.minecraft.net/en-us/article/minecraft-java-edition-1-20-4`
 
-如果页面出现404（提示oops... we couldn't find that page），证明该教程的链接格式可能过时。你可以在搜索引擎中搜索“download minecraft server 你要下载的版本号”，然后应该就能搜索到对应的发行版页面了。
+如果页面出现 404（提示 oops... we couldn't find that page），证明该教程的链接格式可能过时。你可以在搜索引擎中搜索“download minecraft server 你要下载的版本号”，然后应该就能搜索到对应的发行版页面了。
 
 随后你将来到该版本的发行说明页面。文章的最后一个小标题是“GET THE RELEASE”，如果没有找到这个小标题，可以使用浏览器的搜索功能。
 
@@ -79,7 +79,7 @@ import TabItem from '@theme/TabItem';
 java -jar <你下载的安装器的文件名> --installServer
 ````
 
-然后静待一会，直到控制台输出 `The server installed successfully` 就完成了!此时你应该会看到当前文件夹中出现了一个名为`forge-游戏版本号-forge版本号.jar`的文件，**这就是你此后开服时需要执行的可执行文件**。
+然后静待一会，直到控制台输出 `The server installed successfully` 就完成了！此时你应该会看到当前文件夹中出现了一个名为`forge-游戏版本号-forge版本号.jar`的文件，**这就是你此后开服时需要执行的可执行文件**。
 
 我们建议你现在将文件`forge-游戏版本号-forge版本号-installer.jar`（安装器文件）和`minecraft_server.游戏版本号.jar`移至其他文件夹或放入回收站，以防在后续准备开服时引发混淆。也不要直接永久删除这两个文件，因为一旦后续需要重新安装时就会用到它们。
 
@@ -103,7 +103,7 @@ java -jar <你下载的安装器的文件名> --installServer
 
 全部选择完毕后点击安装，等待安装结束
 
-结束后一定一定要点击 **下载服务端** 以便下载原版服务端(模组服务端都需要这玩意)，
+结束后一定一定要点击 **下载服务端** 以便下载原版服务端 (模组服务端都需要这玩意)，
 
 如果你懒得配置启动脚本也可以点击 **生成** 按钮让它给你生成一个临时的。
 
@@ -111,7 +111,7 @@ java -jar <你下载的安装器的文件名> --installServer
 
 回到刚才的网页去点击下方的 `Minecraft Server`
 
-依次根据提示进行安装，或者使用底下的安装命令进行快捷安装(限 Linux 用户)
+依次根据提示进行安装，或者使用底下的安装命令进行快捷安装 (限 Linux 用户)
 
 下载完成后拖进空文件夹，随后新建脚本文件将启动命令复制到同一文件夹下，
 
@@ -124,18 +124,18 @@ java -jar <你下载的安装器的文件名> --installServer
 </TabItem>
 <TabItem value="quilt" label="Quilt">
 
-与 Fabric 差不多,官网换成这个 [QuiltMC](https://quiltmc.org/en/install/)
+与 Fabric 差不多，官网换成这个 [QuiltMC](https://quiltmc.org/en/install/)
 
 安装完后还需要安装 [Quilt Standard Library](https://modrinth.com/mod/qsl),下载完后放进 `mods` 文件夹即可
 
 </TabItem>
 <TabItem value="ignite" label="Ignite">
 
-适用于 Paper 的 Mod 框架(**这不是混合端**),目前在用的主要有 CraftEngine
+适用于 Paper 的 Mod 框架 (**这不是混合端**),目前在用的主要有 CraftEngine
 
-首先前往 [GitHub](https://github.com/vectrix-space/ignite/releases) 下载 Ignite,放到服务端根目录
+首先前往 [GitHub](https://github.com/vectrix-space/ignite/releases) 下载 Ignite，放到服务端根目录
 
-然后更改启动参数,比如:
+然后更改启动参数，比如：
 
 ```shell
 java -Xms2G -Xmx2G -jar 核心名.jar
@@ -147,7 +147,7 @@ java -Xms2G -Xmx2G -jar 核心名.jar
 java -Xms2G -Xmx2G  -Dignite.locator=paper -Dignite.paper.jar=核心名.jar -jar ignite.jar
 ```
 
-即可安装 Ignite,安装 Ignite 的 mod 可以放到 `mods` 文件夹下
+即可安装 Ignite，安装 Ignite 的 mod 可以放到 `mods` 文件夹下
 
 :::tip
 

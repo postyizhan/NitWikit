@@ -15,7 +15,7 @@ sidebar_position: 5
 
 Cloudflare 有内网穿透 Tunnel (无需注册！),MineKube 也有内网穿透 Connect(同样无需注册)，还有 Geyser 官方推荐的 Playit.gg
 
-Linux自建frp参见[此页面](https://nitwikit.8aka.org/advance/Linux/frp)
+自建 frp 参见[此页面](/advance/frp#配置-proxy-protocol)
 
 ## Cloudflare Tunnel
 
@@ -26,15 +26,15 @@ Cloudflare Tunnel 是 CF 下的免费内网穿透
 优点：
 
 * 免费，无需注册
-* 自带 n TB高防
+* 自带 n TB 高防
 * 不限流
 * 支持 TCP,UDP,RDP,SSH,HTTP
-* SSH 提供 WebSSH,还可以通过 Access 管理
+* SSH 提供 WebSSH，还可以通过 Access 管理
 
 缺点：
 
-* 延迟较大(不可以优选）
-* 客户端需安装 mod 才能进入(仅限 TCP,UDP)
+* 延迟较大 (不可以优选）
+* 客户端需安装 mod 才能进入 (仅限 TCP,UDP)
 
 ### 安装
 
@@ -42,7 +42,7 @@ Cloudflare Tunnel 是 CF 下的免费内网穿透
 
 ### 使用
 
-打开cmd,运行以下命令
+打开 cmd，运行以下命令
 
 ```shell
 cloudflared tunnel --url tcp://localhost:服务器端口
@@ -79,17 +79,17 @@ INF +---------------------------------------------------------------------------
 
 ## Minekube Connect
 
-Minekube 的免费内网穿透,这个组织还有另一个有名作品 Gate
+Minekube 的免费内网穿透，这个组织还有另一个有名作品 Gate
 
-个人感觉比 Cloudflare Tunnel 强很多(比 Cloudflare Spectrum 体验都好)
+个人感觉比 Cloudflare Tunnel 强很多 (比 Cloudflare Spectrum 体验都好)
 
 优点：
 
 * 免费，无需注册
 * 自带高防
 * 不限流
-* 会提供一个免费域名和1个 AnyCast 独立 IPV4
-* 有 Dashboard,可以进行网络分流,管理,黑名单等操作
+* 会提供一个免费域名和 1 个 AnyCast 独立 IPV4
+* 有 Dashboard，可以进行网络分流，管理，黑名单等操作
 
 缺点：
 
@@ -109,24 +109,24 @@ Playit 的免费内网穿透，需要登录
 * 提供**亚太地区节点**（测试时候路由到了日本）
 * 自带高防
 * 支持 Geyser
-* 支持任意TCP、UDP应用
+* 支持任意 TCP、UDP 应用
 
 缺点：
 
 * 免费版本不能绑定自己的域名，只能使用随机域名
 * 延迟略大
 
-Premium 版本一个月3刀(约合人民币27元)，一年30刀
+Premium 版本一个月 3 刀 (约合人民币 27 元)，一年 30 刀
 
-## 可能的问题?
+## 可能的问题？
 
-内网穿透后相当于玩家的连接传递到了你机器上的软件上，用这个软件访问本地的服务端(类似代理)，服务端就会误认为是本地连接访问了服务器，就会出现以下问题：
+内网穿透后相当于玩家的连接传递到了你机器上的软件上，用这个软件访问本地的服务端 (类似代理)，服务端就会误认为是本地连接访问了服务器，就会出现以下问题：
 
 ### 登录插件
 
 #### 玩家注册
 
-支持 IP 限制注册账号的登录插件(如 Authme 、CMI )会出问题
+支持 IP 限制注册账号的登录插件 (如 Authme、CMI ) 会出问题
 
 如果内网穿透的话，他们的 IP 地址都是回环地址，所以他们不能注册账号了
 
@@ -136,7 +136,7 @@ Premium 版本一个月3刀(约合人民币27元)，一年30刀
 
 此功能依靠 IP 进行识别，如果内网穿透的话，普通玩家和 OP 玩家的 IP 都是回环地址
 
-就出现了玩家登录 OP 账号等 “绕过登录漏洞”
+就出现了玩家登录 OP 账号等“绕过登录漏洞”
 
 ### 显示玩家 IP 归属地
 
@@ -144,7 +144,7 @@ Premium 版本一个月3刀(约合人民币27元)，一年30刀
 
 因为他们的 IP 都是回环地址
 
-### ban-ip ban掉所有人
+### ban-ip ban 掉所有人
 
 因为你们的地址都是回环地址
 
@@ -154,19 +154,19 @@ Premium 版本一个月3刀(约合人民币27元)，一年30刀
 
 这会导致反假人插件几乎不能使用，因为无论是封禁 IP 还是 IP 白名单都会因为所有玩家 IP 相同而失效。
 
-### 解决以上无法显示IP地址的办法：proxy protocol
+### 解决以上无法显示 IP 地址的办法：proxy protocol
 
-正是因为frp在转发玩家请求时重写了请求头部，导致了以上情况的发生。 frp 虽然不能不重写这个请求头部，但是他可以通过一种方式还原请求头部，让服务器正常显示出连接 IP 。
+正是因为 frp 在转发玩家请求时重写了请求头部，导致了以上情况的发生。frp 虽然不能不重写这个请求头部，但是他可以通过一种方式还原请求头部，让服务器正常显示出连接 IP。
 Proxy Protocol 是由 HAProxy 开发者 Willy 提出的一种反向代理协议，可以参考
 [HAProxy 文档](http://www.haproxy.org/download/1.8/doc/proxy-protocol.txt)
-获取更多信息。frp 内置的 proxy protocol 要求被其穿透的服务器也支持 proxy protocol ，否则会造成对应的服务无法使用，所以并不是随便拿一个服务就能用 proxy protocol 。
-frp 启用 proxy protocol 的方式参考 [Linux自建frp](/advance/Linux/frp)。
+获取更多信息。frp 内置的 proxy protocol 要求被其穿透的服务器也支持 proxy protocol，否则会造成对应的服务无法使用，所以并不是随便拿一个服务就能用 proxy protocol。
+frp 启用 proxy protocol 的方式参考[自建 frp](/advance/frp#配置-proxy-protocol)。
 
-对于mc服务器来说，支持 proxy protocol 的软件有：
+对于 mc 服务器来说，支持 proxy protocol 的软件有：
 
 * bungeecord 系
-* paper 分支(1.18.2)(仅支持v2)
-* [Geyser](https://nitwikit.8aka.org/Java/process/mobile-player/Geyser/introduction/FAQ/#frp%E6%90%AD%E5%BB%BA%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E6%83%B3%E6%98%BE%E7%A4%BA%E7%9C%9F%E5%AE%9Eip%E6%80%8E%E4%B9%88%E5%8A%9E)
-* Spigot端插件 [HAProxyDetector](https://github.com/andylizi/haproxy-detector)
+* paper 分支 (1.18.2)(仅支持 v2)
+* [Geyser](/Java/process/mobile-player/Geyser/introduction/FAQ#frp-搭建内网穿透想显示真实-ip-怎么办)
+* Spigot 端插件 [HAProxyDetector](https://github.com/andylizi/haproxy-detector)
 
 等。BDS 服务器目前不支持此协议。

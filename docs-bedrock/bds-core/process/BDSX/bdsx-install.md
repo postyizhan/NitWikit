@@ -17,11 +17,11 @@ sidebar_position: 1
 
 ## 方法一：直接下载启动
 
-前往BDSX开源仓库：[Github](https://github.com/bdsx/bdsx)
+前往 BDSX 开源仓库：[Github](https://github.com/bdsx/bdsx)
 
-1.如果未安装git，请点击 `<>code` 按钮然后在显示的菜单中点击 `Download ZIP` 下载已经用zip打包好的源代码文件；
+1.如果未安装 git，请点击 `<>code` 按钮然后在显示的菜单中点击 `Download ZIP` 下载已经用 zip 打包好的源代码文件；
 
-2.如果安装了git，请使用 `cmd` cd到一个空白文件夹后使用以下指令安装。
+2.如果安装了 git，请使用 `cmd` cd 到一个空白文件夹后使用以下指令安装。
 
 ```shell
 git clone https://github.com/bdsx/bdsx.git
@@ -29,13 +29,13 @@ git clone https://github.com/bdsx/bdsx.git
 
 然后安装最新版 [node.js](https://nodejs.org/zh-cn)，安装完后打开 `cmd` 使用该指令检测是否成功安装：`npm -version`
 
-显示以下内容即代表安装成功(本人当前安装node.js版本为10.8.1)：
+显示以下内容即代表安装成功 (本人当前安装 node.js 版本为 10.8.1)：
 
 ```text
 10.8.1
 ```
 
-提醒⏰：如果选用的 `第一步` 请将下载好zip文件后找到一个空白文件夹后使用解压文件解压源代码
+提醒⏰：如果选用的 `第一步` 请将下载好 zip 文件后找到一个空白文件夹后使用解压文件解压源代码
 
 接下来右键 `bdsx.bat` 使用管理员权限运行，它将会为我们安装好需要的前置文件并开服
 
@@ -45,7 +45,7 @@ git clone https://github.com/bdsx/bdsx.git
 
 :::danger
 该方案极其不建议，可能会出现很多离谱问题！
-如果你想尝试使用该方案，请联系BDSX的Discore频道相关开发者并在他们的指导下进行！
+如果你想尝试使用该方案，请联系 BDSX 的 Discore 频道相关开发者并在他们的指导下进行！
 :::
 
 下载源代码方法请详见 **方法一**

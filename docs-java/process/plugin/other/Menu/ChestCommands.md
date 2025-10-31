@@ -17,6 +17,6 @@ sidebar_position: 2
 
 :::
 
-1.7 1.8用用就算了，再高的版本就别用ChestCommands了，功能太少了
+1.7 1.8 用用就算了，再高的版本就别用 ChestCommands 了，功能太少了
 
 ~~甚至高版本还用 ChestCommands 可以用来定性判断此人的开服水平~~

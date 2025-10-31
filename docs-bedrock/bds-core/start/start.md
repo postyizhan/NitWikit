@@ -1,6 +1,7 @@
 ---
 title: 开始阶段
 sidebar_position: 2
+sidebar_label: BDS 开始阶段
 ---
 
 # 开始阶段

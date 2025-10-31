@@ -16,7 +16,7 @@ Nukkit Server/
 ├── server.properties       // 服务端配置文件
 ├── permissions.yml         // 用于设置玩家权限的
 ├── banned-players.txt      // 存储被封禁的玩家名单的
-├── banned-ips.txt          // 存储被封禁的IP地址
+├── banned-ips.txt          // 存储被封禁的 IP 地址
 ├── ops.txt                 // 用于设置管理员（OP）的
 ├── worlds/                 // 主世界文件夹
 │   ├── world/              // 世界存档
@@ -47,7 +47,7 @@ Nukkit Server/
 - `start.bat / start.sh / start.command`
   - 启动服务器的脚本文件，分别对应 Windows、Linux 和 macOS 系统，用于启动和运行《我的世界》基岩版服务器。
 
-  - 你可以改名叫任何名字(只要以 `.bat / .sh / .command` 结尾就行)，但不建议你这么做，可能会导致成为后续操作报错的因素。例如：
+  - 你可以改名叫任何名字 (只要以 `.bat / .sh / .command` 结尾就行)，但不建议你这么做，可能会导致成为后续操作报错的因素。例如：
   1. 若你使用 **面板** 开服，需要在对应的 **启动路径** 中修改服务端启动程序的文件名
   2. 若你使用 **启用脚本** 开服，需要在脚本对应位置的 **启动命令** 中修改 **启动程序的文件名** 为 **该服务端启动程序的文件名**
 

@@ -7,10 +7,10 @@ sidebar_position: 3
 
 如果遇到依赖下载慢或无法下载的情况，可以通过配置镜像源来解决。
 
-## Maven镜像配置
+## Maven 镜像配置
 
 ### 1. 找到配置文件
-Maven的镜像配置在 `settings.xml` 文件中：
+Maven 的镜像配置在 `settings.xml` 文件中：
 - Windows：`C:\Users\用户名\.m2\settings.xml`
 - Linux/macOS：`~/.m2/settings.xml`
 
@@ -58,7 +58,7 @@ Maven的镜像配置在 `settings.xml` 文件中：
 2. 运行 `mvn help:effective-settings`
 3. 检查输出中是否包含了配置的镜像
 
-## Gradle镜像配置
+## Gradle 镜像配置
 
 ### 1. 项目级配置
 在项目的 `build.gradle` 文件中添加：
@@ -123,11 +123,11 @@ allprojects {
 }
 ```
 
-### 3. Gradle Wrapper配置
+### 3. Gradle Wrapper 配置
 如果使用 Gradle Wrapper，可以创建 `gradle.properties` 文件配置镜像：
 
 ```properties
-# 配置Gradle Wrapper使用阿里云镜像下载
+# 配置 Gradle Wrapper 使用阿里云镜像下载
 systemProp.gradle.wrapperUrl=https://maven.aliyun.com/repository/gradle-dist/
 ```
 

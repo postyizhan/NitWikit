@@ -1,8 +1,6 @@
 ---
 title: TerraformGenerator
-slug: /TerraformGenerator
-sidebar_position: 8
-sidebar_label: TerraformGenerator
+sidebar_position: 3
 ---
 
 <!--markdownlint-disable line-length-->
@@ -105,11 +103,11 @@ permissions:
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/terraform-generator.75132/
+`SpigotMC` https://www.spigotmc.org/resources/terraform-generator.75132
 
 `GitHub` https://github.com/Hex27/TerraformGenerator
 
-`MineBBS` https://www.minebbs.com/resources/terraformgenerator.9076/
+`MineBBS` https://www.minebbs.com/resources/terraformgenerator.9076
 
 :::
 

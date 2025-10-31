@@ -68,7 +68,7 @@ feature-seeds:
 
 #### Matter 安全种子
 
-如果你使用包含 Matter 安全种子补丁的分支(目前仅存在 Leaf)，那么恭喜你，你可以体验到安全功能种子，
+如果你使用包含 Matter 安全种子补丁的分支 (目前仅存在 Leaf)，那么恭喜你，你可以体验到安全功能种子，
 
 地形和生物群落的生成保持不变，但所有矿石和结构都是用 1024 位种子生成的，而不是通常的 64 位种子。
 
@@ -76,9 +76,9 @@ feature-seeds:
 
 :::danger[特别注意]
 
-在 1.21.1 之前,开启或关闭 Leaf 安全种子**必须**删除原有存档!
+在 1.21.1 之前，开启或关闭 Leaf 安全种子**必须**删除原有存档！
 
-在 1.21.1 后支持直接转换为安全种子,不需要**删除存档**!
+在 1.21.1 后支持直接转换为安全种子，不需要**删除存档**!
 
 :::
 
@@ -106,9 +106,9 @@ feature-seeds:
 
 :::tip[说明]
 
-如果使用了 RayTraceAntiXray 请务必使用配置 Ⅲ 。
+如果使用了 RayTraceAntiXray 请务必使用配置 Ⅲ。
 
-如果你需要使用权限来配置绕过，可以将 `use-permission` 项设置为 `true` (权限节点: `paper.antixray.bypass`)，该项需要你有一个现代的权限管理插件(如 LuckPerms)，否则检查权限时性能开销会非常大。
+如果你需要使用权限来配置绕过，可以将 `use-permission` 项设置为 `true` (权限节点：`paper.antixray.bypass`)，该项需要你有一个现代的权限管理插件 (如 LuckPerms)，否则检查权限时性能开销会非常大。
 
 :::
 
@@ -311,7 +311,7 @@ anticheat:
 </details>
 
 <details>
-  <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般(但下界合金一定会被隐藏)*</summary>
+  <summary>下界配置 Ⅱ - *带宽占用略微降低，效果一般 (但下界合金一定会被隐藏)*</summary>
 
 ```yaml
 anticheat:
@@ -378,7 +378,7 @@ anticheat:
 
 注意，如果你需要隐藏暴露在空气中的方块，需要将 `air` 添加到 `hidden-blocks` 和 `replacement-blocks` ，但这非常影响性能，不推荐。
 
-如果你需要隐藏岩浆中的方块,请打开`lava-obscures`,但会影响性能
+如果你需要隐藏岩浆中的方块，请打开`lava-obscures`,但会影响性能
 
 :::info
 
@@ -405,7 +405,7 @@ anticheat:
 
 其使用了异步多线程光线追踪，判断玩家是否能看到目标方块，从而在玩家能够看到目标方块时发送真实方块信息。
 
-可以优化自带的 Anti-Xray ，减小服务器的带宽开销(甚至比不使用Anti-Xray的宽带占用还低!)，如需构建请自行构建。
+可以优化自带的 Anti-Xray，减小服务器的带宽开销 (甚至比不使用 Anti-Xray 的宽带占用还低!)，如需构建请自行构建。
 
 RayTraceAntiXray 文档提供两种配置方式
 
@@ -417,7 +417,7 @@ settings:
   anti-xray:
     update-ticks: 1
     ms-per-ray-trace-tick: 50
-    # 根据可用的（最好是未使用的）CPU线程进行调整。
+    # 根据可用的（最好是未使用的）CPU 线程进行调整。
     ray-trace-threads: 2
 world-settings:
   default:
@@ -430,7 +430,7 @@ world-settings:
       max-ray-trace-block-count-per-chunk: 30
       ray-trace-blocks:
       # 你可以在这里添加更多的方块，
-      # 但可能需要调整max-ray-trace-block-count-per-chunk设置。
+      # 但可能需要调整 max-ray-trace-block-count-per-chunk 设置。
       - chest
       - diamond_ore
       - deepslate_diamond_ore
@@ -443,8 +443,8 @@ world-settings:
       - spawner
   world_nether:
     anti-xray:
-      # 注意，ancient_debris(下界合金)永远不会自然生成在暴露于空气的地方。
-      # 普通引擎模式：1已经足够，在下界禁用射线追踪。
+      # 注意，ancient_debris(下界合金) 永远不会自然生成在暴露于空气的地方。
+      # 普通引擎模式：1 已经足够，在下界禁用射线追踪。
       ray-trace: false
   # 调整世界名称。
   world_the_end:
@@ -462,7 +462,7 @@ settings:
   anti-xray:
     update-ticks: 1
     ms-per-ray-trace-tick: 50
-    # 根据可用的（最好是未使用的）CPU线程进行调整。
+    # 根据可用的（最好是未使用的）CPU 线程进行调整。
     ray-trace-threads: 2
 world-settings:
   default:
@@ -476,7 +476,7 @@ world-settings:
       max-ray-trace-block-count-per-chunk: 60
       ray-trace-blocks:
       # 您可以在此处添加更多方块，
-      # 但可能需要调整max-ray-trace-block-count-per-chunk设置。
+      # 但可能需要调整 max-ray-trace-block-count-per-chunk 设置。
       - chest
       - diamond_ore
       - deepslate_diamond_ore
@@ -491,8 +491,8 @@ world-settings:
   # 调整世界名称。
   world_nether:
     anti-xray:
-      # 注意，ancient_debris(下界合金)永远不会自然生成在暴露于空气的地方。
-      # 普通引擎模式：1已经足够，在下界禁用射线追踪。
+      # 注意，ancient_debris(下界合金) 永远不会自然生成在暴露于空气的地方。
+      # 普通引擎模式：1 已经足够，在下界禁用射线追踪。
       ray-trace: false
   # 调整世界名称。
   world_the_end:

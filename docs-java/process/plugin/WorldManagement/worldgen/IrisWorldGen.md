@@ -1,13 +1,11 @@
 ---
-title: IrisWorldGen
-slug: /IrisWorldGen
-sidebar_position: 7
-sidebar_label: IrisWorldGen
+title: Iris
+sidebar_position: 2
 ---
 
 <!--markdownlint-disable line-length-->
 
-# IrisWorldGen
+# Iris
 
 ![Iris](https://s1.ax1x.com/2022/07/07/jd5y0s.png)
 
@@ -154,20 +152,20 @@ Iris 支持自定义维度包开发，你可以创建自己的：
 - 战利品表
 - 实体生成规则
 
-详细的开发文档请参考 [Iris 官方文档](https://docs.volmit.com/iris)。
+详细的开发文档请参考 [Iris 官方文档](https://old.docs.volmit.com/iris)。
 
 ## 链接
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/iris-dimension-engine.84586/
+`SpigotMC` https://www.spigotmc.org/resources/.84586
 
-`官方文档` https://docs.volmit.com/iris
+`官方文档(新)` https://docs.volmit.com/en/doc/iris
 
-`Discord` https://discord.gg/volmit
+`官方文档(旧)` https://old.docs.volmit.com/iris
 
 :::
 
 ## Bstats
 
-[![](https://bstats.org/signatures/bukkit/Iris.svg)](https://bstats.org/plugin/bukkit/Iris/9089)
+[![](https://bstats.org/signatures/bukkit/Iris%20Dimension%20Engine.svg)](https://bstats.org/plugin/bukkit/Iris%20Dimension%20Engine/24220)

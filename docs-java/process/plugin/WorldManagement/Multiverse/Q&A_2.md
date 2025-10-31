@@ -1,9 +1,9 @@
 ---
 sidebar_position: 2
-sidebar_label: 常见问题2
+sidebar_label: 常见问题 2
 ---
 
-# 常见问题2
+# 常见问题 2
 
 :::tip
 
@@ -43,7 +43,7 @@ https://mineplugin.org/Multiverse-Core#%E5%9C%A8%E4%BD%BF%E7%94%A8_MultiInv_%E5%
 
 https://mineplugin.org/Multiverse-Core#Multiverse_%E7%9A%84%E6%B6%88%E6%81%AF%E6%8F%90%E7%A4%BA%E5%9B%A0%E4%B8%BA%E4%B8%8D%E5%AE%89%E5%85%A8%EF%BC%8C%E4%B8%8D%E8%83%BD%E5%B8%A6%E6%88%91%E5%8E%BB%E6%9F%90%E4%B8%AA%E5%9C%B0%E6%96%B9%EF%BC%81%E6%88%91%E7%9F%A5%E9%81%93%E5%AE%83%E6%98%AF%E5%AE%89%E5%85%A8%E7%9A%84%EF%BC%81
 
-## 怎么让 Multiverse 处理创造模式 ？
+## 怎么让 Multiverse 处理创造模式？
 
 https://mineplugin.org/Multiverse-Core#1.8%EF%BC%9A%E6%80%8E%E4%B9%88%E8%AE%A9_Multiverse_%E5%A4%84%E7%90%86%E5%88%9B%E9%80%A0%E6%A8%A1%E5%BC%8F_%EF%BC%9F
 

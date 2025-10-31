@@ -1,9 +1,9 @@
 ---
-title: 如何修复Geyser头颅不显示
+title: 如何修复 Geyser 头颅不显示
 sidebar_position: 3
 ---
 
-# 如何修复Geyser头颅不显示
+# 如何修复 Geyser 头颅不显示
 
 :::note
 
@@ -11,7 +11,7 @@ sidebar_position: 3
 
 :::
 
-导致这个问题的主要原因是基岩版不支持自定义的头颅，所以只能通过Geyser创建映射并分发给客户端
+导致这个问题的主要原因是基岩版不支持自定义的头颅，所以只能通过 Geyser 创建映射并分发给客户端
 
 ## 如何修复
 
@@ -35,18 +35,18 @@ sidebar_position: 3
 #--------------------------------
 
 # Java 玩家用户名
-# Geyser启动时皮肤将会更新，玩家必须重新下载
+# Geyser 启动时皮肤将会更新，玩家必须重新下载
 # 如果有玩家更改了皮肤，则资源包不会自动更新。
 player-usernames：
 - 间歇泉MC
 
   # Java 玩家 UUID
-  # Geyser启动时皮肤将会更新，玩家必须重新下载
+  # Geyser 启动时皮肤将会更新，玩家必须重新下载
   # 如果有玩家改变了皮肤，则资源包并不会自动更新。
 player-uuids：
 - 8b8d8e8f-2759-47c6-acb5-5827de8a72b8
 
-  # 自定义玩家头像NBT中找到的一长串字符
+  # 自定义玩家头像 NBT 中找到的一长串字符
 player-profiles：
 - ewogICJ0aW1lc3RhbXAiIDogMTY1NzMyMjIzOTgzMywKICAicHJvZmlsZUlkIiA6ICJjZGRiZTUyMGQwNDM0YThiYTFjYzlmYzkyZmRlMmJjZiIsCiAgInByb2ZpbGVOYW1liIa6ICJBbWJlcmljaHUi LAOGICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5ly3JhZnQubmV0L3RleHR1cmUvYTkwNzkwYzU3ZTE4MWVkMTNhZGVkMTRjNDdl ZTJmN2M4ZGUzNTMzZTAxN2JhOTU3YWY3YmRmOWRmMWJkZTk0ZiISCiAgICAgICJtZXRhZGF0YSIGOiB7CIAAGICAGICAgIm1vZGVsIiaA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
 
@@ -63,7 +63,7 @@ skin-hashes：
 
 头颅可以通过玩家用户名在此部分注册。这些将在 Geyser 开始时更新。因此，如果玩家的用户名或皮肤发生变化，它们可能会发生变化
 
-### 玩家uuid
+### 玩家 uuid
 
 头颅可以通过玩家 UUID 在此部分注册。这些将在 Geyser 开始时更新。因此，如果皮肤发生变化，它们可能会发生变化。
 
@@ -72,7 +72,7 @@ skin-hashes：
 头可以通过自定义玩家头部的 NBT 中的纹理字符串在此部分注册。除非手动更改该值，否则这些值不会在间歇泉启动时更新。因此，如果玩家的用户名或皮肤发生变化，它们不会改变。数据只是
 base64 编码的 JSON。
 
-如果在Paper服务器上，则可以通过将项目握在手中并运行命令来获取头骨的此数据。这会将项目的 NBT 数据输出到聊天和控制台。
+如果在 Paper 服务器上，则可以通过将项目握在手中并运行命令来获取头骨的此数据。这会将项目的 NBT 数据输出到聊天和控制台。
 纹理字符串位于```SkullOwner```标签下、```Properties```标签下、```textures```标签下。例如：/paper dumpitem
 
 <!--markdownlint-disable line-length-->
@@ -86,13 +86,13 @@ base64 编码的 JSON。
 
 ### 皮肤哈希
 
-骷髅头可以通过Minecraft皮肤服务器上的皮肤哈希值在此部分注册。这位于 URL 的末尾。
+骷髅头可以通过 Minecraft 皮肤服务器上的皮肤哈希值在此部分注册。这位于 URL 的末尾。
 
 ## 快速提取
 
-那么你可能会问，像Slimefun那么多，有什么快点的方法吗？当然是有的
+那么你可能会问，像 Slimefun 那么多，有什么快点的方法吗？当然是有的
 
-GeyserHeads 是一个小工具,可以提取 Slimefun,DeluxeMenu,手
+GeyserHeads 是一个小工具，可以提取 Slimefun,DeluxeMenu，手
 中的头颅并自动保存到配置文件，[下载地址](https://github.com/Hahaa13/GeyserHeads/releases)
 
 使用方法:

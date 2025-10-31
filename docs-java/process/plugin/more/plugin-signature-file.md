@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # plugin.yml
 
-用解压缩软件打开插件的jar文件就可以看到 `plugin.yml`：
+用解压缩软件打开插件的 jar 文件就可以看到 `plugin.yml`：
 
 ![](_images/plugin.yml/拆开jar.png)
 
@@ -29,7 +29,7 @@ sidebar_position: 3
 
 ## `name`
 
-插件的名字，也是会在插件列表(`/pl`)和日志中输出的信息中显示的插件名。
+插件的名字，也是会在插件列表 (`/pl`) 和日志中输出的信息中显示的插件名。
 
 ## `version`
 
@@ -61,7 +61,7 @@ sidebar_position: 3
 
 ## `load`
 
-这告诉服务器何时加载插件。它可以是 `STARTUP` 或 `POSTWORLD` 。 如果未指定，将默认为 `POSTWORLD`。
+这告诉服务器何时加载插件。它可以是 `STARTUP` 或 `POSTWORLD` 。如果未指定，将默认为 `POSTWORLD`。
 
 ## `prefix`
 
@@ -99,7 +99,7 @@ sidebar_position: 3
 
 在此列表中的插件加载前加载本插件。
 
-### `probides`
+### `provides`
 
 告诉服务器本插件会提供哪些库或功能。
 

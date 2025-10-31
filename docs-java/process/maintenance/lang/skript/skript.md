@@ -30,7 +30,7 @@ Skript 是一个脚本插件，取名来自 "script"。是一个面向 Bukkit �
 
 举一个简单的例子，为了实现玩家每次进入服务器就给有 "xxx" 权限的玩家 64 钻石的功能。
 
-使用 Java 时的代码:
+使用 Java 时的代码：
 
 ```java
 @EventHandler
@@ -39,12 +39,12 @@ public void onPlayerJoin(PlayerJoinEvent evt) {
     ItemStack itemstack = new ItemStack(Material.DIAMOND, 64); // 定义钻石
     if (player.hasPermission("xxx")) { // 权限判断
         inventory.addItem(itemstack); // 给予钻石
-        player.sendMessage("欢迎你加入服务器!你获得了64枚钻石!");
+        player.sendMessage("欢迎你加入服务器！你获得了 64 枚钻石！");
     }
 }
 ```
 
-使用 Skript 时的代码:
+使用 Skript 时的代码：
 
 ```skript
 on join:
@@ -53,7 +53,7 @@ on join:
         give 64 diamond to player // 给予钻石
 ```
 
-在大多数情况下， Skript 不会在意大小写、定冠词 "the"，只需要符合英语语法和基本的缩进。
+在大多数情况下，Skript 不会在意大小写、定冠词 "the"，只需要符合英语语法和基本的缩进。
 
 即使使用了错误的语法，报错时也基本会提示具体错误类型。
 
@@ -64,7 +64,7 @@ on join:
 
 ### 性能较低
 
-相较使用 Java 编写的插件，进行相同的操作时， Skript 的性能会略低于 Java。
+相较使用 Java 编写的插件，进行相同的操作时，Skript 的性能会略低于 Java。
 
 但大多数情况下性能和代码本身的质量有巨大的关系。代码质量差对于性能的影响远大于使用 Skript 对性能的影响。
 

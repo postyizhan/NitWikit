@@ -25,3 +25,7 @@ sidebar_position: 1
 :::
 
 一个玩法插件，为你的服务器提供类似 mod 的体验和更低的 TPS(大嘘)。
+
+## 停止维护
+
+粘液科技停止开发公告（中文翻译）：https://www.minebbs.com/threads/41531

@@ -2,6 +2,7 @@
 title: 基础知识
 slug: /basic
 sidebar_position: 1
+sidebar_label: Java 版基础知识
 ---
 
 # 基础知识

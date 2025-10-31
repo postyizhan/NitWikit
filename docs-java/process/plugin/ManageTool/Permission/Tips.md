@@ -76,7 +76,7 @@ lp verbose on !Luck & !anticheat
 /lp verbose command <me|player> <command>
 ```
 
-例如，在下方截图中让我（“me”）执行 “sf guide” 命令并打印权限检查。
+例如，在下方截图中让我（“me”）执行“sf guide”命令并打印权限检查。
 
 截图中的 me 可以替换为在线玩家的玩家名。
 

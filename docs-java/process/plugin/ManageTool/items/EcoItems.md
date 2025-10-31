@@ -7,7 +7,7 @@ sidebar_position: 3
 
 :::info
 
-`SpigotMC` https://www.spigotmc.org/resources/.94601/
+`SpigotMC` https://www.spigotmc.org/resources/.94601
 
 `GitHub` https://github.com/Auxilor/EcoItems
 

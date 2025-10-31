@@ -12,7 +12,7 @@ sidebar_position: 1
 
 ![](_images/啥是TAB.png)
 
-## 啥是计分板?
+## 啥是计分板？
 
 计分板，积分板，都是指一个东西
 

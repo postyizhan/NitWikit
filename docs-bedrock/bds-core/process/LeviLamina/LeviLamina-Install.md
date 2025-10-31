@@ -5,19 +5,19 @@ sidebar_position: 1
 
 # LeviLamina 安装教程
 
-## 方法零: 使用笨蛋脚本
+## 方法零：使用笨蛋脚本
 
 首先下载[安装脚本](https://script.8aka.org/liteloaderbds-install)，下载完后右键**以管理员启动**即可
 
 :::tip
 
-你甚至不需要安装VC运行库，自动脚本会自行安装常用运行库，还会自动配置 Lip 镜像以加速下载
+你甚至不需要安装 VC 运行库，自动脚本会自行安装常用运行库，还会自动配置 Lip 镜像以加速下载
 
 :::
 
-## 方法一: 使用 Lip 进行一键配置
+## 方法一：使用 Lip 进行一键配置
 
-### 准备工作-安装 Lip
+### 准备工作 - 安装 Lip
 
 首先，从 [GitHub](https://github.com/lippkg/lip/releases/latest) 下载 Lip 的最新版本的应用
 
@@ -25,7 +25,7 @@ sidebar_position: 1
 
 最后，将该位置添加到 PATH 环境变量中。
 
-要检查是否成功安装 Lip ，请在终端中运行 `lip --version`。你应该看到刚刚安装的lip的版本。
+要检查是否成功安装 Lip，请在终端中运行 `lip --version`。你应该看到刚刚安装的 lip 的版本。
 
 如果你使用的是 Windows 系统，你也可以在 GitHub 中下载 `.exe` 后缀的安装程序来安装。
 
@@ -55,7 +55,7 @@ lip config GoModuleProxyURL <url>
 lip config GitHubMirrorURL <url>
 ```
 
-来配置镜像,官方给的镜像
+来配置镜像，官方给的镜像
 
 ```shell
 lip config GoModuleProxyURL https://goproxy.cn
@@ -76,7 +76,7 @@ lip config GitHubMirrorURL https://github.bibk.top
 bedrock_server_mod.exe
 ```
 
-## 方法二: 手动安装(不推荐)
+## 方法二：手动安装 (不推荐)
 
 只有想要调试新版本的开发人员才会手动安装，手动安装只会安装允许 LeviLamina 运行的基本部件，它缺少 CrashLogger、I18N 等组件。
 
@@ -85,8 +85,8 @@ bedrock_server_mod.exe
 1. ​**下载 LeviLamina**​：
    * 转到 [GitHub 上的 LeviLamina 发布页面](https://github.com/LiteLDev/LeviLamina/releases)。
    * 选择所需的版本。
-   * 从所选版本Release中下载文件 `levilamina-windows-x64.zip`
-2. ​**下载 BDS(Minecraft服务器)**​：
+   * 从所选版本 Release 中下载文件 `levilamina-windows-x64.zip`
+2. ​**下载 BDS(Minecraft 服务器)**​：
    * 访问 [Minecraft 的服务器下载页面](https://www.minecraft.net/en-us/download/server/bedrock)。
    * 获取与你的 LeviLamina 版本相对应的 Bedrock 专用服务器 (BDS) 版本，名为
    `bedrock-server-<version>.zip`
@@ -102,13 +102,13 @@ bedrock_server_mod.exe
 
 ### 安装步骤
 
-1. ​**解压BDS文件**​：
+1. ​**解压 BDS 文件**​：
    * 将从步骤 2 获取的文件 `bedrock-server-<version>.zip` 解压到一个新的空文件夹中
 2. ​**放置 PeEditor 和 PreLoader**​：
-   * 将 `PeEditor.exe` ​`PreLoader.dll`​ `bedrock_server.exe` 文件移动到解压后BDS文件的目录
+   * 将 `PeEditor.exe` ​`PreLoader.dll`​ `bedrock_server.exe` 文件移动到解压后 BDS 文件的目录
 3. ​**安装 LeviLamina**​：
    * 从步骤 1 中解压文件 `levilamina-windows-x64.zip`
-   * 将文件夹放入BDS同一目录中
+   * 将文件夹放入 BDS 同一目录中
 4. ​**运行 PeEditor**​：
    * 双击 `PeEditor.exe` 并等待配置完成
    * 然后，你可以在目录中找到一个名为 `bedrock_server_mod.exe` 的新文件，原始文件 `bedrock_server.exe` 将重命名为 `bedrock_server.exe.bak`

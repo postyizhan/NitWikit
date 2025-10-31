@@ -5,17 +5,17 @@ sidebar_position: 3
 
 # 压缩&混淆
 
-为了让玩家更快的下载资源包(并节省你的流量),你需要对资源包进行压缩
+为了让玩家更快的下载资源包 (并节省你的流量),你需要对资源包进行压缩
 
-或者为了防止他人轻易的偷走你的资源包,你也需要对资源包进行混淆
+或者为了防止他人轻易的偷走你的资源包，你也需要对资源包进行混淆
 
 :::tip 混淆的安全性
 
-就算你进行了最高强度的混淆,也不意味着你的材质包不会被偷走,只是难度变大了
+就算你进行了最高强度的混淆，也不意味着你的材质包不会被偷走，只是难度变大了
 
 :::
 
-推荐使用 [PackSquash](https://packsquash.aylas.org/) 进行压缩和混淆
+推荐使用 [PackSquash](https://packsquash.aylas.org/) 进行压缩和混淆，注意：**本部分内容仅限于 ZIP 层面的压缩&混淆**
 
 ## 下载
 
@@ -37,9 +37,9 @@ pack_directory = 'C:\path\to\pack(填写你的资源包所在目录)'
 
 :::tip
 
-这并不是所有的选项,**只列出了一些**对于新手有用的选项
+这并不是所有的选项，**只列出了一些**对于新手有用的选项
 
-同时简化了一些选项表达,完整版请参考[GitHub Wiki](https://github.com/ComunidadAylas/PackSquash/wiki/Options-files)
+同时简化了一些选项表达，完整版请参考[GitHub Wiki](https://github.com/ComunidadAylas/PackSquash/wiki/Options-files)
 
 :::
 
@@ -55,9 +55,9 @@ output_file_path = 'C:\path\to\result\pack\zip\file\my_pack.zip'
 zip_spec_conformance_level = 'pedantic'
 ```
 
-默认取值为`pedantic`,表示完全遵循 ZIP 文件规范,所有的查看和托管都可以识别
+默认取值为`pedantic`,表示完全遵循 ZIP 文件规范，所有的查看和托管都可以识别
 
-`disregard`为加料模式,包括提取保护和改进的内部 ZIP 文件结构压缩,会获得更好的性能,非常推荐
+`disregard`为加料模式，包括提取保护和改进的内部 ZIP 文件结构压缩，会获得更好的性能，非常推荐
 
 :::warning
 
@@ -71,8 +71,8 @@ zip_spec_conformance_level = 'pedantic'
 size_increasing_zip_obfuscation = true
 ```
 
-当使用`disregard`模式时,启用此选项将增加对生成的 ZIP
-文件进行查看、提取或篡改的保护，这会略微增加其大小。此选项不影响是否添加**不增加文件大小**的保护，并且如果ZIP标准不提供保护，则没有任何影响
+当使用`disregard`模式时，启用此选项将增加对生成的 ZIP
+文件进行查看、提取或篡改的保护，这会略微增加其大小。此选项不影响是否添加**不增加文件大小**的保护，并且如果 ZIP 标准不提供保护，则没有任何影响
 
 ### 压缩保密性
 
@@ -90,7 +90,7 @@ ogg_obfuscation = true
 two_pass_vorbis_optimization_and_validation = true
 ```
 
-如果开启该选项,生成的 Ogg 文件将会被破坏,使得它们在 Minecraft 之外难以播放
+如果开启该选项，生成的 Ogg 文件将会被破坏，使得它们在 Minecraft 之外难以播放
 
 ## FAQ
 

@@ -15,13 +15,13 @@ sidebar_position: 2
 
 ServiceIO 仅支持 Paper 的最新版本（1.21+）
 
-ServiceIO旨在作为 Vault 的全面替代，可以直接删除 Vault 插件，所有依赖 Vault 的现有插件将继续无缝与 ServiceIO 协同工作。
+ServiceIO 旨在作为 Vault 的全面替代，可以直接删除 Vault 插件，所有依赖 Vault 的现有插件将继续无缝与 ServiceIO 协同工作。
 
 :::
 
-## 为何选择ServiceIO？
+## 为何选择 ServiceIO？
 
-ServiceIO是 VaultAPI 过时限制的前沿解决方案。尽管 Vault 仍然可用，但它依赖于已弃用和支持的代码，迫使开发者处理不安全的 null 接口，可能导致不稳定性与错误。
+ServiceIO 是 VaultAPI 过时限制的前沿解决方案。尽管 Vault 仍然可用，但它依赖于已弃用和支持的代码，迫使开发者处理不安全的 null 接口，可能导致不稳定性与错误。
 
 ServiceIO 通过提供强大的 null 标注、全面的文档和维护良好的源码解决了这些问题。此外，它支持异步数据加载和缓存结果，提升性能和扩展性。
 
@@ -58,19 +58,11 @@ ServiceIO 的一个关键特性是与现有 Vault 接口的无缝集成，允许
 
 :::info
 
-`Bukkit` https://dev.bukkit.org/projects/vault
+`Hangar` https://hangar.papermc.io/TheNextLvl/ServiceIO
 
-`SpigotMC` https://www.spigotmc.org/resources/.34315
+`MineBBS` https://www.minebbs.com/resources/.10012
 
-`MineBBS` https://www.minebbs.com/resources/.7869
-
-`GitHub` https://github.com/milkbowl/Vault
-
-`插件百科` https://github.com/milkbowl/Vault
-
-`VaultUnlocked(Vault 增强版)` https://github.com/TheNewEconomy/VaultUnlocked
-
-`ServiceIO(Vault 超级增强版,1.21+)` https://hangar.papermc.io/TheNextLvl/ServiceIO
+`GitHub` https://github.com/TheNextLvl-net/service-io
 
 :::
 

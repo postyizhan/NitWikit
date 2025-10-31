@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ## 版本
 
-Geyser 有以下版本类型:
+Geyser 有以下版本类型：
 
 * Spigot
 * Bungeecord
@@ -18,9 +18,9 @@ Geyser 有以下版本类型:
 * Standalone
 * ViaProxy
 
-其中:
+其中：
 
-Spigot 版本 可以作为插件安装在以 Spigot 及其分叉(如 Paper)为核心的服务端上
+Spigot 版本 可以作为插件安装在以 Spigot 及其分叉 (如 Paper) 为核心的服务端上
 
 Bungeecord、Velocity 和 ViaProxy 版本 可以作为插件安装在这些代理端上
 
@@ -30,18 +30,18 @@ Standalone 版本 可以作为一个独立的代理端启动
 
 ## 挑选版本
 
-在安装前，你需要找到合适的Geyser版本，你可以参考下图:
+在安装前，你需要找到合适的 Geyser 版本，你可以参考下图：
 ![version](_image/VersionChoose.png)
 
-* 1、运行独立版**仍需要Java16**及以上环境，只不过你可以将其和目标服务器所处的 Java 环境隔开 此外**在任何情况下**，你都可使用独立版，甚至独立版可以和其目标不在同一服务器上
-* 2、你可以通过ViaVersion插件来适配版本，这会允许不同版本的玩家进入服务器，不过问题不大
+* 1、运行独立版**仍需要 Java16**及以上环境，只不过你可以将其和目标服务器所处的 Java 环境隔开 此外**在任何情况下**，你都可使用独立版，甚至独立版可以和其目标不在同一服务器上
+* 2、你可以通过 ViaVersion 插件来适配版本，这会允许不同版本的玩家进入服务器，不过问题不大
 * 3、[Hydraulic](https://github.com/GeyserMC/Hydraulic) 可以允许你加入带客户端模组的服务器，但是项目处于**早期开发阶段**，你可以做个尝试，但是请不要在实际情况下使用
 
 ## 下载
 
 你可以在此处下载 [Geyser](https://geysermc.org/download#geyser) 的对应版本
 
-下载镜像:[MCSL](https://sync.mcsl.com.cn/core/Geyser)
+下载镜像：[MCSL](https://sync.mcsl.com.cn/core/Geyser)
 
 ## 安装
 
@@ -57,7 +57,7 @@ Standalone 版本 可以作为一个独立的代理端启动
 
 找到配置文件夹下的 config.yml
 
-(什么，你连配置文件夹都找不到? 那你真是连笨蛋都不如，配置文件在对应版本 Geyser 名称的文件夹下，一般开启服务器后都会生成)
+(什么，你连配置文件夹都找不到？那你真是连笨蛋都不如，配置文件在对应版本 Geyser 名称的文件夹下，一般开启服务器后都会生成)
 
 :::danger
 
@@ -68,7 +68,7 @@ Standalone 版本 可以作为一个独立的代理端启动
 第一眼你可能会被全是英文的配置文件镇住，别急，善用翻译来理解配置文件中的注释，
 **在完成本教程的基础配置配置后，若需进阶，请参考 [此处](https://docs.superiormc.cn/v/geyser-wiki/user-guide/li-jie-pei-zhi) 的配置参考**
 
-接下来，回到配置，映入你眼帘的应该是 bedrock 和 remote 两个大项:
+接下来，回到配置，映入你眼帘的应该是 bedrock 和 remote 两个大项：
 
 bedrock 所代表的是你所开放的端口，也是基岩版玩家看到的那个，remote 是连接的目标服务器，若不使用独立版此选项无效，请不要随意更改
 
@@ -103,11 +103,11 @@ remote:
 
 **`server-name`**：基岩版所看到的服务器名称，在暂停菜单和设置中可见
 
-### Remote项
+### Remote 项
 
 **`address`**：其代表目标服务器的地址，若目标服务器和 Geyser 处于同一服务器下请不要更改
 
-**`port`**:(重要选项)请和目标服务器(插件版必须与`server-port`一致)一致对外开放的端口一致
+**`port`**:(重要选项) 请和目标服务器 (插件版必须与`server-port`一致) 一致对外开放的端口一致
 
 **`auth-type`**：有 offline/online 和 floodgate 模式，offline 和 online 分别对应离线和正版，你目标服务器用的什么就选什么，floodgate 会在后续教程中解释
 
@@ -133,26 +133,26 @@ above-bedrock-nether-building: false
 
 **`passthrough-player-counts`**：将玩家数量和最大玩家数量发给基岩玩家
 
-**`show-cooldown`**：由于基岩版没有战斗冷却，此功能会模拟一个冷却提示器，你可以设置为 title(小标题)、actionbar(物品栏上方的标题)或 false(关闭)
+**`show-cooldown`**：由于基岩版没有战斗冷却，此功能会模拟一个冷却提示器，你可以设置为 title(小标题)、actionbar(物品栏上方的标题) 或 false(关闭)
 
 **`show-coordinates`**：是否向玩家显示坐标
 
-**`above-bedrock-nether-building`**：开启后你将被允许在下界高度 127 以上建造，缺点是整个下界中雾的颜色不再可变，将一直是红色(GeyserExtras 可以解决这个问题)
+**`above-bedrock-nether-building`**：开启后你将被允许在下界高度 127 以上建造，缺点是整个下界中雾的颜色不再可变，将一直是红色 (GeyserExtras 可以解决这个问题)
 
 ## floodagte
 
-为进一步兼容，你需要安装 [floodgate](https://geysermc.org/download#floodgate),[MCSL下载镜像](https://sync.mcsl.com.cn/core/Floodgate)
+为进一步兼容，你需要安装 [floodgate](https://geysermc.org/download#floodgate),[MCSL 下载镜像](https://sync.mcsl.com.cn/core/Floodgate)
 
 Mod 服务器请安装[Floodgate-Modded](https://modrinth.com/mod/floodgate),适用于 Mod 的 Floodgate
 
-floodgate 可作为一个插件/Mod装到 Spigot 及其分支的核心上或 BungeeCord、Velocity 之类的代理上
+floodgate 可作为一个插件/Mod 装到 Spigot 及其分支的核心上或 BungeeCord、Velocity 之类的代理上
 群组服/独立版 Geyser 的 Floodgate 安装需要进行一些额外步骤，请跟随教程完成
 
-floodgate 是一个允许 **Minecraft 基岩版** 帐号加入 **Minecraft Java版** 正版服务器而无需其 **正版账号** 的混合模式插件
+floodgate 是一个允许 **Minecraft 基岩版** 帐号加入 **Minecraft Java 版** 正版服务器而无需其 **正版账号** 的混合模式插件
 
 但 **不止于此**
 
-它还允许:
+它还允许：
 
 * 让 Java 版玩家看到基岩版玩家的皮肤
 * 向基岩版玩家发送 BE Form UI (基岩版独有的一种菜单格式)
@@ -188,10 +188,10 @@ username-prefix: "."
 
 这是 Floodgate 为了区分基岩版玩家和 Java 版玩家，而在基岩版玩家名称前添加的前缀
 
-为什么?
+为什么？
 
 因为在安装 Floodgate 后，基岩版玩家的 UUID 将会和 Java 版玩家有很大不同。
-若是遇到重名，则会出现一个ID拥有两个完全不同的UUID，这可能会发生一些无法预知的错误，而使用 `.` 前缀是因为 Java 正版玩家名中不可使用 `.`
+若是遇到重名，则会出现一个 ID 拥有两个完全不同的 UUID，这可能会发生一些无法预知的错误，而使用 `.` 前缀是因为 Java 正版玩家名中不可使用 `.`
 
 **但是**
 这在离线服中，有几个问题:
@@ -212,7 +212,7 @@ username-prefix: "."
 username-prefix: "BE_"
 ```
 
-### 独立版Geyser配置
+### 独立版 Geyser 配置
 
 首先，按照基础配置在目标服务器安装 Floodgate，然后注意到 Floodgate 配置文件夹下，理应会生成一个叫 `key.pem` 的文件，将其复制到独立版 Geyser 配置文件夹下
 
@@ -254,7 +254,7 @@ send-floodgate-data: true
 
 :::tip
 
-该脚本只适合单端,不适合群组服
+该脚本只适合单端，不适合群组服
 
 :::
 
